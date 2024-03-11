@@ -1,2 +1,1 @@
-<?php
-echo "home";
+<div class="container"></div>

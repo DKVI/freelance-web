@@ -1,9 +1,9 @@
 <?php
 include_once './config.php';
+include_once "./vendor/bootstrap.php";
 $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $segments = explode('/', $uri);
 $route = end($segments);
-echo BASE_URL;
 switch ($route) {
     case "":
         include __DIR__ . "/views/home.php";
