@@ -1,6 +1,6 @@
 RewriteEngine On
-RewriteBase /freelance-web/
+RewriteBase /
 RewriteRule ^index\\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /freelance-web/index.php [L]
+RewriteRule . /index.php [L]
