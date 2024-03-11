@@ -1,1 +1,2 @@
-<div class="container"></div>
+<?php
+echo $_GET["id"];
