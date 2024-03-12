@@ -1,2 +1,1 @@
-<?php
-echo "news";
+<h1>NEWS</h1>
