@@ -2,7 +2,21 @@
 <?php
     if (!isset($_SESSION["is_admin"])) {
         // return to login page for admin 
-        header("Location: /" . BASE_URL . "/admin/login");
+        header("Location: " . BASE_URL . "/admin/login");
+    }
+    else {
     }
 ?>
-<h1>Admin Home</h1>
+<?php include  __DIR__ .  "/components/adminHeader.php" ?>
+<div class="main container">
+
+</div>
+<style>
+.header {
+    display: none;
+}
+
+.footer {
+    display: none;
+}
+</style>

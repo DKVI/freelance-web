@@ -1,18 +1,32 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <?php
 session_start();
 include_once './config.php';
 include_once "./vendor/bootstrap.php";
+include_once "./config.php";
+include_once "./models/database.php";
+//instance database
+$conn = require "./inc/db.php";
 $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $segments = explode('/', $uri);
 ?>
-<link href="./css/base.css">
-<!-- Add layout using router -->
-<div class="header">
-    <!-- Add header to all pages -->
-    <?php include __DIR__ . "/views/components/header.php" ?>
-</div>
-<div class="main">
-    <?php
+    <link href="./css/base.css">
+    <!-- Add layout using router -->
+    <div class="header">
+        <!-- Add header to all pages -->
+        <?php include __DIR__ . "/views/components/header.php" ?>
+    </div>
+    <div class="main">
+        <?php
         $route = $segments[2] . (isset($segments[3]) ?  '/' .$segments[3] : "");
         switch ($route) {
             case "":
@@ -25,6 +39,9 @@ $segments = explode('/', $uri);
                 include __DIR__ . "/views/news.php";
                 break;
             case "admin":
+                include __DIR__ . "/views/admin/home.php";
+                break;
+            case "admin/":
                 include __DIR__ . "/views/admin/home.php";
                 break;
             case "admin/home":
@@ -41,8 +58,11 @@ $segments = explode('/', $uri);
                 break;
         }
         ?>
-    <!-- Add footer to all pages -->
-    <div class="footer">
-        <?php include __DIR__ . "/views/components/footer.php" ?>
+        <!-- Add footer to all pages -->
+        <div class="footer">
+            <?php include __DIR__ . "/views/components/footer.php" ?>
+        </div>
     </div>
-</div>
+</body>
+
+</html>
