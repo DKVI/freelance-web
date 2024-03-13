@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="../css/admin.css">
 <div class="min-vh-100 min-vw-100 d-flex">
     <form method="post" action="../controllers/handleLogin.php"
         class="form d-flex w-50 m-auto rounded-3 shadow overflow-hidden" style="height: 80%">
@@ -32,13 +33,3 @@
         </div>
     </form>
 </div>
-
-<style>
-.header {
-    display: none;
-}
-
-.footer {
-    display: none;
-}
-</style>
