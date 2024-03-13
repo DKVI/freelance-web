@@ -28,7 +28,7 @@
             </div>
         </div>
         <div class="shadow w-50 d-flex p-5" style="background-color: #274069;">
-            <img src=" ../assets/imgs/logo-gray.png" alt="" class="m-auto w-100">
+            <img src="../assets/imgs/logo-gray.png" alt="" class="m-auto w-100">
         </div>
     </form>
 </div>

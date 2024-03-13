@@ -13,3 +13,7 @@ body {
     align-items: center;
     font-family: sans-serif;
 }
+
+.test {
+    background-color: aqua;
+}
