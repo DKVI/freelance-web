@@ -18,7 +18,17 @@ include_once "./models/database.php";
 $conn = require "./inc/db.php";
 $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $segments = explode('/', $uri);
+
 ?>
+
+<?php
+$language = "";
+    if (isset($_GET['language'])) {
+        $language = $_GET['language'];
+        echo $language;
+    }
+?>
+
     <link href="./css/base.css">
     <!-- Add layout using router -->
     <div class="header">
@@ -63,6 +73,27 @@ $segments = explode('/', $uri);
             <?php include __DIR__ . "/views/components/footer.php" ?>
         </div>
     </div>
+    <script>
+        const vnElements = document.querySelectorAll(".vn");
+        const engElements = document.querySelectorAll(".eng");
+        const queryParams = "<?php echo $language?>";
+        console.log(queryParams);
+        if (queryParams === "" || queryParams === "vn") {
+        vnElements.forEach((e) => {
+            e.classList.remove("d-none");
+        });
+        engElements.forEach((e) => {
+            e.classList.add("d-none");
+        });
+        } else {
+        vnElements.forEach((e) => {
+            e.classList.add("d-none");
+        });
+        engElements.forEach((e) => {
+            e.classList.remove("d-none");
+        });
+        }
+    </script>
 </body>
 
 </html>
