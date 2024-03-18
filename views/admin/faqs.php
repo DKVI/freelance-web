@@ -19,9 +19,9 @@
         <form class="d-flex flex-column" style="gap: 8px;" action="../controllers/handleDeleteMessage.php"
             method="post">
             <div class="w-100 d-flex justify-content-end" style="gap: 8px">
-                <div class="btn btn-primary select-all">Select all</div>
-                <div class="btn btn-success">Mark as read</div>
-                <button type="button" class="btn btn-danger delete-message" data-toggle="modal"
+                <div class="btn btn-primary shadow select-all">Select all</div>
+                <div class="btn btn-success shadow">Mark as read</div>
+                <button type="button" class="btn btn-danger shadow delete-message" data-toggle="modal"
                     data-target="#exampleModal">
                     Delete message
                 </button>
@@ -36,27 +36,32 @@
                 if ($id == '') {
                     $messages = Message::getAllMessages($conn);
                     $id = 0;
-                    foreach ($messages as $element) {
-                        $id += 1;
-                        $status = $element->status == "pending" ? "opacity-100" : "opacity-50";
-                        echo '<div class="position-relative">
-                            <a href="'.BASE_URL . "/admin/faqs?id=". $element->id .'" class="p-3  message shadow rounded-4 row d-flex justify-content-between '. $status.' 
-                            text-decoration-none
-                            text-black" style="cursor: pointer;">
-                                <div class="col-2 px-3 text-center ">'.$element->name.'</div>
-                                <div class="col-3 px-3 text-center align-content-center">'.$element->email.'</div>
-                                <div class="col-4 px-3 text-center align-content-center"
-                                    style="overflow:hidden;display:inline-block;text-overflow: ellipsis;white-space: nowrap;">
-                                    '.$element->message.'
-                                </div>
-                                <div class="col-2 px-3 text-center align-content-center ">'.convertDate($element->date).'</div>
-                                <div class="col-1"></div>
-                                <div class="d-none message-id">'.$element->id.'</div>
-                                </a>
-                                <div class="p-3 d-flex position-absolute d-inline-block" style="top: 50%; right: 24px; flex: none; transform: translateY(-50%)">
-                                    <input type="checkbox" name="checkbox[]" value="'.$element->id .'" class="checkbox form-check-input m-auto">
-                                </div>
-                        </div>';
+                    if (count($messages) != 0) {
+                        foreach ($messages as $element) {
+                            $id += 1;
+                            $status = $element->status == "pending" ? "opacity-100" : "opacity-50";
+                            echo '<div class="position-relative">
+                                <a href="'.BASE_URL . "/admin/faqs?id=". $element->id .'" class="p-3  message shadow rounded-4 row d-flex justify-content-between '. $status.' 
+                                text-decoration-none
+                                text-black" style="cursor: pointer;">
+                                    <div class="col-2 px-3 text-center ">'.$element->name.'</div>
+                                    <div class="col-3 px-3 text-center align-content-center">'.$element->email.'</div>
+                                    <div class="col-4 px-3 text-center align-content-center"
+                                        style="overflow:hidden;display:inline-block;text-overflow: ellipsis;white-space: nowrap;">
+                                        '.$element->message.'
+                                    </div>
+                                    <div class="col-2 px-3 text-center align-content-center ">'.convertDate($element->date).'</div>
+                                    <div class="col-1"></div>
+                                    <div class="d-none message-id">'.$element->id.'</div>
+                                    </a>
+                                    <div class="p-3 d-flex position-absolute d-inline-block" style="top: 50%; right: 24px; flex: none; transform: translateY(-50%)">
+                                        <input type="checkbox" name="checkbox[]" value="'.$element->id .'" class="checkbox form-check-input m-auto">
+                                    </div>
+                            </div>';
+                        }
+                    }
+                    else {
+                        echo '<h4 class="fst-italic fw-light">There are no messages yet!</h4>';
                     }
         }
         else {

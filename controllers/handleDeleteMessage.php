@@ -4,26 +4,33 @@ include_once "../config.php";
 include_once "../models/database.php";
 $conn = require "../inc/db.php";
 
-// if (isset($_GET["id"])) {
-//     $id = $_GET["id"];
-//     try {
-//         Message::deleteById($conn, $id);
-//         echo "<script>alert('Delete message successfully!');
-//             location.href ='".BASE_URL."/admin/faqs';
-//         </script>";
-//     } catch (\Throwable $e) {
-//         echo "<script>alert('Has got some error, please try again!');
-//             location.href ='".BASE_URL."/admin/faqs';
-//         </script>";
-//     }
-// } 
+
 if(isset($_POST['checkbox'])){
     if (is_array($_POST['checkbox'])) {
-      foreach($_POST['checkbox'] as $value){
-        echo $value;
+      try {
+        foreach($_POST['checkbox'] as $value){
+            Message::deleteById($conn, $value);
+          }
+          echo '<script>alert("Delete messages successfully!");
+                    location.href="'.BASE_URL .'/admin/faqs";
+                </script>';
+      } catch (\Throwable $e) {
+        echo '<script>alert("Server gots some error, please try again!");
+                location.href="'.BASE_URL .'/admin/faqs";
+          </script>';
       }
     } else {
       $value = $_POST['checkbox'];
       echo $value;
+        try {
+            Message::deleteById($conn, $value);
+            echo '<script>alert("Delete messages successfully!");
+                    location.href="'.BASE_URL .'/admin/faqs";
+                </script>';
+        } catch (\Throwable $e) {
+            echo '<script>alert("Server gots some error, please try again!");
+                    location.href="'.BASE_URL .'/admin/faqs";
+                </script>';
+        }
     }
   }
