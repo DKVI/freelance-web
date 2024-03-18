@@ -109,3 +109,24 @@
         </div>
     </div>
 </nav>
+
+<!-- SOCIAL MEDIA BAR -->
+<div class="float-sm">
+  <div class="fl-fl">
+    <i class="fa fa-facebook"></i>
+    <a href="#" target="_blank"> Like us!</a>
+  </div>
+  <div class="fl-fl">
+    <i class="fa fa-instagram"></i>
+    <a href="#" target="_blank">Follow us!</a>
+  </div>
+  <div class="fl-fl">
+  <i class="fa fa-linkedin"></i>
+    <a href="#" target="_blank">Follow us!</a>
+  </div>
+  <div class="fl-fl">
+    <i class="fa fa-solid fa-address-card"></i>
+    <a href="#" target="_blank">Contact us!</a>
+  </div>
+</div>
+<!-- Floating Social Media bar Ends -->

@@ -30,6 +30,7 @@ picture {
   max-width: 100%;
   display: block;
 }
+
 .dropdown:hover .dropdown-menu {
   display: block;
   margin-top: 0;
@@ -66,6 +67,57 @@ nav.bg-body-tertiary {
 .navbar-toggler-icon {
   font-size: 0.8em;
 }
+/* sticky social media bar */
+.fl-fl {
+  background: #274069;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 4px;
+  width: 190px;
+  position: fixed;
+  right: -150px;
+  z-index: 1000;
+  font: normal normal 10px Arial;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.fa {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 0;
+  width: 40px;
+  margin-left: 8px;
+}
+
+.fl-fl:hover {
+  right: 0;
+}
+
+.fl-fl a {
+  color: #fff !important;
+  text-decoration: none;
+  text-align: center;
+  line-height: 43px !important;
+  vertical-align: top !important;
+}
+
+.float-sm div:nth-child(1) {
+  top: 270px;
+}
+.float-sm div:nth-child(2) {
+  top: 325px;
+}
+.float-sm div:nth-child(3) {
+  top: 380px;
+}
+.float-sm div:nth-child(4) {
+  top: 435px;
+}
+
 /* -----END HEADER------ */
 /* ------FOOTER SECTION------- */
 footer {
@@ -101,7 +153,11 @@ footer li {
 /* ----------HOME PAGE----------- */
 #m-home {
   min-height: 200vh;
-  background-image: url(../assets/imgs/home-background_03.png);
+  background-image: url(../assets/imgs/home-background.png);
   background-repeat: no-repeat;
   background-size: 100% auto;
+  padding: 5rem 10rem;
+}
+.mh-content {
+  padding: 20px;
 }
