@@ -21,31 +21,15 @@
             <div class="w-100 d-flex justify-content-end" style="gap: 8px">
                 <div class="btn btn-primary select-all">Select all</div>
                 <div class="btn btn-success">Mark as read</div>
-                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
+                <button type="button" class="btn btn-danger delete-message" data-toggle="modal"
+                    data-target="#exampleModal">
                     Delete message
                 </button>
 
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                <div class="modal modal-delete fade" id="exampleModal" tabindex="-1" role="dialog"
                     aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel" class="delete-message">Delete messages
-                                </h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                Are you sure to delete all selected messages?
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                                <button type="submit" class="btn btn-danger">Delete</button>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
             <?php
@@ -117,6 +101,60 @@
     //xử lý chọn tất cả
     const selectAllBtn = document.querySelector(".select-all");
     const checkboxs = document.querySelectorAll(".checkbox");
+    const deleteBtn = document.querySelector(".delete-message");
+    const modalDelete = document.querySelector(".modal-delete");
+
+    function handleModalDelete(anyCheck) {
+        if (anyCheck) {
+            modalDelete.innerHTML = `<div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel" class="delete-message">Delete messages
+                                </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Are you sure to delete all selected messages?
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-danger">Delete</button>
+                            </div>
+                        </div>
+                    </div>`;
+        } else {
+            modalDelete.innerHTML = `<div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel" class="delete-message">Delete messages
+                                </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                There aren't any messages currently selected!
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>`;
+        }
+    }
+
+    deleteBtn.onclick = () => {
+        let anyCheck = false;
+        checkboxs.forEach(checkbox => {
+            console.log(checkbox.checked);
+            if (checkbox.checked) {
+                anyCheck = true;
+            }
+        })
+        handleModalDelete(anyCheck);
+    }
     selectAllBtn.onclick = (e) => {
         selectAllBtn.classList.toggle("active");
         if (selectAllBtn.classList.contains("active")) {
