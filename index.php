@@ -18,6 +18,7 @@ include_once "./vendor/bootstrap.php";
 include_once "./config.php";
 include_once "./models/database.php";
 include_once "./models/message.php";
+include_once "./utils/index.php";
 //instance database
 $conn = require "./inc/db.php";
 $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);

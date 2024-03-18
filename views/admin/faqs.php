@@ -14,10 +14,40 @@
 <?php include  __DIR__ .  "/components/adminHeader.php" ?>
 <link href="../css/admin.css" rel="stylesheet">
 <div class="main container">
-
     <div class="p-5">
         <h1 class="py-4" style="color: #274069">FAQS</h1>
-        <div class="d-flex flex-column" style="gap: 8px;">
+        <form class="d-flex flex-column" style="gap: 8px;" action="../controllers/handleDeleteMessage.php"
+            method="post">
+            <div class="w-100 d-flex justify-content-end" style="gap: 8px">
+                <div class="btn btn-primary select-all">Select all</div>
+                <div class="btn btn-success">Mark as read</div>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
+                    Delete message
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel" class="delete-message">Delete messages
+                                </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Are you sure to delete all selected messages?
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-danger">Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <?php
                 if ($id == '') {
                     $messages = Message::getAllMessages($conn);
@@ -25,49 +55,55 @@
                     foreach ($messages as $element) {
                         $id += 1;
                         $status = $element->status == "pending" ? "opacity-100" : "opacity-50";
-                        echo '<a href="'.BASE_URL . "/admin/faqs?id=". $element->id .'" class="p-3 message shadow rounded-4 row d-flex justify-content-between '. $status.' 
-                                text-decoration-none
-                                text-black" style="cursor: pointer;">
-                                    <div class="col-2 px-3 text-center ">'.$element->name.'</div>
-                                    <div class="col-3 px-3 text-center align-content-center">'.$element->email.'</div>
-                                    <div class="col-4 px-3 text-center align-content-center"
-                                        style="overflow:hidden;display:inline-block;text-overflow: ellipsis;white-space: nowrap;">
-                                        '.$element->message.'
-                                    </div>
-                                    <div class="col-2 px-3 text-center align-content-center ">'.$element->date.'</div>
-                                    <div class="col-1 btn btn-outline-danger delete-message">delete</div>
-                                    <div class="d-none message-id">'.$element->id.'</div>
-                                </a>';
+                        echo '<div class="position-relative">
+                            <a href="'.BASE_URL . "/admin/faqs?id=". $element->id .'" class="p-3  message shadow rounded-4 row d-flex justify-content-between '. $status.' 
+                            text-decoration-none
+                            text-black" style="cursor: pointer;">
+                                <div class="col-2 px-3 text-center ">'.$element->name.'</div>
+                                <div class="col-3 px-3 text-center align-content-center">'.$element->email.'</div>
+                                <div class="col-4 px-3 text-center align-content-center"
+                                    style="overflow:hidden;display:inline-block;text-overflow: ellipsis;white-space: nowrap;">
+                                    '.$element->message.'
+                                </div>
+                                <div class="col-2 px-3 text-center align-content-center ">'.convertDate($element->date).'</div>
+                                <div class="col-1"></div>
+                                <div class="d-none message-id">'.$element->id.'</div>
+                                </a>
+                                <div class="p-3 d-flex position-absolute d-inline-block" style="top: 50%; right: 24px; flex: none; transform: translateY(-50%)">
+                                    <input type="checkbox" name="checkbox[]" value="'.$element->id .'" class="checkbox form-check-input m-auto">
+                                </div>
+                        </div>';
                     }
-                }
-                else {
-                        $message = Message::getById($conn, $id);
-                        if (is_object($message)) {
-                            echo '<div class="shadow rounded-4 p-4 d-flex flex-column justify-content-between">
-                                <div class="d-flex justify-content-between">
-                                    <div>From: <span class="fw-bold">'.$message->name.'</span> <span
-                                            style="color: gray;">&lt;'.$message->email.'&gt;</span>
-                                    </div>
-                                    <div>'.$message->date.'</div>
-                                </div>
-                                <div>
-                                    <label>Message:</label>
-                                    <p class="px-5 py-2 fst-italic">'.$message->message.'</p>
-                                </div>
-                                <div class="d-flex justify-content-end px-5">
-                                    <a href="mailto:'.$message->email.'" class="btn btn-outline-success">Reply</a>
-                                </div>
-                            </div>';                
-                        }       
-                        else {
-                            header("Location: ". BASE_URL . "/admin/faqs");
-                        }
-                }
-            ?>
+        }
+        else {
+        $message = Message::getById($conn, $id);
+        if (is_object($message)) {
+        echo '<div class="shadow rounded-4 p-4 d-flex flex-column justify-content-between">
+            <div class="d-flex justify-content-between">
+                <div>From: <span class="fw-bold">'.$message->name.'</span> <span
+                        style="color: gray;">&lt;'.$message->email.'&gt;</span>
+                </div>
+                <div>'.convertDate($message->date).'</div>
+            </div>
+            <div>
+                <label>Message:</label>
+                <p class="px-5 py-2 fst-italic">'.$message->message.'</p>
+            </div>
+            <div class="d-flex justify-content-end px-5">
+                <a href="mailto:'.$message->email.'" class="btn btn-outline-success">Reply</a>
+            </div>
+        </div>';
+        }
+        else {
+        header("Location: ". BASE_URL . "/admin/faqs");
+        }
+        }
+        ?>
 
-        </div>
+        </form>
     </div>
     <script>
+    // Hiển thị cụ thể tin nhắn
     const messageElements = document.querySelectorAll('a.message');
     messageElements.forEach(element => {
         element.onclick = async (e) => {
@@ -78,5 +114,20 @@
             }).catch((err) => console.log(err));
         }
     })
+    //xử lý chọn tất cả
+    const selectAllBtn = document.querySelector(".select-all");
+    const checkboxs = document.querySelectorAll(".checkbox");
+    selectAllBtn.onclick = (e) => {
+        selectAllBtn.classList.toggle("active");
+        if (selectAllBtn.classList.contains("active")) {
+            checkboxs.forEach((checkbox) => {
+                checkbox.checked = true;
+            })
+        } else {
+            checkboxs.forEach((checkbox) => {
+                checkbox.checked = false;
+            })
+        }
+    }
     </script>
 </div>
