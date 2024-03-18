@@ -1,5 +1,15 @@
+<main id="m-home">
 
-<div class="vn">xin chao</div>
-<div class="eng">hello</div>
+
+</main>
+
+
+
+
+<!-- <div class="vn">hello</div> -->
+<div class="eng"><?php include "./views/components/book.php" ?></div>
+
+
+
 
 

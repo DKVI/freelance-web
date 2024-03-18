@@ -25,11 +25,10 @@ $segments = explode('/', $uri);
 $language = "";
     if (isset($_GET['language'])) {
         $language = $_GET['language'];
-        echo $language;
     }
 ?>
 
-    <link href="./css/base.css">
+    <link href="css/base.css">
     <!-- Add layout using router -->
     <div class="header">
         <!-- Add header to all pages -->

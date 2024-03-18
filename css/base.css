@@ -1,0 +1,77 @@
+@font-face {
+  font-family: BernardMT;
+  src: url(../assets/fonts/bernhc.ttf);
+}
+@font-face {
+  font-family: PlantagenetCherokee;
+  src: url(../assets/fonts/PlantagenetCherokee.ttf);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+body {
+  margin-top: 7rem;
+  min-height: 100vh;
+  line-height: 1.5;
+  background-color: #e5e5e5;
+  color: #274069;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* -----fonts------ */
+body {
+  font-family: PlantagenetCherokee;
+}
+
+/* --------HEADER SECTION---------- */
+.logo-area {
+  background-color: #e5e5e5;
+  min-height: 5rem;
+}
+#top-logo {
+  width: 30rem;
+}
+nav {
+  margin-top: 7rem;
+  line-height: 1.5rem;
+  background-color: #b7b7b7;
+}
+nav.bg-body-tertiary {
+  background-color: #b7b7b7;
+}
+.dropdown-menu {
+  max-height: 250px;
+  overflow-y: auto;
+}
+.navbar-toggler-icon {
+  font-size: 0.8em;
+}
+/* -----END HEADER------ */
+/* ------FOOTER SECTION------- */
+footer {
+  min-height: 3rem;
+  background-color: #274069;
+  color: #e5e5e5;
+}
+footer li {
+  line-height: 1.5rem;
+  font-size: 1rem;
+}
+/* ----------HOME PAGE----------- */
+#m-home {
+  min-height: 200vh;
+  background-image: url(../assets/imgs/home-background_03.png);
+}
