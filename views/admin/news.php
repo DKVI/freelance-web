@@ -8,7 +8,6 @@
     }
 ?>
 <?php include  __DIR__ .  "/components/adminHeader.php" ?>
-<link href="../../css/admin.css" rel="stylesheet">
 <div class="main container">
 
 </div>
