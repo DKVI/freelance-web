@@ -1,7 +1,7 @@
 <nav class="p-3 admin-header d-flex navbar navbar-expand-lg justify-content-between "
     style="background-color: #274069; height: 60px;">
     <div class="px-5 w-1/3 h-100" style="width: 30%;">
-        <a style="cursor: pointer;">
+        <a style="cursor: pointer;" href="<?php echo BASE_URL . '/home' ?>">
             <img class=" h-100" src="../assets/imgs/logo-gray.png" style="scale: 2;" alt="">
         </a>
     </div>
