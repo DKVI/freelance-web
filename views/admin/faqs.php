@@ -2,7 +2,7 @@
 <?php
     if (!isset($_SESSION["is_admin"])) {
         // return to login page for admin 
-        header("Location: " . BASE_URL . "/admin/login");
+        echo '<script>location.href = "'.BASE_URL .'/admin/login"</script>';
     }
     else {
     }
@@ -18,20 +18,24 @@
         <h1 class="py-4" style="color: #274069">FAQS</h1>
         <form class="d-flex flex-column" style="gap: 8px;" action="../controllers/handleDeleteMessage.php"
             method="post">
-            <div class="w-100 d-flex justify-content-end" style="gap: 8px">
-                <div class="btn btn-primary shadow select-all">Select all</div>
-                <div class="btn btn-success shadow">Mark as read</div>
-                <button type="button" class="btn btn-danger shadow delete-message" data-toggle="modal"
-                    data-target="#exampleModal">
-                    Delete message
-                </button>
-
-                <!-- Modal -->
-                <div class="modal modal-delete fade" id="exampleModal" tabindex="-1" role="dialog"
-                    aria-labelledby="exampleModalLabel" aria-hidden="true">
-
-                </div>
-            </div>
+            <?php
+                if (!isset($_GET["id"])) {
+                    echo '<div class="w-100 pb-3 d-flex justify-content-end" style="gap: 8px">
+                    <div class="btn btn-primary shadow-lg select-all">Select all</div>
+                    <div class="btn btn-success shadow-lg mark-as-read">Mark as read</div>
+                    <button type="button" class="btn btn-danger shadow-lg delete-message" data-toggle="modal"
+                        data-target="#exampleModal">
+                        Delete message
+                    </button>
+    
+                    <!-- Modal -->
+                    <div class="modal modal-delete fade" id="exampleModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    
+                    </div>
+                </div>';
+                }
+            ?>
             <?php
                 if ($id == '') {
                     $messages = Message::getAllMessages($conn);
@@ -171,6 +175,31 @@
             checkboxs.forEach((checkbox) => {
                 checkbox.checked = false;
             })
+        }
+    }
+
+    //handle mark as read
+    const handleMarkAsRead = async (arr) => {
+        const formData = new FormData();
+        formData.append("idList", arr);
+        const res = await fetch("../controllers/handleMarkAsRead.php", {
+            method: "POST",
+            body: formData
+        });
+        return res;
+    }
+
+    const markAsReadBtn = document.querySelector(".mark-as-read");
+    markAsReadBtn.onclick = async () => {
+        const arrId = [];
+        checkboxs.forEach((checkbox) => {
+            if (checkbox.checked) {
+                arrId.push(checkbox.value);
+            }
+        });
+        if (arrId.length != 0) {
+            await handleMarkAsRead(arrId);
+            location.reload();
         }
     }
     </script>
