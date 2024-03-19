@@ -33,6 +33,7 @@ $language = "";
     }
 ?>
 
+    <link href="css/base.css">
     <!-- Add layout using router -->
     <div class="header">
         <!-- Add header to all pages -->
@@ -106,6 +107,7 @@ $language = "";
         });
     }
     </script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>

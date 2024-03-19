@@ -1,2 +1,6 @@
-<?php 
-echo '<h1>Footer</h1>';
+<link rel="stylesheet" href="./css/base.css">
+<footer class="js--textloop--container textloop--container">
+  <div class="js--textloop--content textloop--content">
+     <li> non est ad astra mollis e terris via </li>
+  </div>
+</footer>
