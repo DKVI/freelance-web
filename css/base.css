@@ -31,11 +31,12 @@ picture {
   display: block;
 }
 
-.dropdown:hover .dropdown-menu {
-  display: block;
-  margin-top: 0;
+@media (min-width: 1025px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
 }
-
 /* -----fonts------ */
 body {
   font-family: PlantagenetCherokee;
@@ -46,26 +47,44 @@ h1 {
 
 /* --------HEADER SECTION---------- */
 .logo-area {
-  background-color: #e5e5e5;
+  background-color: rgba(229, 229, 229, 0.5);
   min-height: 5rem;
 }
 #top-logo {
   width: 30rem;
 }
+#mainNav {
+  padding: 0;
+}
+
 nav {
   margin-top: 7rem;
-  line-height: 1.5rem;
-  background-color: #b7b7b7;
+  font-size: 1.2rem;
 }
-nav.bg-body-tertiary {
-  background-color: #b7b7b7;
+
+.grey-bg {
+  background-color: #b7b7b7 !important;
 }
+.navbar .container {
+  margin-left: 0;
+  padding-left: 0;
+}
+.menu-nav {
+  background-color: #274069;
+  display: flex !important;
+  padding: 10px;
+}
+.navbar-brand {
+  color: #fff !important;
+}
+
 .dropdown-menu {
   max-height: 250px;
   overflow-y: auto;
 }
-.navbar-toggler-icon {
-  font-size: 0.8em;
+
+.navbar-nav li {
+  padding: 8px;
 }
 /* sticky social media bar */
 .fl-fl {
@@ -152,11 +171,11 @@ footer li {
 }
 /* ----------HOME PAGE----------- */
 #m-home {
-  min-height: 200vh;
+  min-height: 100vh;
   background-image: url(../assets/imgs/home-background.png);
   background-repeat: no-repeat;
   background-size: 100% auto;
-  padding: 5rem 10rem;
+  /* padding: 5rem 10rem; */
 }
 .mh-content {
   padding: 20px;
