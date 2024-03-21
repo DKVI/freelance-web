@@ -4,16 +4,19 @@
     <h6 class="d-block">Vie | Eng</h6>
 </div>
 <!-- NAVBAR -->
-<nav class="header navbar navbar-expand-lg fixed-top bg-body-tertiary" id="mainNav">
+<nav class="header navbar navbar-expand-lg fixed-top navbar-dark" id="mainNav">
     <div class="container">
-        <a class="navbar-brand" href="#">Menu <i class="fa-solid fa-caret-right fa-xs"></i></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggler"
-            aria-controls="toggler" aria-expanded="false" aria-label="Toggle navigation">
-            Menu
-            <i class="navbar-toggler-icon"></i>
-            <!-- <i class="fa-solid fa-bars"></i> -->
-        </button>
-        <div class="collapse navbar-collapse" id="toggler">
+        <div class="menu-nav text-center justify-content-center align-items-center">
+            <a class="navbar-brand" href="#">
+                Menu <i class="fa-solid fa-caret-right fa-xs"></i>
+        </a> 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-solid fa-bars"></i>
+        </button></div>
+        
+      
+        <div class="collapse navbar-collapse grey-bg" id="navbarResponsive">
             <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
