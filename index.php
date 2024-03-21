@@ -8,30 +8,33 @@
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css" />
+    <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+
 </head>
 
 <body>
     <?php
-session_start();
-include_once './config.php';
-include_once "./vendor/bootstrap.php";
-include_once "./config.php";
-include_once "./models/database.php";
-include_once "./models/message.php";
-include_once "./utils/index.php";
-//instance database
-$conn = require "./inc/db.php";
-$uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-$segments = explode('/', $uri);
+    session_start();
+    include_once './config.php';
+    include_once "./vendor/bootstrap.php";
+    include_once "./config.php";
+    include_once "./models/database.php";
+    include_once "./models/message.php";
+    include_once "./utils/index.php";
+    //instance database
+    $conn = require "./inc/db.php";
+    $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+    $segments = explode('/', $uri);
 
-?>
+    ?>
 
     <?php
-$language = "";
+    $language = "";
     if (isset($_GET['language'])) {
         $language = $_GET['language'];
     }
-?>
+    ?>
 
     <link href="css/base.css">
     <!-- Add layout using router -->
@@ -41,7 +44,7 @@ $language = "";
     </div>
     <div class="main">
         <?php
-        $route = $segments[2] . (isset($segments[3]) ?  '/' .$segments[3] : "");
+        $route = $segments[2] . (isset($segments[3]) ?  '/' . $segments[3] : "");
         switch ($route) {
             case "":
                 include __DIR__ . "/views/home.php";
@@ -59,20 +62,26 @@ $language = "";
                 include __DIR__ . "/views/admin/home.php";
                 break;
             case "admin/home":
-                    include __DIR__ . "/views/admin/home.php";
-                    break;
-            case "admin/news":
-                    include __DIR__ . "/views/admin/home.php";
-                    break;
+                include __DIR__ . "/views/admin/home.php";
+                break;
             case "admin/events":
-                    include __DIR__ . "/views/admin/home.php";
-                    break;
+                include __DIR__ . "/views/admin/home.php";
+                break;
             case "admin/login":
                 include __DIR__ . "/views/admin/login.php";
                 break;
-                case "admin/faqs":
-                    include __DIR__ . "/views/admin/faqs.php";
-                    break;
+            case "admin/faqs":
+                include __DIR__ . "/views/admin/faqs.php";
+                break;
+            case "admin/news":
+                include __DIR__ . "/views/admin/news.php";
+                break;
+            case "admin/addNews":
+                include __DIR__ . "/views/admin/addNews.php";
+                break;
+            case "admin/previewNews":
+                include __DIR__ . "/views/admin/previewNews.php";
+                break;
             case "admin/message":
                 include __DIR__ . "/views/admin/message.php";
                 break;
@@ -89,7 +98,7 @@ $language = "";
     <script>
     const vnElements = document.querySelectorAll(".vn");
     const engElements = document.querySelectorAll(".eng");
-    const queryParams = "<?php echo $language?>";
+    const queryParams = "<?php echo $language ?>";
     console.log(queryParams);
     if (queryParams === "" || queryParams === "vn") {
         vnElements.forEach((e) => {

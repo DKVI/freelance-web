@@ -45,6 +45,7 @@
         $stmt->bindParam(":id", $id);
         return $stmt->execute();
     }
+    
     public static function getById ($conn, $id) {
         $query = "SELECT * FROM message WHERE id=:id";
         $stmt = $conn->prepare ($query);
