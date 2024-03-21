@@ -9,11 +9,12 @@ $mode = "";
 if (isset($_GET["mode"])) {
     $mode = $_GET["mode"];
 }
+if (file_exists("./uploads/news/test.md")) {
+    unlink('./uploads/news/test.md');
+}
 ?>
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" defer></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <link href="../css/admin.css" rel="stylesheet">
 <?php include  __DIR__ .  "/components/adminHeader.php" ?>
 <!-- Create Mode HTML -->
@@ -28,8 +29,7 @@ if (isset($_GET["mode"])) {
                 </div>
                 <div class="form-group py-3">
                     <label class="form-label">Times:</label>
-                    <input class="form-control" type="number" placeholder="Enter post's read times" name="times"
-                        required>
+                    <input class="form-control" type="number" placeholder="Enter post's read times" name="times" required>
                 </div>
                 <div class="form-group py-3">
                     <label class="form-label">Content:</label>
@@ -54,52 +54,52 @@ if (isset($_GET["mode"])) {
 
         <!-- Preview Mode CSS -->
         <style>
-        html {
-            font-size: 18px;
-        }
+            html {
+                font-size: 18px;
+            }
 
-        h1 {
-            padding: 30px 0;
-        }
+            h1 {
+                padding: 30px 0;
+            }
 
-        p>em {
-            font-size: 14px;
-        }
+            p>em {
+                font-size: 14px;
+            }
 
 
-        code {
-            max-width: 100%;
-        }
+            code {
+                max-width: 100%;
+            }
         </style>
     </div>
 </div>
 <!-- Preview Mode Script -->
 <script>
-const submitBtn = document.querySelector(".submit-btn");
-const form = document.querySelector("form");
-submitBtn.onclick = () => {
-    form.submit();
-}
-const previewBtn = document.querySelector(".preview-btn");
-const previewMode = document.querySelector(".preview-mode");
-window.addEventListener('beforeunload', function(e) {
-    e.preventDefault();
-    e.returnValue = '';
-});
-var simplemde = new SimpleMDE({
-    element: document.getElementById("input-file"),
-});
-console.log(form);
-previewBtn.onclick = async () => {
-    await $('form').submit(function(event) {
-        console.log(true);
-        event.preventDefault(); // Prevent default form submission
-        $.ajax({
-            url: '../controllers/handlePreview.php',
-            type: 'POST', // Specify POST method for sending data
-            data: $(this).serialize(), // Serialize form data using jQuery
-            success: function(data) {
-                <?php
+    const submitBtn = document.querySelector(".submit-btn");
+    const form = document.querySelector("form");
+    submitBtn.onclick = () => {
+        form.submit();
+    }
+    const previewBtn = document.querySelector(".preview-btn");
+    const previewMode = document.querySelector(".preview-mode");
+    window.addEventListener('beforeunload', function(e) {
+        e.preventDefault();
+        e.returnValue = '';
+    });
+    var simplemde = new SimpleMDE({
+        element: document.getElementById("input-file"),
+    });
+    console.log(form);
+    previewBtn.onclick = async () => {
+        await $('form').submit(function(event) {
+            console.log(true);
+            event.preventDefault(); // Prevent default form submission
+            $.ajax({
+                url: '../controllers/handlePreview.php',
+                type: 'POST', // Specify POST method for sending data
+                data: $(this).serialize(), // Serialize form data using jQuery
+                success: function(data) {
+                    <?php
                     echo '
                         async function render() {
                             async function convertMarkdown() {
@@ -133,13 +133,13 @@ previewBtn.onclick = async () => {
                             previewMode.classList.add("d-none");
                         }';
                     ?>
-            },
-            error: function(jqXHR, textStatus, errorThrown) {
-                // Handle errors during request
-                console.error(textStatus, errorThrown);
-            }
+                },
+                error: function(jqXHR, textStatus, errorThrown) {
+                    // Handle errors during request
+                    console.error(textStatus, errorThrown);
+                }
+            });
         });
-    });
 
-}
+    }
 </script>
