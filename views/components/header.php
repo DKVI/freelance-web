@@ -7,11 +7,12 @@
 <nav class="header navbar navbar-expand-lg fixed-top navbar-dark" id="mainNav">
     <div class="container">
         <div class="menu-nav text-center justify-content-center align-items-center">
-            <a class="navbar-brand" href="#">Menu <i class="fa-solid fa-caret-right fa-xs"></i></a> 
+            <a class="navbar-brand" href="#">
+                Menu <i class="fa-solid fa-caret-right fa-xs"></i>
+        </a> 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
             aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-solid fa-bars"></i>
-                <!-- <i class="navbar-toggler-icon "></i> -->
         </button></div>
         
       

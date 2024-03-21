@@ -6,6 +6,10 @@
   font-family: PlantagenetCherokee;
   src: url(../assets/fonts/PlantagenetCherokee.ttf);
 }
+@font-face {
+  font-family: BookMan;
+  src: url(../assets/fonts/BOOKOS.ttf);
+}
 *,
 *::before,
 *::after {
@@ -18,17 +22,23 @@ ol[role="list"] {
 }
 
 body {
-  margin-top: 12rem;
-  min-height: 100vh;
-  line-height: 1.5;
   background-color: #e5e5e5;
   color: #274069;
+}
+main {
+  margin-top: 11rem;
+  min-height: 100vh;
 }
 
 img,
 picture {
   max-width: 100%;
   display: block;
+}
+.background-full {
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  min-height: 100vh;
 }
 
 @media (min-width: 1025px) {
@@ -72,7 +82,11 @@ nav {
 .menu-nav {
   background-color: #274069;
   display: flex !important;
-  padding: 10px;
+  padding-left: 30px;
+  font-family: BookMan;
+}
+.menu-nav a {
+  padding: 15px;
 }
 .navbar-brand {
   color: #fff !important;
@@ -85,6 +99,9 @@ nav {
 
 .navbar-nav li {
   padding: 8px;
+}
+.navbar-nav li a {
+  color: #274069;
 }
 /* sticky social media bar */
 .fl-fl {
@@ -171,12 +188,22 @@ footer li {
 }
 /* ----------HOME PAGE----------- */
 #m-home {
-  min-height: 100vh;
   background-image: url(../assets/imgs/home-background.png);
   background-repeat: no-repeat;
   background-size: 100% auto;
-  /* padding: 5rem 10rem; */
 }
 .mh-content {
   padding: 20px;
+}
+/* ---------ABOUT US PAGE---------- */
+#ab-main {
+  max-height: 100px;
+  overflow: hidden;
+}
+section.ab-us {
+  background-image: url(../assets/imgs/ab-01.png);
+  padding-top: 50px;
+}
+section.ab-us p {
+  text-align: justify;
 }

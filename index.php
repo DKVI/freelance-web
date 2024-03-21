@@ -49,6 +49,9 @@ $language = "";
             case 'home':
                 include __DIR__ . "/views/home.php";
                 break;
+                case 'about':
+                    include __DIR__ . "/views/about.php";
+                    break;
             case 'news':
                 include __DIR__ . "/views/news.php";
                 break;
