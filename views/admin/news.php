@@ -11,5 +11,8 @@ if (!isset($_SESSION["is_admin"])) {
 <div class="main container">
     <div class="p-5">
         <h1 class="py-4" style="color: #274069">NEWS</h1>
+        <div>
+            <a class="btn btn-success" href="<?php echo BASE_URL . "/admin/addNews" ?>">Create</a>
+        </div>
     </div>
 </div>
