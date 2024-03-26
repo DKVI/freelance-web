@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css" />
     <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
@@ -101,24 +103,24 @@
         </div>
     </div>
     <script>
-        const vnElements = document.querySelectorAll(".vn");
-        const engElements = document.querySelectorAll(".eng");
-        const queryParams = "<?php echo $language ?>";
-        if (queryParams === "" || queryParams === "vn") {
-            vnElements.forEach((e) => {
-                e.classList.remove("d-none");
-            });
-            engElements.forEach((e) => {
-                e.classList.add("d-none");
-            });
-        } else {
-            vnElements.forEach((e) => {
-                e.classList.add("d-none");
-            });
-            engElements.forEach((e) => {
-                e.classList.remove("d-none");
-            });
-        }
+    const vnElements = document.querySelectorAll(".vn");
+    const engElements = document.querySelectorAll(".eng");
+    const queryParams = "<?php echo $language ?>";
+    if (queryParams === "" || queryParams === "vn") {
+        vnElements.forEach((e) => {
+            e.classList.remove("d-none");
+        });
+        engElements.forEach((e) => {
+            e.classList.add("d-none");
+        });
+    } else {
+        vnElements.forEach((e) => {
+            e.classList.add("d-none");
+        });
+        engElements.forEach((e) => {
+            e.classList.remove("d-none");
+        });
+    }
     </script>
     <script src="js/index.js"></script>
 </body>
