@@ -1,14 +1,14 @@
 @font-face {
-  font-family: BernardMT;
-  src: url(../assets/fonts/bernhc.ttf);
-}
-@font-face {
   font-family: PlantagenetCherokee;
   src: url(../assets/fonts/PlantagenetCherokee.ttf);
 }
 @font-face {
   font-family: BookMan;
   src: url(../assets/fonts/BOOKOS.ttf);
+}
+@font-face {
+  font-family: DMSerifText;
+  src: url(../assets/fonts/DMSerifText-Regular.ttf);
 }
 *,
 *::before,
@@ -40,6 +40,9 @@ picture {
   background-size: 100% auto;
   min-height: 100vh;
 }
+.main-text-color {
+  color: #274069;
+}
 
 @media (min-width: 1025px) {
   .dropdown:hover .dropdown-menu {
@@ -52,7 +55,8 @@ body {
   font-family: PlantagenetCherokee;
 }
 h1 {
-  font-family: BernardMT;
+  font-family: DMSerifText;
+  font-size: 4rem;
 }
 
 /* --------HEADER SECTION---------- */
@@ -73,7 +77,6 @@ nav {
 }
 
 .grey-bg {
-  background-color: #b7b7b7 !important;
 }
 .navbar .container {
   margin-left: 0;
@@ -96,13 +99,35 @@ nav {
   max-height: 250px;
   overflow-y: auto;
 }
-
+.navbar-nav ul {
+  background-color: #b7b7b7;
+}
 .navbar-nav li {
   padding: 8px;
+  border-left: dotted #274069 1px;
+  text-align: center;
+  background-color: #b7b7b7;
 }
 .navbar-nav li a {
   color: #274069;
+  width: 9rem;
 }
+
+/* animation for main navbar */
+.moving-nav {
+  left: -100rem;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+@media (max-width: 1025px) {
+  .moving-nav {
+    left: 0;
+  }
+}
+
 /* sticky social media bar */
 .fl-fl {
   background: #274069;
@@ -196,9 +221,14 @@ footer li {
   padding: 20px;
 }
 /* ---------ABOUT US PAGE---------- */
+.hidden {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
 #ab-main {
-  max-height: 100px;
-  overflow: hidden;
+  /* max-height: 100px; */
+  /* overflow: hidden; */
 }
 section.ab-us {
   background-image: url(../assets/imgs/ab-01.png);
