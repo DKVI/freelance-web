@@ -1,18 +1,23 @@
 <!-- LOGO AREA -->
 <div class="header d-inline-flex justify-content-between fixed-top px-5 align-items-center logo-area">
     <img src="././assets/imgs/small-logo.png" id="top-logo" alt="MSS-logo">
-    <h6 class="d-flex"><a class="text-decoration-none" href="<?php echo $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) . "?language=vn"; ?>" style="cursor:pointer; color: inherit;">Vie</a> <span class="px-2">|</span>
-        <a class="text-decoration-none" href="<?php echo $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) . "?language=eng"; ?>" style="cursor:pointer; color: inherit;">Eng</a>
+    <h6 class="d-flex"><a class="text-decoration-none"
+            href="<?php echo $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) . "?language=vn"; ?>"
+            style="cursor:pointer; color: inherit;">Vie</a> <span class="px-2">|</span>
+        <a class="text-decoration-none"
+            href="<?php echo $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) . "?language=eng"; ?>"
+            style="cursor:pointer; color: inherit;">Eng</a>
     </h6>
 </div>
 <!-- NAVBAR -->
 <nav class=" header navbar navbar-expand-lg fixed-top navbar-dark" id="mainNav">
     <div class="container">
         <div class="menu-nav text-center justify-content-center align-items-center">
-            <a class="navbar-brand" href="#">
+            <a class=" navbar-brand" href="#">
                 Menu <i class="fa-solid fa-caret-right fa-xs"></i>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-solid fa-bars"></i>
             </button>
         </div>
@@ -22,6 +27,9 @@
             <ul class="navbar-nav">
                 <li class="nav-item dropdown moving-nav">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">About Us</a>
                     <ul class="dropdown-menu dropdown-menu-light">
                         <li><a class="dropdown-item" href="#">About Us</a></li>
                         <hr class="dropdown-divider">
@@ -32,6 +40,9 @@
                 </li>
                 <li class="nav-item dropdown moving-nav">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">M.S.S</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">M.S.S</a>
                     <ul class="dropdown-menu dropdown-menu-light">
                         <li><a class="dropdown-item" href="#">Artical 1</a></li>
                         <hr class="dropdown-divider">
@@ -69,6 +80,9 @@
 
                 <li class="nav-item dropdown moving-nav">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Review</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">Review</a>
                     <ul class="dropdown-menu dropdown-menu-light">
                         <li><a class="dropdown-item" href="#">Mentee</a></li>
                         <hr class="dropdown-divider">
@@ -79,6 +93,9 @@
                 </li>
                 <li class="nav-item dropdown moving-nav">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pricing</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">Pricing</a>
                     <ul class="dropdown-menu dropdown-menu-light">
                         <li><a class="dropdown-item" href="#">Pricing Scheme</a></li>
                         <hr class="dropdown-divider">
@@ -88,6 +105,10 @@
                 <li class="nav-item dropdown moving-nav"><a class="nav-link" href="#">News & Events</a></li>
                 <li class="nav-item dropdown moving-nav">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">FAQ</a>
+                <li class="nav-item"><a class="nav-link" href="#">News & Events</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">FAQ</a>
                     <ul class="dropdown-menu dropdown-menu-light">
                         <li><a class="dropdown-item" href="#">Question no.1</a></li>
                         <hr class="dropdown-divider">
@@ -136,3 +157,19 @@
     </div>
 </div>
 <!-- Floating Social Media bar Ends -->
+
+<!-- handle hover nav -->
+<script>
+// const menuHover = document.querySelector("nav .container");
+// console.log(menuHover);
+// menuHover.onmouseenter = () => {
+//     console.log("mouse in");
+//     menuHover.style.maxWidth = "auto";
+//     menuHover.style.overflow = "none";
+// }
+// menuHover.onmouseleave = () => {
+//     menuHover.style.maxWidth = "140px";
+//     menuHover.style.overflow = "hidden";
+//     console.log("mouse out");
+// }
+</script>

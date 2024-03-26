@@ -49,9 +49,9 @@ class News
         $stmt = $conn->prepare($query);
         $stmt->bindParam(":id", $id);
         $stmt->execute();
-        $message = $stmt->fetch(PDO::FETCH_ASSOC);
-        if ($message) {
-            return new Message($message["id"], $message["readTimes"], $message["title"], $message["fileText"], $message["fileImg"], $message["date"]);
+        $news = $stmt->fetch(PDO::FETCH_ASSOC);
+        if ($news) {
+            return new News($news["id"], $news["readTimes"], $news["title"], $news["fileText"], $news["fileImg"], $news["date"]);
         } else {
             return null;
         }
@@ -59,12 +59,14 @@ class News
 
     public static function add($conn, $news)
     {
-        $query = "INSERT INTO news (readTime, title, fileText, fileImg) VALUES (:readTime, :title, :fileText, :fileImg)";
+        $query = "INSERT INTO news (id,readTimes, title, fileText, fileImg, date) VALUES (:id, :readTimes, :title, :fileText, :fileImg, :date)";
         $stmt = $conn->prepare($query);
-        $stmt->bindParam(":readTime", $news->readTime);
+        $stmt->bindParam(":id", $news->id);
+        $stmt->bindParam(":readTimes", $news->readTimes);
         $stmt->bindParam(":title", $news->title);
         $stmt->bindParam(":fileText", $news->fileText);
         $stmt->bindParam(":fileImg", $news->fileImg);
+        $stmt->bindParam(":date", $news->date);
         return $stmt->execute();
     }
 
@@ -78,10 +80,10 @@ class News
 
     public static function update($conn, $news, $id)
     {
-        $query = "UPDATE news SET readTime=:readTime, title=:title, fileText=:fileText, fileImg = :fileImg WHERE id=:id";
+        $query = "UPDATE news SET readTimes=:readTimes, title=:title, fileText=:fileText, fileImg = :fileImg WHERE id=:id";
         $stmt = $conn->prepare($query);
         $stmt->bindParam(":id", $id);
-        $stmt->bindParam(":readTime", $news->readTime);
+        $stmt->bindParam(":readTimes", $news->readTimes);
         $stmt->bindParam(":title", $news->title);
         $stmt->bindParam(":fileText", $news->fileText);
         $stmt->bindParam(":fileImg", $news->fileImg);

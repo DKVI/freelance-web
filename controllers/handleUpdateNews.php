@@ -6,17 +6,18 @@ $conn = require "../inc/db.php";
 
 if (isset($_POST['md-file'])) {
     $title = $_POST["title"];
-    $readTime = $_POST["times"];
+    $readTimes = $_POST["times"];
+    echo $readTimes == null ? "null" : "value";
+    $id = $_GET["id"];
     $isSuccess = false;
     try {
         $text = $_POST['md-file'];
-        $uniqueId = uniqid() . rand(1000, 9999);
-        $myfile = fopen("../uploads/news/" . $uniqueId . ".md", "w");
+        $myfile = fopen("../uploads/news/" . $id . ".md", "w");
         fwrite($myfile, $text);
-        $news = new News($uniqueId, $readTime, $title, $uniqueId . '.md', "", date('Y-m-d'));
+        $news = new News($id, $readTimes, $title, $id . '.md', "", date('Y-m-d'));
         echo $news->date;
         try {
-            News::add($conn, $news);
+            News::update($conn, $news, $id);
         } catch (\Throwable $e) {
             echo $e;
         }
@@ -30,4 +31,4 @@ if (isset($_POST['md-file'])) {
 }
 ?>
 
-<h1><?php echo $isSuccess ?></h1>
+<h1><?php echo $isSuccess == 1 ? "Success" : "Failure" ?></h1>
