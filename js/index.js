@@ -36,3 +36,21 @@ function animContent(content) {
 }
 
 initTextLoop();
+
+// navbar animation
+
+let menuBtn = document.querySelector(".navbar-brand");
+let navItem = document.querySelectorAll(".moving-nav");
+menuBtn.addEventListener("mouseover", mouseOver);
+menuBtn.addEventListener("mouseout", mouseOut);
+
+function mouseOver() {
+  navItem.forEach((element) => {
+    element.classList.remove("moving-nav");
+  });
+}
+function mouseOut() {
+  navItem.forEach((element) => {
+    element.classList.add("moving-nav");
+  });
+}
