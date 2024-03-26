@@ -76,8 +76,7 @@ nav {
   font-size: 1.2rem;
 }
 
-.grey-bg {
-}
+
 .navbar .container {
   margin-left: 0;
   padding-left: 0;
@@ -226,10 +225,8 @@ footer li {
   height: 0;
   width: 0;
 }
-#ab-main {
-  /* max-height: 100px; */
-  /* overflow: hidden; */
-}
+
+
 section.ab-us {
   background-image: url(../assets/imgs/ab-01.png);
   padding-top: 50px;
