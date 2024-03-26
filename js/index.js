@@ -39,7 +39,7 @@ initTextLoop();
 
 // navbar animation
 
-let menuBtn = document.querySelector(".navbar-brand");
+let menuBtn = document.querySelector("nav");
 let navItem = document.querySelectorAll(".moving-nav");
 menuBtn.addEventListener("mouseover", mouseOver);
 menuBtn.addEventListener("mouseout", mouseOut);
