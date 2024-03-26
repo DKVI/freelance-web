@@ -1,8 +1,12 @@
 <!-- LOGO AREA -->
 <div class="header d-inline-flex justify-content-between fixed-top px-5 align-items-center logo-area">
     <img src="././assets/imgs/small-logo.png" id="top-logo" alt="MSS-logo">
-    <h6 class="d-flex"><a class="text-decoration-none" href="<?php echo $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) . "?language=vn"; ?>" style="cursor:pointer; color: inherit;">Vie</a> <span class="px-2">|</span>
-        <a class="text-decoration-none" href="<?php echo $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) . "?language=eng"; ?>" style="cursor:pointer; color: inherit;">Eng</a>
+    <h6 class="d-flex"><a class="text-decoration-none"
+            href="<?php echo $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) . "?language=vn"; ?>"
+            style="cursor:pointer; color: inherit;">Vie</a> <span class="px-2">|</span>
+        <a class="text-decoration-none"
+            href="<?php echo $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) . "?language=eng"; ?>"
+            style="cursor:pointer; color: inherit;">Eng</a>
     </h6>
 </div>
 <!-- NAVBAR -->
@@ -12,14 +16,16 @@
             <a class="navbar-brand" href="#">
                 Menu <i class="fa-solid fa-caret-right fa-xs"></i>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navResponsive"
+                aria-controls="navResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-solid fa-bars"></i>
             </button>
         </div>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div class="collapse navbar-collapse" id="navResponsive">
             <ul class="navbar-nav">
                 <li class="nav-item dropdown moving-nav">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">About Us</a>
                     <ul class="dropdown-menu dropdown-menu-light">
                         <li><a class="dropdown-item" href="#">About Us</a></li>
                         <hr class="dropdown-divider">
@@ -29,7 +35,8 @@
                     </ul>
                 </li>
                 <li class="nav-item dropdown moving-nav">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">M.S.S</a>
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">M.S.S</a>
                     <ul class="dropdown-menu dropdown-menu-light">
                         <li><a class="dropdown-item" href="#">Artical 1</a></li>
                         <hr class="dropdown-divider">
@@ -61,12 +68,11 @@
                         <hr class="dropdown-divider">
                         <li><a class="dropdown-item" href="#">Artical 15</a></li>
                         <hr class="dropdown-divider">
-
                     </ul>
                 </li>
-
                 <li class="nav-item dropdown moving-nav">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Review</a>
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">Review</a>
                     <ul class="dropdown-menu dropdown-menu-light">
                         <li><a class="dropdown-item" href="#">Mentee</a></li>
                         <hr class="dropdown-divider">
@@ -76,7 +82,8 @@
                     </ul>
                 </li>
                 <li class="nav-item dropdown moving-nav">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pricing</a>
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">Pricing</a>
                     <ul class="dropdown-menu dropdown-menu-light">
                         <li><a class="dropdown-item" href="#">Pricing Scheme</a></li>
                         <hr class="dropdown-divider">
@@ -85,7 +92,8 @@
                 </li>
                 <li class="nav-item dropdown moving-nav"><a class="nav-link" href="#">News & Events</a></li>
                 <li class="nav-item dropdown moving-nav">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">FAQ</a>
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">FAQ</a>
                     <ul class="dropdown-menu dropdown-menu-light">
                         <li><a class="dropdown-item" href="#">Question no.1</a></li>
                         <hr class="dropdown-divider">
