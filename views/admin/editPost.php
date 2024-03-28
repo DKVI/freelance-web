@@ -31,16 +31,16 @@ if (file_exists($file_path)) {
             <div>
                 <div class="form-group py-3">
                     <label class="form-label">Title:</label>
-                    <input class="form-control" type="text" placeholder="Enter post's title" value="<?php echo $post->title  ?>" name="title" required>
+                    <input class="shadow form-control" type="text" placeholder="Enter post's title" value="<?php echo $post->title  ?>" name="title" required>
                 </div>
                 <div class="form-group py-3 d-flex" style="gap: 16px">
                     <div class="w-50">
                         <label class="form-label">Read Time(minues):</label>
-                        <input class="form-control" value="<?php echo $post->readTimes ?>" type="number" placeholder="Enter post's read times" name="times" required>
+                        <input class="shadow form-control" value="<?php echo $post->readTimes ?>" type="number" placeholder="Enter post's read times" name="times" required>
                     </div>
                     <div class="w-50">
                         <label class="form-label">Type:</label>
-                        <select class="form-select" name="type" aria-label="Default select example">
+                        <select class="shadow form-select" name="type" aria-label="Default select example">
                             <option selected class="text-center">-- Select type of this post --</option>
                             <?php
                             echo ($post->type == 'event') ? '<option value="event" class="text-center" selected>Event</option>
@@ -52,9 +52,9 @@ if (file_exists($file_path)) {
                 </div>
                 <div class="form-group py-3">
                     <label class="form-label">Thumbnail:</label>
-                    <div class="d-flex">
-                        <input type="file" id="image-input" name="myfile" class="w-50 form-control" onchange="displayImage()">
-                        <img id="preview-image" src="<?php echo BASE_URL . "/uploads/imgs/" . $post->fileImg ?>" alt="Image Preview" class="w-50 form-control">
+                    <div class="d-flex" style="gap: 16px;">
+                        <input type="file" id="image-input" name="myfile" class="w-50 form-control shadow" onchange="displayImage()">
+                        <img id="preview-image" src="<?php echo BASE_URL . "/uploads/imgs/" . $post->fileImg ?>" alt="Image Preview" class="shadow w-50 form-control">
                     </div>
                 </div>
                 <div class="form-group py-3">
@@ -160,7 +160,7 @@ if (file_exists($file_path)) {
                     echo '
                         async function render() {
                             async function convertMarkdown() {
-                                const response = await fetch("../uploads/post/test.md");
+                                const response = await fetch("../uploads/posts/test.md");
                                 const markdown = await response.text();
                                 const html = marked.parse(markdown);
                                 document.getElementById("markdown-content").innerHTML = html;

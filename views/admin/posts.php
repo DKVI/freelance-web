@@ -2,7 +2,7 @@
 <?php
 if (!isset($_SESSION["is_admin"])) {
     // return to login page for admin 
-    header("Location: " . BASE_URL . "/admin/login");
+    echo '<script>window.location.href = "' . BASE_URL . '/admin/login"</script>';
 }
 $type = "";
 if (isset($_GET["type"])) {
