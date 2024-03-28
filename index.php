@@ -19,7 +19,7 @@
     include_once "./config.php";
     include_once "./models/database.php";
     include_once "./models/message.php";
-    include_once "./models/news.php";
+    include_once "./models/post.php";
     include_once "./utils/index.php";
     //instance database
     $conn = require "./inc/db.php";
@@ -75,17 +75,14 @@
             case "admin/faqs":
                 include __DIR__ . "/views/admin/faqs.php";
                 break;
-            case "admin/news":
-                include __DIR__ . "/views/admin/news.php";
+            case "admin/posts":
+                include __DIR__ . "/views/admin/posts.php";
                 break;
-            case "admin/addNews":
-                include __DIR__ . "/views/admin/addNews.php";
+            case "admin/addPost":
+                include __DIR__ . "/views/admin/addPost.php";
                 break;
-            case "admin/editNews":
-                include __DIR__ . "/views/admin/editNews.php";
-                break;
-            case "admin/previewNews":
-                include __DIR__ . "/views/admin/previewNews.php";
+            case "admin/editPost":
+                include __DIR__ . "/views/admin/editPost.php";
                 break;
             case "admin/message":
                 include __DIR__ . "/views/admin/message.php";

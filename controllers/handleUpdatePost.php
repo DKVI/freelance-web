@@ -2,17 +2,18 @@
 session_start();
 include_once "../vendor/bootstrap.php";
 include "../models/database.php";
-include "../models/news.php";
+include "../models/post.php";
 include "../config.php";
 $conn = require "../inc/db.php";
 unset($_SESSION["message"]);
 $_SESSION["message"] = "have no message";
-function uploadThumbnail()
+function uploadThumbnail($conn, $id)
 {
     $data = (object) [
         'id' => '',
         'fileImg' => ''
     ];
+    $post = Post::getById($conn, $id);
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (isset($_FILES["myfile"]) && $_FILES["myfile"]["error"] == 0) {
             $target_dir = "../uploads/imgs/";
@@ -22,13 +23,17 @@ function uploadThumbnail()
             if (file_exists($target_file)) {
                 $_SESSION["message"] = "Sorry, file already exists.";
             } else {
-                if ($_FILES["myfile"]["size"] > 500000) {
+                if ($_FILES["myfile"]["size"] > 5000000) {
                     $_SESSION["message"] = "Sorry, your file is too large.";
                 } else {
                     $allowed_extensions = array("jpg", "jpeg", "png", "pdf");
                     $extension = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
                     if (in_array($extension, $allowed_extensions)) {
+
                         if (move_uploaded_file($_FILES["myfile"]["tmp_name"], $target_file)) {
+                            if (file_exists($target_dir . $post->fileImg)) {
+                                unlink($target_dir . $post->fileImg);
+                            }
                             $data->fileImg = $uniqueId . '.' . pathinfo($filename, PATHINFO_EXTENSION);
                             $data->id = $uniqueId;
                             return $data;
@@ -47,26 +52,40 @@ function uploadThumbnail()
 
 if (isset($_POST['md-file'])) {
     $title = $_POST["title"];
-    $readTime = $_POST["times"];
-    $isSuccess = false;
-    try {
-        $data = uploadThumbnail();
-        if ($data != false) {
-            $uniqueId = uniqid() . rand(1000, 9999);
-            $imgId = $data->id;
-            $fileImg = $data->fileImg;
+    $readTimes = $_POST["times"];
+    $type = $_POST["type"];
+    $id = $_GET["id"];
+    $post = Post::getById($conn, $id);
+    $data = uploadThumbnail($conn, $id);
+    if ($data != false) {
+        try {
             $text = $_POST['md-file'];
-            $myfile = fopen("../uploads/news/" . $uniqueId . ".md", "w");
+            $myfile = fopen("../uploads/posts/" . $id . ".md", "w");
             fwrite($myfile, $text);
-            $news = new News($uniqueId, $readTime, $title, $uniqueId . '.md', $fileImg, date('Y-m-d'));
-            News::add($conn, $news);
-            if (file_exists("../uploads/news/test.md")) {
-                unlink("../uploads/news/test.md");
+            $updatePost = new Post($id, $readTimes, $title, $id . '.md', $data->fileImg, date('Y-m-d'), $post->views, $type);
+            Post::update($conn, $updatePost, $id);
+            $_SESSION["message"] =  'Update post "' . $title . '" successfully!';;
+            if (file_exists("../uploads/post/test.md")) {
+                unlink("../uploads/post/test.md");
             }
-            $_SESSION["message"] = 'Upload post "' . $title . '" successfully!';
+        } catch (\Throwable $e) {
+            $_SESSION["message"] = "Sorry, there was an error updating your post, please try again!.";
         }
-    } catch (\Throwable $e) {
-        $_SESSION["message"] = "Sorry, there was an error uploading your post, please try again!.";
+    } else {
+        try {
+            $post = Post::getById($conn, $id);
+            $text = $_POST['md-file'];
+            $myfile = fopen("../uploads/posts/" . $id . ".md", "w");
+            fwrite($myfile, $text);
+            $updatePost = new Post($id, $readTimes, $title, $id . '.md', $post->fileImg, date('Y-m-d'), $post->views, $type);
+            Post::update($conn, $updatePost, $id);
+            $_SESSION["message"] =  'Update post "' . $title . '" successfully!';;
+            if (file_exists("../uploads/posts/test.md")) {
+                unlink("../uploads/posts/test.md");
+            }
+        } catch (\Throwable $e) {
+            $_SESSION["message"] = "Sorry, there was an error updating your post, please try again!.";
+        }
     }
 }
 ?>
@@ -84,7 +103,7 @@ if (isset($_POST['md-file'])) {
                 </div>
                 <div class="modal-footer">
                     <a type="button" href="<?php echo BASE_URL . '/admin/home' ?>" class="btn btn-primary">Go Home</a>
-                    <a type="button" href="<?php echo BASE_URL . '/admin/addNews' ?>" class="btn btn-success" data-dismiss="modal">Create New</a>
+                    <a type="button" href="<?php echo BASE_URL . '/admin/addPost' ?>" class="btn btn-success" data-dismiss="modal">Create New</a>
                 </div>
             </div>
         </div>
