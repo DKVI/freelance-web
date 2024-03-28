@@ -1,34 +1,110 @@
 <?php
+session_start();
+include_once "../vendor/bootstrap.php";
 include "../models/database.php";
 include "../models/news.php";
 include "../config.php";
 $conn = require "../inc/db.php";
+unset($_SESSION["message"]);
+$_SESSION["message"] = "have no message";
+function uploadThumbnail($conn, $id)
+{
+    $data = (object) [
+        'id' => '',
+        'fileImg' => ''
+    ];
+    $news = News::getById($conn, $id);
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        if (isset($_FILES["myfile"]) && $_FILES["myfile"]["error"] == 0) {
+            $target_dir = "../uploads/imgs/";
+            $uniqueId = uniqid() . rand(1000, 9999);
+            $filename = basename($_FILES["myfile"]["name"]);
+            $target_file = $target_dir . $uniqueId . "." . pathinfo($filename, PATHINFO_EXTENSION);
+            if (file_exists($target_file)) {
+                $_SESSION["message"] = "Sorry, file already exists.";
+            } else {
+                if ($_FILES["myfile"]["size"] > 5000000) {
+                    $_SESSION["message"] = "Sorry, your file is too large.";
+                } else {
+                    $allowed_extensions = array("jpg", "jpeg", "png", "pdf");
+                    $extension = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
+                    if (in_array($extension, $allowed_extensions)) {
+
+                        if (move_uploaded_file($_FILES["myfile"]["tmp_name"], $target_file)) {
+                            if (file_exists($target_dir . $news->fileImg)) {
+                                unlink($target_dir . $news->fileImg);
+                            }
+                            $data->fileImg = $uniqueId . '.' . pathinfo($filename, PATHINFO_EXTENSION);
+                            $data->id = $uniqueId;
+                            return $data;
+                        } else {
+                            $_SESSION["message"] = "Sorry, there was an error uploading your file.";
+                        }
+                    } else {
+                        $_SESSION["message"] = "Sorry, only JPG, JPEG, PNG & PDF files are allowed.";
+                    }
+                }
+            }
+        }
+    }
+    return false;
+}
 
 if (isset($_POST['md-file'])) {
     $title = $_POST["title"];
     $readTimes = $_POST["times"];
-    echo $readTimes == null ? "null" : "value";
     $id = $_GET["id"];
-    $isSuccess = false;
-    try {
-        $text = $_POST['md-file'];
-        $myfile = fopen("../uploads/news/" . $id . ".md", "w");
-        fwrite($myfile, $text);
-        $news = new News($id, $readTimes, $title, $id . '.md', "", date('Y-m-d'));
-        echo $news->date;
+    $news = News::getById($conn, $id);
+    $data = uploadThumbnail($conn, $id);
+    if ($data != false) {
         try {
-            News::update($conn, $news, $id);
+            $text = $_POST['md-file'];
+            $myfile = fopen("../uploads/news/" . $id . ".md", "w");
+            fwrite($myfile, $text);
+            $updateNews = new News($id, $readTimes, $title, $id . '.md', $data->fileImg, date('Y-m-d'));
+            News::update($conn, $updateNews, $id);
+            $_SESSION["message"] =  'Update post "' . $title . '" successfully!';;
+            if (file_exists("../uploads/news/test.md")) {
+                unlink("../uploads/news/test.md");
+            }
         } catch (\Throwable $e) {
-            echo $e;
+            $_SESSION["message"] = "Sorry, there was an error updating your post, please try again!.";
         }
-        $isSuccess = true;
-        if (file_exists("../uploads/news/test.md")) {
-            unlink("../uploads/news/test.md");
+    } else {
+        try {
+            $news = News::getById($conn, $id);
+            $text = $_POST['md-file'];
+            $myfile = fopen("../uploads/news/" . $id . ".md", "w");
+            fwrite($myfile, $text);
+            $updateNews = new News($id, $readTimes, $title, $id . '.md', $news->fileImg, date('Y-m-d'));
+            News::update($conn, $updateNews, $id);
+            $_SESSION["message"] =  'Update post "' . $title . '" successfully!';;
+            if (file_exists("../uploads/news/test.md")) {
+                unlink("../uploads/news/test.md");
+            }
+        } catch (\Throwable $e) {
+            $_SESSION["message"] = "Sorry, there was an error updating your post, please try again!.";
         }
-    } catch (\Throwable $e) {
-        $isSuccess = false;
     }
 }
 ?>
-
-<h1><?php echo $isSuccess == 1 ? "Success" : "Failure" ?></h1>
+<link href="../css/admin.css" rel="stylesheet">
+<div class="min-vh-100 min-vw-100 d-flex">
+    <div class="modal d-block m-auto" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Notice</h5>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><?php echo $_SESSION["message"] ?></p>
+                </div>
+                <div class="modal-footer">
+                    <a type="button" href="<?php echo BASE_URL . '/admin/home' ?>" class="btn btn-primary">Go Home</a>
+                    <a type="button" href="<?php echo BASE_URL . '/admin/addNews' ?>" class="btn btn-success" data-dismiss="modal">Create New</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

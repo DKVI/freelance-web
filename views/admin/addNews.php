@@ -22,7 +22,8 @@ if (file_exists("./uploads/news/test.md")) {
 <!-- Create Mode HTML -->
 <div class="main container position-relative pb-5">
     <div class="" style="padding: 0 150px">
-        <form class="form-news" action="../controllers/handleUploadNews.php" class="m-auto w-75" method="post">
+        <form class="form-news" action="../controllers/handleUploadNews.php" class="m-auto w-75" method="post"
+            enctype="multipart/form-data">
             <h1 style="color: #274069">ADD NEW POST</h1>
             <div>
                 <div class="form-group py-3">
@@ -37,52 +38,58 @@ if (file_exists("./uploads/news/test.md")) {
                 <div class="form-group py-3">
                     <label class="form-label">Thumbnail:</label>
                     <div class="d-flex">
-                        <input class="w-50" type="file" id="image-input" onchange="displayImage()" accept="image/*">
-                        <img class="d-none w-50" id="image-preview" src="#" alt="Preview">
+                        <input type="file" id="image-input" name="myfile" class="w-50 form-control"
+                            onchange="displayImage()">
+                        <img id="preview-image" src="#" alt="Image Preview" class="w-50 form-control"
+                            style="display: none;">
                     </div>
                 </div>
-                <div class="form-group py-3">
-                    <label class="form-label">Content:</label>
-                    <textarea id="input-file" class="form-control" name="md-file"></textarea>
-                </div>
-            </div>
-            <div class="d-flex justify-content-end" style="gap: 16px">
-                <button type="submit" class="btn btn-primary preview-btn">Preview</button>
-                <button type="submit" class=" btn btn-success submit-btn">Submit</button>
-            </div>
         </form>
+
     </div>
+</div>
+<div class="form-group py-3">
+    <label class="form-label">Content:</label>
+    <textarea id="input-file" class="form-control" name="md-file"></textarea>
+</div>
+</div>
+<div class="d-flex justify-content-end" style="gap: 16px">
+    <button type="submit" class="btn btn-primary preview-btn">Preview</button>
+    <button type="submit" class=" btn btn-success submit-btn">Submit</button>
+</div>
+</form>
+</div>
 
 
-    <!-- Preview Mode HTML -->
-    <div class="preview-mode d-none position-absolute z-3" style="left: 0; right: 0; top: 0; bottom: 0;">
-        <div class="p-5">
-            <div class="d-flex justify-content-end"><button type="button" class="btn btn-success exit-btn">Exit Preview
-                    Mode</button>
-            </div>
-            <div id="markdown-content" class="shadow" style="padding: 50px 150px; background-color: white;"></div>
+<!-- Preview Mode HTML -->
+<div class="preview-mode d-none position-absolute z-3" style="left: 0; right: 0; top: 0; bottom: 0;">
+    <div class="p-5">
+        <div class="d-flex justify-content-end"><button type="button" class="btn btn-success exit-btn">Exit Preview
+                Mode</button>
         </div>
-
-        <!-- Preview Mode CSS -->
-        <style>
-        html {
-            font-size: 18px;
-        }
-
-        h1 {
-            padding: 30px 0;
-        }
-
-        p>em {
-            font-size: 14px;
-        }
-
-
-        code {
-            max-width: 100%;
-        }
-        </style>
+        <div id="markdown-content" class="shadow" style="padding: 50px 150px; background-color: white;"></div>
     </div>
+
+    <!-- Preview Mode CSS -->
+    <style>
+    html {
+        font-size: 18px;
+    }
+
+    h1 {
+        padding: 30px 0;
+    }
+
+    p>em {
+        font-size: 14px;
+    }
+
+
+    code {
+        max-width: 100%;
+    }
+    </style>
+</div>
 </div>
 <!-- Preview Mode Script -->
 <script>
@@ -155,21 +162,22 @@ previewBtn.onclick = async () => {
 }
 
 function displayImage() {
-    var input = document.getElementById("image-input");
-    var preview = document.getElementById("image-preview");
+    const imageInput = document.getElementById('image-input');
+    const previewImage = document.getElementById('preview-image');
 
-    var file = input.files[0];
-    var reader = new FileReader();
+    // Check if a file is selected
+    if (imageInput.files && imageInput.files[0]) {
+        const reader = new FileReader();
 
-    reader.onloadend = function() {
-        preview.src = reader.result;
-    }
+        reader.onload = function(e) {
+            previewImage.src = e.target.result;
+            previewImage.style.display = 'block';
+        };
 
-    if (file) {
-        reader.readAsDataURL(file);
-        preview.classList.remove = "d-none";
+        reader.readAsDataURL(imageInput.files[0]);
     } else {
-        preview.src = "";
+        previewImage.src = "#";
+        previewImage.style.display = 'none';
     }
 }
 </script>

@@ -13,7 +13,7 @@ $news = News::getAll($conn);
 <div class="main container">
     <div class="p-5">
         <h1 class="py-4" style="color: #274069">NEWS</h1>
-        <div class="container">
+        <div class="container d-flex flex-column" style="gap: 16px">
             <?php
             if (count($news) != 0) {
                 foreach ($news as $element) {
