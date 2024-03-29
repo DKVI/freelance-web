@@ -76,7 +76,6 @@ nav {
   font-size: 1.2rem;
 }
 
-
 .navbar .container {
   margin-left: 0;
   padding-left: 0;
@@ -113,17 +112,22 @@ nav {
 }
 
 /* animation for main navbar */
-.moving-nav {
-  left: -100rem;
-  -webkit-transition: all 0.25s ease;
-  -moz-transition: all 0.25s ease;
-  -ms-transition: all 0.25s ease;
-  -o-transition: all 0.25s ease;
-  transition: all 0.25s ease;
+#animate-btn {
+  width: 9rem;
+  overflow: hidden;
 }
-@media (max-width: 1025px) {
-  .moving-nav {
-    left: 0;
+#animate-btn:hover {
+  animation: movingNav 0.3s linear;
+  width: 100%;
+  overflow: visible;
+}
+
+@keyframes movingNav {
+  from {
+    width: 9rem;
+  }
+  to {
+    width: 100%;
   }
 }
 
@@ -225,7 +229,6 @@ footer li {
   height: 0;
   width: 0;
 }
-
 
 section.ab-us {
   background-image: url(../assets/imgs/ab-01.png);
