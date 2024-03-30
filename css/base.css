@@ -74,6 +74,7 @@ h1 {
 nav {
   margin-top: 7rem;
   font-size: 1.2rem;
+  border-radius: 10px;
 }
 
 .navbar .container {
@@ -94,32 +95,35 @@ nav {
 }
 
 .dropdown-menu {
+  width: 10rem;
   max-height: 250px;
   overflow-y: auto;
+  --bs-dropdown-min-width: 12.5rem;
 }
 .navbar-nav ul {
   background-color: #b7b7b7;
 }
 .navbar-nav li {
-  padding: 8px;
+  padding: 8px 0;
   border-left: dotted #274069 1px;
   text-align: center;
   background-color: #b7b7b7;
 }
+
 .navbar-nav li a {
   color: #274069;
-  width: 9rem;
+  width: 10rem;
 }
 
 /* animation for main navbar */
 #animate-btn {
   width: 9rem;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 #animate-btn:hover {
-  animation: movingNav 0.3s linear;
+  animation: movingNav 0.5s linear;
   width: 100%;
-  overflow: visible;
+  overflow-x: clip;
 }
 
 @keyframes movingNav {
