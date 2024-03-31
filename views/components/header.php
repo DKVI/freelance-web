@@ -11,7 +11,7 @@
 </div>
 <!-- NAVBAR -->
 <nav class=" header navbar navbar-expand-lg fixed-top navbar-dark" id="mainNav">
-    <div class="container">
+    <div class="container" id="animate-btn">
         <div class="menu-nav text-center justify-content-center align-items-center">
             <a class="navbar-brand" href="#">
                 Menu <i class="fa-solid fa-caret-right fa-xs"></i>
@@ -23,7 +23,7 @@
         </div>
         <div class="collapse navbar-collapse" id="navResponsive">
             <ul class="navbar-nav">
-                <li class="nav-item dropdown moving-nav">
+                <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">About Us</a>
                     <ul class="dropdown-menu dropdown-menu-light">
@@ -34,7 +34,7 @@
                         <li><a class="dropdown-item" href="#">Our Friends</a></li>
                     </ul>
                 </li>
-                <li class="nav-item dropdown moving-nav">
+                <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">M.S.S</a>
                     <ul class="dropdown-menu dropdown-menu-light">
@@ -70,7 +70,7 @@
                         <hr class="dropdown-divider">
                     </ul>
                 </li>
-                <li class="nav-item dropdown moving-nav">
+                <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">Review</a>
                     <ul class="dropdown-menu dropdown-menu-light">
@@ -81,7 +81,7 @@
                         <li><a class="dropdown-item" href="#">Judges & Organizations</a></li>
                     </ul>
                 </li>
-                <li class="nav-item dropdown moving-nav">
+                <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">Pricing</a>
                     <ul class="dropdown-menu dropdown-menu-light">
@@ -90,8 +90,8 @@
                         <li><a class="dropdown-item" href="#">Scholarship</a></li>
                     </ul>
                 </li>
-                <li class="nav-item dropdown moving-nav"><a class="nav-link" href="#">News & Events</a></li>
-                <li class="nav-item dropdown moving-nav">
+                <li class="nav-item dropdown"><a class="nav-link" href="#">News & Events</a></li>
+                <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">FAQ</a>
                     <ul class="dropdown-menu dropdown-menu-light">
@@ -116,7 +116,7 @@
                         <li><a class="dropdown-item" href="#">Question no.10</a></li>
                     </ul>
                 </li>
-                <li class="nav-item dropdown moving-nav"><a class="nav-link" href="#">Contact Us</a></li>
+                <li class="nav-item dropdown"><a class="nav-link" href="#">Contact Us</a></li>
             </ul>
         </div>
     </div>
