@@ -23,7 +23,10 @@ session_destroy();
                         <input id="password" name="password" class="form-control shadow-sm py-2 px-3" type="password" placeholder="Enter your password" required>
                     </div>
                 </div>
-                <div class="py-5 d-flex justify-content-end">
+                <div class="pt-4 pb-5 d-flex justify-content-end flex-column" style="gap: 8px">
+                    <div class="d-flex">
+                        <p>Forgot password? <a style="color: #274069;" href="#"> Click here!</a></p>
+                    </div>
                     <button class="btn text-white w-50 shadow-sm" style="background-color: #274069;">Login</button>
                 </div>
             </div>

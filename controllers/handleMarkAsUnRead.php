@@ -18,7 +18,7 @@ if (isset($_POST["idList"])) {
     $idList = parseStringToArray($idList);
     try {
         foreach ($idList as $id) {
-            Message::changeStatusAsRead($conn, $id);
+            Message::changeStatusAsUnRead($conn, $id);
         }
     } catch (\Throwable $e) {
         echo $e;

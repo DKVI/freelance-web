@@ -102,8 +102,9 @@ if (isset($_POST['md-file'])) {
                     <p><?php echo $_SESSION["message"] ?></p>
                 </div>
                 <div class="modal-footer">
-                    <a type="button" href="<?php echo BASE_URL . '/admin/home' ?>" class="btn btn-primary">Go Home</a>
-                    <a type="button" href="<?php echo BASE_URL . '/admin/addPost' ?>" class="btn btn-success" data-dismiss="modal">Create New</a>
+                    <a type="button" href="<?php echo BASE_URL . '/admin/posts' ?>" class="btn btn-primary">Back To
+                        Post</a>
+                    <a type="button" href="<?php echo BASE_URL . '/admin/addPost' ?>" class="btn btn-success" data-dismiss="modal">Create New Post</a>
                 </div>
             </div>
         </div>

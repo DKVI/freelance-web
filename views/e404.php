@@ -1,4 +1,5 @@
-<link href="./css/admin.css" rel="stylesheet">
+<link href="<?php echo BASE_URL ?>/css/admin.css" rel="stylesheet">
+<link href="<?php echo BASE_URL ?>/css/base.css" rel="stylesheet">
 <div class="container">
     <div class="m-auto">
         <h1>404 - Page Not Found</h1>

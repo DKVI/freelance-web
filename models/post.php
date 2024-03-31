@@ -49,6 +49,34 @@ class Post
         }
     }
 
+    public static function getByKeyWord($conn, $keyword)
+    {
+        try {
+            $query = "SELECT * FROM post WHERE title LIKE :keyword";
+            $stmt = $conn->prepare($query);
+            $stmt->bindValue(":keyword", '%' . $keyword . '%');
+            $stmt->execute();
+            $postList = [];
+            while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+                $post = new Post("", "", "", "", "", "", "", "");
+                $post->id = $row['id'];
+                $post->readTimes = $row['readTimes'];
+                $post->title = $row['title'];
+                $post->fileText = $row['fileText'];
+                $post->fileImg = $row['fileImg'];
+                $post->date = $row['date'];
+                $post->views = $row['views'];
+                $post->type = $row['type'];
+                $postList[] = $post;
+            }
+
+            return $postList;
+        } catch (PDOException $e) {
+            echo "Error fetching messages: " . $e->getMessage();
+            return [];
+        }
+    }
+
     public static function getById($conn, $id)
     {
         $query = "SELECT * FROM post WHERE id=:id";
