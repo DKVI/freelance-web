@@ -45,7 +45,7 @@ if (isset($_GET["id"])) {
                         $status = $element->status == "pending" ? "opacity-100" : "opacity-50";
                         $statusFW = $element->status == "pending" ? "fw-bold" : "";
                         echo '<div class="position-relative">
-                                <a href="' . BASE_URL . "/admin/message?id=" . $element->id . '" class="p-3  message  shadow rounded-4 ' . $statusFW . ' row d-flex justify-content-between ' . $status . ' 
+                                <a href="' . BASE_URL . "/admin/messages?id=" . $element->id . '" class="p-3  message  shadow rounded-4 ' . $statusFW . ' row d-flex justify-content-between ' . $status . ' 
                                 text-decoration-none
                                 text-black" style="cursor: pointer;">
                                     <div class="col-2 px-3 text-center ">' . $element->name . '</div>

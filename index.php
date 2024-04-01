@@ -66,6 +66,9 @@
             case "admin/login":
                 include __DIR__ . "/views/admin/login.php";
                 break;
+            case "admin/verifyEmail":
+                include __DIR__ . "/views/admin/verifyEmail.php";
+                break;
             case "admin/posts":
                 include __DIR__ . "/views/admin/posts.php";
                 break;
