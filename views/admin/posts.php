@@ -12,9 +12,9 @@ $post = Post::getAll($conn);
 
 ?>
 <link href="../css/admin.css" rel="stylesheet">
-<?php include  __DIR__ .  "/components/adminHeader.php" ?>
-<div class="main container">
-    <div class="p-5">
+<?php include  __DIR__ .  "/components/adminHeader.php" ?>*
+<div class="main container overflow-y-hidden justify-content-center ">
+    <div class="p-5 w-100">
         <div class="d-flex row mb-3">
             <div class="col-6 align-content-between d-flex flex-column">
                 <h1 class="py-4" style="color: #274069">NEWS & EVENTS</h1>
@@ -51,7 +51,7 @@ $post = Post::getAll($conn);
                     New Post</a>
             </div>
         </div>
-        <div class="container d-flex flex-column" style="gap: 16px">
+        <div class="d-flex flex-column" style="gap: 16px">
             <?php
             if (count($post) != 0) {
                 if ($type == "event") {
@@ -127,14 +127,14 @@ $post = Post::getAll($conn);
     </div>
 </div>
 <script>
-    const selectType = document.querySelector("select");
-    selectType.onchange = (e) => {
-        if (selectType.value === "event") {
-            window.location.href = "<?php echo BASE_URL ?>/admin/posts?type=event";
-        } else if (selectType.value === "news") {
-            window.location.href = "<?php echo BASE_URL ?>/admin/posts?type=news";
-        } else {
-            window.location.href = "<?php echo BASE_URL ?>/admin/posts?type=all";
-        }
+const selectType = document.querySelector("select");
+selectType.onchange = (e) => {
+    if (selectType.value === "event") {
+        window.location.href = "<?php echo BASE_URL ?>/admin/posts?type=event";
+    } else if (selectType.value === "news") {
+        window.location.href = "<?php echo BASE_URL ?>/admin/posts?type=news";
+    } else {
+        window.location.href = "<?php echo BASE_URL ?>/admin/posts?type=all";
     }
+}
 </script>

@@ -13,7 +13,7 @@ if (isset($_GET["id"])) {
 <link href="../css/admin.css" rel="stylesheet">
 <?php include  __DIR__ .  "/components/adminHeader.php" ?>
 <div class="main container">
-    <div class="p-5">
+    <div class="p-5 w-100">
         <h1 class="py-4" style="color: #274069">Messages</h1>
         <form class="d-flex flex-column" style="gap: 8px;" action="../controllers/handleDeleteMessage.php" method="post">
             <?php

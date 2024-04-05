@@ -40,7 +40,8 @@ if (isset($_POST['email'])) {
         $admin = new Admin(1, "", $newPassword, $email);
         Admin::changePasswordAfterVerify($conn, $admin);
         $mail->Subject = 'RESET ADMIN PASSWORD';
-        $mail->Body    = 'You have requested to reset your password. This is a temporary password. Please change it immediately upon logging in! Password is: <b>' . $newPassword . '</b>';
+        $mail->Body    = 'You have requested to reset your password. This is a temporary password. Please change it immediately upon logging in! Password is: <b>' . $newPassword . '</b>
+        <a href="http://www.google.com">If not you, please enter this link</a>';
         $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
         $mail->send();
         echo '<div class="min-vh-100 min-vw-100 d-flex">
