@@ -23,7 +23,7 @@
         </div>
         <div class="collapse navbar-collapse" id="navResponsive">
             <ul class="navbar-nav">
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown custom-scrollbar">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">About Us</a>
                     <ul class="dropdown-menu dropdown-menu-light">
@@ -37,7 +37,7 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">M.S.S</a>
-                    <ul class="dropdown-menu dropdown-menu-light">
+                    <ul class="dropdown-menu dropdown-menu-light custom-scrollbar">
                         <li><a class="dropdown-item" href="#">Artical 1</a></li>
                         <hr class="dropdown-divider">
                         <li><a class="dropdown-item" href="#">Artical 2</a></li>
@@ -94,7 +94,7 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">FAQ</a>
-                    <ul class="dropdown-menu dropdown-menu-light">
+                    <ul class="dropdown-menu dropdown-menu-light custom-scrollbar">
                         <li><a class="dropdown-item" href="#">Question no.1</a></li>
                         <hr class="dropdown-divider">
                         <li><a class="dropdown-item" href="#">Question no.2</a></li>
