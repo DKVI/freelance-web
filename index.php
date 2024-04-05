@@ -11,7 +11,7 @@
 
 </head>
 
-<body>
+<body class="custom-scrollbar">
     <?php
     session_start();
     include_once './config.php';
