@@ -100,7 +100,7 @@ nav {
   overflow-y: auto;
   --bs-dropdown-min-width: 12.5rem;
 }
-.navbar-nav ul {  
+.navbar-nav ul {
   background-color: #b7b7b7;
 }
 .navbar-nav li {
@@ -164,7 +164,6 @@ nav {
     opacity: 1;
   }
 }
-
 
 /* sticky social media bar */
 .fl-fl {

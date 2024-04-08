@@ -57,7 +57,7 @@ $post = Post::getAll($conn);
                 if ($type == "event") {
                     foreach ($post as $element) {
                         if ($element->type == "event") {
-                            echo '<div class="d-flex px-4 py-2 shadow rounded-4" style="height: 100px;">
+                            echo '<div class="d-flex px-4 py-2 shadow rounded-4 justify-content-around" style="height: 100px;">
                                     <div class="h-100 px-3" style="flex: none;"><img class="h-100 shadow rounded-4" src=" ../uploads/imgs/' . $element->fileImg . '">
                                     </div>
                                             <div class="w-75 h-100 px-3" style="overflow: hidden;
@@ -79,7 +79,7 @@ $post = Post::getAll($conn);
                 } else if ($type == "news") {
                     foreach ($post as $element) {
                         if ($element->type == "news") {
-                            echo '<div class="d-flex px-4 py-2 shadow rounded-4" style="height: 100px;">
+                            echo '<div class="d-flex px-4 py-2 shadow rounded-4 justify-content-around" style="height: 100px;">
                                     <div class="h-100 px-3" style="flex: none;"><img class="h-100 shadow rounded-4" src=" ../uploads/imgs/' . $element->fileImg . '">
                                     </div>
                                             <div class="w-75 h-100 px-3" style="overflow: hidden;
@@ -100,7 +100,7 @@ $post = Post::getAll($conn);
                     }
                 } else {
                     foreach ($post as $element) {
-                        echo '<div class="d-flex px-4 py-2 shadow rounded-4" style="height: 100px;">
+                        echo '<div class="d-flex px-4 py-2 shadow rounded-4 justify-content-around " style="height: 100px;">
                                     <div class="h-100 px-3" style="flex: none;"><img class="h-100 shadow rounded-4" src=" ../uploads/imgs/' . $element->fileImg . '">
                                     </div>
                                             <div class="w-75 h-100 px-3" style="overflow: hidden;
@@ -127,14 +127,14 @@ $post = Post::getAll($conn);
     </div>
 </div>
 <script>
-const selectType = document.querySelector("select");
-selectType.onchange = (e) => {
-    if (selectType.value === "event") {
-        window.location.href = "<?php echo BASE_URL ?>/admin/posts?type=event";
-    } else if (selectType.value === "news") {
-        window.location.href = "<?php echo BASE_URL ?>/admin/posts?type=news";
-    } else {
-        window.location.href = "<?php echo BASE_URL ?>/admin/posts?type=all";
+    const selectType = document.querySelector("select");
+    selectType.onchange = (e) => {
+        if (selectType.value === "event") {
+            window.location.href = "<?php echo BASE_URL ?>/admin/posts?type=event";
+        } else if (selectType.value === "news") {
+            window.location.href = "<?php echo BASE_URL ?>/admin/posts?type=news";
+        } else {
+            window.location.href = "<?php echo BASE_URL ?>/admin/posts?type=all";
+        }
     }
-}
 </script>

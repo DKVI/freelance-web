@@ -62,7 +62,7 @@ if (file_exists($file_path)) {
                     <textarea id="input-file" class="form-control" name="md-file"></textarea>
                 </div>
             </div>
-            <div class="d-flex justify-content-end" style="gap: 16px">
+            <div class="d-flex justify-content-end pb-4" style="gap: 16px">
                 <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
                     Delete
                 </button>
@@ -118,7 +118,7 @@ if (file_exists($file_path)) {
             <div class="modal-body">
                 Are you sure to delete this post?
             </div>
-            <div class="modal-footer">
+            <div class="modal-footer pb-4">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 <form method="post" action="../controllers/handleDeletePost.php?id=<?php echo $id ?>">
                     <button type="submit" class="btn btn-danger">Delete</button>

@@ -7,7 +7,8 @@ class Message
     public $message;
     public $status;
     public $date;
-    public function __construct($id, $name, $email, $message, $status, $date)
+    public $phone;
+    public function __construct($id, $name, $email, $message, $status, $date, $phone)
     {
         $this->id = $id;
         $this->name = $name;
@@ -15,7 +16,21 @@ class Message
         $this->message = $message;
         $this->status = $status;
         $this->date = $date;
+        $this->phone = $phone;
     }
+
+    public static function addMessages($conn, $message)
+    {
+        $query = "INSERT INTO message(name, email, message, status, date) VALUES(:name,:email, :message, :status, :date)";
+        $stmt = $conn->prepare($query);
+        $stmt->bindParam(":name", $message->name);
+        $stmt->bindParam(":email", $message->email);
+        $stmt->bindParam(":message", $message->message);
+        $stmt->bindParam(":status", $message->status);
+        $stmt->bindParam(":date", $message->date);
+        return $stmt->execute();
+    }
+
     public static function getAllMessages($conn)
     {
         try {
@@ -25,13 +40,14 @@ class Message
 
             $messages = [];
             while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-                $message = new Message(1, "", "", "", "", "");
+                $message = new Message(1, "", "", "", "", "", "");
                 $message->id = $row['id'];
                 $message->name = $row['name'];
                 $message->email = $row['email'];
                 $message->message = $row['message'];
                 $message->status = $row['status'];
                 $message->date = $row['date'];
+                $message->phone = $row['phone'];
                 $messages[] = $message;
             }
 
@@ -64,7 +80,7 @@ class Message
         $stmt->execute();
         $message = $stmt->fetch(PDO::FETCH_ASSOC);
         if ($message) {
-            return new Message($message["id"], $message["name"], $message["email"], $message["message"], $message["status"], $message["date"]);
+            return new Message($message["id"], $message["name"], $message["email"], $message["message"], $message["status"], $message["date"], $message["phone"]);
         } else {
             return null;
         }
