@@ -1,18 +1,19 @@
 <?php
-    session_start();
-    include_once './config.php';
-    include_once "./vendor/bootstrap.php";
-    include_once "./config.php";
-    include_once "./models/database.php";
-    include_once "./models/message.php";
-    include_once "./models/post.php";
-    include_once "./utils/index.php";
-    //instance database
-    $conn = require "./inc/db.php";
-    $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-    $segments = explode('/', $uri);
+session_start();
+include_once './config.php';
+include_once "./vendor/bootstrap.php";
+include_once "./config.php";
+include_once "./models/database.php";
+include_once "./models/message.php";
+include_once "./models/date.php";
+include_once "./models/post.php";
+include_once "./utils/index.php";
+//instance database
+$conn = require "./inc/db.php";
+$uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+$segments = explode('/', $uri);
 
-    ?>
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -30,11 +31,11 @@
 </head>
 
 <?php
-    $language = "";
-    if (isset($_GET['language'])) {
-        $language = $_GET['language'];
-    }
-    ?>
+$language = "";
+if (isset($_GET['language'])) {
+    $language = $_GET['language'];
+}
+?>
 
 <body class="custom-scrollbar">
 
@@ -46,52 +47,52 @@
     </div>
     <div class="main">
         <?php
-            $route = $segments[2] . (isset($segments[3]) ?  '/' . $segments[3] : "");
-            switch ($route) {
-                case "":
-                    include __DIR__ . "/views/home.php";
-                    break;
-                case 'home':
-                    include __DIR__ . "/views/home.php";
-                    break;
-                case 'about':
-                    include __DIR__ . "/views/about.php";
-                    break;
-                case 'news':
-                    include __DIR__ . "/views/news.php";
-                    break;
-                case "admin/home":
-                    include __DIR__ . "/views/admin/home.php";
-                    break;
-                case "admin/events":
-                    include __DIR__ . "/views/admin/home.php";
-                    break;
-                case "admin/login":
-                    include __DIR__ . "/views/admin/login.php";
-                    break;
-                case "admin/verifyEmail":
-                    include __DIR__ . "/views/admin/verifyEmail.php";
-                    break;
-                case "admin/posts":
-                    include __DIR__ . "/views/admin/posts.php";
-                    break;
-                case "admin/addPost":
-                    include __DIR__ . "/views/admin/addPost.php";
-                    break;
-                case "admin/editPost":
-                    include __DIR__ . "/views/admin/editPost.php";
-                    break;
-                case "admin/messages":
-                    include __DIR__ . "/views/admin/message.php";
-                    break;
-                case "admin/messages":
-                    include __DIR__ . "/views/admin/services/sendmail.php";
-                    break;
-                default:
-                    include __DIR__ . "/views/e404.php";
-                    break;
-            }
-            ?>
+        $route = $segments[2] . (isset($segments[3]) ?  '/' . $segments[3] : "");
+        switch ($route) {
+            case "":
+                include __DIR__ . "/views/home.php";
+                break;
+            case 'home':
+                include __DIR__ . "/views/home.php";
+                break;
+            case 'about':
+                include __DIR__ . "/views/about.php";
+                break;
+            case 'news':
+                include __DIR__ . "/views/news.php";
+                break;
+            case "admin/home":
+                include __DIR__ . "/views/admin/home.php";
+                break;
+            case "admin/events":
+                include __DIR__ . "/views/admin/home.php";
+                break;
+            case "admin/login":
+                include __DIR__ . "/views/admin/login.php";
+                break;
+            case "admin/verifyEmail":
+                include __DIR__ . "/views/admin/verifyEmail.php";
+                break;
+            case "admin/posts":
+                include __DIR__ . "/views/admin/posts.php";
+                break;
+            case "admin/addPost":
+                include __DIR__ . "/views/admin/addPost.php";
+                break;
+            case "admin/editPost":
+                include __DIR__ . "/views/admin/editPost.php";
+                break;
+            case "admin/messages":
+                include __DIR__ . "/views/admin/message.php";
+                break;
+            case "admin/messages":
+                include __DIR__ . "/views/admin/services/sendmail.php";
+                break;
+            default:
+                include __DIR__ . "/views/e404.php";
+                break;
+        }
+        ?>
         <!-- Add footer to all pages -->
         <div class="footer">
             <?php include __DIR__ . "/views/components/footer.php" ?>
@@ -121,6 +122,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
     </script>
+    <?php
+    $currentDate = date("2025-04-20");
+    resetTime($conn, $currentDate);
+    ?>
 </body>
 
 </html>

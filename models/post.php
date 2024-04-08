@@ -125,4 +125,12 @@ class Post
         $stmt->bindParam(":type", $post->type);
         return $stmt->execute();
     }
+
+    public static function resetViews($conn, $views)
+    {
+        $query = "UPDATE post SET views = :views";
+        $stmt = $conn->prepare($query);
+        $stmt->bindParam(":views", $views);
+        return $stmt->execute();
+    }
 }

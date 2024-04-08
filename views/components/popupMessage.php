@@ -1,11 +1,14 @@
-<div class="position-fixed rounded-circle z-3 d-flex" style="width: 50px; height: 50px; top: 90%; right: 50px; box-shadow: 3px 3px 5px #cccc;">
+<div class="position-fixed rounded-circle z-3 d-flex" style="width: 50px; height: 50px; top: 90%; right: 50px; box-shadow: 3px 3px 10px #cccc;">
     <div class="rounded-circle z-3 d-flex message-btn" style="width: 50px; height: 50px; background-color: #274069;  cursor: pointer;">
         <i class="fa-regular fa-message m-auto " style="font-size: 24px; color: white"></i>
     </div>
-    <div class="position-absolute shadow rounded-4 overflow-hidden popup-message" style="display: none; width: 300px; right: 0; bottom: calc(100% + 10px); background-color: white; animation: popup 0.4s;">
+    <div class="position-absolute shadow rounded-4 overflow-hidden popup-message" style="display: none; width: 300px; right: 0; bottom: calc(100% + 10px); background-color: white; animation: popup 0.4s; z-index: 9999">
         <div>
-            <div class="title w-full px-2 py-3 text-center" style="background-color: #274069; color: white; font-size: 18px">Contact
-                to us</div>
+            <div class="title w-full d-flex px-2 py-3 text-center" style="background-color: #274069; color: white; font-size: 18px">
+                <div class="m-auto">Contact
+                    to us</div>
+                <div class="px-2 close-btn" style="font-size: 24px; cursor: pointer">&times</div>
+            </div>
             <div>
                 <div class="px-3 py-2">
                     <form class="form position-relative" action="" method="POST">
@@ -35,7 +38,7 @@
                         <div class="loader m-auto"></div>
                         5
                     </div>
-                    <div class="success-screen position-absolute" style="display: none; left:0; right: 0; top: 0; bottom: 0; background-color: #52da6b;">
+                    <div class="success-screen position-absolute" style="display: none; left:0; right: 0; top: 0; bottom: 0; background-color: #52da6b; animation: popup 0.2s; transition: all 0.5s ease-in-out">
                         <div class="m-auto w-full">
                             <div class="w-full d-flex">
                                 <i class="fa-regular fa-circle-check m-auto" style="color: white; font-size: 100px;"></i>
@@ -47,7 +50,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="fail-screen position-absolute" style="display: none; left:0; right: 0; top: 0; bottom: 0; background-color: #e94848;">
+                    <div class="fail-screen position-absolute" style="display: none; left:0; right: 0; top: 0; bottom: 0; background-color: #e94848; animation: popup 0.2s; transition: all 0.5s ease-in-out">
                         <div class="m-auto w-full">
                             <div class="w-full d-flex">
                                 <i class="fa-regular fa-circle-xmark m-auto" style="color: white; font-size: 100px;"></i>
@@ -94,6 +97,16 @@
         }
     }
 
+    @keyframes fade {
+        from {
+            opacity: 0.5;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
     .loading-screen {
         background: rgba(255, 255, 255, 0.2);
         border-radius: 16px;
@@ -112,7 +125,16 @@
     const submitBtn = document.querySelector(".submit-btn");
     const successScreen = document.querySelector(".success-screen");
     const failScreen = document.querySelector(".fail-screen");
+    const closeBtn = document.querySelector(".close-btn");
 
+    closeBtn.onclick = () => {
+        messageBtn.classList.toggle("show");
+        if (messageBtn.classList.contains("show")) {
+            popupMessage.style.display = "block";
+        } else {
+            popupMessage.style.display = "none";
+        }
+    }
     //hide success screen
     successScreen.querySelector("button").onclick = () => {
         successScreen.style.display = "none";
@@ -131,6 +153,13 @@
         } else {
             popupMessage.style.display = "none";
         }
+    }
+
+    popupMessage.onclick = (e) => {
+        // if (e.target.className !== 'popup-message') {
+        //     popupMessage.style.display = "none";
+        // }
+        console.log(e.target.closest("popup-message"));
     }
     //Send request to server
     async function sendMessage(formData) {
@@ -160,11 +189,15 @@
                 phone,
                 message
             }).then(res => {
-                successScreen.style.display = "flex";
-                loadingScreen.style.display = "none";
+                setTimeout(() => {
+                    successScreen.style.display = "flex";
+                    loadingScreen.style.display = "none";
+                }, 1500);
             }).catch(err => {
-                failScreen.style.display = "flex";
-                loadingScreen.style.display = "none";
+                setTimeout(() => {
+                    failScreen.style.display = "flex";
+                    loadingScreen.style.display = "none";
+                }, 1500);
             });
         } else {}
     }
