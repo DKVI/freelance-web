@@ -1,5 +1,10 @@
-<main id="m-home">
-    <div class="container py-5 p-lg-5 vn">
+<main>
+    <!-- Welcome section -->
+    <!-- <div class="welcome-page d-flex align-items-center justify-content-center vh-100">
+        <img src="./assets/imgs/welcome-page-logo.png" alt="">
+    </div> -->
+    <!-- End welcome page -->
+    <div id="m-home" class="container py-5 p-lg-5 vn">
         <div class="col-lg-7 mh-content">
             <h1>Xin chào, Mooters!</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus provident ullam aliquam! Voluptatibus
