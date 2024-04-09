@@ -1,8 +1,25 @@
 <main>
     <!-- Welcome section -->
-    <!-- <div class="welcome-page d-flex align-items-center justify-content-center vh-100">
+    <div class="welcome-page d-flex align-items-center justify-content-center vh-100" style="
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 1000;
+    ">
         <img src="./assets/imgs/welcome-page-logo.png" alt="">
-    </div> -->
+    </div>
+    <div class="d-flex" style="position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 1001; background-color: black">
+        <div class="w-50 h-100"></div>
+        <div></div>
+        <div class="w-50 h-100"></div>
+    </div>
     <!-- End welcome page -->
     <div id="m-home" class="container py-5 p-lg-5 vn">
         <div class="col-lg-7 mh-content">

@@ -93,14 +93,9 @@ nav {
 .navbar-nav ul {
   margin: 0px;
 }
-
 .navbar-nav li a {
   color: #274069 !important;
   border-radius: 10px;
-}
-.navbar-nav ul {
-  background-color: #b7b7b7;
-
 }
 .navbar-nav li {
   font-size: 1.2rem;
