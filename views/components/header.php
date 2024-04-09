@@ -1,8 +1,14 @@
 <!-- LOGO AREA -->
-<div class="logo-area container-fluid fixed-top" style="z-index: 0">
+<div class="logo-area container-fluid fixed-top" style="z-index: 2 !important; 
+        background: rgba(255, 255, 255, 0.17);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(2.2px);
+        -webkit-backdrop-filter: blur(2.2px);
+        border: 1px solid rgba(255, 255, 255, 0.3);">
     <nav class=" navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="menu-nav text-center justify-content-center align-items-center col-lg-4">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="<?php echo BASE_URL ?>/home">
                 <img src="././assets/imgs/small-logo.png" alt="MSS-logo">
             </a>
             <button class="navbar-toggler btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#navResponsive" aria-controls="navResponsive" aria-expanded="false" aria-label="Toggle navigation">

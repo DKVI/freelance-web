@@ -123,6 +123,8 @@ if (isset($_GET['language'])) {
     $currentDate = date("Y-m-d");
     resetTime($conn, $currentDate);
     ?>
+    <?php
+    include "./views/components/popupMessage.php" ?>
 </body>
 
 </html>

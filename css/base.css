@@ -268,8 +268,9 @@ footer li {
 }
 #m-home {
   background-image: url(../assets/imgs/home-background.png);
+  background-size: cover;
+  background-position: top;
   background-repeat: no-repeat;
-  background-size: 100% auto;
 }
 .mh-content {
   padding: 20px;
