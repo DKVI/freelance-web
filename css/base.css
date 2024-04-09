@@ -7,8 +7,8 @@
   src: url(../assets/fonts/BOOKOS.ttf);
 }
 @font-face {
-  font-family: DMSerifText;
-  src: url(../assets/fonts/DMSerifText-Regular.ttf);
+  font-family: Title;
+  src: url(../assets/fonts/DFVN-West-West-Condensed.ttf);
 }
 *,
 *::before,
@@ -65,7 +65,7 @@ body {
   font-family: PlantagenetCherokee;
 }
 h1 {
-  font-family: DMSerifText;
+  font-family: Title;
   font-size: 4rem;
 }
 
