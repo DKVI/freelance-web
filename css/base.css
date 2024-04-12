@@ -34,7 +34,6 @@ main {
   min-height: 80vh;
 }
 
-
 img,
 picture {
   max-width: 100%;
@@ -87,6 +86,7 @@ nav {
   min-height: 8rem;
   margin: 0;
   padding: 0;
+  z-index: 2 !important;
 }
 .navbar-nav {
   /* background-color: #b7b7b7; */
