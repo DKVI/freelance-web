@@ -30,9 +30,10 @@ body {
   color: #274069;
 }
 main {
-  margin-top: 11rem;
-  min-height: 100vh;
+  margin-top: 8rem;
+  min-height: 80vh;
 }
+
 
 img,
 picture {
@@ -73,6 +74,14 @@ h1 {
 .logo-area {
   background-color: rgba(229, 229, 229, 0.5);
   min-height: 8rem;
+  z-index: 2 !important;
+  /* blur zone effect */
+  /* background: rgba(255, 255, 255, 0.17);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.2px);
+  -webkit-backdrop-filter: blur(2.2px);
+  border: 1px solid rgba(255, 255, 255, 0.3); */
 }
 nav {
   min-height: 8rem;

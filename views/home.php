@@ -21,48 +21,22 @@
         <div class="w-50 h-100"></div>
     </div> -->
     <!-- End welcome page -->
+
+    <!-- MSS's Mascot - Griffin Background -->
     <div id="" class="position-fixed d-flex justify-content-end"
         style="left: 0; right: 0; top: 0; bottom: 0; z-index: -1">
         <div class="" id="m-home" style=" width: 75%;">
-
         </div>
     </div>
+    <!-- Main content -->
     <div id="" class=" container py-5 p-lg-5 vn">
-        <div class="col-lg-7 mh-content">
-            <h1>Xin chào, Mooters!</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus provident ullam aliquam!
-                Voluptatibus
-                ab at dolor iure aspernatur id odio voluptate minima quae, obcaecati debitis pariatur est
-                repudiandae
-                facere sapiente, eum nihil voluptatem officiis tempora vitae harum aut et amet?</p>
+        <div class="intro-home col-lg-9">
+            <h2 class="text-uppercase fw-bold">Chào mừng đến với</h2>
+            <h1 class="text-uppercase fw-bold ">Mooting Summer School</h1>
+            <p>Ai đó đã nói rằng khi tham gia Mooting, ta thấy mình như lao vào vũ trụ. Ở đó, ta sẽ không biết bản thân có thể đi xa được đến đâu, và giá trị nhận được nhiều đến mức nào. Nhưng trước hết, chỉ cần từ những bước chân đâu tiên, ta có thể chắc chắn rằng, hành trình này sẽ không phải là một điều đơn giản. </p>
+            <p>Bởi vậy, nếu xem mỗi cuộc thi moot là một vì sao khác nhau trong vũ trụ, Non est ad astra mollis e terris via (tạm dịch: Chẳng có con đường nào dễ dàng để vươn tới những vì sao) chính là triết lý của Mooting Summer School. Với chúng tôi, không ai khác ngoài chính bạn sẽ phải tự lựa chọn “ngôi sao may mắn” và tìm ra đường đi phù hợp với mình. Việc mà Mooting Summer School có thể giúp bạn là xây dựng một bước đệm, một bệ phóng nền tảng, điều sẽ khiến cho mọi hành trình với mooting trở nên bớt gian truân hơn. </p>
+            <p>Vậy, liệu ta sẽ cho nhau cơ hội để cùng đưa nhau đến gần hơn với những gì ta mong nhận được?</p>
         </div>
-        <div class="col-lg-7 mh-content ms-lg-5 p-lg-5">
-            <h1>Mooting là gì?</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quis sequi obcaecati dolore animi
-                quae
-                sint praesentium omnis officia repudiandae autem reprehenderit aliquam sed eveniet quaerat, ipsa
-                cumque
-                veniam debitis eum soluta? Soluta nulla facilis accusantium eveniet mollitia dicta autem.</p>
-        </div>
-        <div class="col-lg-7 mh-content p-lg-5">
-            <h1>M.S.S có gì?</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate error temporibus aspernatur porro
-                harum quidem, quaerat eligendi esse, officia fugit fugiat pariatur vero sapiente sed vitae placeat
-                ullam
-                similique nobis. Provident molestiae laboriosam maiores suscipit neque blanditiis repellendus illo
-                sunt.
-            </p>
-        </div>
-        <div class="col-lg-7 mh-content ms-lg-5 p-lg-5">
-            <h1>Chúng tôi và bạn</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis facere commodi rem expedita natus
-                fugiat, quod blanditiis eius explicabo accusantium atque! Numquam inventore vero qui veritatis,
-                ipsam
-                nam necessitatibus, sapiente veniam aliquid fuga reprehenderit maiores velit, quo officia! Quia,
-                rerum.
-            </p>
-        </div>
-    </div>
     <div class="w-100">
         <div class="eng"><?php include "./views/components/book.php" ?></div>
     </div>
