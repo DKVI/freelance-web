@@ -5,13 +5,15 @@ class Date
     public $startTime;
     public $endTime;
     public $isReset;
+    public $visitor;
 
-    public function __construct($id, $startTime, $endTime, $isReset)
+    public function __construct($id, $startTime, $endTime, $isReset, $visitor)
     {
         $this->id = $id;
         $this->startTime = $startTime;
         $this->endTime = $endTime;
         $this->isReset = $isReset;
+        $this->visitor = $visitor;
     }
 
     public static function getById($conn, $id)
@@ -22,7 +24,7 @@ class Date
         $stmt->execute();
         $date = $stmt->fetch(PDO::FETCH_ASSOC);
         if ($date) {
-            return new Date($date["id"], $date["startTime"], $date["endTime"], $date["isReset"]);
+            return new Date($date["id"], $date["startTime"], $date["endTime"], $date["isReset"], $date["visitor"]);
         } else {
             return null;
         }

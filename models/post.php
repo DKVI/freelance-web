@@ -48,6 +48,33 @@ class Post
             return [];
         }
     }
+    public static function getAllSortByViews($conn)
+    {
+        try {
+            $query = "SELECT * FROM post ORDER BY views DESC";
+            $stmt = $conn->prepare($query);
+            $stmt->execute();
+
+            $postList = [];
+            while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+                $post = new Post("", "", "", "", "", "", "", "");
+                $post->id = $row['id'];
+                $post->readTimes = $row['readTimes'];
+                $post->title = $row['title'];
+                $post->fileText = $row['fileText'];
+                $post->fileImg = $row['fileImg'];
+                $post->date = $row['date'];
+                $post->views = $row['views'];
+                $post->type = $row['type'];
+                $postList[] = $post;
+            }
+
+            return $postList;
+        } catch (PDOException $e) {
+            echo "Error fetching messages: " . $e->getMessage();
+            return [];
+        }
+    }
 
     public static function getByKeyWord($conn, $keyword)
     {
@@ -132,5 +159,21 @@ class Post
         $stmt = $conn->prepare($query);
         $stmt->bindParam(":views", $views);
         return $stmt->execute();
+    }
+    public static function totalViews($conn)
+    {
+        $stmt = $conn->prepare("SELECT SUM(views) AS totalViews FROM post");
+        $stmt->execute();
+        $result = $stmt->fetch(PDO::FETCH_ASSOC);
+        $totalViews = $result["totalViews"];
+        return $totalViews;
+    }
+    public static function totalPosts($conn)
+    {
+        $stmt = $conn->prepare("SELECT COUNT(id) AS totalPosts FROM post WHERE type = 'news' OR type='event'");
+        $stmt->execute();
+        $result = $stmt->fetch(PDO::FETCH_ASSOC);
+        $totalPosts = $result["totalPosts"];
+        return $totalPosts;
     }
 }

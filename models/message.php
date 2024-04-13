@@ -92,4 +92,13 @@ class Message
         $stmt->bindParam(":id", $id);
         return $stmt->execute();
     }
+
+    public static function totalMessages($conn)
+    {
+        $query = "SELECT COUNT(*) AS totalQuestions FROM message";
+        $stmt = $conn->prepare($query);
+        $stmt->execute();
+        $result = $stmt->fetch(PDO::FETCH_ASSOC);
+        return $result['totalQuestions'];
+    }
 }

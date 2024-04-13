@@ -44,7 +44,7 @@ function resetTime($conn, $currentDate)
     }
     $newStartDate = date($year . "-" . $newStartMonth . "-" . 1);
     $newEndDate = getLastDayOfMonth($newEndMonth, $year);
-    $date = new Date(1, $newStartDate, $newEndDate, 1);
+    $date = new Date(1, $newStartDate, $newEndDate, 1, "");
     Date::setNewTime($conn, $date);
   }
 }
