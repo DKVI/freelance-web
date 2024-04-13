@@ -1,31 +1,33 @@
-# Quyền Chủ tịch nước tiếp Giám đốc Quốc gia WB tại Việt Nam
+# Nguyễn Hiến Lê: Viết để học và học để viết
 
-**Quyền Chủ tịch nước đề nghị Ngân hàng Thế giới tiếp tục hợp tác chặt chẽ, hỗ trợ Việt Nam trong quá trình phát triển; giúp Việt Nam triển khai những dự án trọng điểm quốc gia.**
+Sinh thời, học giả Nguyễn Hiến Lê từ chối những lần được vinh danh, giải thưởng, nói muốn dành đời thanh bạch cho việc "học" và "viết".
 
-Chiều 27/3, tại Phủ Chủ tịch, Quyền Chủ tịch nước Võ Thị Ánh Xuân tiếp bà Carolyn Turk, Giám đốc Quốc gia Ngân hàng Thế giới (WB) tại Việt Nam đến chào từ biệt, kết thúc nhiệm kỳ công tác.
+Nguyễn Hiến Lê sinh năm 1912, qua đời năm 1984. Sau 40 năm ngày mất, Nguyễn Hiến Lê vẫn luôn được bạn đọc và giới nghiên cứu trong nước nhớ đến như tên tuổi quan trọng của đời sống văn - nghệ thuật trong nước một thời. Ông để lại khoảng 120 tác phẩm từ dịch thuật đến biên soạn, sáng tác, trải rộng trên nhiều lĩnh vực như văn học, văn hóa, ngôn ngữ, lịch sử, triết học, giáo dục, kinh tế, chính trị. Nhiều đầu sách của ông hiện được người đọc đón nhận ở thị trường xuất bản trong nước.
 
-![](https://photo.znews.vn/w860/Uploaded/oplukaa/2024_03_24/X1.JPG)
+**Sinh ra nơi đất Bắc, thành danh ở phương Nam**
 
-*Quyền Chủ tịch nước Võ Thị Ánh Xuân tiếp Giám đốc Quốc gia Ngân hàng Thế giới tại Việt Nam Carolyn Turk. Ảnh: An Đăng/TTXVN.*
+Ông quê ở làng Phương Khê, phủ Quảng Oai, tỉnh Sơn Tây (nay thuộc xã Phú Phương, huyện Ba Vì, Hà Nội), trong gia đình vốn dòng dõi Nho học và có truyền thống yêu nước. Bác ruột của Nguyễn Hiến Lê tham gia phong trào Đông Kinh Nghĩa Thục và bị thực dân Pháp cưỡng bức lưu trú ở miền Nam. Nguyễn Hiến Lê mồ côi cha khá sớm, năm tám tuổi. Thưở nhỏ, ông học tại Hà Nội, do mẹ ông là người Hà Nội và gia đình có điều kiện cho ông theo học ở trường Yên Phụ, sau đó là học ở trường Bưởi. Năm 1934, Nguyễn Hiến Lê tốt nghiệp trường Cao đẳng Công chánh Hà Nội.
 
-Tại buổi tiếp, Quyền Chủ tịch nước Võ Thị Ánh Xuân chúc mừng bà Carolyn Turk đã có một nhiệm kỳ công tác thành công tại Việt Nam.
+Theo sự phân công của chính quyền thời đó, Nguyễn Hiến Lê vào làm việc tại các tỉnh miền Tây Nam Bộ. Từ đó về sau, quãng đời của ông gắn bó với mảnh đất phương Nam.
 
-Quyền Chủ tịch nước đánh giá cao WB trong thời gian qua đã tích cực hỗ trợ nhiều quốc gia phát triển tốt đẹp hơn, góp phần giúp nâng cao mức sống cho người dân, đặc biệt đối với các nước nghèo, các nước đang phát triển.
+Nguyễn Hiến Lê đến với công việc viết lách khá sớm. Từ năm 1935, ông bắt đầu viết du ký, tiểu luận, dịch thuật các tác phẩm văn chương. Quãng thời gian làm nhân viên ngành Thủy lợi ở Sở Công chánh các tỉnh miền Tây, ông thường xuyên đi thực địa vùng Hậu Giang, Tiền Giang, do vậy, ông có nhiều tác phẩm thể hiện sự hiểu biết về con người, đất đai ở các địa phương Tây Nam bộ.
 
-Quyền Chủ tịch nước nêu rõ 30 năm qua, Ngân hàng Thế giới đã đồng hành và có những hỗ trợ thiết thực trong quá trình Đổi mới của Việt Nam. Đối với Việt Nam, WB là một trong 3 đối tác phát triển, cung cấp vốn vay nước ngoài lớn nhất. Những nguồn vốn vay đó được phân bổ trong nhiều lĩnh vực khác nhau, thực hiện nhiều dự án mang lại hiệu quả cao, góp phần cải thiện, nâng cao đời sống nhân dân.
+Tác phẩm đầu tay của Nguyễn Hiến Lê là một cuốn du ký Bảy ngày trong Đồng Tháp Mười ghi chép những điều "mắt thấy tai nghe" trong những lần ông đi khảo sát thực địa. Thời đó, ông Vũ Đình Hòe, chủ nhiệm kiêm chủ bút báo Thanh Nghị đề nghị Nguyễn Hiến Lê viết và gửi ra Hà Nội để in. Nhưng sách viết xong, bản thảo bị mất do đó là thời điểm Chiến tranh thế giới thứ hai. Sau 1945, Nguyễn Hiến Lê mới có điều kiện viết lại cuốn sách đầu tay cũng như một số bản thảo bị thất lạc.
 
-Đặc biệt, trong nhiệm kỳ tại Việt Nam, bà Carolyn Turk đã tích cực đẩy mạnh hợp tác giữa Việt Nam và WB; trong đó có những hoạt động rất ý nghĩa như: hoãn trả nợ nhanh các khoản vay; có sáng kiến hỗ trợ các quốc gia phòng, chống COVID-19; cung cấp khoản viện trợ không hoàn lại giúp Việt Nam vượt qua đại dịch và phục hồi phát triển kinh tế xã hội; huy động nguồn lực cho đầu tư phát triển của Việt Nam…
+Sau Cách mạng tháng Tám năm 1945 rồi Toàn quốc Kháng chiến, Nguyễn Hiến Lê quyết định bỏ đời sống công chức. Ông tản cư về Long Xuyên và bắt đầu đi dạy học theo lời mời của một người bạn là Đốc phủ sứ Nguyễn Ngọc Thơ. Lúc đầu Nguyễn Hiến Lê chỉ nhận làm gia sư nhưng nể lời ông Nguyễn Ngọc Thơ, ông đến dạy ở Trường Trung học Thoại Ngọc Hầu. Dù việc dạy học thời đó mang lại cho ông địa vị xã hội và có cuộc sống khá sung túc, đến năm 1952, Nguyễn Hiến Lê quyết định lên Sài Gòn sinh sống, mở nhà xuất bản, viết và dịch sách, đồng thời còn tham gia viết báo. Từ đó, Nguyễn Hiến Lê thành danh trong giới văn chương miền Nam. Có một số tác phẩm ông để bút danh là Lộc Đình, lấy theo ký ức của tuổi thơ. Theo hồi ký của Nguyễn Hiến Lê, ông giải thích Lộc chính là ngõ Phất Lộc ở khu vực phố cổ Hà Nội, còn Đình là một cái đình ở gần ngõ đấy.
 
-Quyền Chủ tịch nước mong muốn với tình cảm và sự quan tâm sâu sắc dành cho Việt Nam, dù trên cương vị công tác nào, bà Carolyn Turk sẽ vẫn tiếp tục đóng góp tiếng nói với WB để thực hiện các cam kết giữa hai bên.
+![](../assets/imgs/home-background.png)
 
-Quyền Chủ tịch nước đề nghị thời gian tới, WB tiếp tục hợp tác chặt chẽ, hỗ trợ Việt Nam trong quá trình phát triển; giúp Việt Nam triển khai những dự án trọng điểm quốc gia, quy mô lớn trong các lĩnh vực: hạ tầng giao thông, đô thị, năng lượng tái tạo, nông nghiệp thông minh, ứng phó biến đổi khí hậu...
+_Cuốn "Hồi ký Nguyễn Hiến Lê". Ảnh: Nhà xuất bản Hồng Đức_
 
-![](https://photo.znews.vn/w860/Uploaded/oplukaa/2024_03_24/X2.JPG)
+**Sức viết đa dạng và khối lượng tác phẩm phong phú**
 
-*Quyền Chủ tịch nước Võ Thị Ánh Xuân tiếp Giám đốc Quốc gia Ngân hàng Thế giới tại Việt Nam Carolyn Turk. Ảnh: An Đăng/TTXVN.*
+Nếu một số học giả tên tuổi khác thường chỉ tập trung công sức vào một vài lĩnh vực chuyên môn, đời viết của Nguyễn Hiến Lê trải rộng nhiều lĩnh vực - thành quả từ việc thừa hưởng sự giáo dục pha trộn Nho học và Tây học.
 
-Bên cạnh đó, WB tiếp tục hỗ trợ các khoản viện trợ không hoàn lại để Việt Nam thực hiện các cam kết quốc tế với Liên hợp quốc liên quan đến các lĩnh vực như: gìn giữ hòa bình, an ninh quốc tế, biến đổi khí hậu, phát triển bền vững, bảo đảm an ninh nguồn nước, an ninh lương thực…
+Nguyễn Hiến Lê đề cập đến nhiều chủ đề trong các tác phẩm của ông, từ dịch thuật đến sáng tác, biên soạn. Ông có nhiều tác phẩm được độc giả yêu thích, được tái bản nhiều lần. Về văn chương, Nguyễn Hiến Lê chủ trương giới thiệu tinh hoa của văn học Trung Quốc cũng như những thành quả của văn chương Việt Nam. Vì vậy, ông đã biên soạn những tác phẩm như Luyện văn gồm ba tập (1953), Hương sắc trong vườn văn gồm hai tập (1962), Đại cương văn học sử Trung Quốc gồm 3 tập (1954-1966), Tô Đông Pha (1970), giới thiệu được những tinh hoa của văn học Trung Quốc cũng như nghệ thuật văn chương Việt Nam.
 
-Nhấn mạnh tới các đối tượng yếu thế, vùng sâu vùng xa, phụ nữ và trẻ em gái, Quyền Chủ tịch nước Võ Thị Ánh Xuân mong muốn trong thời gian tới, Việt Nam và WB có thêm những chương trình, dự án ưu tiên cho nhóm đối tượng này.
+Nguyễn Hiến Lê cũng thử sức trong việc dịch một số tác phẩm văn chương kinh điển của thế giới như Kiếp người của Somerset Maugham (1962), Chiến tranh và hòa bình gồm bốn tập của Lev Tolstoy (1968), Cầu trên sông Drina của Ivo Andric (1972), Một mùa hè vắng bóng chim của Han Suyin (1990). Ngoài ra ông còn dịch nhiều cổ văn Trung Quốc.
 
-Giám đốc Quốc gia Ngân hàng Thế giới tại Việt Nam Carolyn Turk cảm ơn sự ủng hộ, hỗ trợ của Quyền Chủ tịch nước, Văn phòng Chủ tịch nước và các cơ quan, bộ ngành, địa phương dành cho WB và cá nhân bà trong thời gian thực hiện nhiệm vụ tại Việt Nam.
+Ông cũng viết một số tác phẩm mang tính khảo cứu về văn hóa, văn nghệ như Nghề viết văn (1956), Vấn đề xây dựng văn hóa (1967), Con đường hòa bình, (1971) Mười câu chuyện văn chương (1975). Những tác phẩm này không chỉ đơn thuần là khảo cứu hay biên soạn, mà qua đó còn thể hiện quan điểm của ông về văn hóa với mục đích xây dựng một nền văn hóa, văn nghệ tiến bộ. Đồng thời, ông thể hiện tình yêu dành cho tiếng Việt qua một số sách khảo cứu như Để hiểu văn phạm (1952), Khảo luận về ngữ pháp Việt Nam (1963.
+
+Trong lĩnh vực giáo dục, tác phẩm của Nguyễn Hiến Lê có thể chia thành nhiều chủ đề. Ông giới thiệu một loạt những tấm gương danh nhân để làm bài học thiết thực cho nhiều tầng lớp. Có thể kể đến: Gương hy sinh (1962), Gương kiên nhẫn (1964), Gương chiến đấu (1966), Ý chí sắt đá (1971), Những cuộc đời ngoại hạng (1970), Einstein (1971).
