@@ -1,7 +1,9 @@
 .header {
-    display: none;
+  display: none;
 }
-
+.popup-component {
+  display: none !important;
+}
 .footer {
-    display: none;
+  display: none;
 }

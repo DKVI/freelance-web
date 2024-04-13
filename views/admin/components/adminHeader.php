@@ -17,7 +17,7 @@
             </a>
 
             <div class="dropdown-menu shadow " aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="<?php echo BASE_URL . "/admin/verifyEmail" ?>">Change Password</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL . "/admin/change-password" ?>">Change Password</a>
                 <a class="dropdown-item" href="<?php echo BASE_URL . "/admin/login" ?>">Logout</a>
             </div>
         </div>
