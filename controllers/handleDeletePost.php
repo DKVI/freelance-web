@@ -15,8 +15,14 @@ if (isset($_GET['id'])) {
             unlink($file_path . $news->fileText);
         }
         Post::delete($conn, $id);
-        echo "xóa thành công!";
+        echo "<script>
+            Alert('Xóa post thành công');
+            window.location.href='" . BASE_URL . "/admin/posts';  
+        </script>";
     } catch (\Throwable $e) {
-        echo "xảy ra lỗi!";
+        echo "<script>
+            Alert('Xóa post thất bại, vui lòng thử lại!');
+            window.location.href='" . BASE_URL . "/admin/posts';  
+        </script>";
     }
 }

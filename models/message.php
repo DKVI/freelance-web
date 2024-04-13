@@ -34,7 +34,7 @@ class Message
     public static function getAllMessages($conn)
     {
         try {
-            $query = "SELECT * FROM message ORDER BY date DESC";
+            $query = "SELECT * FROM message ORDER BY time DESC";
             $stmt = $conn->prepare($query);
             $stmt->execute();
 
