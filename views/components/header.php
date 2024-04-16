@@ -1,5 +1,5 @@
 <!-- LOGO AREA -->
-<div class="logo-area container-fluid fixed-top" style="">
+<div class="logo-area container-fluid fixed-top vn" style="">
     <nav class=" navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="menu-nav text-center justify-content-center align-items-center col-lg-4">
             <a class="navbar-brand" href="<?php echo BASE_URL ?>/home">
@@ -13,94 +13,67 @@
             <div class="collapse navbar-collapse" id="navResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown custom-scrollbar">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Về MSS</a>
                         <ul class="dropdown-menu dropdown-menu-light">
-                            <li><a class="dropdown-item" href="#">About Us</a></li>
+                            <li><a class="dropdown-item" href="#">Lời ngỏ từ Nhà sáng lập</a></li>
                             <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="#">Our Team</a></li>
+                            <li><a class="dropdown-item" href="#">Sứ mệnh của MSS</a></li>
                             <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="#">Our Friends</a></li>
+                            <li><a class="dropdown-item" href="#">Biểu tượng và triết lý của MSS</a></li>
+                            <li><a class="dropdown-item" href="#">Đội ngũ của MSS</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">M.S.S</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Chương trình học</a>
                         <ul class="dropdown-menu dropdown-menu-light custom-scrollbar">
-                            <li><a class="dropdown-item" href="#">Artical 1</a></li>
+                            <li><a class="dropdown-item" href="#">Mooting là gì?</a></li>
                             <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="#">Artical 2</a></li>
+                            <li><a class="dropdown-item" href="#">Tổng quan chương trình</a>
+                                <!-- <ul class="dropdown-menu dropdown-menu-light custom-scrollbar">
+                                   <li><a class="dropdown-item" href="#">Buổi học thử</a></li>
+                                    <hr class="dropdown-divider">
+                                    <li><a class="dropdown-item" href="#">Các buổi về kỹ năng nên có trước cuộc thi</a></li>
+                                    <hr class="dropdown-divider">
+                                    <li><a class="dropdown-item" href="#">Các buổi về kỹ năng trong giai đoạn đầu của giải moot</a></li>
+                                    <li><a class="dropdown-item" href="#">Các buổi về kỹ năng viết bài biện hộ</a></li>
+                                    <li><a class="dropdown-item" href="#">Các buổi về kỹ năng tranh tụng nói</a></li>
+                                </ul> -->
+                            </li>
                             <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="#">Artical 3</a></li>
+                            <li><a class="dropdown-item" href="#">Tổng quan các buổi lý thuyết</a></li>
                             <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="#">Artical 4</a></li>
-                            <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="#">Artical 5</a></li>
-                            <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="#">Artical 6</a></li>
-                            <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="#">Artical 7</a></li>
-                            <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="#">Artical 8</a></li>
-                            <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="#">Artical 9</a></li>
-                            <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="#">Artical 10</a></li>
-                            <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="#">Artical 11</a></li>
-                            <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="#">Artical 12</a></li>
-                            <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="#">Artical 13</a></li>
-                            <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="#">Artical 14</a></li>
-                            <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="#">Artical 15</a></li>
-                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="#">Tổng quan các buổi thực hành</a></li>
+                            <li><a class="dropdown-item" href="#">Các buổi kết thúc khóa học</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Review</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Học phí</a>
                         <ul class="dropdown-menu dropdown-menu-light">
-                            <li><a class="dropdown-item" href="#">Mentee</a></li>
+                            <li><a class="dropdown-item" href="#">Các gói học và quyền lợi</a></li>
                             <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="#">Mooter</a></li>
-                            <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="#">Judges & Organizations</a></li>
+                            <li><a class="dropdown-item" href="#">Tổ chức phi lợi nhuận và thu phí</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pricing</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">News & Events</a>
                         <ul class="dropdown-menu dropdown-menu-light">
-                            <li><a class="dropdown-item" href="#">Pricing Scheme</a></li>
+                            <li><a class="dropdown-item" href="#">Thông báo mở đơn đăng ký khóa học</a></li>
                             <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="#">Scholarship</a></li>
+                            <li><a class="dropdown-item" href="#">Về Giám khảo Khách mời và Diễn giả khách mời</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown"><a class="nav-link" href="#">News & Events</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">FAQ</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Bảo chứng từ cộng đồng</a>
                         <ul class="dropdown-menu dropdown-menu-light custom-scrollbar">
-                            <li><a class="dropdown-item" href="#">Question no.1</a></li>
+                            <li><a class="dropdown-item" href="#">Từ Mentee</a></li>
                             <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="#">Question no.2</a></li>
+                            <li><a class="dropdown-item" href="#">Từ cựu mooter</a></li>
                             <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="#">Question no.3</a></li>
-                            <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="#">Question no.4</a></li>
-                            <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="#">Question no.5</a></li>
-                            <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="#">Question no.6</a></li>
-                            <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="#">Question no.7</a></li>
-                            <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="#">Question no.8</a></li>
-                            <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="#">Question no.9</a></li>
-                            <hr class="dropdown-divider">
-                            <li><a class="dropdown-item" href="#">Question no.10</a></li>
+                            <li><a class="dropdown-item" href="#">Từ giám khảo và các tổ chức</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown"><a class="nav-link" href="#">Contact Us</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link" href="#">FAQ</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link" href="#">Liên hệ</a></li>
                 </ul>
             </div>
         </div>
