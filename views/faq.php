@@ -7,7 +7,7 @@
             </div>
             <div class="container d-flex justify-content-center">
                 <div class='col-lg-8'>
-                    <!--1 question-->
+                    <!-- question-->
                     <div class="faq-container">
                         <div class="faq-label">
                             <div class="faq-label-text">
@@ -40,7 +40,7 @@
                         </div>
                     </div>
                 
-                    <!--2 question-->
+                    <!-- question-->
                     <div class="faq-container">
                         <div class="faq-label">
                             <div class="faq-label-text">
@@ -58,7 +58,7 @@
                         </div>
                     </div>
                 
-                    <!-- 3 question -->
+                    <!-- question -->
                     <div class="faq-container">
                         <div class="faq-label">
                             <div class="faq-label-text">
@@ -77,7 +77,7 @@
 
                         </div>
                     </div>
-                    <!-- 4 question -->
+                    <!-- question -->
                     <div class="faq-container">
                         <div class="faq-label">
                             <div class="faq-label-text">
@@ -91,6 +91,100 @@
                             <div class="faq-answer-content">
                             <p>Để đảm bảo chất lượng cao nhất, một lớp của MSS sẽ không có quá 25 học viên, bao gồm cả gói Essentials và Advantaged.</p>
                             <p>Tuy nhiên, vì đây là chương trình đào tạo chuyên về mooting đầu tiên tại Việt Nam, MSS cũng chưa thể có được một ước tính chính xác về nhu cầu, cũng như quan tâm thực sự của cộng đồng dành cho mooting. Vì vậy, trong trường hợp số lượng tăng đột biến, MSS có thể cân nhắc tăng số lượng học viên tối đa, nhưng không sẽ không quá 40 học viên.</p>  
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- 5 question -->
+                    <div class="faq-container">
+                        <div class="faq-label">
+                            <div class="faq-label-text">
+                            Mình có cần phải thực hiện bài kiểm tra nào khi đăng ký tham gia MSS hay không?
+                            </div>
+                            <div class="faq-label-icon">
+                            <i class="fa-solid fa-angle-down material-icons"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer ">
+                            <div class="faq-answer-content">
+                            <p>MSS sẽ có bài kiểm tra nhỏ khi các bạn đăng ký tham gia. Mục đích của bài kiểm tra nhằm đánh giá sự phù hợp của cá nhân đó với khóa học được đăng ký, không phải để chấm điểm trình độ hay xếp hạng năng lực.</p>
+                            <p>Việc điền form đăng ký của MSS sẽ bao gồm 03 bước:</p>
+                            <ul>
+                                <li>Bước 1: Điền các thông tin cá nhân, gói học lựa chọn, v.v.</li>
+                                <li>Bước 2: Thực hiện bài kiểm tra của MSS</li>
+                                <li>Bước 3: Nộp form đăng ký, và chờ kết quả</li>
+                            </ul>  
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- question -->
+                    <div class="faq-container">
+                        <div class="faq-label">
+                            <div class="faq-label-text">
+                            Sau bao lâu mình có thể nhận được thông báo đăng ký thành công?
+                            </div>
+                            <div class="faq-label-icon">
+                            <i class="fa-solid fa-angle-down material-icons"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer ">
+                            <div class="faq-answer-content">
+                            <p> sẽ thông báo qua email kết quả đủ điều kiện để đóng học phí trong vòng 03 ngày làm việc, sau khi hết thời hạn đăng ký.</p>
+                            <p>Trong vòng 05 ngày làm việc kể từ ngày nhận được thông báo, các bạn vui lòng thực hiện thanh toán theo thông tin chuyển khoản được MSS cung cấp trong email thông báo ban đầu. </p>
+                            <p>MSS sẽ gửi email xác nhận thanh toán thành công và hoàn thành đăng ký thông qua email.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- question -->
+                    <div class="faq-container">
+                        <div class="faq-label">
+                            <div class="faq-label-text">
+                            Sau khi chương trình kết thúc, MSS có cấp chứng chỉ hoàn thành khóa học hay không?
+                            </div>
+                            <div class="faq-label-icon">
+                            <i class="fa-solid fa-angle-down material-icons"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer ">
+                            <div class="faq-answer-content">
+                            <p>ĐMSS không cấp chứng chỉ sau khi kết thúc khóa học. Điều này phù hợp với tinh thần xây dựng giá trị thực cho cộng đồng mooting của MSS.</p>  
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- question -->
+                    <div class="faq-container">
+                        <div class="faq-label">
+                            <div class="faq-label-text">
+                            Chương trình có bồi dưỡng kiến thức pháp lý (luật nội dung, luật tố tụng, các nguyên tắc quốc tế, phán quyết, bản án, v.v) thường áp dụng cho các cuộc thi moot hay không?
+                            </div>
+                            <div class="faq-label-icon">
+                            <i class="fa-solid fa-angle-down material-icons"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer ">
+                            <div class="faq-answer-content">
+                            <p>MSS tập trung vào việc phát triển các kỹ năng mềm bản lề cho việc tham gia các cuộc thi moot, như nghiên cứu, viết bài biện hộ, và biện hộ nói. Vì vậy, ở thời điểm hiện tại, nội dung của MSS không tập trung vào các kiến thức pháp lý cần thiết cho các cuộc thi moot cụ thể, vì dụ như kiến thức về Công ước Viên về Mua bán Hàng hóa Quốc tế 1980 đối với Vis Moot/ Vis East, hay kiến thức về luật đầu tư quốc tế với FDI Moot.</p>  
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- question -->
+                    <div class="faq-container">
+                        <div class="faq-label">
+                            <div class="faq-label-text">
+                            Mình đăng ký học gói Advantaged, nhưng ngại việc phải trình bày trong các buổi Mock. Mình có thể được làm tham gia với tư các Quan sát viên trong các buổi mock được không? Sau đó mình có thể đổi ý và chuyển về lại làm Người thực hành trong các buổi mock được không?
+                            </div>
+                            <div class="faq-label-icon">
+                            <i class="fa-solid fa-angle-down material-icons"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer ">
+                            <div class="faq-answer-content">
+                            <p>Nhằm mục đích tối đa hóa thời gian cho các học viên chuẩn bị trước buổi Mock, MSS sẽ xếp đội, cặp đấu, vai trò đại diện một cách ngẫu nhiên để thông báo trong buổi học đầu tiên. Để làm được điều đó, MSS cần xác định cụ thể về nhóm Người thực hành. Vì vậy, trong form đăng ký, MSS sẽ cho phép các học viên gói Advantaged được lựa chọn tư cách tham gia buổi Mock (i.e., Người thực hành hoặc Quan sát viên). Sau khi gửi form đăng ký, học viên sẽ không có quyền thay đổi lựa chọn lại.</p>
+                            <p>Tuy nhiên, MSS không khuyến nghị các học viên gói Advanged lựa chọn tư cách Quan sát viên. Đây là quyền lợi ưu tiên của các bạn. Việc tham gia Mock sẽ tạo cơ hội cho các bạn tập luyện, áp dụng các kỹ năng, kiến thúc được dạy trong chương trình. Đồng thời, các bạn sẽ được nhận xét riêng về phần trình bày của mình từ các Giám khảo khách mời, để có thể tiếp tục phát triển khả năng của bản thân.</p>  
                             </div>
 
                         </div>

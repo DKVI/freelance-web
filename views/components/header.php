@@ -72,7 +72,16 @@
                             <li><a class="dropdown-item" href="#">Từ giám khảo và các tổ chức</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown"><a class="nav-link" href="#">FAQ</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link" href="#">FAQ</a>
+                        <ul class="dropdown-menu dropdown-menu-light">
+                            <li><a class="dropdown-item" href="#">Về chương trình</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="#">Về nội quy trong lớp</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="#">Về gói học</a></li>
+                            <li><a class="dropdown-item" href="#">Về học phí</a></li>
+                        </ul>
+                    </li>
                     <li class="nav-item dropdown"><a class="nav-link" href="#">Liên hệ</a></li>
                 </ul>
             </div>
