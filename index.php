@@ -7,6 +7,7 @@ include_once "./models/database.php";
 include_once "./models/message.php";
 include_once "./models/date.php";
 include_once "./models/post.php";
+include_once "./models/hashtag.php";
 include_once "./utils/index.php";
 //instance database
 $conn = require "./inc/db.php";
@@ -21,6 +22,12 @@ $segments = explode('/', $uri);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ------------- -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+    <!-- ----------------------- -->
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -28,6 +35,8 @@ $segments = explode('/', $uri);
     <title>Mooting Summer School</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css" />
     <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 </head>
 
 <?php
@@ -36,6 +45,9 @@ if (isset($_GET['language'])) {
     $language = $_GET['language'];
 }
 ?>
+<?php
+include "./views/components/goToTop.php";
+?>
 
 <body class="custom-scrollbar">
 
@@ -43,11 +55,19 @@ if (isset($_GET['language'])) {
     <!-- Add layout using router -->
     <div class="header">
         <!-- Add header to all pages -->
-        <?php include __DIR__ . "/views/components/header.php" ?>
+
+        <?php
+        if ($segments[2] !== 'admin') {
+            include __DIR__ . "/views/components/header.php";
+        }
+        ?>
     </div>
     <div class="main">
         <?php
         $route = $segments[2] . (isset($segments[3]) ?  '/' . $segments[3] : "");
+        if ($segments[2] !== 'admin') {
+            include "./views/components/popupMessage.php";
+        }
         switch ($route) {
             case "":
                 include __DIR__ . "/views/home.php";
@@ -81,6 +101,9 @@ if (isset($_GET['language'])) {
                 break;
             case "admin/editPost":
                 include __DIR__ . "/views/admin/editPost.php";
+                break;
+            case "admin/hashtag":
+                include __DIR__ . "/views/admin/hashtag.php";
                 break;
             case "admin/messages":
                 include __DIR__ . "/views/admin/message.php";
@@ -125,10 +148,6 @@ if (isset($_GET['language'])) {
     <?php
     $currentDate = date("Y-m-d");
     resetTime($conn, $currentDate);
-    ?>
-    <?php
-    include "./views/components/popupMessage.php";
-    include "./views/components/goToTop.php";
     ?>
 </body>
 

@@ -62,7 +62,7 @@ if (isset($_POST['md-file'])) {
             $text = $_POST['md-file'];
             $myfile = fopen("../uploads/posts/" . $id . ".md", "w");
             fwrite($myfile, $text);
-            $updatePost = new Post($id, $readTimes, $title, $id . '.md', $data->fileImg, date('Y-m-d'), $post->views, $type);
+            $updatePost = new Post($id, $readTimes, $title, $id . '.md', $data->fileImg, date('Y-m-d'), $post->views, $type,"", "", "");
             Post::update($conn, $updatePost, $id);
             $_SESSION["message"] =  'Update post "' . $title . '" successfully!';;
             if (file_exists("../uploads/post/test.md")) {
@@ -77,7 +77,7 @@ if (isset($_POST['md-file'])) {
             $text = $_POST['md-file'];
             $myfile = fopen("../uploads/posts/" . $id . ".md", "w");
             fwrite($myfile, $text);
-            $updatePost = new Post($id, $readTimes, $title, $id . '.md', $post->fileImg, date('Y-m-d'), $post->views, $type);
+            $updatePost = new Post($id, $readTimes, $title, $id . '.md', $post->fileImg, date('Y-m-d'), $post->views, $type, "", "", "");
             Post::update($conn, $updatePost, $id);
             $_SESSION["message"] =  'Update post "' . $title . '" successfully!';;
             if (file_exists("../uploads/posts/test.md")) {
@@ -104,7 +104,8 @@ if (isset($_POST['md-file'])) {
                 <div class="modal-footer">
                     <a type="button" href="<?php echo BASE_URL . '/admin/posts' ?>" class="btn btn-primary">Back To
                         Post</a>
-                    <a type="button" href="<?php echo BASE_URL . '/admin/addPost' ?>" class="btn btn-success" data-dismiss="modal">Create New Post</a>
+                    <a type="button" href="<?php echo BASE_URL . '/admin/addPost' ?>" class="btn btn-success"
+                        data-dismiss="modal">Create New Post</a>
                 </div>
             </div>
         </div>

@@ -10,6 +10,45 @@ $totalViews = Post::totalViews($conn);
 $totalPosts = Post::totalPosts($conn);
 $totalMessages = Message::totalMessages($conn);
 $postsList = Post::getAllSortByViews($conn);
+function renderElement($element)
+{
+    if ($element->type == "static") {
+        echo '<div class="d-flex px-4 py-2 shadow rounded-4 justify-content-around " style="height: 100px; cursor: not-allowed;">
+                                    <div class="h-100 px-3" style="width: 20%"><div class="h-100 w-100 shadow rounded-4" style="background-image: url(' . BASE_URL . '/uploads/imgs/' . $element->fileImg . '); background-size: cover; background-position: center;"></div>
+                                    </div>
+                                            <div class="w-75 h-100 px-3" style="overflow: hidden;
+                                            text-overflow: ellipsis;
+                                            white-space: nowrap;">
+                                                <div class="text-decoration-none fw-bold" style="color: #274069; font-size: 24px;">' . $element->title . '</div>
+                                    <div class="mt-3">
+                                    <span>' . convertDate($element->date) . ' - </span>
+                                    <span>' . ($element->readTimes) . ' minues read</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="m-auto"><span class="p-2">' . $element->views . '</span><i class="fa-regular fa-eye"></i></div>
+                                </div>
+                            </div>';
+    } else {
+        echo '<div class="d-flex px-4 py-2 shadow rounded-4 justify-content-around " style="height: 100px;">
+                                    <div class="h-100 px-3" style="width: 20%"><div class="h-100 w-100 shadow rounded-4" style="background-image: url(' . BASE_URL . '/uploads/imgs/' . $element->fileImg . '); background-size: cover; background-position: center;"></div>
+                                    </div>
+                                            <div class="w-75 h-100 px-3" style="overflow: hidden;
+                                            text-overflow: ellipsis;
+                                            white-space: nowrap;">
+                                                <a href="' . BASE_URL . '/admin/editPost?id=' . $element->id . '"
+                                    class="text-decoration-none fw-bold" style="color: #274069; font-size: 24px;">' . $element->title . '</a>
+                                    <div class="mt-3">
+                                    <span>' . convertDate($element->date) . ' - </span>
+                                    <span>' . ($element->readTimes) . ' minues read</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="m-auto"><span class="p-2">' . $element->views . '</span><i class="fa-regular fa-eye"></i></div>
+                                </div>
+                            </div>';
+    }
+}
 ?>
 <link href="../css/admin.css" rel="stylesheet">
 <?php include  __DIR__ .  "/components/adminHeader.php" ?>
@@ -78,22 +117,7 @@ $postsList = Post::getAllSortByViews($conn);
                     <div class="px-5 d-flex flex-column" style="gap: 16px">
                         <?php
                         foreach ($postsList as $post) {
-                            echo '<div class="d-flex px-4 py-2 shadow rounded-4 justify-content-around " style="height: 100px;">
-                                    <div class="h-100 px-3" style="flex: none;"><img class="h-100 shadow rounded-4" src=" ../uploads/imgs/' . $post->fileImg . '">
-                                    </div>
-                                            <div class="w-75 h-100 px-3" style="overflow: hidden;
-                                            text-overflow: ellipsis;
-                                            white-space: nowrap;">
-                                                <div class="text-decoration-none fw-bold" style="color: #274069; font-size: 24px;">' . $post->title . '</div>
-                                    <div class="mt-3">
-                                    <span>' . convertDate($post->date) . ' - </span>
-                                    <span>' . ($post->readTimes) . ' minues read</span>
-                                    </div>
-                                </div>
-                                <div class="d-flex">
-                                    <div class="m-auto"><span class="p-2">' . $post->views . '</span><i class="fa-regular fa-eye"></i></div>
-                                </div>
-                            </div>';
+                            renderElement($post);
                         }
                         ?>
                     </div>

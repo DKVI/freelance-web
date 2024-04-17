@@ -1,10 +1,12 @@
 <!-- Check login admin -->
+
 <?php
 if (!isset($_SESSION["is_admin"])) {
     // return to login page for admin 
     echo '<script>window.location.href = "' . BASE_URL . '/home"</script>';
-} else {
 }
+$path = BASE_URL . '/views/components/popupMessage.php';
+unset($path);
 $mode = "";
 if (isset($_GET["mode"])) {
     $mode = $_GET["mode"];
@@ -27,6 +29,7 @@ if (file_exists("./uploads/posts/test.md")) {
                     <label class="form-label">Title:</label>
                     <input class="shadow form-control" type="text" placeholder="Enter post's title" name="title" required>
                 </div>
+
                 <div class="form-group py-3 d-flex" style="gap: 16px">
                     <div class="w-50">
                         <label class="form-label">Read Time(minues):</label>
@@ -34,10 +37,31 @@ if (file_exists("./uploads/posts/test.md")) {
                     </div>
                     <div class="w-50">
                         <label class="form-label">Type:</label>
-                        <select class="shadow form-select" name="type" aria-label="Default select example">
-                            <option selected class="text-center">-- Select type of this post --</option>
+                        <select class="shadow form-select" name="type" aria-label="Default select example" required>
+                            <option value="" class="text-center" selected>-- Select type of this post --</option>
                             <option value="event" class="text-center ">Event</option>
                             <option value="news" class="text-center ">News</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group py-3 d-flex" style="gap: 16px">
+                    <div class="w-50">
+                        <label class="form-label">Hashtag:</label>
+                        <select id="mySelect" name="hashtag[]" multiple="multiple" class="form-control">
+                            <?php
+                            $hashtagList = Hashtag::getAll($conn);
+                            foreach ($hashtagList as $hashtag) {
+                                echo "<option value=" . $hashtag->id . ">$hashtag->nametag</option>";
+                            }
+                            ?>
+                        </select>
+                    </div>
+                    <div class=" w-50">
+                        <label class="form-label">Priority</label>
+                        <select class="shadow form-select" name="priority" id="priority" aria-label="Default select example" required>
+                            <option selected value="" class="text-center">-- Select priority --</option>
+                            <option value="false" class="text-center" selected>None</option>
+                            <option value="true " class="text-center ">Pin</option>
                         </select>
                     </div>
                 </div>
@@ -45,7 +69,7 @@ if (file_exists("./uploads/posts/test.md")) {
                     <label class="form-label">Thumbnail:</label>
                     <div class="d-flex" style="gap: 16px;">
                         <input type="file" id="image-input" name="myfile" class="shadow w-50 form-control" onchange="displayImage()">
-                        <img id="preview-image" src="#" alt="Image Preview" class="w-50 form-control shadow " style="display: none;">
+                        <img id="preview-image" src="<?php echo BASE_URL . '/uploads/imgs/default.png'; ?>" alt="Image Preview" class="w-50 form-control shadow">
                     </div>
                 </div>
                 <div class="form-group py-3">
@@ -96,9 +120,49 @@ if (file_exists("./uploads/posts/test.md")) {
 <script>
     const submitBtn = document.querySelector(".submit-btn");
     const form = document.querySelector("form");
-    submitBtn.onclick = () => {
-        form.submit();
+    const validateData = () => {
+        const title = document.querySelector('input[name="title"]');
+        const readTime = document.querySelector('input[name="times"]');
+        const priority = document.querySelector('select[name="priority"]');
+        const type = document.querySelector('select[name="type"]');
+
+        if (title.value.length === 0) {
+            alert("Please enter title");
+            title.focus();
+            $(".gototop-component").click();
+            return false;
+        }
+        if (readTime.value.length === 0) {
+            alert("Please enter read time");
+            readTime.focus();
+            $(".gototop-component").click();
+            return false;
+        }
+        if (type.value.length === 0) {
+            alert("Please choose type");
+            type.focus();
+            $(".gototop-component").click();
+            return false;
+        }
+
+        if (priority.value.length === 0) {
+            alert("Please choose priority");
+            priority.focus();
+            $(".gototop-component").click();
+            return false;
+        }
+
+        return true;
     }
+    submitBtn.onclick = (e) => {
+        const isValid = validateData();
+        if (isValid) {
+            form.submit();
+        } else {
+            e.preventDefault();
+        }
+    }
+
     const previewBtn = document.querySelector(".preview-btn");
     const previewMode = document.querySelector(".preview-mode");
     window.addEventListener('beforeunload', function(e) {
@@ -181,4 +245,25 @@ if (file_exists("./uploads/posts/test.md")) {
             previewImage.style.display = 'none';
         }
     }
+    $(document).ready(function() {
+        $('#mySelect').select2({
+            multiple: true,
+            width: "100%"
+        });
+    });
 </script>
+
+<style>
+    .select2-selection.select2-selection--multiple {
+        height: 50px;
+        overflow-y: auto;
+        box-shadow: 2px 2px 5px #cccc !important;
+    }
+
+    .select2-selection__choice {
+        background-color: rgb(39 64 105) !important;
+        color: white;
+        box-shadow: 2px 2px 10px #cccc !important;
+        padding: 5px;
+    }
+</style>

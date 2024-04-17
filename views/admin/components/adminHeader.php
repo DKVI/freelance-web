@@ -6,9 +6,9 @@
     </div>
     <div class="d-flex justify-content-between" style="width: 30%;">
         <a class="text-white text-decoration-none" href="<?php echo BASE_URL . '/admin/home' ?>" style="cursor: pointer">Home</a>
-        <a class="text-white text-decoration-none" href="<?php echo BASE_URL . '/admin/posts' ?>" style=" cursor:
-            pointer">Posts</a>
+        <a class="text-white text-decoration-none" href="<?php echo BASE_URL . '/admin/posts' ?>" style=" cursor:pointer">Posts</a>
         <a class="text-white text-decoration-none" href="<?php echo BASE_URL . '/admin/messages' ?>" style="cursor: pointer">Messages</a>
+        <a class="text-white text-decoration-none" href="<?php echo BASE_URL . '/admin/hashtag' ?>" style="cursor: pointer">Hashtag</a>
     </div>
     <div class="px-5 w-1/3 d-flex justify-content-end " style="width: 30%;">
         <div class="px-4 dropdown show">

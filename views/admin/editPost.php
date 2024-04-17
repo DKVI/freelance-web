@@ -20,37 +20,37 @@ if (file_exists($file_path)) {
 }
 ?>
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" defer></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <link href="../css/admin.css" rel="stylesheet">
 <?php include  __DIR__ .  "/components/adminHeader.php" ?>
 <!-- Create Mode HTML -->
 <div class="main container position-relative pb-5">
     <div class="" style="padding: 0 150px">
-        <form class="form-post" action="../controllers/handleUpdatePost.php?id=<?php echo $post->id ?>"
-            class="m-auto w-75" method="post" enctype="multipart/form-data">
+        <form class="form-post" action="../controllers/handleUpdatePost.php?id=<?php echo $post->id ?>" class="m-auto w-75" method="post" enctype="multipart/form-data">
             <h1 style="color: #274069">UPDATE POST id: <span><?php echo $post->id ?></span></h1>
             <div>
                 <div class="form-group py-3">
                     <label class="form-label">Title:</label>
-                    <input class="shadow form-control" type="text" placeholder="Enter post's title"
-                        value="<?php echo $post->title  ?>" name="title" required>
+                    <input class="shadow form-control" type="text" placeholder="Enter post's title" value="<?php echo $post->title  ?>" name="title" required>
                 </div>
                 <div class="form-group py-3 d-flex" style="gap: 16px">
                     <div class="w-50">
                         <label class="form-label">Read Time(minues):</label>
-                        <input class="shadow form-control" value="<?php echo $post->readTimes ?>" type="number"
-                            placeholder="Enter post's read times" name="times" required>
+                        <input class="shadow form-control" value="<?php echo $post->readTimes ?>" type="number" placeholder="Enter post's read times" name="times" required>
                     </div>
                     <div class="w-50">
                         <label class="form-label">Type:</label>
                         <select class="shadow form-select" name="type" aria-label="Default select example">
                             <option selected class="text-center">-- Select type of this post --</option>
                             <?php
-                            echo ($post->type == 'event') ? '<option value="event" class="text-center" selected>Event</option>
-                                <option value="news" class="text-center">News</option>' : '<option value="event" class="text-center">Event</option>
+                            if ($post->type == "static") {
+                                echo '<option value="static" class="text-center" selected>Static page</option><option value="event" class="text-center">Event</option>
+                                <option value="news" class="text-center">News</option>';
+                            } else {
+                                echo ($post->type == 'event') ? '<option value="static" class="text-center">Static page</option><option value="event" class="text-center" selected>Event</option>
+                                <option value="news" class="text-center">News</option>' : '<option value="static" class="text-center">Static page</option><option value="event" class="text-center">Event</option>
                                 <option value="news" class="text-center" selected>News</option>';
+                            }
                             ?>
                         </select>
                     </div>
@@ -58,10 +58,8 @@ if (file_exists($file_path)) {
                 <div class="form-group py-3">
                     <label class="form-label">Thumbnail:</label>
                     <div class="d-flex" style="gap: 16px;">
-                        <input type="file" id="image-input" name="myfile" class="w-50 form-control shadow"
-                            onchange="displayImage()">
-                        <img id="preview-image" src="<?php echo BASE_URL . "/uploads/imgs/" . $post->fileImg ?>"
-                            alt="Image Preview" class="shadow w-50 form-control">
+                        <input type="file" id="image-input" name="myfile" class="w-50 form-control shadow" onchange="displayImage()">
+                        <img id="preview-image" src="<?php echo BASE_URL . "/uploads/imgs/" . $post->fileImg ?>" alt="Image Preview" class="shadow w-50 form-control">
                     </div>
                 </div>
                 <div class="form-group py-3">
@@ -93,28 +91,27 @@ if (file_exists($file_path)) {
 
         <!-- Preview Mode CSS -->
         <style>
-        html {
-            font-size: 18px;
-        }
+            html {
+                font-size: 18px;
+            }
 
-        h1 {
-            padding: 30px 0;
-        }
+            h1 {
+                padding: 30px 0;
+            }
 
-        p>em {
-            font-size: 14px;
-        }
+            p>em {
+                font-size: 14px;
+            }
 
 
-        code {
-            max-width: 100%;
-        }
+            code {
+                max-width: 100%;
+            }
         </style>
     </div>
 </div>
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -137,34 +134,34 @@ if (file_exists($file_path)) {
 </div>
 <!-- Preview Mode Script -->
 <script>
-const submitBtn = document.querySelector(".submit-btn");
-const form = document.querySelector("form");
-submitBtn.onclick = () => {
-    form.submit();
-}
-const previewBtn = document.querySelector(".preview-btn");
-const previewMode = document.querySelector(".preview-mode");
-window.addEventListener('beforeunload', function(e) {
-    e.preventDefault();
-    e.returnValue = '';
-});
-const data = `<?php echo $data ?>`;
-console.log(data);
-var simplemde = new SimpleMDE({
-    element: document.getElementById("input-file"),
-    initialValue: `${data}`
-});
-console.log(form);
-previewBtn.onclick = async () => {
-    await $('form').submit(function(event) {
-        console.log(true);
-        event.preventDefault(); // Prevent default form submission
-        $.ajax({
-            url: '../controllers/handlePreview.php',
-            type: 'POST', // Specify POST method for sending data
-            data: $(this).serialize(), // Serialize form data using jQuery
-            success: function(data) {
-                <?php
+    const submitBtn = document.querySelector(".submit-btn");
+    const form = document.querySelector("form");
+    submitBtn.onclick = () => {
+        form.submit();
+    }
+    const previewBtn = document.querySelector(".preview-btn");
+    const previewMode = document.querySelector(".preview-mode");
+    window.addEventListener('beforeunload', function(e) {
+        e.preventDefault();
+        e.returnValue = '';
+    });
+    const data = `<?php echo $data ?>`;
+    console.log(data);
+    var simplemde = new SimpleMDE({
+        element: document.getElementById("input-file"),
+        initialValue: `${data}`
+    });
+    console.log(form);
+    previewBtn.onclick = async () => {
+        await $('form').submit(function(event) {
+            console.log(true);
+            event.preventDefault(); // Prevent default form submission
+            $.ajax({
+                url: '../controllers/handlePreview.php',
+                type: 'POST', // Specify POST method for sending data
+                data: $(this).serialize(), // Serialize form data using jQuery
+                success: function(data) {
+                    <?php
                     echo '
                         async function render() {
                             async function convertMarkdown() {
@@ -199,32 +196,32 @@ previewBtn.onclick = async () => {
                         }';
                     ?>
 
-            },
-            error: function(jqXHR, textStatus, errorThrown) {
-                // Handle errors during request
-                console.error(textStatus, errorThrown);
-            }
+                },
+                error: function(jqXHR, textStatus, errorThrown) {
+                    // Handle errors during request
+                    console.error(textStatus, errorThrown);
+                }
+            });
         });
-    });
-}
-
-function displayImage() {
-    const imageInput = document.getElementById('image-input');
-    const previewImage = document.getElementById('preview-image');
-
-    // Check if a file is selected
-    if (imageInput.files && imageInput.files[0]) {
-        const reader = new FileReader();
-
-        reader.onload = function(e) {
-            previewImage.src = e.target.result;
-            previewImage.style.display = 'block';
-        };
-
-        reader.readAsDataURL(imageInput.files[0]);
-    } else {
-        previewImage.src = "#";
-        previewImage.style.display = 'none';
     }
-}
+
+    function displayImage() {
+        const imageInput = document.getElementById('image-input');
+        const previewImage = document.getElementById('preview-image');
+
+        // Check if a file is selected
+        if (imageInput.files && imageInput.files[0]) {
+            const reader = new FileReader();
+
+            reader.onload = function(e) {
+                previewImage.src = e.target.result;
+                previewImage.style.display = 'block';
+            };
+
+            reader.readAsDataURL(imageInput.files[0]);
+        } else {
+            previewImage.src = "#";
+            previewImage.style.display = 'none';
+        }
+    }
 </script>

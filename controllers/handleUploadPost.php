@@ -49,26 +49,34 @@ if (isset($_POST['md-file'])) {
     $title = $_POST["title"];
     $readTime = $_POST["times"];
     $type = $_POST["type"];
-    $isSuccess = false;
-    try {
-        $data = uploadThumbnail();
-        if ($data != false) {
-            $uniqueId = uniqid() . rand(1000, 9999);
-            $imgId = $data->id;
-            $fileImg = $data->fileImg;
-            $text = $_POST['md-file'];
-            $myfile = fopen("../uploads/posts/" . $uniqueId . ".md", "w");
-            fwrite($myfile, $text);
-            $post = new Post($uniqueId, $readTime, $title, $uniqueId . '.md', $fileImg, date('Y-m-d'), "", $type);
-            Post::add($conn, $post);
-            if (file_exists("../uploads/posts/test.md")) {
-                unlink("../uploads/posts/test.md");
-            }
-            $_SESSION["message"] = 'Upload post "' . $title . '" successfully!';
-        }
-    } catch (\Throwable $e) {
-        $_SESSION["message"] = "Sorry, there was an error uploading your post, please try again!.";
+    $priority = $_POST["priority"];
+    $hashtagList = $_POST["hashtag"];
+    foreach ($hashtagList as $hashtag) {
+        echo $hashtag;
     }
+    $text = $_POST["md-file"];
+    echo $priority;
+    echo $text;
+    // $isSuccess = false; 
+    // try {
+    //     $data = uploadThumbnail();
+    //     if ($data != false) {
+    //         $uniqueId = uniqid() . rand(1000, 9999);
+    //         $imgId = $data->id;
+    //         $fileImg = $data->fileImg;
+    //         $text = $_POST['md-file'];
+    //         $myfile = fopen("../uploads/posts/" . $uniqueId . ".md", "w");
+    //         fwrite($myfile, $text);
+    //         $post = new Post($uniqueId, $readTime, $title, $uniqueId . '.md', $fileImg, date('Y-m-d'), "", $type, "", "","");
+    //         Post::add($conn, $post);
+    //         if (file_exists("../uploads/posts/test.md")) {
+    //             unlink("../uploads/posts/test.md");
+    //         }
+    //         $_SESSION["message"] = 'Upload post "' . $title . '" successfully!';
+    //     }
+    // } catch (\Throwable $e) {
+    //     $_SESSION["message"] = "Sorry, there was an error uploading your post, please try again!.";
+    // }
 }
 ?>
 <link href="../css/admin.css" rel="stylesheet">
@@ -85,8 +93,7 @@ if (isset($_POST['md-file'])) {
                 </div>
                 <div class="modal-footer">
                     <a type="button" href="<?php echo BASE_URL . '/admin/home' ?>" class="btn btn-primary">Go Home</a>
-                    <a type="button" href="<?php echo BASE_URL . '/admin/addPost' ?>" class="btn btn-success"
-                        data-dismiss="modal">Create New</a>
+                    <a type="button" href="<?php echo BASE_URL . '/admin/addPost' ?>" class="btn btn-success" data-dismiss="modal">Create New</a>
                 </div>
             </div>
         </div>
