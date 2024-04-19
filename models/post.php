@@ -1,5 +1,5 @@
 <?php
-include_once "./models/hashtag_post.php";
+
 class Post
 {
     public $id;
@@ -10,7 +10,6 @@ class Post
     public $date;
     public $views;
     public $type;
-    public $priority;
     public $content;
     public $path;
     public $pin;
@@ -138,7 +137,7 @@ class Post
 
     public static function add($conn, $post)
     {
-        $query = "INSERT INTO post (id,readTimes, title, fileText, fileImg, date, type, content, path, pin) VALUES (:id, :readTimes, :title, :fileText, :fileImg, :date, :type, :content, :path, :pin)";
+        $query = "INSERT INTO post (id,readTimes, title, fileText, fileImg, date, views, type, content, path, pin) VALUES (:id, :readTimes, :title, :fileText, :fileImg, :date, :views, :type, :content, :path, :pin)";
         $stmt = $conn->prepare($query);
         $stmt->bindParam(":id", $post->id);
         $stmt->bindParam(":readTimes", $post->readTimes);
@@ -146,6 +145,7 @@ class Post
         $stmt->bindParam(":fileText", $post->fileText);
         $stmt->bindParam(":fileImg", $post->fileImg);
         $stmt->bindParam(":date", $post->date);
+        $stmt->bindParam(":views", $post->views);
         $stmt->bindParam(":type", $post->type);
         $stmt->bindParam(":content", $post->content);
         $stmt->bindParam(":path", $post->path);

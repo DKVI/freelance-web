@@ -30,6 +30,18 @@ class HashtagPost
         }
     }
 
+    public static function add($conn, $hashtagpost)
+    {
+        try {
+            $query = "INSERT INTO hashtag_post (hashtag_id, post_id) VALUES (:hashtag_id, :post_id)";
+            $stmt = $conn->prepare($query);
+            $stmt->bindParam(":hashtag_id", $hashtagpost->hashtagId);
+            $stmt->bindParam(":post_id", $hashtagpost->postId);
+            $stmt->execute();
+        } catch (PDOException $e) {
+            echo $e->getMessage();
+        }
+    }
     public static function getById($conn, $id)
     {
         try {
@@ -67,7 +79,7 @@ class HashtagPost
             }
             return $result;
         } catch (PDOException $e) {
-            echo $e->getMessage();
+            return null;
         }
     }
 
@@ -82,7 +94,17 @@ class HashtagPost
             echo $e->getMessage();
         }
     }
-
+    public static function deleteByPostId($conn, $id)
+    {
+        try {
+            $query = "DELETE FROM hashtag_post WHERE post_id=:id";
+            $stmt = $conn->prepare($query);
+            $stmt->bindParam(":id", $id);
+            $stmt->execute();
+        } catch (PDOException $e) {
+            echo $e->getMessage();
+        }
+    }
     public static function getByPostId($conn, $postId)
     {
         try {

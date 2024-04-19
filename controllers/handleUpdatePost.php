@@ -3,6 +3,7 @@ session_start();
 include_once "../vendor/bootstrap.php";
 include "../models/database.php";
 include "../models/post.php";
+include "../models/hashtag_post.php";
 include "../config.php";
 $conn = require "../inc/db.php";
 unset($_SESSION["message"]);
@@ -55,15 +56,26 @@ if (isset($_POST['md-file'])) {
     $readTimes = $_POST["times"];
     $type = $_POST["type"];
     $id = $_GET["id"];
+    $priority = $_POST["priority"];
+    $hashtagList = $_POST["hashtag"];
     $post = Post::getById($conn, $id);
     $data = uploadThumbnail($conn, $id);
     if ($data != false) {
         try {
+            $img_path = "../uploads/imgs/" . $post->fileImg;
             $text = $_POST['md-file'];
             $myfile = fopen("../uploads/posts/" . $id . ".md", "w");
             fwrite($myfile, $text);
-            $updatePost = new Post($id, $readTimes, $title, $id . '.md', $data->fileImg, date('Y-m-d'), $post->views, $type,"", "", "");
+            HashtagPost::deleteByPostId($conn, $id);
+            $updatePost = new Post($id, $readTimes, $title, $id . '.md', $data->fileImg, date('Y-m-d'), $post->views, $type, $text, $post->path, $priority == "true" ? 1 : 0);
             Post::update($conn, $updatePost, $id);
+            if (file_exists($img_path)) {
+                unlink($img_path);
+            }
+            foreach ($hashtagList as $hashtag) {
+                $hashtagpost = new HashtagPost(1, $hashtag, $id);
+                HashtagPost::add($conn, $hashtagpost);
+            }
             $_SESSION["message"] =  'Update post "' . $title . '" successfully!';;
             if (file_exists("../uploads/post/test.md")) {
                 unlink("../uploads/post/test.md");
@@ -74,11 +86,16 @@ if (isset($_POST['md-file'])) {
     } else {
         try {
             $post = Post::getById($conn, $id);
+            HashtagPost::deleteByPostId($conn, $id);
             $text = $_POST['md-file'];
             $myfile = fopen("../uploads/posts/" . $id . ".md", "w");
             fwrite($myfile, $text);
-            $updatePost = new Post($id, $readTimes, $title, $id . '.md', $post->fileImg, date('Y-m-d'), $post->views, $type, "", "", "");
+            $updatePost = new Post($id, $readTimes, $title, $id . '.md', $post->fileImg, date('Y-m-d'), $post->views, $type, $text, $post->path, $priority == "true" ? 1 : 0);
             Post::update($conn, $updatePost, $id);
+            foreach ($hashtagList as $hashtag) {
+                $hashtagpost = new HashtagPost(1, $hashtag, $id);
+                HashtagPost::add($conn, $hashtagpost);
+            }
             $_SESSION["message"] =  'Update post "' . $title . '" successfully!';;
             if (file_exists("../uploads/posts/test.md")) {
                 unlink("../uploads/posts/test.md");
@@ -102,10 +119,10 @@ if (isset($_POST['md-file'])) {
                     <p><?php echo $_SESSION["message"] ?></p>
                 </div>
                 <div class="modal-footer">
-                    <a type="button" href="<?php echo BASE_URL . '/admin/posts' ?>" class="btn btn-primary">Back To
+                    <a type="button" href="<?php echo BASE_URL . '/admin/editPost?id=' . $post->id ?>" class="btn btn-primary">Back To
+                        This
                         Post</a>
-                    <a type="button" href="<?php echo BASE_URL . '/admin/addPost' ?>" class="btn btn-success"
-                        data-dismiss="modal">Create New Post</a>
+                    <a type="button" href="<?php echo BASE_URL . '/admin/addPost' ?>" class="btn btn-success" data-dismiss="modal">Create New Post</a>
                 </div>
             </div>
         </div>
