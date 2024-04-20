@@ -78,6 +78,12 @@ if (isset($_GET['language'])) {
             case 'news':
                 include __DIR__ . "/views/news.php";
                 break;
+            case 'events':
+                include __DIR__ . "/views/event.php";
+                break;
+            case 'news':
+                include __DIR__ . "/views/news.php";
+                break;
             case "admin/home":
                 include __DIR__ . "/views/admin/home.php";
                 break;
@@ -107,6 +113,9 @@ if (isset($_GET['language'])) {
                 break;
             case "admin/change-password":
                 include __DIR__ . "/views/admin/changePassword.php";
+                break;
+            case "e404":
+                include __DIR__ . "/views/e404.php";
                 break;
             default:
                 include __DIR__ . "/views/e404.php";
@@ -147,10 +156,6 @@ if (isset($_GET['language'])) {
     ?>
     <?php
     include "./views/components/goToTop.php";
-    $relatedPost = Post::getRelatedPost($conn, "6621dfac0dee99662");
-    foreach ($relatedPost as $post) {
-        echo "<script>console.log(" . json_encode($post) . ")</script>";
-    }
     ?>
 </body>
 

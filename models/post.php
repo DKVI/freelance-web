@@ -93,7 +93,7 @@ class Post
     public static function getByKeyWord($conn, $keyword)
     {
         try {
-            $query = "SELECT * FROM post WHERE title LIKE :keyword";
+            $query = "SELECT * FROM post WHERE title OR content LIKE :keyword";
             $stmt = $conn->prepare($query);
             $stmt->bindValue(":keyword", '%' . $keyword . '%');
             $stmt->execute();

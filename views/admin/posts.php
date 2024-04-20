@@ -116,16 +116,16 @@ function renderElement($element)
     </div>
 </div>
 <script>
-const selectType = document.querySelector("select");
-selectType.onchange = (e) => {
-    if (selectType.value === "event") {
-        window.location.href = "<?php echo BASE_URL ?>/admin/posts?type=event";
-    } else if (selectType.value === "news") {
-        window.location.href = "<?php echo BASE_URL ?>/admin/posts?type=news";
-    } else if (selectType.value === "static") {
-        window.location.href = "<?php echo BASE_URL ?>/admin/posts?type=static";
-    } else {
-        window.location.href = "<?php echo BASE_URL ?>/admin/posts?type=all";
+    const selectType = document.querySelector("select");
+    selectType.onchange = (e) => {
+        if (selectType.value === "event") {
+            window.location.href = "<?php echo BASE_URL ?>/admin/posts?type=event";
+        } else if (selectType.value === "news") {
+            window.location.href = "<?php echo BASE_URL ?>/admin/posts?type=news";
+        } else if (selectType.value === "static") {
+            window.location.href = "<?php echo BASE_URL ?>/admin/posts?type=static";
+        } else {
+            window.location.href = "<?php echo BASE_URL ?>/admin/posts?type=all";
+        }
     }
-}
 </script>
