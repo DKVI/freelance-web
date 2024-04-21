@@ -25,7 +25,8 @@ ol[role="list"] {
   list-style: none;
 }
 
-body {
+body,
+section {
   background-color: #e5e5e5;
   color: #274069;
 }
@@ -294,9 +295,7 @@ section.ab-us p {
   text-align: justify;
 }
 
-
 /* ---------------FAQ------------------ */
-
 
 .faq-label {
   cursor: pointer;
@@ -307,13 +306,11 @@ section.ab-us p {
   align-items: center;
   border-radius: 19px;
   background: #d0edf0;
-  box-shadow:  5px 5px 10px #b7d1d3,
-              -5px -5px 10px #e9ffff;
+  box-shadow: 5px 5px 10px #b7d1d3, -5px -5px 10px #e9ffff;
 }
 
 .faq-label-text {
-  color: #365A5E;
-
+  color: #365a5e;
 }
 
 .faq-label-icon {
@@ -323,11 +320,10 @@ section.ab-us p {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .material-icons {
-  color: #365A5E;
+  color: #365a5e;
   transition: 0.3s ease;
 }
 
@@ -338,24 +334,19 @@ section.ab-us p {
   border-radius: 6px;
   color: rgba(127, 121, 121, 1);
   overflow: hidden;
-
 }
 
 .faq-answer-content {
   padding: 10px 0 10px 15px;
-
-
 }
 
 .active {
+  background: #ffffff;
+  border: 1px solid #c7c4c4;
 
-  background: #FFFFFF;
-  border: 1px solid #C7C4C4;
-  
   height: auto;
   margin-bottom: 25px;
-
 }
-.rotate{
-  transform: rotate(180deg)
+.rotate {
+  transform: rotate(180deg);
 }

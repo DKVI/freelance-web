@@ -1,14 +1,14 @@
-<section class="page-section bg-light" style="margin-top: 10rem;">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Questions and Answer</h2>
-                    <h3 class="section-subheading text-muted">Hello Mooter!</h3>
-                </div>
-            </div>
-            <div class="container d-flex justify-content-center">
-                <div class='col-lg-8'>
-                    <!-- question-->
-                    <div class="faq-container">
+<section class="page-section" style="margin-top: 10rem;">
+    <div class="container">
+        <div class="text-center">
+            <h1 class="section-heading text-uppercase">FAQ</h1>
+            <h1 class="section-heading text-uppercase">Chương trình học</h1>
+        </div>
+    </div>
+    <div class="container d-flex justify-content-center">
+        <div class='col-lg-8'>
+            <!-- question-->
+            <div class="faq-container">
                         <div class="faq-label">
                             <div class="faq-label-text">
                             Chương trình được xây dựng trên cơ sở nào?
@@ -38,10 +38,10 @@
                             </div>
 
                         </div>
-                    </div>
+            </div>
                 
-                    <!-- question-->
-                    <div class="faq-container">
+            <!-- question-->
+            <div class="faq-container">
                         <div class="faq-label">
                             <div class="faq-label-text">
                             Số lớp MSS sẽ dự kiến mở?
@@ -56,10 +56,10 @@
 
                             </div>
                         </div>
-                    </div>
+            </div>
                 
-                    <!-- question -->
-                    <div class="faq-container">
+            <!-- question -->
+            <div class="faq-container">
                         <div class="faq-label">
                             <div class="faq-label-text">
                             Tại sao MSS lại tổ chức vào mùa hè mà không phải là một thời điểm khác trong năm?
@@ -76,9 +76,9 @@
                             </div>
 
                         </div>
-                    </div>
-                    <!-- question -->
-                    <div class="faq-container">
+            </div>
+            <!-- question -->
+            <div class="faq-container">
                         <div class="faq-label">
                             <div class="faq-label-text">
                             Số học viên trong một lớp MSS là bao nhiêu?
@@ -94,9 +94,9 @@
                             </div>
 
                         </div>
-                    </div>
-                    <!-- 5 question -->
-                    <div class="faq-container">
+            </div>
+            <!-- 5 question -->
+            <div class="faq-container">
                         <div class="faq-label">
                             <div class="faq-label-text">
                             Mình có cần phải thực hiện bài kiểm tra nào khi đăng ký tham gia MSS hay không?
@@ -117,9 +117,9 @@
                             </div>
 
                         </div>
-                    </div>
-                    <!-- question -->
-                    <div class="faq-container">
+            </div>
+            <!-- question -->
+            <div class="faq-container">
                         <div class="faq-label">
                             <div class="faq-label-text">
                             Sau bao lâu mình có thể nhận được thông báo đăng ký thành công?
@@ -136,9 +136,9 @@
                             </div>
 
                         </div>
-                    </div>
-                    <!-- question -->
-                    <div class="faq-container">
+            </div>
+            <!-- question -->
+            <div class="faq-container">
                         <div class="faq-label">
                             <div class="faq-label-text">
                             Sau khi chương trình kết thúc, MSS có cấp chứng chỉ hoàn thành khóa học hay không?
@@ -153,9 +153,9 @@
                             </div>
 
                         </div>
-                    </div>
-                    <!-- question -->
-                    <div class="faq-container">
+            </div>
+            <!-- question -->
+            <div class="faq-container">
                         <div class="faq-label">
                             <div class="faq-label-text">
                             Chương trình có bồi dưỡng kiến thức pháp lý (luật nội dung, luật tố tụng, các nguyên tắc quốc tế, phán quyết, bản án, v.v) thường áp dụng cho các cuộc thi moot hay không?
@@ -170,12 +170,62 @@
                             </div>
 
                         </div>
+            </div>
+            <!-- question -->
+            <div class="faq-container">
+                <div class="faq-label">
+                    <div class="faq-label-text">
+                    Mình đăng ký học gói Advantaged, nhưng ngại việc phải trình bày trong các buổi Mock. Mình có thể được làm tham gia với tư các Quan sát viên trong các buổi mock được không? Sau đó mình có thể đổi ý và chuyển về lại làm Người thực hành trong các buổi mock được không?
                     </div>
-                    <!-- question -->
-                    <div class="faq-container">
+                    <div class="faq-label-icon">
+                    <i class="fa-solid fa-angle-down material-icons"></i>
+                    </div>
+                </div>
+                <div class="faq-answer ">
+                    <div class="faq-answer-content">
+                    <p>Nhằm mục đích tối đa hóa thời gian cho các học viên chuẩn bị trước buổi Mock, MSS sẽ xếp đội, cặp đấu, vai trò đại diện một cách ngẫu nhiên để thông báo trong buổi học đầu tiên. Để làm được điều đó, MSS cần xác định cụ thể về nhóm Người thực hành. Vì vậy, trong form đăng ký, MSS sẽ cho phép các học viên gói Advantaged được lựa chọn tư cách tham gia buổi Mock (i.e., Người thực hành hoặc Quan sát viên). Sau khi gửi form đăng ký, học viên sẽ không có quyền thay đổi lựa chọn lại.</p>
+                    <p>Tuy nhiên, MSS không khuyến nghị các học viên gói Advanged lựa chọn tư cách Quan sát viên. Đây là quyền lợi ưu tiên của các bạn. Việc tham gia Mock sẽ tạo cơ hội cho các bạn tập luyện, áp dụng các kỹ năng, kiến thúc được dạy trong chương trình. Đồng thời, các bạn sẽ được nhận xét riêng về phần trình bày của mình từ các Giám khảo khách mời, để có thể tiếp tục phát triển khả năng của bản thân.</p>  
+                    </div>
+
+                </div>
+            </div>
+                    
+        </div>
+    </div>
+</section>
+<section class="page-section" style="margin-top: 10rem;">
+    <div class="container">
+        <div class="text-center">
+            <h1 class="section-heading text-uppercase">Về nội quy trong lớp</h1>
+        </div>
+    </div>
+    <div class="container d-flex justify-content-center">
+        <div class='col-lg-8'>
+            <!-- question-->
+            <div class="faq-container">
                         <div class="faq-label">
                             <div class="faq-label-text">
-                            Mình đăng ký học gói Advantaged, nhưng ngại việc phải trình bày trong các buổi Mock. Mình có thể được làm tham gia với tư các Quan sát viên trong các buổi mock được không? Sau đó mình có thể đổi ý và chuyển về lại làm Người thực hành trong các buổi mock được không?
+                            Buổi học có được ghi âm, ghi hình lại không?
+                            </div>
+                            <div class="faq-label-icon">
+                                <i class="fa-solid fa-angle-down material-icons"></i>
+                            </div>
+
+                        </div>
+                        <div class="faq-answer ">
+                            <div class="faq-answer-content">
+                            <p>Các buổi học của MSS có thể được ghi âm, hay ghi hình nhằm mục đích quản lý thông tin nội bộ và nâng cao chất lượng khóa học. MSS sẽ đảm bảo tuân thủ việc ghi âm, ghi hình phù hợp theo quy định pháp luật Việt Nam và không chia sẻ đoạn ghi âm, ghi hình cho bất kỳ cá nhân, tổ chức nào (bao gồm học viên), trừ trường hợp MSS buộc phải thay đổi lịch học cố định dẫn đến việc học viên không tham gia được.</p>
+
+                            </div>
+
+                        </div>
+            </div>
+                
+            <!-- question-->
+            <div class="faq-container">
+                        <div class="faq-label">
+                            <div class="faq-label-text">
+                            Buổi học sẽ kéo dài trong bao lâu?
                             </div>
                             <div class="faq-label-icon">
                             <i class="fa-solid fa-angle-down material-icons"></i>
@@ -183,13 +233,146 @@
                         </div>
                         <div class="faq-answer ">
                             <div class="faq-answer-content">
-                            <p>Nhằm mục đích tối đa hóa thời gian cho các học viên chuẩn bị trước buổi Mock, MSS sẽ xếp đội, cặp đấu, vai trò đại diện một cách ngẫu nhiên để thông báo trong buổi học đầu tiên. Để làm được điều đó, MSS cần xác định cụ thể về nhóm Người thực hành. Vì vậy, trong form đăng ký, MSS sẽ cho phép các học viên gói Advantaged được lựa chọn tư cách tham gia buổi Mock (i.e., Người thực hành hoặc Quan sát viên). Sau khi gửi form đăng ký, học viên sẽ không có quyền thay đổi lựa chọn lại.</p>
-                            <p>Tuy nhiên, MSS không khuyến nghị các học viên gói Advanged lựa chọn tư cách Quan sát viên. Đây là quyền lợi ưu tiên của các bạn. Việc tham gia Mock sẽ tạo cơ hội cho các bạn tập luyện, áp dụng các kỹ năng, kiến thúc được dạy trong chương trình. Đồng thời, các bạn sẽ được nhận xét riêng về phần trình bày của mình từ các Giám khảo khách mời, để có thể tiếp tục phát triển khả năng của bản thân.</p>  
+                            <p>Các buổi học của MSS trung bình sẽ kéo dài khoảng 2 tiếng đồng hồ.</p>
+
+                            </div>
+                        </div>
+            </div>
+                
+            <!-- question -->
+            <div class="faq-container">
+                        <div class="faq-label">
+                            <div class="faq-label-text">
+                            Lịch biểu của mỗi buổi học?
+                            </div>
+                            <div class="faq-label-icon">
+                            <i class="fa-solid fa-angle-down material-icons"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer ">
+                            <div class="faq-answer-content">
+                            <p>Đối với các buổi học tiêu chuẩn, thời lượng học chính sẽ là 90 phút, với một khoảng nghỉ 15 phút giữa giờ. 15 phút cuối cùng của buổi học sẽ dành cho hỏi đáp. Thời gian hỏi đáp có thể được kéo dài, tùy vào số lượng câu hỏi trong buổi học. Học viên có thể rời khỏi phòng Zoom vào khoảng thời gian hỏi đáp được kéo dài này.</p>
                             </div>
 
                         </div>
-                    </div>
-                    
-                </div>
             </div>
-        </section>
+            <!-- question -->
+            <div class="faq-container">
+                        <div class="faq-label">
+                            <div class="faq-label-text">
+                            Có bài tập sau buổi học không?
+                            </div>
+                            <div class="faq-label-icon">
+                            <i class="fa-solid fa-angle-down material-icons"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer ">
+                            <div class="faq-answer-content">
+                            <p>Không phải tất cả các buổi học, sau khi kết thúc, sẽ có bài tập. Trong một số buổi lý thuyết, nếu xét thấy khối lượng kiến thức tương đối khó hoặc nhiều, MSS có thể giao bài tập về nhà để học viên ôn lại nội dung. Tuy nhiên, MSS hiểu rằng lịch trình cá nhân của sinh viên, đặc biệt là các mooters, thường sẽ rất bận rộn. MSS sẽ thiết kế các bài tập ngắn gọn và hiệu quả nhất về mặt thời gian cho các bạn để hoàn thành.</p>  
+                            </div>
+
+                        </div>
+            </div>
+            <!-- 5 question -->
+            <div class="faq-container">
+                        <div class="faq-label">
+                            <div class="faq-label-text">
+                            Mình có thể tìm thấy thông tin về Người hướng dẫn ở đâu
+                            </div>
+                            <div class="faq-label-icon">
+                            <i class="fa-solid fa-angle-down material-icons"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer ">
+                            <div class="faq-answer-content">
+                            <p>MSS đã đăng tải thông tin về Người hướng dẫn tại mục “Lời ngỏ của Nhà sáng lập” (hyperlink “Lời ngỏ của Nhà sáng lập” tới trang tương ứng trong page) tại website của MSS, cũng như qua các trang mạng xã hội.</p>  
+                            </div>
+
+                        </div>
+            </div>
+            <!-- question -->
+            <div class="faq-container">
+                        <div class="faq-label">
+                            <div class="faq-label-text">
+                            Mình có thể tìm thấy thông tin về các Giám khảo Khách mời và Diễn giả khách mời ở đâu?
+                            </div>
+                            <div class="faq-label-icon">
+                            <i class="fa-solid fa-angle-down material-icons"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer ">
+                            <div class="faq-answer-content">
+                            <p> MSS sẽ đăng tải thông tin về các Giám khảo Khách mời và Diễn giả khách mời tại mục “Tin tức và Sự kiện” trên website của MSS, cũng như qua các trang mạng xã hội.</p>
+                            </div>
+
+                        </div>
+            </div> 
+        </div>
+    </div>
+</section>
+<section class="page-section" style="margin-top: 10rem;">
+    <div class="container">
+        <div class="text-center">
+            <h1 class="section-heading text-uppercase">Về gói học</h1>
+        </div>
+    </div>
+    <div class="container d-flex justify-content-center">
+        <div class='col-lg-8'>
+            <!-- question-->
+            <div class="faq-container">
+                        <div class="faq-label">
+                            <div class="faq-label-text">
+                            Gói Essentials sẽ phù hợp với đối tượng nào?
+                            </div>
+                            <div class="faq-label-icon">
+                                <i class="fa-solid fa-angle-down material-icons"></i>
+                            </div>
+
+                        </div>
+                        <div class="faq-answer ">
+                            <div class="faq-answer-content">
+                            <p>Gói Essentials sẽ phù hợp với các bạn có hứng thú muốn tìm hiểu về mooting, chưa có nhiều trải nghiệm về moot, hoặc có nhu cầu muốn tìm hiểu về các kỹ năng/vấn đề cơ bản trong mooting. Gói Essentials sẽ là một cánh cửa đến với mooting cho các bạn thuộc đối tượng này.</p>
+
+                            </div>
+
+                        </div>
+            </div>
+                
+            <!-- question-->
+            <div class="faq-container">
+                        <div class="faq-label">
+                            <div class="faq-label-text">
+                            Gói Advantaged sẽ phù hợp với đối tượng nào?
+                            </div>
+                            <div class="faq-label-icon">
+                            <i class="fa-solid fa-angle-down material-icons"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer ">
+                            <div class="faq-answer-content">
+                            <p>Gói Advantaged sẽ phù hợp với các bạn đam mê và có mục tiêu cụ thể với mooting, hoặc đã từng tham gia các cuộc thi moot, hoặc vẫn đang còn băn khoăn, loay hoay trong việc tìm ra phương thức hiệu quả để đấu moot. Gói Advantaged sẽ là một bước đệm cho các bạn có thể nâng cao kiến thức, kỹ năng để đạt được các mục tiêu cá nhân đối với mooting.</p>
+
+                            </div>
+                        </div>
+            </div>
+                
+            <!-- question -->
+            <div class="faq-container">
+                        <div class="faq-label">
+                            <div class="faq-label-text">
+                            Khi chương trình đang diễn ra, mình có thể đổi giữa gói Essentials và gói Advantaged được không, và ngược lại?
+                            </div>
+                            <div class="faq-label-icon">
+                            <i class="fa-solid fa-angle-down material-icons"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer ">
+                            <div class="faq-answer-content">
+                            <p>MSS không hỗ trợ việc việc chuyển đổi giữa gói Essentials và gói Advantaged quá trình học. Vì thế, MSS khuyến nghị học viên nên tìm hiểu kỹ về thông tin chi tiết của chương trình học để cân nhắc, sắp xếp cho phù hợp với lịch trình cá nhân trước khi đăng ký.</p>
+                            </div>
+
+                        </div>
+            </div>
+        </div>
+    </div>
+</section>
