@@ -36,3 +36,16 @@ function animContent(content) {
 }
 
 initTextLoop();
+
+// FAQ PAGE ROTATE FUNCTION
+let faqLabel = document.querySelectorAll(".faq-label");
+faqLabel.forEach(
+  (item) =>
+    (item.onclick = () => {
+      //Answer
+      item.nextElementSibling.classList.toggle("active");
+      let labelIcon = item.lastElementChild;
+      let icons = labelIcon.lastElementChild;
+      icons.classList.toggle("rotate");
+    })
+);
