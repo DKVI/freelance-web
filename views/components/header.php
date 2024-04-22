@@ -1,5 +1,5 @@
 <!-- LOGO AREA -->
-<div class="logo-area container-fluid fixed-top vn" style="">
+<div class="logo-area container-fluid fixed-top vn">
     <nav class=" navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="menu-nav text-center justify-content-center align-items-center col-lg-4">
             <a class="navbar-brand" href="<?php echo BASE_URL ?>/home">
@@ -15,7 +15,8 @@
             <div class="collapse navbar-collapse" id="navResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown custom-scrollbar">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Về MSS</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Về MSS</a>
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">About Us</a>
                         <ul class="dropdown-menu dropdown-menu-light">
@@ -28,7 +29,8 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Chương trình học</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Chương trình học</a>
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">M.S.S</a>
                         <ul class="dropdown-menu dropdown-menu-light custom-scrollbar">
@@ -53,7 +55,8 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Học phí</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Học phí</a>
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">Review</a>
                         <ul class="dropdown-menu dropdown-menu-light">
@@ -63,7 +66,8 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">News & Events</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">News & Events</a>
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">Pricing</a>
                         <ul class="dropdown-menu dropdown-menu-light">
@@ -73,7 +77,8 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Bảo chứng từ cộng đồng</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Bảo chứng từ cộng đồng</a>
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">FAQ</a>
                         <ul class="dropdown-menu dropdown-menu-light custom-scrollbar">
