@@ -3,6 +3,7 @@ session_start();
 include_once "../vendor/bootstrap.php";
 include "../models/database.php";
 include "../models/post.php";
+include "../models/hashtag_post.php";
 include "../config.php";
 $conn = require "../inc/db.php";
 unset($_SESSION["message"]);
@@ -49,25 +50,64 @@ if (isset($_POST['md-file'])) {
     $title = $_POST["title"];
     $readTime = $_POST["times"];
     $type = $_POST["type"];
-    $isSuccess = false;
-    try {
-        $data = uploadThumbnail();
-        if ($data != false) {
+    $priority = $_POST["priority"];
+    $hashtagList = $_POST["hashtag"];
+    $text = $_POST["md-file"];
+    $post;
+    $data = uploadThumbnail();
+    if ($data) {
+        try {
             $uniqueId = uniqid() . rand(1000, 9999);
             $imgId = $data->id;
             $fileImg = $data->fileImg;
             $text = $_POST['md-file'];
             $myfile = fopen("../uploads/posts/" . $uniqueId . ".md", "w");
             fwrite($myfile, $text);
-            $post = new Post($uniqueId, $readTime, $title, $uniqueId . '.md', $fileImg, date('Y-m-d'), "", $type);
+            $path = "/" . $type . "?id=" . $uniqueId;
+            $post = new Post($uniqueId, $readTime, $title, $uniqueId . '.md', $fileImg, date('Y-m-d'), 0, $type, $text, $path, $priority == "true" ? 1 : 0);
             Post::add($conn, $post);
+            foreach ($hashtagList as $hashtag) {
+                $hashtagpost = new HashtagPost(1, $hashtag, $uniqueId);
+                HashtagPost::add($conn, $hashtagpost);
+            }
             if (file_exists("../uploads/posts/test.md")) {
                 unlink("../uploads/posts/test.md");
             }
             $_SESSION["message"] = 'Upload post "' . $title . '" successfully!';
+        } catch (\Throwable $e) {
+            $img_path = "../uploads/imgs/";
+            $file_path = "../uploads/posts/";
+            echo $img_path . $post->fileImg;
+            echo $file_path . $post->fileText;
+            if (file_exists($img_path . $post->fileImg) && file_exists($file_path . $post->fileText)) {
+                unlink($img_path . $post->fileImg);
+                unlink($file_path . $post->fileText);
+            } else {
+                echo "Doesn't exist";
+            }
+            $_SESSION["message"] = $e;
         }
-    } catch (\Throwable $e) {
-        $_SESSION["message"] = "Sorry, there was an error uploading your post, please try again!.";
+    } else {
+        try {
+            $uniqueId = uniqid() . rand(1000, 9999);
+            $fileImg = 'default.png';
+            $text = $_POST['md-file'];
+            $myfile = fopen("../uploads/posts/" . $uniqueId . ".md", "w");
+            fwrite($myfile, $text);
+            $path = "/" . $type . "?id=" . $uniqueId;
+            $post = new Post($uniqueId, $readTime, $title, $uniqueId . '.md', $fileImg, date('Y-m-d'), 0, $type, $text, $path, $priority == "true" ? 1 : 0);
+            Post::add($conn, $post);
+            foreach ($hashtagList as $hashtag) {
+                $hashtagpost = new HashtagPost(1, $hashtag, $uniqueId);
+                HashtagPost::add($conn, $hashtagpost);
+            }
+            if (file_exists("../uploads/posts/test.md")) {
+                unlink("../uploads/posts/test.md");
+            }
+            $_SESSION["message"] = 'Upload post "' . $title . '" successfully!';
+        } catch (\Throwable $e) {
+            $_SESSION["message"] = "Sorry, there was an error uploading your post, please try again!.";
+        }
     }
 }
 ?>
@@ -85,8 +125,7 @@ if (isset($_POST['md-file'])) {
                 </div>
                 <div class="modal-footer">
                     <a type="button" href="<?php echo BASE_URL . '/admin/home' ?>" class="btn btn-primary">Go Home</a>
-                    <a type="button" href="<?php echo BASE_URL . '/admin/addPost' ?>" class="btn btn-success"
-                        data-dismiss="modal">Create New</a>
+                    <a type="button" href="<?php echo BASE_URL . '/admin/addPost' ?>" class="btn btn-success" data-dismiss="modal">Create New</a>
                 </div>
             </div>
         </div>

@@ -48,9 +48,44 @@ if (file_exists($file_path)) {
                         <select class="shadow form-select" name="type" aria-label="Default select example">
                             <option selected class="text-center">-- Select type of this post --</option>
                             <?php
-                            echo ($post->type == 'event') ? '<option value="event" class="text-center" selected>Event</option>
-                                <option value="news" class="text-center">News</option>' : '<option value="event" class="text-center">Event</option>
+                            if ($post->type == "static") {
+                                echo '<option value="static" class="text-center" selected>Static page</option><option value="event" class="text-center">Event</option>
+                                <option value="news" class="text-center">News</option>';
+                            } else {
+                                echo ($post->type == 'event') ? '<option value="static" class="text-center">Static page</option><option value="event" class="text-center" selected>Event</option>
+                                <option value="news" class="text-center">News</option>' : '<option value="static" class="text-center">Static page</option><option value="event" class="text-center">Event</option>
                                 <option value="news" class="text-center" selected>News</option>';
+                            }
+                            ?>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group py-3 d-flex" style="gap: 16px">
+                    <div class="w-50">
+                        <label class="form-label">Hashtag:</label>
+                        <select id="mySelect" name="hashtag[]" multiple="multiple" class="form-control">
+                            <?php
+                            $hashtagList = Hashtag::getAll($conn);
+                            foreach ($hashtagList as $hashtag) {
+                                $isvalid = HashtagPost::getByPostAndHashtagId($conn, $id, $hashtag->id);
+                                if ($isvalid) {
+                                    echo "<option value=" . $hashtag->id . " selected>$hashtag->nametag</option>";
+                                } else {
+                                    echo "<option value=" . $hashtag->id . ">$hashtag->nametag</option>";
+                                }
+                            }
+                            ?>
+                        </select>
+                    </div>
+                    <div class=" w-50">
+                        <label class="form-label">Priority</label>
+                        <select class="shadow form-select" name="priority" id="priority"
+                            aria-label="Default select example" required>
+                            <option selected value="" class="text-center">-- Select priority --</option>
+                            <?php
+                            echo $post->pin == 1 ? '<option value="false" class="text-center">None</option>
+                                <option value="true" class="text-center" selected>Pin</option>' : '<option value="false" class="text-center" selected>None</option>
+                                <option value="true" class="text-center">Pin</option>';
                             ?>
                         </select>
                     </div>
@@ -139,8 +174,55 @@ if (file_exists($file_path)) {
 <script>
 const submitBtn = document.querySelector(".submit-btn");
 const form = document.querySelector("form");
-submitBtn.onclick = () => {
-    form.submit();
+const validateData = () => {
+    const title = document.querySelector('input[name="title"]');
+    const readTime = document.querySelector('input[name="times"]');
+    const priority = document.querySelector('select[name="priority"]');
+    const type = document.querySelector('select[name="type"]');
+    const hashtag = document.querySelector('select[name="hashtag[]"]');
+
+
+    if (title.value.length === 0) {
+        alert("Please enter title");
+        title.focus();
+        $(".gototop-component").click();
+        return false;
+    }
+    if (readTime.value.length === 0) {
+        alert("Please enter read time");
+        readTime.focus();
+        $(".gototop-component").click();
+        return false;
+    }
+    if (type.value.length === 0) {
+        alert("Please choose type");
+        type.focus();
+        $(".gototop-component").click();
+        return false;
+    }
+
+    if (priority.value.length === 0) {
+        alert("Please choose priority");
+        priority.focus();
+        $(".gototop-component").click();
+        return false;
+    }
+    console.log(hashtag.value);
+    if (hashtag.value.length === 0) {
+        alert("Please choose at least one hashtag");
+        hashtag.focus();
+        $(".gototop-component").click();
+        return false;
+    }
+    return true;
+}
+submitBtn.onclick = (e) => {
+    const isValid = validateData();
+    if (isValid) {
+        form.submit();
+    } else {
+        e.preventDefault();
+    }
 }
 const previewBtn = document.querySelector(".preview-btn");
 const previewMode = document.querySelector(".preview-mode");
@@ -155,7 +237,10 @@ var simplemde = new SimpleMDE({
     initialValue: `${data}`
 });
 console.log(form);
-previewBtn.onclick = async () => {
+previewBtn.onclick = async (e) => {
+    validateData();
+    $(".gototop-component").click();
+
     await $('form').submit(function(event) {
         console.log(true);
         event.preventDefault(); // Prevent default form submission
@@ -227,4 +312,25 @@ function displayImage() {
         previewImage.style.display = 'none';
     }
 }
+$(document).ready(function() {
+    $('#mySelect').select2({
+        multiple: true,
+        width: "100%"
+    });
+});
 </script>
+
+<style>
+.select2-selection.select2-selection--multiple {
+    height: 50px;
+    overflow-y: auto;
+    box-shadow: 2px 2px 5px #cccc !important;
+}
+
+.select2-selection__choice {
+    background-color: rgb(39 64 105) !important;
+    color: white;
+    box-shadow: 2px 2px 10px #cccc !important;
+    padding: 5px;
+}
+</style>

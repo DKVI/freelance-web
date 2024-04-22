@@ -34,7 +34,7 @@ class Message
     public static function getAllMessages($conn)
     {
         try {
-            $query = "SELECT * FROM message ORDER BY date DESC";
+            $query = "SELECT * FROM message ORDER BY time DESC";
             $stmt = $conn->prepare($query);
             $stmt->execute();
 
@@ -91,5 +91,14 @@ class Message
         $stmt = $conn->prepare($query);
         $stmt->bindParam(":id", $id);
         return $stmt->execute();
+    }
+
+    public static function totalMessages($conn)
+    {
+        $query = "SELECT COUNT(*) AS totalQuestions FROM message";
+        $stmt = $conn->prepare($query);
+        $stmt->execute();
+        $result = $stmt->fetch(PDO::FETCH_ASSOC);
+        return $result['totalQuestions'];
     }
 }

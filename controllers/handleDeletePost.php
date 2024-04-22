@@ -8,15 +8,21 @@ if (isset($_GET['id'])) {
     $id = $_GET["id"];
     try {
         $news = Post::getById($conn, $id);
-        $img_path = "../assets/imgs/";
-        $file_path = "../uploads/news/";
+        $img_path = "../uploads/imgs/";
+        $file_path = "../uploads/posts/";
         if (file_exists($img_path . $news->fileImg) && file_exists($file_path . $news->fileText)) {
             unlink($img_path . $news->fileImg);
             unlink($file_path . $news->fileText);
         }
         Post::delete($conn, $id);
-        echo "xóa thành công!";
+        echo "<script>
+            alert('Xóa post thành công');
+            location.href='" . BASE_URL . "/admin/posts';  
+        </script>";
     } catch (\Throwable $e) {
-        echo "xảy ra lỗi!";
+        echo "<script>
+            alert('Xóa post thất bại, vui lòng thử lại!');
+            location.href='" . BASE_URL . "/admin/posts';  
+        </script>";
     }
 }

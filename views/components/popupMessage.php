@@ -18,12 +18,12 @@
                         </div>
                         <div class="form-group pb-2">
                             <label class="form-label" for="email">Full name <span style="color:red">*<span></label>
-                            <input type="text" class="form-control email" name="email" placeholder="Enter your email" required>
+                            <input type="email" class="form-control email" name="email" placeholder="Enter your email" required>
 
                         </div>
                         <div class="form-group pb-2">
                             <label class="form-label" for="phone">Phone number <span style="color:red">(optional)<span></label>
-                            <input type="phone" class="form-control phone" name="phone" placeholder="Enter your phone number">
+                            <input type="tel" class="form-control phone" name="phone" placeholder="Enter your phone number">
                         </div>
                         <div class="form-group pb-2">
                             <label class="form-label" for="message">Message <span style="color:red">*<span></label>
@@ -172,13 +172,19 @@
         });
         return response.json();
     }
+    // Validate Email Address
+    function isValidEmail(email) {
+        const pattern =
+            /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
+        return pattern.test(email);
+    }
     //Handle send message
     submitBtn.onclick = (e) => {
         const name = document.querySelector(".name").value;
         const email = document.querySelector(".email").value;
         const message = document.querySelector(".message").value;
-
-        if (name !== '' && email !== '' && message !== '') {
+        console.log(isValidEmail(email))
+        if (name !== '' && email !== '' && isValidEmail(email) && message !== '') {
             loadingScreen.style.display = "flex";
             e.preventDefault();
             const data = new FormData();
@@ -189,16 +195,24 @@
                 phone,
                 message
             }).then(res => {
-                setTimeout(() => {
-                    successScreen.style.display = "flex";
-                    loadingScreen.style.display = "none";
-                }, 1500);
+                console.log(res);
+                if (res) {
+                    setTimeout(() => {
+                        successScreen.style.display = "flex";
+                        loadingScreen.style.display = "none";
+                    }, 1500);
+                } else {
+                    setTimeout(() => {
+                        failScreen.style.display = "flex";
+                        loadingScreen.style.display = "none";
+                    }, 1500);
+                }
             }).catch(err => {
                 setTimeout(() => {
                     failScreen.style.display = "flex";
                     loadingScreen.style.display = "none";
                 }, 1500);
             });
-        } else {}
+        }
     }
 </script>
