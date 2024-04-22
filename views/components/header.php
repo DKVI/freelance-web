@@ -5,9 +5,7 @@
             <a class="navbar-brand" href="<?php echo BASE_URL ?>/home">
                 <img src="././assets/imgs/small-logo.png" alt="MSS-logo">
             </a>
-            <button class="navbar-toggler btn-sm" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navResponsive" aria-controls="navResponsive" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#navResponsive" aria-controls="navResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-solid fa-bars p-0 m-0"></i>
             </button>
         </div>
@@ -15,10 +13,8 @@
             <div class="collapse navbar-collapse" id="navResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown custom-scrollbar">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">Về MSS</a>
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">About Us</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Về MSS</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
                         <ul class="dropdown-menu dropdown-menu-light">
                             <li><a class="dropdown-item" href="#">Lời ngỏ từ Nhà sáng lập</a></li>
                             <hr class="dropdown-divider">
@@ -29,10 +25,8 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">Chương trình học</a>
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">M.S.S</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Chương trình học</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">M.S.S</a>
                         <ul class="dropdown-menu dropdown-menu-light custom-scrollbar">
                             <li><a class="dropdown-item" href="#">Mooting là gì?</a></li>
                             <hr class="dropdown-divider">
@@ -55,10 +49,8 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">Học phí</a>
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">Review</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Học phí</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Review</a>
                         <ul class="dropdown-menu dropdown-menu-light">
                             <li><a class="dropdown-item" href="#">Các gói học và quyền lợi</a></li>
                             <hr class="dropdown-divider">
@@ -66,10 +58,8 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">News & Events</a>
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">Pricing</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">News & Events</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pricing</a>
                         <ul class="dropdown-menu dropdown-menu-light">
                             <li><a class="dropdown-item" href="#">Thông báo mở đơn đăng ký khóa học</a></li>
                             <hr class="dropdown-divider">
@@ -77,10 +67,8 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">Bảo chứng từ cộng đồng</a>
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">FAQ</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Bảo chứng từ cộng đồng</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">FAQ</a>
                         <ul class="dropdown-menu dropdown-menu-light custom-scrollbar">
                             <li><a class="dropdown-item" href="#">Từ Mentee</a></li>
                             <hr class="dropdown-divider">
@@ -105,14 +93,8 @@
         </div>
     </nav>
     <div class="d-flex language fixed-top">
-        <a class="text-decoration-none"
-            href="<?php echo $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) . "?language=vn"; ?>"
-            style="cursor:pointer; color: inherit;"><img src="././assets/imgs/vietnam.png" alt="vietnam-flag"
-                class="lang-flag"></a> <span class="px-2">|</span>
-        <a class="text-decoration-none"
-            href="<?php echo $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) . "?language=eng"; ?>"
-            style="cursor:pointer; color: inherit;"><img src="././assets/imgs/united-kingdom.png"
-                alt="united-kingdom-flag" class="lang-flag"></a>
+        <a class="text-decoration-none" href="<?php echo $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) . "?language=vn"; ?>" style="cursor:pointer; color: inherit;"><img src="././assets/imgs/vietnam.png" alt="vietnam-flag" class="lang-flag"></a> <span class="px-2">|</span>
+        <a class="text-decoration-none" href="<?php echo $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) . "?language=eng"; ?>" style="cursor:pointer; color: inherit;"><img src="././assets/imgs/united-kingdom.png" alt="united-kingdom-flag" class="lang-flag"></a>
     </div>
 </div>
 <!-- NAVBAR -->
@@ -134,7 +116,7 @@
     </div>
     <div class="fl-fl">
         <i class="fa fa-solid fa-address-card"></i>
-        <a href="#" target="_blank">Contact us!</a>
+        <a href="#" target="_blank" class="">Contact us!</a>
     </div>
 </div>
 <!-- Floating Social Media bar Ends -->
