@@ -1,5 +1,5 @@
 <!-- LOGO AREA -->
-<div class="logo-area container-fluid fixed-top vn">
+<div class="logo-area container-fluid fixed-top">
     <nav class=" navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="menu-nav text-center justify-content-center align-items-center col-lg-4">
             <a class="navbar-brand" href="<?php echo BASE_URL ?>/home">
@@ -13,8 +13,8 @@
             <div class="collapse navbar-collapse" id="navResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown custom-scrollbar">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Về MSS</a>
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                        <a class="nav-link dropdown-toggle vn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Về MSS</a>
+                        <a class="nav-link dropdown-toggle eng" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
                         <ul class="dropdown-menu dropdown-menu-light">
                             <li><a class="dropdown-item" href="#">Lời ngỏ từ Nhà sáng lập</a></li>
                             <hr class="dropdown-divider">
@@ -25,8 +25,8 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Chương trình học</a>
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">M.S.S</a>
+                        <a class="nav-link dropdown-toggle vn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Chương trình học</a>
+                        <a class="nav-link dropdown-toggle eng" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">M.S.S</a>
                         <ul class="dropdown-menu dropdown-menu-light custom-scrollbar">
                             <li><a class="dropdown-item" href="#">Mooting là gì?</a></li>
                             <hr class="dropdown-divider">
@@ -49,8 +49,8 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Học phí</a>
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Review</a>
+                        <a class="nav-link dropdown-toggle vn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Học phí</a>
+                        <a class="nav-link dropdown-toggle eng" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Review</a>
                         <ul class="dropdown-menu dropdown-menu-light">
                             <li><a class="dropdown-item" href="#">Các gói học và quyền lợi</a></li>
                             <hr class="dropdown-divider">
@@ -58,8 +58,8 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">News & Events</a>
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pricing</a>
+                        <a class="nav-link dropdown-toggle eng" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">News & Events</a>
+                        <a class="nav-link dropdown-toggle eng" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pricing</a>
                         <ul class="dropdown-menu dropdown-menu-light">
                             <li><a class="dropdown-item" href="#">Thông báo mở đơn đăng ký khóa học</a></li>
                             <hr class="dropdown-divider">
@@ -67,8 +67,8 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Bảo chứng từ cộng đồng</a>
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">FAQ</a>
+                        <a class="nav-link dropdown-toggle vn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Bảo chứng từ cộng đồng</a>
+                        <a class="nav-link dropdown-toggle eng" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">FAQ</a>
                         <ul class="dropdown-menu dropdown-menu-light custom-scrollbar">
                             <li><a class="dropdown-item" href="#">Từ Mentee</a></li>
                             <hr class="dropdown-divider">
@@ -77,7 +77,7 @@
                             <li><a class="dropdown-item" href="#">Từ giám khảo và các tổ chức</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown"><a class="nav-link" href="#">FAQ</a>
+                    <li class="nav-item dropdown vn"><a class="nav-link" href="#">FAQ</a>
                         <ul class="dropdown-menu dropdown-menu-light">
                             <li><a class="dropdown-item" href="#">Về chương trình</a></li>
                             <hr class="dropdown-divider">
@@ -87,7 +87,7 @@
                             <li><a class="dropdown-item" href="#">Về học phí</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown"><a class="nav-link" href="#">Liên hệ</a></li>
+                    <li class="nav-item dropdown vn"><a class="nav-link" href="#">Liên hệ</a></li>
                 </ul>
             </div>
         </div>
