@@ -276,6 +276,13 @@ footer li {
 .welcome-page img {
   size: 50%;
 }
+.bg-fix-griffin {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
 #m-home {
   background-image: url(../assets/imgs/home-background.png);
   background-size: cover;
