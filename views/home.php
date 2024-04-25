@@ -26,30 +26,43 @@
     <!-- End welcome page -->
 
     <!-- MSS's Mascot - Griffin Background -->
-    <div id="" class="position-fixed d-flex justify-content-end" style="left: 0; right: 0; top: 0; bottom: 0; z-index: -1">
-        <div class="" id="m-home" style=" width: 75%;">
+    <div class="bg-fix-griffin position-fixed d-flex justify-content-end">
+        <div class="griffin" style=" width: 75%;">
         </div>
     </div>
     <!-- Main content -->
-    <div id="" class=" container py-5 p-lg-5 vn">
-        <div class="intro-home col-lg-9">
-            <h2 class="text-uppercase fw-bold">Chào mừng đến với</h2>
-            <h1 class="text-uppercase fw-bold ">Mooting Summer School</h1>
+    <div class=" container py-5 p-lg-5 vn">
+        <h2 class="text-uppercase fw-bold display-5">Chào mừng đến với</h2>
+        <h1 class="text-uppercase fw-bold  display-3">Mooting Summer School</h1>
+        <div class="col-lg-8 m">
             <p>Ai đó đã nói rằng khi tham gia Mooting, ta thấy mình như lao vào vũ trụ. Ở đó, ta sẽ không biết bản thân
                 có thể đi xa được đến đâu, và giá trị nhận được nhiều đến mức nào. Nhưng trước hết, chỉ cần từ những
                 bước chân đâu tiên, ta có thể chắc chắn rằng, hành trình này sẽ không phải là một điều đơn giản. </p>
-            <p>Bởi vậy, nếu xem mỗi cuộc thi moot là một vì sao khác nhau trong vũ trụ, Non est ad astra mollis e terris
-                via (tạm dịch: Chẳng có con đường nào dễ dàng để vươn tới những vì sao) chính là triết lý của Mooting
+            <p>Bởi vậy, nếu xem mỗi cuộc thi moot là một vì sao khác nhau trong vũ trụ,<strong style="font-family: 'Times New Roman', Times, serif; font-size: 1.3rem"><em> Non est ad astra mollis e terris
+                via</em></strong> (tạm dịch: <em>Chẳng có con đường nào dễ dàng để vươn tới những vì sao</em>) chính là triết lý của Mooting
                 Summer School. Với chúng tôi, không ai khác ngoài chính bạn sẽ phải tự lựa chọn “ngôi sao may mắn” và
                 tìm ra đường đi phù hợp với mình. Việc mà Mooting Summer School có thể giúp bạn là xây dựng một bước
                 đệm, một bệ phóng nền tảng, điều sẽ khiến cho mọi hành trình với mooting trở nên bớt gian truân hơn.
             </p>
             <p>Vậy, liệu ta sẽ cho nhau cơ hội để cùng đưa nhau đến gần hơn với những gì ta mong nhận được?</p>
         </div>
+        <div class="row mt-5">
+            <div class="col-lg-6">
+                <h1 class="text-uppercase fw-bold display-3 ">DỰ ÁN</h1>
+                <p>Mooting Summer School (“<strong>MSS</strong>”) là dự án đào tạo chuyên nghiệp về mooting đầu tiên tại Việt Nam, được thành lập và dẫn dắt bởi một cựu mooter đã gắn bó với cộng đồng hơn một nửa thập kỷ qua ở đầy đủ các vai trò từ thí sinh, huấn luyện viên, diễn giả và giám khảo cả trong và ngoài nước. </p>
+                <p>MSS sẽ được tổ chức vào mỗi mùa hè và hoạt động không vì mục tiêu lợi nhuận.</p>
+                <h4><a href="<?php echo BASE_URL ?>/about" ?>Xem thêm >></a></h4>
+                <h4>ĐĂNG KÝ CHO MSS KHÓA 2024 ĐÃ MỞ</h4>
+            </div>
+            <div class="col-lg-6 mt-4">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-pHfPJGatgE?si=KlPHj-aaR5W99vtc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="w-100"></iframe>
+            </div>
+        </div>
         <div class="w-100">
             <div class="eng"><?php include "./views/components/book.php" ?></div>
 
         </div>
+    </div>
 </main>
 
 
