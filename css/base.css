@@ -1,8 +1,4 @@
 @font-face {
-  font-family: PlantagenetCherokee;
-  src: url(../assets/fonts/PlantagenetCherokee.ttf);
-}
-@font-face {
   font-family: BookMan;
   src: url(../assets/fonts/BOOKOS.ttf);
 }
@@ -10,10 +6,26 @@
   font-family: Title;
   src: url(../assets/fonts/DFVN-West-West-Condensed.ttf);
 }
+@font-face {
+  font-family: Myriad;
+  src: url(../assets/fonts/MYRIADPRO-REGULAR.ttf);
+}
+@font-face {
+  font-family: Myriad;
+  src: url(../assets/fonts/MYRIADPRO-BOLD.ttf);
+  font-weight: bold;
+}
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+a {
+  color: #274069;
+  text-decoration: none;
+}
+a:hover {
+  color: #586378;
 }
 li ul li a:hover {
   background-color: #274069 !important;
@@ -29,6 +41,7 @@ body,
 section {
   background-color: #e5e5e5;
   color: #274069;
+  text-align: justify;
 }
 main {
   margin-top: 8rem;
@@ -62,12 +75,16 @@ picture {
   --bs-dropdown-min-width: 12.5rem;
 }
 /* -----fonts------ */
-body {
-  font-family: PlantagenetCherokee;
+body,
+nav {
+  font-family: Myriad;
+  font-size: 1.2rem;
 }
-h1 {
+h1,
+h2,
+h3,
+h4 {
   font-family: Title;
-  font-size: 4rem;
 }
 
 /* --------HEADER SECTION---------- */
@@ -88,6 +105,7 @@ nav {
   margin: 0;
   padding: 0;
   z-index: 2 !important;
+  font-size: 1rem;
 }
 .navbar-nav {
   /* background-color: #b7b7b7; */
@@ -283,7 +301,7 @@ footer li {
   bottom: 0;
   z-index: -1;
 }
-#m-home {
+.griffin {
   background-image: url(../assets/imgs/home-background.png);
   background-size: cover;
   background-position: top;
@@ -291,6 +309,9 @@ footer li {
 }
 .mh-content {
   padding: 20px;
+}
+.slogan {
+  font-weight: bolder;
 }
 /* ---------ABOUT US PAGE---------- */
 
