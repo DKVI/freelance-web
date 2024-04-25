@@ -55,7 +55,7 @@ picture {
 }
 .background-full {
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: 100%;
   min-height: 100vh;
 }
 .main-text-color {
@@ -315,11 +315,9 @@ footer li {
 }
 /* ---------ABOUT US PAGE---------- */
 
-section.ab-us {
-  background-image: url(../assets/imgs/ab-01.png);
-  padding-top: 50px;
+#ab-main > section {
 }
-section.ab-us p {
+#ab-main > section p {
   text-align: justify;
 }
 
