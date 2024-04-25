@@ -1,4 +1,7 @@
 <main class="position-relative">
+    <?php
+    include "./views/components/searchBar.php";
+    ?>
     <!-- Welcome section -->
     <!-- <div class="welcome-page d-flex align-items-center justify-content-center vh-100" style="
         position: fixed;

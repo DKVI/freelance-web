@@ -83,6 +83,9 @@ if (isset($_GET['language'])) {
             case 'news':
                 include __DIR__ . "/views/news.php";
                 break;
+            case 'search':
+                include __DIR__ . "/views/search.php";
+                break;
             case "admin/home":
                 include __DIR__ . "/views/admin/home.php";
                 break;
@@ -98,6 +101,7 @@ if (isset($_GET['language'])) {
             case "admin/posts":
                 include __DIR__ . "/views/admin/posts.php";
                 break;
+
             case "admin/addPost":
                 include __DIR__ . "/views/admin/addPost.php";
                 break;
