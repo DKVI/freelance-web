@@ -13,8 +13,8 @@ else {
     echo '<script>location.href = "' . BASE_URL . '/e404"</script>';
 }
 //Lấy ta các bài viết theo keyword 
-$postsList = Post::getByKeyWord($conn, $keyword);
-
+$postsList = Post::getRelatedPost($conn, "6621dfac0dee99662", 3);
+echo $postsList == null;
 ?>
 
 <div class="d-flex" style="width: 100vw; height: 100vh">
@@ -30,13 +30,15 @@ $postsList = Post::getByKeyWord($conn, $keyword);
         <tbody>
             <?php
             //render dữ liệu
-            foreach ($postsList as $post) {
-                echo '<tr>';
-                echo '<th scope="row">' . $post->id . '</th>';
-                echo '<td><img src="' . BASE_URL . '/uploads/imgs/' . $post->fileImg . '" alt="" style="width: 100px"></td>';
-                echo '<td>' . $post->title . '</td>';
-                echo '<td>' . BASE_URL . $post->path . '</td>';
-                echo '</tr>';
+            if ($postsList != null) {
+                foreach ($postsList as $post) {
+                    echo '<tr>';
+                    echo '<th scope="row">' . $post->id . '</th>';
+                    echo '<td><img src="' . BASE_URL . '/uploads/imgs/' . $post->fileImg . '" alt="" style="width: 100px"></td>';
+                    echo '<td>' . $post->title . '</td>';
+                    echo '<td>' . BASE_URL . $post->path . $post->pin .  '</td>';
+                    echo '</tr>';
+                }
             }
             ?>
         </tbody>

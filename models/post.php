@@ -204,15 +204,16 @@ class Post
         }
     }
 
-    public static function getPopularPost($conn)
+    public static function getPopularPost($conn, $limit)
     {
         try {
             $stmt = "SELECT *
             FROM post
             WHERE pin = 1 OR pin = 0
             ORDER BY (CASE WHEN pin = 1 THEN 0 ELSE 1 END), views DESC
-            LIMIT 9";
+            LIMIT :limit";
             $stmt = $conn->prepare($stmt);
+            $stmt->bindParam(":limit", $limit, PDO::PARAM_INT);
             $stmt->execute();
             $postList = [];
             while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
@@ -232,11 +233,11 @@ class Post
             }
             return $postList;
         } catch (\Throwable $e) {
-            return null;
+            return $e;
         }
     }
 
-    public static function getRelatedPost($conn, $postId)
+    public static function getRelatedPost($conn, $postId, $limit)
     {
         try {
             $stmt = "SELECT DISTINCT post.*
@@ -250,9 +251,10 @@ class Post
                 WHERE post_id = :post_id
               ) AS hashtagIdList
             ) AS postIdList
-            ON post.id = postIdList.post_id LIMIT 9";
+            ON post.id = postIdList.post_id LIMIT :limit";
             $stmt = $conn->prepare($stmt);
             $stmt->bindParam(":post_id", $postId);
+            $stmt->bindParam(":limit", $limit, PDO::PARAM_INT);
             $stmt->execute();
             $postList = [];
             while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
