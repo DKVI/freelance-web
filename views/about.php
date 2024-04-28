@@ -55,15 +55,49 @@
             </div>
         </div>
     </section>
-    <section class="mascot-moto">
-        <div class="position-absolute col-lg-5">
+    <section class="mascot-moto d-flex">
+        <div class=" col-lg-5">
             <img src="./assets/imgs/about-3.png" alt="mss-bg" class="w-100">
         </div>
-        <div>
-            <h1 style="font-size:8.5rem; margin:0; padding:0;" class="text-end vn">Biểu tượng Griffin</h1>
+        <div class="p-5 vn">
+            <h1 style="font-size:8.5rem; margin:0; padding:0;" class="text-end">Biểu tượng Griffin</h1>
+            <p>Gryffin, hay còn gọi là “điểu sư” trong tiếng Việt, là một linh vật thần thoại có phần đầu, cánh, móng vuốt của đại bàng và phần thân, đuôi, chân sau của sư tử. Vì đại bàng được coi là “vua của các loài chim” và sư tử là “vua của các loài thú”, nên điểu sư đại diện cho sức mạnh và sự thông thái trong nhiều nền văn hóa cổ như Ba Tư, Hy Lạp, Ai Cập, Ấn Độ v.v. </p> 
+            <p>MSS chọn điểu sư làm biểu tượng cho dự án cũng bởi hai nửa của nó đều có mối gắn bó mật thiết với MSS. Với nửa đại bàng, nó gợi nhắc về một phần tên gọi đội đấu moot đầu tiên của Nhà sáng lập. Còn nửa sư tử lại tương trưng cho lòng dũng cảm và ý chí mạnh mẽ của các mooters nói chung trong hành trình tham gia thi đấu.</p>
+        </div>
+        <div class="p-5 eng">
+            <h1 style="font-size:8.5rem; margin:0; padding:0;" class="text-end">Meet Our Mascot</h1>
+            <p>Gryffin, also known as "điểu sư" in Vietnamese, is a mythological creature with the head, wings, and talons of an eagle and the body, tail, and hind legs of a lion. Because the eagle is considered the "king of birds" and the lion is the "king of beasts," the Gryffin symbolizes strength and wisdom in many ancient cultures such as Persia, Greece, Egypt, India, and so on.</p> 
+            <p>MSS chose the Gryffin as its emblem for the project because both halves of it are closely connected to MSS. With the eagle half, it evokes a part of the name of the founder's first moot team. Meanwhile, the lion half symbolizes the courage and bravery of mooters in general throughout their competition journey.</p>
+        </div>
+    </section>
+    <section style:="min-height: 2000px" class="position-relative">
+        <div class="position-absolute" style="top:30%; left:-180px">
+            <div class="circle">
+                <div class="text" >
+                    <p>• Non est ad astra mollis e terris via</p>
+                </div>
+            </div>
+        </div>
+        <div class="position-absolute" style="top:5%; right:-50px">
+            <div class="circle" style="top:10%; right:-180px">
+                <div class="text">
+                    <p>• Non est ad astra mollis e terris via</p>
+                </div>
+            </div>
+        </div>
+        <div class="container col-6" >
+            <h1 style="font-size:10.5rem; margin:0; padding:0;" class="text-center mt-5 vn">Triết lý</h1>
+            <h1 style="font-size:10.5rem; margin:0; padding:0;" class="text-center mt-5 eng">Philosophy</h1>
+            
+            <strong style="font-family: 'Times New Roman', Times, serif; font-size: 2rem"><em> Non est ad astra mollis e terris
+                via</em></strong>
+            <p class="text-end vn" style="font-family: 'Times New Roman', Times, serif;"><em> - Megara, Hercales Furens của Seneca, dòng 437</em></p>
+            <p class="text-end eng" style="font-family: 'Times New Roman', Times, serif;"><em> - Megara, Hercales Furens of Seneca, line 437</em></p>
+            <p><em>“Non est ad astra mollis e terris via”</em>, roughly translated as <em>"There is no easy path from the earth to the stars"</em>, seems to be a fitting metaphor for the challenges one faces in mooting. Because indeed, mooting can become a "lucky star" and positively change someone's future in the legal profession. However, to harvest such a star, mooters must endure many difficulties, even failures time and time again. MSS chooses this as the project's philosophy, firstly to remind itself of the mission to lay a foundational stepping stone for students to continue their journey in conquering mooting. Moreover, through this philosophy, MSS also wants to convey to students that the path with mooting is arduous and lengthy, so they should remain determined, yet not be discouraged. After all, MSS believes that you will always gain the deserved value from this journey for the effort you’ve put in.</p>
         </div>
     </section>
 
+    <!-- About the MSS team -->
     <!-- <section class="" id="services">
         <div class="container">
             <div class="text-center">

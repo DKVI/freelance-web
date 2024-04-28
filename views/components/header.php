@@ -17,7 +17,7 @@
                     <li class="nav-item dropdown custom-scrollbar">
                         <a class="nav-link dropdown-toggle vn" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">Về MSS</a>
-                        <a class="nav-link dropdown-toggle eng" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle eng" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">About Us</a>
                         <ul class="dropdown-menu dropdown-menu-light">
                             <li><a class="dropdown-item" href="#">Lời ngỏ từ Nhà sáng lập</a></li>

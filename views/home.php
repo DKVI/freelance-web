@@ -26,7 +26,11 @@
     <!-- End welcome page -->
 
     <!-- MSS's Mascot - Griffin Background -->
-    <div class="bg-fix-griffin position-fixed d-flex justify-content-end">
+    <div class="position-fixed d-flex justify-content-end" style="left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;">
         <div class="griffin" style=" width: 75%;">
         </div>
     </div>
@@ -58,10 +62,7 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/-pHfPJGatgE?si=KlPHj-aaR5W99vtc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="w-100"></iframe>
             </div>
         </div>
-        <div class="w-100">
-            <div class="eng"><?php include "./views/components/book.php" ?></div>
-
-        </div>
+        
     </div>
     <div class=" container py-5 p-lg-5 eng">
         <h2 class="text-uppercase fw-bold display-5">WELCOME TO</h2>
@@ -93,7 +94,5 @@
 
 
 
-<!-- <div class="w-100">
-    <div class="eng"><?php include "./views/components/book.php" ?></div>
 
-</div> -->
+
