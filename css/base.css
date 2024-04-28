@@ -334,6 +334,13 @@ footer li {
 #ab-main > section p {
   text-align: justify;
 }
+.our-mission {
+  background-image: url(../assets/imgs/about-2.png);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
 
 /* ---------------FAQ------------------ */
 
