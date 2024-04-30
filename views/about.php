@@ -18,10 +18,10 @@
                 <h5 class="text-end mt-5 vn">Đọc thêm thông tin về Nhà sáng lập tại đây</h5>
                 <h5 class="text-end mt-5 eng">You can read more about the Founder here</h5>
                 <div class="founder-words-img position-absolute">
-                    <h6 style="font-size:4.2rem; line-height:0.5rem; " class="vn">Lời ngỏ từ</h6>
-                    <h6 style="font-size:4.2rem; line-height:0.5rem; " class="eng">Message from</h6>
-                    <h6 style="font-size:10.5rem; margin:0; padding:0;" class="vn">Nhà sáng lập</h6>
-                    <h6 style="font-size:10.5rem; margin:0; padding:0;" class="eng">Our Founder</h6>
+                    <h3 style="font-size:4.2rem; line-height:0.5rem; " class="vn">Lời ngỏ từ</h3>
+                    <h3 style="font-size:4.2rem; line-height:0.5rem; " class="eng">Message from</h3>
+                    <h1 class="vn">Nhà sáng lập</h1>
+                    <h1 class="eng">Our Founder</h1>
                 </div>
             </div>
         </div>
@@ -29,10 +29,10 @@
     <section class="our-mission background-full">
         <div class="container p-5" style="color: #e5e5e5">
             <div class="our-mission-title text-end vn">
-                <h1 style="font-size:10.5rem; margin:0; padding:0;">Sứ mệnh</h1>
+                <h1>Sứ mệnh</h1>
                 <h2 style="font-size:7rem; line-height:5rem;" >của MSS</h2>
             </div>
-            <h1 style="font-size:10.5rem; margin:0; padding:0;" class="eng">Our mission</h1>
+            <h1 class="eng">Our mission</h1>
             <div class="col-lg-8 vn" style="margin-top: -7rem">
                 <p>Trong những năm gần đây, mooting có xu hướng phát triển và phổ biến hơn tại khắp các trường đại học đào tạo về luật ở Việt Nam. Tuy nhiên, sự phát triển trong cộng đồng dường như chưa có tính tổng quát, hệ thống, và kế thừa. Các Mooter thường không được huấn một cách chuyên nghiệp và đầy đủ, do đó gặp khá nhiều khó khăn trong hành trình chinh chiến tại các giải đấu moot từ trong nước đến nước ngoài.</p>
                 <p>Trước bối cảnh đó, MSS ra đời với hy vọng có thể đặt những viên gạch nền tảng cho sự phát triển bền vững của cộng đồng. Là dự án đào tạo chuyên nghiệp về mooting đầu tiên tại Việt Nam, MSS kỳ vọng có thể đem lại cho học viên ba giá trị như sau:</p>
@@ -60,17 +60,17 @@
             <img src="./assets/imgs/about-3.png" alt="mss-bg" class="w-100">
         </div>
         <div class="p-5 vn">
-            <h1 style="font-size:8.5rem; margin:0; padding:0;" class="text-end">Biểu tượng Griffin</h1>
+            <h1 class="text-end">Biểu tượng Griffin</h1>
             <p>Gryffin, hay còn gọi là “điểu sư” trong tiếng Việt, là một linh vật thần thoại có phần đầu, cánh, móng vuốt của đại bàng và phần thân, đuôi, chân sau của sư tử. Vì đại bàng được coi là “vua của các loài chim” và sư tử là “vua của các loài thú”, nên điểu sư đại diện cho sức mạnh và sự thông thái trong nhiều nền văn hóa cổ như Ba Tư, Hy Lạp, Ai Cập, Ấn Độ v.v. </p> 
             <p>MSS chọn điểu sư làm biểu tượng cho dự án cũng bởi hai nửa của nó đều có mối gắn bó mật thiết với MSS. Với nửa đại bàng, nó gợi nhắc về một phần tên gọi đội đấu moot đầu tiên của Nhà sáng lập. Còn nửa sư tử lại tương trưng cho lòng dũng cảm và ý chí mạnh mẽ của các mooters nói chung trong hành trình tham gia thi đấu.</p>
         </div>
         <div class="p-5 eng">
-            <h1 style="font-size:8.5rem; margin:0; padding:0;" class="text-end">Meet Our Mascot</h1>
+            <h1 class="text-end">Meet Our Mascot</h1>
             <p>Gryffin, also known as "điểu sư" in Vietnamese, is a mythological creature with the head, wings, and talons of an eagle and the body, tail, and hind legs of a lion. Because the eagle is considered the "king of birds" and the lion is the "king of beasts," the Gryffin symbolizes strength and wisdom in many ancient cultures such as Persia, Greece, Egypt, India, and so on.</p> 
             <p>MSS chose the Gryffin as its emblem for the project because both halves of it are closely connected to MSS. With the eagle half, it evokes a part of the name of the founder's first moot team. Meanwhile, the lion half symbolizes the courage and bravery of mooters in general throughout their competition journey.</p>
         </div>
     </section>
-    <section style:="min-height: 2000px" class="position-relative">
+    <section class="position-relative">
         <div class="position-absolute" style="top:30%; left:-180px">
             <div class="circle">
                 <div class="text" >
@@ -86,14 +86,15 @@
             </div>
         </div>
         <div class="container col-6" >
-            <h1 style="font-size:10.5rem; margin:0; padding:0;" class="text-center mt-5 vn">Triết lý</h1>
-            <h1 style="font-size:10.5rem; margin:0; padding:0;" class="text-center mt-5 eng">Philosophy</h1>
+            <h1 class="text-center mt-5 vn">Triết lý</h1>
+            <h1 class="text-center mt-5 eng">Philosophy</h1>
             
             <strong style="font-family: 'Times New Roman', Times, serif; font-size: 2rem"><em> Non est ad astra mollis e terris
                 via</em></strong>
             <p class="text-end vn" style="font-family: 'Times New Roman', Times, serif;"><em> - Megara, Hercales Furens của Seneca, dòng 437</em></p>
             <p class="text-end eng" style="font-family: 'Times New Roman', Times, serif;"><em> - Megara, Hercales Furens of Seneca, line 437</em></p>
-            <p><em>“Non est ad astra mollis e terris via”</em>, roughly translated as <em>"There is no easy path from the earth to the stars"</em>, seems to be a fitting metaphor for the challenges one faces in mooting. Because indeed, mooting can become a "lucky star" and positively change someone's future in the legal profession. However, to harvest such a star, mooters must endure many difficulties, even failures time and time again. MSS chooses this as the project's philosophy, firstly to remind itself of the mission to lay a foundational stepping stone for students to continue their journey in conquering mooting. Moreover, through this philosophy, MSS also wants to convey to students that the path with mooting is arduous and lengthy, so they should remain determined, yet not be discouraged. After all, MSS believes that you will always gain the deserved value from this journey for the effort you’ve put in.</p>
+            <p class="vn"><em>“Non est ad astra mollis e terris via”</em>, tạm dịch: <em>“Chẳng có con đường nào dễ dàng để vươn tới những vì sao”</em>, dường như là phép ẩn dụ hoàn hảo khi nói về hành trình thi đấu moot của bất cứ ai. Bởi lẽ, mooting có thể trở thành “ngôi sao may mắn” và làm thay đổi tích cực tương lai của ai đó trong nghề luật. Nhưng để hái được ngôi sao như vậy, các mooter phải trải qua rất nhiều khó khăn, thậm chí là thất bại hết lần này đến lần khác. MSS chọn đây là triết lý của dự án, một là để nhắc nhở mình về sứ mệnh xây dựng một bước đệm nền tảng cho các học viên tiếp tục hành trình chinh phục mooting. Đồng thời, thông qua triết lý này, MSS cũng muốn nhắn nhủ đến các học viên rằng chặng đường với mooting còn dài và khó khăn, vì thế đừng chủ quan nhưng cũng đừng nản lòng. Sau tất cả, MSS tin rằng bạn sẽ luôn nhận được giá trị xứng đáng với những gì đã bỏ ra.</p>
+            <p class="eng"><em>“Non est ad astra mollis e terris via”</em>, roughly translated as <em>"There is no easy path from the earth to the stars"</em>, seems to be a fitting metaphor for the challenges one faces in mooting. Because indeed, mooting can become a "lucky star" and positively change someone's future in the legal profession. However, to harvest such a star, mooters must endure many difficulties, even failures time and time again. MSS chooses this as the project's philosophy, firstly to remind itself of the mission to lay a foundational stepping stone for students to continue their journey in conquering mooting. Moreover, through this philosophy, MSS also wants to convey to students that the path with mooting is arduous and lengthy, so they should remain determined, yet not be discouraged. After all, MSS believes that you will always gain the deserved value from this journey for the effort you’ve put in.</p>
         </div>
     </section>
 

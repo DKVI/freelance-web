@@ -75,8 +75,12 @@ if (isset($_GET['language'])) {
             case 'about':
                 include __DIR__ . "/views/about.php";
                 break;
+            case 'curriculum':
+                include __DIR__ . "/views/curriculum.php";
+                break;
             case 'faq':
                 include __DIR__ . "/views/faq.php";
+                break;
             case 'events':
                 include __DIR__ . "/views/event.php";
                 break;
