@@ -1,5 +1,5 @@
 <main id="curriculum">
-    <section class="container">
+    <section class="container d-none">
         <h1>Mooting</h1>
         <h2 style="font-size: 7rem; line-height: 3rem" class="vn">là gì?</h2>
         <h2 style="font-size: 7rem; line-height: 3rem" class="eng">definition</h2>
@@ -19,7 +19,7 @@
             </div>
         </div>
     </section>
-    <section class="page-section">
+    <section class="page-section d-none">
         <div class="container">   
             <h2 class="text-center display-5 vn">Một số giải đấu moot quốc tế danh giá có truyền thống lâu đời với cộng đồng thí sinh:</h2>
             <h2 class="text-center display-5 eng">Some prestigious international moot tournaments have a long tradition with  community:</h2>
@@ -212,6 +212,357 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="c-table background-full p-3 text-light ">
+        <div class="container">
+            <h1 class="text-center vn">Chương trình học</h1>
+            <h1 class="text-center eng">Course overview</h1>
+            
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="col-10">
+                    <div class="vn">
+                        <p>Chương trình của MSS sẽ bao gồm 17 buổi, trong đó bao gồm 1 buổi học thử, 11 buổi lý thuyết, 4 buổi thực hành, 1 buổi talkshow, và một buổi bế giảng.</p>
+
+                        <p>Các buổi lý thuyết sẽ được tổ chức vào tối thứ Năm, và sáng Chủ nhật. Các buổi thực hành, talk show, và bế giảng được dự kiến sẽ được tổ chức vào sáng thứ Bảy và Chủ nhật, cụ thể sẽ được thông báo sau.</p>
+
+                        <p>Nhằm tạo điều kiện để học viên có cơ hội trải nghiệm và có đánh giá trực quan về khóa học trước khi đăng ký, buổi học đầu tiên – một buổi lý thuyết, sẽ được MSS tổ chức miễn phí, cho tất cả mọi người.</p>
+                        <p>Tổng quan chương trình sẽ được thể hiện ở bảng sau (nhằm mục đích dễ theo dõi, các buổi học của gói Essentials dưới đây sẽ được tô màu xanh, đối với các buổi thực hành, học viên <strong style="font-family: 'Times New Roman', Times, serif; font-size: 1.5rem">gói Essentials</strong> sẽ tham gia với tư cách Quan sát viên)</p>
+                    </div>
+                    <div class="eng">
+                        <p>The MSS course will consist of 17 sessions: 1 trial session, 11 theoretical sessions, 4 mock sessions, a talk show, and a closing session.</p>
+
+                        <p>Theoretical sessions are scheduled for Thursday evenings and Sunday mornings. Mock sessions, talk shows, and closing session are planned for Saturday mornings and Sunday mornings, with specific details to be announced later.</p>
+
+                        <p>To provide an opportunity for prospective learners to gain hands-on experience with the course, allowing them to make an informed decision before registering for the course, MSS will organize the first session – a theory session, free of charge. </p>
+                        <p>An overview of the program will be shown in the table below. For your convenience, theoretical sessions of the Essentials package will be highlighted in green. The sessions included in the <strong style="font-family: 'Times New Roman', Times, serif; font-size: 1.5rem">Essentials package</strong> are highlighted in blue. For mock sessions, Essentials students will participate as Observers.</p>
+                    </div>
+                    <!-- TABLE -->
+                    <div class="bg-light p-5">
+                        <table class="table">
+                            <thead>
+                                <tr class="blue-bg">
+                                    <th scope="col" class="vn">Buổi số</th>
+                                    <th scope="col" class="eng">Session No.</th>
+                                    <th scope="col" class="vn">Chủ đề</th>
+                                    <th scope="col" class="eng">Subject</th>
+                                    <th scope="col" class="vn">Nội dung</th>
+                                    <th scope="col" class="eng">Content</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row" class="vn">Học thử</th>
+                                    <th scope="row" class="eng text-center">Try it out</th>
+                                    <td class="vn">Giới thiệu và tinh thần mooting</td>
+                                    <td class="eng">Introductory and mental mooting</td>
+                                    <td class="vn">
+                                        <ul>
+                                            <li>Mooting là gì</li>
+                                            <li>Vì sao lại tham gia mooting</li>
+                                            <li>Tinh thần mooting</li>
+                                            <li>Tổng quát về các nguyên tắc cơ bản của mooting, và nội dung khóa học MSS</li>
+                                        </ul>
+                                    </td>
+                                    <td class="eng">
+                                        <ul>
+                                            <li>Overview of mooting</li>
+                                            <li>Why would one do mooting?</li>
+                                            <li>Spirit of mooting</li>
+                                            <li>Overview of fundamental principles of mooting, and MSS’s course content </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr class="blue-bg">
+                                    <th scope="row">1.</th>
+                                    <td class="vn">Các nguyên tắc cơ bản</td>
+                                    <td class="eng">Basic principles</td>
+                                    <td class="vn">
+                                        <ul>
+                                            <li>Sự quan trọng của chuẩn bị trong đấu moot</li>
+                                            <li>Làm thế nào để “thắng” trong một trận moot?</li>
+                                            <li>Tầm quan trọng của tranh biện trực tiếp trong đấu moot</li>
+                                            <li>Lịch trình/kế hoạch luyện tập, thời gian chuẩn bị trung bình dành cho một giải moot</li>
+                                        </ul>
+                                    </td>
+                                    <td class="eng">
+                                        <ul>
+                                            <li>The importance of preparation in mooting</li>
+                                            <li>How do you “win” in a moot competition?</li>
+                                            <li>The five pillars of successful mooting preparation</li>
+                                            <li>Preparation schedule, and average preparation for mooting competitions.</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2.</th>
+                                    <td class="vn">Làm việc nhóm</td>
+                                    <td class="eng">Teamwork</td>
+                                    <td class="vn">
+                                        <ul>
+                                            <li>Thành lập đội</li>
+                                            <li>Các vấn đề về vận hành đội</li>
+                                            <li>Các vấn đề về làm việc nhóm trong các giai đoạn của giải moot</li>
+                                        </ul>
+                                    </td>
+                                    <td class="eng">
+                                        <ul>
+                                            <li>Team formation</li>
+                                            <li>Team dynamics</li>
+                                            <li>Teamwork throughout the mooting phases</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr class="blue-bg">
+                                    <th scope="row">3.</th>
+                                    <td class="vn">Chuẩn bị, và giải quyết đề bài</td>
+                                    <td class="eng">Prepare, and solve the problem</td>
+                                    <td class="vn">
+                                        <ul>
+                                            <li>Sơ chế! Xử lý đề moot</li>
+                                            <li>Hấp thụ nội dung của đề moot</li>
+                                            <li>Nghiên cứu sơ bộ đề moot</li>
+                                        </ul>
+                                    </td>
+                                    <td class="eng">
+                                        <ul>
+                                            <li>Mise en place! Preparing the moot problem</li>
+                                            <li>Absorption of the moot problem</li>
+                                            <li>Pre-analysis of the moot problem</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr class="blue-bg">
+                                    <th scope="row">4.</th>
+                                    <td class="vn">Nghiên cứu</td>
+                                    <td class="eng">Research</td>
+                                    <td class="vn">
+                                        <ul>
+                                            <li>Phân công nghiên cứu</li>
+                                            <li>Nghiên cứu sơ bộ vấn đề</li>
+                                            <li>Tư duy phản biện trong nghiên cứu</li>
+                                            <li>Thực hiện nghiên cứu một cách phù hợp</li>
+                                        </ul>
+                                    </td>
+                                    <td class="eng">
+                                        <ul>
+                                            <li>Research assignment</li>
+                                            <li>Preliminary research</li>
+                                            <li>Critical thinking during research</li>
+                                            <li>Doing research properly</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">5.</th>
+                                    <td colspan="2" class="text-center">
+                                        <p class="vn">Buổi mock số 1</p>
+                                        <p class="eng">Mock Session No. 1</p>
+                                        <em class="vn"><strong>Lưu ý:</strong> Tình huống pháp lý được sử dụng trong các buổi Mock này sẽ được cung cấp từ buổi học chính thức đầu tiên.</em>
+                                        <em class="eng"><strong> Note:</strong> The hypotheticals used in these Mock sessions, and team selection will be provided in the housekeeping session.</em>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">6.</th>
+                                    <td colspan="2" class="text-center">
+                                        <p class="vn">Buổi mock số 2</p>
+                                        <p class="eng">Mock Session No. 2</p>
+                                        <em class="vn"><strong>Lưu ý:</strong> Tình huống pháp lý được sử dụng trong các buổi Mock này sẽ được cung cấp từ buổi học chính thức đầu tiên.</em>
+                                        <em class="eng"><strong> Note:</strong> The hypotheticals used in these Mock sessions, and team selection will be provided in the housekeeping session.</em>
+                                    </td>
+                                    </td>
+                                </tr>
+                                <tr class="blue-bg">
+                                    <th scope="row">7.</th>
+                                    <td class="vn">Biện hộ viết (Cơ bản)</td>
+                                    <td class="eng">Written advocacy (Basic)</td>
+                                    <td class="vn">
+                                        <ul>
+                                            <li>Khi nào việc viết bắt đầu</li>
+                                            <li>Các quyết định trước khi thực hiện viết bài biện hộ</li>
+                                            <li>Các nền tảng cơ bản cho việc viết</li>
+                                        </ul>
+                                    </td>
+                                    <td class="eng">
+                                        <ul>
+                                            <li>When does writing start?</li>
+                                            <li>Pre-memorial decisions</li>
+                                            <li>Writing foundations</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">8.</th>
+                                    <td class="vn">Biện hộ viết (Nâng cao)</td>
+                                    <td class="eng">Writing foundations</td>
+                                    <td class="vn">
+                                        <ul>
+                                            <li>Sử dụng các phần phụ trợ trong bản đệ trình một cách phù hợpKhi nào việc viết bắt đầu</li>
+                                            <li>Nguyên tắc siêu-rõ-ràng</li>
+                                            <li>Tầm quan trọng của hiệu chỉnh trong việc viết</li>
+                                            <li>Ngôn ngữ, và phong thái trong biện hộ viết</li>
+                                            <li>Phía sau hậu trường: cách các bài biện hộ được chấm</li>
+                                        </ul>
+                                    </td>
+                                    <td class="eng">
+                                        <ul>
+                                            <li>Proper usage of auxiliaries in a submission</li>
+                                            <li>The principle of super-clarity</li>
+                                            <li>The importance of editing in writing</li>
+                                            <li>Tone and language in written advocacy</li>
+                                            <li>Behind the scenes: how memorials are scored</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr class="blue-bg">
+                                    <th scope="row">9.</th>
+                                    <td class="vn">Biện hộ nói (Cơ bản 1)</td>
+                                    <td class="eng">Oral advocacy (Basic 1)</td>
+                                    <td class="vn">
+                                        <ul>
+                                            <li>Các vấn đề nền tảng của biện hộ nói</li>
+                                            <li>Sáu giai đoạn chuẩn bị cho biện hộ nói: viết kịch bản, tập nói, hỏi & đáp, diễn tập, đấu tập nội bộ, và đấu tập</li>
+                                            <li>Các nguyên tắc bao quát </li>
+                                        </ul>
+                                    </td>
+                                    <td class="eng">
+                                        <ul>
+                                            <li>Oral advocacy foundations</li>
+                                            <li>The six phases of oral advocacy preparation: scripting, narrating, question & answering, rehearsing, mock hearings, and sparring</li>
+                                            <li>Overarching principles</li>
+                                            <li>Preparing the main speech (basic)</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr class="blue-bg">
+                                    <th scope="row">10.</th>
+                                    <td class="vn">Biện hộ nói (Cơ bản 2)</td>
+                                    <td class="eng">Preparing the main speech (basic)</td>
+                                    <td class="vn">
+                                        <ul>
+                                            <li>Chuẩn bị phần trình bày chính (cơ bản)</li>
+                                            <li>Trả lời câu hỏi (cơ bản)</li>
+                                            <li>Nhiệm vụ của ê-kip hậu trường</li>
+                                            <li>Các phương tiện thuyết phục, nhưng trong biện hộ nói</li>
+                                            <li>Phần đối đáp tại chỗ (cơ bản)</li>
+                                            <li>Những lỗi cấm kỵ trong biện hộ nói </li>
+                                        </ul>
+                                    </td>
+                                    <td class="eng">
+                                        <ul>
+                                            <li>Question and answers (basic)</li>
+                                            <li>The directing crew’s duties</li>
+                                            <li>The means of persuasion in oral advocacy (basic)</li>
+                                            <li>Rebuttals and surrebuttals (basic)</li>
+                                            <li>The cardinal sins of oral advocacy</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">11.</th>
+                                    <td class="vn">Biện hộ nói (Nâng cao 1)</td>
+                                    <td class="eng">Oral advocacy (Advanced 1)</td>
+                                    <td class="vn">
+                                        <ul>
+                                            <li>Các phẩm chất của người biện hộ tốt: biết vai trò của mình, và duy trì độ đáng tin cậy</li>
+                                            <li>Cấu trúc phần trình bày</li>
+                                            <li>Tính linh động trong phần trình bày</li>
+                                            <li>Các yếu tố “nhỏ nhưng có võ” cần cho hùng biện tốt</li>
+                                            <li>Sơ đồ logic</li>
+                                            <li>Diễn tập, diễn tập, và diễn tập</li>
+                                            <li>Các vấn đề đặc thù của thi đấu trực tiếp (offline mooting) và thi đấu trực tuyến (online mooting)</li>
+                                            <li>Các vấn đề về việc trao đổi đồng đội trong trận đấu</li>
+                                        </ul>
+                                    </td>
+                                    <td class="eng">
+                                        <ul>
+                                            <li>Scripting</li>
+                                            <li>The first minute of awkwardness in an oral hearing</li>
+                                            <li>Preparing the main speech (advanced)</li>
+                                            <li>Questions and answers (advanced)</li>
+                                            <li>The means of persuasion in oral advocacy (advanced)</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">12.</th>
+                                    <td class="vn">Biện hộ nói (Nâng cao 2)</td>
+                                    <td class="eng">Oral advocacy (Advanced 2)</td>
+                                    <td class="vn">
+                                        <ul>
+                                            <li>Kỹ năng hùng biện</li>
+                                            <li>Đối đáp tại chỗ (nâng cao)</li>
+                                            <li>Vững như kiềng ba chân! Vấn đề tâm lý trong biện hộ nói</li>
+                                            <li>Những vấn đề cụ thể trong phiên tranh tụng</li>
+                                            <li>Đằng sau hậu trường: cách các phiên tranh tụng được chấm điểm, và giám khảo thực sự chấm dựa trên tiêu chí nào</li>
+                                        </ul>
+                                    </td>
+                                    <td class="eng">
+                                        <ul>
+                                            <li>Rhetoric skills</li>
+                                            <li>Rebuttals and surrebuttals (advanced)</li>
+                                            <li><On your feet! Psychological issues in oral advocacy/li>
+                                            <li>Hearing shenanigans</li>
+                                            <li>Behind the scenes: how oral hearings are scored, and how judges actually decide who wins</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">13.</th>
+                                    <td colspan="2" class="text-center">
+                                        <p class="vn">Buổi mock số 3</p>
+                                        <p class="eng">Mock Session No. 3</p>
+                                        <em class="vn"><strong>Lưu ý:</strong> Tình huống pháp lý được sử dụng trong các buổi Mock này sẽ được cung cấp từ buổi học chính thức đầu tiên.</em>
+                                        <em class="eng"><strong> Note:</strong> The hypotheticals used in these Mock sessions, and team selection will be provided in the housekeeping session.</em>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">14.</th>
+                                    <<td colspan="2" class="text-center">
+                                        <p class="vn">Buổi mock số 4</p>
+                                        <p class="eng">Mock Session No. 4</p>
+                                        <em class="vn"><strong>Lưu ý:</strong> Tình huống pháp lý được sử dụng trong các buổi Mock này sẽ được cung cấp từ buổi học chính thức đầu tiên.</em>
+                                        <em class="eng"><strong> Note:</strong> The hypotheticals used in these Mock sessions, and team selection will be provided in the housekeeping session.</em>
+                                    </td>
+                                </tr>
+                                <tr class="blue-bg">
+                                    <th scope="row">15.</th>
+                                    <td>Talkshow</td>
+                                    <td>
+                                        <em class="vn">Nội dung cụ thể sẽ được thống nhất dựa trên đánh giá của MSS về các buổi học và đề xuất của học viên (nếu có)</em>
+                                        <em class="eng">Specific content will be decided based on MSS’s assessment of the sessions and students' suggestions (if any)</em>
+                                    </td>
+                                </tr>
+                                <tr class="blue-bg">
+                                    <th scope="row">16.</th>
+                                    <td class="vn">Bế giảng</td>
+                                    <td class="eng">Closing</td>
+                                    <td class="vn">
+                                        <li>Sau giải moot</li>
+                                        <li>Tinh thần mooting</li>
+                                        <li>Hãy tận hưởng, và kết nối!</li>
+                                        <li>Xác nhận, phản hồi, v.v.</li>
+                                        <li>Một bất ngờ sẽ-được-tiết-lộ</li>
+                                        <li>Bế giảng</li>
+                                    </td>
+                                    <td class="eng">
+                                        <ul>
+                                            <li>After the moot</li>
+                                            <li>Spirit of mooting</li>
+                                            <li>Post-competition reflection</li>
+                                            <li>Have fun and network!</li>
+                                            <li>Endorsements, feedback, etc.</li>
+                                            <li>A soon-to-be-disclosed surprise</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+
         </div>
     </section>
 
