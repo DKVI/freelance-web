@@ -1,21 +1,12 @@
 <main id="ab-main">
-
-    <section class="ab-us background-full">
-        <div class="container">
-            <div class="offset-lg-1">
-                <h1>About Us</h1>
-                <p class="col-lg-8 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia dolor cumque
-                    veritatis molestiae voluptatum, iste minima a animi. Mollitia iure modi culpa vitae nulla dolore,
-                    fugiat quia adipisci ea quod eligendi ratione error quae, voluptates perspiciatis sunt vero labore?
-                    Quisquam ex doloribus odio fugit, modi distinctio incidunt asperiores. Ex quia incidunt eos
-                    recusandae porro magnam, quisquam soluta cupiditate corrupti fuga velit quas, exercitationem
-                    temporibus ipsum assumenda eum iure facilis vero nostrum similique? Consequuntur saepe ratione
-                    quaerat eligendi quam natus minus cumque laudantium nostrum assumenda nam ea dolor impedit, vitae
-                    pariatur tempore tempora quos itaque accusamus, optio repudiandae exercitationem consectetur
-                    corporis nulla. Quasi magni repudiandae reiciendis sit porro officiis, illo aspernatur mollitia
-                    recusandae facilis laudantium nulla libero quas explicabo quod architecto! Maxime aliquam ab
-                    reprehenderit, ipsum voluptates est illum, suscipit, eligendi voluptas sed omnis sequi repellendus
-                    sit nostrum aut libero maiores itaque fugit qui totam quis? </p>
+    <section class="container-fluid">
+        <div class="d-lg-flex">
+            <img src="./assets/imgs/about-1.png" alt="founder-Vo-Son-Hoang">
+            <div>
+                <p>Chào mừng các bạn đến với Mooting Summer School (MSS).</p>
+                <p>Mình tin rằng mooting là một hoạt động mà mọi sinh viên luật đều nên trải nghiệm một lần trong cuộc đời học luật. Dưới góc độ chuyên môn, đây là sân chơi đầy thử thách không chỉ giúp các bạn rèn luyện tư duy phản biện, nâng cao kỹ năng nghiên cứu, mà còn mở mang sự hiểu biết về pháp luật của mình. Ngoài ra, về khía cạnh quan hệ, mooting cũng tạo cơ hội để bạn gặp gỡ, giao lưu với những người giỏi trong ngành, những người có cùng đam mê, sở thích, hay thậm chí những người “đồng nghiệp tương lai” của các bạn sau này.</p>
+                <p>Trong bất kỳ chuyện chinh phục nào, sự yêu và hiểu đối phương luôn là điều tối quan trọng. Vậy nên, tại MSS, mình, với tư cách là Nhà sáng lập và Người hướng dẫn, hy vọng có thể khiến bạn “yêu” và “hiểu” mooting hơn qua những bài giảng, những lời khuyên và những câu chuyện được chia sẻ. Và rồi, kể cả khi chinh phục được cuộc thi moot nào đó hay không, các bạn đều có thể trở thành mình – người truyền cảm hứng, dẫn dắt cho các thế hệ mooter tiếp theo. Từ đó, tất cả chúng ta sẽ góp phần nâng cao chất lượng và trình độ chung của cộng đồng mooting tại Việt Nam.</p>
+                <p>Cảm ơn các bạn đã cho mình và MSS cơ hội được đồng hành cùng với các bạn trong chặng đường mooting. Mình hy vọng sẽ được gặp các bạn tại MSS.</p>
             </div>
         </div>
     </section>

@@ -193,7 +193,7 @@
         </div>
     </div>
 </section>
-<section class="page-section" style="margin-top: 10rem;">
+<section class="page-section">
     <div class="container">
         <div class="text-center">
             <h1 class="section-heading text-uppercase">Về nội quy trong lớp</h1>
@@ -310,7 +310,7 @@
         </div>
     </div>
 </section>
-<section class="page-section" style="margin-top: 10rem;">
+<section class="page-section">
     <div class="container">
         <div class="text-center">
             <h1 class="section-heading text-uppercase">Về gói học</h1>
@@ -374,5 +374,106 @@
                         </div>
             </div>
         </div>
+    </div>
+</section>
+<section class="page-section">
+    <div class="container">
+        <div class="text-center">
+            <h1 class="section-heading text-uppercase">Về học phí</h1>
+        </div>
+    </div>
+    <div class="container d-flex justify-content-center">
+        <div class='col-lg-8'>
+            <!-- question-->
+            <div class="faq-container">
+                        <div class="faq-label">
+                            <div class="faq-label-text">
+                            Vì sao MSS hoạt động phi lợi nhuận nhưng vẫn thu học phí?
+                            </div>
+                            <div class="faq-label-icon">
+                                <i class="fa-solid fa-angle-down material-icons"></i>
+                            </div>
+
+                        </div>
+                        <div class="faq-answer ">
+                            <div class="faq-answer-content">
+                            <p>MSS không xem học phí mà chúng tôi đưa ra cho chương trình là một mức giá cho một sản phẩm dịch vụ được bán ra. MSS xem học phí là một khoản đóng góp của các bạn giúp duy trì sự hoạt động của MSS.</p>
+                            <p>Với định hướng hoạt động phi lợi nhuận, toàn bộ học phí thu được sẽ được sử dụng cho việc hoạt động, duy trì, và tiếp tục phát triển MSS. Các khoản đóng góp này, trước hết sẽ được sử dụng để cân bằng lại các chi phí phát sinh trong quá trình chuẩn bị và vận hành chương trình, như các vấn đề liên quan đến thiết kế hình ảnh, duy trì website, xây dựng bài giảng, hỗ trợ các nhân sư vận hành chương trình, v.v.</p>
+                            <p>Ngoài ra, trên tinh thần hoạt động vì cộng đồng, trong tương lai, khi các chi phí ban đầu đã được cân bằng, MSS mong muốn sử dụng các khoản đóng góp này để tiếp tục hỗ trợ sự phát triển của cộng đồng mooting Việt Nam, như một quỹ khuyến học cho các cá nhân muốn tham gia MSS, một kho lưu trữ các tài liệu hữu ích liên quan đến mooting, v.v.</p>
+
+                            </div>
+
+                        </div>
+            </div>
+                
+            <!-- question-->
+            <div class="faq-container">
+                        <div class="faq-label">
+                            <div class="faq-label-text">
+                            Mình đã đóng đầy đủ học phí, nhưng trước ngày học chính thức mình không thể tham gia vì lý do cá nhân. Mình có thể được hoàn lại học phí hay không?
+                            </div>
+                            <div class="faq-label-icon">
+                            <i class="fa-solid fa-angle-down material-icons"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer ">
+                            <div class="faq-answer-content">
+                            <p>MSS không hỗ trợ yêu cầu hoàn trả học phí đối với các trường hợp vì lý do cá nhân. Vì thế, MSS khuyến nghị học viên nên tìm hiểu kỹ về thông tin chi tiết của chương trình học để cân nhắc, sắp xếp cho phù hợp với lịch trình cá nhân trước khi đăng ký.</p>
+
+                            </div>
+                        </div>
+            </div>
+                
+            <!-- question -->
+            <div class="faq-container">
+                        <div class="faq-label">
+                            <div class="faq-label-text">
+                            Mình đã đóng đầy đủ học phí cho gói Advantaged, nhưng mình muốn chuyển xuống gói Essentials. Mình có được hoàn lại chênh lệch giữa hai gói này không?
+                            </div>
+                            <div class="faq-label-icon">
+                            <i class="fa-solid fa-angle-down material-icons"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer ">
+                            <div class="faq-answer-content">
+                            <p>MSS không hỗ trợ yêu cầu chuyển đổi học phí giữa gói Essentials và gói Advantaged. Vì thế, MSS khuyến nghị học viên nên tìm hiểu kỹ về thông tin chi tiết của chương trình học trước khi thanh toán.</p>
+                            </div>
+
+                        </div>
+            </div>
+            <!-- question -->
+            <div class="faq-container">
+                        <div class="faq-label">
+                            <div class="faq-label-text">
+                            Mình đã thanh toán đầy đủ học phí. Giữa chương trình học, vì lý do cá nhân, mình muốn ngừng việc tiếp tục tham gia. Mình có thể được hoàn lại học phí, hoặc theo tỉ lệ phần trăm số buổi còn lại mình chưa tham hay không?
+                            </div>
+                            <div class="faq-label-icon">
+                            <i class="fa-solid fa-angle-down material-icons"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer ">
+                            <div class="faq-answer-content">
+                            <p>MSS không hỗ trợ yêu cầu hoàn trả học phí, hoặc hoàn lại khoảnh chênh lệch đối với các trường hợp ngừng tiếp tục tham gia chương trình. Vì thế, MSS khuyến nghị học viên nên tìm hiểu kỹ về thông tin chi tiết của chương trình học để cân nhắc, sắp xếp cho phù hợp với lịch trình cá nhân trước khi đăng ký.</p>
+                            </div>
+
+                        </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="page-section" >
+    <div class="container">
+        <div class="text-center">
+            <h1 class="section-heading text-uppercase">Các hành vi bị nghiêm cấm khi tham gia khóa học</h1>
+        </div>
+    </div>
+    <div class="container col-8">
+        <p>Để đảm bảo khóa học có thể diễn ra một cách tốt nhất, MSS hy vọng các học viên sẽ không thực hiện một số hành vi như sau:</p>
+        
+        <ul>
+            <li>Có lời lẽ, hành vi thô tục, khiếm nhã, không phù hợp đối với Người hướng dẫn, hoặc các học viên khác;</li>
+            <li>Chuyển nhượng gói học cho bên thứ ba;</li>
+            <li>Sử dụng các nội dung của MSS mà không có được sự chấp thuận, cho phép của MSS.</li>
+        </ul>
     </div>
 </section>
