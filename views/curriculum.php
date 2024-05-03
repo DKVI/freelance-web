@@ -1,5 +1,5 @@
 <main id="curriculum">
-    <section class="container d-none">
+    <section class="container">
         <h1>Mooting</h1>
         <h2 style="font-size: 7rem; line-height: 3rem" class="vn">là gì?</h2>
         <h2 style="font-size: 7rem; line-height: 3rem" class="eng">definition</h2>
@@ -19,7 +19,7 @@
             </div>
         </div>
     </section>
-    <section class="page-section d-none">
+    <section class="page-section" style="min-height: 100vh">
         <div class="container">   
             <h2 class="text-center display-5 vn">Một số giải đấu moot quốc tế danh giá có truyền thống lâu đời với cộng đồng thí sinh:</h2>
             <h2 class="text-center display-5 eng">Some prestigious international moot tournaments have a long tradition with  community:</h2>
@@ -214,7 +214,7 @@
             </div>
         </div>
     </section>
-    <section class="c-table background-full p-3 text-light ">
+    <section class="c-table background-full p-3 text-light">
         <div class="container">
             <h1 class="text-center vn">Chương trình học</h1>
             <h1 class="text-center eng">Course overview</h1>
@@ -565,5 +565,17 @@
 
         </div>
     </section>
+    <section class="">
+        <div class="container background-full">
+            <div class="position-relative">
+                <img src="./assets/imgs/curriculum-61.png" alt="mss-background" class="position-absolute" style="right: 0; top: -6.2rem">
+            </div>
+            <div>
+                <h1>Lý thuyết</h1>
+                <p class="col-lg-8">Trước khi bắt đầu rèn luyện bất kỳ kỹ năng nào, chúng ta luôn cần tìm hiểu và nắm vững các hướng dẫn thực hành về nó. MSS tin rằng, một nền tảng lý thuyết tốt sẽ như kim chỉ nam dẫn đường cho chúng ta trong quá trình tự trau dồi bản thân hay trong thi đấu thực chiến. Vì vậy, MSS muốn truyền tải một cách chi tiết những kiến thức về kỹ năng trong mooting thông qua 6 buổi học (đối với gói Essentials) và 10 buổi học (đối với gói Advantaged). Theo đó, trong từng buổi học, Người hướng dẫn sẽ không chỉ thuần chia sẻ lý thuyết mà còn linh hoạt lồng ghép các ví dụ tham khảo, kinh nghiệm thực tiễn, thảo luận nhóm, bài tập thực hành, v.v. để đảm bảo học viên nắm bài một cách tốt nhất.</p>
 
+                <p class="col-lg-8">Chương trình học sẽ đi theo thứ tự 4 nhóm kỹ năng chính như sau: (i) các kỹ năng nên có trước khi cuộc thi bắt đầu, (ii) các kỹ năng liên quan đến những việc cần làm khi đã có đề bài, (iii) các kỹ năng liên quan đến việc viết bài biện hộ; và (iv) các kỹ năng liên quan đến tranh tụng nói.</p>
+            </div>
+        </div>
+    </section>
 </main>
