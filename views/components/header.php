@@ -104,7 +104,7 @@
         <div class="container-fluid animate-btn col-lg-8">
             <div class="collapse navbar-collapse" id="navResponsive">
                 <ul class="navbar-nav">
-                    <li class="nav-item custom-scrollbar">
+                    <li class="nav-item dropdown custom-scrollbar">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Về MSS</a>
                         <ul style="width: auto" class="shadow-lg dropdown-menu dropdown-menu-light">
                             <li><a class="dropdown-item" href="#">Lời ngỏ từ Nhà sáng lập</a></li>
@@ -113,6 +113,7 @@
                             <hr class="dropdown-divider">
                             <li><a class="dropdown-item" href="#">Biểu tượng và triết lý của MSS</a></li>
                             <hr class="dropdown-divider">
+
                             <li><a class="dropdown-item" href="#">Đội ngũ của MSS</a></li>
                         </ul>
                     </li>
