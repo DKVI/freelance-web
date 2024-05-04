@@ -100,45 +100,51 @@ h4 {
   -webkit-backdrop-filter: blur(2.2px);
   border: 1px solid rgba(255, 255, 255, 0.3); */
 }
-nav {
+.header nav {
   min-height: 8rem;
   margin: 0;
   padding: 0;
   z-index: 2 !important;
   font-size: 1rem;
 }
-.navbar-nav {
+.header .navbar-nav {
   /* background-color: #b7b7b7; */
   border-radius: 10px;
 }
 
-.menu-nav {
+.header .menu-nav {
   display: flex !important;
   font-family: BookMan;
   padding-left: 2rem;
 }
 
-.navbar-nav ul {
+.header .navbar-nav ul {
   margin: 0px;
 }
 .navbar-nav li a {
   color: #274069 !important;
   border-radius: 10px;
-}
-.navbar-nav li {
   font-size: 1.2rem;
+}
+
+.header .dropdown-item {
+  font-size: 1rem !important;
+}
+.header .navbar-nav li {
+  font-size: 1rem;
   padding: 0 5px;
   line-height: 2rem;
   border-radius: 10px;
 }
-.language {
+.header .language {
   justify-content: end;
-  padding-top: 15px;
-  padding-right: 30px;
+  padding: 0px 16px;
   position: absolute;
 }
-.lang-flag {
+.header .lang-flag {
   width: 20px;
+  flex: 1;
+  margin: auto;
 }
 @media (max-width: 1000px) {
   .navbar-brand {
@@ -148,7 +154,7 @@ nav {
     background-color: #b7b7b7;
   }
   .language {
-    top: 80px;
+    top: 0;
   }
 }
 /* --------- STYLE SCROLLBAR ---------*/

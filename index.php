@@ -61,7 +61,7 @@ if (isset($_GET['language'])) {
         }
         ?>
     </div>
-    <div class="main">
+    <div class="main" style="min-height: 100vh">
         <?php
         $route = $segments[2] . (isset($segments[3]) ?  '/' . $segments[3] : "");
         if ($segments[2] !== 'admin') {
@@ -128,9 +128,9 @@ if (isset($_GET['language'])) {
         }
         ?>
         <!-- Add footer to all pages -->
-        <div class="footer">
-            <?php include __DIR__ . "/views/components/footer.php" ?>
-        </div>
+    </div>
+    <div class="footer">
+        <?php include __DIR__ . "/views/components/footer.php" ?>
     </div>
     <script>
     const vnElements = document.querySelectorAll(".vn");
