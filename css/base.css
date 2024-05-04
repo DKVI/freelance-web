@@ -47,7 +47,9 @@ main {
   margin-top: 8rem;
   min-height: 80vh;
 }
-
+.blue-bg * {
+  background-color: #6e7f99 !important;
+}
 img,
 picture {
   max-width: 100%;
@@ -327,12 +329,12 @@ footer li {
   font-weight: bolder;
 }
 /* ---------ABOUT US PAGE---------- */
-#ab-main{
+#ab-main {
   overflow: hidden;
 }
-#ab-main > section{
+#ab-main > section {
   min-height: 85vh;
-  padding-top:5rem
+  padding-top: 5rem;
 }
 
 .founder-words {
@@ -395,6 +397,68 @@ footer li {
   left: 50%;
   font-size: 1.6rem;
   transform-origin: 0 200px;
+}
+
+/* ---------------CURRICULUM PAGE------------- */
+#curriculum > section {
+  min-height: 85vh;
+  padding-top: 5rem;
+}
+.blue-rec-shape {
+  height: 2rem;
+  width: 100%;
+  background-color: #274069;
+  bottom: 0;
+}
+.moot-tournaments img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  /* height: 100%; */
+  border-radius: 10px;
+  transition: transform 0.5s;
+}
+.moot-tournaments {
+  overflow: hidden;
+  margin: 20px auto;
+}
+.moot-tournaments img {
+  transition: transform 0.8s;
+}
+.moot-tournaments img:hover {
+  transform: scale(1.1);
+}
+#curriculum .credit {
+  font-size: 0.8rem;
+}
+.c-table {
+  background-image: url(../assets/imgs/curriculum-5.png);
+  min-height: 1000px;
+}
+
+.c-table table td,
+.c-table table th {
+  border: 1px solid #274069;
+  color: #274069 !important;
+  vertical-align: middle;
+}
+table {
+  font-size: 1.2rem;
+}
+.c-table table thead th {
+  color: #2d466f;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 1.2rem;
+  border-left: #274069 1px solid;
+}
+.c-table table tr th:first-child,
+.c-table table tr td:first-of-type,
+.c-table table tr td:nth-of-type(2) {
+  text-align: center;
+}
+.c-table table tr th:first-child {
+  width: 5rem;
 }
 
 /* ---------------FAQ------------------ */
