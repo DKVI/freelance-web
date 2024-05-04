@@ -29,14 +29,13 @@
                             <label class="form-label" for="message">Message <span style="color:red">*<span></label>
                             <textarea class="form-control message" name="message" placeholder="Type your message" rows="3" required></textarea>
                         </div>
-                        <div class="w-full d-flex justify-content-end">
+                        <div class="w-full d-flex justify-content-end" style="gap: 8px">
                             <button class="btn w-full shadow" type="reset" style="background-color: white; color: #274069; border: solid 2px #274069">Clear</button>
                             <button class="btn w-full shadow submit-btn" type="submit" style="background-color: #274069; color: white">Send</button>
                         </div>
                     </form>
                     <div class="loading-screen position-absolute" style="display: none; left:0; right: 0; top: 0; bottom: 0">
                         <div class="loader m-auto"></div>
-                        5
                     </div>
                     <div class="success-screen position-absolute" style="display: none; left:0; right: 0; top: 0; bottom: 0; background-color: #52da6b; animation: popup 0.2s; transition: all 0.5s ease-in-out">
                         <div class="m-auto w-full">
