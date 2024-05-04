@@ -3,13 +3,11 @@
 <!-- ENG HEADER -->
 <div class="logo-area container-fluid fixed-top eng">
     <nav class=" navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-        <div class="menu-nav text-center justify-content-center align-items-center col-lg-4"
-            style="padding-right: 32px; padding-top: 16px;">
+        <div class="menu-nav text-center justify-content-center align-items-center col-lg-4" style="padding-right: 32px; padding-top: 16px;">
             <a class="navbar-brand" href="<?php echo BASE_URL ?>/home">
                 <img src="././assets/imgs/small-logo.png" alt="MSS-logo">
             </a>
-            <a class="navbar-toggler btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#navResponsive"
-                aria-controls="navResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-toggler btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#navResponsive" aria-controls="navResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-solid fa-bars p-0 m-0"></i>
             </a>
         </div>
@@ -17,8 +15,7 @@
             <div class="collapse navbar-collapse" id="navResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown custom-scrollbar">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">About MSS</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About MSS</a>
                         <ul style="width: auto" class="shadow-lg dropdown-menu dropdown-menu-light">
                             <li><a class="dropdown-item" href="#">A message from our Founder</a></li>
                             <hr class="dropdown-divider">
@@ -30,9 +27,11 @@
                             <li><a class="dropdown-item" href="#">About the MSS team</a></li>
                         </ul>
                     </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">News & Events</a>
+                    </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">Curriculum</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Curriculum</a>
 
                         <ul style="width: auto" class="shadow-lg dropdown-menu dropdown-menu-light custom-scrollbar">
                             <li><a class="dropdown-item" href="#">What is Mooting?</a></li>
@@ -47,8 +46,7 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">Tuition</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tuition</a>
                         <ul style="width: auto" class="shadow-lg dropdown-menu dropdown-menu-light">
                             <li><a class="dropdown-item" href="#">Tuition packages and benefits</a></li>
                             <hr class="dropdown-divider">
@@ -57,8 +55,7 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">Guarantee from the community</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Guarantee from the community</a>
                         <ul style="width: auto" class="shadow-lg dropdown-menu dropdown-menu-light custom-scrollbar">
                             <li><a class="dropdown-item" href="#">From Mentee</a></li>
                             <hr class="dropdown-divider">
@@ -69,8 +66,7 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">FAQ</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">FAQ</a>
                         <ul style="width: auto; right: 0" class="shadow-lg dropdown-menu dropdown-menu-light">
                             <li><a class="dropdown-item" href="#">About the program</a></li>
                             <hr class="dropdown-divider">
@@ -85,15 +81,9 @@
             </div>
         </div>
         <div class="d-flex language text-center fixed-top">
-            <a class="text-decoration-none d-flex "
-                href="<?php echo $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) . "?language=vn"; ?>"
-                style="cursor:pointer; color: inherit;"><img src="././assets/imgs/vietnam.png" alt="vietnam-flag"
-                    class="lang-flag"></a>
+            <a class="text-decoration-none d-flex " href="<?php echo $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) . "?language=vn"; ?>" style="cursor:pointer; color: inherit;"><img src="././assets/imgs/vietnam.png" alt="vietnam-flag" class="lang-flag"></a>
             <span class="px-2">|</span>
-            <a class="text-decoration-none d-flex"
-                href="<?php echo $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) . "?language=eng"; ?>"
-                style="cursor:pointer; color: inherit;"><img src="././assets/imgs/united-kingdom.png"
-                    alt="united-kingdom-flag" class="lang-flag"></a>
+            <a class="text-decoration-none d-flex" href="<?php echo $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) . "?language=eng"; ?>" style="cursor:pointer; color: inherit;"><img src="././assets/imgs/united-kingdom.png" alt="united-kingdom-flag" class="lang-flag"></a>
         </div>
     </nav>
 
@@ -103,13 +93,11 @@
 <!-- VN HEADER -->
 <div class="logo-area container-fluid fixed-top vn">
     <nav class=" navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-        <div class="menu-nav text-center justify-content-center align-items-center col-lg-4"
-            style="padding-right: 32px; padding-top: 16px;">
+        <div class="menu-nav text-center justify-content-center align-items-center col-lg-4" style="padding-right: 32px; padding-top: 16px;">
             <a class="navbar-brand" href="<?php echo BASE_URL ?>/home">
                 <img src="././assets/imgs/small-logo.png" alt="MSS-logo">
             </a>
-            <a class="navbar-toggler btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#navResponsive"
-                aria-controls="navResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-toggler btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#navResponsive" aria-controls="navResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-solid fa-bars p-0 m-0"></i>
             </a>
         </div>
@@ -117,8 +105,7 @@
             <div class="collapse navbar-collapse" id="navResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item custom-scrollbar">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">Về MSS</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Về MSS</a>
                         <ul style="width: auto" class="shadow-lg dropdown-menu dropdown-menu-light">
                             <li><a class="dropdown-item" href="#">Lời ngỏ từ Nhà sáng lập</a></li>
                             <hr class="dropdown-divider">
@@ -129,9 +116,11 @@
                             <li><a class="dropdown-item" href="#">Đội ngũ của MSS</a></li>
                         </ul>
                     </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Tin tức & Sự kiện</a>
+                    </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">Chương trình học</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Chương trình học</a>
 
                         <ul style="width: auto" class="shadow-lg dropdown-menu dropdown-menu-light custom-scrollbar">
                             <li><a class="dropdown-item" href="#">Mooting là gì?</a></li>
@@ -146,8 +135,7 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">Học phí</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Học phí</a>
                         <ul style="width: auto" class="shadow-lg dropdown-menu dropdown-menu-light">
                             <li><a class="dropdown-item" href="#">Các gói học và quyền lợi</a></li>
                             <hr class="dropdown-divider">
@@ -155,8 +143,7 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">Bảo chứng từ cộng đồng</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Bảo chứng từ cộng đồng</a>
                         <ul style="width: auto" class="shadow-lg dropdown-menu dropdown-menu-light custom-scrollbar">
                             <li><a class="dropdown-item" href="#">Từ Mentee</a></li>
                             <hr class="dropdown-divider">
@@ -166,8 +153,7 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">FAQ</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">FAQ</a>
                         <ul style="width: auto; right: 0" class="shadow-lg dropdown-menu dropdown-menu-light">
                             <li><a class="dropdown-item" href="#">Về chương trình</a></li>
                             <hr class="dropdown-divider">
@@ -183,15 +169,9 @@
         </div>
     </nav>
     <div class="d-flex language text-center fixed-top">
-        <a class="text-decoration-none d-flex "
-            href="<?php echo $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) . "?language=vn"; ?>"
-            style="cursor:pointer; color: inherit;"><img src="././assets/imgs/vietnam.png" alt="vietnam-flag"
-                class="lang-flag"></a>
+        <a class="text-decoration-none d-flex " href="<?php echo $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) . "?language=vn"; ?>" style="cursor:pointer; color: inherit;"><img src="././assets/imgs/vietnam.png" alt="vietnam-flag" class="lang-flag"></a>
         <span class="px-2">|</span>
-        <a class="text-decoration-none d-flex"
-            href="<?php echo $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) . "?language=eng"; ?>"
-            style="cursor:pointer; color: inherit;"><img src="././assets/imgs/united-kingdom.png"
-                alt="united-kingdom-flag" class="lang-flag"></a>
+        <a class="text-decoration-none d-flex" href="<?php echo $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) . "?language=eng"; ?>" style="cursor:pointer; color: inherit;"><img src="././assets/imgs/united-kingdom.png" alt="united-kingdom-flag" class="lang-flag"></a>
     </div>
 </div>
 <!-- NAVBAR -->
