@@ -83,8 +83,15 @@ nav {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   font-family: Title;
+}
+h1 {
+  font-size: 10.5rem;
+  margin: 0;
+  padding: 0;
 }
 
 /* --------HEADER SECTION---------- */
@@ -320,11 +327,74 @@ footer li {
   font-weight: bolder;
 }
 /* ---------ABOUT US PAGE---------- */
-
-#ab-main > section {
+#ab-main{
+  overflow: hidden;
 }
-#ab-main > section p {
-  text-align: justify;
+#ab-main > section{
+  min-height: 85vh;
+  padding-top:5rem
+}
+
+.founder-words {
+  font-size: 14px;
+  width: 100%;
+  /* max-height: 250px;
+  overflow-y: auto; */
+  /* box-shadow: 5px 5px 5px gray;
+  border-radius: 10px; */
+  margin-bottom: -30px;
+}
+.founder-words-img {
+  width: 90%;
+}
+
+.our-mission {
+  background-image: url(../assets/imgs/about-2.png);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.mascot-moto {
+  background-color: #274069;
+  color: #e5e5e5;
+}
+.mascot-moto h1 {
+  font-size: 8.5rem;
+}
+/* -------------circle text animation (about page)----------- */
+.circle {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  border-radius: 100vmax;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size: 1.6rem;
+  animation: textRotation 50s linear infinite;
+}
+.test2 {
+  right: 0;
+  bottom: 10px !important;
+}
+
+@keyframes textRotation {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.text span {
+  position: absolute;
+  left: 50%;
+  font-size: 1.6rem;
+  transform-origin: 0 200px;
 }
 
 /* ---------------FAQ------------------ */
