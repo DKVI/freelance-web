@@ -1,5 +1,5 @@
 <main id="curriculum">
-    <section class="container">
+    <section class="container" style="padding-top:0">
         <h1>Mooting</h1>
         <h2 style="font-size: 7rem; line-height: 3rem" class="vn">là gì?</h2>
         <h2 style="font-size: 7rem; line-height: 3rem" class="eng">definition</h2>
@@ -19,15 +19,15 @@
             </div>
         </div>
     </section>
-    <section class="page-section" style="min-height: 100vh">
+    <section class="page-section" style="min-height: 100vh; padding-top: 5rem">
         <div class="container">   
             <h2 class="text-center display-5 vn">Một số giải đấu moot quốc tế danh giá có truyền thống lâu đời với cộng đồng thí sinh:</h2>
             <h2 class="text-center display-5 eng">Some prestigious international moot tournaments have a long tradition with  community:</h2>
-            <div class="row">
-                <div class="col-lg-3 col-12 ">
+            <div class="d-flex">
+                <div class="col-lg-3 p-3 ">
                     <!-- Button trigger modal -->
                     <div data-toggle="modal" data-target="#Jessup-Moot" class="w-100 moot-tournaments">
-                        <img src="./assets/imgs/curriculum-1.png" alt="Jessup-Moot">
+                        <img src="./assets/imgs/curriculum-1-1.png" alt="Jessup-Moot">
                         <h2 class="text-center m-3">Jessup Moot</h2>
                     </div>
 
@@ -70,11 +70,11 @@
                     </div>
                 </div>
                 <!--  -->
-                <div class="col-lg-3 col-12">
+                <div class="col-lg-3 p-3">
                     
                     <!-- Button trigger modal -->
                     <div data-toggle="modal" data-target="#Vis-Moot" class="w-100 moot-tournaments">
-                        <img src="./assets/imgs/curriculum-2.png" alt="Vis-Moot">
+                        <img src="./assets/imgs/curriculum-2-1.png" alt="Vis-Moot">
                         <h2 class="text-center m-3">Vis Moot</h2>
                     </div>
 
@@ -119,10 +119,10 @@
                 </div>
                 
                 <!--  -->
-                <div class="col-lg-3 col-12">
+                <div class="col-lg-3 p-3">
                     <!-- Button trigger modal -->
                     <div data-toggle="modal" data-target="#FDI-Moot" class="w-100 moot-tournaments">
-                        <img src="./assets/imgs/curriculum-3.png" alt="FDI-Moot">
+                        <img src="./assets/imgs/curriculum-3-1.png" alt="FDI-Moot">
                         <h2 class="text-center m-3">FDI Moot</h2>
                     </div>
 
@@ -166,10 +166,10 @@
                     </div>
                 </div>
                 <!--  -->
-                <div class="col-lg-3 col-12">
+                <div class="col-lg-3 p-3">
                     <!-- Button trigger modal -->
                     <div data-toggle="modal" data-target="#IHL-Moot" class="w-100 moot-tournaments">
-                        <img src="./assets/imgs/curriculum-4.png" alt="IHL-Moot">
+                        <img src="./assets/imgs/curriculum-4-1.png" alt="IHL-Moot">
                         <h2 class="text-center m-3 ">IHL Moot</h2>
                     </div>
 
@@ -214,7 +214,7 @@
             </div>
         </div>
     </section>
-    <section class="c-table background-full p-3 text-light">
+    <section class="c-table background-full text-light">
         <div class="container">
             <h1 class="text-center vn">Chương trình học</h1>
             <h1 class="text-center eng">Course overview</h1>

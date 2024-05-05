@@ -371,6 +371,8 @@ nav:hover > .animate-btn {
 
 /* ---------------CURRICULUM PAGE------------- */
 #curriculum > section {
+  min-height: 85vh;
+  padding-top: 9rem;
 }
 .blue-rec-shape {
   height: 2rem;
@@ -381,13 +383,14 @@ nav:hover > .animate-btn {
 .moot-tournaments img {
   display: block;
   margin: auto;
-  max-width: 100%;
-  height: 100%;
+  width: 100%;
+  /* height: 100%; */
   border-radius: 10px;
   transition: transform 0.5s;
 }
 .moot-tournaments {
   overflow: hidden;
+  margin: 20px auto;
 }
 .moot-tournaments img {
   transition: transform 0.8s;
