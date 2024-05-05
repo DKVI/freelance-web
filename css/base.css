@@ -44,7 +44,7 @@ section {
   text-align: justify;
 }
 main {
-  margin-top: 8rem;
+  margin-top: 10rem;
   min-height: 80vh;
 }
 
@@ -89,7 +89,6 @@ h4 {
 
 /* --------HEADER SECTION---------- */
 .logo-area {
-  background-color: rgba(229, 229, 229, 0.5);
   min-height: 8rem;
   z-index: 2 !important;
   /* blur zone effect */
@@ -106,6 +105,9 @@ h4 {
   padding: 0;
   z-index: 2 !important;
   font-size: 1rem;
+}
+.header .navbar {
+  background-color: rgba(229, 229, 229, 0.5);
 }
 .header .navbar-nav {
   /* background-color: #b7b7b7; */
@@ -138,8 +140,7 @@ h4 {
 }
 .header .language {
   justify-content: end;
-  padding: 0px 16px;
-  position: absolute;
+  padding: 0 32px;
 }
 .header .lang-flag {
   width: 20px;
@@ -155,6 +156,20 @@ h4 {
   }
   .language {
     top: 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 700px) {
+  .subheader-left {
+    width: 0 !important;
+  }
+  .subheader-right {
+    width: 100% !important;
+    justify-content: space-between !important;
+    padding: 0 8px;
+  }
+  .language {
+    padding: 0 8px !important;
   }
 }
 /* --------- STYLE SCROLLBAR ---------*/
@@ -184,21 +199,22 @@ h4 {
 /* animation for main navbar */
 .animate-btn {
   opacity: 0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -ms-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-}
-nav:hover > .animate-btn {
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
   animation: movingNav 0.5s linear;
+}
+/*
+nav:hover > .animate-btn {
   width: 100%;
   overflow-x: clip;
   zoom: 1;
   filter: alpha(opacity=50);
   opacity: 1;
 }
-
+*/
 @keyframes movingNav {
   0% {
     opacity: 0;
@@ -279,6 +295,14 @@ footer li {
   font-size: 22px;
   position: relative;
   overflow: hidden;
+}
+
+.subheader-left {
+  width: 50%;
+}
+
+.subheader-right {
+  width: 50%;
 }
 
 .textloop--content {

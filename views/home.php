@@ -27,6 +27,7 @@
         <div class="griffin" style=" width: 75%;">
         </div>
     </div>
+    
     <!-- Main content -->
     <div class=" container py-5 p-lg-5 vn">
         <h2 class="text-uppercase fw-bold display-5">Chào mừng đến với</h2>

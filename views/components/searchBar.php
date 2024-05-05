@@ -1,8 +1,6 @@
-<form method="GET" action="<?php echo BASE_URL . '/search' ?>" class=" position-relative d-flex" style="width: 500px; height: 50px;">
-    <input class="w-100 h-100 px-2 py-2 search-input" name="keyword" placeholder="enter keyword" onblur="clearSearch()">
-    <div class="search-container position-absolute bg-white shadow" style="left: 0; top: 100%; right: 0">
-    </div>
-    <button class="btn btn-primary" type="submit">Search</button>
+<form method="GET" action="<?php echo BASE_URL . '/search' ?>" class="d-flex m-0">
+    <input class=" w-100 h-100 px-2 search-input form-control" style="font-size: 16px" name="keyword" placeholder="Enter keyword" onblur="clearSearch()">
+    <button class="btn d-flex" type="submit"><i class="fa-solid fa-magnifying-glass m-0"></i></button>
 </form>
 
 <script>
