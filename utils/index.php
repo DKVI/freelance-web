@@ -53,3 +53,9 @@ function isValidEmail($email)
 {
   return filter_var($email, FILTER_VALIDATE_EMAIL);
 }
+
+
+function changeLanguge($lang)
+{
+  $_SESSION['lang'] = $lang;
+}
