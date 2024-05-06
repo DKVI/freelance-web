@@ -227,7 +227,7 @@
                         <p>Các buổi lý thuyết sẽ được tổ chức vào tối thứ Năm, và sáng Chủ nhật. Các buổi thực hành, talk show, và bế giảng được dự kiến sẽ được tổ chức vào sáng thứ Bảy và Chủ nhật, cụ thể sẽ được thông báo sau.</p>
 
                         <p>Nhằm tạo điều kiện để học viên có cơ hội trải nghiệm và có đánh giá trực quan về khóa học trước khi đăng ký, buổi học đầu tiên – một buổi lý thuyết, sẽ được MSS tổ chức miễn phí, cho tất cả mọi người.</p>
-                        <p>Tổng quan chương trình sẽ được thể hiện ở bảng sau (nhằm mục đích dễ theo dõi, các buổi học của gói Essentials dưới đây sẽ được tô màu xanh, đối với các buổi thực hành, học viên <strong style="font-family: 'Times New Roman', Times, serif; font-size: 1.5rem">gói Essentials</strong> sẽ tham gia với tư cách Quan sát viên)</p>
+                        <p>Tổng quan chương trình sẽ được thể hiện ở bảng sau (nhằm mục đích dễ theo dõi, các buổi học của gói Essentials dưới đây sẽ được tô <span class="bold-text">màu xanh</span>, đối với các buổi thực hành, học viên <span class="bold-text">gói Essentials</span> sẽ tham gia với tư cách Quan sát viên)</p>
                     </div>
                     <div class="eng">
                         <p>The MSS course will consist of 17 sessions: 1 trial session, 11 theoretical sessions, 4 mock sessions, a talk show, and a closing session.</p>

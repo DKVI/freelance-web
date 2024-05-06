@@ -25,6 +25,12 @@ table * {
 .blue-bg * {
   background-color: #6e7f99 !important;
 }
+.bold-text{
+  font-family: 'Times New Roman', Times, serif; 
+  font-weight: bold;
+  font-size: 110%;
+
+}
 *,
 *::before,
 *::after {

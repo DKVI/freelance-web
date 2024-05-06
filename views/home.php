@@ -42,7 +42,7 @@
             <p>Ai đó đã nói rằng khi tham gia Mooting, ta thấy mình như lao vào vũ trụ. Ở đó, ta sẽ không biết bản thân
                 có thể đi xa được đến đâu, và giá trị nhận được nhiều đến mức nào. Nhưng trước hết, chỉ cần từ những
                 bước chân đâu tiên, ta có thể chắc chắn rằng, hành trình này sẽ không phải là một điều đơn giản. </p>
-            <p>Bởi vậy, nếu xem mỗi cuộc thi moot là một vì sao khác nhau trong vũ trụ,<strong style="font-family: 'Times New Roman', Times, serif; font-size: 1.3rem"><em> Non est ad astra mollis e terris
+            <p>Bởi vậy, nếu xem mỗi cuộc thi moot là một vì sao khác nhau trong vũ trụ,<strong style="font-size: 1.3rem"><em> Non est ad astra mollis e terris
                 via</em></strong> (tạm dịch: <em>Chẳng có con đường nào dễ dàng để vươn tới những vì sao</em>) chính là triết lý của Mooting
                 Summer School. Với chúng tôi, không ai khác ngoài chính bạn sẽ phải tự lựa chọn “ngôi sao may mắn” và
                 tìm ra đường đi phù hợp với mình. Việc mà Mooting Summer School có thể giúp bạn là xây dựng một bước
