@@ -25,16 +25,18 @@ table * {
 .blue-bg * {
   background-color: #6e7f99 !important;
 }
-.bold-text{
-  font-family: 'Times New Roman', Times, serif; 
+.bold-text {
+  font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   font-size: 110%;
-
 }
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+ul {
+  list-style:;
 }
 a {
   color: #274069;
@@ -305,12 +307,12 @@ nav:hover > .animate-btn {
   font-weight: bolder;
 }
 /* ---------ABOUT US PAGE---------- */
-#ab-main{
+#ab-main {
   overflow: hidden;
 }
-#ab-main > section{
+#ab-main > section {
   min-height: 85vh;
-  padding-top:5rem
+  padding-top: 5rem;
 }
 
 .founder-words {
@@ -429,11 +431,19 @@ table {
   border-left: #274069 1px solid;
 }
 .c-table table tr th:first-child,
-.c-table table tr td:first-of-type, .c-table table tr td:nth-of-type(2) {
+.c-table table tr td:first-of-type,
+.c-table table tr td:nth-of-type(2) {
   text-align: center;
 }
 .c-table table tr th:first-child {
   width: 5rem;
+}
+.trial-session{
+  min-height: 98vh;
+  background-image: url(../assets/imgs/curriculum-7.png)
+}
+.trial-session .container *{
+  padding: 0 20px;
 }
 
 /* ---------------FAQ------------------ */

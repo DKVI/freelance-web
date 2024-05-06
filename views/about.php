@@ -2,7 +2,7 @@
     <section class="container" style="padding-top:0">
         <div class="d-lg-flex">
             <img src="./assets/imgs/about-1.png" alt="founder-Vo-Son-Hoang" style="height: 100%;">
-            <div class="px-5 position-relative" style="font-size: 1.1rem;">
+            <div class="px-5 position-relative" style="font-size: 1rem;">
                 <div class="founder-words vn">
                     <p>Chào mừng các bạn đến với Mooting Summer School (MSS).</p>
                     <p>Mình tin rằng mooting là một hoạt động mà mọi sinh viên luật đều nên trải nghiệm một lần trong cuộc đời học luật. Dưới góc độ chuyên môn, đây là sân chơi đầy thử thách không chỉ giúp các bạn rèn luyện tư duy phản biện, nâng cao kỹ năng nghiên cứu, mà còn mở mang sự hiểu biết về pháp luật của mình. Ngoài ra, về khía cạnh quan hệ, mooting cũng tạo cơ hội để bạn gặp gỡ, giao lưu với những người giỏi trong ngành, những người có cùng đam mê, sở thích, hay thậm chí những người “đồng nghiệp tương lai” của các bạn sau này.</p>
@@ -26,21 +26,23 @@
             </div>
         </div>
     </section>
-    <section class="our-mission background-full">
-        <div class="container p-5" style="color: #e5e5e5">
+    <section class="our-mission background-full" style="min-height: 100vh">
+        <div class="container py-5 text-light" style="padding-right:60px; padding-left: 80px">
             <div class="our-mission-title text-end vn">
                 <h1>Sứ mệnh</h1>
                 <h2 style="font-size:7rem; line-height:5rem;" >của MSS</h2>
             </div>
             <h1 class="eng text-center">Our mission</h1>
-            <div class="col-lg-8 vn" style="margin-top: -7rem">
-                <p>Trong những năm gần đây, mooting có xu hướng phát triển và phổ biến hơn tại khắp các trường đại học đào tạo về luật ở Việt Nam. Tuy nhiên, sự phát triển trong cộng đồng dường như chưa có tính tổng quát, hệ thống, và kế thừa. Các Mooter thường không được huấn một cách chuyên nghiệp và đầy đủ, do đó gặp khá nhiều khó khăn trong hành trình chinh chiến tại các giải đấu moot từ trong nước đến nước ngoài.</p>
-                <p>Trước bối cảnh đó, MSS ra đời với hy vọng có thể đặt những viên gạch nền tảng cho sự phát triển bền vững của cộng đồng. Là dự án đào tạo chuyên nghiệp về mooting đầu tiên tại Việt Nam, MSS kỳ vọng có thể đem lại cho học viên ba giá trị như sau:</p>
-                <ol style="list-style-type: lower-roman">
-                    <li>Nắm vững kỹ năng thiết yếu để đạt hiệu quả cao khi tham gia các cuộc thi moot;</li>
-                    <li>Xây dựng tư duy và thái độ phù hợp khi tham gia đấu moot; và</li>
-                    <li>Lan tỏa và phát triển tính cộng đồng trong mooting.</li>
-                </ol>
+            <div class="col-lg-8 vn shadow" style="margin-top: -7rem; padding-left: 30px">
+                <!-- <p>Trong những năm gần đây, mooting có xu hướng phát triển và phổ biến hơn tại khắp các trường đại học đào tạo về luật ở Việt Nam. Tuy nhiên, sự phát triển trong cộng đồng dường như chưa có tính tổng quát, hệ thống, và kế thừa. Các Mooter thường không được huấn một cách chuyên nghiệp và đầy đủ, do đó gặp khá nhiều khó khăn trong hành trình chinh chiến tại các giải đấu moot từ trong nước đến nước ngoài.</p>
+                <p>Trước bối cảnh đó, MSS ra đời với hy vọng có thể đặt những viên gạch nền tảng cho sự phát triển bền vững của cộng đồng. Là dự án đào tạo chuyên nghiệp về mooting đầu tiên tại Việt Nam, MSS kỳ vọng có thể đem lại cho học viên ba giá trị như sau:</p> -->
+                <p>MSS ra đời với hy vọng huấn luyện học viên một cách chuyên nghiệp và đầy đủ, hỗ trợ thí sinh tránh gặp các khó khăn trong hành trình chinh chiến tại các giải đấu moot từ trong nước đến nước ngoài. Để đặt những viên gạch nền tảng cho sự phát triển bền vững của cộng đồng moot, MSS là dự án đào tạo chuyên nghiệp về mooting đầu tiên tại Việt Nam. MSS kỳ vọng có thể đem lại cho học viên ba giá trị như sau:.</p>
+                <ul style="list-style:none">
+                    <li>(i) Nắm vững kỹ năng thiết yếu để đạt hiệu quả cao khi tham gia các cuộc thi moot</li>
+                    <li>(ii) Xây dựng tư duy và thái độ phù hợp khi tham gia đấu moot</li>
+                    <li>(iii) Lan tỏa và phát triển tính cộng đồng trong mooting</li>
+                </ul>
+                <p>MSS hy vọng đem lại cho học viên những giá trị cần thiết để thành công trong mooting, cũng như thúc đẩy sự phát triển và kế thừa trong cộng đồng mooting ở Việt Nam.</p>
             </div>
             <div class="d-flex align-items-center justify-content-center ">
                 <div class="col-lg-8 eng shadow" style="margin-top: 0;">
