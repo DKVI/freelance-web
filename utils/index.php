@@ -55,6 +55,17 @@ function isValidEmail($email)
 }
 
 
+function clearSpecialSymbols($inputString)
+{
+  // Define a regular expression pattern to match special symbols
+  $pattern = '/[^\p{L}0-9\s]/u';
+
+  // Use preg_replace() to remove special symbols from the input string
+  $processedString = preg_replace($pattern, '', $inputString);
+
+  return $processedString;
+}
+
 function changeLanguge($lang)
 {
   $_SESSION['lang'] = $lang;

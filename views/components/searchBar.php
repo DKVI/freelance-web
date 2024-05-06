@@ -9,8 +9,11 @@
             Search for "keyword"
         </div>
         <div class="search-container">
-            <ul class="list-unstyled d-flex flex-column ">
+            <ul class="list-unstyled d-flex flex-column">
             </ul>
+            <div>
+                <span class="show-more-btn" style="color: #274069; font-size: 14px; cursor: pointer">Show more</span>
+            </div>
         </div>
     </div>
 </form>
@@ -24,7 +27,27 @@ const searchInput = document.querySelector(".search-input");
 const keyword = document.querySelector(".keyword");
 const searchResult = document.querySelector(".search-result");
 const searchBtn = document.querySelector(".btn-search");
+const showMoreBtn = document.querySelector(".show-more-btn");
 searchResult.style.display = "none";
+const searchBar = document.querySelector(".search-bar");
+const checkInput = (e) => {
+    if (searchInput.value === "") {
+        return false;
+    }
+    return true;
+}
+searchBar.onsubmit = (e) => {
+    if (checkInput()) {
+        searchBar.submit();
+    } else {
+        alert("Please enter keyword");
+        clearBlurEvent();
+        e.preventDefault();
+    }
+}
+showMoreBtn.onclick = () => {
+    searchBar.submit();
+}
 //Lấy dữ liệu từ file handleSearch file này sẽ trả về dữ liệu từ db và đây là 1 hành động bất đồng bộ
 //Do phải đọc file nên JS sẽ chuyển hành động này qua 1 vùng nhớ khác do đó phải sử dụng promise và async await để đồng bộ hành vi
 const getPostByKeyWord = (keyword) => {
@@ -96,6 +119,7 @@ searchInput.onblur = function() {
     searchInput.classList.remove("expanded");
     searchInput.classList.add("expand-none");
     searchResult.style.display = "none";
+    searchInput.value = "";
 };
 
 function blurEvent() {

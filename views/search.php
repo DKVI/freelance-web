@@ -13,7 +13,7 @@ else {
     echo '<script>location.href = "' . BASE_URL . '/e404"</script>';
 }
 //Lấy ta các bài viết theo keyword 
-$postsList = Post::getRelatedPost($conn, "6621dfac0dee99662", 3);
+$postsList = Post::getByKeyWord($conn, $keyword);
 echo $postsList == null;
 ?>
 
