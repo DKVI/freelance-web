@@ -220,7 +220,7 @@
             <h1 class="text-center eng">Course overview</h1>
             
             <div class="d-flex justify-content-center align-items-center">
-                <div class="col-10">
+                <div class="col-lg-10">
                     <div class="vn">
                         <p>Chương trình của MSS sẽ bao gồm 17 buổi, trong đó bao gồm 1 buổi học thử, 11 buổi lý thuyết, 4 buổi thực hành, 1 buổi talkshow, và một buổi bế giảng.</p>
 
@@ -566,15 +566,79 @@
         </div>
     </section>
     <section class="">
-        <div class="container background-full">
+        <div class="container">
             <div class="position-relative">
                 <img src="./assets/imgs/curriculum-61.png" alt="mss-background" class="position-absolute" style="right: 0; top: -6.2rem">
             </div>
-            <div>
+            <div class="py-5 vn">
                 <h1>Lý thuyết</h1>
                 <p class="col-lg-8">Trước khi bắt đầu rèn luyện bất kỳ kỹ năng nào, chúng ta luôn cần tìm hiểu và nắm vững các hướng dẫn thực hành về nó. MSS tin rằng, một nền tảng lý thuyết tốt sẽ như kim chỉ nam dẫn đường cho chúng ta trong quá trình tự trau dồi bản thân hay trong thi đấu thực chiến. Vì vậy, MSS muốn truyền tải một cách chi tiết những kiến thức về kỹ năng trong mooting thông qua 6 buổi học (đối với gói Essentials) và 10 buổi học (đối với gói Advantaged). Theo đó, trong từng buổi học, Người hướng dẫn sẽ không chỉ thuần chia sẻ lý thuyết mà còn linh hoạt lồng ghép các ví dụ tham khảo, kinh nghiệm thực tiễn, thảo luận nhóm, bài tập thực hành, v.v. để đảm bảo học viên nắm bài một cách tốt nhất.</p>
 
-                <p class="col-lg-8">Chương trình học sẽ đi theo thứ tự 4 nhóm kỹ năng chính như sau: (i) các kỹ năng nên có trước khi cuộc thi bắt đầu, (ii) các kỹ năng liên quan đến những việc cần làm khi đã có đề bài, (iii) các kỹ năng liên quan đến việc viết bài biện hộ; và (iv) các kỹ năng liên quan đến tranh tụng nói.</p>
+                <p class="col-lg-8">Chương trình học sẽ đi theo thứ tự 4 nhóm kỹ năng chính như sau:</p>
+                <ul style="list-style:none;">
+                    <li>(i) Các kỹ năng nên có trước khi cuộc thi bắt đầu</li>
+                    <li>(ii) Các kỹ năng liên quan đến những việc cần làm khi đã có đề bài</li>
+                    <li>(iii) Các kỹ năng liên quan đến việc viết bài biện hộ</li>
+                    <li>(iv) Các kỹ năng liên quan đến tranh tụng nói</li>
+                </ul> 
+            </div>
+            <div class="py-5 eng">
+                <h1>Theoretical</h1>
+                <p class="col-lg-8">It's important to learn and master the practical guides of any skill before practicing it. For a successful mooting journey and personal development, MSS believes that a strong theoretical foundation is essential. That's why MSS has structured 6 theorical lessons for Essentials and 10 theorical lessons for Advantaged to convey detailed knowledge of mooting skills. In each lesson, the instructor will not only share theories but also flexibly integrate reference examples, practical experiences, group discussions, and practical exercises to ensure students grasp the lesson in the best way possible. </p>
+
+                <p class="col-lg-8">The curriculum will follow the order of four main skill groups:</p> 
+                <ul style="list-style: none;">
+                    <li>(i) Skills that should be acquired before the mooting competition starts</li>
+                    <li> (ii) Skills related to what to do upon release of the moot problem</li>
+                    <li> (iii) Skills related to written advocacy</li>
+                    <li> (iv) Skills related to oral advocacy</li></ul>
+            </div>
+        </div>
+    </section>
+    <section class="trial-session text-light" style="background-repeat: repeat-y;
+  background-size: 100% auto;
+  min-height: 100vh;">
+        <div class="container p-5 d-lg-flex">
+            <div class="col-lg-6 text-lg-end text-center">
+                <h1 class="vn" style="font-size: 9rem">Học thử</h1> 
+                <h2 class="vn">Giới thiệu về moot</h2>
+                <h2 class="vn">Tinh thần mooting</h2>
+                <h1 class="eng" style="font-size: 9rem">Trial session</h1> 
+                <h2 class="eng">The definition of mooting</h2>
+                <h2 class="eng">The spirit of mooting</h2>
+            </div>
+            <div class="col-lg-6 py-3">
+                <p class="vn">Trong buổi học thử này, MSS sẽ tập trung vào bốn chủ đề chính, bao gồm khái niệm về mooting, vì sao lại tham gia mooting, hệ thống các giải moot và tinh thần mooting. </p>
+                <p class="vn">Đồng thời, MSS cũng giới thiệu một cách ngắn gọn về tổng quan chương trình học của khóa học chính thức của MSS, và một phần Hỏi đáp để trả lời bất kỳ câu hỏi nào bạn có thể có về khóa học.</p>
+                <p class="vn">Trên cơ sở đó, cho dù bạn quyết định tham gia khóa học chính thức của MSS hay không, MSS hy vọng rằng mỗi người tham gia buổi học thử này, sau khi kết thúc, đều sẽ hiểu rõ hơn về thế giới mooting, lợi ích của việc tham gia đấu moot, và những gì cần thiết để trở thành một mooter thành công.</p>
+
+                <p class="eng">During this session, we will focus on four main topics, which are: the definition of mooting, why one would participate in mooting, the system of mooting competitions, and the spirit of mooting.</p>
+                <p class="eng"> Concurrently, we will also provide a brief overview of MSS's course curriculum, followed by a Q&A session to answer any questions you may have about the course.</p>
+                <p class="eng">On such a basis, whether you decide to join us for the official course or not, MSS hopes you’ll walk away from this session with a better understanding of the world of mooting, the benefits of participating in mooting, and what it takes to be a successful mooter.</p>
+            </div>
+        </div>
+    </section>
+    <section class=" min-vh-100" style="padding:0;">
+        <div class="position-relative col-lg-4" style="z-index:0">
+            <img src="./assets/imgs/curriculum-8.png" alt="mss-background" class="position-absolute w-100" style="left:0; top:0;">
+        </div>
+        <div class="container position-relative py-5" style="top: 20%">
+            <div class="col-lg-8 offset-lg-4 position-absolute py-5" style="z-index:2">
+                <h2 class="display-1 vn">Các buổi kỹ năng</h2>
+                <h2 class="display-1 vn">trước cuộc thi</h2>
+                <h2 class="display-1 eng">Pre-competition skills</h2>
+                <h2 class="display-1 eng">sessions</h2>
+
+                <div class="vn" style="column-count: 2; padding: 0 60px 0 20px">
+                    Một sự chuẩn bị tốt khi cuộc chơi còn chưa bắt đầu đã có thể giúp các bạn tiến một bước rất dài trong chặng đường thi moot. Trong phần này, MSS sẽ giới thiệu về 2 nội dung: các nguyên tắc cơ bản, và làm việc nhóm trong đấu moot.<br>
+                    Trong buổi đầu tiên, các học viên sẽ được học về nguyên tắc cơ bản của mooting. Các nguyên tắc này sẽ ảnh hưởng chi phối toàn bộ các kỹ năng khác về sau, cũng như quá trình lên kế hoạch đấu moot.<br>
+                    Buổi thứ hai sẽ tập trung về việc làm việc nhóm. Làm việc nhóm trong mooting, là một điều gì đó rất khác với làm việc nhóm đối với các bài tập tại trường đại học. Các thành viên cần phải cùng chung chí hướng với nhau, vừa tích cực phản biện lẫn nhau, vừa phối hợp, hỗ trợ cho nhau khi cần. Là một cuộc chơi tập thể, việc đấu moot sẽ không thể thành công nếu các thành viên không có sự gắn kết chặt chẽ. Buổi học này sẽ hướng dẫn về các nguyên tắc, cũng như cách xử lý các vấn đề phát sinh khi làm việc tập thể trong mooting.
+                </div>
+                <div class="eng" style="column-count: 2; padding: 0 60px 0 20px">
+                    Preparing well before a moot competition starts can help you take a long stride on the moot competition journey. In this regard, MSS will introduce two sessions: learning the fundamentals and building effective teamwork.<br>
+                    During the first session, students will learn about the essential principles of mooting. These principles will lay the foundation for all other skills needed in the competition and will also influence the moot planning process.<br>
+                    The second session will focus on teamwork. Teamwork in mooting is very different from teamwork in university assignments. Team members need to share a common goal, actively critique each other, and support and cover each other when necessary. Mooting is a team game, and it cannot be successful if the members are not on the same page. This session will provide instruction on teamwork principles and the issues that require cooperation among team members.
+                </div>
             </div>
         </div>
     </section>

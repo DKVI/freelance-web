@@ -56,7 +56,7 @@ picture {
   display: block;
 }
 .background-full {
-  background-repeat: no-repeat;
+  background-repeat:repeat-y;
   background-size: 100%;
   min-height: 100vh;
 }
@@ -459,6 +459,13 @@ table {
 }
 .c-table table tr th:first-child {
   width: 5rem;
+}
+.trial-session{
+  min-height: 98vh;
+  background-image: url(../assets/imgs/curriculum-7.png)
+}
+.trial-session .container *{
+  padding: 0 20px;
 }
 
 /* ---------------FAQ------------------ */
