@@ -1,19 +1,18 @@
 <!-- NAVBAR -->
 <!-- LOGO AREA -->
-<div class="logo-area container-fluid mt-2 fixed-top">
-    <nav class=" navbar navbar-expand-lg navbar-light fixed-top mt-5" id="mainNav">
-        <div class="menu-nav text-center justify-content-center align-items-center col-lg-4"
-            style="padding-right: 32px;">
-            <a class="navbar-brand" href="<?php echo BASE_URL ?>/home">
-                <img src="././assets/imgs/small-logo.png" alt="MSS-logo">
+<div class="logo-area container-fluid mt-2 fixed-top d-flex justify-content-end align-items-center">
+    <nav class=" navbar navbar-expand-xl navbar-light fixed-top mt-5 " id="mainNav">
+        <div class="menu-nav text-center d-flex justify-content-between align-items-center px-3">
+            <a class="navbar-brand w-75" href="<?php echo BASE_URL ?>/home">
+                <img src="././assets/imgs/small-logo.png" alt="MSS-logo" class=" h-100">
             </a>
-            <a class="navbar-toggler btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#navResponsive"
+            <a class="navbar-toggler btn-sm align-items-end " type="button" data-bs-toggle="collapse" data-bs-target="#navResponsive"
                 aria-controls="navResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-solid fa-bars p-0 m-0"></i>
             </a>
         </div>
         <div class="w-100 h-100 navlink-container d-flex animate-btn">
-            <div class="container-fluid col-lg-8 m-auto w-100 ">
+            <div class="container-fluid m-auto w-100 ">
                 <div class="collapse navbar-collapse" id="navResponsive">
                     <ul class="navbar-nav vn">
                         <li class="nav-item dropdown custom-scrollbar">
@@ -31,7 +30,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">Tin tức & Sự kiện</a>
+                            <a href="" class="nav-link">Sự kiện</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"

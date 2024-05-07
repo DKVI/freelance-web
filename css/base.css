@@ -78,7 +78,7 @@ picture {
 body,
 nav {
   font-family: Myriad;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 h1,
 h2,
@@ -91,13 +91,6 @@ h4 {
 .logo-area {
   min-height: 8rem;
   z-index: 2 !important;
-  /* blur zone effect */
-  /* background: rgba(255, 255, 255, 0.17);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(2.2px);
-  -webkit-backdrop-filter: blur(2.2px);
-  border: 1px solid rgba(255, 255, 255, 0.3); */
 }
 .header nav {
   min-height: 8rem;
@@ -109,15 +102,9 @@ h4 {
 .header .navbar {
   background-color: rgba(229, 229, 229, 0.5);
 }
-.header .navbar-nav {
-  /* background-color: #b7b7b7; */
-  border-radius: 10px;
-}
 
 .header .menu-nav {
-  display: flex !important;
   font-family: BookMan;
-  padding-left: 2rem;
 }
 
 .header .navbar-nav ul {
@@ -135,7 +122,6 @@ h4 {
 .header .navbar-nav li {
   font-size: 1rem;
   padding: 0 5px;
-  line-height: 2rem;
   border-radius: 10px;
 }
 .header .language {
@@ -148,15 +134,25 @@ h4 {
   margin: auto;
 }
 @media (max-width: 1000px) {
-  .navbar-brand {
-    width: 80%;
-  }
   .navbar-nav {
     background-color: #b7b7b7;
   }
   .language {
     top: 0;
   }
+}
+.navbar-brand {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+}
+.navbar-brand img {
+  margin: 0;
+  padding: 0;
+}
+.navbar-toggler {
+  padding: 0.5rem;
+  background-color: #274069 !important;
 }
 
 @media (min-width: 320px) and (max-width: 700px) {
