@@ -1,17 +1,17 @@
 <main id="curriculum">
-    <section class="container" style="padding-top:0">
+    <section class="container" style="padding-top:0.7rem">
         <h1>Mooting</h1>
         <h2 style="font-size: 7rem; line-height: 3rem" class="vn">là gì?</h2>
         <h2 style="font-size: 7rem; line-height: 3rem" class="eng">definition</h2>
         <div class="row">
-            <div class="col-lg-6 d-flex align-items-end" style="min-height:35vh">
+            <div class="col-lg-6 d-flex align-items-end">
                 <div class="blue-rec-shape"></div>
             </div>
             <div class="col-lg-6" style="margin-top: -15rem">
                 <div class="blue-rec-shape mb-4"></div>
-                <p class="vn">Mooting hay “phiên tòa giả định”, là hoạt động mô phỏng diễn án. Trong đó, mooter hay “người tham gia” sẽ thực hiện nghiên cứu một vụ án giả định và đưa ra những lập luận phù hợp để viết bài biện hộ và biện hộ cho một bên hoặc chống lại một bên trong phiên tranh tụng</p>
+                <p class="vn">Mooting hay “phiên tòa giả định”, là hoạt động mô phỏng diễn án. Trong đó, mooter hay “người tham gia” sẽ thực hiện nghiên cứu một vụ án giả định và đưa ra những lập luận phù hợp để viết bài biện hộ và biện hộ cho một bên hoặc chống lại một bên trong phiên tranh tụng.</p>
                 <p class="vn">Trên thế giới hiện nay, các quốc gia và khu vực có nền luật pháp phát triển thường đầu tư và chú trọng đẩy mạnh hoạt động Mooting cho các sinh viên trường luật.</p>
-                <p class="vn">Mooting không chỉ giúp sinh viên được rèn luyện tư duy phản biện, kỹ năng thuyết phục, mà còn tăng cường trình độ nghiên cứu, hiểu biết, và áp dụng pháp luật. Đồng thời tạo cơ hội để sinh viên xây dựng mạng lưới quan hệ trong cộng đồng luật và tạo ra những trải nghiệm giá trị cho sự phát triển cá nhân và chuyên môn của họ.</p>
+                <p class="vn">Mooting không chỉ giúp sinh viên được rèn luyện tư duy phản biện, kỹ năng thuyết phục, mà còn tăng cường trình độ nghiên cứu, hiểu biết, và áp dụng pháp luật. Đồng thời, tạo cơ hội để sinh viên xây dựng mạng lưới quan hệ trong cộng đồng luật và tạo ra những trải nghiệm giá trị cho sự phát triển cá nhân và chuyên môn của họ.</p>
                 <p class="eng">Mooting, also referred to as “phiên tòa giả định” in Vietnamese, is a simulation of a court hearing or an arbitration. Participants, or “mooters”, research a given case problem, prepare written submissions, and present arguments for or against a party in the hearing.</p>
                 <p class="eng">Nowadays, mooting is actively invested in and promoted in many countries and jurisdictions with a strong legal system. </p>
                 <p class="eng"> Mooting not only helps students develop critical thinking and persuasive skills but also enhances their research abilities, legal knowledge, and application. Additionally, Mooting provides an opportunity for students to build networks within the legal community and gain valuable experiences for personal and professional growth.</p>
@@ -227,14 +227,14 @@
                         <p>Các buổi lý thuyết sẽ được tổ chức vào tối thứ Năm, và sáng Chủ nhật. Các buổi thực hành, talk show, và bế giảng được dự kiến sẽ được tổ chức vào sáng thứ Bảy và Chủ nhật, cụ thể sẽ được thông báo sau.</p>
 
                         <p>Nhằm tạo điều kiện để học viên có cơ hội trải nghiệm và có đánh giá trực quan về khóa học trước khi đăng ký, buổi học đầu tiên – một buổi lý thuyết, sẽ được MSS tổ chức miễn phí, cho tất cả mọi người.</p>-->
-                        <p>Chương trình của MSS sẽ bao gồm 18 buổi, trong đó bao gồm:</p>
-                        <ul class="offset-1" style="list-style: circle;">
-                            <li>1 buổi học thử (miễn phí)</li>
-                            <li>11 buổi lý thuyết (tổ chức tối thứ Năm và sáng Chủ Nhật)</li>
-                            <li>4 thực hành (sáng thứ Bảy và Chủ Nhật)</li>
-                            <li>1 buổi talkshow (sáng thứ Bảy hoặc Chủ Nhật)</li>
-                            <li>1 buổi bế giảng (sáng thứ Bảy hoặc Chủ Nhật)</li>
-                        </ul>
+                        <p class="r">Chương trình của MSS sẽ bao gồm 18 buổi, trong đó bao gồm:</p>
+                        <div class="vn mb-4 mt-4 offset-1" style="column-count: 2; padding: 0 60px 0 20px">
+                            <li>1 buổi học thử (Miễn phí)</li>
+                            <li>11 buổi lý thuyết (Tối thứ Năm và sáng Chủ Nhật)</li>
+                            <li>4 thực hành (Sáng thứ Bảy và Chủ Nhật)</li>
+                            <li>1 buổi talkshow (Sáng thứ Bảy hoặc Chủ Nhật)</li>
+                            <li>1 buổi bế giảng (Sáng thứ Bảy hoặc Chủ Nhật)</li>
+                        </div>
                         <p>Tổng quan chương trình sẽ được thể hiện ở bảng sau (nhằm mục đích dễ theo dõi, các buổi học của gói Essentials dưới đây sẽ được tô <span class="bold-text">màu xanh</span>, đối với các buổi thực hành, học viên <span class="bold-text">gói Essentials</span> sẽ tham gia với tư cách Quan sát viên)</p> 
                     </div>
                     <div class="eng">
@@ -246,7 +246,7 @@
                         <p>An overview of the program will be shown in the table below. For your convenience, theoretical sessions of the Essentials package will be highlighted in green. The sessions included in the <strong style="font-family: 'Times New Roman', Times, serif; font-size: 1.5rem">Essentials package</strong> are highlighted in blue. For mock sessions, Essentials students will participate as Observers.</p>
                     </div>
                     <!-- TABLE -->
-                    <div class="bg-light p-5">
+                    <div class="bg-light px-5 py-4">
                         <table class="table">
                             <thead>
                                 <tr class="blue-bg">
@@ -405,7 +405,8 @@
                                     <td class="eng">Writing foundations</td>
                                     <td class="vn">
                                         <ul>
-                                            <li>Sử dụng các phần phụ trợ trong bản đệ trình một cách phù hợpKhi nào việc viết bắt đầu</li>
+                                            <li>Sử dụng các phần phụ trợ trong bản đệ trình một cách phù hợp</li>
+                                            <li>Khi nào việc viết bắt đầu</li>
                                             <li>Nguyên tắc siêu-rõ-ràng</li>
                                             <li>Tầm quan trọng của hiệu chỉnh trong việc viết</li>
                                             <li>Ngôn ngữ, và phong thái trong biện hộ viết</li>
@@ -578,7 +579,7 @@
             <div class="position-relative">
                 <img src="./assets/imgs/curriculum-61.png" alt="mss-background" class="position-absolute" style="right: 0; top: -6.2rem">
             </div>
-            <div class="vn">
+            <div class="vn px-3">
                 <h1>Lý thuyết</h1>
                 <!-- <p class="col-lg-8">Trước khi bắt đầu rèn luyện bất kỳ kỹ năng nào, chúng ta luôn cần tìm hiểu và nắm vững các hướng dẫn thực hành về nó. MSS tin rằng, một nền tảng lý thuyết tốt sẽ như kim chỉ nam dẫn đường cho chúng ta trong quá trình tự trau dồi bản thân hay trong thi đấu thực chiến. Vì vậy, MSS muốn truyền tải một cách chi tiết những kiến thức về kỹ năng trong mooting thông qua 6 buổi học (đối với gói Essentials) và 10 buổi học (đối với gói Advantaged). Theo đó, trong từng buổi học, Người hướng dẫn sẽ không chỉ thuần chia sẻ lý thuyết mà còn linh hoạt lồng ghép các ví dụ tham khảo, kinh nghiệm thực tiễn, thảo luận nhóm, bài tập thực hành, v.v. để đảm bảo học viên nắm bài một cách tốt nhất.</p>
 
@@ -594,7 +595,6 @@
                     <li>(iii) các kỹ năng liên quan đến việc viết bài biện hộ</li>
                     <li>(iv) các kỹ năng liên quan đến tranh tụng nói. </li>
                 </ul>
-                <p>Cụ thể các buổi học sẽ bao gồm:</p>
         </div>
     </section>
     <section class="trial-session text-light" style="background-repeat: repeat-y;
