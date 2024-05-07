@@ -6,8 +6,9 @@
             <a class="navbar-brand w-75" href="<?php echo BASE_URL ?>/home">
                 <img src="././assets/imgs/small-logo.png" alt="MSS-logo" class=" h-100">
             </a>
-            <a class="navbar-toggler btn-sm align-items-end " type="button" data-bs-toggle="collapse" data-bs-target="#navResponsive"
-                aria-controls="navResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-toggler btn-sm align-items-end " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navResponsive" aria-controls="navResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <i class="fa fa-solid fa-bars p-0 m-0"></i>
             </a>
         </div>
@@ -100,7 +101,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">News & Events</a>
+                            <a href="" class="nav-link">Events</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
