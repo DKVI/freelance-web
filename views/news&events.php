@@ -17,7 +17,7 @@ $mainPost = Post::getById($conn, '48864jf325949f3553');
         <div class="row justify-content-center min-vh-100 " style="gap: 16px">
             <div class="col-lg-8 h-100 row shadow-lg rounded-3">
                 <div class="col-lg-12">
-                    <img src="./uploads/imgs/default.png">
+                    <img src="./uploads/imgs/default.png" class="w-100">
                 </div>
                 <div class="col-lg-6 p-4"><a>
                         <h1 style="font-size: 50px">ABOUT M.S.S</h1>
