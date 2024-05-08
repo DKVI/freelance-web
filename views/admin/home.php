@@ -12,25 +12,7 @@ $totalMessages = Message::totalMessages($conn);
 $postsList = Post::getAllSortByViews($conn);
 function renderElement($element)
 {
-    if ($element->type == "static") {
-        echo '<div class="d-flex px-4 py-2 shadow rounded-4 justify-content-around " style="height: 100px; cursor: not-allowed;">
-                                    <div class="h-100 px-3" style="width: 20%"><div class="h-100 w-100 shadow rounded-4" style="background-image: url(' . BASE_URL . '/uploads/imgs/' . $element->fileImg . '); background-size: cover; background-position: center;"></div>
-                                    </div>
-                                            <div class="w-75 h-100 px-3" style="overflow: hidden;
-                                            text-overflow: ellipsis;
-                                            white-space: nowrap;">
-                                                <div class="text-decoration-none fw-bold" style="color: #274069; font-size: 24px;">' . $element->title . '</div>
-                                    <div class="mt-3">
-                                    <span>' . convertDate($element->date) . ' - </span>
-                                    <span>' . ($element->readTimes) . ' minues read</span>
-                                    </div>
-                                </div>
-                                <div class="d-flex">
-                                    <div class="m-auto"><span class="p-2">' . $element->views . '</span><i class="fa-regular fa-eye"></i></div>
-                                </div>
-                            </div>';
-    } else {
-        echo '<div class="d-flex px-4 py-2 shadow rounded-4 justify-content-around " style="height: 100px;">
+    echo '<div class="d-flex px-4 py-2 shadow rounded-4 justify-content-around " style="height: 100px;">
                                     <div class="h-100 px-3" style="width: 20%"><div class="h-100 w-100 shadow rounded-4" style="background-image: url(' . BASE_URL . '/uploads/imgs/' . $element->fileImg . '); background-size: cover; background-position: center;"></div>
                                     </div>
                                             <div class="w-75 h-100 px-3" style="overflow: hidden;
@@ -47,7 +29,6 @@ function renderElement($element)
                                     <div class="m-auto"><span class="p-2">' . $element->views . '</span><i class="fa-regular fa-eye"></i></div>
                                 </div>
                             </div>';
-    }
 }
 ?>
 <link href="../css/admin.css" rel="stylesheet">
@@ -84,8 +65,7 @@ function renderElement($element)
                         </div>
                     </div>
                 </div>
-                <a href="<?php echo BASE_URL ?>/admin/posts"
-                    class=" w-25 d-flex shadow-lg py-3 px-5 bg-success rounded-3 text-decoration-none">
+                <a href="<?php echo BASE_URL ?>/admin/posts" class=" w-25 d-flex shadow-lg py-3 px-5 bg-success rounded-3 text-decoration-none">
                     <div class="w-25 d-flex">
                         <i class="fa-regular fa-pen-to-square m-auto" style="font-size:40px; color: white;"></i>
                     </div>
@@ -96,8 +76,7 @@ function renderElement($element)
                         </div>
                     </div>
                 </a>
-                <a href="<?php echo BASE_URL ?>/admin/messages"
-                    class=" w-25 d-flex shadow-lg py-3 px-5 bg-warning rounded-3 text-decoration-none">
+                <a href="<?php echo BASE_URL ?>/admin/messages" class=" w-25 d-flex shadow-lg py-3 px-5 bg-warning rounded-3 text-decoration-none">
                     <div class="w-25 d-flex">
                         <i class="fa-regular fa-circle-question m-auto" style="font-size:40px; color: white;"></i>
                     </div>

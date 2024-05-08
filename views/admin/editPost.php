@@ -99,10 +99,10 @@ if (file_exists($file_path)) {
                             alt="Image Preview" class="shadow w-50 form-control">
                     </div>
                 </div>
-                <div class="form-group py-3">
+                <?php echo '<div class="form-group py-3">
                     <label class="form-label">Content:</label>
                     <textarea id="input-file" class="form-control" name="md-file"></textarea>
-                </div>
+                </div>' ?>
             </div>
             <div class="d-flex justify-content-end pb-4" style="gap: 16px">
                 <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">

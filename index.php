@@ -15,6 +15,7 @@ $conn = require "./inc/db.php";
 $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $segments = explode('/', $uri);
 
+
 ?>
 
 <!DOCTYPE html>
@@ -29,7 +30,9 @@ $segments = explode('/', $uri);
     <script defer src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
     <!-- ----------------------- -->
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" type="image/x-icon" href="<?php echo BASE_URL ?>/assets/imgs/favicon.ico">
     <title>Mooting Summer School</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css" />
@@ -42,6 +45,13 @@ $segments = explode('/', $uri);
 $language = "";
 if (isset($_GET['language'])) {
     $language = $_GET['language'];
+} else {
+    if (isset($_SESSION['lang'])) {
+        $language = $_SESSION['lang'];
+    } else {
+        $_SESSION['lang'] = "eng";
+        $language = $_SESSION['lang'];
+    }
 }
 ?>
 
@@ -90,6 +100,9 @@ if (isset($_GET['language'])) {
             case 'search':
                 include __DIR__ . "/views/search.php";
                 break;
+            case "news&events":
+                include __DIR__ . "/views/news&events.php";
+                break;
             case "admin/home":
                 include __DIR__ . "/views/admin/home.php";
                 break;
@@ -105,7 +118,6 @@ if (isset($_GET['language'])) {
             case "admin/posts":
                 include __DIR__ . "/views/admin/posts.php";
                 break;
-
             case "admin/addPost":
                 include __DIR__ . "/views/admin/addPost.php";
                 break;
@@ -130,32 +142,34 @@ if (isset($_GET['language'])) {
         }
         ?>
         <!-- Add footer to all pages -->
-        <div class="footer">
-            <?php include __DIR__ . "/views/components/footer.php" ?>
-        </div>
+    </div>
+    <div class="footer">
+        <?php include __DIR__ . "/views/components/footer.php" ?>
     </div>
     <script>
-        const vnElements = document.querySelectorAll(".vn");
-        const engElements = document.querySelectorAll(".eng");
-        const queryParams = "<?php echo $language ?>";
-        if (queryParams === "" || queryParams === "vn") {
-            vnElements.forEach((e) => {
-                e.classList.remove("d-none");
-            });
-            engElements.forEach((e) => {
-                e.classList.add("d-none");
-            });
-        } else {
-            vnElements.forEach((e) => {
-                e.classList.add("d-none");
-            });
-            engElements.forEach((e) => {
-                e.classList.remove("d-none");
-            });
-        }
+    const vnElements = document.querySelectorAll(".vn");
+    const engElements = document.querySelectorAll(".eng");
+    const queryParams = "<?php echo $language ?>";
+    if (queryParams === "eng") {
+        vnElements.forEach((e) => {
+            e.classList.add("d-none");
+        });
+        engElements.forEach((e) => {
+            e.classList.remove("d-none");
+        });
+    } else {
+        vnElements.forEach((e) => {
+            e.classList.remove("d-none");
+        });
+        engElements.forEach((e) => {
+            e.classList.add("d-none");
+        });
+    }
     </script>
     <script src="js/index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
     </script>
     <?php
     $currentDate = date("Y-m-d");

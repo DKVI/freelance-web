@@ -1,7 +1,4 @@
 <main class="position-relative">
-    <?php
-    include "./views/components/searchBar.php";
-    ?>
     <!-- Welcome section -->
     <!-- <div class="welcome-page d-flex align-items-center justify-content-center vh-100" style="
         position: fixed;
@@ -34,10 +31,11 @@
         <div class="griffin" style=" width: 75%;">
         </div>
     </div>
+    
     <!-- Main content -->
     <div class=" container py-5 p-lg-5 vn">
         <h2 class="text-uppercase fw-bold display-5">Chào mừng đến với</h2>
-        <h1 class="text-uppercase fw-bold  display-3">Mooting Summer School</h1>
+        <h1 class="text-uppercase fw-bold  display-3" style="text-align: left;">Mooting Summer School</h1>
         <div class="col-lg-8 m">
             <p>Ai đó đã nói rằng khi tham gia Mooting, ta thấy mình như lao vào vũ trụ. Ở đó, ta sẽ không biết bản thân
                 có thể đi xa được đến đâu, và giá trị nhận được nhiều đến mức nào. Nhưng trước hết, chỉ cần từ những
@@ -53,16 +51,18 @@
         <div class="row mt-5">
             <div class="col-lg-6">
                 <h1 class="text-uppercase fw-bold display-3 ">DỰ ÁN</h1>
-                <p>Mooting Summer School (“<strong>MSS</strong>”) là dự án đào tạo chuyên nghiệp về mooting đầu tiên tại Việt Nam, được thành lập và dẫn dắt bởi một cựu mooter đã gắn bó với cộng đồng hơn một nửa thập kỷ qua ở đầy đủ các vai trò từ thí sinh, huấn luyện viên, diễn giả và giám khảo cả trong và ngoài nước. </p>
+                <p>Mooting Summer School (“<strong>MSS</strong>”) là dự án đào tạo chuyên nghiệp về mooting đầu tiên tại
+                    Việt Nam, được thành lập và dẫn dắt bởi một cựu mooter đã gắn bó với cộng đồng hơn một nửa thập kỷ
+                    qua ở đầy đủ các vai trò từ thí sinh, huấn luyện viên, diễn giả và giám khảo cả trong và ngoài nước.
+                </p>
                 <p>MSS sẽ được tổ chức vào mỗi mùa hè và hoạt động không vì mục tiêu lợi nhuận.</p>
                 <h4><a href="<?php echo BASE_URL ?>/about" ?>Xem thêm >></a></h4>
                 <h4>ĐĂNG KÝ CHO MSS KHÓA 2024 ĐÃ MỞ</h4>
             </div>
             <div class="col-lg-6 mt-4">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/-pHfPJGatgE?si=KlPHj-aaR5W99vtc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="w-100"></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/-pHfPJGatgE?si=KlPHj-aaR5W99vtc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="w-100"></iframe>
             </div>
-        </div>
-        
+        </div>      
     </div>
     <div class=" container py-5 p-lg-5 eng">
         <h2 class="text-uppercase fw-bold display-5">WELCOME TO</h2>
@@ -87,6 +87,7 @@
             <div class="col-lg-6 mt-4">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/-pHfPJGatgE?si=KlPHj-aaR5W99vtc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="w-100"></iframe>
             </div>
+
         </div>
     </div>
 </main>
