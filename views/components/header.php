@@ -12,6 +12,7 @@
                 <i class="fa fa-solid fa-bars p-0 m-0"></i>
             </a>
         </div>
+
         <div class="w-100 h-100 navlink-container d-flex animate-btn">
             <div class="container-fluid m-auto w-100 ">
                 <div class="collapse navbar-collapse" id="navResponsive">

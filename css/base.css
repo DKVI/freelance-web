@@ -36,10 +36,28 @@ main {
   src: url(../assets/fonts/MYRIADPRO-BOLD.ttf);
   font-weight: bold;
 }
+.bg-light,
+table * {
+  background-color: #e5e5e5 !important;
+}
+.text-light {
+  color: #e5e5e5 !important;
+}
+.blue-bg * {
+  background-color: #6e7f99 !important;
+}
+.bold-text {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 110%;
+}
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+ul {
+  list-style:;
 }
 a {
   color: #274069;
@@ -63,6 +81,9 @@ section {
   background-color: #e5e5e5;
   color: #274069;
   text-align: justify;
+}
+.page-section {
+  margin-top: 60px;
 }
 main {
   margin-top: 10rem;
@@ -104,8 +125,15 @@ nav {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   font-family: Title;
+}
+h1 {
+  font-size: 10.5rem;
+  margin: 0;
+  padding: 0;
 }
 
 /* --------HEADER SECTION---------- */
@@ -294,25 +322,7 @@ nav:hover > .animate-btn {
 
 /* -----END HEADER------ */
 /* ------FOOTER SECTION------- */
-footer {
-  min-height: 3rem;
-  background-color: #274069;
-  color: #e5e5e5;
-}
-footer li {
-  line-height: 1.5rem;
-  font-size: 1rem;
-  padding: 15px 30px;
-}
 
-.textloop--container {
-  height: 60px;
-  line-height: 60px;
-  max-width: 100vw;
-  font-size: 22px;
-  position: relative;
-  overflow: hidden;
-}
 
 .subheader-left {
   width: 50%;
@@ -341,13 +351,7 @@ footer li {
 .welcome-page img {
   size: 50%;
 }
-.bg-fix-griffin {
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
-}
+
 .griffin {
   background-image: url(../assets/imgs/home-background.png);
   background-size: cover;
@@ -361,11 +365,143 @@ footer li {
   font-weight: bolder;
 }
 /* ---------ABOUT US PAGE---------- */
-
-#ab-main > section {
+#ab-main {
+  overflow: hidden;
 }
-#ab-main > section p {
-  text-align: justify;
+#ab-main > section {
+  min-height: 85vh;
+  padding-top: 5rem;
+}
+
+.founder-words {
+  padding: 0 10px;
+  width: 100%;
+  max-height: 260px;
+  overflow-y: auto;
+  box-shadow: 5px 5px 5px gray;
+  border-radius: 10px;
+  margin-bottom: -20px;
+}
+.founder-words-img {
+  width: 90%;
+}
+
+.our-mission {
+  background-image: url(../assets/imgs/about-2.png);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.mascot-moto {
+  background-color: #274069;
+  color: #e5e5e5;
+}
+.mascot-moto h1 {
+  font-size: 8.5rem;
+}
+/* -------------circle text animation (about page)----------- */
+.circle {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  border-radius: 100vmax;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size: 1.6rem;
+  animation: textRotation 50s linear infinite;
+}
+.test2 {
+  right: 0;
+  bottom: 10px !important;
+}
+
+@keyframes textRotation {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.text span {
+  position: absolute;
+  left: 50%;
+  font-size: 1.6rem;
+  transform-origin: 0 200px;
+}
+
+/* ---------------CURRICULUM PAGE------------- */
+#curriculum > section {
+  min-height: 85vh;
+  padding-top: 9rem;
+}
+.blue-rec-shape {
+  height: 2rem;
+  width: 100%;
+  background-color: #274069;
+  bottom: 0;
+}
+.moot-tournaments img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  /* height: 100%; */
+  border-radius: 10px;
+  transition: transform 0.5s;
+}
+.moot-tournaments {
+  overflow: hidden;
+  margin: 20px auto;
+}
+.moot-tournaments img {
+  transition: transform 0.8s;
+}
+.moot-tournaments img:hover {
+  transform: scale(1.1);
+}
+#curriculum .credit {
+  font-size: 0.8rem;
+}
+.c-table {
+  background-image: url(../assets/imgs/curriculum-5.png);
+  min-height: 1000px;
+}
+
+.c-table table td,
+.c-table table th {
+  border: 1px solid #274069;
+  color: #274069 !important;
+  vertical-align: middle;
+}
+table {
+  font-size: 1.2rem;
+}
+.c-table table thead th {
+  color: #2d466f;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 1.2rem;
+  border-left: #274069 1px solid;
+}
+.c-table table tr th:first-child,
+.c-table table tr td:first-of-type,
+.c-table table tr td:nth-of-type(2) {
+  text-align: center;
+}
+.c-table table tr th:first-child {
+  width: 5rem;
+}
+.trial-session{
+  min-height: 98vh;
+  background-image: url(../assets/imgs/curriculum-7.png)
+}
+.trial-session .container *{
+  padding: 0 20px;
 }
 
 /* ---------------FAQ------------------ */
