@@ -1,11 +1,10 @@
-
 <div class="position-fixed rounded-circle z-3 d-flex popup-component"
-    style="width: 50px; height: 50px; top: 90%; right: 50px; box-shadow: 3px 3px 10px #cccc;">
+    style="width: 50px; height: 50px; top: 90%; right: 50px; box-shadow: 3px 3px 10px #cccc;filter: drop-shadow(#cccc 5px 5px 5px);">
     <div class="rounded-circle z-3 d-flex message-btn"
         style="width: 50px; height: 50px; background-color: #274069;  cursor: pointer; opacity:80%">
         <i class="fa-regular fa-message m-auto " style="font-size: 24px; color: white"></i>
     </div>
-    <div class="position-absolute shadow rounded-4 overflow-hidden popup-message"
+    <div class="position-absolute rounded-4 overflow-hidden popup-message"
         style="display: none; width: 300px; right: 0; bottom: calc(100% + 10px); background-color: white; animation: popup 0.4s; z-index: 9999">
         <div>
             <div class="title w-full d-flex px-2 py-3 text-center"
