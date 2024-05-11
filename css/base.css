@@ -104,10 +104,13 @@ picture {
   color: #274069;
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1199px) {
   .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
+  }
+  .menu-nav{
+    width: 40%;
   }
 }
 .dropdown-menu {
@@ -145,15 +148,17 @@ h1 {
   min-height: 8rem;
   margin: 0;
   padding: 0;
-  z-index: 2 !important;
+  z-index: 4 !important;
   font-size: 1rem;
 }
 .header .navbar {
-  background-color: rgba(229, 229, 229, 0.5);
+  /* background-color: rgba(229, 229, 229, 0.5); */
+  background-color: #e5e5e5;
 }
 
 .header .menu-nav {
   font-family: BookMan;
+  padding-top: 20px;
 }
 
 .header .navbar-nav ul {
@@ -193,7 +198,6 @@ h1 {
 .navbar-brand {
   margin: 0 !important;
   padding: 0 !important;
-  width: 100%;
 }
 .navbar-brand img {
   margin: 0;
@@ -323,14 +327,6 @@ nav:hover > .animate-btn {
 /* -----END HEADER------ */
 /* ------FOOTER SECTION------- */
 
-
-.subheader-left {
-  width: 50%;
-}
-
-.subheader-right {
-  width: 50%;
-}
 
 .textloop--content {
   position: absolute;

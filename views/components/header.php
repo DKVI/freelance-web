@@ -1,10 +1,10 @@
 <!-- NAVBAR -->
 <!-- LOGO AREA -->
-<div class="logo-area container-fluid mt-2 fixed-top d-flex justify-content-end align-items-center">
-    <nav class=" navbar navbar-expand-xl navbar-light fixed-top mt-5 " id="mainNav">
+<div class="logo-area container-fluid fixed-top">
+    <nav class=" navbar navbar-expand-xl navbar-light fixed-top mt-1 " id="mainNav">
         <div class="menu-nav text-center d-flex justify-content-between align-items-center px-3">
-            <a class="navbar-brand w-75" href="<?php echo BASE_URL ?>/home">
-                <img src="././assets/imgs/small-logo.png" alt="MSS-logo" class=" h-100">
+            <a class="navbar-brand" href="<?php echo BASE_URL ?>/home">
+                <img src="././assets/imgs/small-logo.png" alt="MSS-logo" class="">
             </a>
             <a class="navbar-toggler btn-sm align-items-end " type="button" data-bs-toggle="collapse"
                 data-bs-target="#navResponsive" aria-controls="navResponsive" aria-expanded="false"
@@ -85,6 +85,9 @@
                                 <li><a class="dropdown-item" href="#">Về học phí</a></li>
                             </ul>
                         </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Liên hệ</a>
+                        </li>
                     </ul>
                     <ul class="navbar-nav eng">
                         <li class="nav-item dropdown custom-scrollbar">
@@ -158,6 +161,9 @@
                                 <li><a class="dropdown-item" href="#">About tuition fees</a></li>
                             </ul>
                         </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Contact</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -165,13 +171,10 @@
     </nav>
 </div>
 <!-- NAVBAR -->
-<div class="d-flex justify-content-between fixed-top pt-3"
-    style="width: 100vw; background-color: rgba(229, 229, 229, 0.5);">
-    <div class="subheader-left">
-
-    </div>
-    <div class="subheader-right d-flex">
-        <div class="w-75 ">
+<div class="d-flex flex-row-reverse fixed-top pt-1" style=" background-color: #e5e5e5; margin:0">
+    
+    <div class="col-6 d-flex">
+        <div class="w-75">
             <?php
             include "./views/components/searchBar.php";
             ?>
