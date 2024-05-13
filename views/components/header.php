@@ -14,7 +14,7 @@
         </div>
 
         <div class="w-100 h-100 navlink-container d-flex animate-btn">
-            <div class="container-fluid m-auto w-100 ">
+            <div class="m-auto">
                 <div class="collapse navbar-collapse" id="navResponsive">
                     <ul class="navbar-nav vn">
                         <li class="nav-item dropdown custom-scrollbar">

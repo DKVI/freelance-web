@@ -9,9 +9,17 @@
             </div>
             <div class="col-lg-6" style="margin-top: -15rem">
                 <div class="blue-rec-shape mb-4"></div>
-                <p class="vn">Mooting hay “phiên tòa giả định”, là hoạt động mô phỏng diễn án. Trong đó, mooter hay “người tham gia” sẽ thực hiện nghiên cứu một vụ án giả định và đưa ra những lập luận phù hợp để viết bài biện hộ và biện hộ cho một bên hoặc chống lại một bên trong phiên tranh tụng.</p>
-                <p class="vn">Trên thế giới hiện nay, các quốc gia và khu vực có nền luật pháp phát triển thường đầu tư và chú trọng đẩy mạnh hoạt động Mooting cho các sinh viên trường luật.</p>
-                <p class="vn">Mooting không chỉ giúp sinh viên được rèn luyện tư duy phản biện, kỹ năng thuyết phục, mà còn tăng cường trình độ nghiên cứu, hiểu biết, và áp dụng pháp luật. Đồng thời, tạo cơ hội để sinh viên xây dựng mạng lưới quan hệ trong cộng đồng luật và tạo ra những trải nghiệm giá trị cho sự phát triển cá nhân và chuyên môn của họ.</p>
+                <div class="vn">
+                    <p >Mooting hay “phiên tòa giả định”, là hoạt động mô phỏng diễn án. Trong đó, mooter hay “người tham gia” sẽ thực hiện nghiên cứu một vụ án giả định và đưa ra những lập luận phù hợp để viết bài biện hộ và biện hộ cho một bên hoặc chống lại một bên trong phiên tranh tụng.</p>
+                    <p>Trên thế giới hiện nay, các quốc gia và khu vực có nền luật pháp phát triển thường đầu tư và chú trọng đẩy mạnh hoạt động Mooting cho các sinh viên trường luật.</p>
+                    <p>Lợi ích của Mooting:</p>
+                    <ul>
+                        <li>Giúp sinh viên được rèn luyện tư duy phản biện, kỹ năng thuyết phục</li>
+                        <li>Tăng cường trình độ nghiên cứu, hiểu biết và áp dụng pháp luật</li>
+                        <li>Tạo cơ hội để sinh viên xây dựng mạng lưới quan hệ trong cộng đồng luật</li>
+                        <li>Gia tăng các trải nghiệm giá trị cho sự phát triển cá nhân và chuyên môn</li>
+                    </ul>
+                </div>
                 <p class="eng">Mooting, also referred to as “phiên tòa giả định” in Vietnamese, is a simulation of a court hearing or an arbitration. Participants, or “mooters”, research a given case problem, prepare written submissions, and present arguments for or against a party in the hearing.</p>
                 <p class="eng">Nowadays, mooting is actively invested in and promoted in many countries and jurisdictions with a strong legal system. </p>
                 <p class="eng"> Mooting not only helps students develop critical thinking and persuasive skills but also enhances their research abilities, legal knowledge, and application. Additionally, Mooting provides an opportunity for students to build networks within the legal community and gain valuable experiences for personal and professional growth.</p>
@@ -23,8 +31,8 @@
         <div class="container">   
             <h2 class="text-center display-5 vn">Một số giải đấu moot quốc tế danh giá có truyền thống lâu đời với cộng đồng thí sinh:</h2>
             <h2 class="text-center display-5 eng">Some prestigious international moot tournaments have a long tradition with  community:</h2>
-            <div class="d-flex">
-                <div class="col-lg-3 p-3 ">
+            <div class="row">
+                <div class="col-lg-3 p-3 col-6">
                     <!-- Button trigger modal -->
                     <div data-toggle="modal" data-target="#Jessup-Moot" class="w-100 moot-tournaments">
                         <img src="./assets/imgs/curriculum-1-1.png" alt="Jessup-Moot">
@@ -70,7 +78,7 @@
                     </div>
                 </div>
                 <!--  -->
-                <div class="col-lg-3 p-3">
+                <div class="col-lg-3 p-3 col-6">
                     
                     <!-- Button trigger modal -->
                     <div data-toggle="modal" data-target="#Vis-Moot" class="w-100 moot-tournaments">
@@ -119,7 +127,7 @@
                 </div>
                 
                 <!--  -->
-                <div class="col-lg-3 p-3">
+                <div class="col-lg-3 p-3 col-6">
                     <!-- Button trigger modal -->
                     <div data-toggle="modal" data-target="#FDI-Moot" class="w-100 moot-tournaments">
                         <img src="./assets/imgs/curriculum-3-1.png" alt="FDI-Moot">
@@ -166,7 +174,7 @@
                     </div>
                 </div>
                 <!--  -->
-                <div class="col-lg-3 p-3">
+                <div class="col-lg-3 p-3 col-6">
                     <!-- Button trigger modal -->
                     <div data-toggle="modal" data-target="#IHL-Moot" class="w-100 moot-tournaments">
                         <img src="./assets/imgs/curriculum-4-1.png" alt="IHL-Moot">
@@ -222,20 +230,16 @@
             <div class="d-flex justify-content-center align-items-center">
                 <div class="col-10">
                     <div class="vn">
-                        <!-- <p>Chương trình của MSS sẽ bao gồm 17 buổi, trong đó bao gồm 1 buổi học thử, 11 buổi lý thuyết, 4 buổi thực hành, 1 buổi talkshow, và một buổi bế giảng.</p>
-
-                        <p>Các buổi lý thuyết sẽ được tổ chức vào tối thứ Năm, và sáng Chủ nhật. Các buổi thực hành, talk show, và bế giảng được dự kiến sẽ được tổ chức vào sáng thứ Bảy và Chủ nhật, cụ thể sẽ được thông báo sau.</p>
-
-                        <p>Nhằm tạo điều kiện để học viên có cơ hội trải nghiệm và có đánh giá trực quan về khóa học trước khi đăng ký, buổi học đầu tiên – một buổi lý thuyết, sẽ được MSS tổ chức miễn phí, cho tất cả mọi người.</p>-->
                         <p class="r">Chương trình của MSS sẽ bao gồm 18 buổi, trong đó bao gồm:</p>
                         <div class="vn mb-4 mt-4 offset-1" style="column-count: 2; padding: 0 60px 0 20px">
-                            <li>1 buổi học thử (Miễn phí)</li>
-                            <li>11 buổi lý thuyết (Tối thứ Năm và sáng Chủ Nhật)</li>
-                            <li>4 thực hành (Sáng thứ Bảy và Chủ Nhật)</li>
-                            <li>1 buổi talkshow (Sáng thứ Bảy hoặc Chủ Nhật)</li>
-                            <li>1 buổi bế giảng (Sáng thứ Bảy hoặc Chủ Nhật)</li>
+                            <li>1 buổi Học thử (Miễn phí)</li>
+                            <li>11 buổi Lý thuyết (Tối thứ Năm và sáng Chủ Nhật)</li>
+                            <li>4 buổi Thực hành (Sáng thứ Bảy và Chủ Nhật)</li>
+                            <li>1 buổi Talkshow (Sáng thứ Bảy hoặc Chủ Nhật)</li>
+                            <li>1 buổi Bế giảng (Sáng thứ Bảy hoặc Chủ Nhật)</li>
                         </div>
-                        <p>Tổng quan chương trình sẽ được thể hiện ở bảng sau (nhằm mục đích dễ theo dõi, các buổi học của gói Essentials dưới đây sẽ được tô <span class="bold-text">màu xanh</span>, đối với các buổi thực hành, học viên <span class="bold-text">gói Essentials</span> sẽ tham gia với tư cách Quan sát viên)</p> 
+                        <p>Tổng quan chương trình sẽ được thể hiện ở bảng sau:<br>
+                        <i>(Nhằm mục đích dễ theo dõi, các buổi học của gói Essentials dưới đây sẽ được tô <span class="bold-text">màu xanh</span>, đối với các buổi thực hành, học viên <span class="bold-text">gói Essentials</span> sẽ tham gia với tư cách Quan sát viên)</i></p>
                     </div>
                     <div class="eng">
                         <p>The MSS course will consist of 17 sessions: 1 trial session, 11 theoretical sessions, 4 mock sessions, a talk show, and a closing session.</p>
@@ -246,7 +250,7 @@
                         <p>An overview of the program will be shown in the table below. For your convenience, theoretical sessions of the Essentials package will be highlighted in green. The sessions included in the <strong style="font-family: 'Times New Roman', Times, serif; font-size: 1.5rem">Essentials package</strong> are highlighted in blue. For mock sessions, Essentials students will participate as Observers.</p>
                     </div>
                     <!-- TABLE -->
-                    <div class="bg-light px-5 py-4">
+                    <div class="bg-light px-5 py-4 mb-5">
                         <table class="table">
                             <thead>
                                 <tr class="blue-bg">
@@ -610,9 +614,17 @@
                 <h2 class="eng">The spirit of mooting</h2>
             </div>
             <div class="col-lg-6 py-3">
-                <p class="vn">Trong buổi học thử này, MSS sẽ tập trung vào bốn chủ đề chính, bao gồm khái niệm về mooting, vì sao lại tham gia mooting, hệ thống các giải moot và tinh thần mooting. </p>
-                <p class="vn">Đồng thời, MSS cũng giới thiệu một cách ngắn gọn về tổng quan chương trình học của khóa học chính thức của MSS, và một phần Hỏi đáp để trả lời bất kỳ câu hỏi nào bạn có thể có về khóa học.</p>
-                <p class="vn">Trên cơ sở đó, cho dù bạn quyết định tham gia khóa học chính thức của MSS hay không, MSS hy vọng rằng mỗi người tham gia buổi học thử này, sau khi kết thúc, đều sẽ hiểu rõ hơn về thế giới mooting, lợi ích của việc tham gia đấu moot, và những gì cần thiết để trở thành một mooter thành công.</p>
+                <div class="vn">
+                    <p>Trong buổi học thử này, MSS sẽ tập trung vào bốn chủ đề chính:</p>
+                    <ul class="offset-1" style="column-count: 2">
+                        <li>Khái niệm về mooting</li>
+                        <li>Lợi ích tham gia mooting</li>
+                        <li>Hệ thống các giải moot</li>
+                        <li>Tinh thần mooting</li>
+                    </ul>
+                    <p>MSS sẽ giới thiệu một cách ngắn gọn về tổng quan chương trình học của khóa học chính thức, trả lời một số câu hỏi mà học viên thắc mắc về khóa học.</p>
+                    <p>Trên cơ sở đó, cho dù bạn quyết định tham gia khóa học chính thức của MSS hay không, MSS hy vọng rằng mỗi người tham gia buổi học thử này, sau khi kết thúc, đều sẽ hiểu rõ hơn về thế giới mooting, lợi ích và những gì cần thiết để trở thành một mooter thành công.</p>
+                </div>
 
                 <p class="eng">During this session, we will focus on four main topics, which are: the definition of mooting, why one would participate in mooting, the system of mooting competitions, and the spirit of mooting.</p>
                 <p class="eng"> Concurrently, we will also provide a brief overview of MSS's course curriculum, followed by a Q&A session to answer any questions you may have about the course.</p>
@@ -625,7 +637,7 @@
             <img src="./assets/imgs/curriculum-8.png" alt="mss-background" class="position-absolute w-100" style="left:0; top:0;">
         </div>
         <div class="container position-relative py-5" style="top: 20%">
-            <div class="col-lg-8 offset-lg-4 position-absolute py-5" style="z-index:2">
+            <div class="col-lg-8 offset-lg-4 py-5">
                 <h2 class="display-1 vn">Các buổi kỹ năng</h2>
                 <h2 class="display-1 vn">trước cuộc thi</h2>
                 <h2 class="display-1 eng">Pre-competition skills</h2>
