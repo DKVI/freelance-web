@@ -57,7 +57,7 @@ table * {
   box-sizing: border-box;
 }
 ul {
-  list-style:;
+  list-style: none !important;
 }
 a {
   color: #274069;
@@ -82,6 +82,17 @@ section {
   color: #274069;
   text-align: justify;
 }
+
+section {
+  opacity: 0;
+}
+
+.section-active {
+  opacity: 100%;
+  animation: fadeAnimation 0.3s ease-in-out;
+  transition: all 0.3s linear;
+}
+
 .page-section {
   margin-top: 60px;
 }
@@ -269,6 +280,15 @@ nav:hover > .animate-btn {
   }
 }
 
+@keyframes fadeAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 /* sticky social media bar */
 .fl-fl {
   background: #274069;
@@ -322,7 +342,6 @@ nav:hover > .animate-btn {
 
 /* -----END HEADER------ */
 /* ------FOOTER SECTION------- */
-
 
 .subheader-left {
   width: 50%;
@@ -496,11 +515,11 @@ table {
 .c-table table tr th:first-child {
   width: 5rem;
 }
-.trial-session{
+.trial-session {
   min-height: 98vh;
-  background-image: url(../assets/imgs/curriculum-7.png)
+  background-image: url(../assets/imgs/curriculum-7.png);
 }
-.trial-session .container *{
+.trial-session .container * {
   padding: 0 20px;
 }
 

@@ -1,15 +1,14 @@
 //circle text animation
 const text = document.querySelectorAll(".text");
-for(let i = 0; i< text.length; i++){
+for (let i = 0; i < text.length; i++) {
   text[i].innerHTML = text[i].innerText
-	.split("")
-	.map(
-		(char, x) => `<span style="transform:rotate(${x * 9.2}deg)">${char}</span>`
-	)
-	.join("");
+    .split("")
+    .map(
+      (char, x) =>
+        `<span style="transform:rotate(${x * 9.2}deg)">${char}</span>`
+    )
+    .join("");
 }
-
-
 
 // FAQ PAGE ROTATE FUNCTION
 let faqLabel = document.querySelectorAll(".faq-label");
@@ -22,4 +21,12 @@ faqLabel.forEach(
       let icons = labelIcon.lastElementChild;
       icons.classList.toggle("rotate");
     })
+);
+
+const sectionList = document.querySelectorAll("section");
+console.log(sectionList);
+sectionList.forEach((item) =>
+  item.addEventListener("mouseenter", () => {
+    item.classList.add("section-active");
+  })
 );
