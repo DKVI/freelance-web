@@ -51,7 +51,8 @@
                     </div>
 
                     <!-- Modal -->
-                    <div class="modal fade modal-xl" id="Jessup-Moot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal fade modal-xl" id="Jessup-Moot" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -66,9 +67,11 @@
                                 <div class="modal-body">
 
                                     <div class="row">
-                                        <div class="col-lg-6 d-flex justify-contents-center align-items-center moot-tournaments-items">
+                                        <div
+                                            class="col-lg-6 d-flex justify-contents-center align-items-center moot-tournaments-items">
                                             <div>
-                                                <img src="./assets/imgs/curriculum-1.png" class="w-100" alt="“Jessup-Moot”">
+                                                <img src="./assets/imgs/curriculum-1.png" class="w-100"
+                                                    alt="“Jessup-Moot”">
                                                 <p class="credit mt-2">
                                                     cre: Phillip C. Jessup Moot - International Law Students Association
                                                 </p>
@@ -109,7 +112,8 @@
                     </div>
 
                     <!-- Modal -->
-                    <div class="modal fade modal-xl" id="Vis-Moot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal fade modal-xl" id="Vis-Moot" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -178,7 +182,8 @@
                     </div>
 
                     <!-- Modal -->
-                    <div class="modal fade modal-xl" id="FDI-Moot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal fade modal-xl" id="FDI-Moot" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -242,7 +247,8 @@
                     </div>
 
                     <!-- Modal -->
-                    <div class="modal fade modal-xl" id="IHL-Moot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal fade modal-xl" id="IHL-Moot" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -310,7 +316,9 @@
                             <li>1 buổi Bế giảng (Sáng thứ Bảy hoặc Chủ Nhật)</li>
                         </div>
                         <p>Tổng quan chương trình sẽ được thể hiện ở bảng sau:<br>
-                            <i>(Nhằm mục đích dễ theo dõi, các buổi học của gói Essentials dưới đây sẽ được tô <span class="bold-text">màu xanh</span>, đối với các buổi thực hành, học viên <span class="bold-text">gói Essentials</span> sẽ tham gia với tư cách Quan sát viên)</i>
+                            <i>(Nhằm mục đích dễ theo dõi, các buổi học của gói Essentials dưới đây sẽ được tô <span
+                                    class="bold-text">màu xanh</span>, đối với các buổi thực hành, học viên <span
+                                    class="bold-text">gói Essentials</span> sẽ tham gia với tư cách Quan sát viên)</i>
                         </p>
                     </div>
                     <div class="eng">
@@ -326,7 +334,8 @@
                             will organize the first session – a theory session, free of charge. </p>
                         <p>An overview of the program will be shown in the table below. For your convenience,
                             theoretical sessions of the Essentials package will be highlighted in green. The sessions
-                            included in the <strong style="font-family: 'Times New Roman', Times, serif; font-size: 1.5rem">Essentials
+                            included in the <strong
+                                style="font-family: 'Times New Roman', Times, serif; font-size: 1.5rem">Essentials
                                 package</strong> are highlighted in blue. For mock sessions, Essentials students will
                             participate as Observers.</p>
                     </div>
@@ -687,7 +696,8 @@
     <section class="">
         <div class="container background-full">
             <div class="position-relative">
-                <img src="./assets/imgs/curriculum-61.png" alt="mss-background" class="position-absolute" style="right: 0; top: -6.2rem">
+                <img src="./assets/imgs/curriculum-61.png" alt="mss-background" class="position-absolute"
+                    style="right: 0; top: -6.2rem">
             </div>
             <div class="vn px-3">
                 <h1>Lý thuyết</h1>
@@ -751,7 +761,8 @@
     </section>
     <section class=" min-vh-100" style="padding:0;">
         <div class="position-relative col-lg-4" style="z-index:0">
-            <img src="./assets/imgs/curriculum-8.png" alt="mss-background" class="position-absolute w-100" style="left:0; top:0;">
+            <img src="./assets/imgs/curriculum-8.png" alt="mss-background" class="position-absolute w-100"
+                style="left:0; top:0;">
         </div>
         <div class="container position-relative py-5" style="top: 20%">
             <div class="col-lg-8 offset-lg-4 py-5">
