@@ -57,6 +57,10 @@ table * {
   box-sizing: border-box;
 }
 
+ul {
+  list-style: none !important;
+}
+
 a {
   color: #274069;
   text-decoration: none;
@@ -83,6 +87,17 @@ section {
   color: #274069;
   text-align: justify;
 }
+
+section {
+  opacity: 0;
+}
+
+.section-active {
+  opacity: 100%;
+  animation: fadeAnimation 0.3s ease-in-out;
+  transition: all 0.3s linear;
+}
+
 .page-section {
   margin-top: 60px;
 }
@@ -275,6 +290,15 @@ nav:hover > .animate-btn {
   }
 }
 
+@keyframes fadeAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 /* sticky social media bar */
 .fl-fl {
   opacity: 0.9;
@@ -329,6 +353,14 @@ nav:hover > .animate-btn {
 
 /* -----END HEADER------ */
 /* ------FOOTER SECTION------- */
+
+.subheader-left {
+  width: 50%;
+}
+
+.subheader-right {
+  width: 50%;
+}
 
 .textloop--content {
   position: absolute;
