@@ -25,8 +25,9 @@ faqLabel.forEach(
 
 const sectionList = document.querySelectorAll("section");
 console.log(sectionList);
-sectionList.forEach((item) =>
-  item.addEventListener("mouseenter", () => {
-    item.classList.add("section-active");
-  })
-);
+
+const mainContainer = document.querySelector(".main");
+const bodyContainer = document.querySelector("body");
+mainContainer.onscroll = () => {
+  console.log("scroll");
+};
