@@ -209,6 +209,14 @@ h1 {
   .language {
     top: 0;
   }
+  .sm-md-subheader {
+    flex: 0 0 auto !important;
+    width: 91.66666667% !important;
+  }
+  .search-input {
+    opacity: 1;
+    width: 100% !important;
+  }
 }
 .navbar-brand {
   margin: 0 !important;
@@ -234,6 +242,14 @@ h1 {
   }
   .language {
     padding: 0 8px !important;
+  }
+  .search-input {
+    opacity: 1;
+    width: 100% !important;
+  }
+  .sm-md-subheader {
+    flex: 0 0 auto !important;
+    width: 91.66666667% !important;
   }
 }
 /* --------- STYLE SCROLLBAR ---------*/
