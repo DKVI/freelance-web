@@ -56,9 +56,11 @@ table * {
 *::after {
   box-sizing: border-box;
 }
+
 ul {
   list-style: none !important;
 }
+
 a {
   color: #274069;
   text-decoration: none;
@@ -69,6 +71,9 @@ a:hover {
 li ul li a:hover {
   background-color: #274069 !important;
   color: #e5e5e5 !important;
+}
+li {
+  padding-left: 1em;
 }
 
 ul[role="list"],
@@ -115,10 +120,13 @@ picture {
   color: #274069;
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1200px) {
   .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
+  }
+  .menu-nav {
+    width: 40%;
   }
 }
 .dropdown-menu {
@@ -142,7 +150,7 @@ h6 {
   font-family: Title;
 }
 h1 {
-  font-size: 10.5rem;
+  font-size: 9rem;
   margin: 0;
   padding: 0;
 }
@@ -156,15 +164,18 @@ h1 {
   min-height: 8rem;
   margin: 0;
   padding: 0;
-  z-index: 2 !important;
+  z-index: 4 !important;
   font-size: 1rem;
 }
+
 .header .navbar {
-  background-color: rgba(229, 229, 229, 0.5);
+  /* background-color: rgba(229, 229, 229, 0.5); */
+  background-color: #e5e5e5;
 }
 
 .header .menu-nav {
   font-family: BookMan;
+  padding-top: 20px;
 }
 
 .header .navbar-nav ul {
@@ -204,7 +215,6 @@ h1 {
 .navbar-brand {
   margin: 0 !important;
   padding: 0 !important;
-  width: 100%;
 }
 .navbar-brand img {
   margin: 0;
@@ -291,6 +301,7 @@ nav:hover > .animate-btn {
 
 /* sticky social media bar */
 .fl-fl {
+  opacity: 0.9;
   background: #274069;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -392,16 +403,7 @@ nav:hover > .animate-btn {
   padding-top: 5rem;
 }
 
-.founder-words {
-  padding: 0 10px;
-  width: 100%;
-  max-height: 260px;
-  overflow-y: auto;
-  box-shadow: 5px 5px 5px gray;
-  border-radius: 10px;
-  margin-bottom: -20px;
-}
-.founder-words-img {
+.founder-words-title {
   width: 90%;
 }
 
@@ -411,11 +413,11 @@ nav:hover > .animate-btn {
   background-position: top;
   background-repeat: no-repeat;
 }
-.mascot-moto {
+.mascot-motto {
   background-color: #274069;
   color: #e5e5e5;
 }
-.mascot-moto h1 {
+.mascot-motto h1 {
   font-size: 8.5rem;
 }
 /* -------------circle text animation (about page)----------- */
@@ -456,7 +458,6 @@ nav:hover > .animate-btn {
 
 /* ---------------CURRICULUM PAGE------------- */
 #curriculum > section {
-  min-height: 85vh;
   padding-top: 9rem;
 }
 .blue-rec-shape {
@@ -499,6 +500,9 @@ nav:hover > .animate-btn {
 }
 table {
   font-size: 1.2rem;
+}
+table td *{
+  padding-top: 8px;
 }
 .c-table table thead th {
   color: #2d466f;

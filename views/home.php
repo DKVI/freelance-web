@@ -51,12 +51,12 @@
         <div class="row mt-5">
             <div class="col-lg-6">
                 <h1 class="text-uppercase fw-bold display-3 ">DỰ ÁN</h1>
-                <p>Mooting Summer School (“<strong>MSS</strong>”) là dự án đào tạo chuyên nghiệp về mooting đầu tiên tại
+                <p>Mooting Summer School (<strong>MSS</strong>) là dự án đào tạo chuyên nghiệp về mooting đầu tiên tại
                     Việt Nam, được thành lập và dẫn dắt bởi một cựu mooter đã gắn bó với cộng đồng hơn một nửa thập kỷ
                     qua ở đầy đủ các vai trò từ thí sinh, huấn luyện viên, diễn giả và giám khảo cả trong và ngoài nước.
                 </p>
                 <p>MSS sẽ được tổ chức vào mỗi mùa hè và hoạt động không vì mục tiêu lợi nhuận.</p>
-                <h4><a href="<?php echo BASE_URL ?>/about" ?>Xem thêm >></a></h4>
+                <p><strong><a href="<?php echo BASE_URL ?>/about" ?>Click vào đây để xem thêm chi tiết về cựu mooter và các mục tiêu mà MSS mong muốn hướng tới nhé!</a></strong></p>
                 <h4>ĐĂNG KÝ CHO MSS KHÓA 2024 ĐÃ MỞ</h4>
             </div>
             <div class="col-lg-6 mt-4">
