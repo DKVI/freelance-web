@@ -1,7 +1,7 @@
 <link href="<?php echo BASE_URL ?>/css/admin.css" rel="stylesheet">
 <link href="<?php echo BASE_URL ?>/css/base.css" rel="stylesheet">
 <div class="container">
-    <div class="m-auto">
+    <div class="m-auto text-center">
         <h1>404 - Page Not Found</h1>
         <p>We're sorry, but the page you requested could not be found.</p>
         <a href="<?php echo BASE_URL ?>/home" class="btn" style="background-color: #274069; color: white">Go to

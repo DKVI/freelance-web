@@ -3,7 +3,10 @@ $post;
 $id;
 if (isset($_GET["id"])) {
     $post = Post::getById($conn, $_GET["id"]);
-    $id = $_GET["id"];
+    $id = $post->id;
+    if (!$post) {
+        echo "<script>location.href='" . BASE_URL . "/e404'</script>";
+    }
 } else {
     echo "<script>location.href='" . BASE_URL . "/e404'</script>";
 }
@@ -89,6 +92,7 @@ $relativePosts = Post::getRelatedPost($conn, $id, 3);
     #markdown-content p {
         font-size: 1.2rem;
         display: flex;
+        margin-bottom: 1.5rem;
     }
 
     #markdown-content p img {

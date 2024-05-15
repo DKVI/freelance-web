@@ -30,7 +30,9 @@ $segments = explode('/', $uri);
     <script defer src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
     <!-- ----------------------- -->
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" type="image/x-icon" href="<?php echo BASE_URL ?>/assets/imgs/favicon.ico">
     <title>Mooting Summer School</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css" />
@@ -89,7 +91,7 @@ if (isset($_GET['language'])) {
             case 'faq':
                 include __DIR__ . "/views/faq.php";
                 break;
-            case 'events':
+            case 'event':
                 include __DIR__ . "/views/event.php";
                 break;
             case 'news':
@@ -145,27 +147,28 @@ if (isset($_GET['language'])) {
         <?php include __DIR__ . "/views/components/footer.php" ?>
     </div>
     <script>
-        const vnElements = document.querySelectorAll(".vn");
-        const engElements = document.querySelectorAll(".eng");
-        const queryParams = "<?php echo $language ?>";
-        if (queryParams === "eng") {
-            vnElements.forEach((e) => {
-                e.classList.add("d-none");
-            });
-            engElements.forEach((e) => {
-                e.classList.remove("d-none");
-            });
-        } else {
-            vnElements.forEach((e) => {
-                e.classList.remove("d-none");
-            });
-            engElements.forEach((e) => {
-                e.classList.add("d-none");
-            });
-        }
+    const vnElements = document.querySelectorAll(".vn");
+    const engElements = document.querySelectorAll(".eng");
+    const queryParams = "<?php echo $language ?>";
+    if (queryParams === "eng") {
+        vnElements.forEach((e) => {
+            e.classList.add("d-none");
+        });
+        engElements.forEach((e) => {
+            e.classList.remove("d-none");
+        });
+    } else {
+        vnElements.forEach((e) => {
+            e.classList.remove("d-none");
+        });
+        engElements.forEach((e) => {
+            e.classList.add("d-none");
+        });
+    }
     </script>
     <script src="js/index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
     </script>
     <?php
