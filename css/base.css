@@ -100,7 +100,7 @@ section {
   margin-top: 60px;
 }
 main {
-  margin-top: 10rem;
+  margin-top: 12rem;
   min-height: 80vh;
 }
 
@@ -595,4 +595,18 @@ table td * {
 }
 .rotate {
   transform: rotate(180deg);
+}
+
+.carousel-item.active {
+  justify-content: center;
+}
+
+.carousel-control-next {
+  padding: 8px;
+  right: -16px !important;
+}
+
+.carousel-control-prev {
+  padding: 8px;
+  left: -16px !important;
 }

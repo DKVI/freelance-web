@@ -15,7 +15,7 @@ for ($i = 0; $i < count($popularList); $i++) {
 
 function renderPopularItem($item)
 {
-    echo '<div class="col-lg-4 col-sm-6 px-4 d-flex">
+    echo '<div class="col-lg-4 col-sm-6 px-lg-5 px-sm-2 px-md-2 d-flex">
                     <a href="' . BASE_URL . $item->path . '" class="card m-auto" style="width: 18rem">
                         <img src="./uploads/imgs/' . $item->fileImg . '" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -33,7 +33,7 @@ function renderPopularItem($item)
 }
 
 ?>
-<h2>POPULAR POSTS</h2>
+<h3>POPULAR POSTS</h3>
 <div id="carouselExampleControls" class="carousel carousel-dark slide rounded-3 shadow-lg p-4" data-bs-ride="carousel" style="background: transparent">
     <div class="carousel-inner border-0">
         <div class="carousel-item active" style="height:100%">

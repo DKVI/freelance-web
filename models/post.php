@@ -194,7 +194,7 @@
 
         public static function update($conn, $post, $id)
         {
-            $query = "UPDATE post SET readTimes=:readTimes, title=:title, fileText=:fileText, fileImg = :fileImg, type = :type, content = :content, pin = :pin WHERE id=:id";
+            $query = "UPDATE post SET readTimes=:readTimes, title=:title, fileText=:fileText, fileImg = :fileImg, type = :type, content = :content, path = :path, pin = :pin WHERE id=:id";
             $stmt = $conn->prepare($query);
             $stmt->bindParam(":id", $id);
             $stmt->bindParam(":readTimes", $post->readTimes);
@@ -203,6 +203,7 @@
             $stmt->bindParam(":fileImg", $post->fileImg);
             $stmt->bindParam(":type", $post->type);
             $stmt->bindParam(":content", $post->content);
+            $stmt->bindParam(":path", $post->path);
             $stmt->bindParam(":pin", $post->pin);
             return $stmt->execute();
         }

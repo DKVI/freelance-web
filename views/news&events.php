@@ -36,9 +36,9 @@ $mainPost = Post::getById($conn, '48864jf325949f3553');
                 </div>
             </div>
             <div class="col-lg-4 h-100 p-3 d-flex flex-column rounded-3 shadow-lg" style="background-color: #274069">
-                <h2 style="color: white; height: 10%">
+                <h3 style="color: white; height: 10%">
                     NEWS & EVENTS
-                </h2>
+                </h3>
                 <div class="d-flex flex-column justify-content-start" style="color: white; height: 90%">
                     <?php
                     foreach ($newsList as $news) {
