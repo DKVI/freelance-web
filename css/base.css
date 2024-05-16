@@ -525,6 +525,14 @@ table td * {
   padding: 0 20px;
 }
 
+@media (min-width: 1200px){
+  .modal-xl {
+      --bs-modal-width: 90%;
+  }
+  .modal-content{
+    height: 90vh;
+  }
+}
 /* ---------------FAQ------------------ */
 
 .faq-label {
