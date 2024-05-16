@@ -4,6 +4,7 @@ $id;
 if (isset($_GET["id"])) {
     $post = Post::getById($conn, $_GET["id"]);
     $id = $post->id;
+    Post::increaseViews($conn, $id);
     if (!$post) {
         echo "<script>location.href='" . BASE_URL . "/e404'</script>";
     }
@@ -14,9 +15,19 @@ $relativePosts = Post::getRelatedPost($conn, $id, 3);
 
 ?>
 <script src="<?php echo BASE_URL . "/vendor/marked.js" ?>" defer></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <main class="position-relative">
+    <div class="position-fixed d-flex justify-content-end" style="left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;">
+        <div class="griffin" style=" width: 75%;">
+        </div>
+    </div>
     <div class="px-5 pt-sm-5 pt-md-5 pb-5">
         <div class="px-lg-5">
             <div class="row d-flex justify-content-between">
@@ -63,45 +74,45 @@ $relativePosts = Post::getRelatedPost($conn, $id, 3);
 
 
 <script defer>
-    async function convertMarkdown() {
-        const response = await fetch("<?php echo BASE_URL . "/uploads/posts/" . $post->id . ".md" ?>");
-        const markdown = await response.text();
-        const html = marked.parse(markdown);
-        console.log(html);
-        document.getElementById("markdown-content").innerHTML = html;
-        // const iframeList = document.querySelectorAll("iframe");
-        // iframeList.forEach(element => {
-        //     const item =
-        // });
+async function convertMarkdown() {
+    const response = await fetch("<?php echo BASE_URL . "/uploads/posts/" . $post->id . ".md" ?>");
+    const markdown = await response.text();
+    const html = marked.parse(markdown);
+    console.log(html);
+    document.getElementById("markdown-content").innerHTML = html;
+    // const iframeList = document.querySelectorAll("iframe");
+    // iframeList.forEach(element => {
+    //     const item =
+    // });
 
-    }
-    convertMarkdown();
+}
+convertMarkdown();
 </script>
 
 
 <style>
-    #markdown-content h1 {
-        font-size: 3.5rem;
-        padding-bottom: 2rem;
-    }
+#markdown-content h1 {
+    font-size: 3.5rem;
+    padding-bottom: 2rem;
+}
 
-    #markdown-content ifram {
-        width: 100%;
-    }
+#markdown-content ifram {
+    width: 100%;
+}
 
-    #markdown-content p {
-        font-size: 1.2rem;
-        display: flex;
-        margin-bottom: 1.5rem;
-    }
+#markdown-content p {
+    font-size: 1.2rem;
+    display: flex;
+    margin-bottom: 1.5rem;
+}
 
-    #markdown-content p img {
-        margin: auto;
-        width: 75%;
-    }
+#markdown-content p img {
+    margin: auto;
+    width: 75%;
+}
 
-    #markdown-content p em {
-        margin: auto;
-        font-size: 14px;
-    }
+#markdown-content p em {
+    margin: auto;
+    font-size: 14px;
+}
 </style>

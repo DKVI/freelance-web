@@ -6,7 +6,9 @@
             <a class="navbar-brand" href="<?php echo BASE_URL ?>/home">
                 <img src="././assets/imgs/small-logo.png" alt="MSS-logo" class="">
             </a>
-            <a class="navbar-toggler btn-sm align-items-end " type="button" data-bs-toggle="collapse" data-bs-target="#navResponsive" aria-controls="navResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-toggler btn-sm align-items-end " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navResponsive" aria-controls="navResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <i class="fa fa-solid fa-bars p-0 m-0"></i>
             </a>
         </div>
@@ -16,7 +18,8 @@
                 <div class="collapse navbar-collapse" id="navResponsive">
                     <ul class="navbar-nav vn">
                         <li class="nav-item dropdown custom-scrollbar">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Về MSS</a>
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Về MSS</a>
                             <ul style="width: auto" class="shadow-lg dropdown-menu dropdown-menu-light">
                                 <li><a class="dropdown-item" href="#">Lời ngỏ từ Nhà sáng lập</a></li>
                                 <hr class="dropdown-divider">
@@ -29,12 +32,14 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">Sự kiện</a>
+                            <a href="<?php echo BASE_URL . '/news&events' ?>" class="nav-link">Sự kiện</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Chương trình học</a>
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Chương trình học</a>
 
-                            <ul style="width: auto" class="shadow-lg dropdown-menu dropdown-menu-light custom-scrollbar">
+                            <ul style="width: auto"
+                                class="shadow-lg dropdown-menu dropdown-menu-light custom-scrollbar">
                                 <li><a class="dropdown-item" href="#">Mooting là gì?</a></li>
                                 <hr class="dropdown-divider">
                                 <li><a class="dropdown-item" href="#">Tổng quan chương trình</a></li>
@@ -47,7 +52,8 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Học phí</a>
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Học phí</a>
                             <ul style="width: auto" class="shadow-lg dropdown-menu dropdown-menu-light">
                                 <li><a class="dropdown-item" href="#">Các gói học và quyền lợi</a></li>
                                 <hr class="dropdown-divider">
@@ -55,8 +61,10 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Bảo chứng từ cộng đồng</a>
-                            <ul style="width: auto" class="shadow-lg dropdown-menu dropdown-menu-light custom-scrollbar">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Bảo chứng từ cộng đồng</a>
+                            <ul style="width: auto"
+                                class="shadow-lg dropdown-menu dropdown-menu-light custom-scrollbar">
                                 <li><a class="dropdown-item" href="#">Từ Mentee</a></li>
                                 <hr class="dropdown-divider">
                                 <li><a class="dropdown-item" href="#">Từ cựu Mooter</a></li>
@@ -65,7 +73,8 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">FAQ</a>
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">FAQ</a>
                             <ul style="width: auto; right: 0" class="shadow-lg dropdown-menu dropdown-menu-light">
                                 <li><a class="dropdown-item" href="#">Về chương trình</a></li>
                                 <hr class="dropdown-divider">
@@ -82,7 +91,8 @@
                     </ul>
                     <ul class="navbar-nav eng">
                         <li class="nav-item dropdown custom-scrollbar">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About MSS</a>
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">About MSS</a>
                             <ul style="width: auto" class="shadow-lg dropdown-menu dropdown-menu-light">
                                 <li><a class="dropdown-item" href="#">A message from our Founder</a></li>
                                 <hr class="dropdown-divider">
@@ -95,12 +105,14 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">Events</a>
+                            <a href="<?php echo BASE_URL . '/news&events' ?>" class="nav-link">Events</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Curriculum</a>
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Curriculum</a>
 
-                            <ul style="width: auto" class="shadow-lg dropdown-menu dropdown-menu-light custom-scrollbar">
+                            <ul style="width: auto"
+                                class="shadow-lg dropdown-menu dropdown-menu-light custom-scrollbar">
                                 <li><a class="dropdown-item" href="#">What is Mooting?</a></li>
                                 <hr class="dropdown-divider">
                                 <li><a class="dropdown-item" href="#">Course overview</a></li>
@@ -113,7 +125,8 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tuition</a>
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Tuition</a>
                             <ul style="width: auto" class="shadow-lg dropdown-menu dropdown-menu-light">
                                 <li><a class="dropdown-item" href="#">Tuition packages and benefits</a></li>
                                 <hr class="dropdown-divider">
@@ -123,8 +136,10 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Guarantee from the community</a>
-                            <ul style="width: auto" class="shadow-lg dropdown-menu dropdown-menu-light custom-scrollbar">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Guarantee from the community</a>
+                            <ul style="width: auto"
+                                class="shadow-lg dropdown-menu dropdown-menu-light custom-scrollbar">
                                 <li><a class="dropdown-item" href="#">From Mentee</a></li>
                                 <hr class="dropdown-divider">
                                 <li><a class="dropdown-item" href="#">From Former Mooter</a></li>
@@ -134,7 +149,8 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">FAQ</a>
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">FAQ</a>
                             <ul style="width: auto; right: 0" class="shadow-lg dropdown-menu dropdown-menu-light">
                                 <li><a class="dropdown-item" href="#">About the program</a></li>
                                 <hr class="dropdown-divider">
@@ -164,11 +180,17 @@
             ?>
         </div>
         <div class="d-flex language text-center" style="flex: none">
-            <a class="text-decoration-none d-flex" href="<?php echo $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) . "?language=vn"; ?>" style="cursor:pointer; color: inherit;"><img src="././assets/imgs/vietnam.png" alt="vietnam-flag" class="lang-flag"></a>
+            <a class="text-decoration-none d-flex"
+                href="<?php echo $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) . "?language=vn"; ?>"
+                style="cursor:pointer; color: inherit;"><img src="././assets/imgs/vietnam.png" alt="vietnam-flag"
+                    class="lang-flag"></a>
             <div class="d-flex h-100 ">
                 <span class="px-2 m-auto ">|</span>
             </div>
-            <a class="text-decoration-none d-flex" href="<?php echo $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) . "?language=eng"; ?>" style="cursor:pointer; color: inherit;"><img src="././assets/imgs/united-kingdom.png" alt="united-kingdom-flag" class="lang-flag"></a>
+            <a class="text-decoration-none d-flex"
+                href="<?php echo $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) . "?language=eng"; ?>"
+                style="cursor:pointer; color: inherit;"><img src="././assets/imgs/united-kingdom.png"
+                    alt="united-kingdom-flag" class="lang-flag"></a>
         </div>
     </div>
 </div>
@@ -195,28 +217,28 @@
 <!-- Floating Social Media bar Ends -->
 
 <script>
-    const navBtn = $(".navbar");
-    const navlinkContainer = $(".navlink-container");
-    console.log(navBtn);
-    navBtn.on("mouseover", function(e) {
-        navlinkContainer.css("opacity", "100");
-    });
-    navBtn.on("mouseout", function(e) {
-        navlinkContainer.css("opacity", "0");
-    });
+const navBtn = $(".navbar");
+const navlinkContainer = $(".navlink-container");
+console.log(navBtn);
+navBtn.on("mouseover", function(e) {
+    navlinkContainer.css("opacity", "100");
+});
+navBtn.on("mouseout", function(e) {
+    navlinkContainer.css("opacity", "0");
+});
 
-    const langBtn = document.querySelectorAll(".language a");
-    const vnBtn = langBtn[0];
-    const engBtn = langBtn[1];
-    const handleChangLang = async (param) => {
-        await fetch("<?php echo BASE_URL ?>/controllers/handleChangeLanguage.php?lang=" + param).then(() => {
-            console.log("true");
-        });
-    }
-    vnBtn.onclick = (e) => {
-        handleChangLang('vn');
-    }
-    engBtn.onclick = () => {
-        handleChangLang('eng');
-    }
+const langBtn = document.querySelectorAll(".language a");
+const vnBtn = langBtn[0];
+const engBtn = langBtn[1];
+const handleChangLang = async (param) => {
+    await fetch("<?php echo BASE_URL ?>/controllers/handleChangeLanguage.php?lang=" + param).then(() => {
+        console.log("true");
+    });
+}
+vnBtn.onclick = (e) => {
+    handleChangLang('vn');
+}
+engBtn.onclick = () => {
+    handleChangLang('eng');
+}
 </script>

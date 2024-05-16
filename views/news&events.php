@@ -7,7 +7,12 @@ $mainPost = Post::getById($conn, '48864jf325949f3553');
 
 <main class="position-relative">
     <!-- MSS's Mascot - Griffin Background -->
-    <div class="bg-fix-griffin position-fixed d-flex justify-content-end">
+
+    <div class="position-fixed d-flex justify-content-end" style="left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;">
         <div class="griffin" style=" width: 75%;">
         </div>
     </div>
@@ -15,14 +20,35 @@ $mainPost = Post::getById($conn, '48864jf325949f3553');
     <!-- Main content -->
     <div class="container py-5 p-lg-5 w-100">
         <div class="row justify-content-center min-vh-100 " style="gap: 16px">
-            <div class="col-lg-8 h-100 row shadow-lg rounded-3">
+            <div class="col-lg-8 h-100 row shadow-lg rounded-3 eng">
                 <div class="col-lg-12">
                     <img src="./uploads/imgs/default.png" class="w-100">
                 </div>
-                <div class="col-lg-6 p-4"><a>
+                <div class="col-lg-5 p-4"><a href="<?php echo BASE_URL . '/about' ?>">
                         <h1 style="font-size: 50px">ABOUT M.S.S</h1>
                     </a></div>
-                <div class="col-lg-6 p-4">
+                <div class="col-lg-7 p-4">
+                    <div>
+                        <p class="" style="text-align: left">I believe that mooting is an activity every law student
+                            should experience at least once in their law school life. From a professional perspective,
+                            this is a challenging playground that not only helps you practice critical thinking, improve
+                            your research skills, but also expand your understanding of the law. Additionally, mooting
+                            is an opportunity for you to meet and interact with incredible people in the industry,
+                            people with the same passions and hobbies, or even people who might be your “future
+                            colleagues.”
+                        </p>
+                    </div>
+                    <div><a class="btn" style="background-color: #274069; color: white" href="<?php echo BASE_URL . '/about' ?>">READ MORE</a></div>
+                </div>
+            </div>
+            <div class="col-lg-8 h-100 row shadow-lg rounded-3 vn">
+                <div class="col-lg-12">
+                    <img src="./uploads/imgs/default.png" class="w-100">
+                </div>
+                <div class="col-lg-5 p-4"><a href="<?php echo BASE_URL . '/about' ?>">
+                        <h1 style="font-size: 50px">ABOUT M.S.S</h1>
+                    </a></div>
+                <div class="col-lg-7 p-4">
                     <div>
                         <p class="" style="text-align: left">Trong bất kỳ chuyện chinh phục nào, sự yêu và hiểu đối
                             phương
@@ -32,7 +58,7 @@ $mainPost = Post::getById($conn, '48864jf325949f3553');
                             bạn “yêu” và “hiểu” mooting hơn qua những bài giảng, những lời khuyên và những câu chuyện
                             được chia sẻ. </p>
                     </div>
-                    <div><a class="btn" style="background-color: #274069; color: white" href="">READ MORE</a></div>
+                    <div><a class="btn" style="background-color: #274069; color: white" href="<?php echo BASE_URL . '/about' ?>">READ MORE</a></div>
                 </div>
             </div>
             <div class="col-lg-4 h-100 p-3 d-flex flex-column rounded-3 shadow-lg" style="background-color: #274069">
