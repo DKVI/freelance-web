@@ -819,11 +819,6 @@
     <!--  -->
     <div class="col-lg-3 col-6">
 
-                    <!-- Button trigger modal -->
-                    <!-- <div data-toggle="modal" data-target="#Vis-Moot" class="w-100 moot-tournaments">
-                        <img src="./assets/imgs/curriculum-2-1.png" alt="Vis-Moot">
-                        <h2 class="text-center m-3">Vis Moot</h2>
-                    </div> -->
 
                     <!-- Modal -->
                 
@@ -868,61 +863,26 @@
 
     <!--  -->
     <div class="col-lg-3 col-6">
-                    <!-- Button trigger modal -->
-                    <!-- <div data-toggle="modal" data-target="#FDI-Moot" class="w-100 moot-tournaments">
-                        <img src="./assets/imgs/curriculum-3-1.png" alt="FDI-Moot">
-                        <h2 class="text-center m-3">FDI Moot</h2>
-                    </div> -->
+                    
 
                     <!-- Modal -->
         <div class="modal fade modal-xl" id="written-advocacy-skills" tabindex="-1" role="dialog"
                         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title vn" id="exampleModalLongTitle">Giải đấu moot quốc tế danh giá
-                        </h5>
-                        <h5 class="modal-title eng" id="exampleModalLongTitle">Prestigious International
-                                        Moot Tournaments</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <div class="modal-content position-relative ">
+                    <div class="modal-body overflow-hidden ">
+                         <button type="button" class="close position-absolute" data-dismiss="modal" aria-label="Close" style="right:0; top:0;border-radius: 10xp; background-color: #e5e5e5; width: 25px">
                             <span aria-hidden="true">&times;</span>
                         </button>
-                    </div>
-                    <div class="modal-body">
-
-                        <div class="row">
-                            <div class="col-lg-6 d-flex justify-contents-center align-items-center ">
-                                <div class="w-100">
-                                    <img src="./assets/imgs/curriculum-3.png" class="w-100" alt="FDI-Moot">
-                                    <p class="credit mt-2">
-                                                    cre: FDI Moot - Center for International Legal Studies
-                                    </p>
-                                </div>
+                        <div style="background-image: url(./assets/imgs/curriculum-10.png); background-size: 100%;" class="p-5 ">
+                            <h5 class="display-1 text-end text-light "><span class="text-blue">Các buổi kỹ năng</span><br> viết bài biện hộ</h5>
+                            <div class="col-lg-7 offset-lg-1" style="background-color: rgb(229, 229, 229,0.5)">
+                                <p>Khác với một bài viết nghiên cứu khoa học thường phân tích đa chiều và tiếp cận thông tin một cách khách quan, bài biện hộ viết yêu cầu thí sinh phải đặt mình vào vị trí một bên, tập trung khai thác các sự kiện bảo vệ cho thân chủ và bất lợi cho đối thủ. Hơn nữa, thí sinh thường phải làm điều này 2 lần, cho Nguyên đơn, và cả cho Bị đơn.</p>
+                                <p>Do vậy, buổi đầu tiên sẽ tập trung về các vấn đề cơ bản như nền tảng cho việc viết, cấu trúc bài viết.</p>
+                                <p>Buổi thứ hai sẽ đi vào các vấn đề chuyên sâu hơn như việc hiệu chỉnh, phương thức đảm bảo tính rõ ràng, mạch lạc xuyên suốt bài biện hộ, v.v.</p>
                             </div>
-
-                            <div class="col-lg-6">
-                                <h2>Foreign Direct Investment International Arbitration Moot (“FDI Moot”)
-                                </h2>
-                                <p class="vn">FDI Moot là cuộc thi diễn án trọng tài quốc tế về đầu tư trực
-                                                tiếp nước ngoài. Các vụ án thường được xây dựng dựa trên các vấn đề thực
-                                                tiễn gặp phải trong lĩnh vực đầu tư nước ngoài, và thường có sự kết hợp
-                                                giữa các vấn đề pháp lý và các yếu tố thương mại, chính trị. Các đội thi
-                                                sẽ đóng vai trò là người biện hộ cho các nhà đầu tư hoặc các quốc gia
-                                                tiếp nhận đầu tư trong tranh chấp liên quan đến dự án đầu tư trên cơ sở
-                                                áp dụng quy tắc tố tụng trọng tài, luật quốc nội và hiệp định giữa các
-                                                nước thành viên về đầu tư, v.v. </p>
-                                <div class="eng">FDI Moot is an international arbitration competition
-                                                focusing on foreign direct investment. The cases presented in the
-                                                competition revolve around practical issues that arise in the field of
-                                                foreign investment, with a combination of legal, commercial, and
-                                                political factors. The participating teams serve as advocates for either
-                                                investors or host countries in disputes related to investment projects
-                                                and must apply arbitration rules, domestic laws and agreements between
-                                                member states on investment, etc. </div>
-                                <h3><a href="#"> Website tham khảo >></a></h3>
-                            </div>
-
                         </div>
+
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -932,12 +892,7 @@
         </div>
     
     <!--  -->
-    <div class="col-lg-3 col-6">
-                    <!-- Button trigger modal -->
-                    <!-- <div data-toggle="modal" data-target="#IHL-Moot" class="w-100 moot-tournaments">
-                        <img src="./assets/imgs/curriculum-4-1.png" alt="IHL-Moot">
-                        <h2 class="text-center m-3 ">IHL Moot</h2>
-                    </div> -->
+    <div class="col-lg-3 col-6">            
         <!-- Modal -->
         <div class="modal fade modal-xl" id="oral-advocacy-skills" tabindex="-1" role="dialog"
                         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">

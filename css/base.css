@@ -42,6 +42,9 @@ table * {
 .text-light {
   color: #e5e5e5 !important;
 }
+.text-blue{
+  color: #274069;
+}
 .blue-bg * {
   background-color: #6e7f99 !important;
 }
