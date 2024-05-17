@@ -9,8 +9,7 @@ if (isset($_GET["keyword"])) {
 $postsList = Post::getByKeyWord($conn, $keyword);
 echo $postsList == null;
 $limit = 4;
-function renderElement($element)
-{
+function renderElement($element) {
 
     return '<div class="d-flex px-4 py-2 shadow rounded-4 justify-content-around" style="height: 100px; opacity: 1">
                                     <div class="h-100 px-3" style="width: 20%"><div class="h-100 w-100 shadow rounded-4" style="background-image: url(' . BASE_URL . '/uploads/imgs/' . $element->fileImg . '); background-size: cover; background-position: center;"></div>
