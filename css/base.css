@@ -53,6 +53,9 @@ table * {
   font-weight: bold;
   font-size: 110%;
 }
+.btn-secondary{
+  background-color: #274069!important;
+}
 *,
 *::before,
 *::after {
@@ -66,6 +69,10 @@ ul {
 a {
   color: #274069;
   text-decoration: none;
+  cursor: pointer;
+}
+a.text-light:hover{
+  color: #274069;
 }
 a:hover {
   color: #586378;
@@ -527,6 +534,20 @@ table td * {
 .trial-session .container * {
   padding: 0 20px;
 }
+.close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+  border-radius: 10%;
+}
+.close:hover {
+  opacity: 1;
+  background-color: #274069;
+  color: #e5e5e5;
+}
 
 @media (min-width: 1200px){
   .modal-xl {
@@ -536,6 +557,13 @@ table td * {
     height: 90vh;
   }
 }
+/* .practice-cource-title{
+  width: 300px;
+  height: 300px;
+  text-wrap: wrap;
+  float:left;
+  margin-right: 20px;
+} */
 /* ---------------FAQ------------------ */
 
 .faq-label {

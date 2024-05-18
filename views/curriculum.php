@@ -754,190 +754,162 @@
                     <li>(iv) các kỹ năng liên quan đến tranh tụng nói. <div data-toggle="modal" data-target="#oral-advocacy-skills">SEE MORE</div></li>
                 </ul>
             </div>
-    </section>
-    <!-- popup theoretical sessions -->
-    <div style="width: 0; height:0">
-    <div class="row">
+    
+        <!-- popup theoretical sessions -->
+        <div style="width: 0; height:0">
+            <div class="row">
                 <div class="col-lg-3 col-6">
-            <!-- Modal -->
-            <div class="modal fade modal-xl" id="skill-before-moot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title vn" id="exampleModalLongTitle">Chi tiết các buổi kỹ năng lý thuyết
-                            </h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body overflow-hidden">
-
-                            <div class="position-relative col-lg-4  " style="z-index:0;">
-                                <img src="./assets/imgs/curriculum-8.png" alt="mss-background" class="position-absolute w-100" style="left:0; top:0;">
-                            </div>
-                        <div class="container position-relative" style="top: 20%">
-                            <div class="col-lg-8 offset-lg-4">
-                                <h2 class="display-1 vn">Kỹ năng trước cuộc thi</h2>
-                                <h2 class="display-1 eng">Pre-competition skills</h2>
-                                <h2 class="display-1 eng">sessions</h2>
-
-                                <p class="vn" style="column-count: 2; padding: 0 60px 0 20px">
-                                                Ở các buổi học này, MSS sẽ giới thiệu về 2 nội dung: các nguyên tắc cơ bản,
-                                                và làm việc nhóm trong đấu moot.<br>
-                                                Trong buổi đầu tiên, các học viên sẽ được học về nguyên tắc cơ bản của mooting. Các nguyên tắc này
-                                                sẽ ảnh hưởng chi phối toàn bộ các kỹ năng khác về sau, cũng như quá trình lên kế hoạch đấu moot.<br>
-                                                Buổi thứ hai sẽ tập trung về việc làm việc nhóm. Làm việc nhóm trong mooting, là một điều gì đó rất
-                                                khác với làm việc nhóm đối với các bài tập tại trường đại học. Các thành viên cần phải cùng chung
-                                                chí hướng với nhau, vừa tích cực phản biện lẫn nhau, vừa phối hợp, hỗ trợ cho nhau khi cần. Là một
-                                                cuộc chơi tập thể, việc đấu moot sẽ không thể thành công nếu các thành viên không có sự gắn kết chặt
-                                                chẽ. Buổi học này sẽ hướng dẫn về các nguyên tắc, cũng như cách xử lý các vấn đề phát sinh khi làm
-                                                việc tập thể trong mooting.
-                                </p>
-                                <p class="eng" style="column-count: 2; padding: 0 60px 0 20px">
-                                                Preparing well before a moot competition starts can help you take a long stride on the moot
-                                                competition journey. In this regard, MSS will introduce two sessions: learning the fundamentals and
-                                                building effective teamwork.<br>
-                                                During the first session, students will learn about the essential principles of mooting. These
-                                                principles will lay the foundation for all other skills needed in the competition and will also
-                                                influence the moot planning process.<br>
-                                                The second session will focus on teamwork. Teamwork in mooting is very different from teamwork in
-                                                university assignments. Team members need to share a common goal, actively critique each other, and
-                                                support and cover each other when necessary. Mooting is a team game, and it cannot be successful if
-                                                the members are not on the same page. This session will provide instruction on teamwork principles
-                                                and the issues that require cooperation among team members.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--  -->
-    <div class="col-lg-3 col-6">
-
-
                     <!-- Modal -->
-                
-        <div class="modal fade modal-xl" id="after-recieved-mooting-test" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title vn" id="exampleModalLongTitle">Chi tiết các buổi kỹ năng lý thuyết
-                        </h5>
-                        <h5 class="modal-title eng" id="exampleModalLongTitle">Prestigious International
-                                        Moot Tournaments</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body overflow-hidden">
+                    <div class="modal fade modal-xl" id="skill-before-moot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title vn" id="exampleModalLongTitle">Chi tiết các buổi kỹ năng lý thuyết
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body overflow-hidden">
 
-                        <div class="row">
-                            <div class=" col-lg-4 position-absolute" style="right:0; top:0;">
-                                <img src="./assets/imgs/curriculum-9.png" alt="mss-background" class="w-100">
-                            </div>
-                            <div class="col-lg-8">
-                                <h2 class="display-4">Những việc cần làm khi đã có đề bài</h2>
-                                <div>
-                                    <p class="vn" style="column-count: 2; padding: 0 60px 0 20px"> Để tránh việc các thí sinh gặp phải bối rối khi cầm một đề moot trong tay vì không biết xử lý như thế nào, ở các buổi học này, MSS sẽ hướng dẫn các học viên các kỹ năng xử lý đề bài và cách thức nghiên cứu.<br>
-                                                Do đó, buổi đầu tiên sẽ tập trung về vấn đề xử lý đề bài. Dù là moot, hay một vụ tranh chấp thực tế, các yếu tố về mặt dữ kiện đều đóng vai trò then chốt. Việc không nắm vững các tình tiết của đề bài sẽ khiến toàn bộ sự chuẩn bị, nghiên cứu về sau của các bạn như một lâu đài cát, luôn có thể sụp đổ. Buổi đầu tiên sẽ giúp các bạn đảm bảo mình luôn nắm chắc đề bài.<br>
-                                                Buổi thứ hai sẽ tập trung vào các vấn đề nghiên cứu. Sinh viên luật ai cũng có thể nghiên cứu, nhưng nghiên cứu làm sao cho đúng, đủ, và kịp thời là một vấn đề cần phải rèn luyện. Bên cạnh đó, buổi học này cũng sẽ hướng dẫn việc chuyển hóa các tài liệu đã nghiên cứu để thành nội dung chuẩn bị cho phần viết bài biện hộ.
-                                </p>
+                                    <div class="position-relative col-lg-4  " style="z-index:0;">
+                                        <img src="./assets/imgs/curriculum-8.png" alt="mss-background" class="position-absolute w-100" style="left:0; top:0;">
+                                    </div>
+                                    <div class="container position-relative" style="top: 20%">
+                                        <div class="col-lg-8 offset-lg-4">
+                                            <h2 class="display-1 vn">Kỹ năng trước cuộc thi</h2>
+                                            <h2 class="display-1 eng">Pre-competition skills</h2>
+                                            <h2 class="display-1 eng">sessions</h2>
 
+                                            <p class="vn" style="column-count: 2; padding: 0 60px 0 20px">
+                                                            Ở các buổi học này, MSS sẽ giới thiệu về 2 nội dung: các nguyên tắc cơ bản,
+                                                            và làm việc nhóm trong đấu moot.<br>
+                                                            Trong buổi đầu tiên, các học viên sẽ được học về nguyên tắc cơ bản của mooting. Các nguyên tắc này
+                                                            sẽ ảnh hưởng chi phối toàn bộ các kỹ năng khác về sau, cũng như quá trình lên kế hoạch đấu moot.<br>
+                                                            Buổi thứ hai sẽ tập trung về việc làm việc nhóm. Làm việc nhóm trong mooting, là một điều gì đó rất
+                                                            khác với làm việc nhóm đối với các bài tập tại trường đại học. Các thành viên cần phải cùng chung
+                                                            chí hướng với nhau, vừa tích cực phản biện lẫn nhau, vừa phối hợp, hỗ trợ cho nhau khi cần. Là một
+                                                            cuộc chơi tập thể, việc đấu moot sẽ không thể thành công nếu các thành viên không có sự gắn kết chặt
+                                                            chẽ. Buổi học này sẽ hướng dẫn về các nguyên tắc, cũng như cách xử lý các vấn đề phát sinh khi làm
+                                                            việc tập thể trong mooting.
+                                            </p>
+                                            <p class="eng" style="column-count: 2; padding: 0 60px 0 20px">
+                                                            Preparing well before a moot competition starts can help you take a long stride on the moot
+                                                            competition journey. In this regard, MSS will introduce two sessions: learning the fundamentals and
+                                                            building effective teamwork.<br>
+                                                            During the first session, students will learn about the essential principles of mooting. These
+                                                            principles will lay the foundation for all other skills needed in the competition and will also
+                                                            influence the moot planning process.<br>
+                                                            The second session will focus on teamwork. Teamwork in mooting is very different from teamwork in
+                                                            university assignments. Team members need to share a common goal, actively critique each other, and
+                                                            support and cover each other when necessary. Mooting is a team game, and it cannot be successful if
+                                                            the members are not on the same page. This session will provide instruction on teamwork principles
+                                                            and the issues that require cooperation among team members.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <!--  -->
-    <div class="col-lg-3 col-6">
+                <!--  -->
+                <div class="col-lg-3 col-6">
+                    <!-- Modal -->
                     
+                    <div class="modal fade modal-xl" id="after-recieved-mooting-test" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title vn" id="exampleModalLongTitle">Chi tiết các buổi kỹ năng lý thuyết</h5>
+                                    <h5 class="modal-title eng" id="exampleModalLongTitle">Prestigious International
+                                            Moot Tournaments</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body overflow-hidden">
 
-                    <!-- Modal -->
-        <div class="modal fade modal-xl" id="written-advocacy-skills" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content position-relative ">
-                    <div class="modal-body overflow-hidden ">
-                         <button type="button" class="close position-absolute" data-dismiss="modal" aria-label="Close" style="right:0; top:0;border-radius: 10xp; background-color: #e5e5e5; width: 25px">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        <div style="background-image: url(./assets/imgs/curriculum-10.png); background-size: 100%;" class="p-5 ">
-                            <h5 class="display-1 text-end text-light "><span class="text-blue">Các buổi kỹ năng</span><br> viết bài biện hộ</h5>
-                            <div class="col-lg-7 offset-lg-1" style="background-color: rgb(229, 229, 229,0.5)">
-                                <p>Khác với một bài viết nghiên cứu khoa học thường phân tích đa chiều và tiếp cận thông tin một cách khách quan, bài biện hộ viết yêu cầu thí sinh phải đặt mình vào vị trí một bên, tập trung khai thác các sự kiện bảo vệ cho thân chủ và bất lợi cho đối thủ. Hơn nữa, thí sinh thường phải làm điều này 2 lần, cho Nguyên đơn, và cả cho Bị đơn.</p>
-                                <p>Do vậy, buổi đầu tiên sẽ tập trung về các vấn đề cơ bản như nền tảng cho việc viết, cấu trúc bài viết.</p>
-                                <p>Buổi thứ hai sẽ đi vào các vấn đề chuyên sâu hơn như việc hiệu chỉnh, phương thức đảm bảo tính rõ ràng, mạch lạc xuyên suốt bài biện hộ, v.v.</p>
+                                    <div class="row">
+                                        <div class=" col-lg-4 position-absolute" style="right:0; top:0;">
+                                            <img src="./assets/imgs/curriculum-9.png" alt="mss-background" class="w-100">
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <h2 class="display-4">Những việc cần làm khi đã có đề bài</h2>
+                                            <div>
+                                                <p class="vn" style="column-count: 2; padding: 0 60px 0 20px"> Để tránh việc các thí sinh gặp phải bối rối khi cầm một đề moot trong tay vì không biết xử lý như thế nào, ở các buổi học này, MSS sẽ hướng dẫn các học viên các kỹ năng xử lý đề bài và cách thức nghiên cứu.<br>
+                                                            Do đó, buổi đầu tiên sẽ tập trung về vấn đề xử lý đề bài. Dù là moot, hay một vụ tranh chấp thực tế, các yếu tố về mặt dữ kiện đều đóng vai trò then chốt. Việc không nắm vững các tình tiết của đề bài sẽ khiến toàn bộ sự chuẩn bị, nghiên cứu về sau của các bạn như một lâu đài cát, luôn có thể sụp đổ. Buổi đầu tiên sẽ giúp các bạn đảm bảo mình luôn nắm chắc đề bài.<br>
+                                                            Buổi thứ hai sẽ tập trung vào các vấn đề nghiên cứu. Sinh viên luật ai cũng có thể nghiên cứu, nhưng nghiên cứu làm sao cho đúng, đủ, và kịp thời là một vấn đề cần phải rèn luyện. Bên cạnh đó, buổi học này cũng sẽ hướng dẫn việc chuyển hóa các tài liệu đã nghiên cứu để thành nội dung chuẩn bị cho phần viết bài biện hộ.
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
-
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     </div>
                 </div>
-            </div>
-        </div>
-    
-    <!--  -->
-    <div class="col-lg-3 col-6">            
-        <!-- Modal -->
-        <div class="modal fade modal-xl" id="oral-advocacy-skills" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Giải đấu moot quốc tế danh giá
-                        </h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
+
+                <!--  -->
+                <div class="col-lg-3 col-6">
+                    <!-- Modal -->
+                    <div class="modal fade modal-xl" id="written-advocacy-skills" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content position-relative ">
+                                <div class="modal-body overflow-hidden ">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <div style="background-image: url(./assets/imgs/curriculum-10.png); background-size: 100%;" class="p-5 ">
+                                        <h5 class="display-1 text-end text-light "><span class="text-blue">Các buổi kỹ năng</span><br> viết bài biện hộ</h5>
+                                        <div class="col-lg-7 offset-lg-1" style="background-color: rgb(229, 229, 229,0.5)">
+                                            <p>Khác với một bài viết nghiên cứu khoa học thường phân tích đa chiều và tiếp cận thông tin một cách khách quan, bài biện hộ viết yêu cầu thí sinh phải đặt mình vào vị trí một bên, tập trung khai thác các sự kiện bảo vệ cho thân chủ và bất lợi cho đối thủ. Hơn nữa, thí sinh thường phải làm điều này 2 lần, cho Nguyên đơn, và cả cho Bị đơn.</p>
+                                            <p>Do vậy, buổi đầu tiên sẽ tập trung về các vấn đề cơ bản như nền tảng cho việc viết, cấu trúc bài viết.</p>
+                                            <p>Buổi thứ hai sẽ đi vào các vấn đề chuyên sâu hơn như việc hiệu chỉnh, phương thức đảm bảo tính rõ ràng, mạch lạc xuyên suốt bài biện hộ, v.v.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="modal-body">
-
-                        <div class="row">
-                            <div class="col-lg-6 d-flex justify-contents-center align-items-center ">
-                                <div class="">
-                                    <img src="./assets/imgs/curriculum-4.png" class="w-100" alt="IHL-Moot">
-                                    <p class="credit mt-2">
-                                                    cre: International Humanitarian Law Moot - International Committee
-                                                    of the Red Cross
-                                    </p>
+                </div>
+        
+                <!--  -->
+                <div class="col-lg-3 col-6">            
+                    <!-- Modal -->
+                    <div class="modal fade modal-xl" id="oral-advocacy-skills" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                        
+                                <div class="modal-body">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <div style="background-image: url(./assets/imgs/curriculum-11.png); background-size: 100%;background-position: center;" class="p-5 h-100">
+                                        <h5 class="display-1">Các buổi kỹ năng <br>tranh tụng nói</h5>
+                                        <div class="col-lg-7">
+                                            <p>Phần tranh tụng nói thường được xem là phần đóng vai trò quyết định đối với kết quả của đội trong một cuộc thi moot. Do đó, đây sẽ là đề tài với có số lượng buổi nhiều nhất – 4 buổi. </p>
+                                            <p>Trong đó, 2 buổi đầu tiên sẽ tập trung về các vấn đề cơ bản, như khâu chuẩn bị cho biện hộ nói, kịch bản, phần mở đầu, việc trả lời câu hỏi, v.v., và 2 buổi còn lại sẽ đi sâu hơn về các vấn đề đã được đề cập trong phần cơ bản, cùng các vấn đề mang tính kỹ thuật hơn, như cấu trúc phần trình bày, diễn tập, nghệ thuật hùng biện, v.v.</p>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-
-                            <div class="col-lg-6">
-                                <h2>Red Cross International Humanitarian Law Moot (“IHL Moot”)</h2>
-                                <p class="vn">IHL Moot do Ủy ban Chữ thập đỏ quốc tế tổ chức thường xoay
-                                                quanh các vấn đề pháp lý liên quan đến áp dụng Luật Nhân đạo Quốc tế
-                                                trong các tình huống xung đột và chiến tranh. Chủ đề của IHL Moot có thể
-                                                là bảo vệ dân thường trong khi xung đột diễn ra, quản lý tù nhân, hoặc
-                                                các vấn đề pháp lý mới nổi lên trong ngữ cảnh chiến tranh hiện đại.</p>
-                                <div class="eng">IHL Moot, organized by the International Committee of the
-                                                Red Cross, focuses on legal matters related to the implementation of
-                                                International Humanitarian Law in times of war and conflict. The theme
-                                                of the IHL Moot involve safeguarding civilians during conflict, managing
-                                                prisoners, or addressing emerging legal issues in the context of modern
-                                                warfare.</div>
-                                <h3><a href="#"> Website tham khảo >></a></h3>
-                            </div>
-
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                 </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                             </div>
                         </div>
                     </div>
@@ -945,5 +917,38 @@
             </div>
         </div>
     </section>
-    
+    <section style="background-image: url(./assets/imgs/curriculum-13.png); background-size: 100%; background-position: center;" class="text-light">
+        <div class="container p-5">    
+            <div class="row">
+                <div class="practice-cource-title col-lg-3">
+                    <h1 class="">Thực hành</h1>
+                </div>
+                <div class="col-lg-9 py-5">
+                    <p>MSS tin rằng các buổi lý thuyết sẽ không bao giờ phát huy được ý nghĩa thực sự nếu không được vận dụng vào thực tế. Vì thế, MSS tổ chức hai đợt thực hành như sau:</p>
+                    <ul style="list-style: none;">
+                        <li>(i) Đợt 1: Hai buổi thực hành sau khi kết thúc bốn buổi lý thuyết đầu tiên</li>
+                        <li>(ii) Đợt 2: Hai buổi thực hành sau khi kết thúc tất cả tám buổi lý thuyết</li>
+                    </ul>
+
+                    <p>Việc phân bổ như thế nhằm tạo điều kiện để học viên từng bước áp dụng những gì đã học vào thực tiễn. Mặt khác, các bạn có thể tự đưa ra đánh giá về mức độ tiến bộ của bản thân và chất lượng của khóa học thông qua hai đợt thực hành.</p>
+                    <p>MSS sẽ phân chia các đội thi đấu theo bố cục mô phỏng phiên tranh tụng nói của các cuộc thi moot. Danh sách cặp đấu, vai trò đại diện (i.e., nguyên đơn hoặc bị đơn), và đề thi đấu sẽ được công bố trong buổi học chính thức đầu tiên. </p>
+                </div>
+            </div>
+            <img src="./assets/imgs/Council.jpg" alt="mock-sessions" class="w-100">
+            <div class="mt-5">
+                <p>Sau phần đấu tập, Giám khảo bao gồm Người hướng dẫn, và một Giám khảo khách mời sẽ đưa ra nhận xét cụ thể về phần trình bày cho từng người. Ngoài ra, Giám khảo khách mời có thể sẽ đem đến một chủ đề mooting đặc biệt để chia sẻ với các học viên.</p>
+                <em><p class="bold-text">*Thông tin chi tiết về các Giám khảo khách mời sẽ được MSS đăng tải trên các trang mạng xã hội, cũng như mục <span><a href="#" class="text-light">Thông tin và Sự kiện</a></span> của website.</p></em>
+            </div>
+        </div>
+    </section>
+    <section style="background-image: url(./assets/imgs/curriculum-14.png); background-size: 100% auto; padding:0" class="p-5">
+        <div class="container p-5">
+            <h1 class="mb-5">Các buổi tổng kết</h1>
+            <div class="col-lg-4" style="padding-left: 2rem">
+                <p>Kết thúc khóa học, MSS sẽ tổ chức một buổi talkshow, và một buổi bế giảng khóa học.</p>
+                <p>Buổi talkshow sẽ là cơ hội để các học viên có thể chia sẻ và lắng nghe kinh nghiệm, lời khuyên của khách mời trong mooting, vấn đề về nghề luật, hoặc một chủ đề nào đó do chính các bạn học viên đề xuất.</p>
+                <p>Buổi bế giảng sẽ là dịp tổng kết lại quá trình học tập, cũng như có những trao đổi, dặn dò cuối cùng về con đường mooting. Đồng thời, sẽ có một bí mật đang chờ đón các học viên tại buổi học cuối cùng này. </p>
+            </div>
+        </div>
+    </section>
 </main>
