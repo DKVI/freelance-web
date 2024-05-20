@@ -500,8 +500,8 @@ nav:hover > .animate-btn {
   min-height: 1000px;
 }
 
-.c-table table td,
-.c-table table th {
+table td,
+table th {
   border: 1px solid #274069;
   color: #274069 !important;
   vertical-align: middle;
@@ -512,7 +512,7 @@ table {
 table td * {
   padding-top: 8px;
 }
-.c-table table thead th {
+table thead th {
   color: #2d466f;
   font-family: "Times New Roman", Times, serif;
   text-align: center;
@@ -557,13 +557,24 @@ table td * {
     height: 90vh;
   }
 }
-/* .practice-cource-title{
-  width: 300px;
-  height: 300px;
-  text-wrap: wrap;
-  float:left;
-  margin-right: 20px;
-} */
+
+/* ------------TUITION PAGE------------- */
+.tuition-bg {
+  background-image: url(../assets/imgs/tuition-bg.png);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+#PNB-title{
+
+}
+#tuition table{
+  font-size: 1rem;
+}
+#tuition table tr th{
+  font-weight: lighter;
+}
+
 /* ---------------FAQ------------------ */
 
 .faq-label {
