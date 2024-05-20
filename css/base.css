@@ -110,7 +110,7 @@ section {
   margin-top: 60px;
 }
 main {
-  margin-top: 10rem;
+  margin-top: 12rem;
   min-height: 80vh;
 }
 
@@ -219,6 +219,14 @@ h1 {
   .language {
     top: 0;
   }
+  .sm-md-subheader {
+    flex: 0 0 auto !important;
+    width: 91.66666667% !important;
+  }
+  .search-input {
+    opacity: 1;
+    width: 100% !important;
+  }
 }
 .navbar-brand {
   margin: 0 !important;
@@ -244,6 +252,14 @@ h1 {
   }
   .language {
     padding: 0 8px !important;
+  }
+  .search-input {
+    opacity: 1;
+    width: 100% !important;
+  }
+  .sm-md-subheader {
+    flex: 0 0 auto !important;
+    width: 91.66666667% !important;
   }
 }
 /* --------- STYLE SCROLLBAR ---------*/
@@ -629,4 +645,26 @@ table thead th {
 }
 .rotate {
   transform: rotate(180deg);
+}
+
+.carousel-item.active {
+  justify-content: center;
+}
+
+.carousel-control-next {
+  padding: 8px;
+  right: -16px !important;
+}
+
+.carousel-control-prev {
+  padding: 8px;
+  left: -16px !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e") !important;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e") !important;
 }

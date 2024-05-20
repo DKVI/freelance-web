@@ -60,6 +60,7 @@ if (isset($_POST['md-file'])) {
     $hashtagList = $_POST["hashtag"];
     $post = Post::getById($conn, $id);
     $data = uploadThumbnail($conn, $id);
+    $link = "/" . $type . "?id=" . $id;
     if ($data != false) {
         try {
             $img_path = "../uploads/imgs/" . $post->fileImg;
@@ -67,7 +68,7 @@ if (isset($_POST['md-file'])) {
             $myfile = fopen("../uploads/posts/" . $id . ".md", "w");
             fwrite($myfile, $text);
             HashtagPost::deleteByPostId($conn, $id);
-            $updatePost = new Post($id, $readTimes, $title, $id . '.md', $data->fileImg, date('Y-m-d'), $post->views, $type, $text, $post->path, $priority == "true" ? 1 : 0);
+            $updatePost = new Post($id, $readTimes, $title, $id . '.md', $data->fileImg, date('Y-m-d'), $post->views, $type, $text, $link, $priority == "true" ? 1 : 0);
             Post::update($conn, $updatePost, $id);
             if (file_exists($img_path)) {
                 unlink($img_path);
@@ -90,7 +91,7 @@ if (isset($_POST['md-file'])) {
             $text = $_POST['md-file'];
             $myfile = fopen("../uploads/posts/" . $id . ".md", "w");
             fwrite($myfile, $text);
-            $updatePost = new Post($id, $readTimes, $title, $id . '.md', $post->fileImg, date('Y-m-d'), $post->views, $type, $text, $post->path, $priority == "true" ? 1 : 0);
+            $updatePost = new Post($id, $readTimes, $title, $id . '.md', $post->fileImg, date('Y-m-d'), $post->views, $type, $text, $link, $priority == "true" ? 1 : 0);
             Post::update($conn, $updatePost, $id);
             foreach ($hashtagList as $hashtag) {
                 $hashtagpost = new HashtagPost(1, $hashtag, $id);

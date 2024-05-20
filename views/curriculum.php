@@ -1,4 +1,5 @@
 <main id="curriculum" style="overflow:hidden" class="w-100">
+
     <section class="container section-active" style="padding-top:0.7rem">
         <h1>Mooting</h1>
         <h2 style="font-size: 7rem; line-height: 3rem" class="vn">là gì?</h2>
@@ -51,8 +52,7 @@
                     </div>
 
                     <!-- Modal -->
-                    <div class="modal fade modal-xl" id="Jessup-Moot" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal fade modal-xl" id="Jessup-Moot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -60,18 +60,16 @@
                                     </h5>
                                     <h5 class="modal-title eng" id="exampleModalLongTitle">Prestigious International
                                         Moot Tournaments</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close py-1 px-2" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
                                 <div class="modal-body">
 
                                     <div class="row">
-                                        <div
-                                            class="col-lg-6 d-flex justify-contents-center align-items-center moot-tournaments-items">
+                                        <div class="col-lg-6 d-flex justify-contents-center align-items-center moot-tournaments-items">
                                             <div>
-                                                <img src="./assets/imgs/curriculum-1.png" class="w-100"
-                                                    alt="“Jessup-Moot”">
+                                                <img src="./assets/imgs/curriculum-1.png" class="w-100" alt="“Jessup-Moot”">
                                                 <p class="credit mt-2">
                                                     cre: Phillip C. Jessup Moot - International Law Students Association
                                                 </p>
@@ -112,8 +110,7 @@
                     </div>
 
                     <!-- Modal -->
-                    <div class="modal fade modal-xl" id="Vis-Moot" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal fade modal-xl" id="Vis-Moot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -121,7 +118,7 @@
                                     </h5>
                                     <h5 class="modal-title eng" id="exampleModalLongTitle">Prestigious International
                                         Moot Tournaments</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close py-1 px-2" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
@@ -182,8 +179,7 @@
                     </div>
 
                     <!-- Modal -->
-                    <div class="modal fade modal-xl" id="FDI-Moot" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal fade modal-xl" id="FDI-Moot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -191,7 +187,7 @@
                                     </h5>
                                     <h5 class="modal-title eng" id="exampleModalLongTitle">Prestigious International
                                         Moot Tournaments</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close py-1 px-2" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
@@ -247,14 +243,13 @@
                     </div>
 
                     <!-- Modal -->
-                    <div class="modal fade modal-xl" id="IHL-Moot" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal fade modal-xl" id="IHL-Moot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <h5 class="modal-title" id="exampleModalLongTitle">Giải đấu moot quốc tế danh giá
                                     </h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close py-1 px-2" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
@@ -316,9 +311,7 @@
                             <li>1 buổi Bế giảng (Sáng thứ Bảy hoặc Chủ Nhật)</li>
                         </div>
                         <p>Tổng quan chương trình sẽ được thể hiện ở bảng sau:<br>
-                            <i>(Nhằm mục đích dễ theo dõi, các buổi học của gói Essentials dưới đây sẽ được tô <span
-                                    class="bold-text">màu xanh</span>, đối với các buổi thực hành, học viên <span
-                                    class="bold-text">gói Essentials</span> sẽ tham gia với tư cách Quan sát viên)</i>
+                            <i>(Nhằm mục đích dễ theo dõi, các buổi học của gói Essentials dưới đây sẽ được tô <span class="bold-text">màu xanh</span>, đối với các buổi thực hành, học viên <span class="bold-text">gói Essentials</span> sẽ tham gia với tư cách Quan sát viên)</i>
                         </p>
                     </div>
                     <div class="eng">
@@ -334,8 +327,7 @@
                             will organize the first session – a theory session, free of charge. </p>
                         <p>An overview of the program will be shown in the table below. For your convenience,
                             theoretical sessions of the Essentials package will be highlighted in green. The sessions
-                            included in the <strong
-                                style="font-family: 'Times New Roman', Times, serif; font-size: 1.5rem">Essentials
+                            included in the <strong style="font-family: 'Times New Roman', Times, serif; font-size: 1.5rem">Essentials
                                 package</strong> are highlighted in blue. For mock sessions, Essentials students will
                             participate as Observers.</p>
                     </div>
@@ -693,6 +685,7 @@
 
         </div>
     </section>
+
     <section class="trial-session text-light" style="background-repeat: repeat-y;
   background-size: 100% auto;
   min-height: 100vh;">

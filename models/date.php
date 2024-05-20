@@ -48,4 +48,11 @@ class Date
         $stmt->bindParam(":isReset", $date->isReset);
         return $stmt->execute();
     }
+
+    public static function increaseVisitors($conn)
+    {
+        $query = "UPDATE date SET visitor = visitor + 1";
+        $stmt = $conn->prepare($query);
+        return $stmt->execute();
+    }
 }

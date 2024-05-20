@@ -32,7 +32,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">Sự kiện</a>
+                            <a href="<?php echo BASE_URL . '/news&events' ?>" class="nav-link">Sự kiện</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -105,7 +105,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">Events</a>
+                            <a href="<?php echo BASE_URL . '/news&events' ?>" class="nav-link">Events</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -172,8 +172,8 @@
 </div>
 <!-- NAVBAR -->
 <div class="d-flex flex-row-reverse fixed-top pt-1" style=" background-color: #e5e5e5; margin:0">
-    
-    <div class="col-6 d-flex">
+
+    <div class="col-6 d-flex sm-md-subheader">
         <div class="w-75">
             <?php
             include "./views/components/searchBar.php";

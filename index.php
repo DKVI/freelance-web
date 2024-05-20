@@ -54,7 +54,7 @@ if (isset($_GET['language'])) {
 ?>
 
 
-<body class="custom-scrollbar">
+<body class="custom-scrollbar" style="opacity: 0">
 
     <link href="css/base.css">
     <!-- Add layout using router -->
@@ -92,7 +92,7 @@ if (isset($_GET['language'])) {
             case 'faq':
                 include __DIR__ . "/views/faq.php";
                 break;
-            case 'events':
+            case 'event':
                 include __DIR__ . "/views/event.php";
                 break;
             case 'news':
@@ -166,10 +166,16 @@ if (isset($_GET['language'])) {
                 e.classList.add("d-none");
             });
         }
+
+        const body = document.querySelector("body");
+        body.style.transition = "all 0.3s ease-in-out";
+        setTimeout(() => {
+            body.style.opacity = "1";
+        }, 500);
     </script>
-    <script src="js/index.js"></script>
+    <script src="js/index.js">
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>
     </script>
     <?php
     $currentDate = date("Y-m-d");
