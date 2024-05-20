@@ -86,6 +86,9 @@ if (isset($_GET['language'])) {
             case 'curriculum':
                 include __DIR__ . "/views/curriculum.php";
                 break;
+            case 'tuition':
+                include __DIR__ . "/views/tuition.php";
+                break;
             case 'faq':
                 include __DIR__ . "/views/faq.php";
                 break;

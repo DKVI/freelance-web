@@ -42,6 +42,9 @@ table * {
 .text-light {
   color: #e5e5e5 !important;
 }
+.text-blue{
+  color: #274069;
+}
 .blue-bg * {
   background-color: #6e7f99 !important;
 }
@@ -49,6 +52,9 @@ table * {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   font-size: 110%;
+}
+.btn-secondary{
+  background-color: #274069!important;
 }
 *,
 *::before,
@@ -63,6 +69,10 @@ ul {
 a {
   color: #274069;
   text-decoration: none;
+  cursor: pointer;
+}
+a.text-light:hover{
+  color: #274069;
 }
 a:hover {
   color: #586378;
@@ -506,8 +516,8 @@ nav:hover > .animate-btn {
   min-height: 1000px;
 }
 
-.c-table table td,
-.c-table table th {
+table td,
+table th {
   border: 1px solid #274069;
   color: #274069 !important;
   vertical-align: middle;
@@ -518,7 +528,7 @@ table {
 table td * {
   padding-top: 8px;
 }
-.c-table table thead th {
+table thead th {
   color: #2d466f;
   font-family: "Times New Roman", Times, serif;
   text-align: center;
@@ -539,6 +549,46 @@ table td * {
 }
 .trial-session .container * {
   padding: 0 20px;
+}
+.close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+  border-radius: 10%;
+}
+.close:hover {
+  opacity: 1;
+  background-color: #274069;
+  color: #e5e5e5;
+}
+
+@media (min-width: 1200px){
+  .modal-xl {
+      --bs-modal-width: 90%;
+  }
+  .modal-content{
+    height: 90vh;
+  }
+}
+
+/* ------------TUITION PAGE------------- */
+.tuition-bg {
+  background-image: url(../assets/imgs/tuition-bg.png);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+#PNB-title{
+
+}
+#tuition table{
+  font-size: 1rem;
+}
+#tuition table tr th{
+  font-weight: lighter;
 }
 
 /* ---------------FAQ------------------ */
