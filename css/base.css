@@ -42,7 +42,7 @@ table * {
 .text-light {
   color: #e5e5e5 !important;
 }
-.text-blue{
+.text-blue {
   color: #274069;
 }
 .blue-bg * {
@@ -53,8 +53,8 @@ table * {
   font-weight: bold;
   font-size: 110%;
 }
-.btn-secondary{
-  background-color: #274069!important;
+.btn-secondary {
+  background-color: #274069 !important;
 }
 *,
 *::before,
@@ -71,7 +71,7 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
-a.text-light:hover{
+a.text-light:hover {
   color: #274069;
 }
 a:hover {
@@ -565,11 +565,11 @@ table thead th {
   color: #e5e5e5;
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
   .modal-xl {
-      --bs-modal-width: 90%;
+    --bs-modal-width: 90%;
   }
-  .modal-content{
+  .modal-content {
     height: 90vh;
   }
 }
@@ -581,13 +581,12 @@ table thead th {
   background-position: top;
   background-repeat: no-repeat;
 }
-#PNB-title{
-
+#PNB-title {
 }
-#tuition table{
+#tuition table {
   font-size: 1rem;
 }
-#tuition table tr th{
+#tuition table tr th {
   font-weight: lighter;
 }
 
@@ -633,7 +632,7 @@ table thead th {
 }
 
 .faq-answer-content {
-  padding: 10px 0 10px 15px;
+  padding: 10px 15px 10px 15px;
 }
 
 .active {

@@ -4,12 +4,19 @@ if (!isset($_SESSION["is_admin"])) {
     // return to login page for admin 
     echo '<script>window.location.href = "' . BASE_URL . '/admin/login"</script>';
 }
+if (!isset($_GET["type"])) {
+    echo "<script>location.href='" . BASE_URL . "/e404'</script>";
+}
 $type = "";
-if (isset($_GET["type"])) {
+$keyword = "";
+if (isset($_GET["type"]) && !isset($_GET["keyword"])) {
     $type = $_GET["type"];
+} else {
+    $type = $_GET["type"];
+    $keyword = $_GET["keyword"];
 }
 $post = Post::getAll($conn);
-
+$current_url = $_SERVER['REQUEST_URI'];
 function renderElement($element)
 {
 
@@ -37,54 +44,62 @@ function renderElement($element)
 <div class="main px-5 justify-content-center">
     <div class="p-5 w-100">
         <div class="px-5 d-flex row mb-3">
-            <div class="col-6 align-content-between d-flex flex-column">
+            <div class="col-8 align-content-between d-flex flex-column">
                 <h1 class="py-4" style="color: #274069">NEWS & EVENTS</h1>
-                <select class="shadow type-selection form-select m-auto " aria-label="Default select example">
-                    <?php
-                    if (!isset($_GET['type'])) {
-                        echo '<option class="text-center" selected>-- Select type of post --</option>
+                <div class="d-flex w-100" style="gap: 16px">
+                    <form action="<?php echo $current_url ?>" method="get" class="form-inline my-2 my-lg-0 w-50 d-flex" style="gap: 8px">
+                        <input name="type" value="<?php echo $type ?>" class="d-none">
+                        <input name="keyword" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                    <select class="shadow type-selection form-select m-auto w-50" aria-label="Default select example">
+                        <?php
+                        if (!isset($_GET['type'])) {
+                            echo '<option class="text-center" selected>-- Select type of post --</option>
                                 <option class="text-center" value="all"><a class="w-100" href="">ALL</a></option>
                                 <option class="text-center" value="static"><a class="w-100" href="">STATIC PAGE</a></option>
                                 <option class="text-center" value="event"><a class="w-100" href="">EVENT</a></option>
                                 <option class="text-center" value="news"><a class="w-100" href="">NEWS</a></option>';
-                    } else {
-                        if ($type == "event") {
-                            echo '<option class="text-center" >-- Select type of post --</option>
+                        } else {
+                            if ($type == "event") {
+                                echo '<option class="text-center" >-- Select type of post --</option>
                                 <option class="text-center" value="all"><a class="w-100" href="">ALL</a></option>
                                 <option class="text-center" value="static"><a class="w-100" href="">STATIC PAGE</a></option>
                                 <option class="text-center" value="event" selected><a class="w-100" href="">EVENT</a></option>
                                 <option class="text-center" value="news"><a class="w-100" href="">NEWS</a></option>';
-                        } else if ($type == "news") {
-                            echo '<option class="text-center" >-- Select type of post --</option>
+                            } else if ($type == "news") {
+                                echo '<option class="text-center" >-- Select type of post --</option>
                                 <option class="text-center" value="all"><a class="w-100" href="">ALL</a></option>
                                 <option class="text-center" value="static"><a class="w-100" href="">STATIC PAGE</a></option>
                                 <option class="text-center" value="event"><a class="w-100" href="">EVENT</a></option>
                                 <option class="text-center" value="news" selected><a class="w-100" href="">NEWS</a></option>';
-                        } else if ($type == "static") {
-                            echo '<option class="text-center" >-- Select type of post --</option>
+                            } else if ($type == "static") {
+                                echo '<option class="text-center" >-- Select type of post --</option>
                                 <option class="text-center" value="all"><a class="w-100" href="">ALL</a></option>
                                 <option class="text-center" value="static" selected><a class="w-100" href="">STATIC PAGE</a></option>
                                 <option class="text-center" value="event"><a class="w-100" href="">EVENT</a></option>
                                 <option class="text-center" value="news"><a class="w-100" href="">NEWS</a></option>';
-                        } else {
-                            echo '<option class="text-center" >-- Select type of post --</option>
+                            } else {
+                                echo '<option class="text-center" >-- Select type of post --</option>
                                 <option class="text-center" value="all" selected><a class="w-100" href="">ALL</a></option>
                                 <option class="text-center" value="static"><a class="w-100" href="">STATIC PAGE</a></option>
                                 <option class="text-center" value="event"><a class="w-100" href="">EVENT</a></option>
                                 <option class="text-center" value="news"><a class="w-100" href="">NEWS</a></option>';
+                            }
                         }
-                    }
-                    ?>
-                </select>
+                        ?>
+                    </select>
+
+                </div>
             </div>
-            <div class="col-6 d-flex justify-content-end align-items-end">
+            <div class="col-4 d-flex justify-content-end align-items-end">
                 <a class="btn btn-success" style="flex: none;" href="<?php echo BASE_URL . "/admin/addPost" ?>">Create
                     New Post</a>
             </div>
         </div>
         <div class="px-5 d-flex flex-column" style="gap: 16px">
             <?php
-            if (count($post) != 0) {
+            if (count($post) != 0 && $keyword == "") {
                 if ($type == "event") {
                     foreach ($post as $element) {
                         if ($element->type == "event") {
@@ -107,6 +122,14 @@ function renderElement($element)
                     foreach ($post as $element) {
                         renderElement($element);
                     }
+                }
+            } else if ($keyword != "") {
+                $postByKeyword = Post::searchByKeyWordAndType($conn, $keyword, $type);
+                foreach ($postByKeyword as $post) {
+                    renderElement($post);
+                }
+                if ($postByKeyword == null) {
+                    echo '<h4 class="fst-italic fw-light">There are no posts yet!</h4>';
                 }
             } else {
                 echo '<h4 class="fst-italic fw-light">There are no posts yet!</h4>';

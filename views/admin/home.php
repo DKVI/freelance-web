@@ -65,7 +65,7 @@ function renderElement($element)
                         </div>
                     </div>
                 </div>
-                <a href="<?php echo BASE_URL ?>/admin/posts" class=" w-25 d-flex shadow-lg py-3 px-5 bg-success rounded-3 text-decoration-none">
+                <a href="<?php echo BASE_URL ?>/admin/posts?type=all" class=" w-25 d-flex shadow-lg py-3 px-5 bg-success rounded-3 text-decoration-none">
                     <div class="w-25 d-flex">
                         <i class="fa-regular fa-pen-to-square m-auto" style="font-size:40px; color: white;"></i>
                     </div>

@@ -21,14 +21,25 @@
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">Về MSS</a>
                             <ul style="width: auto" class="shadow-lg dropdown-menu dropdown-menu-light">
-                                <li><a class="dropdown-item" href="#">Lời ngỏ từ Nhà sáng lập</a></li>
+                                <li><a class="dropdown-item"
+                                        href="<?php echo BASE_URL . '/about#a-message-from-our-founder' ?>">Lời ngỏ từ
+                                        Nhà
+                                        sáng
+                                        lập</a></li>
                                 <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">Sứ mệnh của MSS</a></li>
+                                <li><a class="dropdown-item" href="<?php echo BASE_URL . '/about#our-mission' ?>">Sứ
+                                        mệnh của
+                                        MSS</a></li>
                                 <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">Biểu tượng và triết lý của MSS</a></li>
+                                <li><a class="dropdown-item"
+                                        href="<?php echo BASE_URL . '/about#symbol-and-title-of-MSS' ?>">Biểu
+                                        tượng và triết lý của
+                                        MSS</a></li>
                                 <hr class="dropdown-divider">
 
-                                <li><a class="dropdown-item" href="#">Đội ngũ của MSS</a></li>
+                                <li><a class="dropdown-item" href="<?php echo BASE_URL . '/about#MSS-team' ?>">Đội ngũ
+                                        của
+                                        MSS</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -40,24 +51,44 @@
 
                             <ul style="width: auto"
                                 class="shadow-lg dropdown-menu dropdown-menu-light custom-scrollbar">
-                                <li><a class="dropdown-item" href="#">Mooting là gì?</a></li>
+                                <li><a class="dropdown-item"
+                                        href="<?php echo BASE_URL . '/curriculum#what-is-mooting' ?>">Mooting
+                                        là gì?</a></li>
                                 <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">Tổng quan chương trình</a></li>
+                                <li><a class="dropdown-item"
+                                        href="<?php echo BASE_URL . '/curriculum#course-overview' ?>">Tổng
+                                        quan
+                                        chương trình</a></li>
                                 <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">Tổng quan các buổi lý thuyết</a></li>
+                                <li><a class="dropdown-item"
+                                        href="<?php echo BASE_URL . '/curriculum#overview-of-theoretical-sessions' ?>">Tổng
+                                        quan
+                                        các buổi lý thuyết</a></li>
                                 <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">Tổng quan các buổi thực hành</a></li>
+                                <li><a class="dropdown-item"
+                                        href="<?php echo BASE_URL . '/curriculum#overview-of-mock-sessions' ?>">Tổng
+                                        quan
+                                        các buổi thực hành</a></li>
                                 <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">Các buổi kết thúc khóa học</a></li>
+                                <li><a class="dropdown-item"
+                                        href="<?php echo BASE_URL . '/curriculum#end-of-course-sessions' ?>">Các
+                                        buổi
+                                        kết thúc khóa học</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">Học phí</a>
                             <ul style="width: auto" class="shadow-lg dropdown-menu dropdown-menu-light">
-                                <li><a class="dropdown-item" href="#">Các gói học và quyền lợi</a></li>
+                                <li><a class="dropdown-item"
+                                        href="<?php echo BASE_URL . '/tuition#tuition-packages-and-benefits' ?>">Các
+                                        gói học
+                                        và quyền
+                                        lợi</a></li>
                                 <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">Tổ chức phi lợi nhuận và thu phí</a></li>
+                                <li><a class="dropdown-item"
+                                        href="<?php echo BASE_URL . '/tuition#nonprofits-organizations-and-collecting-tuition' ?>">Tổ
+                                        chức phi lợi nhuận và thu phí</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -76,32 +107,41 @@
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">FAQ</a>
                             <ul style="width: auto; right: 0" class="shadow-lg dropdown-menu dropdown-menu-light">
-                                <li><a class="dropdown-item" href="#">Về chương trình</a></li>
+                                <li><a class="dropdown-item" href="<?php echo BASE_URL . '/faq#about-the-program' ?>">Về
+                                        chương trình</a></li>
                                 <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">Về nội quy trong lớp</a></li>
+                                <li><a class="dropdown-item" href="<?php echo BASE_URL . '/faq#about-class-rules' ?>">Về
+                                        nội quy trong lớp</a></li>
                                 <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">Về gói học</a></li>
+                                <li><a class="dropdown-item" href="<?php echo BASE_URL . '/faq#about-the-package' ?>">Về
+                                        gói học</a></li>
                                 <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">Về học phí</a></li>
+                                <li><a class="dropdown-item"
+                                        href="<?php echo BASE_URL . '/faq#about-tuition-fees' ?>">Về
+                                        học phí</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Liên hệ</a>
-                        </li>
+
                     </ul>
                     <ul class="navbar-nav eng">
                         <li class="nav-item dropdown custom-scrollbar">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">About MSS</a>
                             <ul style="width: auto" class="shadow-lg dropdown-menu dropdown-menu-light">
-                                <li><a class="dropdown-item" href="#">A message from our Founder</a></li>
+                                <li><a class="dropdown-item"
+                                        href="<?php echo BASE_URL . '/about#a-message-from-our-founder' ?>">A message
+                                        from our Founder</a></li>
                                 <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">Our Mission</a></li>
+                                <li><a class="dropdown-item" href="<?php echo BASE_URL . '/about#our-mission' ?>">Our
+                                        Mission</a></li>
                                 <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">About the symbol and title of MSS</a></li>
+                                <li><a class="dropdown-item"
+                                        href="<?php echo BASE_URL . '/about#symbol-and-title-of-MSS' ?>">About the
+                                        symbol and title of MSS</a></li>
                                 <hr class="dropdown-divider">
 
-                                <li><a class="dropdown-item" href="#">About the MSS team</a></li>
+                                <li><a class="dropdown-item" href="<?php echo BASE_URL . '/about#MSS-team' ?>">About the
+                                        MSS team</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -113,24 +153,38 @@
 
                             <ul style="width: auto"
                                 class="shadow-lg dropdown-menu dropdown-menu-light custom-scrollbar">
-                                <li><a class="dropdown-item" href="#">What is Mooting?</a></li>
+                                <li><a class="dropdown-item"
+                                        href="<?php echo BASE_URL . '/curriculum#what-is-mooting' ?>">What is
+                                        Mooting?</a></li>
                                 <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">Course overview</a></li>
+                                <li><a class="dropdown-item"
+                                        href="<?php echo BASE_URL . '/curriculum#course-overview' ?>">Course
+                                        overview</a></li>
                                 <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">Overview of theoretical sessions</a></li>
+                                <li><a class="dropdown-item"
+                                        href="<?php echo BASE_URL . '/curriculum#overview-of-theoretical-sessions' ?>">Overview
+                                        of theoretical sessions</a></li>
                                 <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">Overview of mock sessions</a></li>
+                                <li><a class="dropdown-item"
+                                        href="<?php echo BASE_URL . '/curriculum#overview-of-mock-sessions' ?>">Overview
+                                        of mock sessions</a></li>
                                 <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">End of course sessions</a></li>
+                                <li><a class="dropdown-item"
+                                        href="<?php echo BASE_URL . '/curriculum#end-of-course-sessions' ?>">End of
+                                        course sessions</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">Tuition</a>
                             <ul style="width: auto" class="shadow-lg dropdown-menu dropdown-menu-light">
-                                <li><a class="dropdown-item" href="#">Tuition packages and benefits</a></li>
+                                <li><a class="dropdown-item"
+                                        href="<?php echo BASE_URL . '/tuition#tuition-packages-and-benefits' ?>">Tuition
+                                        packages and benefits</a></li>
                                 <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">Nonprofits organizations and collecting
+                                <li><a class="dropdown-item"
+                                        href="<?php echo BASE_URL . '/tuition#nonprofits-organizations-and-collecting-tuition' ?>">Nonprofits
+                                        organizations and collecting
                                         tuition</a>
                                 </li>
                             </ul>
@@ -152,17 +206,22 @@
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">FAQ</a>
                             <ul style="width: auto; right: 0" class="shadow-lg dropdown-menu dropdown-menu-light">
-                                <li><a class="dropdown-item" href="#">About the program</a></li>
+                                <li><a class="dropdown-item"
+                                        href="<?php echo BASE_URL . '/faq#about-the-program' ?>">About the program</a>
+                                </li>
                                 <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">About class rules</a></li>
+                                <li><a class="dropdown-item"
+                                        href="<?php echo BASE_URL . '/faq#about-class-rules' ?>">About class rules</a>
+                                </li>
                                 <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">About the package</a></li>
+                                <li><a class="dropdown-item"
+                                        href="<?php echo BASE_URL . '/faq#about-the-package' ?>">About the package</a>
+                                </li>
                                 <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">About tuition fees</a></li>
+                                <li><a class="dropdown-item"
+                                        href="<?php echo BASE_URL . '/faq#about-tuition-fees' ?>">About tuition fees</a>
+                                </li>
                             </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Contact</a>
                         </li>
                     </ul>
                 </div>

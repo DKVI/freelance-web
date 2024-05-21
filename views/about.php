@@ -1,5 +1,5 @@
 <main id="ab-main" class="w-100">
-    <section class="container section-active" style="padding-top:0">
+    <section id="a-message-from-our-founder" class="container section-active" style="padding-top:0">
         <div class="d-lg-flex">
             <img src="./assets/imgs/about-1.png" alt="founder-Vo-Son-Hoang" style="height: 100%;">
             <div class="" style="font-size: 1rem;">
@@ -56,7 +56,7 @@
             </div>
         </div>
     </section>
-    <section class="our-mission background-full" style="min-height: 100vh">
+    <section id="our-mission" class="our-mission background-full" style="min-height: 100vh">
         <div class="container py-5 text-light" style="padding-right:60px; padding-left: 80px">
             <div class="our-mission-title text-end vn">
                 <h1>Sứ mệnh</h1>
@@ -96,7 +96,7 @@
             </div>
         </div>
     </section>
-    <section class="mascot-motto d-flex w-100" style="padding-top:0">
+    <section id="symbol-and-title-of-MSS" class="mascot-motto d-flex w-100" style="padding-top:0">
         <div class=" col-lg-5">
             <img src="./assets/imgs/about-3.png" alt="mss-bg" class="w-100">
         </div>
@@ -123,7 +123,7 @@
             </p>
         </div>
     </section>
-    <section class="position-relative">
+    <section id="our-mission" class="position-relative">
         <div class="position-absolute" style="top:30%; left:-180px">
             <div class="circle">
                 <div class="text">

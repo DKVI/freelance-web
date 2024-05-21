@@ -121,6 +121,45 @@
             }
         }
 
+        public static function searchByKeyWordAndType($conn, $keyword, $type)
+        {
+            try {
+                if ($type == "all") {
+                    $query = "SELECT * FROM post WHERE (title LIKE :keyword OR content LIKE :keyword)";
+                    $stmt = $conn->prepare($query);
+                    $stmt->bindValue(":keyword", '%' . $keyword . '%');
+                    $stmt->execute();
+                } else {
+                    $query = "SELECT * FROM post WHERE (title LIKE :keyword OR content LIKE :keyword) AND type = :type";
+                    $stmt = $conn->prepare($query);
+                    $stmt->bindValue(":keyword", '%' . $keyword . '%');
+                    $stmt->bindParam(":type", $type);
+                    $stmt->execute();
+                }
+                $postList = [];
+                while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+                    $post = new Post("", "", "", "", "", "", "", "", "", "", "");
+                    $post->id = $row['id'];
+                    $post->readTimes = $row['readTimes'];
+                    $post->title = $row['title'];
+                    $post->fileText = $row['fileText'];
+                    $post->fileImg = $row['fileImg'];
+                    $post->date = $row['date'];
+                    $post->views = $row['views'];
+                    $post->type = $row['type'];
+                    $post->content = $row['content'];
+                    $post->path = $row['path'];
+                    $post->pin = $row['pin'];
+                    $postList[] = $post;
+                }
+
+                return $postList;
+            } catch (PDOException $e) {
+                echo "Error fetching messages: " . $e->getMessage();
+                return [];
+            }
+        }
+
         public static function getById($conn, $id)
         {
             $query = "SELECT * FROM post WHERE id=:id";
