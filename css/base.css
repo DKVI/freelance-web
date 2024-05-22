@@ -62,9 +62,10 @@ table * {
   box-sizing: border-box;
 }
 
-ul {
+/* ul {
   list-style: none !important;
-}
+} 
+CONFLICT RIGHT HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 a {
   color: #274069;
@@ -72,7 +73,12 @@ a {
   cursor: pointer;
 }
 a.text-light:hover {
-  color: #274069;
+  color: #274069 !important;
+  background-color: #e5e5e5;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 10px;
+  font-style: normal;
 }
 a:hover {
   color: #586378;
@@ -106,9 +112,6 @@ section {
   transition: all 0.5s ease-in-out;
 }
 
-.page-section {
-  margin-top: 60px;
-}
 main {
   margin-top: 12rem;
   min-height: 80vh;
@@ -120,8 +123,7 @@ picture {
   display: block;
 }
 .background-full {
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   min-height: 100vh;
 }
 .main-text-color {
@@ -157,7 +159,8 @@ h5,
 h6 {
   font-family: Title;
 }
-h1 {
+
+.title h1 {
   font-size: 9rem;
   margin: 0;
   padding: 0;
@@ -546,10 +549,11 @@ table thead th {
 .trial-session {
   min-height: 98vh;
   background-image: url(../assets/imgs/curriculum-7.png);
+  background-repeat: repeat-y;
+  background-size: 100% auto;
+  background-position: center;
 }
-.trial-session .container * {
-  padding: 0 20px;
-}
+
 .close {
   position: absolute;
   right: 20px;
@@ -572,6 +576,12 @@ table thead th {
   .modal-content {
     height: 90vh;
   }
+}
+
+.theorical-popup ol li:hover {
+  background-color: #274069;
+  color: #e5e5e5;
+  cursor: help;
 }
 
 /* ------------TUITION PAGE------------- */
@@ -645,7 +655,7 @@ table thead th {
 .rotate {
   transform: rotate(180deg);
 }
-
+/* news & events page */
 .carousel-item.active {
   justify-content: center;
 }
@@ -666,4 +676,10 @@ table thead th {
 
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e") !important;
+}
+
+/* ------------FOOTER----------- */
+
+footer{
+  background-color: #274069;
 }

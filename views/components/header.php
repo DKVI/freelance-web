@@ -129,19 +129,17 @@
                                 aria-expanded="false">About MSS</a>
                             <ul style="width: auto" class="shadow-lg dropdown-menu dropdown-menu-light">
                                 <li><a class="dropdown-item"
-                                        href="<?php echo BASE_URL . '/about#a-message-from-our-founder' ?>">A message
+                                        href="<?php echo BASE_URL . '/about#a-message-from-our-founder' ?>">Message
                                         from our Founder</a></li>
                                 <hr class="dropdown-divider">
                                 <li><a class="dropdown-item" href="<?php echo BASE_URL . '/about#our-mission' ?>">Our
                                         Mission</a></li>
                                 <hr class="dropdown-divider">
                                 <li><a class="dropdown-item"
-                                        href="<?php echo BASE_URL . '/about#symbol-and-title-of-MSS' ?>">About the
-                                        symbol and title of MSS</a></li>
+                                        href="<?php echo BASE_URL . '/about#symbol-and-title-of-MSS' ?>">Our Mascot</a></li>
                                 <hr class="dropdown-divider">
 
-                                <li><a class="dropdown-item" href="<?php echo BASE_URL . '/about#MSS-team' ?>">About the
-                                        MSS team</a></li>
+                                <li><a class="dropdown-item" href="<?php echo BASE_URL . '/about#MSS-team' ?>">MSS team</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
