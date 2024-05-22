@@ -38,6 +38,27 @@ function renderElement($element)
                                 </div>
                             </div>';
 }
+function renderPinElement($element)
+{
+
+    echo '<div class="d-flex px-4 py-2 shadow rounded-4 justify-content-around " style="height: 100px; background-color: #274069">
+                                    <div class="h-100 px-3" style="width: 20%"><div class="h-100 w-100 rounded-4" style="background-image: url(' . BASE_URL . '/uploads/imgs/' . $element->fileImg . '); background-size: cover; background-position: center; box-shadow: 2px 2px 10px 1px white"></div>
+                                    </div>
+                                            <div class="w-75 h-100 px-3" style="overflow: hidden;
+                                            text-overflow: ellipsis;
+                                            white-space: nowrap;">
+                                                <a href="' . BASE_URL . '/admin/editPost?id=' . $element->id . '"
+                                    class="text-decoration-none fw-bold" style="color: white; font-size: 24px;">' . $element->title . '</a>
+                                    <div class="mt-3">
+                                    <span style="color: white">' . convertDate($element->date) . ' - </span>
+                                    <span style="color: white">' . ($element->readTimes) . ' minues read</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="m-auto"><span class="p-2" style="color: white">' . $element->views . '</span><i class="fa-regular fa-eye" style="color: white"></i></div>
+                                </div>
+                            </div>';
+}
 ?>
 <link href="../css/admin.css" rel="stylesheet">
 <?php include  __DIR__ .  "/components/adminHeader.php" ?>
@@ -103,30 +124,50 @@ function renderElement($element)
                 if ($type == "event") {
                     foreach ($post as $element) {
                         if ($element->type == "event") {
-                            renderElement($element);
+                            if ($element->pin) {
+                                renderPinElement($element);
+                            } else {
+                                renderElement($element);
+                            }
                         }
                     }
                 } else if ($type == "news") {
                     foreach ($post as $element) {
                         if ($element->type == "news") {
-                            renderElement($element);
+                            if ($element->pin) {
+                                renderPinElement($element);
+                            } else {
+                                renderElement($element);
+                            }
                         }
                     }
                 } else if ($type == "static") {
                     foreach ($post as $element) {
                         if ($element->type == "static") {
-                            renderElement($element);
+                            if ($element->pin) {
+                                renderPinElement($element);
+                            } else {
+                                renderElement($element);
+                            }
                         }
                     }
                 } else {
                     foreach ($post as $element) {
-                        renderElement($element);
+                        if ($element->pin) {
+                            renderPinElement($element);
+                        } else {
+                            renderElement($element);
+                        }
                     }
                 }
             } else if ($keyword != "") {
                 $postByKeyword = Post::searchByKeyWordAndType($conn, $keyword, $type);
                 foreach ($postByKeyword as $post) {
-                    renderElement($post);
+                    if ($post->pin) {
+                        renderPinElement($post);
+                    } else {
+                        renderElement($post);
+                    }
                 }
                 if ($postByKeyword == null) {
                     echo '<h4 class="fst-italic fw-light">There are no posts yet!</h4>';

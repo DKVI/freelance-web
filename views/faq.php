@@ -1,4 +1,4 @@
-<section id="about-the-program" class="page-section" style="margin-top: 10rem;">
+<section id="about-the-program" class="page-section section-active" style="margin-top: 10rem;">
     <div class="container">
         <div class="text-center">
             <h1 class="section-heading text-uppercase">FAQ</h1>

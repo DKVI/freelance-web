@@ -6,6 +6,7 @@
     </div>
     <!-- Tuition's content -->
     <div class="cantainer">
+
         <div id="tuition-packages-and-benefits" class="d-flex justify-content-center align-items-center">
             <div class="position-relative col-lg-5 col-sm-10 text-center bg-light" style="height: 18rem">
                 <h1 class="position-absolute " style="font-size: 20rem; color: #99a2b1; left: 38%; z-index: 0;">&</h1>
@@ -20,6 +21,7 @@
                     </div>
                 </div>
                 
+
             </div>
         </div>
         <div class="d-flex justify-content-center align-items-center ">
