@@ -951,7 +951,7 @@
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
-                                        <div style="background-image: url(./assets/imgs/curriculum-10.png); background-size: 100%;" class="p-5 ">
+                                        <div style="background-image: url(./assets/imgs/curriculum-10.png); background-size: cover;" class="p-5 ">
                                         <div class="title text-end text-light">
                                             <h5 class="vn display-1"><span class="text-blue">Các buổi kỹ năng</span><br> viết bài biện hộ</h5>
                                             <h5 class="eng display-1"><span class="text-blue">Sessions on</span> <br>written advocacy skills</h5>
@@ -1005,7 +1005,7 @@
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
-                                        <div style="background-image: url(./assets/imgs/curriculum-11.png); background-size: 100%;background-position: center;" class="p-5 h-100">
+                                        <div style="background-image: url(./assets/imgs/curriculum-11.png); background-size: cover;background-position: center;" class="p-5 h-100">
                                             <div class="title">
                                                 <h5 class="display-1 vn">Các buổi kỹ năng <br>tranh tụng nói</h5>
                                                 <h5 class="display-1 eng">Sessions on <br>Oral advocacy skills</h5>
@@ -1041,7 +1041,7 @@
                 </div>
             </div>
     </section>
-    <section id="overview-of-mock-sessions" style="background-image: url(./assets/imgs/curriculum-13.png); background-size: 100%; background-position: center;" class="text-light">
+    <section id="overview-of-mock-sessions" style="background-image: url(./assets/imgs/curriculum-13.png); background-size: cover; background-position: center;" class="text-light">
         <div class="container p-5">
             <div class="row vn">
                 <div class="title col-lg-3">
