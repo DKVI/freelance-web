@@ -60,7 +60,12 @@ if (isset($_POST['md-file'])) {
     $hashtagList = $_POST["hashtag"];
     $post = Post::getById($conn, $id);
     $data = uploadThumbnail($conn, $id);
-    $link = "/" . $type . "?id=" . $id;
+    $link;
+    if ($type == "static") {
+        $link = $post->path;
+    } else {
+        $link = "/" . $type . "?id=" . $id;
+    }
     if ($data != false) {
         try {
             $img_path = "../uploads/imgs/" . $post->fileImg;

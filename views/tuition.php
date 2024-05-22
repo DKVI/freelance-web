@@ -6,7 +6,7 @@
     </div>
     <!-- Tuition's content -->
     <div class="cantainer">
-        <div id="tuition-packages-and-benefits" class="d-flex justify-content-center align-items-center ">
+        <div id="tuition-packages-and-benefits" class="d-flex justify-content-center align-items-center section-active">
             <div class="position-relative col-lg-5 col-sm-10 text-center bg-light" id="PNB-title">
                 <h1 class="position-absolute" style="font-size: 20rem; color: #99a2b1; left: 38%">&</h1>
                 <h1>Gói học</h1>
