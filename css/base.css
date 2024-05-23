@@ -264,6 +264,9 @@ h6 {
     flex: 0 0 auto !important;
     width: 91.66666667% !important;
   }
+  #markdown-content h1 {
+    font-size: 2.5rem;
+  }
 }
 /* --------- STYLE SCROLLBAR ---------*/
 /* width */
@@ -680,6 +683,6 @@ table thead th {
 
 /* ------------FOOTER----------- */
 
-footer{
+footer {
   background-color: #274069;
 }
