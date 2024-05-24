@@ -56,7 +56,7 @@
             </div>
         </div>
     </section>
-    <section id="our-mission" class="our-mission background-full" style="min-height: 100vh">
+    <section id="our-mission" class="our-mission background-full">
         <div class="container py-5 text-light" style="padding-right:60px; padding-left: 80px">
             <div class="title">
                 <div class="text-end vn">
@@ -174,7 +174,7 @@
     </section>
 
     <!-- About the MSS team -->
-    <!-- <section class="" id="services">
+    <section class="" id="services">
         <div class="container">
             <div class="text-center">
                 <h1 class="section-heading text-uppercase">Our Team</h1>
@@ -213,5 +213,5 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 </main>
