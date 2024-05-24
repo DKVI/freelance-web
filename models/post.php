@@ -121,6 +121,38 @@
             }
         }
 
+        public static function getLastestNewsEvent($conn, $limit)
+        {
+            try {
+                $query = "SELECT * 
+                FROM post
+                WHERE type <> 'static'
+                ORDER BY date DESC
+                LIMIT :limit";
+                $stmt = $conn->prepare($query);
+                $stmt->bindParam(":limit", $limit, PDO::PARAM_INT);
+                $stmt->execute();
+                $postList = [];
+                while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+                    $post = new Post("", "", "", "", "", "", "", "", "", "", "");
+                    $post->id = $row['id'];
+                    $post->readTimes = $row['readTimes'];
+                    $post->title = $row['title'];
+                    $post->fileText = $row['fileText'];
+                    $post->fileImg = $row['fileImg'];
+                    $post->date = $row['date'];
+                    $post->views = $row['views'];
+                    $post->type = $row['type'];
+                    $post->content = $row['content'];
+                    $post->path = $row['path'];
+                    $post->pin = $row['pin'];
+                    $postList[] = $post;
+                }
+                return $postList;
+            } catch (\Throwable $e) {
+                return null;
+            }
+        }
         public static function getByKeyWord($conn, $keyword)
         {
             try {
