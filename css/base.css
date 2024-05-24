@@ -62,10 +62,6 @@ table * {
   box-sizing: border-box;
 }
 
-/* ul {
-  list-style: none !important;
-} 
-CONFLICT RIGHT HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 a {
   color: #274069;
@@ -125,6 +121,7 @@ picture {
 .background-full {
   background-size: cover;
   min-height: 100vh;
+  background-position: center
 }
 .main-text-color {
   color: #274069;
@@ -488,7 +485,7 @@ nav:hover > .animate-btn {
 
 /* ---------------CURRICULUM PAGE------------- */
 #curriculum > section {
-  padding-top: 9rem;
+  padding-top: 8rem;
 }
 .blue-rec-shape {
   height: 2rem;
@@ -550,11 +547,7 @@ table thead th {
   width: 5rem;
 }
 .trial-session {
-  min-height: 98vh;
   background-image: url(../assets/imgs/curriculum-7.png);
-  background-repeat: repeat-y;
-  background-size: 100% auto;
-  background-position: center;
 }
 
 .close {
@@ -604,7 +597,12 @@ table thead th {
 }
 
 /* ---------------FAQ------------------ */
-
+#about-class-rules{
+  background-color: #274069;
+}
+#about-class-rules .faq-label{
+  box-shadow: 5px 5px 10px #6e7f99, -5px -5px 10px #586378;
+}
 .faq-label {
   cursor: pointer;
   width: 100%;
@@ -640,8 +638,14 @@ table thead th {
   margin-top: 15px;
   height: 0;
   border-radius: 6px;
-  color: rgba(127, 121, 121, 1);
+  /* color: rgba(127, 121, 121, 1); */
+  color:#274069;
   overflow: hidden;
+}
+
+.faq-answer-content p a:hover{
+  color: #843d43;
+  font-weight: bold;
 }
 
 .faq-answer-content {
@@ -685,4 +689,5 @@ table thead th {
 
 footer {
   background-color: #274069;
+
 }

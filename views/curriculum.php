@@ -693,7 +693,7 @@
         </div>
     </section>
 
-    <section class="trial-session text-light">
+    <section class="trial-session text-light background-full" style="background-image: url(./assets/imgs/curriculum-7.png);">
         <div class="container">
             <div class="d-flex justify-content-center align-items-center">
                 <div class="row">
@@ -744,7 +744,7 @@
             </div>
         </div>
     </section>
-    <section id="overview-of-theoretical-sessions w-100">
+    <section id="overview-of-theoretical-sessions" class="w-100">
         <div class="position-relative">
             <img src="./assets/imgs/curriculum-61.png" alt="mss-background" class="position-absolute" style="right: 0; top: -6.2rem">
         </div>
@@ -1041,7 +1041,7 @@
                 </div>
             </div>
     </section>
-    <section id="overview-of-mock-sessions" style="background-image: url(./assets/imgs/curriculum-13.png); background-size: cover; background-position: center;" class="text-light">
+    <section id="overview-of-mock-sessions" style="background-image: url(./assets/imgs/curriculum-13.png);" class="text-light background-full">
         <div class="container p-5">
             <div class="row vn">
                 <div class="title col-lg-3">
