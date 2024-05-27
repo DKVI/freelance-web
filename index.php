@@ -37,6 +37,7 @@ $segments = explode('/', $uri);
     <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <
 </head>
 
 <?php
@@ -53,9 +54,10 @@ if (isset($_GET['language'])) {
 }
 ?>
 
-
+<div id="preloader">
+    <div class="line"></div>
+</div>
 <body class="custom-scrollbar" style="opacity: 0">
-
     <link href="css/base.css">
     <!-- Add layout using router -->
     <div class="header">
@@ -67,6 +69,7 @@ if (isset($_GET['language'])) {
         }
         ?>
     </div>
+
     <div class="main">
         <?php
         $route = $segments[2] . (isset($segments[3]) ?  '/' . $segments[3] : "");
