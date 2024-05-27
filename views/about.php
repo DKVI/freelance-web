@@ -65,7 +65,7 @@
                 </div>
                 <h1 class="eng text-center title">Our mission</h1>
             </div>
-            <div class="col-lg-8 vn" style="margin-top: -7rem; padding-left: 30px">
+            <div class="col-lg-8 vn shadow p-4" style="margin-top: -7rem; padding-left: 30px">
                 <p>MSS ra đời với hy vọng huấn luyện học viên một cách chuyên nghiệp - đầy đủ, hỗ trợ thí sinh tránh gặp
                     các khó khăn trong hành trình chinh chiến tại các giải đấu moot từ trong nước đến nước ngoài. Với tư
                     cách là một dự án đào tạo chuyên nghiệp về mooting đầu tiên tại Việt Nam, MSS kỳ vọng có thể đem lại
@@ -79,7 +79,7 @@
                     đẩy sự phát triển và kế thừa trong cộng đồng mooting ở Việt Nam.</p>
             </div>
             <div class="d-flex align-items-center justify-content-center ">
-                <div class="col-lg-8 eng shadow" style="margin-top: 0;">
+                <div class="col-lg-8 eng shadow p-4" style="margin-top: 0;">
                     <p>In recent years, mooting has gained popularity in law schools over the last five years. However,
                         the moot community lacks generalization, systemization, and inheritance in its development.
                         Mooters are not typically professionally trained or led, resulting in many challenges and
@@ -97,36 +97,42 @@
             </div>
         </div>
     </section>
-    <section id="symbol-and-title-of-MSS" class="mascot-motto d-flex w-100" style="padding-top:0">
-        <div class="row">
-            <div class=" col-lg-5">
-                <img src="./assets/imgs/about-3.png" alt="mss-bg" class="w-100">
+    <section id="symbol-and-title-of-MSS" class="mascot-motto background-full" style="padding-top:0; background-image: url(./assets/imgs/about-3-1.png)">
+        <div class="container" style="padding: 8rem 0 5rem">
+            <div class="title text-end px-5" >
+                <h1 class="vn">Biểu tượng</h1>
+                <h1 class="eng">Our Mascot</h1>
             </div>
-            <div class="p-5 vn col-lg-7" style="margin-top: 8rem">
-                <h1 class="text-end">Biểu tượng</h1>
-                <p>Gryffin, hay còn gọi là “điểu sư” trong tiếng Việt, là một linh vật thần thoại có phần đầu, cánh, móng
+        
+            <!-- <div class=" col-lg-5 position-absolute background-full" style="left:0; top:0;z-index: 0">
+                <img src="./assets/imgs/about-3.png" alt="mss-bg" class="w-100">
+            </div> -->
+            <div class="col-lg-6 offset-lg-6 px-5">
+                <div class="vn">
+                    <p>Gryffin, hay còn gọi là “điểu sư” trong tiếng Việt, là một linh vật thần thoại có phần đầu, cánh, móng
                     vuốt của đại bàng và phần thân, đuôi, chân sau của sư tử. Vì đại bàng được coi là “vua của các loài
                     chim” và sư tử là “vua của các loài thú”, nên điểu sư đại diện cho sức mạnh và sự thông thái trong nhiều
                     nền văn hóa cổ như Ba Tư, Hy Lạp, Ai Cập, Ấn Độ v.v. </p>
-                <p>MSS chọn điểu sư làm biểu tượng cho dự án cũng bởi hai nửa của nó đều có mối gắn bó mật thiết với MSS.
+                    <p>MSS chọn điểu sư làm biểu tượng cho dự án cũng bởi hai nửa của nó đều có mối gắn bó mật thiết với MSS.
                     Với nửa đại bàng, nó gợi nhắc về một phần tên gọi đội đấu moot đầu tiên của Nhà sáng lập. Còn nửa sư tử
                     lại tương trưng cho lòng dũng cảm và ý chí mạnh mẽ của các mooters nói chung trong hành trình tham gia
                     thi đấu.</p>
+                </div>
+                <div class="eng">
+                    <p>Gryffin, is a mythological creature with the head, wings, and
+                        talons of an eagle and the body, tail, and hind legs of a lion. Because the eagle is considered the
+                        "king of birds" and the lion is the "king of beasts," the Gryffin symbolizes strength and wisdom in many
+                        ancient cultures such as Persia, Greece, Egypt, India, and so on.</p>
+                    <p>MSS chose the Gryffin as its emblem for the project because both halves of it are closely connected to
+                        MSS. With the eagle half, it evokes a part of the name of the founder's first moot team. Meanwhile, the
+                        lion half symbolizes the courage and bravery of mooters in general throughout their competition journey.
+                    </p>
+                </div>
             </div>
-            <div class="p-5 eng col-lg-7" style="margin-top: 8rem">
-                <h1 class="text-end">Our Mascot</h1>
-                <p>Gryffin, also known as "điểu sư" in Vietnamese, is a mythological creature with the head, wings, and
-                    talons of an eagle and the body, tail, and hind legs of a lion. Because the eagle is considered the
-                    "king of birds" and the lion is the "king of beasts," the Gryffin symbolizes strength and wisdom in many
-                    ancient cultures such as Persia, Greece, Egypt, India, and so on.</p>
-                <p>MSS chose the Gryffin as its emblem for the project because both halves of it are closely connected to
-                    MSS. With the eagle half, it evokes a part of the name of the founder's first moot team. Meanwhile, the
-                    lion half symbolizes the courage and bravery of mooters in general throughout their competition journey.
-                </p>
-            </div>
+            
         </div>
     </section>
-    <section id="our-mission" class="position-relative">
+    <section id="our-mission" class="position-relative overflow-x-hidden">
         <div class="position-absolute" style="top:30%; left:-180px">
             <div class="circle">
                 <div class="text">
@@ -134,7 +140,7 @@
                 </div>
             </div>
         </div>
-        <div class="position-absolute" style="top:5%; right:-50px">
+        <div class="position-absolute  " style="top:5%; right:-50px">
             <div class="circle" style="top:10%; right:-180px">
                 <div class="text">
                     <p>• Non est ad astra mollis e terris via</p>
@@ -177,7 +183,7 @@
     <section class="" id="services">
         <div class="container">
             <div class="text-center">
-                <h1 class="section-heading text-uppercase">Our Team</h1>
+                <h1 class="">Our amazing team</h1>
             </div>
             <div class="row text-center">
                 <div class="col-md-4">

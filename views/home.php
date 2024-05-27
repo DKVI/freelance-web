@@ -5,30 +5,8 @@ try {
 
 }
 ?>
-<main class="position-relative">
-    <!-- Welcome section -->
-    <!-- <div class="welcome-page d-flex align-items-center justify-content-center vh-100" style="
-        position: fixed;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        z-index: 1000;
-    ">
-        <img src="./assets/imgs/welcome-page-logo.png" alt="">
-    </div>
-    <div class="d-flex" style="position: fixed;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        z-index: 1001; background-color: black">
-        <div class="w-50 h-100"></div>
-        <div></div>
-        <div class="w-50 h-100"></div>
-    </div> -->
-    <!-- End welcome page -->
 
+<main id="home" class="position-relative">
     <!-- MSS's Mascot - Griffin Background -->
     <div class="position-fixed d-flex justify-content-end" style="left: 0; right: 0; top: 0; bottom: 0; z-index: -1;">
         <div class="griffin" style=" width: 75%;">
@@ -36,7 +14,7 @@ try {
     </div>
 
     <!-- Main content -->
-    <div class=" container py-5 p-lg-5 vn">
+    <div class=" container p-lg-5 vn">
         <h2 class="text-uppercase fw-bold display-5">Chào mừng đến với</h2>
         <h1 class="text-uppercase fw-bold  display-3" style="text-align: left;">Mooting Summer School</h1>
         <div class="col-lg-8 m">
@@ -73,9 +51,9 @@ try {
             </div>
         </div>
     </div>
-    <div class=" container py-5 p-lg-5 eng">
-        <h2 class="text-uppercase fw-bold display-5">WELCOME TO</h2>
-        <h1 class="text-uppercase fw-bold  display-3">Mooting Summer School</h1>
+    <div class=" container p-lg-5 eng">
+        <h2 class="text-uppercase fw-bold display-5 text-center text-lg-start">WELCOME TO</h2>
+        <h1 class="text-uppercase fw-bold  display-3 text-center text-lg-start">Mooting Summer School</h1>
         <div class="col-lg-8 m">
             <p>Someone once said that when participating in mooting, we feel like we're diving into space. we won't know
                 how far we can go or what kind of value we can gain from the experience. But first and foremost, just

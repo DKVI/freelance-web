@@ -126,7 +126,7 @@ picture {
 .main-text-color {
   color: #274069;
 }
-
+/* big screen hover to drop down */
 @media (min-width: 1200px) {
   .dropdown:hover .dropdown-menu {
     display: block;
@@ -162,7 +162,9 @@ h6 {
   margin: 0;
   padding: 0;
 }
-
+.shadow {
+  border-radius: 10px;
+}
 /* --------HEADER SECTION---------- */
 .logo-area {
   min-height: 8rem;
@@ -174,6 +176,7 @@ h6 {
   padding: 0;
   z-index: 4 !important;
   font-size: 1rem;
+
 }
 
 .header .navbar {
@@ -299,15 +302,7 @@ h6 {
   transition: opacity 0.5s ease-in-out;
   animation: movingNav 0.5s linear;
 }
-/*
-nav:hover > .animate-btn {
-  width: 100%;
-  overflow-x: clip;
-  zoom: 1;
-  filter: alpha(opacity=50);
-  opacity: 1;
-}
-*/
+
 @keyframes movingNav {
   0% {
     opacity: 0;
@@ -317,14 +312,7 @@ nav:hover > .animate-btn {
   }
 }
 
-@keyframes fadeAnimation {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
+
 
 /* sticky social media bar */
 .fl-fl {
@@ -422,9 +410,9 @@ nav:hover > .animate-btn {
   font-weight: bolder;
 }
 /* ---------ABOUT US PAGE---------- */
-#ab-main {
+/* #ab-main {
   overflow: hidden;
-}
+} */
 #ab-main > section {
   min-height: 85vh;
   padding-top: 5rem;
@@ -691,3 +679,130 @@ footer {
   background-color: #274069;
 
 }
+
+/*--------------------------------------------------------------
+# Preloader - welcome section
+--------------------------------------------------------------*/
+#preloader {
+  display: flex;
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 99999;
+  /* background-image: url(../assets/imgs/preloader.png);
+  background-size: cover;
+  background-position: center; */
+}
+#preloader:before{
+  background-image: url(../assets/imgs/preloader.png);
+  background-position: left;
+
+}
+#preloader:after {
+  background-image: url(../assets/imgs/preloader.png);
+  background-position: right;
+  
+}
+#preloader:before,
+#preloader:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 50%;
+  height: 100%;
+  transition: all 0.3s ease 0s;
+  z-index: -1;
+  background-size: 200%;
+}
+
+
+#preloader:after {
+  left: auto;
+  right: 0;
+}
+
+#preloader .line {
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  width: 1px;
+  height: 280px;
+  transition: all 0.8s ease 0s;
+}
+
+#preloader .line:before {
+  content: "";
+  position: absolute;
+  background-color: #e5e5e5;
+  left: 0;
+  top: 50%;
+  width: 1px;
+  height: 0%;
+  transform: translateY(-50%);
+  animation: lineincrease 1000ms ease-in-out 0s forwards;
+}
+
+#preloader .line:after {
+  content: "";
+  position: absolute;
+  background-color: #e5e5e5;
+  left: 0;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  transform: translateY(-100%);
+  animation: linemove 1200ms linear 0s infinite;
+  animation-delay: 2000ms;
+}
+
+/* Slow down fade-out animation (adjust the duration as needed) */
+@keyframes preloaderfinish {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+
+}
+
+#preloader.loaded .line {
+  opacity: 0;
+  height: 100% !important;
+}
+
+#preloader.loaded .line:after {
+  opacity: 0;
+}
+
+#preloader.loaded:before,
+#preloader.loaded:after {
+  animation: preloaderfinish 300ms ease-in-out 700ms forwards;
+}
+
+@keyframes lineincrease {
+  0% {
+    height: 0%;
+  }
+
+  100% {
+    height: 100%;
+  }
+}
+
+@keyframes linemove {
+  0% {
+    transform: translateY(200%);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+
+
+
+
+
