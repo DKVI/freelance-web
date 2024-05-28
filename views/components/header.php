@@ -13,7 +13,7 @@
             </a>
         </div>
 
-        <div class="w-100 h-100 navlink-container d-flex animate-btn">
+        <div class="h-100 navlink-container d-flex animate-btn px-5" >
             <div class="m-auto">
                 <div class="collapse navbar-collapse" id="navResponsive">
                     <ul class="navbar-nav vn">
@@ -138,7 +138,10 @@
                                 <li><a class="dropdown-item"
                                         href="<?php echo BASE_URL . '/about#symbol-and-title-of-MSS' ?>">Our Mascot</a></li>
                                 <hr class="dropdown-divider">
-
+                                <li><a class="dropdown-item"
+                                        href="<?php echo BASE_URL . '/about#philosophy' ?>">Philosophy</a></li>
+                                <hr class="dropdown-divider">
+                                
                                 <li><a class="dropdown-item" href="<?php echo BASE_URL . '/about#MSS-team' ?>">MSS team</a></li>
                             </ul>
                         </li>

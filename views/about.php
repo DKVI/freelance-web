@@ -1,5 +1,8 @@
-<main id="ab-main" class="w-100">
-    <section id="a-message-from-our-founder" class="container section-active" style="padding-top:0">
+<main id="ab-main">
+    <section id="a-message-from-our-founder" class="container">
+    <!--Trick for making this section not behind the sticky bar-->
+    <p class="relative-anchor" style="height: 120px;"><span id="about-anchor"></span></p>
+    <!--Done trick/ CSS: ANCHOR TAG-->
         <div class="row mb-5">
             <img src="./assets/imgs/about-1.png" alt="founder-Vo-Son-Hoang" class="col-lg-4">
             <div class="col-lg-8">
@@ -57,6 +60,9 @@
         </div>
     </section>
     <section id="our-mission" class="our-mission background-full">
+    <!--Trick for making this section not behind the sticky bar-->
+    <p class="relative-anchor"><span id="about-anchor"></span></p>
+    <!--Done trick/ CSS: ANCHOR TAG-->
         <div class="container py-5 text-light" style="padding-right:60px; padding-left: 80px">
             <div class="title">
                 <div class="text-end vn">
@@ -65,21 +71,21 @@
                 </div>
                 <h1 class="eng text-center title">Our mission</h1>
             </div>
-            <div class="col-lg-8 vn shadow p-4" style="margin-top: -7rem; padding-left: 30px">
+            <div class="col-lg-8 vn shadow" style="margin-top: -7rem; padding-left: 30px">
                 <p>MSS ra đời với hy vọng huấn luyện học viên một cách chuyên nghiệp - đầy đủ, hỗ trợ thí sinh tránh gặp
                     các khó khăn trong hành trình chinh chiến tại các giải đấu moot từ trong nước đến nước ngoài. Với tư
                     cách là một dự án đào tạo chuyên nghiệp về mooting đầu tiên tại Việt Nam, MSS kỳ vọng có thể đem lại
                     cho học viên ba giá trị như sau:</p>
-                <ul style="list-style:none">
-                    <li>(i) Nắm vững kỹ năng thiết yếu để đạt hiệu quả cao khi tham gia các cuộc thi moot</li>
-                    <li>(ii) Xây dựng tư duy và thái độ phù hợp khi tham gia đấu moot</li>
-                    <li>(iii) Lan tỏa và phát triển tính cộng đồng trong mooting</li>
-                </ul>
+                <ol>
+                    <li>Nắm vững kỹ năng thiết yếu để đạt hiệu quả cao khi tham gia các cuộc thi moot</li>
+                    <li>Xây dựng tư duy và thái độ phù hợp khi tham gia đấu moot</li>
+                    <li>Lan tỏa và phát triển tính cộng đồng trong mooting</li>
+                </ol>
                 <p>MSS hy vọng đem lại cho học viên những giá trị cần thiết để thành công trong mooting, cũng như thúc
                     đẩy sự phát triển và kế thừa trong cộng đồng mooting ở Việt Nam.</p>
             </div>
             <div class="d-flex align-items-center justify-content-center ">
-                <div class="col-lg-8 eng shadow p-4" style="margin-top: 0;">
+                <div class="col-lg-8 eng shadow col-12" style="margin-top: 0;">
                     <p>In recent years, mooting has gained popularity in law schools over the last five years. However,
                         the moot community lacks generalization, systemization, and inheritance in its development.
                         Mooters are not typically professionally trained or led, resulting in many challenges and
@@ -87,7 +93,7 @@
                     <p>Given this context, MSS was established with the hope of laying the foundational bricks for the
                         sustainable development of the community. As the first professional training project in Vietnam,
                         MSS aims to provide its learners with three core values, as follows:</p>
-                    <ol style="list-style-type: lower-roman">
+                    <ol>
                         <li>To master foundational skills to achieve high efficiency when participating in mooting
                             competitions;</li>
                         <li>To build appropriate mindset, spirit, and attitude when participating in mooting;</li>
@@ -98,7 +104,10 @@
         </div>
     </section>
     <section id="symbol-and-title-of-MSS" class="mascot-motto background-full" style="padding-top:0; background-image: url(./assets/imgs/about-3-1.png)">
-        <div class="container" style="padding: 8rem 0 5rem">
+        <!--Trick for making this section not behind the sticky bar-->
+        <p class="relative-anchor"><span id="about-anchor"></span></p>
+        <!--Done trick/ CSS: ANCHOR TAG-->
+        <div class="container" style="padding: 0 0 5rem">
             <div class="title text-end px-5" >
                 <h1 class="vn">Biểu tượng</h1>
                 <h1 class="eng">Our Mascot</h1>
@@ -132,7 +141,10 @@
             
         </div>
     </section>
-    <section id="our-mission" class="position-relative overflow-x-hidden">
+    <section id="philosophy" class="position-relative overflow-x-hidden">
+        <!--Trick for making this section not behind the sticky bar-->
+        <p class="relative-anchor"><span id="about-anchor"></span></p>
+        <!--Done trick/ CSS: ANCHOR TAG-->
         <div class="position-absolute" style="top:30%; left:-180px">
             <div class="circle">
                 <div class="text">
@@ -147,7 +159,7 @@
                 </div>
             </div>
         </div>
-        <div class="container col-lg-6 px-5 ">
+        <div class="container col-lg-6 px-5">
             <div class="title">
                 <h1 class="text-center mt-5 vn">Triết lý</h1>
                 <h1 class="text-center mt-5 eng">Philosophy</h1>
@@ -180,12 +192,13 @@
     </section>
 
     <!-- About the MSS team -->
-    <section class="" id="services">
-        <div class="container">
-            <div class="text-center">
-                <h1 class="">Our amazing team</h1>
+    <section class="" id="MSS-team">
+        <p class="relative-anchor"><span id="about-anchor"></span></p>
+        <div class="container ">
+            <div class="text-center title">
+                <h1 class="">MSS team</h1>
             </div>
-            <div class="row text-center">
+            <div class="row text-center px-5">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <a href="#">
