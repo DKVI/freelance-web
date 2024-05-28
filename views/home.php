@@ -73,7 +73,7 @@ try {
         <div class="row mt-5">
             <div class="col-lg-6">
                 <h1 class="text-uppercase fw-bold display-3 ">PROJECT</h1>
-                <p>Mooting Summer School (“<strong> MSS</strong>”) is the first professional mooting training project in
+                <p>Mooting Summer School (<strong>MSS</strong>) is the first professional mooting training project in
                     Vietnam, founded and led by a former mooter who has been an active member of the community for over
                     half a decade, serving as a mooter, coach, speaker, and judge, both domestically and
                     internationally. </p>
