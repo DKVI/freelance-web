@@ -1,8 +1,6 @@
 <main id="ab-main">
     <section id="a-message-from-our-founder" class="container">
-    <!--Trick for making this section not behind the sticky bar-->
     <p class="relative-anchor" style="height: 120px;"><span id="about-anchor"></span></p>
-    <!--Done trick/ CSS: ANCHOR TAG-->
         <div class="row mb-5">
             <img src="./assets/imgs/about-1.png" alt="founder-Vo-Son-Hoang" class="col-lg-4">
             <div class="col-lg-8">
@@ -60,9 +58,7 @@
         </div>
     </section>
     <section id="our-mission" class="our-mission background-full">
-    <!--Trick for making this section not behind the sticky bar-->
     <p class="relative-anchor"><span id="about-anchor"></span></p>
-    <!--Done trick/ CSS: ANCHOR TAG-->
         <div class="container py-5 text-light" style="padding-right:60px; padding-left: 80px">
             <div class="title">
                 <div class="text-end vn">
@@ -104,18 +100,12 @@
         </div>
     </section>
     <section id="symbol-and-title-of-MSS" class="mascot-motto background-full" style="padding-top:0; background-image: url(./assets/imgs/about-3-1.png)">
-        <!--Trick for making this section not behind the sticky bar-->
         <p class="relative-anchor"><span id="about-anchor"></span></p>
-        <!--Done trick/ CSS: ANCHOR TAG-->
         <div class="container" style="padding: 0 0 5rem">
             <div class="title text-end px-5" >
                 <h1 class="vn">Biểu tượng</h1>
                 <h1 class="eng">Our Mascot</h1>
             </div>
-        
-            <!-- <div class=" col-lg-5 position-absolute background-full" style="left:0; top:0;z-index: 0">
-                <img src="./assets/imgs/about-3.png" alt="mss-bg" class="w-100">
-            </div> -->
             <div class="col-lg-6 offset-lg-6 px-5">
                 <div class="vn">
                     <p>Gryffin, hay còn gọi là “điểu sư” trong tiếng Việt, là một linh vật thần thoại có phần đầu, cánh, móng
@@ -142,9 +132,7 @@
         </div>
     </section>
     <section id="philosophy" class="position-relative overflow-x-hidden">
-        <!--Trick for making this section not behind the sticky bar-->
         <p class="relative-anchor"><span id="about-anchor"></span></p>
-        <!--Done trick/ CSS: ANCHOR TAG-->
         <div class="position-absolute" style="top:30%; left:-180px">
             <div class="circle">
                 <div class="text">

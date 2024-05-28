@@ -132,7 +132,7 @@ picture {
     margin-top: 0;
   }
   .menu-nav {
-    width: 40%;
+    width: 30%;
   }
 }
 .dropdown-menu {
@@ -241,7 +241,7 @@ h6 {
   background-color: #274069 !important;
 }
 .nav-link:hover {
-  color: #0a58ca !important;
+  color: #843d43 !important;
 }
 
 @media (min-width: 320px) and (max-width: 700px) {

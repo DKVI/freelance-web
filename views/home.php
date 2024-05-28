@@ -7,7 +7,7 @@ try {
 ?>
 
 
-<main id="home" class="position-relative px-5">
+<main id="home" class="position-relative px-5" style="margin-top: 12rem">
     <!-- MSS's Mascot - Griffin Background -->
     <div class="position-fixed d-flex justify-content-end" style="left: 0; right: 0; top: 0; bottom: 0; z-index: -1;">
         <div class="griffin" style=" width: 75%;">

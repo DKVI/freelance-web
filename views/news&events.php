@@ -18,11 +18,13 @@ $mainPost = Post::getById($conn, '48864jf325949f3553');
     </div>
 
     <!-- Main content -->
+
+    <p class="relative-anchor"><span id="about-anchor"></span></p>
     <div class="container py-5 p-lg-5 w-100">
         <div class="row justify-content-center min-vh-100 " style="gap: 16px">
-            <div class="col-lg-8 h-100 row shadow-lg rounded-3 eng">
+            <div class="col-lg-8 h-100 row shadow eng">
                 <div class="col-lg-12">
-                    <img src="./uploads/imgs/default.png" class="w-100">
+                    <img src="./uploads/imgs/default.png" class="w-100 rounded-3">
                 </div>
                 <div class="col-lg-5 p-4"><a href="<?php echo BASE_URL . '/about' ?>">
                         <h1 style="font-size: 50px">ABOUT M.S.S</h1>

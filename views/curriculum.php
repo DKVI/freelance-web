@@ -1,6 +1,8 @@
 <main id="curriculum" style="overflow:hidden" class="w-100">
 
-    <section id="what-is-mooting" class="container section-active" style="padding-top:0.7rem">
+    <section id="what-is-mooting" class="container section-active" >
+
+    <p class="relative-anchor"><span id="about-anchor"></span></p>
         <div class="title">
                 <h1>Mooting</h1>
                 <h2 style="font-size: 7rem; line-height: 3rem" class="vn">là gì?</h2>
@@ -11,7 +13,7 @@
             <div class="col-lg-6 d-flex align-items-end">
                 <div class="blue-rec-shape"></div>
             </div>
-            <div class="col-lg-6 px-5" style="margin-top: -15rem">
+            <div class="col-lg-6 px-5">
                 <div class="blue-rec-shape mb-4"></div>
                 <div class="vn">
                     <p>Mooting hay “phiên tòa giả định”, là hoạt động mô phỏng diễn án. Trong đó, mooter hay “người tham
