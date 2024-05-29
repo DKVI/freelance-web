@@ -2,7 +2,7 @@
     class="d-flex justify-content-end search-bar m-0 position-relative ">
     <input class="expand-none h-100 search-input form-control search-input" style="font-size: 16px" name="keyword"
         placeholder="Enter keyword" onblur="clearSearch()">
-    <button class="btn btn-search d-flex" type="submit"><i class="fa-solid fa-magnifying-glass m-0"></i></button>
+    <button class="btn btn-search d-flex justify-content-center align-items-center" type="submit"><i class="fa-solid fa-magnifying-glass m-0"></i></button>
     <div class="search-result w-100 position-absolute shadow p-3 rounded-3"
         style="background-color: white; top: calc(100% + 8px); left: 0;">
         <div class="w-100 keyword" style="font-size: 16px; color: #cccc">

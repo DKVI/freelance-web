@@ -1,6 +1,6 @@
 <main id="ab-main">
     <section id="a-message-from-our-founder" class="container">
-    <p class="relative-anchor" style="height: 120px;"><span id="about-anchor"></span></p>
+    <p class="relative-anchor" style="height:100px"><span id="about-anchor"></span></p>
         <div class="row mb-5">
             <img src="./assets/imgs/about-1.png" alt="founder-Vo-Son-Hoang" class="col-lg-4">
             <div class="col-lg-8">

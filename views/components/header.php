@@ -1,7 +1,7 @@
 <!-- NAVBAR -->
 <!-- LOGO AREA -->
-<div class="logo-area container-fluid fixed-top">
-    <nav class=" navbar navbar-expand-xl navbar-light fixed-top" id="mainNav">
+<div class="logo-area container-fluid">
+    <nav class=" navbar navbar-expand-xl navbar-light fixed-top d-flex justify-content-between" id="mainNav">
         <div class="menu-nav text-center d-flex justify-content-between align-items-center px-3">
             <a class="navbar-brand" href="<?php echo BASE_URL ?>/home">
                 <img src="././assets/imgs/small-logo.png" alt="MSS-logo" class="w-100">
@@ -13,7 +13,7 @@
             </a>
         </div>
 
-        <div class="h-100 navlink-container d-flex animate-btn px-5" style="padding-top: 30px;">
+        <div class="h-100 navlink-container d-flex animate-btn px-5" style="padding-top: 10px;">
             <div class="m-auto">
                 <div class="collapse navbar-collapse" id="navResponsive">
                     <ul class="navbar-nav vn">
@@ -231,9 +231,10 @@
     </nav>
 </div>
 <!-- NAVBAR -->
+
 <div class="d-flex flex-row-reverse fixed-top offset-lg-6 col-lg-6" style=" background-color: #e5e5e5; padding-top:10px; margin-top:0">
 
-    <div class="col-12 d-flex sm-md-subheader">
+    <div class="col-12 d-flex">
         <div class="w-75">
             <?php
             include "./views/components/searchBar.php";

@@ -1,16 +1,16 @@
 <main>
     <section id="about-the-program" class="section-active" style="margin-top: 10rem;">
         <div class="title text-light d-flex justify-content-start align-items-end" style="background-image: url(./assets/imgs/faq-1.png); min-height: 16rem">
-            <div class="container">
+            <div class="container px-5">
                 <h1 style="text-shadow: 4px 4px 8px rgba(0,0,0,0.6);">FAQ</h1>
             </div>
         </div>
-        <div class="title container mt-3">
+        <div class="title container mt-3 px-5">
             <h1 class="vn">Chương trình học</h1>
                 <h1 class="eng">Program</h1>
         </div>
         
-        <div class="container d-flex justify-content-center mt-3">
+        <div class="container d-flex justify-content-center mt-3 px-5">
             <div class='col-lg-8'>
                 <!-- question-->
                 <div class="faq-container">
@@ -322,11 +322,11 @@
     </section>
     <section id="about-class-rules" class="background-full" style="background-image: url(./assets/imgs/curriculum-13.png)">
         <img src="./assets/imgs/faq-2.png" alt="mss-team" class="w-100">
-        <div class="title container mt-4 text-light">
+        <div class="title container mt-4 text-light px-5">
             <h1 class="vn">Về nội quy trong lớp</h1>
             <h1 class="eng">Class rules</h1>
         </div>
-        <div class="container d-flex justify-content-center py-5">
+        <div class="container d-flex justify-content-center p-5">
             <div class='col-lg-8'>
                 <!-- question-->
                 <div class="faq-container">
@@ -521,7 +521,7 @@
         </div>
     </section>
     <section id="about-the-package" class="background-full d-flex justify-content-center align-items-end" style="background-image: url(./assets/imgs/faq-3.png); padding: 8rem 0">
-        <div class="container " >
+        <div class="container px-5 " >
             
                 <div class="title">
                     <h1 class="vn">Về gói học</h1>
@@ -612,7 +612,7 @@
         </div>
     </section>
     <section id="about-tuition-fees" class="backgroud-full background-full d-flex justify-content-center align-items-end" style="background-image: url(./assets/imgs/faq-4.png); padding-bottom: 60px">
-        <div class="container">
+        <div class="container px-5">
 
             <div class="title">
                 <h1 class="vn">Về học phí</h1>
@@ -739,14 +739,14 @@
             </div>
         </div>
     </section>
-    <section class="backgroud-full background-full d-flex justify-content-center align-items-end"  style="background-image: url(./assets/imgs/IMG_9036.JPG);">
-        <div class="container" style="padding-bottom: 6rem">
+    <section id="participant-prohibitions" class="backgroud-full background-full d-flex justify-content-center align-items-end"  style="background-image: url(./assets/imgs/IMG_9036.JPG);">
+        <div class="container px-5" style="padding-bottom: 6rem">
             <div class="title text-light text-center" style="text-shadow: 4px 4px 8px rgba(0,0,0,0.6); ">
-                <h1 class="vn" style="font-size: 7.5rem">Hành vi nghiêm cấm</h1>
-                <h1 class="eng " style="font-size: 7.5rem">Participant Prohibitions</h1>
+                <h1 class="vn">Hành vi nghiêm cấm</h1>
+                <h1 class="eng">Participant Prohibitions</h1>
             </div>
         
-            <div class="container col-lg-8 p-4" style="background-color: rgb(229, 229, 229,0.6); border-radius: 10px">
+            <div class="container col-lg-8" style="background-color: rgb(229, 229, 229,0.6); border-radius: 10px">
                 <div class="vn">
                     <p>Để đảm bảo khóa học có thể diễn ra một cách tốt nhất, MSS hy vọng các học viên sẽ không thực hiện một số hành
                     vi như sau:</p>
