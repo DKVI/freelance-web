@@ -232,9 +232,9 @@
 </div>
 <!-- NAVBAR -->
 
-<div class="d-flex flex-row-reverse fixed-top offset-lg-6 col-lg-6" style=" background-color: #e5e5e5; padding-top:10px; margin-top:0">
+<div class="d-flex flex-row-reverse fixed-top offset-lg-6 col-lg-6 container" style=" background-color: #e5e5e5; padding-top:10px; margin-top:0">
 
-    <div class="col-12 d-flex">
+    <div class="col-12 d-flex justify-content-end">
         <div class="w-75">
             <?php
             include "./views/components/searchBar.php";

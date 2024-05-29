@@ -612,9 +612,10 @@
         </div>
     </section>
     <section id="about-tuition-fees" class="backgroud-full background-full d-flex justify-content-center align-items-end" style="background-image: url(./assets/imgs/faq-4.png); padding-bottom: 60px">
+        <p class="relative-anchor" style="height:100px"><span id="about-anchor"></span></p>
         <div class="container px-5">
 
-            <div class="title">
+            <div class="title mt-5">
                 <h1 class="vn">Về học phí</h1>
                 <h1 class="eng">Tuition fees</h1>
             </div>
@@ -746,7 +747,7 @@
                 <h1 class="eng">Participant Prohibitions</h1>
             </div>
         
-            <div class="container col-lg-8" style="background-color: rgb(229, 229, 229,0.6); border-radius: 10px">
+            <div class="container col-lg-8 p-4" style="background-color: rgb(229, 229, 229,0.6); border-radius: 10px">
                 <div class="vn">
                     <p>Để đảm bảo khóa học có thể diễn ra một cách tốt nhất, MSS hy vọng các học viên sẽ không thực hiện một số hành
                     vi như sau:</p>

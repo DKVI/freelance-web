@@ -61,7 +61,7 @@ table * {
 *::after {
   box-sizing: border-box;
 }
-.shadow{
+.shadow {
   border-radius: 10px;
   padding: 1.5rem !important;
 }
@@ -111,7 +111,6 @@ section {
   transition: all 0.5s ease-in-out;
 }
 
-
 img,
 picture {
   max-width: 100%;
@@ -120,7 +119,7 @@ picture {
 .background-full {
   background-size: cover;
   min-height: 100vh;
-  background-position: center
+  background-position: center;
 }
 .main-text-color {
   color: #274069;
@@ -174,7 +173,6 @@ h6 {
   padding: 0;
   z-index: 4 !important;
   font-size: 1rem;
-
 }
 
 .header .navbar {
@@ -214,7 +212,6 @@ h6 {
   margin: auto;
 }
 @media (max-width: 1000px) {
-  
   .language {
     top: 0;
   }
@@ -307,8 +304,6 @@ h6 {
     opacity: 1;
   }
 }
-
-
 
 /* sticky social media bar */
 .fl-fl {
@@ -426,9 +421,14 @@ h6 {
 .mascot-motto h1 {
   font-size: 8.5rem;
 }
-#ab-main > h1{
+#ab-main > h1 {
   /* padding: 0 1.5rem; */
 }
+.ab-slogan {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+}
+
 /* -------------circle text animation (about page)----------- */
 .circle {
   position: relative;
@@ -475,12 +475,12 @@ h6 {
   background-color: #274069;
   bottom: 0;
 }
-#what-is-mooting .title h2{
-  font-size: 7rem; 
+#what-is-mooting .title h2 {
+  font-size: 7rem;
   line-height: 3rem;
 }
 #end-of-course-sessions .shadow {
-  margin-left: 60px
+  margin-left: 60px;
 }
 .moot-tournaments img {
   display: block;
@@ -586,13 +586,13 @@ table thead th {
 }
 
 /* ---------------FAQ------------------ */
-#about-class-rules{
+#about-class-rules {
   background-color: #274069;
 }
-#about-class-rules .faq-label{
+#about-class-rules .faq-label {
   box-shadow: 5px 5px 10px #6e7f99, -5px -5px 10px #586378;
 }
-#participant-prohibitions .title h1{
+#participant-prohibitions .title h1 {
   font-size: 7.5rem;
 }
 .faq-label {
@@ -631,11 +631,11 @@ table thead th {
   height: 0;
   border-radius: 6px;
   /* color: rgba(127, 121, 121, 1); */
-  color:#274069;
+  color: #274069;
   overflow: hidden;
 }
 
-.faq-answer-content p a:hover{
+.faq-answer-content p a:hover {
   color: #843d43;
   font-weight: bold;
 }
@@ -679,9 +679,8 @@ table thead th {
 
 /* ------------FOOTER----------- */
 
-footer{
+footer {
   background-color: #274069;
-
 }
 
 /*--------------------------------------------------------------
@@ -696,7 +695,6 @@ footer{
   z-index: 99999;
 }
 
-
 #preloader:before,
 #preloader:after {
   content: "";
@@ -710,7 +708,7 @@ footer{
   transition: all 0.3s ease 0s;
   z-index: -1;
 }
-#preloader:before{
+#preloader:before {
   background-position: left;
 }
 #preloader:after {
@@ -797,17 +795,18 @@ footer{
   }
 }
 /*---ANCHOR TAG----*/
-.relative-anchor{
-  position:relative;
+.relative-anchor {
+  position: relative;
   height: 80px;
 }
-.relative-anchor span{ 
-  position:absolute; top:-200px;
+.relative-anchor span {
+  position: absolute;
+  top: -200px;
 }
 /* ----------------------------------------------------------------- */
 /* ---Responsive background for small device (tablet & mobile)-----*/
 
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
   #preloader:before,
   #preloader:after {
     background-image: url(../assets/imgs/preloader-mobile.png);
@@ -815,28 +814,34 @@ footer{
   .title h1 {
     font-size: 4rem !important;
   }
-  #what-is-mooting .title h2{
-    font-size: 5rem; 
-    line-height: 2rem
+  .ab-slogan{
+    font-size: 1.5rem;
+    padding: 20px 0 10px;
   }
-  #what-is-mooting .title h1{
-    font-size: 6rem; 
+  #what-is-mooting .title h2 {
+    font-size: 5rem;
+    line-height: 2rem;
   }
-  .hideBlue{
+  #what-is-mooting .title h1 {
+    font-size: 6rem;
+  }
+  .hideBlue {
     display: none;
   }
-  #what-is-mooting .title{
+  #what-is-mooting .title {
     margin-bottom: 20px;
   }
   #end-of-course-sessions .shadow {
     margin-left: 0;
   }
+  .menu-nav {
+    padding-top: 40px;
+  }
+  .circle {
+    transform: scale(0.6);
+    opacity: 0.6;
+  }
+  .philosophy-text{
+    text-shadow: 4px 4px 8px rgba(0,0,0,0.3);
+  }
 }
-
-
-
-
-
-
-
-

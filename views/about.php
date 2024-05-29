@@ -152,36 +152,36 @@
                 <h1 class="text-center mt-5 vn">Triết lý</h1>
                 <h1 class="text-center mt-5 eng">Philosophy</h1>
             </div>
-
-            <strong style="font-family: 'Times New Roman', Times, serif; font-size: 2rem"><em> Non est ad astra mollis e
-                    terris
-                    via</em></strong>
-            <p class="text-end" style="font-family: 'Times New Roman', Times, serif;"><em> - Megara, Hercales Furens của
-                    Seneca, dòng 437</em></p>
-            <p class="vn text-center"><em>*Tạm dịch: “Chẳng có con đường nào dễ dàng để vươn tới những vì sao”</em></p>
-            <p class="vn">Để hái được ngôi sao may mắn về các lợi ích mà Mooting đem lại, các mooter phải trải qua rất
-                nhiều khó khăn, thậm chí là thất bại hết lần này đến lần khác. </p>
-            <p class="vn">MSS chọn đây là triết lý của dự án, để nhắc nhở chính mình về sứ mệnh xây dựng một bước đệm
-                nền tảng cho các học viên tiếp tục hành trình chinh phục mooting. Đồng thời, thông qua triết lý này, MSS
-                cũng muốn nhắn nhủ đến các học viên rằng chặng đường với mooting còn dài và khó khăn, vì thế đừng chủ
-                quan nhưng cũng đừng nản lòng. Sau tất cả, MSS tin rằng bạn sẽ luôn nhận được giá trị xứng đáng với
-                những gì đã bỏ ra.</p>
-            <p class="eng"><em>“Non est ad astra mollis e terris via”</em>, roughly translated as <em>"There is no easy
-                    path from the earth to the stars"</em>, seems to be a fitting metaphor for the challenges one faces
-                in mooting. Because indeed, mooting can become a "lucky star" and positively change someone's future in
-                the legal profession. However, to harvest such a star, mooters must endure many difficulties, even
-                failures time and time again. MSS chooses this as the project's philosophy, firstly to remind itself of
-                the mission to lay a foundational stepping stone for students to continue their journey in conquering
-                mooting. Moreover, through this philosophy, MSS also wants to convey to students that the path with
-                mooting is arduous and lengthy, so they should remain determined, yet not be discouraged. After all, MSS
-                believes that you will always gain the deserved value from this journey for the effort you’ve put in.
-            </p>
+            
+            <p class="ab-slogan"><strong><em> Non est ad astra mollis e terris via</em></strong></p>
+            <p class="text-end vn" style="font-family: 'Times New Roman', Times, serif;"><em> - Megara, Hercales Furens của Seneca, dòng 437</em></p>
+            <p class="text-end rng" style="font-family: 'Times New Roman', Times, serif;"><em> - Megara, Hercales Furens of Seneca, line 437</em></p>
+            <div class="philosophy-text">
+                <p class="vn text-center"><em>*Tạm dịch: “Chẳng có con đường nào dễ dàng để vươn tới những vì sao”</em></p>
+                <p class="vn">Để hái được ngôi sao may mắn về các lợi ích mà Mooting đem lại, các mooter phải trải qua rất
+                    nhiều khó khăn, thậm chí là thất bại hết lần này đến lần khác. </p>
+                <p class="vn">MSS chọn đây là triết lý của dự án, để nhắc nhở chính mình về sứ mệnh xây dựng một bước đệm
+                    nền tảng cho các học viên tiếp tục hành trình chinh phục mooting. Đồng thời, thông qua triết lý này, MSS
+                    cũng muốn nhắn nhủ đến các học viên rằng chặng đường với mooting còn dài và khó khăn, vì thế đừng chủ
+                    quan nhưng cũng đừng nản lòng. Sau tất cả, MSS tin rằng bạn sẽ luôn nhận được giá trị xứng đáng với
+                    những gì đã bỏ ra.</p>
+                <p class="eng"><em>“Non est ad astra mollis e terris via”</em>, roughly translated as <em>"There is no easy
+                        path from the earth to the stars"</em>, seems to be a fitting metaphor for the challenges one faces
+                    in mooting. Because indeed, mooting can become a "lucky star" and positively change someone's future in
+                    the legal profession. However, to harvest such a star, mooters must endure many difficulties, even
+                    failures time and time again. MSS chooses this as the project's philosophy, firstly to remind itself of
+                    the mission to lay a foundational stepping stone for students to continue their journey in conquering
+                    mooting. Moreover, through this philosophy, MSS also wants to convey to students that the path with
+                    mooting is arduous and lengthy, so they should remain determined, yet not be discouraged. After all, MSS
+                    believes that you will always gain the deserved value from this journey for the effort you’ve put in.
+                </p>
+            </div>
         </div>
     </section>
 
     <!-- About the MSS team -->
-    <section class="" id="MSS-team">
-        <p class="relative-anchor"><span id="about-anchor"></span></p>
+    <section class="mb-5" id="MSS-team">
+        <p class="relative-anchor" style="height: 100px"><span id="about-anchor"></span></p>
         <div class="container ">
             <div class="text-center title">
                 <h1 class="">MSS team</h1>
