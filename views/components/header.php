@@ -136,13 +136,15 @@
                                         Mission</a></li>
                                 <hr class="dropdown-divider">
                                 <li><a class="dropdown-item"
-                                        href="<?php echo BASE_URL . '/about#symbol-and-title-of-MSS' ?>">Our Mascot</a></li>
+                                        href="<?php echo BASE_URL . '/about#symbol-and-title-of-MSS' ?>">Our Mascot</a>
+                                </li>
                                 <hr class="dropdown-divider">
                                 <li><a class="dropdown-item"
                                         href="<?php echo BASE_URL . '/about#philosophy' ?>">Philosophy</a></li>
                                 <hr class="dropdown-divider">
-                                
-                                <li><a class="dropdown-item" href="<?php echo BASE_URL . '/about#MSS-team' ?>">MSS team</a></li>
+
+                                <li><a class="dropdown-item" href="<?php echo BASE_URL . '/about#MSS-team' ?>">MSS
+                                        team</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -232,7 +234,8 @@
 </div>
 <!-- NAVBAR -->
 
-<div class="d-flex flex-row-reverse fixed-top offset-lg-6 col-lg-6 container" style=" background-color: #e5e5e5; padding-top:10px; margin-top:0">
+<div class="d-flex flex-row-reverse fixed-top offset-lg-6 col-lg-6 container"
+    style=" background-color: #e5e5e5; padding-top:10px; margin-top:0">
 
     <div class="col-12 d-flex justify-content-end">
         <div class="w-75">
@@ -272,7 +275,7 @@
     </div>
     <div class="fl-fl">
         <i class="fa fa-solid fa-address-card"></i>
-        <a href="#" target="_blank" class="">Contact us!</a>
+        <a target="_blank" class="go-down-btn">Contact us!</a>
     </div>
 </div>
 <!-- Floating Social Media bar Ends -->
@@ -288,13 +291,19 @@ navBtn.on("mouseout", function(e) {
     navlinkContainer.css("opacity", "0");
 });
 
+const goDownBtn = document.querySelector(".go-down-btn");
+console.log(goDownBtn);
+goDownBtn.onclick = (e) => {
+    window.scrollTo(0, document.body.scrollHeight);
+}
 const langBtn = document.querySelectorAll(".language a");
 const vnBtn = langBtn[0];
 const engBtn = langBtn[1];
 const handleChangLang = async (param) => {
-    await fetch("<?php echo BASE_URL ?>/controllers/handleChangeLanguage.php?lang=" + param).then(() => {
-        console.log("true");
-    });
+    await fetch("<?php echo BASE_URL ?>/controllers/handleChangeLanguage.php?lang=" + param).then(
+        () => {
+            console.log("true");
+        });
 }
 vnBtn.onclick = (e) => {
     handleChangLang('vn');
