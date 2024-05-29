@@ -19,140 +19,140 @@
 </form>
 
 <script>
-//Khung dữ liệu của search
-const searchContainer = document.querySelector(".search-container ul");
-//Thẻ input dùng để search
-const searchInput = document.querySelector(".search-input");
-//Lấy ra dữ liệu khi truyền keyword
-const keyword = document.querySelector(".keyword");
-const searchResult = document.querySelector(".search-result");
-const searchBtn = document.querySelector(".btn-search");
-const showMoreBtn = document.querySelector(".show-more-btn");
-searchResult.style.display = "none";
-const searchBar = document.querySelector(".search-bar");
-const checkInput = (e) => {
-    if (searchInput.value === "") {
-        return false;
+    //Khung dữ liệu của search
+    const searchContainer = document.querySelector(".search-container ul");
+    //Thẻ input dùng để search
+    const searchInput = document.querySelector(".search-input");
+    //Lấy ra dữ liệu khi truyền keyword
+    const keyword = document.querySelector(".keyword");
+    const searchResult = document.querySelector(".search-result");
+    const searchBtn = document.querySelector(".btn-search");
+    const showMoreBtn = document.querySelector(".show-more-btn");
+    searchResult.style.display = "none";
+    const searchBar = document.querySelector(".search-bar");
+    const checkInput = (e) => {
+        if (searchInput.value === "") {
+            return false;
+        }
+        return true;
     }
-    return true;
-}
-searchBar.onsubmit = (e) => {
-    if (checkInput()) {
+    searchBar.onsubmit = (e) => {
+        if (checkInput()) {
+            searchBar.submit();
+        } else {
+            alert("Please enter keyword");
+            clearBlurEvent();
+            e.preventDefault();
+        }
+    }
+    showMoreBtn.onclick = () => {
         searchBar.submit();
-    } else {
-        alert("Please enter keyword");
-        clearBlurEvent();
-        e.preventDefault();
     }
-}
-showMoreBtn.onclick = () => {
-    searchBar.submit();
-}
-//Lấy dữ liệu từ file handleSearch file này sẽ trả về dữ liệu từ db và đây là 1 hành động bất đồng bộ
-//Do phải đọc file nên JS sẽ chuyển hành động này qua 1 vùng nhớ khác do đó phải sử dụng promise và async await để đồng bộ hành vi
-const getPostByKeyWord = (keyword) => {
-    return new Promise(async (resolve, reject) => {
-        await fetch(`<?php echo BASE_URL ?>/controllers/handleSearch.php?keyword=${keyword}`)
-            .then(
-                res =>
-                resolve(res.json())).catch(err => reject(err));
-    });
-}
-//render nội dung khung search 
-const handleRender = (data) => {
-    let html = '';
-    Array.from(data).forEach((element, index) => {
-        if (index <= 2) {
-            html += `<li class="w-100">
-                <a onclick="clearBlurEvent()" class="w-100 p-2 d-flex justify-content-between" href="<?php echo BASE_URL ?>${element.path}" style="height: 60px; cursor: pointer">
-                    <div class="h-100 w-25"><img class="h-100" src="<?php echo BASE_URL ?>/uploads/imgs/${element.fileImg}" alt=""></div>
+    //Lấy dữ liệu từ file handleSearch file này sẽ trả về dữ liệu từ db và đây là 1 hành động bất đồng bộ
+    //Do phải đọc file nên JS sẽ chuyển hành động này qua 1 vùng nhớ khác do đó phải sử dụng promise và async await để đồng bộ hành vi
+    const getPostByKeyWord = (keyword) => {
+        return new Promise(async (resolve, reject) => {
+            await fetch(`<?php echo BASE_URL ?>/controllers/handleSearch.php?keyword=${keyword}`)
+                .then(
+                    res =>
+                    resolve(res.json())).catch(err => reject(err));
+        });
+    }
+    //render nội dung khung search 
+    const handleRender = (data) => {
+        let html = '';
+        Array.from(data).forEach((element, index) => {
+            if (index <= 2) {
+                html += `<li class="w-100">
+                <a onclick="clearBlurEvent()" class="w-100 py-2 d-flex justify-content-between" href="<?php echo BASE_URL ?>${element.path}" style="height: 60px; cursor: pointer">
+                    <div class="h-100 py-sm-2 p-lg-0 p-md-0" style="width: 20%"><div class="h-100 w-100" style="background-image:url('<?php echo BASE_URL ?>/uploads/imgs/${element.fileImg}'); background-size: cover; background-position: center"></div></div>
                     <div class="w-75 d-flex flex-column ">
                         <div class="w-100" style="overflow: hidden;
                                         text-overflow: ellipsis;
                                         white-space: nowrap;">
                             ${element.title}
                         </div>
-                        <div style="font-size: 12px">20 minues read</div>
+                        <div style="font-size: 12px"> ${element.readTimes} minues read</div>
                     </div>
                 </a>
             </li>`;
-        }
-    })
-    searchContainer.innerHTML = html;
-}
-
-const handleChangeKeyword = (text) => {
-    keyword.innerHTML = `Search for "${text}"`;
-}
-//render lại sau khi nhập từ mới 
-searchInput.oninput = async (e) => {
-    searchResult.style.display = "block";
-    if (e.target.value === '') {
-        searchContainer.innerHTML = "";
+            }
+        })
+        searchContainer.innerHTML = html;
     }
-    const data = await getPostByKeyWord(e.target.value);
-    handleChangeKeyword(e.target.value);
-    handleRender(data);
-}
+
+    const handleChangeKeyword = (text) => {
+        keyword.innerHTML = `Search for "${text}"`;
+    }
+    //render lại sau khi nhập từ mới 
+    searchInput.oninput = async (e) => {
+        searchResult.style.display = "block";
+        if (e.target.value === '') {
+            searchContainer.innerHTML = "";
+        }
+        const data = await getPostByKeyWord(e.target.value);
+        handleChangeKeyword(e.target.value);
+        handleRender(data);
+    }
 
 
 
-//khi ấn ra ngoài khỏi input sẽ tắt khung search
-const clearSearch = () => {
-    searchResult.style.display = "none";
-}
+    //khi ấn ra ngoài khỏi input sẽ tắt khung search
+    const clearSearch = () => {
+        searchResult.style.display = "none";
+    }
 
-searchBtn.addEventListener("mouseover", function() {
-    searchInput.focus();
-    searchInput.classList.add("expanded");
-    searchInput.classList.remove("expand-none");
-});
+    searchBtn.addEventListener("mouseover", function() {
+        searchInput.focus();
+        searchInput.classList.add("expanded");
+        searchInput.classList.remove("expand-none");
+    });
 
-searchResult.addEventListener("mouseover", function() {
-    clearBlurEvent();
-})
+    searchResult.addEventListener("mouseover", function() {
+        clearBlurEvent();
+    })
 
-searchResult.addEventListener("mouseout", function() {
-    blurEvent();
-});
-searchInput.onblur = function() {
-    searchInput.classList.remove("expanded");
-    searchInput.classList.add("expand-none");
-    searchResult.style.display = "none";
-    searchInput.value = "";
-};
-
-function blurEvent() {
+    searchResult.addEventListener("mouseout", function() {
+        blurEvent();
+    });
     searchInput.onblur = function() {
         searchInput.classList.remove("expanded");
         searchInput.classList.add("expand-none");
         searchResult.style.display = "none";
+        searchInput.value = "";
     };
-}
+
+    function blurEvent() {
+        searchInput.onblur = function() {
+            searchInput.classList.remove("expanded");
+            searchInput.classList.add("expand-none");
+            searchResult.style.display = "none";
+        };
+    }
 
 
-function clearBlurEvent() {
-    searchInput.onblur = function() {
-        searchInput.classList.add("expanded");
-        searchInput.classList.remove("expand-none");
-        searchResult.style.display = "block";
-    };
-}
+    function clearBlurEvent() {
+        searchInput.onblur = function() {
+            searchInput.classList.add("expanded");
+            searchInput.classList.remove("expand-none");
+            searchResult.style.display = "block";
+        };
+    }
 </script>
 
 
 <style>
-.search-input {
-    transition: all 0.8s ease-in-out;
-}
+    .search-input {
+        transition: all 0.8s ease-in-out;
+    }
 
-.expand-none {
-    opacity: 0;
-    width: 0;
-}
+    .expand-none {
+        opacity: 0;
+        width: 0;
+    }
 
-.expanded {
-    opacity: 1;
-    width: 100%;
-}
+    .expanded {
+        opacity: 1;
+        width: 100%;
+    }
 </style>

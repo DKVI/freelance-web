@@ -1,6 +1,5 @@
 <?php
-$newsList = Post::getByType($conn, 'news', 2);
-$eventList = Post::getByType($conn, 'event', 2);
+$lastestPost = Post::getLastestNewsEvent($conn, 4);
 $mainPost = Post::getById($conn, '48864jf325949f3553');
 ?>
 
@@ -69,38 +68,21 @@ $mainPost = Post::getById($conn, '48864jf325949f3553');
                 </h3>
                 <div class="d-flex flex-column justify-content-start" style="color: white; height: 90%">
                     <?php
-                    foreach ($newsList as $news) {
+                    foreach ($lastestPost as $post) {
                         echo '
-                        <a href="' . BASE_URL . $news->path . '" class="w-100 h-25 py-4 px-3" style="border-top: 1px solid white; color: white">
+                        <a href="' . BASE_URL . $post->path . '" class="w-100 h-25 py-4 px-3" style="border-top: 1px solid white; color: white">
                             <h4 style="overflow: hidden;
                                             text-overflow: ellipsis;
-                                            white-space: nowrap;">' . $news->title . '</h4>
+                                            white-space: nowrap;">' . $post->title . '</h4>
                             <p  style="display: -webkit-box; 
                                 -webkit-line-clamp: 2;
                                 -webkit-box-orient: vertical;
                                 overflow: hidden;
                                 text-overflow: ellipsis; font-size: 16px">
-                                ' . clearSpecialSymbols($news->content) . '
+                                ' . clearSpecialSymbols($post->content) . '
                     </p>
                     <p
-                        style="font-size: 14px">' . convertDate($news->date) . " - " . $news->readTimes . " minutes read" . '</p>
-                </a>';
-                    }
-                    foreach ($eventList as $event) {
-                        echo '
-                        <a href="' . BASE_URL . $event->path . '" class="w-100 h-25 py-4 px-3" style="border-top: 1px solid white; color: white">
-                            <h4 style="overflow: hidden;
-                                            text-overflow: ellipsis;
-                                            white-space: nowrap;">' . $event->title . '</h4>
-                            <p class="" style="display: -webkit-box;
-                                -webkit-line-clamp: 2;
-                                -webkit-box-orient: vertical;
-                                overflow: hidden;
-                                text-overflow: ellipsis; font-size: 16px; text-align: left">
-                                ' . clearSpecialSymbols($event->content) . '
-                    </p>
-                    <p
-                        style="font-size: 14px">' . convertDate($event->date) . " - " . $event->readTimes . " minutes read" . '</p>
+                        style="font-size: 14px">' . convertDate($post->date) . " - " . $post->readTimes . " minutes read" . '</p>
                 </a>';
                     }
                     ?>
