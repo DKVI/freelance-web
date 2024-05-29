@@ -1,5 +1,6 @@
-<main id="ab-main" class="w-100">
-    <section id="a-message-from-our-founder" class="container section-active" style="padding-top:0">
+<main id="ab-main">
+    <section id="a-message-from-our-founder" class="container">
+    <p class="relative-anchor" style="height:100px"><span id="about-anchor"></span></p>
         <div class="row mb-5">
             <img src="./assets/imgs/about-1.png" alt="founder-Vo-Son-Hoang" class="col-lg-4">
             <div class="col-lg-8">
@@ -57,6 +58,7 @@
         </div>
     </section>
     <section id="our-mission" class="our-mission background-full">
+    <p class="relative-anchor"><span id="about-anchor"></span></p>
         <div class="container py-5 text-light" style="padding-right:60px; padding-left: 80px">
             <div class="title">
                 <div class="text-end vn">
@@ -65,21 +67,21 @@
                 </div>
                 <h1 class="eng text-center title">Our mission</h1>
             </div>
-            <div class="col-lg-8 vn shadow p-4" style="margin-top: -7rem; padding-left: 30px">
+            <div class="col-lg-8 vn shadow" style="margin-top: -7rem; padding-left: 30px">
                 <p>MSS ra đời với hy vọng huấn luyện học viên một cách chuyên nghiệp - đầy đủ, hỗ trợ thí sinh tránh gặp
                     các khó khăn trong hành trình chinh chiến tại các giải đấu moot từ trong nước đến nước ngoài. Với tư
                     cách là một dự án đào tạo chuyên nghiệp về mooting đầu tiên tại Việt Nam, MSS kỳ vọng có thể đem lại
                     cho học viên ba giá trị như sau:</p>
-                <ul style="list-style:none">
-                    <li>(i) Nắm vững kỹ năng thiết yếu để đạt hiệu quả cao khi tham gia các cuộc thi moot</li>
-                    <li>(ii) Xây dựng tư duy và thái độ phù hợp khi tham gia đấu moot</li>
-                    <li>(iii) Lan tỏa và phát triển tính cộng đồng trong mooting</li>
-                </ul>
+                <ol>
+                    <li>Nắm vững kỹ năng thiết yếu để đạt hiệu quả cao khi tham gia các cuộc thi moot</li>
+                    <li>Xây dựng tư duy và thái độ phù hợp khi tham gia đấu moot</li>
+                    <li>Lan tỏa và phát triển tính cộng đồng trong mooting</li>
+                </ol>
                 <p>MSS hy vọng đem lại cho học viên những giá trị cần thiết để thành công trong mooting, cũng như thúc
                     đẩy sự phát triển và kế thừa trong cộng đồng mooting ở Việt Nam.</p>
             </div>
             <div class="d-flex align-items-center justify-content-center ">
-                <div class="col-lg-8 eng shadow p-4" style="margin-top: 0;">
+                <div class="col-lg-8 eng shadow col-12" style="margin-top: 0;">
                     <p>In recent years, mooting has gained popularity in law schools over the last five years. However,
                         the moot community lacks generalization, systemization, and inheritance in its development.
                         Mooters are not typically professionally trained or led, resulting in many challenges and
@@ -87,7 +89,7 @@
                     <p>Given this context, MSS was established with the hope of laying the foundational bricks for the
                         sustainable development of the community. As the first professional training project in Vietnam,
                         MSS aims to provide its learners with three core values, as follows:</p>
-                    <ol style="list-style-type: lower-roman">
+                    <ol>
                         <li>To master foundational skills to achieve high efficiency when participating in mooting
                             competitions;</li>
                         <li>To build appropriate mindset, spirit, and attitude when participating in mooting;</li>
@@ -98,15 +100,12 @@
         </div>
     </section>
     <section id="symbol-and-title-of-MSS" class="mascot-motto background-full" style="padding-top:0; background-image: url(./assets/imgs/about-3-1.png)">
-        <div class="container" style="padding: 8rem 0 5rem">
+        <p class="relative-anchor"><span id="about-anchor"></span></p>
+        <div class="container" style="padding: 0 0 5rem">
             <div class="title text-end px-5" >
                 <h1 class="vn">Biểu tượng</h1>
                 <h1 class="eng">Our Mascot</h1>
             </div>
-        
-            <!-- <div class=" col-lg-5 position-absolute background-full" style="left:0; top:0;z-index: 0">
-                <img src="./assets/imgs/about-3.png" alt="mss-bg" class="w-100">
-            </div> -->
             <div class="col-lg-6 offset-lg-6 px-5">
                 <div class="vn">
                     <p>Gryffin, hay còn gọi là “điểu sư” trong tiếng Việt, là một linh vật thần thoại có phần đầu, cánh, móng
@@ -132,7 +131,8 @@
             
         </div>
     </section>
-    <section id="our-mission" class="position-relative overflow-x-hidden">
+    <section id="philosophy" class="position-relative overflow-x-hidden">
+        <p class="relative-anchor"><span id="about-anchor"></span></p>
         <div class="position-absolute" style="top:30%; left:-180px">
             <div class="circle">
                 <div class="text">
@@ -147,45 +147,46 @@
                 </div>
             </div>
         </div>
-        <div class="container col-lg-6 px-5 ">
+        <div class="container col-lg-6 px-5">
             <div class="title">
                 <h1 class="text-center mt-5 vn">Triết lý</h1>
                 <h1 class="text-center mt-5 eng">Philosophy</h1>
             </div>
-
-            <strong style="font-family: 'Times New Roman', Times, serif; font-size: 2rem"><em> Non est ad astra mollis e
-                    terris
-                    via</em></strong>
-            <p class="text-end" style="font-family: 'Times New Roman', Times, serif;"><em> - Megara, Hercales Furens của
-                    Seneca, dòng 437</em></p>
-            <p class="vn text-center"><em>*Tạm dịch: “Chẳng có con đường nào dễ dàng để vươn tới những vì sao”</em></p>
-            <p class="vn">Để hái được ngôi sao may mắn về các lợi ích mà Mooting đem lại, các mooter phải trải qua rất
-                nhiều khó khăn, thậm chí là thất bại hết lần này đến lần khác. </p>
-            <p class="vn">MSS chọn đây là triết lý của dự án, để nhắc nhở chính mình về sứ mệnh xây dựng một bước đệm
-                nền tảng cho các học viên tiếp tục hành trình chinh phục mooting. Đồng thời, thông qua triết lý này, MSS
-                cũng muốn nhắn nhủ đến các học viên rằng chặng đường với mooting còn dài và khó khăn, vì thế đừng chủ
-                quan nhưng cũng đừng nản lòng. Sau tất cả, MSS tin rằng bạn sẽ luôn nhận được giá trị xứng đáng với
-                những gì đã bỏ ra.</p>
-            <p class="eng"><em>“Non est ad astra mollis e terris via”</em>, roughly translated as <em>"There is no easy
-                    path from the earth to the stars"</em>, seems to be a fitting metaphor for the challenges one faces
-                in mooting. Because indeed, mooting can become a "lucky star" and positively change someone's future in
-                the legal profession. However, to harvest such a star, mooters must endure many difficulties, even
-                failures time and time again. MSS chooses this as the project's philosophy, firstly to remind itself of
-                the mission to lay a foundational stepping stone for students to continue their journey in conquering
-                mooting. Moreover, through this philosophy, MSS also wants to convey to students that the path with
-                mooting is arduous and lengthy, so they should remain determined, yet not be discouraged. After all, MSS
-                believes that you will always gain the deserved value from this journey for the effort you’ve put in.
-            </p>
+            
+            <p class="ab-slogan"><strong><em> Non est ad astra mollis e terris via</em></strong></p>
+            <p class="text-end vn" style="font-family: 'Times New Roman', Times, serif;"><em> - Megara, Hercales Furens của Seneca, dòng 437</em></p>
+            <p class="text-end rng" style="font-family: 'Times New Roman', Times, serif;"><em> - Megara, Hercales Furens of Seneca, line 437</em></p>
+            <div class="philosophy-text">
+                <p class="vn text-center"><em>*Tạm dịch: “Chẳng có con đường nào dễ dàng để vươn tới những vì sao”</em></p>
+                <p class="vn">Để hái được ngôi sao may mắn về các lợi ích mà Mooting đem lại, các mooter phải trải qua rất
+                    nhiều khó khăn, thậm chí là thất bại hết lần này đến lần khác. </p>
+                <p class="vn">MSS chọn đây là triết lý của dự án, để nhắc nhở chính mình về sứ mệnh xây dựng một bước đệm
+                    nền tảng cho các học viên tiếp tục hành trình chinh phục mooting. Đồng thời, thông qua triết lý này, MSS
+                    cũng muốn nhắn nhủ đến các học viên rằng chặng đường với mooting còn dài và khó khăn, vì thế đừng chủ
+                    quan nhưng cũng đừng nản lòng. Sau tất cả, MSS tin rằng bạn sẽ luôn nhận được giá trị xứng đáng với
+                    những gì đã bỏ ra.</p>
+                <p class="eng"><em>“Non est ad astra mollis e terris via”</em>, roughly translated as <em>"There is no easy
+                        path from the earth to the stars"</em>, seems to be a fitting metaphor for the challenges one faces
+                    in mooting. Because indeed, mooting can become a "lucky star" and positively change someone's future in
+                    the legal profession. However, to harvest such a star, mooters must endure many difficulties, even
+                    failures time and time again. MSS chooses this as the project's philosophy, firstly to remind itself of
+                    the mission to lay a foundational stepping stone for students to continue their journey in conquering
+                    mooting. Moreover, through this philosophy, MSS also wants to convey to students that the path with
+                    mooting is arduous and lengthy, so they should remain determined, yet not be discouraged. After all, MSS
+                    believes that you will always gain the deserved value from this journey for the effort you’ve put in.
+                </p>
+            </div>
         </div>
     </section>
 
     <!-- About the MSS team -->
-    <section class="" id="services">
-        <div class="container">
-            <div class="text-center">
-                <h1 class="">Our amazing team</h1>
+    <section class="mb-5" id="MSS-team">
+        <p class="relative-anchor" style="height: 100px"><span id="about-anchor"></span></p>
+        <div class="container ">
+            <div class="text-center title">
+                <h1 class="">MSS team</h1>
             </div>
-            <div class="row text-center">
+            <div class="row text-center px-5">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <a href="#">

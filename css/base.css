@@ -61,7 +61,10 @@ table * {
 *::after {
   box-sizing: border-box;
 }
-
+.shadow {
+  border-radius: 10px;
+  padding: 1.5rem !important;
+}
 
 a {
   color: #274069;
@@ -108,11 +111,6 @@ section {
   transition: all 0.5s ease-in-out;
 }
 
-main {
-  margin-top: 12rem;
-  min-height: 80vh;
-}
-
 img,
 picture {
   max-width: 100%;
@@ -121,7 +119,7 @@ picture {
 .background-full {
   background-size: cover;
   min-height: 100vh;
-  background-position: center
+  background-position: center;
 }
 .main-text-color {
   color: #274069;
@@ -133,7 +131,7 @@ picture {
     margin-top: 0;
   }
   .menu-nav {
-    width: 40%;
+    width: 30%;
   }
 }
 .dropdown-menu {
@@ -167,16 +165,14 @@ h6 {
 }
 /* --------HEADER SECTION---------- */
 .logo-area {
-  min-height: 8rem;
   z-index: 2 !important;
 }
 .header nav {
-  min-height: 8rem;
+  min-height: 7rem;
   margin: 0;
   padding: 0;
   z-index: 4 !important;
   font-size: 1rem;
-
 }
 
 .header .navbar {
@@ -186,7 +182,7 @@ h6 {
 
 .header .menu-nav {
   font-family: BookMan;
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 
 .header .navbar-nav ul {
@@ -208,7 +204,7 @@ h6 {
 }
 .header .language {
   justify-content: end;
-  padding: 0 32px;
+  /* padding: 0 32px; */
 }
 .header .lang-flag {
   width: 20px;
@@ -216,9 +212,6 @@ h6 {
   margin: auto;
 }
 @media (max-width: 1000px) {
-  .navbar-nav {
-    background-color: #b7b7b7;
-  }
   .language {
     top: 0;
   }
@@ -242,6 +235,9 @@ h6 {
 .navbar-toggler {
   padding: 0.5rem;
   background-color: #274069 !important;
+}
+.nav-link:hover {
+  color: #843d43 !important;
 }
 
 @media (min-width: 320px) and (max-width: 700px) {
@@ -311,8 +307,6 @@ h6 {
     opacity: 1;
   }
 }
-
-
 
 /* sticky social media bar */
 .fl-fl {
@@ -410,18 +404,13 @@ h6 {
   font-weight: bolder;
 }
 /* ---------ABOUT US PAGE---------- */
-/* #ab-main {
-  overflow: hidden;
-} */
+
 #ab-main > section {
   min-height: 85vh;
-  padding-top: 5rem;
 }
-
 .founder-words-title {
   width: 90%;
 }
-
 .our-mission {
   background-image: url(../assets/imgs/about-2.png);
   background-size: cover;
@@ -435,6 +424,14 @@ h6 {
 .mascot-motto h1 {
   font-size: 8.5rem;
 }
+#ab-main > h1 {
+  /* padding: 0 1.5rem; */
+}
+.ab-slogan {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+}
+
 /* -------------circle text animation (about page)----------- */
 .circle {
   position: relative;
@@ -480,6 +477,13 @@ h6 {
   width: 100%;
   background-color: #274069;
   bottom: 0;
+}
+#what-is-mooting .title h2 {
+  font-size: 7rem;
+  line-height: 3rem;
+}
+#end-of-course-sessions .shadow {
+  margin-left: 60px;
 }
 .moot-tournaments img {
   display: block;
@@ -585,11 +589,14 @@ table thead th {
 }
 
 /* ---------------FAQ------------------ */
-#about-class-rules{
+#about-class-rules {
   background-color: #274069;
 }
-#about-class-rules .faq-label{
+#about-class-rules .faq-label {
   box-shadow: 5px 5px 10px #6e7f99, -5px -5px 10px #586378;
+}
+#participant-prohibitions .title h1 {
+  font-size: 7.5rem;
 }
 .faq-label {
   cursor: pointer;
@@ -627,11 +634,11 @@ table thead th {
   height: 0;
   border-radius: 6px;
   /* color: rgba(127, 121, 121, 1); */
-  color:#274069;
+  color: #274069;
   overflow: hidden;
 }
 
-.faq-answer-content p a:hover{
+.faq-answer-content p a:hover {
   color: #843d43;
   font-weight: bold;
 }
@@ -677,7 +684,6 @@ table thead th {
 
 footer {
   background-color: #274069;
-
 }
 
 /*--------------------------------------------------------------
@@ -690,36 +696,28 @@ footer {
   width: 100%;
   height: 100vh;
   z-index: 99999;
-  /* background-image: url(../assets/imgs/preloader.png);
-  background-size: cover;
-  background-position: center; */
 }
-#preloader:before{
-  background-image: url(../assets/imgs/preloader.png);
-  background-position: left;
 
-}
-#preloader:after {
-  background-image: url(../assets/imgs/preloader.png);
-  background-position: right;
-  
-}
 #preloader:before,
 #preloader:after {
   content: "";
+  /* background-color: #274069; */
+  background-image: url(../assets/imgs/preloader.png);
+  background-size: 200%;
   position: absolute;
   inset: 0;
   width: 50%;
   height: 100%;
   transition: all 0.3s ease 0s;
   z-index: -1;
-  background-size: 200%;
 }
-
-
+#preloader:before {
+  background-position: left;
+}
 #preloader:after {
   left: auto;
   right: 0;
+  background-position: right;
 }
 
 #preloader .line {
@@ -734,7 +732,7 @@ footer {
 #preloader .line:before {
   content: "";
   position: absolute;
-  background-color: #e5e5e5;
+  background-color: #fff;
   left: 0;
   top: 50%;
   width: 1px;
@@ -746,7 +744,7 @@ footer {
 #preloader .line:after {
   content: "";
   position: absolute;
-  background-color: #e5e5e5;
+  background-color: #999;
   left: 0;
   top: 0;
   width: 1px;
@@ -754,17 +752,6 @@ footer {
   transform: translateY(-100%);
   animation: linemove 1200ms linear 0s infinite;
   animation-delay: 2000ms;
-}
-
-/* Slow down fade-out animation (adjust the duration as needed) */
-@keyframes preloaderfinish {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-
 }
 
 #preloader.loaded .line {
@@ -778,7 +765,7 @@ footer {
 
 #preloader.loaded:before,
 #preloader.loaded:after {
-  animation: preloaderfinish 300ms ease-in-out 700ms forwards;
+  animation: preloaderfinish 300ms ease-in-out 500ms forwards;
 }
 
 @keyframes lineincrease {
@@ -801,8 +788,63 @@ footer {
   }
 }
 
+@keyframes preloaderfinish {
+  0% {
+    width: 5 0%;
+  }
 
+  100% {
+    width: 0%;
+  }
+}
+/*---ANCHOR TAG----*/
+.relative-anchor {
+  position: relative;
+  height: 80px;
+}
+.relative-anchor span {
+  position: absolute;
+  top: -200px;
+}
+/* ----------------------------------------------------------------- */
+/* ---Responsive background for small device (tablet & mobile)-----*/
 
-
-
-
+@media (max-width: 1200px) {
+  #preloader:before,
+  #preloader:after {
+    background-image: url(../assets/imgs/preloader-mobile.png);
+  }
+  .title h1 {
+    font-size: 4rem !important;
+  }
+  .ab-slogan{
+    font-size: 1.5rem;
+    padding: 20px 0 10px;
+  }
+  #what-is-mooting .title h2 {
+    font-size: 5rem;
+    line-height: 2rem;
+  }
+  #what-is-mooting .title h1 {
+    font-size: 6rem;
+  }
+  .hideBlue {
+    display: none;
+  }
+  #what-is-mooting .title {
+    margin-bottom: 20px;
+  }
+  #end-of-course-sessions .shadow {
+    margin-left: 0;
+  }
+  .menu-nav {
+    padding-top: 40px;
+  }
+  .circle {
+    transform: scale(0.6);
+    opacity: 0.6;
+  }
+  .philosophy-text{
+    text-shadow: 4px 4px 8px rgba(0,0,0,0.3);
+  }
+}

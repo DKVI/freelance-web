@@ -6,7 +6,7 @@ try {
 }
 ?>
 
-<main id="home" class="position-relative">
+<main id="home" class="position-relative px-5" style="margin-top: 12rem">
     <!-- MSS's Mascot - Griffin Background -->
     <div class="position-fixed d-flex justify-content-end" style="left: 0; right: 0; top: 0; bottom: 0; z-index: -1;">
         <div class="griffin" style=" width: 75%;">
@@ -41,7 +41,7 @@ try {
                 <p>MSS sẽ được tổ chức vào mỗi mùa hè và hoạt động không vì mục tiêu lợi nhuận.</p>
                 <p><strong><a href="<?php echo BASE_URL ?>/about" ?>Click vào đây để xem thêm chi tiết về cựu mooter và
                             các mục tiêu mà MSS mong muốn hướng tới nhé!</a></strong></p>
-                <h4>ĐĂNG KÝ CHO MSS KHÓA 2024 ĐÃ MỞ</h4>
+                
             </div>
             <div class="col-lg-6 mt-4">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/-pHfPJGatgE?si=KlPHj-aaR5W99vtc"
@@ -52,8 +52,8 @@ try {
         </div>
     </div>
     <div class=" container p-lg-5 eng">
-        <h2 class="text-uppercase fw-bold display-5 text-center text-lg-start">WELCOME TO</h2>
-        <h1 class="text-uppercase fw-bold  display-3 text-center text-lg-start">Mooting Summer School</h1>
+        <h2 class="text-uppercase fw-bold display-5">WELCOME TO</h2>
+        <h1 class="text-uppercase fw-bold  display-3" style="text-align: left;">Mooting Summer School</h1>
         <div class="col-lg-8 m">
             <p>Someone once said that when participating in mooting, we feel like we're diving into space. we won't know
                 how far we can go or what kind of value we can gain from the experience. But first and foremost, just
@@ -73,7 +73,7 @@ try {
         <div class="row mt-5">
             <div class="col-lg-6">
                 <h1 class="text-uppercase fw-bold display-3 ">PROJECT</h1>
-                <p>Mooting Summer School (“<strong> MSS</strong>”) is the first professional mooting training project in
+                <p>Mooting Summer School (<strong>MSS</strong>) is the first professional mooting training project in
                     Vietnam, founded and led by a former mooter who has been an active member of the community for over
                     half a decade, serving as a mooter, coach, speaker, and judge, both domestically and
                     internationally. </p>
@@ -81,7 +81,6 @@ try {
                 <p>Non est ad astra mollis e terris via, is MSS a place to open up a less difficult path to mooting?"
                 </p>
                 <h4><a href="<?php echo BASE_URL ?>/about" ?>See also >></a></h4>
-                <h4>REGISTRATION FOR MSS CLASS OF 2024 IS NOW OPENED</h4>
             </div>
             <div class="col-lg-6 mt-4">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/-pHfPJGatgE?si=KlPHj-aaR5W99vtc"

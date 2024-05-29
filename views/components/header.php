@@ -1,10 +1,10 @@
 <!-- NAVBAR -->
 <!-- LOGO AREA -->
-<div class="logo-area container-fluid fixed-top">
-    <nav class=" navbar navbar-expand-xl navbar-light fixed-top mt-1 " id="mainNav">
+<div class="logo-area container-fluid">
+    <nav class=" navbar navbar-expand-xl navbar-light fixed-top d-flex justify-content-between" id="mainNav">
         <div class="menu-nav text-center d-flex justify-content-between align-items-center px-3">
             <a class="navbar-brand" href="<?php echo BASE_URL ?>/home">
-                <img src="././assets/imgs/small-logo.png" alt="MSS-logo" class="">
+                <img src="././assets/imgs/small-logo.png" alt="MSS-logo" class="w-100">
             </a>
             <a class="navbar-toggler btn-sm align-items-end " type="button" data-bs-toggle="collapse"
                 data-bs-target="#navResponsive" aria-controls="navResponsive" aria-expanded="false"
@@ -13,7 +13,7 @@
             </a>
         </div>
 
-        <div class="w-100 h-100 navlink-container d-flex animate-btn">
+        <div class="h-100 navlink-container d-flex animate-btn px-5" style="padding-top: 10px;">
             <div class="m-auto">
                 <div class="collapse navbar-collapse" id="navResponsive">
                     <ul class="navbar-nav vn">
@@ -138,7 +138,10 @@
                                 <li><a class="dropdown-item"
                                         href="<?php echo BASE_URL . '/about#symbol-and-title-of-MSS' ?>">Our Mascot</a></li>
                                 <hr class="dropdown-divider">
-
+                                <li><a class="dropdown-item"
+                                        href="<?php echo BASE_URL . '/about#philosophy' ?>">Philosophy</a></li>
+                                <hr class="dropdown-divider">
+                                
                                 <li><a class="dropdown-item" href="<?php echo BASE_URL . '/about#MSS-team' ?>">MSS team</a></li>
                             </ul>
                         </li>
@@ -228,9 +231,10 @@
     </nav>
 </div>
 <!-- NAVBAR -->
-<div class="d-flex flex-row-reverse fixed-top pt-1" style=" background-color: #e5e5e5; margin:0">
 
-    <div class="col-6 d-flex sm-md-subheader">
+<div class="d-flex flex-row-reverse fixed-top offset-lg-6 col-lg-6 container" style=" background-color: #e5e5e5; padding-top:10px; margin-top:0">
+
+    <div class="col-12 d-flex justify-content-end">
         <div class="w-75">
             <?php
             include "./views/components/searchBar.php";

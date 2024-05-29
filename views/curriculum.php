@@ -1,17 +1,19 @@
 <main id="curriculum" style="overflow:hidden" class="w-100">
 
-    <section id="what-is-mooting" class="container section-active" style="padding-top:0.7rem">
-        <div class="title">
-                <h1>Mooting</h1>
-                <h2 style="font-size: 7rem; line-height: 3rem" class="vn">là gì?</h2>
-                <h2 style="font-size: 7rem; line-height: 3rem" class="eng">definition</h2>
-        </div>
-        
+    <section id="what-is-mooting" class="container section-active" >
+
+    <p class="relative-anchor" style="height: 0"><span id="about-anchor"></span></p>
         <div class="row">
-            <div class="col-lg-6 d-flex align-items-end">
-                <div class="blue-rec-shape"></div>
+            <div class="col-lg-6 position-relative">
+                <div class="d-flex justify-content-center align-items-center">
+                <div class="title px-5">
+                    <h1>Mooting</h1>
+                    <h2 class="vn">là gì?</h2>
+                    <h2 style="" class="eng">definition</h2>
+                </div></div>
+                <div class="blue-rec-shape position-absolute hideBlue" style="bottom:0"></div>
             </div>
-            <div class="col-lg-6 px-5" style="margin-top: -15rem">
+            <div class="col-lg-6 px-5">
                 <div class="blue-rec-shape mb-4"></div>
                 <div class="vn">
                     <p>Mooting hay “phiên tòa giả định”, là hoạt động mô phỏng diễn án. Trong đó, mooter hay “người tham
@@ -1100,12 +1102,13 @@
         </div>
     </section>
     <section id="end-of-course-sessions" style="background-image: url(./assets/imgs/curriculum-14-1.png); background-size: cover; padding:0" class="p-5">
-        <div class="container p-5">
+        <p class="relative-anchor" ><span id="about-anchor"></span></p>
+        <div class="container">
             <div class="title">
                 <h1 class="vn">Các buổi tổng kết</h1>
                 <h1 class="eng">Ending sessions</h1>
             </div>
-            <div class="col-lg-4 shadow p-4" style="margin-left: 60px">
+            <div class="col-lg-4 shadow" style="">
                 <div class="vn">
                     <p>Kết thúc khóa học, MSS sẽ tổ chức một buổi talkshow, và một buổi bế giảng khóa học.</p>
                     <p>Buổi talkshow sẽ là cơ hội để các học viên có thể chia sẻ và lắng nghe kinh nghiệm, lời khuyên của khách mời trong mooting, vấn đề về nghề luật, hoặc một chủ đề nào đó do chính các bạn học viên đề xuất.</p>
@@ -1116,8 +1119,6 @@
                     <p>The talk show will will provide an opportunity for students to share and listen to experiences, advice from guest speakers in mooting, issues related to the legal profession, or any topic proposed by the students themselves. </p>
                     <p>The closing session will be a chance for the instructor and students to sit down together, summarize the learning process, and have final discussions and advice about the path of mooting. Additionally, there will be a secret surprise awaiting the students at this final session. </p>
                 </div>
-                    
-                
             </div>
         </div>
     </section>
