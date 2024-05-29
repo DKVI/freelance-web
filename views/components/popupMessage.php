@@ -1,5 +1,5 @@
 <div class="position-fixed rounded-circle z-3 d-flex popup-component"
-    style="width: 50px; height: 50px; top: 90%; right: 50px; box-shadow: 3px 3px 10px #cccc;filter: drop-shadow(#cccc 5px 5px 5px);">
+    style="width: 50px; height: 50px; top: 90%; right: 50px;filter: drop-shadow(#cccc 1px 1px 4px);">
     <div class="rounded-circle z-3 d-flex message-btn"
         style="width: 50px; height: 50px; background-color: #274069;  cursor: pointer; opacity:80%">
         <i class="fa-regular fa-message m-auto " style="font-size: 24px; color: white"></i>

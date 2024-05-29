@@ -61,7 +61,7 @@ table * {
 *::after {
   box-sizing: border-box;
 }
-.shadow {
+.shadow.ct-text {
   border-radius: 10px;
   padding: 1.5rem !important;
 }
@@ -99,7 +99,7 @@ body,
 section {
   background-color: #e5e5e5;
   color: #274069;
-  text-align: justify;
+  text-align: left;
 }
 
 section {
@@ -160,9 +160,7 @@ h6 {
   margin: 0;
   padding: 0;
 }
-.shadow {
-  border-radius: 10px;
-}
+
 /* --------HEADER SECTION---------- */
 .logo-area {
   z-index: 2 !important;
@@ -171,7 +169,7 @@ h6 {
   min-height: 7rem;
   margin: 0;
   padding: 0;
-  z-index: 4 !important;
+  z-index: 1 !important;
   font-size: 1rem;
 }
 
@@ -297,6 +295,10 @@ h6 {
   -o-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
   animation: movingNav 0.5s linear;
+}
+
+.btn.shadow {
+  padding: 0.5rem 1rem !important;
 }
 
 @keyframes movingNav {
@@ -817,7 +819,7 @@ footer {
   .title h1 {
     font-size: 4rem !important;
   }
-  .ab-slogan{
+  .ab-slogan {
     font-size: 1.5rem;
     padding: 20px 0 10px;
   }
@@ -844,7 +846,7 @@ footer {
     transform: scale(0.6);
     opacity: 0.6;
   }
-  .philosophy-text{
-    text-shadow: 4px 4px 8px rgba(0,0,0,0.3);
+  .philosophy-text {
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
   }
 }
