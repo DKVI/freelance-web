@@ -5,23 +5,20 @@
         </div>
     </div>
     <!-- Tuition's content -->
-    <div class="cantainer">
-
+    <div class="container">
         <div id="tuition-packages-and-benefits" class="d-flex justify-content-center align-items-center">
+            <p class="relative-anchor"><span id="about-anchor"></span></p>
             <div class="position-relative col-lg-5 col-sm-10 text-center bg-light" style="height: 18rem">
                 <h1 class="position-absolute " style="font-size: 20rem; color: #99a2b1; left: 38%; z-index: 0;">&</h1>
                 <div class="title position-absolute " style="z-index:1; left:6%">
                     <div class="vn">
-                        <h1>Gói học</h1>
-                        <h1>Quyền lợi</h1>
+                        <img src="./assets/imgs/tuition.png" alt="">
                     </div>
                     <div class="eng">
                         <h1>Benefits</h1>
                         <h1>Packages</h1>
                     </div>
                 </div>
-                
-
             </div>
         </div>
         <div class="d-flex justify-content-center align-items-center ">
