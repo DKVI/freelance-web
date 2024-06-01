@@ -2,11 +2,11 @@
     <section id="a-message-from-our-founder" class="container section-active">
         <p class="relative-anchor" style="height:100px"><span id="about-anchor"></span></p>
         <div class="row mb-5">
-            <img src="./assets/imgs/about-1.png" alt="founder-Vo-Son-Hoang" class="col-lg-4">
+            <img src="./assets/imgs/about-1.png" alt="founder-Vo-Son-Hoang" class="col-lg-4" style="width: ;">
             <div class="col-lg-8">
                 <div class="founder-words-title text-end title">
                     <div class="vn">
-                        <h3 style="font-size:4rem;  ">Lời ngỏ từ</h3>
+                        <h3 style="font-size:4rem;" class="">Lời ngỏ từ</h3>
                         <h1>Nhà sáng lập</h1>
                     </div>
                     <div class="eng">
@@ -81,7 +81,7 @@
                 </div>
                 <h1 class="eng text-center title">Our mission</h1>
             </div>
-            <div class="col-lg-8 vn shadow" style="margin-top: -7rem; padding-left: 30px">
+            <div class="col-lg-8 vn shadow ct-text our-mission-vn-content" style="margin-top: -7rem; padding-left: 30px">
                 <p>MSS ra đời với hy vọng huấn luyện học viên một cách chuyên nghiệp - đầy đủ, hỗ trợ thí sinh tránh gặp
                     các khó khăn trong hành trình chinh chiến tại các giải đấu moot từ trong nước đến nước ngoài. Với tư
                     cách là một dự án đào tạo chuyên nghiệp về mooting đầu tiên tại Việt Nam, MSS kỳ vọng có thể đem lại
@@ -95,7 +95,7 @@
                     đẩy sự phát triển và kế thừa trong cộng đồng mooting ở Việt Nam.</p>
             </div>
             <div class="d-flex align-items-center justify-content-center ">
-                <div class="col-lg-8 eng shadow col-12" style="margin-top: 0;">
+                <div class="col-lg-8 eng shadow ct-text col-12" style="margin-top: 0;">
                     <p>In recent years, mooting has gained popularity in law schools over the last five years. However,
                         the moot community lacks generalization, systemization, and inheritance in its development.
                         Mooters are not typically professionally trained or led, resulting in many challenges and
@@ -232,8 +232,8 @@
                             <i class="fas fa-circle fa-stack-2x main-text-color"></i>
                         </a>
                     </span>
-                    <h4 class="my-3">Name</h4>
-                    <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, qui!</p>
+                    <h4 class="my-3">Ha Ngoc Thao Nhi</h4>
+                    <p class="text-muted">Head of Operations</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -242,9 +242,8 @@
 
                         </a>
                     </span>
-                    <h4 class="my-3">Name</h4>
-                    <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, dignissimos.
-                    </p>
+                    <h4 class="my-3">Nguyen Son Hoang</h4>
+                    <p class="text-muted">Founder/Instructor</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -253,8 +252,8 @@
 
                         </a>
                     </span>
-                    <h4 class="my-3">Name</h4>
-                    <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, deleniti!
+                    <h4 class="my-3">Nguyen Kim Thao Hien</h4>
+                    <p class="text-muted">Head of Design
                     </p>
                 </div>
             </div>

@@ -1237,7 +1237,7 @@
                 <h1 class="vn">Các buổi tổng kết</h1>
                 <h1 class="eng">Ending sessions</h1>
             </div>
-            <div class="col-lg-4 shadow" style="">
+            <div class="col-lg-4 shadow ct-text" style="">
                 <div class="vn">
                     <p>Kết thúc khóa học, MSS sẽ tổ chức một buổi talkshow, và một buổi bế giảng khóa học.</p>
                     <p>Buổi talkshow sẽ là cơ hội để các học viên có thể chia sẻ và lắng nghe kinh nghiệm, lời khuyên

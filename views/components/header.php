@@ -4,7 +4,7 @@
     <nav class=" navbar navbar-expand-xl navbar-light fixed-top d-flex justify-content-between" id="mainNav">
         <div class="menu-nav text-center d-flex justify-content-between align-items-center px-3">
             <a class="navbar-brand" href="<?php echo BASE_URL ?>/home">
-                <img src="././assets/imgs/small-logo.png" alt="MSS-logo" class="w-100">
+                <img src="././assets/imgs/small-logo.png" alt="MSS-logo" class="logo-header">
             </a>
             <a class="navbar-toggler btn-sm align-items-end " type="button" data-bs-toggle="collapse"
                 data-bs-target="#navResponsive" aria-controls="navResponsive" aria-expanded="false"
@@ -96,7 +96,7 @@
                                 aria-expanded="false">Bảo chứng từ cộng đồng</a>
                             <ul style="width: auto"
                                 class="shadow-lg dropdown-menu dropdown-menu-light custom-scrollbar">
-                                <li><a class="dropdown-item" href="#">Từ Mentee</a></li>
+                                <li><a class="dropdown-item" href="<?php echo BASE_URL . '/endorsement#review-from-mentee' ?>">Từ Mentee</a></li>
                                 <hr class="dropdown-divider">
                                 <li><a class="dropdown-item" href="#">Từ cựu Mooter</a></li>
                                 <hr class="dropdown-divider">
@@ -193,11 +193,11 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">Guarantee from the community</a>
+                            <a class="nav-link dropdown-toggle" href="<?php echo BASE_URL . '/endorsement' ?>" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Endorsement</a>
                             <ul style="width: auto"
                                 class="shadow-lg dropdown-menu dropdown-menu-light custom-scrollbar">
-                                <li><a class="dropdown-item" href="#">From Mentee</a></li>
+                                <li><a class="dropdown-item" href="<?php echo BASE_URL . '/endorsement#review-from-mentee' ?>">From Mentee</a></li>
                                 <hr class="dropdown-divider">
                                 <li><a class="dropdown-item" href="#">From Former Mooter</a></li>
                                 <hr class="dropdown-divider">
