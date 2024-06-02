@@ -105,7 +105,8 @@
                                                 matters related to international public law, such as human rights,
                                                 common sense and justice, the law of the sea, and conflicts between
                                                 nations, as well as mediating them.</p>
-                                            <h3 class=""><a href="#"> Website tham khảo >></a></h3>
+                                            <h3 class=""><a href="https://www.ilsa.org" class="vn"> Website tham khảo >></a></h3>
+                                            <h3 class=""><a href="https://www.ilsa.org" class="eng"> Reference website >></a></h3>
                                         </div>
 
                                     </div>
@@ -176,7 +177,8 @@
                                                 the Model Law of the United Nations Commission on International Trade
                                                 Law. Starting from 1994, Vis Moot has been held annually in Vienna,
                                                 Austria, attracting over 300 law schools across the world. </p>
-                                            <h3><a href="#"> Website tham khảo >></a></h3>
+                                            <h3><a href="https://www.vismoot.org" class="vn"> Website tham khảo >></a></h3>
+                                            <h3><a href="https://www.vismoot.org" class="eng"> Reference website >></a></h3>
                                         </div>
 
                                     </div>
@@ -243,7 +245,8 @@
                                                 investors or host countries in disputes related to investment projects
                                                 and must apply arbitration rules, domestic laws and agreements between
                                                 member states on investment, etc. </div>
-                                            <h3><a href="#"> Website tham khảo >></a></h3>
+                                            <h3><a href="https://www.fdimoot.org" class="vn"> Website tham khảo >></a></h3>
+                                            <h3><a href="https://www.fdimoot.org" class="eng"> Reference website >></a></h3>
                                         </div>
 
                                     </div>
@@ -302,7 +305,8 @@
                                                 of the IHL Moot involve safeguarding civilians during conflict, managing
                                                 prisoners, or addressing emerging legal issues in the context of modern
                                                 warfare.</div>
-                                            <h3><a href="#"> Website tham khảo >></a></h3>
+                                            <h3><a href="https://www.redcross.org.hk/en/ihl-moot.html" class="vn"> Website tham khảo >></a></h3>
+                                            <h3><a href="https://www.redcross.org.hk/en/ihl-moot.html" class="eng"> Reference website >></a></h3>
                                         </div>
 
                                     </div>
@@ -717,7 +721,7 @@
         </div>
     </section>
 
-    <section class="trial-session text-light background-full"
+    <section id="trial-section" class="trial-session text-light background-full"
         style="background-image: url(./assets/imgs/curriculum-7.png);">
         <div class="container">
             <div class="d-flex justify-content-center align-items-center">
