@@ -6,6 +6,7 @@ include_once "./config.php";
 include_once "./models/database.php";
 include_once "./models/message.php";
 include_once "./models/date.php";
+include_once "./models/link.php";
 include_once "./models/hashtag_post.php";
 include_once "./models/post.php";
 include_once "./models/hashtag.php";
@@ -37,7 +38,6 @@ $segments = explode('/', $uri);
     <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-    <
 </head>
 
 <?php
@@ -57,6 +57,7 @@ if (isset($_GET['language'])) {
 <div id="preloader">
     <div class="line"></div>
 </div>
+
 <body class="custom-scrollbar" style="opacity: 0">
     <link href="css/base.css">
     <!-- Add layout using router -->
@@ -75,6 +76,7 @@ if (isset($_GET['language'])) {
         $route = $segments[2] . (isset($segments[3]) ?  '/' . $segments[3] : "");
         if ($segments[2] !== 'admin') {
             include "./views/components/popupMessage.php";
+            include "./views/components/hoverHere.php";
         }
         switch ($route) {
             case "":
@@ -133,6 +135,9 @@ if (isset($_GET['language'])) {
                 break;
             case "admin/hashtag":
                 include __DIR__ . "/views/admin/hashtag.php";
+                break;
+            case "admin/link":
+                include __DIR__ . "/views/admin/link.php";
                 break;
             case "admin/messages":
                 include __DIR__ . "/views/admin/message.php";
