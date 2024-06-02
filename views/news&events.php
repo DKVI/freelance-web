@@ -1,8 +1,45 @@
 <?php
 $lastestPost = Post::getLastestNewsEvent($conn, 4);
 $mainPost = Post::getById($conn, '48864jf325949f3553');
+$newsPost = Post::getByType($conn, 'news', 100);
+$eventsPost = Post::getByType($conn, 'event', 100);
+
+function renderElement($element)
+{
+
+    return '<div class="d-flex px-4 py-2 shadow rounded-4 justify-content-around mb-3" style="height: 100px; opacity: 1; animation: movingNav 0.3s ease-in-out ;transition: all 0.3s ease-in-out">
+                                    <div class="h-100 p-sm-3 p-3 px-lg-2 px-md-2 py-lg-0 py-sm-0 w-25"><div class="h-100 w-100 shadow rounded-4" style="background-image: url(' . BASE_URL . '/uploads/imgs/' . $element->fileImg . '); background-size: cover; background-position: center;"></div>
+                                    </div>
+                                            <div class="h-100 px-3 w-75" style="overflow: hidden;
+                                            text-overflow: ellipsis;
+                                            white-space: nowrap;">
+                                                <a href="' . BASE_URL . $element->path . '"
+                                    class="text-decoration-none fw-bold" style="color: #274069; font-size: 24px;">' . $element->title . '</a>
+                                    <div class="mt-3">
+                                    <span>' . convertDate($element->date) . ' - </span>
+                                    <span>' . ($element->readTimes) . ' minues read</span>
+                                    </div>
+                                </div>
+                            </div>';
+}
+echo "<script>let newsList = [];
+    let eventsList = [];
+</script>";
+foreach ($newsPost as $post) {
+    echo '<script>
+    newsList.push(`' . renderElement($post) . '`);</script>';
+};
+foreach ($eventsPost as $post) {
+    echo '
+    <script>eventsList.push(`' . renderElement($post) . '`);</script>';
+};
 ?>
 
+
+<script>
+    console.log(newsList);
+    console.log(eventsList);
+</script>
 
 <main class="position-relative">
     <!-- MSS's Mascot - Griffin Background -->
@@ -21,50 +58,49 @@ $mainPost = Post::getById($conn, '48864jf325949f3553');
     <p class="relative-anchor" style="height:80px"><span id="about-anchor"></span></p>
     <div class="container py-5 p-lg-5 w-100">
         <div class="row justify-content-center min-vh-100 " style="gap: 16px">
-            <div class="col-lg-8 h-100 row shadow eng">
+            <div class="col-lg-8 h-100 row shadow-lg rounded-3">
                 <div class="col-lg-12">
-                    <img src="./uploads/imgs/default.png" class="w-100 rounded-3">
-                </div>
-                <div class="col-lg-5 p-4"><a href="<?php echo BASE_URL . '/about' ?>">
-                        <h1 style="font-size: 50px">ABOUT M.S.S</h1>
-                    </a></div>
-                <div class="col-lg-7 p-4">
-                    <div>
-                        <p class="" style="text-align: left">I believe that mooting is an activity every law student
-                            should experience at least once in their law school life. From a professional perspective,
-                            this is a challenging playground that not only helps you practice critical thinking, improve
-                            your research skills, but also expand your understanding of the law. Additionally, mooting
-                            is an opportunity for you to meet and interact with incredible people in the industry,
-                            people with the same passions and hobbies, or even people who might be your “future
-                            colleagues.”
-                        </p>
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade w-100" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./assets/imgs/ne-banner1.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/imgs/ne-banner2.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/imgs/ne-banner3.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
-                    <div><a class="btn" style="background-color: #274069; color: white" href="<?php echo BASE_URL . '/about' ?>">READ MORE</a></div>
                 </div>
-            </div>
-            <div class="col-lg-8 h-100 row shadow-lg rounded-3 vn">
-                <div class="col-lg-12">
-                    <img src="./uploads/imgs/default.png" class="w-100">
-                </div>
-                <div class="col-lg-5 p-4"><a href="<?php echo BASE_URL . '/about' ?>">
-                        <h1 style="font-size: 50px">ABOUT M.S.S</h1>
-                    </a></div>
-                <div class="col-lg-7 p-4">
-                    <div>
-                        <p class="" style="text-align: left">Trong bất kỳ chuyện chinh phục nào, sự yêu và hiểu đối
-                            phương
-                            luôn là điều
-                            tối quan trọng.
-                            Vậy nên, tại MSS, mình, với tư cách là Nhà sáng lập và Người hướng dẫn, hy vọng có thể khiến
-                            bạn “yêu” và “hiểu” mooting hơn qua những bài giảng, những lời khuyên và những câu chuyện
-                            được chia sẻ. </p>
+                <div class="col-lg-12 p-4">
+                    <div class="w-100">
+                        <ul class="nav nav-pills d-flex nav-justified tab-views" style="gap: 8px">
+                            <li class="nav-item">
+                                <a class="nav-link news-tab active shadow" style="transition: all 0.3s ease-in-out" aria-current="page">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link shadow events-tab" style="transition: all 0.3s ease-in-out">Events</a>
+                            </li>
+                        </ul>
                     </div>
-                    <div><a class="btn" style="background-color: #274069; color: white" href="<?php echo BASE_URL . '/about' ?>">READ MORE</a></div>
+                    <div class="w-100 pt-4">
+                        <div class="posts-container"></div>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-4 h-100 p-3 d-flex flex-column rounded-3 shadow-lg" style="background-color: #274069">
                 <h3 style="color: white; height: 10%">
-                    NEWS & EVENTS
+                    LATEST POSTS
                 </h3>
                 <div class="d-flex flex-column justify-content-start" style="color: white; height: 90%">
                     <?php
@@ -94,5 +130,81 @@ $mainPost = Post::getById($conn, '48864jf325949f3553');
             <?php include "./views/components/popularPost.php" ?>
         </div>
     </div>
+    <style>
+        .nav-link {
+            margin: unset !important;
+            color: #274069 !important;
+        }
 
+        .nav-link.active:hover {
+            opacity: 0.8;
+            color: white !important;
+        }
+
+        .nav-item {
+            padding: 0;
+        }
+
+        .nav-link.active {
+            background-color: #274069 !important;
+            color: white !important;
+        }
+    </style>
+    <script>
+        let eventsLimit = 4;
+        let newsLimit = 4;
+        const postsContainer = document.querySelector('.posts-container');
+        const renderEvents = (limit) => {
+            let html = "";
+            if (limit <= eventsList.length) {
+                for (let i = 0; i < limit; i++) {
+                    html += eventsList[i];
+                }
+                postsContainer.innerHTML = html + "<button class='btn'>Show more</button>";
+            } else {
+                for (let i = 0; i < eventsList.length; i++) {
+                    html += eventsList[i];
+                }
+                postsContainer.innerHTML = html;
+            }
+        }
+
+        const renderNews = (limit) => {
+            let html = "";
+            if (limit <= newsList.length) {
+                for (let i = 0; i < limit; i++) {
+                    html += newsList[i];
+                }
+                postsContainer.innerHTML = html + "<button class='btn' onclick='showMoreNews()'>Show more</button>";
+            } else {
+                for (let i = 0; i < newsList.length; i++) {
+                    html += newsList[i];
+                }
+                postsContainer.innerHTML = html;
+            }
+        }
+
+        const showMoreNews = () => {
+            newsLimit += 4;
+            renderNews(newsLimit);
+        }
+
+        const tabViews = document.querySelectorAll(".tab-views .nav-link");
+        console.log(tabViews);
+        tabViews.forEach((tabView) => {
+            tabView.onclick = () => {
+                if (tabView.classList.contains("events-tab")) {
+                    renderEvents(eventsLimit);
+                } else {
+                    renderNews(newsLimit);
+                }
+
+                tabViews.forEach((tabView) => {
+                    tabView.classList.remove("active");
+                });
+                tabView.classList.add("active");
+            }
+        })
+        renderNews(newsLimit);
+    </script>
 </main>
