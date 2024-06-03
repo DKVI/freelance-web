@@ -40,7 +40,8 @@
                         </p>
                         <p>Cảm ơn các bạn đã cho mình và MSS cơ hội được đồng hành cùng với các bạn trong chặng đường
                             mooting. Mình hy vọng sẽ được gặp các bạn tại MSS. </p>
-                            <h5 class="text-end" data-toggle="modal" data-target="#exampleModalLong">Đọc thêm thông tin về Nhà sáng lập tại đây</h5>
+                        <h5 class="text-end" data-toggle="modal" data-target="#exampleModalLong">Đọc thêm thông tin về
+                            Nhà sáng lập tại đây</h5>
                     </div>
                     <div class="eng">
                         <p>Welcome to Mooting Summer School (MSS). </p>
@@ -63,15 +64,16 @@
                         <p>Thank you for allowing MSS and me to accompany you on your mooting journey. I hope to see you
                             at
                             MSS.</p>
-                        <h5 class="text-end" data-toggle="modal" data-target="#exampleModalLong">You can read more about the Founder here</h5>
+                        <h5 class="text-end" data-toggle="modal" data-target="#exampleModalLong">You can read more about
+                            the Founder here</h5>
                     </div>
                 </div>
 
                 <!-- Modal -->
-                <div class="modal fade bd-example-modal-lg" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true" >
+                <div class="modal fade bd-example-modal-lg" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                         <div class="modal-content" style="">
-                        
+
                             <div class="modal-body">
                                 <img src="./assets/imgs/profilev-Eng.png" alt="" class="w-100 h-100 eng">
                                 <img src="./assets/imgs/profilev-Vie.png" alt="" class="w-100 h-100 vn">
@@ -243,47 +245,47 @@
             </div>
             <div class="row text-center px-5">
                 <div class="col-md-4">
-                        <div class="upload-container">
-                            <img src="./assets/imgs/ourTeam-1.png" alt="" class="avatar">
-                        </div>
-                    <div class="vn">
+                    <div class="upload-container">
+                        <img src="./assets/imgs/ourTeam-1.png" alt="" class="avatar">
+                    </div>
+                    <div class="eng">
                         <h4 class="my-3">Ha Ngoc Thao Nhi</h4>
                         <p class="text-muted">Head of Operations</p>
                     </div>
-                    <div class="eng">
+                    <div class="vn">
                         <h4 class="my-3">Hà Ngọc Thảo Nhi</h4>
-                    <p class="text-muted">Trưởng Ban Vận hành</p>
+                        <p class="text-muted">Trưởng Ban Vận hành</p>
                     </div>
-                    
+
                 </div>
                 <div class="col-md-4">
-                <div class="upload-container">
-                            <img src="./assets/imgs/ourTeam-2.png" alt="" class="avatar">
-                        </div>
-                    <div class="vn">
-                        <h4 class="my-3">Nguyen Son Hoang</h4>
-                        <p class="text-muted">Founder/Instructor</p>
-                        
+                    <div class="upload-container">
+                        <img src="./assets/imgs/ourTeam-2.png" alt="" class="avatar">
                     </div>
                     <div class="eng">
+                        <h4 class="my-3">Nguyen Son Hoang</h4>
+                        <p class="text-muted">Founder/Instructor</p>
+
+                    </div>
+                    <div class="vn">
                         <h4 class="my-3">Nguyễn Sơn Hoàng</h4>
                         <p class="text-muted">Nhà sáng lập / Người hướng dẫn</p>
                     </div>
-                    
+
                 </div>
                 <div class="col-md-4">
-                <div class="upload-container">
-                            <img src="./assets/imgs/ourTeam-3.png" alt="" class="avatar">
-                        </div>
-                    <div class="vn">
+                    <div class="upload-container">
+                        <img src="./assets/imgs/ourTeam-3.png" alt="" class="avatar">
+                    </div>
+                    <div class="eng">
                         <h4 class="my-3">Nguyen Kim Thao Hien</h4>
                         <p class="text-muted">Head of Design</p>
                     </div>
-                    <div class="eng">
+                    <div class="vn">
                         <h4 class="my-3">Nguyễn Kim Thảo Hiền</h4>
                         <p class="text-muted">Trưởng nhóm Thiết kế</p>
                     </div>
-                    
+
                 </div>
             </div>
         </div>

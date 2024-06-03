@@ -56,25 +56,25 @@ $registerLink = Link::getByName($conn, "form");
                 <div class="d-flex">
                     <div class="m-auto w-75">
                         <h4>Register Form</h4>
-                        <form class="w-full d-flex flex-column" style="gap: 8px">
+                        <form class="w-full d-flex flex-column" method="post" action="<?php echo BASE_URL . "/controllers/handleUpdateForm.php" ?>" style="gap: 8px">
 
                             <div class="form-group">
                                 <label class="form-label">
                                     Title (VN)
                                 </label>
-                                <input class="form-control w-100" required value="<?php echo $registerLink->titleVn ?>">
+                                <input name="title_vn" class="form-control w-100" required value="<?php echo $registerLink->titleVn ?>">
                             </div>
                             <div class="form-group">
                                 <label class="form-label">
                                     Title (ENG)
                                 </label>
-                                <input class="form-control w-100" required value="<?php echo $registerLink->titleEng ?>">
+                                <input name="title_en" class="form-control w-100" required value="<?php echo $registerLink->titleEng ?>">
                             </div>
                             <div class="form-group">
                                 <label class="form-label">
                                     Link
                                 </label>
-                                <input class="form-control w-100" required value="<?php echo $registerLink->link ?>">
+                                <input name="link" class="form-control w-100" required value="<?php echo $registerLink->link ?>">
                             </div>
                             <div class="w-100 d-flex justify-content-center" style="gap: 8px"><button class="btn btn-primary" type="reset" onclick="reload()">Undo</button>
                                 <button class="btn btn-success" type="submit">Save</button>

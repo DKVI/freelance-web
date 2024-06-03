@@ -91,11 +91,12 @@
                                         chức phi lợi nhuận và thu phí</a></li>
                             </ul>
                         </li>
-                        
+
                         <li class="nav-item">
-                            <a href="<?php echo BASE_URL . '/endorsement' ?>" class="nav-link">Bảo chứng từ cộng đồng</a>
+                            <a href="<?php echo BASE_URL . '/endorsement' ?>" class="nav-link">Bảo chứng từ cộng
+                                đồng</a>
                         </li>
-                        
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">FAQ</a>
@@ -246,19 +247,19 @@
 <div class="float-sm">
     <div class="fl-fl">
         <i class="fa fa-facebook"></i>
-        <a href="#" target="_blank"> Like us!</a>
+        <a href="<?php echo $facebook->link ?>" target="_blank"> Like us!</a>
     </div>
     <div class="fl-fl">
         <i class="fa fa-instagram"></i>
-        <a href="#" target="_blank">Follow us!</a>
+        <a href="<?php echo $instagram->link ?>" target="_blank">Follow us!</a>
     </div>
     <div class="fl-fl">
         <i class="fa fa-linkedin"></i>
-        <a href="#" target="_blank">Follow us!</a>
+        <a href="<?php echo $linkedin->link ?>" target="_blank">Follow us!</a>
     </div>
     <div class="fl-fl">
         <i class="fa fa-solid fa-address-card"></i>
-        <a target="_blank" class="go-down-btn">Contact us!</a>
+        <a href="<?php echo $form->link ?>" target="_blank">Contact us!</a>
     </div>
 </div>
 <!-- Floating Social Media bar Ends -->
@@ -274,11 +275,6 @@ navBtn.on("mouseout", function(e) {
     navlinkContainer.css("opacity", "0");
 });
 
-const goDownBtn = document.querySelector(".go-down-btn");
-console.log(goDownBtn);
-goDownBtn.onclick = (e) => {
-    window.scrollTo(0, document.body.scrollHeight);
-}
 const langBtn = document.querySelectorAll(".language a");
 const vnBtn = langBtn[0];
 const engBtn = langBtn[1];
