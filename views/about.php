@@ -40,7 +40,8 @@
                         </p>
                         <p>Cảm ơn các bạn đã cho mình và MSS cơ hội được đồng hành cùng với các bạn trong chặng đường
                             mooting. Mình hy vọng sẽ được gặp các bạn tại MSS. </p>
-                            <h5 class="text-end" data-toggle="modal" data-target="#exampleModalLong">Đọc thêm thông tin về Nhà sáng lập tại đây</h5>
+                        <h5 class="text-end" data-toggle="modal" data-target="#exampleModalLong">Đọc thêm thông tin về
+                            Nhà sáng lập tại đây</h5>
                     </div>
                     <div class="eng">
                         <p>Welcome to Mooting Summer School (MSS). </p>
@@ -63,15 +64,16 @@
                         <p>Thank you for allowing MSS and me to accompany you on your mooting journey. I hope to see you
                             at
                             MSS.</p>
-                        <h5 class="text-end" data-toggle="modal" data-target="#exampleModalLong">You can read more about the Founder here</h5>
+                        <h5 class="text-end" data-toggle="modal" data-target="#exampleModalLong">You can read more about
+                            the Founder here</h5>
                     </div>
                 </div>
 
                 <!-- Modal -->
-                <div class="modal fade bd-example-modal-lg" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true" >
+                <div class="modal fade bd-example-modal-lg" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                        
+
+                        <div class="modal-content" style="">
                             <div class="modal-body">
                                 <img src="./assets/imgs/profilev-Eng.png" alt="" class="w-100 h-100 eng">
                                 <img src="./assets/imgs/profilev-Vie.png" alt="" class="w-100 h-100 vn">
@@ -242,6 +244,7 @@
                 <h1 class="">MSS team</h1>
             </div>
             <div class="row text-center px-5">
+
                 <div class="col-lg-4">
                     <div class="flip-card">
                         <div class="flip-card-inner">
@@ -272,9 +275,11 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
-                    
+
                 </div>
+
                 <div class="col-lg-4">
                     <div class="flip-card">
                         <div class="flip-card-inner">
@@ -337,8 +342,6 @@
                             </div>
                         </div>
                     </div>
-                
-                    
                 </div>
             </div>
         </div>

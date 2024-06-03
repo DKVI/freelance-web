@@ -29,6 +29,8 @@ class Link
         return null;
     }
 
+
+
     public static function updateByName($conn, $name, $link)
     {
         $query = "UPDATE externallink SET link = :link WHERE name = :name";
@@ -40,12 +42,12 @@ class Link
 
     public static function updateForm($conn, $form)
     {
-        $query = "UPDATE externallink SET title-vn = :title-vn, title-eng = :title-eng, link = :link WHERE name = :name";
+        $query = "UPDATE externallink SET `title-vn` = :titleVn, `title-eng` = :titleEng, `link` = :link WHERE `name` = :name";
         $stmt = $conn->prepare($query);
-        $stmt->bindParam(":title-vn", $form['title-vn']);
-        $stmt->bindParam(":title-eng", $form['title-eng']);
-        $stmt->bindParam(":name", $form['name']);
-        $stmt->bindParam(":link", $form['link']);
+        $stmt->bindParam(":titleVn", $form->titleVn);
+        $stmt->bindParam(":titleEng", $form->titleEng);
+        $stmt->bindParam(":link", $form->link);
+        $stmt->bindParam(":name", $form->name);
         return $stmt->execute();
     }
 }

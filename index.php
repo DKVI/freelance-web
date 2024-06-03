@@ -16,7 +16,11 @@ $conn = require "./inc/db.php";
 $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $segments = explode('/', $uri);
 
-
+$facebook = Link::getByName($conn, "facebook");
+$linkedin = Link::getByName($conn, "linkedin");
+$instagram = Link::getByName($conn, "instagram");
+$mail = Link::getByName($conn, "mail");
+$form = Link::getByName($conn, "form");
 ?>
 
 <!DOCTYPE html>
