@@ -419,7 +419,7 @@ h6 {
 .founder-words-title {
   width: 90%;
 }
-#a-message-from-our-founder .modal-body {
+#a-message-from-our-founder .modal-body, #termofuse .modal-body {
   padding: 0;
 }
 .our-mission {
@@ -442,6 +442,10 @@ h6 {
   font-family: "Times New Roman", Times, serif;
   font-size: 2rem;
 }
+#MSS-team{
+  min-height: 100vh;
+  padding-bottom: 100px;
+}
 #MSS-team .title {
   margin-bottom: 60px;
 }
@@ -457,6 +461,42 @@ h6 {
   object-fit: cover;
   margin-bottom: 10px;
   border-radius: 50%;
+}
+/* flip card */
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  cursor: help;
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-back {
+  
+  transform: rotateY(180deg);
 }
 
 /* -------------circle text animation (about page)----------- */

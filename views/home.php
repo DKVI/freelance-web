@@ -39,8 +39,9 @@ try {
                     qua ở đầy đủ các vai trò từ thí sinh, huấn luyện viên, diễn giả và giám khảo cả trong và ngoài nước.
                 </p>
                 <p>MSS sẽ được tổ chức vào mỗi mùa hè và hoạt động không vì mục tiêu lợi nhuận.</p>
-                <p><strong><a href="<?php echo BASE_URL ?>/about" ?>Click vào đây để xem thêm chi tiết về cựu mooter và
-                            các mục tiêu mà MSS mong muốn hướng tới nhé!</a></strong></p>
+                <h4><strong><a href="<?php echo BASE_URL ?>/about" ?>Xem thêm chi tiết về cựu mooter và
+                            các mục tiêu mà MSS mong muốn hướng tới</a></strong></p>
+                <h3><a href="#">ĐĂNG KÝ CHO MSS KHÓA 2024 ĐÃ MỞ >>>>> </a></h3>
                 
             </div>
             <div class="col-lg-6 mt-4">
@@ -80,7 +81,8 @@ try {
                 <p>MSS will be held annually every summer and operates on a not-for-profit basis.</p>
                 <p>Non est ad astra mollis e terris via, is MSS a place to open up a less difficult path to mooting?"
                 </p>
-                <h4><a href="<?php echo BASE_URL ?>/about" ?>See also >></a></h4>
+                <h4><a href="<?php echo BASE_URL ?>/about" ?>See more details about MSS >></a></h4>
+                <h4><a href="#">REGISTRATION FOR MSS CLASS OF 2024 IS NOW OPENED >></a></h4>
             </div>
             <div class="col-lg-6 mt-4 mb-5">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/-pHfPJGatgE?si=KlPHj-aaR5W99vtc"

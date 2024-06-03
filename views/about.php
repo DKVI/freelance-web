@@ -70,7 +70,7 @@
                 <!-- Modal -->
                 <div class="modal fade bd-example-modal-lg" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true" >
                     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-                        <div class="modal-content" style="">
+                        <div class="modal-content">
                         
                             <div class="modal-body">
                                 <img src="./assets/imgs/profilev-Eng.png" alt="" class="w-100 h-100 eng">
@@ -235,54 +235,109 @@
     </section>
 
     <!-- About the MSS team -->
-    <section class="mb-5" id="MSS-team">
+    <section class="mb-5 background-full" id="MSS-team" style="background-image: url(./assets/imgs/ourteam0.png);">
         <p class="relative-anchor" style="height: 100px"><span id="about-anchor"></span></p>
-        <div class="container ">
+        <div class="container " style="min-height: 85vh;">
             <div class="text-center title">
                 <h1 class="">MSS team</h1>
             </div>
             <div class="row text-center px-5">
                 <div class="col-md-4">
-                        <div class="upload-container">
-                            <img src="./assets/imgs/ourTeam-1.png" alt="" class="avatar">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="upload-container">
+                                    <img src="./assets/imgs/ourTeam-1.png" alt="" class="avatar">
+                                </div>
+                                <div class="vn">
+                                    <h4 class="my-3">Hà Ngọc Thảo Nhi</h4>
+                                    <p class="text-muted">Trưởng Ban Vận hành</p>
+                                </div>
+                                <div class="eng">
+                                    <h4 class="my-3">Ha Ngoc Thao Nhi</h4>
+                                    <p class="text-muted">Operations Assistant</p>
+                                </div>
+                            </div>
+                            <div class="flip-card-back p-3">
+                                <div class="vn ">
+                                    <h3>Hà Ngọc Thảo Nhi</h3>
+                                    <p class="text-start">Tốt nghiệp Cử nhân Luật Trường Đại học Kinh tế TP. Hồ Chí Minh , Thảo Nhi hiện đang làm việc tại Công ty Luật Trách nhiệm Hữu hạn Tầm nhìn Và Liên danh (Vision & Associates). Nhi là cựu mooter từng tham gia các cuộc thi FDI Moot 2020, FDI 2021 dưới sự dẫn dắt Nhà sáng lập. Đồng thời, cô cũng từng có kinh nghiệm điều hành, hoạch định nội dung cho một cuộc thi có quy mô toàn quốc trong lĩnh vực quản trị kinh doanh tại trường đại học. </p> 
+                                    <p class="text-start">Với những hiểu biết về mooting và quản trị, cô đảm nhận nhiệm vụ hỗ trợ Nhà sáng lập quản lý và điều hành chung dự án MSS.</p>
+                                </div>
+                                <div class="eng">
+                                    <h3>Ha Ngoc Thao Nhi</h3>
+                                    <p class="text-start">Graduated with the Bachelor of Laws from University of Economics Ho Chi Minh City, Thảo Nhi currently works at Vision & Associates. She is a former mooter who has competed in the FDI Moot 2020 and FDI 2021 under the guidance of the Founder. Additionally, she has experience managing and
+                                    planning content for a nationwide business administration competition during her time at university.</p>
+                                    <p class="text-start">With her understanding of mooting and management, she takes on the responsibility of supporting the Founder in managing and overseeing the MSS project.</p>
+                                </div>
+                            </div>
                         </div>
-                    <div class="vn">
-                        <h4 class="my-3">Ha Ngoc Thao Nhi</h4>
-                        <p class="text-muted">Head of Operations</p>
-                    </div>
-                    <div class="eng">
-                        <h4 class="my-3">Hà Ngọc Thảo Nhi</h4>
-                    <p class="text-muted">Trưởng Ban Vận hành</p>
                     </div>
                     
                 </div>
                 <div class="col-md-4">
-                <div class="upload-container">
-                            <img src="./assets/imgs/ourTeam-2.png" alt="" class="avatar">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="upload-container">
+                                    <img src="./assets/imgs/ourTeam-2.png" alt="" class="avatar">
+                                </div>
+                                <div class="vn">
+                                    <h4 class="my-3">Nguyễn Sơn Hoàng</h4>
+                                    <p class="text-muted">Nhà sáng lập / Người hướng dẫn</p>
+                                </div>
+                                <div class="eng">
+                                    <h4 class="my-3">Nguyen Son Hoang</h4>
+                                    <p class="text-muted">Founder/Instructor</p>
+                                </div>
+                                
+                            </div>
+                            <div class="flip-card-back p-3">
+                                <div class="vn">
+                                    <h3>Nguyễn Sơn Hoàng</h3>
+                                    <p class="text-start">Sơn Hoàng, hiện đang làm việc tại Công ty Lexcomm Việt Nam, đã tích cực tham gia vào các cuộc thi moot trong gần trong thập kỷ qua. Anh đã tham gia vào các cuộc thi moot ở cấp quốc gia, huấn luyện hơn các đội từng đoạt giải thưởng tại các cuộc thi moot, và làm giám khảo trong các cuộc thi moot quốc gia, khu vực và quốc tế. Mooting Summer School là dự án để hiện thực hóa việc đưa kiến thức về moot của anh đến nhiều sinh viên hơn, và nâng cao tính cạnh tranh của nền mooting Việt Nam.</p>
+                                </div>
+                                <div class="eng">
+                                    <h3>Nguyen Son Hoang</h3>
+                                    <p class="text-start">Son Hoang, currently working at Lexcomm Vietnam LLC, has been actively involved in the mooting scene for the past decade. He has participated in national moots, coached over a dozen award-winning teams, and served as a judge in national, regional, and international moot competitions. Mooting Summer School is the project to realize his ambition for his mooting knowledge to reach a wider audience and elevate the overall level of competition in the Vietnamese mooting scene.</p>
+                                    
+                                </div>
+                            
+                            </div>
                         </div>
-                    <div class="vn">
-                        <h4 class="my-3">Nguyen Son Hoang</h4>
-                        <p class="text-muted">Founder/Instructor</p>
-                        
                     </div>
-                    <div class="eng">
-                        <h4 class="my-3">Nguyễn Sơn Hoàng</h4>
-                        <p class="text-muted">Nhà sáng lập / Người hướng dẫn</p>
-                    </div>
-                    
                 </div>
+                
+                    
                 <div class="col-md-4">
-                <div class="upload-container">
-                            <img src="./assets/imgs/ourTeam-3.png" alt="" class="avatar">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="upload-container">
+                                    <img src="./assets/imgs/ourTeam-3.png" alt="" class="avatar">
+                                </div>
+                            <div class="eng">
+                                <h4 class="my-3">Nguyen Kim Thao Hien</h4>
+                                <p class="text-muted">Lead Art Designer</p>
+                            </div>
+                            <div class="vn">
+                                <h4 class="my-3">Nguyễn Kim Thảo Hiền</h4>
+                                <p class="text-muted">Thiết kế hình ảnh</p>
+                            </div>
+                            </div>
+                            <div class="flip-card-back p-3">
+                                <div class="vn">
+                                    <h3>Nguyễn Kim Thảo Hiền</h3>
+                                    <p class="text-start">Một freelancer muốn được "tự do". Học tập, tốt nghiệp và làm việc tại Úc trong 6 năm, sau đó quay về Việt Nam để tìm kiếm "tự do" cho mình. Dự án Mooting Summer School là cơ hội để học hỏi, tiếp xúc và thách thức chính mình, để có thể mang đến mọi người một M.S.S không chỉ thuần túy là một cuộc thi về luật mà còn là đam mê, tâm huyết và tầm nhìn của một người trẻ dám thử thách và sẵn sàng đặt bước chân đầu tiên ra khỏi vùng an toàn, bay về "tự do".</p>
+                                </div>
+                                <div class="eng">
+                                    <h3>Nguyen Kim Thao Hien</h3>
+                                    <p class="text-start">A Freelancer who wants to be "free". Had been living and working in Australia for 6 years then coming back to Viet Nam in the aim of searching for "freedom". Mooting Summer School is a chance to learn, approach and challenge myself to bring to everyone that M.S.S is not-just-a-normal-competition of mooting, furthermore, it is passion, enthusiasm of the youth who dare to try and willing to take the first step out of the box towards the "freedom".</p>
+                                </div>
+                            </div>
                         </div>
-                    <div class="vn">
-                        <h4 class="my-3">Nguyen Kim Thao Hien</h4>
-                        <p class="text-muted">Head of Design</p>
                     </div>
-                    <div class="eng">
-                        <h4 class="my-3">Nguyễn Kim Thảo Hiền</h4>
-                        <p class="text-muted">Trưởng nhóm Thiết kế</p>
-                    </div>
+                
                     
                 </div>
             </div>
