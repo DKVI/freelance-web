@@ -242,7 +242,7 @@
                 <h1 class="">MSS team</h1>
             </div>
             <div class="row text-center px-5">
-                <div class="col-md-4">
+                <div class="col-lg-4">
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
@@ -275,7 +275,7 @@
                     </div>
                     
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4">
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
@@ -309,7 +309,7 @@
                 </div>
                 
                     
-                <div class="col-md-4">
+                <div class="col-lg-4">
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
