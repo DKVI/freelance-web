@@ -1,5 +1,7 @@
+console.log("Security: On");
 document.addEventListener("contextmenu", function (event) {
   event.preventDefault();
+  alert("ĐỂ TÔN TRỌNG CHẤT XÁM, VUI LÒNG KH COPY, XIN CẢM ƠN");
 });
 document.addEventListener("copy", function (e) {
   e.preventDefault();

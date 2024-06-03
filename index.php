@@ -81,6 +81,7 @@ if (isset($_GET['language'])) {
         if ($segments[2] !== 'admin') {
             include "./views/components/popupMessage.php";
             include "./views/components/hoverHere.php";
+            echo "<script src='./js/securityContent.js'></script>";
         }
         switch ($route) {
             case "":

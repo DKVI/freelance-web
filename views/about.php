@@ -250,7 +250,7 @@
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <div class="upload-container">
-                                    <img src="./assets/imgs/ourTeam-1.png" alt="" class="avatar">
+                                    <img src="./assets/imgs/ourTeam-1.png" alt="" class="avatar shadow">
                                 </div>
                                 <div class="vn">
                                     <h4 class="my-3">Hà Ngọc Thảo Nhi</h4>
@@ -297,7 +297,7 @@
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <div class="upload-container">
-                                    <img src="./assets/imgs/ourTeam-2.png" alt="" class="avatar">
+                                    <img src="./assets/imgs/ourTeam-2.png" alt="" class="avatar shadow">
                                 </div>
                                 <div class="vn">
                                     <h4 class="my-3">Nguyễn Sơn Hoàng</h4>
@@ -343,7 +343,7 @@
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <div class="upload-container">
-                                    <img src="./assets/imgs/ourTeam-3.png" alt="" class="avatar">
+                                    <img src="./assets/imgs/ourTeam-3.png" alt="" class="avatar shadow">
                                 </div>
                                 <div class="eng">
                                     <h4 class="my-3">Nguyen Kim Thao Hien</h4>

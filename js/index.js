@@ -24,14 +24,12 @@ faqLabel.forEach(
 );
 
 const sectionList = document.querySelectorAll("section");
-console.log(sectionList);
 
 const mainContainer = document.querySelector(".main");
 const bodyContainer = document.querySelector("body");
 window.addEventListener("scroll", function () {
   sectionList.forEach((section) => {
     let value = section.getBoundingClientRect().y;
-    console.log(value);
     if (value <= 500) {
       section.classList.add("section-active");
     }
