@@ -210,6 +210,9 @@
                                 </li>
                             </ul>
                         </li>
+                        <li class="nav-item">
+                            <a target="_blank" class="go-down-btn nav-link">Contact</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -248,6 +251,7 @@
     <div class="fl-fl">
         <i class="fa fa-facebook"></i>
         <a href="<?php echo $facebook->link ?>" target="_blank"> Like us!</a>
+
     </div>
     <div class="fl-fl">
         <i class="fa fa-instagram"></i>
