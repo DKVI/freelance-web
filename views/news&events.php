@@ -37,8 +37,8 @@ foreach ($eventsPost as $post) {
 
 
 <script>
-    console.log(newsList);
-    console.log(eventsList);
+console.log(newsList);
+console.log(eventsList);
 </script>
 
 <main class="position-relative">
@@ -60,36 +60,18 @@ foreach ($eventsPost as $post) {
         <div class="row justify-content-center min-vh-100 " style="gap: 16px">
             <div class="col-lg-8 h-100 row shadow-lg rounded-3">
                 <div class="col-lg-12">
-                    <div id="carouselExampleFade" class="carousel slide carousel-fade w-100" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="./assets/imgs/ne-banner1.png" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/imgs/ne-banner2.png" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/imgs/ne-banner3.png" class="d-block w-100" alt="...">
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
+                    <img src="./assets/imgs/ne-banner2.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="col-lg-12 p-4">
                     <div class="w-100">
                         <ul class="nav nav-pills d-flex nav-justified tab-views" style="gap: 8px">
                             <li class="nav-item">
-                                <a class="nav-link news-tab active shadow" style="transition: all 0.3s ease-in-out" aria-current="page">News</a>
+                                <a class="nav-link news-tab active shadow" style="transition: all 0.3s ease-in-out"
+                                    aria-current="page">News</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link shadow events-tab" style="transition: all 0.3s ease-in-out">Events</a>
+                                <a class="nav-link shadow events-tab"
+                                    style="transition: all 0.3s ease-in-out">Events</a>
                             </li>
                         </ul>
                     </div>
@@ -131,80 +113,80 @@ foreach ($eventsPost as $post) {
         </div>
     </div>
     <style>
-        .nav-link {
-            margin: unset !important;
-            color: #274069 !important;
-        }
+    .nav-link {
+        margin: unset !important;
+        color: #274069 !important;
+    }
 
-        .nav-link.active:hover {
-            opacity: 0.8;
-            color: white !important;
-        }
+    .nav-link.active:hover {
+        opacity: 0.8;
+        color: white !important;
+    }
 
-        .nav-item {
-            padding: 0;
-        }
+    .nav-item {
+        padding: 0;
+    }
 
-        .nav-link.active {
-            background-color: #274069 !important;
-            color: white !important;
-        }
+    .nav-link.active {
+        background-color: #274069 !important;
+        color: white !important;
+    }
     </style>
     <script>
-        let eventsLimit = 4;
-        let newsLimit = 4;
-        const postsContainer = document.querySelector('.posts-container');
-        const renderEvents = (limit) => {
-            let html = "";
-            if (limit <= eventsList.length) {
-                for (let i = 0; i < limit; i++) {
-                    html += eventsList[i];
-                }
-                postsContainer.innerHTML = html + "<button class='btn'>Show more</button>";
-            } else {
-                for (let i = 0; i < eventsList.length; i++) {
-                    html += eventsList[i];
-                }
-                postsContainer.innerHTML = html;
+    let eventsLimit = 4;
+    let newsLimit = 4;
+    const postsContainer = document.querySelector('.posts-container');
+    const renderEvents = (limit) => {
+        let html = "";
+        if (limit <= eventsList.length) {
+            for (let i = 0; i < limit; i++) {
+                html += eventsList[i];
             }
-        }
-
-        const renderNews = (limit) => {
-            let html = "";
-            if (limit <= newsList.length) {
-                for (let i = 0; i < limit; i++) {
-                    html += newsList[i];
-                }
-                postsContainer.innerHTML = html + "<button class='btn' onclick='showMoreNews()'>Show more</button>";
-            } else {
-                for (let i = 0; i < newsList.length; i++) {
-                    html += newsList[i];
-                }
-                postsContainer.innerHTML = html;
+            postsContainer.innerHTML = html + "<button class='btn'>Show more</button>";
+        } else {
+            for (let i = 0; i < eventsList.length; i++) {
+                html += eventsList[i];
             }
+            postsContainer.innerHTML = html;
         }
+    }
 
-        const showMoreNews = () => {
-            newsLimit += 4;
-            renderNews(newsLimit);
-        }
-
-        const tabViews = document.querySelectorAll(".tab-views .nav-link");
-        console.log(tabViews);
-        tabViews.forEach((tabView) => {
-            tabView.onclick = () => {
-                if (tabView.classList.contains("events-tab")) {
-                    renderEvents(eventsLimit);
-                } else {
-                    renderNews(newsLimit);
-                }
-
-                tabViews.forEach((tabView) => {
-                    tabView.classList.remove("active");
-                });
-                tabView.classList.add("active");
+    const renderNews = (limit) => {
+        let html = "";
+        if (limit <= newsList.length) {
+            for (let i = 0; i < limit; i++) {
+                html += newsList[i];
             }
-        })
+            postsContainer.innerHTML = html + "<button class='btn' onclick='showMoreNews()'>Show more</button>";
+        } else {
+            for (let i = 0; i < newsList.length; i++) {
+                html += newsList[i];
+            }
+            postsContainer.innerHTML = html;
+        }
+    }
+
+    const showMoreNews = () => {
+        newsLimit += 4;
         renderNews(newsLimit);
+    }
+
+    const tabViews = document.querySelectorAll(".tab-views .nav-link");
+    console.log(tabViews);
+    tabViews.forEach((tabView) => {
+        tabView.onclick = () => {
+            if (tabView.classList.contains("events-tab")) {
+                renderEvents(eventsLimit);
+            } else {
+                renderNews(newsLimit);
+            }
+
+            tabViews.forEach((tabView) => {
+                tabView.classList.remove("active");
+            });
+            tabView.classList.add("active");
+        }
+    })
+    renderNews(newsLimit);
     </script>
 </main>

@@ -2,8 +2,8 @@
 try {
     Date::increaseVisitors($conn);
 } catch (\Exception $e) {
-
 }
+$form = Link::getByName($conn, "form");
 ?>
 
 <main id="home" class="position-relative px-5" style="margin-top: 12rem; margin-bottom: 60px">
@@ -21,8 +21,7 @@ try {
             <p>Ai đó đã nói rằng khi tham gia Mooting, ta thấy mình như lao vào vũ trụ. Ở đó, ta sẽ không biết bản thân
                 có thể đi xa được đến đâu, và giá trị nhận được nhiều đến mức nào. Nhưng trước hết, chỉ cần từ những
                 bước chân đâu tiên, ta có thể chắc chắn rằng, hành trình này sẽ không phải là một điều đơn giản. </p>
-            <p>Bởi vậy, nếu xem mỗi cuộc thi moot là một vì sao khác nhau trong vũ trụ,<strong
-                    style="font-size: 1.3rem"><em> Non est ad astra mollis e terris
+            <p>Bởi vậy, nếu xem mỗi cuộc thi moot là một vì sao khác nhau trong vũ trụ,<strong style="font-size: 1.3rem"><em> Non est ad astra mollis e terris
                         via</em></strong> (tạm dịch: <em>Chẳng có con đường nào dễ dàng để vươn tới những vì sao</em>)
                 chính là triết lý của Mooting
                 Summer School. Với chúng tôi, không ai khác ngoài chính bạn sẽ phải tự lựa chọn “ngôi sao may mắn” và
@@ -41,14 +40,11 @@ try {
                 <p>MSS sẽ được tổ chức vào mỗi mùa hè và hoạt động không vì mục tiêu lợi nhuận.</p>
                 <h4><strong><a href="<?php echo BASE_URL ?>/about" ?>Xem thêm chi tiết về cựu mooter và
                             các mục tiêu mà MSS mong muốn hướng tới</a></strong></p>
-                <h3><a href="#">ĐĂNG KÝ CHO MSS KHÓA 2024 ĐÃ MỞ >>>>> </a></h3>
-                
+                    <h4><a class="fw-bold" href="<?php echo $form->link ?>"><?php echo $form->titleVn ?> >></a></h4>
+
             </div>
             <div class="col-lg-6 mt-4">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/-pHfPJGatgE?si=KlPHj-aaR5W99vtc"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="w-100"></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/-pHfPJGatgE?si=KlPHj-aaR5W99vtc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="w-100"></iframe>
             </div>
         </div>
     </div>
@@ -60,8 +56,7 @@ try {
                 how far we can go or what kind of value we can gain from the experience. But first and foremost, just
                 from the very first steps, we can be sure that this journey will not be an easy one. </p>
             <p>
-                Therefore, if we see each moot competition as a different star in the universe,<strong
-                    style="font-family: 'Times New Roman', Times, serif; font-size: 1.3rem"><em> Non est ad astra mollis
+                Therefore, if we see each moot competition as a different star in the universe,<strong style="font-family: 'Times New Roman', Times, serif; font-size: 1.3rem"><em> Non est ad astra mollis
                         e terris
                         via</em></strong> (translated: <em>There is no easy from the earth to the stars</em>) is the
                 philosophy of Mooting Summer School. For us, no one but you will have to choose your own "lucky star"
@@ -82,13 +77,10 @@ try {
                 <p>Non est ad astra mollis e terris via, is MSS a place to open up a less difficult path to mooting?"
                 </p>
                 <h4><a href="<?php echo BASE_URL ?>/about" ?>See more details about MSS >></a></h4>
-                <h4><a href="#">REGISTRATION FOR MSS CLASS OF 2024 IS NOW OPENED >></a></h4>
+                <h4><a class="fw-bold" href="<?php echo $form->link ?>"><?php echo $form->titleEng ?> >></a></h4>
             </div>
             <div class="col-lg-6 mt-4 mb-5">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/-pHfPJGatgE?si=KlPHj-aaR5W99vtc"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="w-100"></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/-pHfPJGatgE?si=KlPHj-aaR5W99vtc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="w-100"></iframe>
             </div>
 
         </div>

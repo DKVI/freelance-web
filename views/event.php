@@ -19,7 +19,7 @@ $relativePosts = Post::getRelatedPost($conn, $id, 3);
     integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<main class="position-relative">
+<main class="position-relative" style="margin-top: 10rem">
     <div class="position-fixed d-flex justify-content-end" style="left: 0;
   right: 0;
   top: 0;
@@ -28,7 +28,7 @@ $relativePosts = Post::getRelatedPost($conn, $id, 3);
         <div class="griffin" style=" width: 75%;">
         </div>
     </div>
-    <div class="px-lg-5 px-sm-4 px-md-4 pt-sm-5 pt-md-5 pb-5">
+    <div class="px-lg-5 px-sm-4 px-md-4 pt-5 pb-5">
         <div class="px-lg-5">
             <div class="row d-flex justify-content-between">
                 <div class="col-lg-8 pb-5 col-sm-12 col-md-12">
