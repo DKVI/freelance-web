@@ -140,6 +140,9 @@ picture {
   overflow-y: auto;
   --bs-dropdown-min-width: 12.5rem;
 }
+#endorsement-mobile{
+  display: none;
+}
 /* -----fonts------ */
 body,
 nav {
@@ -416,6 +419,9 @@ h6 {
 .founder-words-title {
   width: 90%;
 }
+#a-message-from-our-founder .modal-body {
+  padding: 0;
+}
 .our-mission {
   background-image: url(../assets/imgs/about-2.png);
   background-size: cover;
@@ -435,6 +441,22 @@ h6 {
 .ab-slogan {
   font-family: "Times New Roman", Times, serif;
   font-size: 2rem;
+}
+#MSS-team .title {
+  margin-bottom: 60px;
+}
+.upload-container {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#MSS-team .avatar {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 50%;
 }
 
 /* -------------circle text animation (about page)----------- */
@@ -593,13 +615,13 @@ table thead th {
   font-weight: lighter;
 }
 /* --------------ENDORSEMENT------------- */
-#review-from-mentee .title h1 {
+#endorsement .title h1 {
   font-size: 6.5rem !important;
 }
-#review-from-mentee .carousel .active {
+#endorsement .carousel .active, #endorsement-mobile .carousel .active {
   background-color: rgba(0, 0, 0, 0);
 }
-#review-from-mentee .carousel-inner {
+#endorsement .carousel-inner {
   z-index: 0;
 }
 
@@ -866,14 +888,26 @@ footer {
   .philosophy-text {
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
   }
-  #a-message-from-our-founder title h3 {
+  .founder-words-title h3 {
     margin-top: 30px;
   }
   .our-mission-vn-content {
     margin-top: 0rem !important;
     padding-left: 0 !important;
   }
-  #review-from-mentee-mobile .title h1 {
+  #endorsement-mobile .title h1 {
     font-size: 3.5rem !important;
   }
+  #endorsement-desktop{
+    display: none;
+  }
+  #endorsement-mobile{
+    display: block;
+  }
+  #a-message-from-our-founder .modal-body {
+    height: auto;
+  }
+  main {
+    min-height: 0 !important;
+}
 }

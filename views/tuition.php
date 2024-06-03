@@ -5,91 +5,86 @@
         </div>
     </div>
     <!-- Tuition's content -->
-    <div class="container">
-        <div id="tuition-packages-and-benefits" class="d-flex justify-content-center align-items-center">
-            <p class="relative-anchor"><span id="about-anchor"></span></p>
-            <div class="position-relative col-lg-5 col-sm-10 text-center bg-light" style="height: 18rem">
-                <h1 class="position-absolute " style="font-size: 20rem; color: #99a2b1; left: 38%; z-index: 0;">&</h1>
-                <div class="title position-absolute " style="z-index:1; left:6%">
-                    <div class="vn">
-                        <img src="./assets/imgs/tuition.png" alt="">
-                    </div>
-                    <div class="eng">
-                        <h1>Benefits</h1>
-                        <h1>Packages</h1>
-                    </div>
+    <div class="container" id="tuition-packages-and-benefits">
+        <p class="relative-anchor" style="height:150px"><span id="about-anchor"></span></p>
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="col-lg-5 col-sm-10 px-5 py-4" style="background-color: rgb(229, 229, 229,0.8);">
+                <div>
+                    <img src="./assets/imgs/tuition.png" alt="" class="vn">
+                    <img src="./assets/imgs/tuition-eng.png" alt="" class="eng">
                 </div>
-            </div>
-        </div>
-        <div class="d-flex justify-content-center align-items-center ">
-            <div class="col-lg-5 p-5 bg-light">
-                <div class="vn">
-                    <p>Đối với khóa học chính thức, MSS sẽ có 02 gói học phí khác nhau. Học viên có thể cân nhắc lựa chọn
-                        gói phù hợp nhất với nhu cầu hiện tại của bản thân. Là năm đầu tiên của dự án, MSS đưa ra mức học
-                        phí ưu đãi, với 2 gói học như sau:</p>
-                    <ol>
-                        <li>Gói Essentials: 1.199.000 VND</li>
-                        <li>Gói Advantaged: 1.599.000 VND</li>
-                    </ol>
-                    <p>Mỗi gói học sẽ bao gồm các quyền lợi tương ứng dưới đây:</p>
-                </div>
-                <div class="eng">
-                    <p>MSS will offer two different tuition packages for the official course. Students can consider and choose the package that best suits their current needs. As it is the first year of the project, MSS is offering preferential tuition fees with two study packages available as follows:</p>
-                    <ol>
-                        <li>Essentials: 1,199,000 VND</li>
-                        <li>Advantaged package: 1,599,000 VND</li>
-                    </ol>
-                    <p>Each package will include the following corresponding benefits:</p>
-                </div>
-                
-                <!-- TABLE -->
-                <div class="bg-light">
-                    <table class="table">
-                        <thead>
-                            <tr class="blue-bg">
-                                <th scope="col" class="vn text-center">Quyền lợi</th>
-                                <th scope="col" class="eng text-center">Benefit</th>
-                                <th scope="col">Essentials</th>
-                                <th scope="col">Advantaged</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row" class="vn">Số buổi học lý thuyết </th>
-                                <th scope="row" class="eng">Number of theoretical lessons attended</th>
-                                <td class="text-center ">6</td>
-                                <td class="text-center">
-                                    10
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="vn">Truy cập toàn bộ nội dung của khóa học (slides bài giảng, bài
-                                    tập về nhà, bài mẫu)</th>
-                                <th scope="row" class="eng">Access the full course content (lecture slides, homework,
-                                    samples)</th>
-                                <td class="text-center">✓</td>
-                                <td class="text-center">✓</td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="vn">Tham gia các buổi thực hành dưới tư cách Quan sát viên</th>
-                                <th scope="row" class="eng">Participate in practice sessions as an Observer</th>
-                                <td class="text-center">✓</td>
-                                <td class="text-center">✓</td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="vn">Tham gia các buổi thực hành dưới tư cách Người thực hành</th>
-                                <th scope="row" class="eng">Participate in practice sessions as a Practitioner</th>
-                                <td class="text-danger text-center">✘</td>
-                                <td class="text-center">✓</td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="vn">Tham gia buổi talkshow</th>
-                                <th scope="row" class="eng">Join the talk show</th>
-                                <td class="text-center">✓</td>
-                                <td class="text-center">✓</td>
-                            </tr>
-                        </tbody>
-                    </table>
+            
+                <div class="">
+                    
+                        <div class="vn">
+                            <p>Đối với khóa học chính thức, MSS sẽ có 02 gói học phí khác nhau. Học viên có thể cân nhắc lựa chọn
+                                gói phù hợp nhất với nhu cầu hiện tại của bản thân. Là năm đầu tiên của dự án, MSS đưa ra mức học
+                                phí ưu đãi, với 2 gói học như sau:</p>
+                            <ol>
+                                <li>Gói Essentials: 1.199.000 VND</li>
+                                <li>Gói Advantaged: 1.599.000 VND</li>
+                            </ol>
+                            <p>Mỗi gói học sẽ bao gồm các quyền lợi tương ứng dưới đây:</p>
+                        </div>
+                        <div class="eng">
+                            <p>MSS will offer two different tuition packages for the official course. Students can consider and choose the package that best suits their current needs. As it is the first year of the project, MSS is offering preferential tuition fees with two study packages available as follows:</p>
+                            <ol>
+                                <li>Essentials: 1,199,000 VND</li>
+                                <li>Advantaged: 1,599,000 VND</li>
+                            </ol>
+                            <p>Each package will include the following corresponding benefits:</p>
+                        </div>
+                        
+                        <!-- TABLE -->
+                        <div class="bg-light">
+                            <table class="table">
+                                <thead>
+                                    <tr class="blue-bg">
+                                        <th scope="col" class="vn text-center">Quyền lợi</th>
+                                        <th scope="col" class="eng text-center">Benefit</th>
+                                        <th scope="col">Essentials</th>
+                                        <th scope="col">Advantaged</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row" class="vn">Số buổi học lý thuyết </th>
+                                        <th scope="row" class="eng">Number of theoretical lessons attended</th>
+                                        <td class="text-center ">6</td>
+                                        <td class="text-center">
+                                            10
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="vn">Truy cập toàn bộ nội dung của khóa học (slides bài giảng, bài
+                                            tập về nhà, bài mẫu)</th>
+                                        <th scope="row" class="eng">Access the full course content (lecture slides, homework,
+                                            samples)</th>
+                                        <td class="text-center">✓</td>
+                                        <td class="text-center">✓</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="vn">Tham gia các buổi thực hành dưới tư cách Quan sát viên</th>
+                                        <th scope="row" class="eng">Participate in practice sessions as an Observer</th>
+                                        <td class="text-center">✓</td>
+                                        <td class="text-center">✓</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="vn">Tham gia các buổi thực hành dưới tư cách Người thực hành</th>
+                                        <th scope="row" class="eng">Participate in practice sessions as a Practitioner</th>
+                                        <td class="text-danger text-center">✘</td>
+                                        <td class="text-center">✓</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="vn">Tham gia buổi talkshow</th>
+                                        <th scope="row" class="eng">Join the talk show</th>
+                                        <td class="text-center">✓</td>
+                                        <td class="text-center">✓</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    
                 </div>
             </div>
         </div>

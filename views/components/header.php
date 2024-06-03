@@ -91,18 +91,11 @@
                                         chức phi lợi nhuận và thu phí</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">Bảo chứng từ cộng đồng</a>
-                            <ul style="width: auto"
-                                class="shadow-lg dropdown-menu dropdown-menu-light custom-scrollbar">
-                                <li><a class="dropdown-item" href="<?php echo BASE_URL . '/endorsement#review-from-mentee' ?>">Từ Mentee</a></li>
-                                <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">Từ cựu Mooter</a></li>
-                                <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">Từ giám khảo và các tổ chức</a></li>
-                            </ul>
+                        
+                        <li class="nav-item">
+                            <a href="<?php echo BASE_URL . '/endorsement' ?>" class="nav-link">Bảo chứng từ cộng đồng</a>
                         </li>
+                        
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">FAQ</a>
@@ -192,18 +185,8 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="<?php echo BASE_URL . '/endorsement' ?>" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">Endorsement</a>
-                            <ul style="width: auto"
-                                class="shadow-lg dropdown-menu dropdown-menu-light custom-scrollbar">
-                                <li><a class="dropdown-item" href="<?php echo BASE_URL . '/endorsement#review-from-mentee' ?>">From Mentee</a></li>
-                                <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">From Former Mooter</a></li>
-                                <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">
-                                        From Judges And Organizations</a></li>
-                            </ul>
+                        <li class="nav-item">
+                            <a href="<?php echo BASE_URL . '/endorsement' ?>" class="nav-link">Endorsement</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
