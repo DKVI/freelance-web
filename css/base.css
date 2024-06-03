@@ -140,7 +140,7 @@ picture {
   overflow-y: auto;
   --bs-dropdown-min-width: 12.5rem;
 }
-#endorsement-mobile{
+#endorsement-mobile {
   display: none;
 }
 /* -----fonts------ */
@@ -419,7 +419,8 @@ h6 {
 .founder-words-title {
   width: 90%;
 }
-#a-message-from-our-founder .modal-body, #termofuse .modal-body {
+#a-message-from-our-founder .modal-body,
+#termofuse .modal-body {
   padding: 0;
 }
 .our-mission {
@@ -442,7 +443,7 @@ h6 {
   font-family: "Times New Roman", Times, serif;
   font-size: 2rem;
 }
-#MSS-team{
+#MSS-team {
   min-height: 100vh;
   padding-bottom: 100px;
 }
@@ -466,14 +467,13 @@ h6 {
 .flip-card {
   background-color: transparent;
   width: 100%;
-  height: 100%;
+  height: 400px;
   perspective: 1000px;
 }
 
 .flip-card-inner {
   position: relative;
   width: 100%;
-  height: 100%;
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
@@ -485,17 +485,15 @@ h6 {
   cursor: help;
 }
 
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
   position: absolute;
   width: 100%;
-  height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
-
 .flip-card-back {
-  
   transform: rotateY(180deg);
 }
 
@@ -658,7 +656,8 @@ table thead th {
 #endorsement .title h1 {
   font-size: 6.5rem !important;
 }
-#endorsement .carousel .active, #endorsement-mobile .carousel .active {
+#endorsement .carousel .active,
+#endorsement-mobile .carousel .active {
   background-color: rgba(0, 0, 0, 0);
 }
 #endorsement .carousel-inner {
@@ -938,10 +937,10 @@ footer {
   #endorsement-mobile .title h1 {
     font-size: 3.5rem !important;
   }
-  #endorsement-desktop{
+  #endorsement-desktop {
     display: none;
   }
-  #endorsement-mobile{
+  #endorsement-mobile {
     display: block;
   }
   #a-message-from-our-founder .modal-body {
@@ -949,5 +948,5 @@ footer {
   }
   main {
     min-height: 0 !important;
-}
+  }
 }
