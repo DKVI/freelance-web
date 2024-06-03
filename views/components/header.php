@@ -209,6 +209,9 @@
                                 </li>
                             </ul>
                         </li>
+                        <li class="nav-item">
+                            <a target="_blank" class="go-down-btn nav-link">Contact</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -246,7 +249,7 @@
 <div class="float-sm">
     <div class="fl-fl">
         <i class="fa fa-facebook"></i>
-        <a href="#" target="_blank"> Like us!</a>
+        <a href="https://www.facebook.com/MootingSummerSchool" target="_blank"> Like us!</a>
     </div>
     <div class="fl-fl">
         <i class="fa fa-instagram"></i>
@@ -254,11 +257,11 @@
     </div>
     <div class="fl-fl">
         <i class="fa fa-linkedin"></i>
-        <a href="#" target="_blank">Follow us!</a>
+        <a href="https://www.linkedin.com/company/mooting-summer-school/" target="_blank">Follow us!</a>
     </div>
     <div class="fl-fl">
         <i class="fa fa-solid fa-address-card"></i>
-        <a target="_blank" class="go-down-btn">Contact us!</a>
+        <a target="#" class="">Register here!</a>
     </div>
 </div>
 <!-- Floating Social Media bar Ends -->
