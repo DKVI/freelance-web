@@ -60,7 +60,7 @@ foreach ($eventsPost as $post) {
         <div class="row justify-content-center min-vh-100 mt-5" style="gap: 16px">
             <div class="col-lg-8 h-100 row shadow-lg rounded-3">
                 <div class="col-lg-12">
-                    <img src="./assets/imgs/ne-banner2.png" class="d-block w-100" alt="...">
+                    <img src="./assets/imgs/ne-banner1.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="col-lg-12 p-4">
                     <div class="w-100">
