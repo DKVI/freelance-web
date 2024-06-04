@@ -130,6 +130,7 @@ picture {
     display: block;
     margin-top: 0;
   }
+
   .menu-nav {
     width: 30%;
   }
@@ -168,9 +169,7 @@ h6 {
 .logo-area {
   z-index: 2 !important;
 }
-.logo-header {
-  width: 100% !important;
-}
+
 .header nav {
   min-height: 7rem;
   margin: 0;
@@ -182,11 +181,20 @@ h6 {
 .header .navbar {
   /* background-color: rgba(229, 229, 229, 0.5); */
   background-color: #e5e5e5;
+  height: 100px;
 }
 
 .header .menu-nav {
   font-family: BookMan;
-  height: 120px;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar-brand {
+  height: 100%;
+}
+.navbar-brand img {
+  height: 100%;
 }
 
 .header .navbar-nav ul {
@@ -247,6 +255,18 @@ h6 {
 @media (min-width: 320px) and (max-width: 700px) {
   .subheader-left {
     width: 0 !important;
+  }
+  .navlink-container {
+    height: auto !important;
+    width: 100% !important;
+    background-color: rgb(229, 229, 229);
+  }
+  body .header .navbar {
+    height: 140px !important;
+  }
+
+  .hover-here-component {
+    display: none !important;
   }
   .subheader-right {
     width: 100% !important;
@@ -895,6 +915,19 @@ footer {
   .animate-btn {
     opacity: 1;
     animation: none !important;
+  }
+
+  .navlink-container {
+    height: auto !important;
+    width: 100% !important;
+    background-color: rgb(229, 229, 229);
+  }
+
+  .header .navbar {
+    height: 160px !important;
+  }
+  .hover-here-component {
+    display: none !important;
   }
   #preloader:before,
   #preloader:after {
