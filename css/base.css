@@ -262,6 +262,7 @@ h6 {
     width: 100% !important;
     background-color: rgb(229, 229, 229);
     padding: 8px;
+    opacity: 1 !important;
   }
   body .header .navbar {
     height: 120px !important;
@@ -929,6 +930,7 @@ footer {
     height: auto !important;
     width: 100% !important;
     background-color: rgb(229, 229, 229);
+    opacity: 1 !important;
   }
 
   .header .navbar {
