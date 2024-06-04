@@ -261,6 +261,7 @@ h6 {
     height: auto !important;
     width: 100% !important;
     background-color: rgb(229, 229, 229);
+    padding: 8px;
   }
   body .header .navbar {
     height: 120px !important;
