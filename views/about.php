@@ -40,7 +40,7 @@
                         </p>
                         <p>Cảm ơn các bạn đã cho mình và MSS cơ hội được đồng hành cùng với các bạn trong chặng đường
                             mooting. Mình hy vọng sẽ được gặp các bạn tại MSS. </p>
-                        <h5 class="text-end" data-toggle="modal" data-target="#exampleModalLong">Đọc thêm thông tin về
+                        <h5 class="text-end" data-toggle="modal" data-target="#exampleModalLong" style="cursor: pointer">Đọc thêm thông tin về
                             Nhà sáng lập tại đây</h5>
                     </div>
                     <div class="eng">
