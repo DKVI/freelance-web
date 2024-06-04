@@ -37,8 +37,8 @@
                                         MSS</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <a href="<?php echo BASE_URL . '/news&events' ?>" class="nav-link">Sự kiện</a>
+                        <li class="nav-item dropdown">
+                            <a href="<?php echo BASE_URL . '/news&events' ?>" class="nav-link dropdown-toggle">Sự kiện</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Chương trình học</a>
@@ -77,9 +77,8 @@
                             </ul>
                         </li>
 
-                        <li class="nav-item">
-                            <a href="<?php echo BASE_URL . '/endorsement' ?>" class="nav-link">Bảo chứng từ cộng
-                                đồng</a>
+                        <li class="nav-item dropdown">
+                            <a href="<?php echo BASE_URL . '/endorsement' ?>" class="nav-link dropdown-toggle">Bảo chứng từ cộng đồng</a>
                         </li>
 
                         <li class="nav-item dropdown">
@@ -100,8 +99,8 @@
                             </ul>
 
                         </li>
-                        <li class="nav-item">
-                            <a target="_blank" class="go-down-btn nav-link">Liên hệ</a>
+                        <li class="nav-item dropdown">
+                            <a target="_blank" class="go-down-btn nav-link dropdown-toggle">Liên hệ</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav eng">
