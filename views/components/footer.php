@@ -8,13 +8,13 @@
             <div class="eng">
                 <h3 class="text-center">Resources</h3>
                 <p><a href="#" class="text-light" data-toggle="modal" data-target="#termofuse">Term of use</a></p>
-                <p><a href="#" class="text-light">Enrollment link</a></p>
+                <p><a href="<?php echo $form->link ?>" target="_blank" class="text-light">Enrollment link</a></p>
             </div>
             <div class="vn">
                 <h3 class="text-center">Chi tiết</h3>
                 <p><a href="#" class="text-light" data-toggle="modal" data-target="#termofuse">Điều khoản sử dụng</a>
                 </p>
-                <p><a href="#" class="text-light">Link đăng ký</a></p>
+                <p><a href="<?php echo $form->link ?>" target="_blank" class="text-light">Link đăng ký</a></p>
             </div>
 
         </div>

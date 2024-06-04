@@ -1,6 +1,7 @@
 <main id="endorsement" style="min-height: 0; overflow-x: hidden;">
-    <section id="endorsement-desktop" class="background-full section-active" style="background-image: url(./assets/imgs/endorsement-mobile-bg.png);">
-        <p class="relative-anchor" style="height: 110px"><span id="about-anchor"></span></p>
+    <p class="relative-anchor" style="height: 110px"><span id="about-anchor"></span></p>
+    <section id="endorsement-desktop" class="background-full section-active position-relative mt-5"
+        style="background-image: url(./assets/imgs/endorsement-mobile-bg.png);">
         <div class="container">
             <div class="title">
                 <h1 class="vn">Bảo chứng</h1>
@@ -8,22 +9,37 @@
             </div>
             <div class="vn">
                 <!-- Testimonials -->
-                <div id="testimonials" class="carousel slide padding color-section" data-bs-ride="carousel" style="margin-top: -15px;">
+                <div id="testimonials" class="carousel slide padding color-section" data-bs-ride="carousel"
+                    style="margin-top: -15px;">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="7" aria-label="Slide 8"></button>
-                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="8" aria-label="Slide 9"></button>
-                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="9" aria-label="Slide 10"></button>
-                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="10" aria-label="Slide 11"></button>
-                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="11" aria-label="Slide 12"></button>
-                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="12" aria-label="Slide 13"></button>
-                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="13" aria-label="Slide 14"></button>
+                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="5"
+                            aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="6"
+                            aria-label="Slide 7"></button>
+                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="7"
+                            aria-label="Slide 8"></button>
+                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="8"
+                            aria-label="Slide 9"></button>
+                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="9"
+                            aria-label="Slide 10"></button>
+                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="10"
+                            aria-label="Slide 11"></button>
+                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="11"
+                            aria-label="Slide 12"></button>
+                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="12"
+                            aria-label="Slide 13"></button>
+                        <button type="button" data-bs-target="#testimonials" data-bs-slide-to="13"
+                            aria-label="Slide 14"></button>
 
                     </div>
                     <!-- Items here -->
@@ -74,11 +90,13 @@
 
                     </div>
                     <!-- end -->
-                    <button class="carousel-control-prev" type="button" data-bs-target="#testimonials" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#testimonials"
+                        data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#testimonials" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#testimonials"
+                        data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -86,22 +104,37 @@
             </div>
             <div class="eng">
                 <!-- Testimonials -->
-                <div id="testimonials-eng" class="carousel slide padding color-section" data-bs-ride="carousel" style="margin-top: -15px;">
+                <div id="testimonials-eng" class="carousel slide padding color-section" data-bs-ride="carousel"
+                    style="margin-top: -15px;">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#testimonials-eng" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#testimonials-eng" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#testimonials-eng" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#testimonials-eng" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#testimonials-eng" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#testimonials-eng" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                        <button type="button" data-bs-target="#testimonials-eng" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                        <button type="button" data-bs-target="#testimonials-eng" data-bs-slide-to="7" aria-label="Slide 8"></button>
-                        <button type="button" data-bs-target="#testimonials-eng" data-bs-slide-to="8" aria-label="Slide 9"></button>
-                        <button type="button" data-bs-target="#testimonials-eng" data-bs-slide-to="9" aria-label="Slide 10"></button>
-                        <button type="button" data-bs-target="#testimonials-eng" data-bs-slide-to="10" aria-label="Slide 11"></button>
-                        <button type="button" data-bs-target="#testimonials-eng" data-bs-slide-to="11" aria-label="Slide 12"></button>
-                        <button type="button" data-bs-target="#testimonials-eng" data-bs-slide-to="12" aria-label="Slide 13"></button>
-                        <button type="button" data-bs-target="#testimonials-eng" data-bs-slide-to="13" aria-label="Slide 14"></button>
+                        <button type="button" data-bs-target="#testimonials-eng" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#testimonials-eng" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#testimonials-eng" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#testimonials-eng" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#testimonials-eng" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#testimonials-eng" data-bs-slide-to="5"
+                            aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#testimonials-eng" data-bs-slide-to="6"
+                            aria-label="Slide 7"></button>
+                        <button type="button" data-bs-target="#testimonials-eng" data-bs-slide-to="7"
+                            aria-label="Slide 8"></button>
+                        <button type="button" data-bs-target="#testimonials-eng" data-bs-slide-to="8"
+                            aria-label="Slide 9"></button>
+                        <button type="button" data-bs-target="#testimonials-eng" data-bs-slide-to="9"
+                            aria-label="Slide 10"></button>
+                        <button type="button" data-bs-target="#testimonials-eng" data-bs-slide-to="10"
+                            aria-label="Slide 11"></button>
+                        <button type="button" data-bs-target="#testimonials-eng" data-bs-slide-to="11"
+                            aria-label="Slide 12"></button>
+                        <button type="button" data-bs-target="#testimonials-eng" data-bs-slide-to="12"
+                            aria-label="Slide 13"></button>
+                        <button type="button" data-bs-target="#testimonials-eng" data-bs-slide-to="13"
+                            aria-label="Slide 14"></button>
 
                     </div>
                     <!-- Items here -->
@@ -153,11 +186,13 @@
 
                 </div>
                 <!-- end -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#testimonials-eng" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonials-eng"
+                    data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#testimonials-eng" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonials-eng"
+                    data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
@@ -166,8 +201,8 @@
         <!-- end -->
         </div>
     </section>
-    <section id="endorsement-mobile" class="background-full" style="background-image: url(./assets/imgs/endorsement-bg.png);">
-        <p class="relative-anchor" style="height: 120px"><span id="about-anchor"></span></p>
+    <section id="endorsement-mobile" class="background-full section-active position-relative mt-5"
+        style="background-image: url(./assets/imgs/endorsement-bg.png);">
         <div class="container">
             <div class="title px-3">
                 <h1 class="vn">Bảo chứng</h1>
@@ -175,22 +210,37 @@
             </div>
             <!-- Testimonials -->
             <div class="vn">
-                <div id="testimonials-mobile-vn" class="carousel slide padding color-section" data-bs-ride="carousel" style="">
+                <div id="testimonials-mobile-vn" class="carousel slide padding color-section" data-bs-ride="carousel"
+                    style="">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#testimonials-mobile-vn" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#testimonials-mobile-vn" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="testimonials-mobile-vn" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="testimonials-mobile-vn" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="testimonials-mobile-vn" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="testimonials-mobile-vn" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                        <button type="button" data-bs-target="testimonials-mobile-vn" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                        <button type="button" data-bs-target="testimonials-mobile-vn" data-bs-slide-to="7" aria-label="Slide 8"></button>
-                        <button type="button" data-bs-target="testimonials-mobile-vn" data-bs-slide-to="8" aria-label="Slide 9"></button>
-                        <button type="button" data-bs-target="testimonials-mobile-vn" data-bs-slide-to="9" aria-label="Slide 10"></button>
-                        <button type="button" data-bs-target="testimonials-mobile-vn" data-bs-slide-to="10" aria-label="Slide 11"></button>
-                        <button type="button" data-bs-target="testimonials-mobile-vn" data-bs-slide-to="11" aria-label="Slide 12"></button>
-                        <button type="button" data-bs-target="testimonials-mobile-vn" data-bs-slide-to="12" aria-label="Slide 13"></button>
-                        <button type="button" data-bs-target="testimonials-mobile-vn" data-bs-slide-to="13" aria-label="Slide 14"></button>
+                        <button type="button" data-bs-target="#testimonials-mobile-vn" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#testimonials-mobile-vn" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="testimonials-mobile-vn" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="testimonials-mobile-vn" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="testimonials-mobile-vn" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="testimonials-mobile-vn" data-bs-slide-to="5"
+                            aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="testimonials-mobile-vn" data-bs-slide-to="6"
+                            aria-label="Slide 7"></button>
+                        <button type="button" data-bs-target="testimonials-mobile-vn" data-bs-slide-to="7"
+                            aria-label="Slide 8"></button>
+                        <button type="button" data-bs-target="testimonials-mobile-vn" data-bs-slide-to="8"
+                            aria-label="Slide 9"></button>
+                        <button type="button" data-bs-target="testimonials-mobile-vn" data-bs-slide-to="9"
+                            aria-label="Slide 10"></button>
+                        <button type="button" data-bs-target="testimonials-mobile-vn" data-bs-slide-to="10"
+                            aria-label="Slide 11"></button>
+                        <button type="button" data-bs-target="testimonials-mobile-vn" data-bs-slide-to="11"
+                            aria-label="Slide 12"></button>
+                        <button type="button" data-bs-target="testimonials-mobile-vn" data-bs-slide-to="12"
+                            aria-label="Slide 13"></button>
+                        <button type="button" data-bs-target="testimonials-mobile-vn" data-bs-slide-to="13"
+                            aria-label="Slide 14"></button>
                     </div>
                     <!-- Items here -->
                     <div class="carousel-inner">
@@ -237,33 +287,50 @@
                             <img src="./assets/imgs/endorsement-mvn-14.png" alt="mss-endorsement">
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#testimonials-mobile-vn" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#testimonials-mobile-vn"
+                        data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#testimonials-mobile-vn" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#testimonials-mobile-vn"
+                        data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
             </div>
             <div class="eng">
-                <div id="testimonials-mobile-eng" class="carousel slide padding color-section" data-bs-ride="carousel" style="">
+                <div id="testimonials-mobile-eng" class="carousel slide padding color-section" data-bs-ride="carousel"
+                    style="">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#testimonials-mobile-eng" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#testimonials-mobile-eng" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="testimonials-mobile-eng" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="testimonials-mobile-eng" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="testimonials-mobile-eng" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="testimonials-mobile-eng" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                        <button type="button" data-bs-target="testimonials-mobile-eng" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                        <button type="button" data-bs-target="testimonials-mobile-eng" data-bs-slide-to="7" aria-label="Slide 8"></button>
-                        <button type="button" data-bs-target="testimonials-mobile-eng" data-bs-slide-to="8" aria-label="Slide 9"></button>
-                        <button type="button" data-bs-target="testimonials-mobile-eng" data-bs-slide-to="9" aria-label="Slide 10"></button>
-                        <button type="button" data-bs-target="testimonials-mobile-eng" data-bs-slide-to="10" aria-label="Slide 11"></button>
-                        <button type="button" data-bs-target="testimonials-mobile-eng" data-bs-slide-to="11" aria-label="Slide 12"></button>
-                        <button type="button" data-bs-target="testimonials-mobile-eng" data-bs-slide-to="12" aria-label="Slide 13"></button>
-                        <button type="button" data-bs-target="testimonials-mobile-eng" data-bs-slide-to="13" aria-label="Slide 14"></button>
+                        <button type="button" data-bs-target="#testimonials-mobile-eng" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#testimonials-mobile-eng" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="testimonials-mobile-eng" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="testimonials-mobile-eng" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="testimonials-mobile-eng" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="testimonials-mobile-eng" data-bs-slide-to="5"
+                            aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="testimonials-mobile-eng" data-bs-slide-to="6"
+                            aria-label="Slide 7"></button>
+                        <button type="button" data-bs-target="testimonials-mobile-eng" data-bs-slide-to="7"
+                            aria-label="Slide 8"></button>
+                        <button type="button" data-bs-target="testimonials-mobile-eng" data-bs-slide-to="8"
+                            aria-label="Slide 9"></button>
+                        <button type="button" data-bs-target="testimonials-mobile-eng" data-bs-slide-to="9"
+                            aria-label="Slide 10"></button>
+                        <button type="button" data-bs-target="testimonials-mobile-eng" data-bs-slide-to="10"
+                            aria-label="Slide 11"></button>
+                        <button type="button" data-bs-target="testimonials-mobile-eng" data-bs-slide-to="11"
+                            aria-label="Slide 12"></button>
+                        <button type="button" data-bs-target="testimonials-mobile-eng" data-bs-slide-to="12"
+                            aria-label="Slide 13"></button>
+                        <button type="button" data-bs-target="testimonials-mobile-eng" data-bs-slide-to="13"
+                            aria-label="Slide 14"></button>
                     </div>
                     <!-- Items here -->
                     <div class="carousel-inner">
@@ -310,11 +377,13 @@
                             <img src="./assets/imgs/endorsement-meng-14.png" alt="mss-endorsement">
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#testimonials-mobile-eng" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#testimonials-mobile-eng"
+                        data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#testimonials-mobile-eng" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#testimonials-mobile-eng"
+                        data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>

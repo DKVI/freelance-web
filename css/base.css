@@ -204,6 +204,7 @@ h6 {
   color: #274069 !important;
   border-radius: 10px;
   font-size: 1.2rem;
+  text-align: center;
 }
 
 .header .dropdown-item {
@@ -262,7 +263,7 @@ h6 {
     background-color: rgb(229, 229, 229);
   }
   body .header .navbar {
-    height: 140px !important;
+    height: 120px !important;
   }
 
   .hover-here-component {
@@ -468,7 +469,7 @@ h6 {
   padding-bottom: 100px;
 }
 #MSS-team .title {
-  margin-bottom: 60px;
+  margin-bottom: 32px;
 }
 .upload-container {
   margin-left: 30px;
@@ -487,7 +488,7 @@ h6 {
 .flip-card {
   background-color: transparent;
   width: 100%;
-  height: 400px;
+  height: 300px;
   perspective: 1000px;
 }
 
@@ -497,6 +498,7 @@ h6 {
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
+  height: 100%;
   /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
 }
 
@@ -521,6 +523,8 @@ h6 {
   backdrop-filter: blur(10.1px);
   -webkit-backdrop-filter: blur(10.1px);
   border: 1px solid rgba(255, 255, 255, 0.3);
+  overflow-y: scroll;
+  height: 100%;
 }
 
 /* -------------circle text animation (about page)----------- */
@@ -562,6 +566,7 @@ h6 {
 /* ---------------CURRICULUM PAGE------------- */
 #curriculum > section {
   padding-top: 8rem;
+  border: none;
 }
 .blue-rec-shape {
   height: 2rem;
@@ -766,12 +771,14 @@ table thead th {
 
 .carousel-control-next {
   padding: 8px;
-  right: -16px !important;
+  right: 0px !important;
+  z-index: 0;
 }
 
 .carousel-control-prev {
   padding: 8px;
-  left: -16px !important;
+  left: 0px !important;
+  z-index: 0;
 }
 
 .carousel-control-next-icon {

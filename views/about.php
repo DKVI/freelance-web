@@ -237,15 +237,15 @@
     </section>
 
     <!-- About the MSS team -->
-    <section class="mb-5 pb-0 background-full" id="MSS-team" style="background-image: url(./assets/imgs/ourteam0.png);">
+    <section class="pb-0 background-full" id="MSS-team" style="background-image: url(./assets/imgs/ourteam0.png);">
         <p class="relative-anchor" style="height: 100px"><span id="about-anchor"></span></p>
         <div class="container " style="min-height: 85vh;">
             <div class="text-center title">
                 <h1 class="">MSS team</h1>
             </div>
-            <div class="row text-center px-5">
+            <div class="row text-center py-5">
 
-                <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="col-lg-4 col-md-12 col-sm-12 pt-5">
                     <div class="flip-card w-100">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
@@ -261,7 +261,7 @@
                                     <p class="text-muted">Operations Assistant</p>
                                 </div>
                             </div>
-                            <div class="flip-card-back p-3">
+                            <div class="flip-card-back custom-scrollbar p-3">
                                 <div class="vn ">
                                     <h3>Hà Ngọc Thảo Nhi</h3>
                                     <p class="text-start">Tốt nghiệp Cử nhân Luật Trường Đại học Kinh tế TP. Hồ Chí Minh
@@ -292,7 +292,7 @@
 
                 </div>
 
-                <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="col-lg-4 col-md-12 col-sm-12 pt-5">
                     <div class="flip-card w-100">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
@@ -309,7 +309,7 @@
                                 </div>
 
                             </div>
-                            <div class="flip-card-back p-3">
+                            <div class="flip-card-back custom-scrollbar p-3">
                                 <div class="vn">
                                     <h3>Nguyễn Sơn Hoàng</h3>
                                     <p class="text-start">Sơn Hoàng, hiện đang làm việc tại Công ty Lexcomm Việt Nam, đã
@@ -338,7 +338,7 @@
                 </div>
 
 
-                <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="col-lg-4 col-md-12 col-sm-12 pt-5">
                     <div class="flip-card w-100">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
@@ -354,7 +354,7 @@
                                     <p class="text-muted">Thiết kế hình ảnh</p>
                                 </div>
                             </div>
-                            <div class="flip-card-back p-3">
+                            <div class="flip-card-back custom-scrollbar p-3">
                                 <div class="vn">
                                     <h3>Nguyễn Kim Thảo Hiền</h3>
                                     <p class="text-start">Một freelancer muốn được "tự do". Học tập, tốt nghiệp và làm
