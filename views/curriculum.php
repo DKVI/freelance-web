@@ -792,7 +792,7 @@
             <img src="./assets/imgs/curriculum-61.png" alt="mss-background" class="position-absolute"
                 style="right: 0; top: -6.2rem">
         </div>
-        <div class="container mb-4 p-5">
+        <div class="container mb-4 p-5 position-relative" >
             <div class="title">
                 <div class="vn">
                     <h1>Lý thuyết</h1>
@@ -868,14 +868,14 @@
                                                 class="position-absolute w-100" style="left:0; top:0;">
                                         </div>
                                         <div class="container position-relative">
-                                            <div class="col-lg-8 offset-lg-4">
+                                            <div class="col-lg-8 offset-lg-4 .white-filter">
                                                 <div class="title">
                                                     <h2 class="display-1 vn">Kỹ năng trước cuộc thi</h2>
-                                                    <h2 class="display-1 eng">Sessions on <br>Pre-competition skills
+                                                    <h2 class="display-1 eng">Pre-competition skills
                                                     </h2>
                                                 </div>
-
-                                                <p class="vn" style="column-count: 2; padding: 0 60px 0 20px">
+                                                
+                                                <p class="vn two-column filter" style=" padding: 0 60px 0 20px">
                                                     Ở các buổi học này, MSS sẽ giới thiệu về 2 nội dung: các nguyên tắc
                                                     cơ bản,
                                                     và làm việc nhóm trong đấu moot.<br>
@@ -895,7 +895,7 @@
                                                     lý các vấn đề phát sinh khi làm
                                                     việc tập thể trong mooting.
                                                 </p>
-                                                <p class="eng" style="column-count: 2; padding: 0 60px 0 20px">
+                                                <p class="eng two-column filter" style="padding: 0 60px 0 20px">
                                                     Preparing well before a moot competition starts can help you take a
                                                     long stride on the moot
                                                     competition journey. In this regard, MSS will introduce two
@@ -952,19 +952,19 @@
                                     </div>
                                     <div class="modal-body overflow-hidden">
 
-                                        <div class="row">
+                                        <div class="position-relative">
                                             <div class=" col-lg-4 position-absolute" style="right:0; top:0;">
                                                 <img src="./assets/imgs/curriculum-9.png" alt="mss-background"
                                                     class="w-100">
                                             </div>
-                                            <div class="col-lg-8">
+                                            <div class="col-lg-8 position-relative">
                                                 <div class="title">
                                                     <h2 class="display-4 vn">Những việc cần làm khi đã có đề bài</h2>
-                                                    <h2 class="display-4 eng">Skills sessions about during the initial
-                                                        phase</h2>
+                                                    <h2 class="display-4 eng">During the initial
+                                                        phase skills</h2>
                                                 </div>
                                                 <div>
-                                                    <p class="vn" style="column-count: 2; padding: 0 60px 0 20px"> Để
+                                                    <p class="vn two-column filter" style=" padding: 0 60px 0 20px"> Để
                                                         tránh việc các thí sinh gặp phải bối rối khi cầm một đề moot
                                                         trong tay vì không biết xử lý như thế nào, ở các buổi học này,
                                                         MSS sẽ hướng dẫn các học viên các kỹ năng xử lý đề bài và cách
@@ -982,7 +982,7 @@
                                                         đã nghiên cứu để thành nội dung chuẩn bị cho phần viết bài biện
                                                         hộ.
                                                     </p>
-                                                    <p class="eng" style="column-count: 2; padding: 0 60px 0 20px">To
+                                                    <p class="eng two-column filter" style=" padding: 0 60px 0 20px">To
                                                         avoid contestants being confused when they receive a moot
                                                         problem, not knowing how to handle it, in these sessions, MSS
                                                         will guide the participants on the skills of handling the
@@ -1035,17 +1035,14 @@
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                         <div style="background-image: url(./assets/imgs/curriculum-10.png); background-size: cover;"
-                                            class="p-5 ">
+                                            class="p-5">
                                             <div class="title text-end text-light">
-                                                <h5 class="vn display-1"><span class="text-blue">Các buổi kỹ
+                                                <h5 class="vn display-1" style="text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3)"><span class="text-blue">Kỹ
                                                         năng</span><br> viết bài biện hộ</h5>
-                                                <h5 class="eng display-1"><span class="text-blue">Sessions on</span>
-                                                    <br>written advocacy skills
-                                                </h5>
+                                                <h5 class="eng display-1 text-blue">Written advocacy skills</h5>
                                             </div>
 
-                                            <div class="col-lg-7 offset-lg-1"
-                                                style="background-color: rgb(229, 229, 229,0.5)">
+                                            <div class="col-lg-7 offset-lg-1 filter">
                                                 <div class="vn">
                                                     <p>Khác với một bài viết nghiên cứu khoa học thường phân tích đa
                                                         chiều
@@ -1113,14 +1110,14 @@
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
-                                        <div style="background-image: url(./assets/imgs/curriculum-11.png); background-size: cover;background-position: center;"
+                                        <div style="background-image: url(./assets/imgs/curriculum-11.png); background-size: cover;background-position: right;"
                                             class="p-5 h-100">
                                             <div class="title">
-                                                <h5 class="display-1 vn">Các buổi kỹ năng <br>tranh tụng nói</h5>
-                                                <h5 class="display-1 eng">Sessions on <br>Oral advocacy skills</h5>
+                                                <h5 class="display-1 vn">Kỹ năng tranh tụng nói</h5>
+                                                <h5 class="display-1 eng">Oral advocacy skills</h5>
                                             </div>
 
-                                            <div class="col-lg-7">
+                                            <div class="col-lg-7 filter">
                                                 <div class="vn">
                                                     <p>Phần tranh tụng nói thường được xem là phần đóng vai trò quyết
                                                         định
