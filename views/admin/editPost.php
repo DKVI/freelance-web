@@ -39,7 +39,7 @@ if (file_exists($file_path)) {
                 </div>
                 <div class="form-group py-3 d-flex" style="gap: 16px">
                     <div class="w-50">
-                        <label class="form-label">Read Time(minues):</label>
+                        <label class="form-label">Read Time(minutes):</label>
                         <input class="shadow form-control" value="<?php echo $post->readTimes ?>" type="number"
                             placeholder="Enter post's read times" name="times" required>
                     </div>
