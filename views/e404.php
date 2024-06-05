@@ -35,4 +35,8 @@
         font-size: 18px;
         margin-bottom: 30px;
     }
+
+    .hover-here-component {
+        display: none !important;
+    }
 </style>
