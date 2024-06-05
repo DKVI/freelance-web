@@ -17,7 +17,7 @@ function renderElement($element)
                                     class="text-decoration-none fw-bold" style="color: #274069; font-size: 24px;">' . $element->title . '</a>
                                     <div class="mt-3">
                                     <span>' . convertDate($element->date) . ' - </span>
-                                    <span>' . ($element->readTimes) . ' minues read</span>
+                                    <span>' . ($element->readTimes) . ' minutes read</span>
                                     </div>
                                 </div>
                             </div>';

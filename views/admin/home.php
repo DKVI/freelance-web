@@ -22,7 +22,7 @@ function renderElement($element)
                                     class="text-decoration-none fw-bold" style="color: #274069; font-size: 24px;">' . $element->title . '</a>
                                     <div class="mt-3">
                                     <span>' . convertDate($element->date) . ' - </span>
-                                    <span>' . ($element->readTimes) . ' minues read</span>
+                                    <span>' . ($element->readTimes) . ' minutes read</span>
                                     </div>
                                 </div>
                                 <div class="d-flex">
@@ -65,7 +65,8 @@ function renderElement($element)
                         </div>
                     </div>
                 </div>
-                <a href="<?php echo BASE_URL ?>/admin/posts?type=all" class=" w-25 d-flex shadow-lg py-3 px-5 bg-success rounded-3 text-decoration-none">
+                <a href="<?php echo BASE_URL ?>/admin/posts?type=all"
+                    class=" w-25 d-flex shadow-lg py-3 px-5 bg-success rounded-3 text-decoration-none">
                     <div class="w-25 d-flex">
                         <i class="fa-regular fa-pen-to-square m-auto" style="font-size:40px; color: white;"></i>
                     </div>
@@ -76,7 +77,8 @@ function renderElement($element)
                         </div>
                     </div>
                 </a>
-                <a href="<?php echo BASE_URL ?>/admin/messages" class=" w-25 d-flex shadow-lg py-3 px-5 bg-warning rounded-3 text-decoration-none">
+                <a href="<?php echo BASE_URL ?>/admin/messages"
+                    class=" w-25 d-flex shadow-lg py-3 px-5 bg-warning rounded-3 text-decoration-none">
                     <div class="w-25 d-flex">
                         <i class="fa-regular fa-circle-question m-auto" style="font-size:40px; color: white;"></i>
                     </div>

@@ -30,7 +30,7 @@ function renderElement($element)
                                     class="text-decoration-none fw-bold" style="color: #274069; font-size: 24px;">' . $element->title . '</a>
                                     <div class="mt-3">
                                     <span>' . convertDate($element->date) . ' - </span>
-                                    <span>' . ($element->readTimes) . ' minues read</span>
+                                    <span>' . ($element->readTimes) . ' minutes read</span>
                                     </div>
                                 </div>
                                 <div class="d-flex">
@@ -51,7 +51,7 @@ function renderPinElement($element)
                                     class="text-decoration-none fw-bold" style="color: white; font-size: 24px;">' . $element->title . '</a>
                                     <div class="mt-3">
                                     <span style="color: white">' . convertDate($element->date) . ' - </span>
-                                    <span style="color: white">' . ($element->readTimes) . ' minues read</span>
+                                    <span style="color: white">' . ($element->readTimes) . ' minutes read</span>
                                     </div>
                                 </div>
                                 <div class="d-flex">
@@ -68,9 +68,11 @@ function renderPinElement($element)
             <div class="col-8 align-content-between d-flex flex-column">
                 <h1 class="py-4" style="color: #274069">NEWS & EVENTS</h1>
                 <div class="d-flex w-100" style="gap: 16px">
-                    <form action="<?php echo $current_url ?>" method="get" class="form-inline my-2 my-lg-0 w-50 d-flex" style="gap: 8px">
+                    <form action="<?php echo $current_url ?>" method="get" class="form-inline my-2 my-lg-0 w-50 d-flex"
+                        style="gap: 8px">
                         <input name="type" value="<?php echo $type ?>" class="d-none">
-                        <input name="keyword" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <input name="keyword" class="form-control mr-sm-2" type="search" placeholder="Search"
+                            aria-label="Search">
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                     </form>
                     <select class="shadow type-selection form-select m-auto w-50" aria-label="Default select example">
@@ -180,16 +182,16 @@ function renderPinElement($element)
     </div>
 </div>
 <script>
-    const selectType = document.querySelector("select");
-    selectType.onchange = (e) => {
-        if (selectType.value === "event") {
-            window.location.href = "<?php echo BASE_URL ?>/admin/posts?type=event";
-        } else if (selectType.value === "news") {
-            window.location.href = "<?php echo BASE_URL ?>/admin/posts?type=news";
-        } else if (selectType.value === "static") {
-            window.location.href = "<?php echo BASE_URL ?>/admin/posts?type=static";
-        } else {
-            window.location.href = "<?php echo BASE_URL ?>/admin/posts?type=all";
-        }
+const selectType = document.querySelector("select");
+selectType.onchange = (e) => {
+    if (selectType.value === "event") {
+        window.location.href = "<?php echo BASE_URL ?>/admin/posts?type=event";
+    } else if (selectType.value === "news") {
+        window.location.href = "<?php echo BASE_URL ?>/admin/posts?type=news";
+    } else if (selectType.value === "static") {
+        window.location.href = "<?php echo BASE_URL ?>/admin/posts?type=static";
+    } else {
+        window.location.href = "<?php echo BASE_URL ?>/admin/posts?type=all";
     }
+}
 </script>
