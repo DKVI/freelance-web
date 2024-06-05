@@ -42,6 +42,7 @@
                                         MSS</a></li>
                             </ul>
                         </li>
+
                         <li class="nav-item dropdown event">
                             <a href="<?php echo BASE_URL . '/news&events' ?>" class="nav-link dropdown-toggle">Sự
                                 kiện</a>
@@ -93,10 +94,12 @@
                             </ul>
                         </li>
 
+
                         <li class="nav-item dropdown endorsement">
                             <a href="<?php echo BASE_URL . '/endorsement' ?>" class="nav-link dropdown-toggle ">Bảo
                                 chứng
                                 từ cộng đồng</a>
+
                         </li>
 
                         <li class="nav-item dropdown">
@@ -119,6 +122,7 @@
                             </ul>
 
                         </li>
+
                         <li class="nav-item dropdown contact">
                             <a target="_blank" class="go-down-btn nav-link dropdown-toggle">Contact</a>
                         </li>
