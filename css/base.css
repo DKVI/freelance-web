@@ -206,7 +206,9 @@ h6 {
   font-size: 1.2rem;
   text-align: center;
 }
-
+.nav-no-dropdown-icon::after{
+  display:none
+}
 .header .dropdown-item {
   font-size: 1rem !important;
 }
@@ -577,7 +579,7 @@ h6 {
 }
 #what-is-mooting .title h2 {
   font-size: 7rem;
-  line-height: 3rem;
+  line-height: 5rem;
 }
 #end-of-course-sessions .shadow {
   margin-left: 60px;
@@ -603,6 +605,7 @@ h6 {
 #curriculum .credit {
   font-size: 0.8rem;
 }
+
 .c-table {
   background-image: url(../assets/imgs/curriculum-5.png);
   min-height: 1000px;
@@ -950,10 +953,10 @@ footer {
   }
   #what-is-mooting .title h2 {
     font-size: 5rem;
-    line-height: 2rem;
+    line-height: 4rem;
   }
   #what-is-mooting .title h1 {
-    font-size: 6rem;
+    font-size: 6rem !important;
   }
   .hideBlue {
     display: none;
@@ -996,4 +999,5 @@ footer {
   main {
     min-height: 0 !important;
   }
+  
 }

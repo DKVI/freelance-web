@@ -38,7 +38,7 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a href="<?php echo BASE_URL . '/news&events' ?>" class="nav-link dropdown-toggle">Sự kiện</a>
+                            <a href="<?php echo BASE_URL . '/news&events' ?>" class="nav-link dropdown-toggle nav-no-dropdown-icon">Sự kiện</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Chương trình học</a>
@@ -78,7 +78,7 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a href="<?php echo BASE_URL . '/endorsement' ?>" class="nav-link dropdown-toggle">Bảo chứng từ cộng đồng</a>
+                            <a href="<?php echo BASE_URL . '/endorsement' ?>" class="nav-link dropdown-toggle nav-no-dropdown-icon">Bảo chứng từ cộng đồng</a>
                         </li>
 
                         <li class="nav-item dropdown">
@@ -100,7 +100,7 @@
 
                         </li>
                         <li class="nav-item dropdown">
-                            <a target="_blank" class="go-down-btn nav-link dropdown-toggle">Liên hệ</a>
+                            <a target="_blank" class="go-down-btn nav-link dropdown-toggle nav-no-dropdown-icon">Liên hệ</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav eng">

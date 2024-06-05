@@ -7,9 +7,9 @@
             <div class="col-lg-6 position-relative">
                 <div class="d-flex justify-content-center align-items-center">
                     <div class="title px-5">
-                        <h1>Mooting</h1>
+                        <h1 style="padding-top:20px">Mooting</h1>
                         <h2 class="vn">là gì?</h2>
-                        <h2 style="" class="eng">definition</h2>
+                        <h2 class="eng">definition</h2>
                     </div>
                 </div>
                 <div class="blue-rec-shape position-absolute hideBlue" style="bottom:0"></div>
@@ -331,13 +331,17 @@
                 <div class="col-lg-10">
                     <div class="vn">
                         <p class="r">Chương trình của MSS sẽ bao gồm 17 buổi, trong đó bao gồm:</p>
-                        <div class="vn mb-4 mt-4 offset-1"
-                            style="column-count: 2; padding: 0 60px 0 20px; text-align: left;">
-                            <li>1 buổi Học thử (Miễn phí)</li>
-                            <li>11 buổi Lý thuyết (Tối thứ Năm và sáng Chủ Nhật)</li>
-                            <li>4 buổi Thực hành (Sáng thứ Bảy và Chủ Nhật)</li>
-                            <li>1 buổi Talkshow (Sáng thứ Bảy hoặc Chủ Nhật)</li>
-                            <li>1 buổi Bế giảng (Sáng thứ Bảy hoặc Chủ Nhật)</li>
+                        <div class="row offset-1 mb-3">
+                            <div class="col-lg-6">
+                                <li>1 buổi Học thử (Miễn phí)</li>
+                                <li>11 buổi Lý thuyết (Tối thứ Năm và sáng Chủ Nhật)</li>
+                                <li>4 buổi Thực hành (Sáng thứ Bảy và Chủ Nhật)</li>
+                            </div>
+                            <div class="col-lg-6">
+                                <li>1 buổi Talkshow (Sáng thứ Bảy hoặc Chủ Nhật)</li>
+                                <li>1 buổi Bế giảng (Sáng thứ Bảy hoặc Chủ Nhật)</li>
+                            </div>
+                            
                         </div>
                         <p>Tổng quan chương trình sẽ được thể hiện ở bảng sau:<br>
                             <i>(Nhằm mục đích dễ theo dõi, các buổi học của gói Essentials dưới đây sẽ được tô <span
@@ -347,12 +351,17 @@
                     </div>
                     <div class="eng">
                         <p>The MSS course will consist of 17 sessions:</p>
-                        <div class="eng mb-4 mt-4" style="column-count: 2; padding: 0 60px 0 20px">
-                            <li>1 Trial session (free of charge)</li>
-                            <li>11 Theoretical sessions (Thursday evenings & Sunday mornings)</li>
-                            <li>4 Mock sessions (Saturday mornings & Sunday mornings)</li>
-                            <li>1 Talk show session (Saturday mornings or Sunday mornings)</li>
-                            <li>1 Closing session (Saturday mornings or Sunday mornings)</li>
+                        <div class="row offset-1 mb-3">
+                            <div class="col-lg-6">
+                                <li>1 Trial session (free of charge)</li>
+                                <li>11 Theoretical sessions (Thursday evenings & Sunday mornings)</li>
+                                <li>4 Mock sessions (Saturday mornings & Sunday mornings)</li>
+                            </div>
+                            <div class="col-lg-6">
+                                <li>1 Talk show session (Saturday mornings or Sunday mornings)</li>
+                                <li>1 Closing session (Saturday mornings or Sunday mornings)</li>
+                            </div>
+                            
                         </div>
 
                         <p>An overview of the program will be shown in the table below:<br>
@@ -1241,7 +1250,7 @@
                 <h1 class="vn">Các buổi tổng kết</h1>
                 <h1 class="eng">Ending sessions</h1>
             </div>
-            <div class="col-lg-4 shadow ct-text" style="">
+            <div class="col-lg-4 shadow ct-text">
                 <div class="vn">
                     <p>Kết thúc khóa học, MSS sẽ tổ chức một buổi talkshow, và một buổi bế giảng khóa học.</p>
                     <p>Buổi talkshow sẽ là cơ hội để các học viên có thể chia sẻ và lắng nghe kinh nghiệm, lời khuyên

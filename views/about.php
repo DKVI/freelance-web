@@ -2,7 +2,7 @@
     <section id="a-message-from-our-founder" class="container section-active">
         <p class="relative-anchor" style="height:110px"><span id="about-anchor"></span></p>
         <div class="row mb-5">
-            <img src="./assets/imgs/about-1.png" alt="founder-Vo-Son-Hoang" class="col-lg-4" style="">
+            <img src="./assets/imgs/about-1.png" alt="founder-Vo-Son-Hoang" class="col-lg-4">
             <div class="col-lg-8">
                 <div class="founder-words-title text-end title">
                     <div class="vn">
@@ -73,7 +73,7 @@
                 <div class="modal fade bd-example-modal-lg" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
 
-                        <div class="modal-content" style="">
+                        <div class="modal-content">
                             <div class="modal-body">
                                 <img src="./assets/imgs/profilev-Eng.png" alt="" class="w-100 h-100 eng">
                                 <img src="./assets/imgs/profilev-Vie.png" alt="" class="w-100 h-100 vn">
