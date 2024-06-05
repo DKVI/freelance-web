@@ -22,14 +22,14 @@ function renderElement($element)
                                     class="text-decoration-none fw-bold" style="color: #274069; font-size: 24px;">' . $element->title . '</a>
                                     <div class="mt-3">
                                     <span>' . convertDate($element->date) . ' - </span>
-                                    <span>' . ($element->readTimes) . ' minues read</span>
+                                    <span>' . ($element->readTimes) . ' minutes read</span>
                                     </div>
                                 </div>
                             </div>';
 }
 ?>
 <script>
-    const postList = [];
+const postList = [];
 </script>
 <?php
 $newsList = Post::getByType($conn, 'news', 2);
@@ -59,7 +59,8 @@ foreach ($postsList as $post) {
                 <h3 class="py-5">Search for "<?php echo $keyword ?>"</h3>
                 <div class="w-full d-flex flex-column post-container" style="gap: 1rem">
                 </div>
-                <button class="show-more-post-btn mt-3 btn" style="color: #274069; flex: none" onclick="handleShowMore()">
+                <button class="show-more-post-btn mt-3 btn" style="color: #274069; flex: none"
+                    onclick="handleShowMore()">
                     Show more
                 </button>
             </div>
@@ -80,7 +81,8 @@ foreach ($postsList as $post) {
                             bạn “yêu” và “hiểu” mooting hơn qua những bài giảng, những lời khuyên và những câu chuyện
                             được chia sẻ.</p>
                     </div>
-                    <div><a class="btn" style="background-color: #274069; color: white" href="<?php echo BASE_URL . '/about' ?>">READ MORE</a></div>
+                    <div><a class="btn" style="background-color: #274069; color: white"
+                            href="<?php echo BASE_URL . '/about' ?>">READ MORE</a></div>
                 </div>
             </div>
             <div class="col-lg-4 h-100 p-3 d-flex flex-column rounded-3 shadow-lg" style="background-color: #274069">
@@ -133,36 +135,36 @@ foreach ($postsList as $post) {
         </div>
     </div>
     <script>
-        let limit = 4;
-        let total = postList.length;
-        let html = "";
-        const showMorePostBtn = document.querySelector(".show-more-post-btn");
-        const postContainer = document.querySelector(".post-container");
-        const renderPosts = () => {
-            if (limit < total) {
-                for (let i = 0; i < limit; i++) {
-                    html += postList[i];
-                }
-                postContainer.innerHTML = html;
-                html = "";
-            } else {
-                for (let i = 0; i < total; i++) {
-                    html += postList[i];
-                }
-                postContainer.innerHTML = html;
-                html = "";
-                showMorePostBtn.style.display = "none";
+    let limit = 4;
+    let total = postList.length;
+    let html = "";
+    const showMorePostBtn = document.querySelector(".show-more-post-btn");
+    const postContainer = document.querySelector(".post-container");
+    const renderPosts = () => {
+        if (limit < total) {
+            for (let i = 0; i < limit; i++) {
+                html += postList[i];
             }
+            postContainer.innerHTML = html;
+            html = "";
+        } else {
+            for (let i = 0; i < total; i++) {
+                html += postList[i];
+            }
+            postContainer.innerHTML = html;
+            html = "";
+            showMorePostBtn.style.display = "none";
+        }
+    }
+    renderPosts();
+    const handleShowMore = (event) => {
+        limit += 4;
+        console.table(limit, total)
+        if (limit >= total) {
+            console.log("true");
+            showMorePostBtn.style.display = "none";
         }
         renderPosts();
-        const handleShowMore = (event) => {
-            limit += 4;
-            console.table(limit, total)
-            if (limit >= total) {
-                console.log("true");
-                showMorePostBtn.style.display = "none";
-            }
-            renderPosts();
-        }
+    }
     </script>
 </main>
