@@ -40,7 +40,8 @@
                         </p>
                         <p>Cảm ơn các bạn đã cho mình và MSS cơ hội được đồng hành cùng với các bạn trong chặng đường
                             mooting. Mình hy vọng sẽ được gặp các bạn tại MSS. </p>
-                        <h5 class="text-end" data-toggle="modal" data-target="#exampleModalLong" style="cursor: pointer">Đọc thêm thông tin về
+                        <h5 class="text-end" data-toggle="modal" data-target="#exampleModalLong"
+                            style="cursor: pointer">Đọc thêm thông tin về
                             Nhà sáng lập tại đây</h5>
                     </div>
                     <div class="eng">
@@ -70,7 +71,8 @@
                 </div>
 
                 <!-- Modal -->
-                <div class="modal fade bd-example-modal-lg" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal fade bd-example-modal-lg" id="exampleModalLong" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
 
                         <div class="modal-content">
@@ -91,7 +93,7 @@
     </section>
     <section id="our-mission" class="our-mission background-full">
         <p class="relative-anchor"><span id="about-anchor"></span></p>
-        <div class="container py-5 text-light" style="padding-right:60px; padding-left: 80px">
+        <div class="container py-5 text-light mission-container" style="padding-right:60px; padding-left: 80px">
             <div class="title">
                 <div class="text-end vn">
                     <h1>Sứ mệnh</h1>
@@ -99,7 +101,8 @@
                 </div>
                 <h1 class="eng text-center title">Our mission</h1>
             </div>
-            <div class="col-lg-8 vn shadow ct-text our-mission-vn-content" style="margin-top: -7rem; padding-left: 30px">
+            <div class="col-lg-8 vn shadow ct-text our-mission-vn-content"
+                style="margin-top: -7rem; padding-left: 30px">
                 <p>MSS ra đời với hy vọng huấn luyện học viên một cách chuyên nghiệp - đầy đủ, hỗ trợ thí sinh tránh gặp
                     các khó khăn trong hành trình chinh chiến tại các giải đấu moot từ trong nước đến nước ngoài. Với tư
                     cách là một dự án đào tạo chuyên nghiệp về mooting đầu tiên tại Việt Nam, MSS kỳ vọng có thể đem lại
@@ -131,7 +134,8 @@
             </div>
         </div>
     </section>
-    <section id="symbol-and-title-of-MSS" class="mascot-motto background-full" style="padding-top:0; background-image: url(./assets/imgs/about-3-1.png)">
+    <section id="symbol-and-title-of-MSS" class="mascot-motto background-full"
+        style="padding-top:0; background-image: url(./assets/imgs/about-3-1.png)">
         <p class="relative-anchor"><span id="about-anchor"></span></p>
         <div class="container" style="padding: 0 0 5rem">
             <div class="title text-end px-5">

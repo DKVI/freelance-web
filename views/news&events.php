@@ -7,15 +7,15 @@ $eventsPost = Post::getByType($conn, 'event', 100);
 function renderElement($element)
 {
 
-    return '<div class="d-flex px-4 py-2 shadow rounded-4 justify-content-around mb-3" style="height: 100px; opacity: 1; animation: movingNav 0.3s ease-in-out ;transition: all 0.3s ease-in-out">
-                                    <div class="h-100 p-sm-3 p-3 px-lg-2 px-md-2 py-lg-0 py-sm-0 w-25"><div class="h-100 w-100 shadow rounded-4" style="background-image: url(' . BASE_URL . '/uploads/imgs/' . $element->fileImg . '); background-size: cover; background-position: center;"></div>
+    return '<div class="element-news-events d-flex px-4 py-2 shadow rounded-4 justify-content-around mb-3" style="height: 100px; opacity: 1; animation: movingNav 0.3s ease-in-out ;transition: all 0.3s ease-in-out">
+                                    <div class="element-img h-100 p-sm-3 p-3 px-lg-2 px-md-2 py-lg-0 py-sm-0 w-25"><div class="h-100 w-100 shadow rounded-4" style="background-image: url(' . BASE_URL . '/uploads/imgs/' . $element->fileImg . '); background-size: cover; background-position: center;"></div>
                                     </div>
                                             <div class="h-100 px-3 w-75" style="overflow: hidden;
                                             text-overflow: ellipsis;
                                             white-space: nowrap;">
                                                 <a href="' . BASE_URL . $element->path . '"
                                     class="text-decoration-none fw-bold" style="color: #274069; font-size: 24px;">' . $element->title . '</a>
-                                    <div class="mt-3">
+                                    <div class="mt-lg-3 mt-md-3 mt-sm-2">
                                     <span>' . convertDate($element->date) . ' - </span>
                                     <span>' . ($element->readTimes) . ' minutes read</span>
                                     </div>
@@ -60,7 +60,7 @@ foreach ($eventsPost as $post) {
         <div class="row justify-content-center min-vh-100 mt-5" style="gap: 16px">
             <div class="col-lg-8 h-100 row shadow-lg rounded-3">
                 <div class="col-lg-12">
-                    <img src="./assets/imgs/ne-banner1.png" class="d-block w-100" alt="...">
+                    <img src="./assets/imgs/ne-banner1.png" class="d-block w-100 rounded-3" alt="...">
                 </div>
                 <div class="col-lg-12 p-4">
                     <div class="w-100">
