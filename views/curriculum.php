@@ -59,13 +59,15 @@
             <div class="row">
                 <div class="col-lg-3 p-3 col-6">
                     <!-- Button trigger modal -->
-                    <div data-toggle="modal" data-target="#Jessup-Moot" class="w-100 moot-tournaments">
+                    <div data-toggle="modal" data-target="#Jessup-Moot" style="cursor:pointer"
+                        class="w-100 moot-tournaments">
                         <img src="./assets/imgs/curriculum-1-1.png" alt="Jessup-Moot">
                         <h2 class="text-center m-3">Jessup Moot</h2>
                     </div>
 
                     <!-- Modal -->
-                    <div class="modal fade modal-xl" id="Jessup-Moot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal fade modal-xl" id="Jessup-Moot" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -73,16 +75,19 @@
                                     </h5>
                                     <h5 class="modal-title eng" id="exampleModalLongTitle">Prestigious International
                                         Moot Tournaments</h5>
-                                    <button type="button" class="close py-1 px-2" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close py-1 px-2" data-dismiss="modal"
+                                        aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
                                 <div class="modal-body">
 
                                     <div class="row">
-                                        <div class="col-lg-6 d-flex justify-contents-center align-items-center moot-tournaments-items">
+                                        <div
+                                            class="col-lg-6 d-flex justify-contents-center align-items-center moot-tournaments-items">
                                             <div>
-                                                <img src="./assets/imgs/curriculum-1.png" class="w-100" alt="“Jessup-Moot”">
+                                                <img src="./assets/imgs/curriculum-1.png" class="w-100"
+                                                    alt="“Jessup-Moot”">
                                                 <p class="credit mt-2">
                                                     cre: Phillip C. Jessup Moot - International Law Students Association
                                                 </p>
@@ -120,13 +125,15 @@
                 <div class="col-lg-3 p-3 col-6">
 
                     <!-- Button trigger modal -->
-                    <div data-toggle="modal" data-target="#Vis-Moot" class="w-100 moot-tournaments">
+                    <div data-toggle="modal" data-target="#Vis-Moot" style="cursor:pointer"
+                        class="w-100 moot-tournaments">
                         <img src="./assets/imgs/curriculum-2-1.png" alt="Vis-Moot">
                         <h2 class="text-center m-3">Vis Moot</h2>
                     </div>
 
                     <!-- Modal -->
-                    <div class="modal fade modal-xl" id="Vis-Moot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal fade modal-xl" id="Vis-Moot" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -134,7 +141,8 @@
                                     </h5>
                                     <h5 class="modal-title eng" id="exampleModalLongTitle">Prestigious International
                                         Moot Tournaments</h5>
-                                    <button type="button" class="close py-1 px-2" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close py-1 px-2" data-dismiss="modal"
+                                        aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
@@ -192,13 +200,15 @@
                 <!--  -->
                 <div class="col-lg-3 p-3 col-6">
                     <!-- Button trigger modal -->
-                    <div data-toggle="modal" data-target="#FDI-Moot" class="w-100 moot-tournaments">
+                    <div data-toggle="modal" data-target="#FDI-Moot" style="cursor:pointer"
+                        class="w-100 moot-tournaments">
                         <img src="./assets/imgs/curriculum-3-1.png" alt="FDI-Moot">
                         <h2 class="text-center m-3">FDI Moot</h2>
                     </div>
 
                     <!-- Modal -->
-                    <div class="modal fade modal-xl" id="FDI-Moot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal fade modal-xl" id="FDI-Moot" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -206,7 +216,8 @@
                                     </h5>
                                     <h5 class="modal-title eng" id="exampleModalLongTitle">Prestigious International
                                         Moot Tournaments</h5>
-                                    <button type="button" class="close py-1 px-2" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close py-1 px-2" data-dismiss="modal"
+                                        aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
@@ -259,19 +270,22 @@
                 <!--  -->
                 <div class="col-lg-3 p-3 col-6">
                     <!-- Button trigger modal -->
-                    <div data-toggle="modal" data-target="#IHL-Moot" class="w-100 moot-tournaments">
+                    <div data-toggle="modal" data-target="#IHL-Moot" style="cursor:pointer"
+                        class="w-100 moot-tournaments">
                         <img src="./assets/imgs/curriculum-4-1.png" alt="IHL-Moot">
                         <h2 class="text-center m-3 ">IHL Moot</h2>
                     </div>
 
                     <!-- Modal -->
-                    <div class="modal fade modal-xl" id="IHL-Moot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal fade modal-xl" id="IHL-Moot" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <h5 class="modal-title" id="exampleModalLongTitle">Giải đấu moot quốc tế danh giá
                                     </h5>
-                                    <button type="button" class="close py-1 px-2" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close py-1 px-2" data-dismiss="modal"
+                                        aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
@@ -342,7 +356,9 @@
 
                         </div>
                         <p>Tổng quan chương trình sẽ được thể hiện ở bảng sau:<br>
-                            <i>(Nhằm mục đích dễ theo dõi, các buổi học của gói Essentials dưới đây sẽ được tô <span class="bold-text">màu xanh</span>, đối với các buổi thực hành, học viên <span class="bold-text">gói Essentials</span> sẽ tham gia với tư cách Quan sát viên)</i>
+                            <i>(Nhằm mục đích dễ theo dõi, các buổi học của gói Essentials dưới đây sẽ được tô <span
+                                    class="bold-text">màu xanh</span>, đối với các buổi thực hành, học viên <span
+                                    class="bold-text">gói Essentials</span> sẽ tham gia với tư cách Quan sát viên)</i>
                         </p>
                     </div>
                     <div class="eng m-auto col-10">
@@ -364,7 +380,8 @@
                             <i>*For your convenience,
                                 theoretical sessions of the Essentials package will be highlighted in green. The
                                 sessions
-                                included in the <strong style="font-family: 'Times New Roman', Times, serif; font-size: 1.5rem">Essentials
+                                included in the <strong
+                                    style="font-family: 'Times New Roman', Times, serif; font-size: 1.5rem">Essentials
                                     package</strong> are highlighted in blue. For mock sessions, Essentials students
                                 will
                                 participate as Observers.</i>
@@ -725,7 +742,8 @@
         </div>
     </section>
 
-    <section id="trial-section" class="trial-session text-light background-full" style="background-image: url(./assets/imgs/curriculum-7.png);">
+    <section id="trial-section" class="trial-session text-light background-full"
+        style="background-image: url(./assets/imgs/curriculum-7.png);">
         <div class="container">
             <div class="d-flex justify-content-center align-items-center">
                 <div class="row">
@@ -783,7 +801,8 @@
     </section>
     <section id="overview-of-theoretical-sessions" class="w-100">
         <div class="position-relative">
-            <img src="./assets/imgs/curriculum-61.png" alt="mss-background" class="position-absolute" style="right: 0; top: -6.2rem">
+            <img src="./assets/imgs/curriculum-61.png" alt="mss-background" class="position-absolute"
+                style="right: 0; top: -6.2rem">
         </div>
         <div class="container mb-4 p-5 position-relative">
             <div class="title">
@@ -840,7 +859,8 @@
                 <div class="row">
                     <div class="col-lg-3 col-6">
                         <!-- Modal -->
-                        <div class="modal fade modal-xl" id="skill-before-moot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade modal-xl" id="skill-before-moot" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -856,7 +876,8 @@
                                     <div class="modal-body overflow-hidden">
 
                                         <div class="position-relative col-lg-4  " style="z-index:0;">
-                                            <img src="./assets/imgs/curriculum-8.png" alt="mss-background" class="position-absolute w-100" style="left:0; top:0;">
+                                            <img src="./assets/imgs/curriculum-8.png" alt="mss-background"
+                                                class="position-absolute w-100" style="left:0; top:0;">
                                         </div>
                                         <div class="container position-relative">
                                             <div class="col-lg-8 offset-lg-4 .white-filter">
@@ -912,10 +933,12 @@
                                     </div>
                                     <div class="modal-footer">
                                         <div class="eng">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Close</button>
                                         </div>
                                         <div class="vn">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Đóng</button>
                                         </div>
 
                                     </div>
@@ -927,7 +950,8 @@
                     <div class="col-lg-3 col-6">
                         <!-- Modal -->
 
-                        <div class="modal fade modal-xl" id="after-recieved-mooting-test" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade modal-xl" id="after-recieved-mooting-test" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -942,7 +966,8 @@
 
                                         <div class="position-relative">
                                             <div class=" col-lg-4 position-absolute" style="right:0; top:0;">
-                                                <img src="./assets/imgs/curriculum-9.png" alt="mss-background" class="w-100">
+                                                <img src="./assets/imgs/curriculum-9.png" alt="mss-background"
+                                                    class="w-100">
                                             </div>
                                             <div class="col-lg-8 position-relative">
                                                 <div class="title">
@@ -996,10 +1021,12 @@
                                     </div>
                                     <div class="modal-footer">
                                         <div class="eng">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Close</button>
                                         </div>
                                         <div class="vn">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Đóng</button>
                                         </div>
 
                                     </div>
@@ -1011,16 +1038,20 @@
                     <!--  -->
                     <div class="col-lg-3 col-6">
                         <!-- Modal -->
-                        <div class="modal fade modal-xl" id="written-advocacy-skills" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade modal-xl" id="written-advocacy-skills" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content position-relative ">
                                     <div class="modal-body overflow-hidden ">
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
-                                        <div style="background-image: url(./assets/imgs/curriculum-10.png); background-size: cover;" class="p-5">
+                                        <div style="background-image: url(./assets/imgs/curriculum-10.png); background-size: cover;"
+                                            class="p-5">
                                             <div class="title text-end text-light">
-                                                <h5 class="vn display-1" style="text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3)"><span class="text-blue">Kỹ
+                                                <h5 class="vn display-1"
+                                                    style="text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3)"><span
+                                                        class="text-blue">Kỹ
                                                         năng</span><br> viết bài biện hộ</h5>
                                                 <h5 class="eng display-1 text-blue">Written advocacy skills</h5>
                                             </div>
@@ -1067,10 +1098,12 @@
                                     </div>
                                     <div class="modal-footer">
                                         <div class="eng">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Close</button>
                                         </div>
                                         <div class="vn">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Đóng</button>
                                         </div>
 
                                     </div>
@@ -1082,7 +1115,8 @@
                     <!--  -->
                     <div class="col-lg-3 col-6">
                         <!-- Modal -->
-                        <div class="modal fade modal-xl" id="oral-advocacy-skills" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade modal-xl" id="oral-advocacy-skills" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
 
@@ -1090,7 +1124,8 @@
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
-                                        <div style="background-image: url(./assets/imgs/curriculum-11.png); background-size: cover;background-position: right;" class="p-5 h-100">
+                                        <div style="background-image: url(./assets/imgs/curriculum-11.png); background-size: cover;background-position: right;"
+                                            class="p-5 h-100">
                                             <div class="title">
                                                 <h5 class="display-1 vn">Kỹ năng tranh tụng nói</h5>
                                                 <h5 class="display-1 eng">Oral advocacy skills</h5>
@@ -1133,7 +1168,8 @@
                                         </div>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Close</button>
                                     </div>
                                 </div>
                             </div>
@@ -1142,7 +1178,8 @@
                 </div>
             </div>
     </section>
-    <section id="overview-of-mock-sessions" style="background-image: url(./assets/imgs/curriculum-13.png);" class="text-light background-full">
+    <section id="overview-of-mock-sessions" style="background-image: url(./assets/imgs/curriculum-13.png);"
+        class="text-light background-full">
         <div class="container p-5">
             <div class="row vn">
                 <div class="title col-lg-3">
@@ -1210,12 +1247,14 @@
                     <p>After the mock sessions, the panel of judges, including the Instructor and a Guest Judge, will
                         provide specific feedback on each participant's presentation. The guest judge may also introduce
                         a special mooting-related topic to share with the students during the mock session.</p>
-                    <i>*MSS will post details of the Guest judges on social media sites, as well as in the <span><a href="#" class="text-light"> News and Events</a></span> section of the website.</i>
+                    <i>*MSS will post details of the Guest judges on social media sites, as well as in the <span><a
+                                href="#" class="text-light"> News and Events</a></span> section of the website.</i>
                 </div>
             </div>
         </div>
     </section>
-    <section id="end-of-course-sessions" style="background-image: url(./assets/imgs/curriculum-14-1.png); background-size: cover; padding:0" class="p-5">
+    <section id="end-of-course-sessions"
+        style="background-image: url(./assets/imgs/curriculum-14-1.png); background-size: cover; padding:0" class="p-5">
         <p class="relative-anchor"><span id="about-anchor"></span></p>
         <div class="container">
             <div class="title">
