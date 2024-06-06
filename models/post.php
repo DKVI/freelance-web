@@ -382,18 +382,16 @@
         public static function getRelatedPost($conn, $postId, $limit)
         {
             try {
-                $stmt = "SELECT DISTINCT post.*
-            FROM post
-            INNER JOIN (
-              SELECT DISTINCT post_id
-              FROM hashtag_post
-              INNER JOIN (
-                SELECT hashtag_id
-                FROM hashtag_post
-                WHERE post_id = :post_id
-              ) AS hashtagIdList
-            ) AS postIdList
-            ON post.id = postIdList.post_id LIMIT :limit";
+                $stmt = "SELECT p.*
+                FROM post p
+                INNER JOIN hashtag_post hp ON p.id = hp.post_id
+                WHERE hp.hashtag_id IN (
+                  SELECT h.id
+                  FROM hashtag h
+                  INNER JOIN hashtag_post hp ON h.id = hp.hashtag_id
+                  WHERE hp.post_id = :post_id
+                ) AND p.id <> :post_id ORDER BY p.date DESC 
+                LIMIT :limit";
                 $stmt = $conn->prepare($stmt);
                 $stmt->bindParam(":post_id", $postId);
                 $stmt->bindParam(":limit", $limit, PDO::PARAM_INT);

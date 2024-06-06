@@ -2,6 +2,7 @@
 include "../models/database.php";
 include "../models/post.php";
 include "../config.php";
+include "../models/hashtag_post.php";
 $conn = require "../inc/db.php";
 
 if (isset($_GET['id'])) {
@@ -14,15 +15,16 @@ if (isset($_GET['id'])) {
             unlink($img_path . $news->fileImg);
             unlink($file_path . $news->fileText);
         }
+        HashtagPost::deleteByPostId($conn, $id);
         Post::delete($conn, $id);
         echo "<script>
             alert('Xóa post thành công');
-            location.href='" . BASE_URL . "/admin/posts';  
+            location.href='" . BASE_URL . "/admin/posts?type=all';  
         </script>";
     } catch (\Throwable $e) {
         echo "<script>
             alert('Xóa post thất bại, vui lòng thử lại!');
-            location.href='" . BASE_URL . "/admin/posts';  
+            location.href='" . BASE_URL . "/admin/posts?type=all';  
         </script>";
     }
 }

@@ -94,10 +94,22 @@ class HashtagPost
             echo $e->getMessage();
         }
     }
-    public static function deleteByPostId($conn, $id)
+    public static function  deleteByPostId($conn, $id)
     {
         try {
             $query = "DELETE FROM hashtag_post WHERE post_id=:id";
+            $stmt = $conn->prepare($query);
+            $stmt->bindParam(":id", $id);
+            $stmt->execute();
+        } catch (PDOException $e) {
+            echo $e->getMessage();
+        }
+    }
+
+    public static function deteleByHashtagId($conn, $id)
+    {
+        try {
+            $query = "DELETE FROM hashtag_post WHERE hashtag_id=:id";
             $stmt = $conn->prepare($query);
             $stmt->bindParam(":id", $id);
             $stmt->execute();

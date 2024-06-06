@@ -7,6 +7,7 @@ include "../models/hashtag_post.php";
 include "../config.php";
 $conn = require "../inc/db.php";
 unset($_SESSION["message"]);
+$id = $_GET["id"];
 $_SESSION["message"] = "have no message";
 function uploadThumbnail($conn, $id)
 {
@@ -54,8 +55,7 @@ function uploadThumbnail($conn, $id)
 if (isset($_POST['md-file'])) {
     $title = $_POST["title"];
     $readTimes = $_POST["times"];
-    $type = $_POST["type"];
-    $id = $_GET["id"];
+    $type = isset($_POST["type"]) ? $_POST["type"] : "static";
     $priority = $_POST["priority"];
     $hashtagList = $_POST["hashtag"];
     $post = Post::getById($conn, $id);
@@ -125,10 +125,10 @@ if (isset($_POST['md-file'])) {
                     <p><?php echo $_SESSION["message"] ?></p>
                 </div>
                 <div class="modal-footer">
-                    <a type="button" href="<?php echo BASE_URL . '/admin/editPost?id=' . $post->id ?>" class="btn btn-primary">Back To
+                    <a type="button" href="<?php echo BASE_URL . '/admin/editPost?id=' . $id ?>" class="btn btn-primary">Back To
                         This
                         Post</a>
-                    <a type="button" href="<?php echo BASE_URL . '/admin/addPost' ?>" class="btn btn-success" data-dismiss="modal">Create New Post</a>
+                    <a type="button" href="<?php echo BASE_URL . '/admin/posts?type=all' ?>" class="btn btn-success" data-dismiss="modal">Return Post Page</a>
                 </div>
             </div>
         </div>

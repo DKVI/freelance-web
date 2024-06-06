@@ -31,6 +31,9 @@ function renderElement($element, $conn)
     foreach ($post as $item) {
         $html = $html . renderPost($item);
     }
+    if (count($post) === 0) {
+        $html = '<h5 class="fst-italic fw-light">There are no posts with this hashtag yet!</h5>';
+    }
 
     echo '<div class="d-flex flex-column" style="gap: 32px"><div class="d-flex flex-col justify-content-between px-4 py-3 shadow-lg rounded-3">
     <form action="../controllers/handleUpdateHashtag.php?id=' . $element->id . '" class="d-flex justify-content-between" style="width: 90%;" method="POST">
@@ -84,6 +87,9 @@ function renderElement($element, $conn)
                 $hashtagList = Hashtag::getAll($conn);
                 foreach ($hashtagList as $hashtag) {
                     renderElement($hashtag, $conn);
+                }
+                if (count($hashtagList) == 0) {
+                    echo '<h4 class="fst-italic fw-light">There are no hashtags yet</h4>';
                 }
                 ?>
             </div>
