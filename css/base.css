@@ -666,6 +666,10 @@ table thead th {
   .modal-content {
     height: 90vh;
   }
+  .dropdown-menu[data-bs-popper] {
+    left: unset;
+    right: 0;
+  }
 }
 
 .theorical-popup ol li:hover {
