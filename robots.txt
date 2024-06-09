@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+Allow: /
+Allow: /home
+Allow: /search
+Allow: /endorsement
+Allow: /faq
+Allow: /event
+Allow: /tuition
+Allow: /about
+Allow: /news&events
+Allow: /events
+Allow: /e404
+
