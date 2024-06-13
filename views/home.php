@@ -38,8 +38,7 @@ $form = Link::getByName($conn, "form");
                     qua ở đầy đủ các vai trò từ thí sinh, huấn luyện viên, diễn giả và giám khảo cả trong và ngoài nước.
                 </p>
                 <p>MSS sẽ được tổ chức vào mỗi mùa hè và hoạt động không vì mục tiêu lợi nhuận.</p>
-                <h4><strong><a href="<?php echo BASE_URL ?>/about" ?>Xem thêm chi tiết về cựu mooter và
-                            các mục tiêu mà MSS mong muốn hướng tới</a></strong></p>
+                <h4><strong><a href="<?php echo BASE_URL ?>/about" ?>Xem thêm chi tiết về MSS >></a></strong></p>
                     <h4><a class="fw-bold" href="<?php echo $form->link ?>"><?php echo $form->titleVn ?> >></a></h4>
 
             </div>

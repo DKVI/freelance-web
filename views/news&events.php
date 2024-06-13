@@ -41,7 +41,7 @@ foreach ($eventsPost as $post) {
     console.log(eventsList);
 </script>
 
-<main class="position-relative">
+<main id="ne-page" class="position-relative">
     <!-- MSS's Mascot - Griffin Background -->
 
     <div class="position-fixed d-flex justify-content-end" style="left: 0;

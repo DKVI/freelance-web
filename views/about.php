@@ -2,7 +2,7 @@
     <section id="a-message-from-our-founder" class="container section-active">
         <p class="relative-anchor" style="height:110px"><span id="about-anchor"></span></p>
         <div class="row mb-5">
-            <img src="./assets/imgs/about-1.png" alt="founder-Vo-Son-Hoang" class="col-lg-4">
+            <img src="./assets/imgs/about-1.png" alt="founder-Vo-Son-Hoang" class="col-lg-4 founder-img">
             <div class="col-lg-8">
                 <div class="founder-words-title text-end title">
                     <div class="vn">
@@ -245,9 +245,55 @@
         <p class="relative-anchor" style="height: 100px"><span id="about-anchor"></span></p>
         <div class="container " style="min-height: 85vh;">
             <div class="text-center title">
-                <h1 class="">MSS team</h1>
+                <h1 class="vn">Đội ngũ</h1>
+                <h1 class="eng">Our team</h1>
+
             </div>
-            <div class="row text-center py-5">
+            <div class="row text-center pb-5">
+            <div class="col-lg-4 col-md-12 col-sm-12 pt-5">
+                    <div class="flip-card w-100">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="upload-container">
+                                    <img src="./assets/imgs/ourTeam-2.png" alt="" class="avatar shadow">
+                                </div>
+                                <div class="vn">
+                                    <h4 class="my-3">Nguyễn Sơn Hoàng</h4>
+                                    <p class="text-muted">Nhà sáng lập / Người hướng dẫn</p>
+                                </div>
+                                <div class="eng">
+                                    <h4 class="my-3">Nguyen Son Hoang</h4>
+                                    <p class="text-muted">Founder/Instructor</p>
+                                </div>
+
+                            </div>
+                            <div class="flip-card-back custom-scrollbar p-3">
+                                <div class="vn">
+                                    <h3>Nguyễn Sơn Hoàng</h3>
+                                    <p class="text-start">Sơn Hoàng, hiện đang làm việc tại Công ty Lexcomm Việt Nam, đã
+                                        tích cực tham gia vào các cuộc thi moot trong gần trong thập kỷ qua. Anh đã tham
+                                        gia vào các cuộc thi moot ở cấp quốc gia, huấn luyện hơn các đội từng đoạt giải
+                                        thưởng tại các cuộc thi moot, và làm giám khảo trong các cuộc thi moot quốc gia,
+                                        khu vực và quốc tế. Mooting Summer School là dự án để hiện thực hóa việc đưa
+                                        kiến thức về moot của anh đến nhiều sinh viên hơn, và nâng cao tính cạnh tranh
+                                        của nền mooting Việt Nam.</p>
+                                </div>
+                                <div class="eng">
+                                    <h3>Nguyen Son Hoang</h3>
+                                    <p class="text-start">Son Hoang, currently working at Lexcomm Vietnam LLC, has been
+                                        actively involved in the mooting scene for the past decade. He has participated
+                                        in national moots, coached over a dozen award-winning teams, and served as a
+                                        judge in national, regional, and international moot competitions. Mooting Summer
+                                        School is the project to realize his ambition for his mooting knowledge to reach
+                                        a wider audience and elevate the overall level of competition in the Vietnamese
+                                        mooting scene.</p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="col-lg-4 col-md-12 col-sm-12 pt-5">
                     <div class="flip-card w-100">
@@ -295,53 +341,6 @@
                     </div>
 
                 </div>
-
-                <div class="col-lg-4 col-md-12 col-sm-12 pt-5">
-                    <div class="flip-card w-100">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <div class="upload-container">
-                                    <img src="./assets/imgs/ourTeam-2.png" alt="" class="avatar shadow">
-                                </div>
-                                <div class="vn">
-                                    <h4 class="my-3">Nguyễn Sơn Hoàng</h4>
-                                    <p class="text-muted">Nhà sáng lập / Người hướng dẫn</p>
-                                </div>
-                                <div class="eng">
-                                    <h4 class="my-3">Nguyen Son Hoang</h4>
-                                    <p class="text-muted">Founder/Instructor</p>
-                                </div>
-
-                            </div>
-                            <div class="flip-card-back custom-scrollbar p-3">
-                                <div class="vn">
-                                    <h3>Nguyễn Sơn Hoàng</h3>
-                                    <p class="text-start">Sơn Hoàng, hiện đang làm việc tại Công ty Lexcomm Việt Nam, đã
-                                        tích cực tham gia vào các cuộc thi moot trong gần trong thập kỷ qua. Anh đã tham
-                                        gia vào các cuộc thi moot ở cấp quốc gia, huấn luyện hơn các đội từng đoạt giải
-                                        thưởng tại các cuộc thi moot, và làm giám khảo trong các cuộc thi moot quốc gia,
-                                        khu vực và quốc tế. Mooting Summer School là dự án để hiện thực hóa việc đưa
-                                        kiến thức về moot của anh đến nhiều sinh viên hơn, và nâng cao tính cạnh tranh
-                                        của nền mooting Việt Nam.</p>
-                                </div>
-                                <div class="eng">
-                                    <h3>Nguyen Son Hoang</h3>
-                                    <p class="text-start">Son Hoang, currently working at Lexcomm Vietnam LLC, has been
-                                        actively involved in the mooting scene for the past decade. He has participated
-                                        in national moots, coached over a dozen award-winning teams, and served as a
-                                        judge in national, regional, and international moot competitions. Mooting Summer
-                                        School is the project to realize his ambition for his mooting knowledge to reach
-                                        a wider audience and elevate the overall level of competition in the Vietnamese
-                                        mooting scene.</p>
-
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
                 <div class="col-lg-4 col-md-12 col-sm-12 pt-5">
                     <div class="flip-card w-100">
                         <div class="flip-card-inner">

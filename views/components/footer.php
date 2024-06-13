@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="./css/base.css">
 <footer class="p-3 text-light">
-    <div class="row">
+    <div class="row pt-3">
         <div class="col-lg-4">
             <img src="./assets/imgs/footer-logo.png" alt="">
         </div>
