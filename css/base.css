@@ -48,7 +48,8 @@ table * {
   color: #274069;
 }
 .blue-bg * {
-  background-color: #6e7f99 !important;
+  /* background-color: #6e7f99 !important; */
+  background-color: #909eb9 !important;
 }
 .bold-text {
   font-family: "Times New Roman", Times, serif;
@@ -125,6 +126,21 @@ picture {
 }
 .main-text-color {
   color: #274069;
+}
+.glow-white-bg {
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 5px #e5e5e5, 0 0 5px #e5e5e5, 0 0 10px #274069,
+      0 0 15px #274069, 0 0 20px #274069, 0 0 20px #274069, 0 0 22px #274069;
+  }
+
+  to {
+    text-shadow: 0 0 10px #e5e5e5, 0 0 13px #274069, 0 0 15px #274069,
+      0 0 18px #274069, 0 0 20px #274069, 0 0 20px #274069, 0 0 22px #274069;
+  }
 }
 /* big screen hover to drop down */
 @media (min-width: 1200px) {
@@ -640,6 +656,7 @@ table thead th {
 .c-table table tr th:first-child {
   width: 5rem;
 }
+
 .trial-session {
   background-image: url(../assets/imgs/curriculum-7.png);
 }
@@ -704,8 +721,95 @@ table thead th {
 #endorsement .carousel-inner {
   z-index: 0;
 }
+/* change carousel button color to blue */
+#endorsement .carousel-control-next-icon,
+#endorsement .carousel-control-prev-icon,
+#endorsement .carousel-indicators,
+#endorsement-mobile .carousel-control-next-icon,
+#endorsement-mobile .carousel-control-prev-icon,
+#endorsement-mobile .carousel-indicators {
+  filter: brightness(0) saturate(100%) invert(23%) sepia(13%) saturate(2242%)
+    hue-rotate(178deg) brightness(97%) contrast(96%);
+}
+
+
+#endorsement .carousel-indicators {
+  margin-bottom: 0 !important;
+}
+/* separate 3 tabs Mentee - Mooter - Judges */
+.tab-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+@media (min-width: 600px) {
+  .tab-container {
+    padding: 10px;
+  }
+}
+.tabs {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 0 48px 80px -32px rgba(0,0,0,0.3);
+}
+.input {
+  position: absolute;
+  opacity: 0;
+}
+.label {
+  border-radius: 10px;
+  padding: 20px;
+  background: #909eb9;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  transition: background 0.1s, color 0.1s;
+  color: #ccc;
+  
+}
+.label:hover {
+  color: #843d43;
+}
+.label:active {
+  background: #ccc;
+}
+.input:focus + .label {
+  z-index: 1;
+}
+.input:checked + .label {
+  background: #274069;
+  color: #e5e5e5;
+}
+@media (min-width: 600px) {
+  .label {
+    /* width: auto; */
+    width: 33.33%;
+    text-align: center;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+  }
+}
+.panel {
+  display: none;
+  padding: 20px 0 0;
+  background: rgba(0, 0, 0, 0);
+}
+@media (min-width: 600px) {
+  .panel {
+    order: 99;
+  }
+}
+.input:checked + .label + .panel {
+  display: block;
+}
+/* end separate tabs */
 
 /* ---------------FAQ------------------ */
+#faq-page p {
+  padding: 5px 0;
+}
 #about-class-rules {
   background-color: #274069;
 }
@@ -750,7 +854,6 @@ table thead th {
   margin-top: 15px;
   height: 0;
   border-radius: 6px;
-  /* color: rgba(127, 121, 121, 1); */
   color: #274069;
   overflow: hidden;
 }
@@ -761,11 +864,11 @@ table thead th {
 }
 
 .faq-answer-content {
-  padding: 10px 15px 10px 15px;
+  padding: 20px 20px 15px;
 }
 
 .active {
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #c7c4c4;
 
   height: auto;
@@ -798,6 +901,7 @@ table thead th {
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e") !important;
 }
+
 
 /* ------------FOOTER----------- */
 
@@ -958,6 +1062,13 @@ footer {
     font-size: 1.5rem;
     padding: 20px 0 10px;
   }
+  .founder-img{
+    display: none;
+  }
+  .founder-words-title{
+    padding-top: 60px;
+  }
+  
   #what-is-mooting .title h2 {
     font-size: 5rem;
     line-height: 4rem;
@@ -1035,4 +1146,11 @@ footer {
   .element-news-events a {
     font-size: 20px !important;
   }
+  li {
+    padding-left: 5px;
+  }
+  .label {
+    width: 100% !important;
+  }
+  
 }

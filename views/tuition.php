@@ -72,7 +72,7 @@
                                     <tr>
                                         <th scope="row" class="vn">Tham gia các buổi thực hành dưới tư cách Người thực hành</th>
                                         <th scope="row" class="eng">Participate in practice sessions as a Practitioner</th>
-                                        <td class="text-danger text-center">✘</td>
+                                        <td class=""></td>
                                         <td class="text-center">✓</td>
                                     </tr>
                                     <tr>

@@ -7,9 +7,15 @@
             <div class="col-lg-6 position-relative">
                 <div class="d-flex justify-content-center align-items-center">
                     <div class="title px-5">
-                        <h1 style="padding-top:20px">Mooting</h1>
-                        <h2 class="vn">là gì?</h2>
-                        <h2 class="eng">definition</h2>
+                        <div class="vn">
+                            <h1 style="padding-top:20px">Mooting</h1>
+                            <h2>là gì?</h2>
+                        </div>
+                        <div class="eng">
+                            <h1 style="padding-top:20px">What is</h1>
+                            <h2>mooting?</h2>
+                        </div>
+                        
                     </div>
                 </div>
                 <div class="blue-rec-shape position-absolute hideBlue" style="bottom:0"></div>
@@ -50,12 +56,10 @@
             </div>
         </div>
     </section>
-    <section class="page-section" style="min-height: 100vh; padding-top: 5rem">
+    <section class="page-section" style="min-height: 100vh; padding-top: 8rem">
         <div class="container">
-            <h2 class="text-center display-5 vn">Một số giải đấu moot quốc tế danh giá có truyền thống lâu đời với cộng
-                đồng thí sinh:</h2>
-            <h2 class="text-center display-5 eng">Some prestigious international moot tournaments have a long tradition
-                with community:</h2>
+            <h2 class="text-center display-5 vn">Một số giải đấu moot quốc tế danh giá</h2>
+            <h1 class="text-center display-5 eng">Prestigious international moot competitions</h1>
             <div class="row">
                 <div class="col-lg-3 p-3 col-6">
                     <!-- Button trigger modal -->
@@ -345,13 +349,13 @@
                         <p class="r">Chương trình của MSS sẽ bao gồm 17 buổi, trong đó bao gồm:</p>
                         <div class="row offset-1 mb-3">
                             <div class="col-lg-6">
-                                <li>1 buổi Học thử (Miễn phí)</li>
-                                <li>11 buổi Lý thuyết (Tối thứ Năm và sáng Chủ Nhật)</li>
-                                <li>4 buổi Thực hành (Sáng thứ Bảy và Chủ Nhật)</li>
+                                <li>1 buổi <a href="#trial-section" class="text-light glow-white-bg">Học thử</a> (Miễn phí)</li>
+                                <li>11 buổi <a href="#overview-of-theoretical-sessions" class="text-light glow-white-bg">Lý thuyết</a> (Tối thứ Năm và sáng Chủ Nhật)</li>
+                                <li>4 buổi <a href="#overview-of-mock-sessions" class="text-light glow-white-bg"> Thực hành</a> (Sáng thứ Bảy và Chủ Nhật)</li>
                             </div>
                             <div class="col-lg-6">
-                                <li>1 buổi Talkshow (Sáng thứ Bảy hoặc Chủ Nhật)</li>
-                                <li>1 buổi Bế giảng (Sáng thứ Bảy hoặc Chủ Nhật)</li>
+                                <li>1 buổi <a href="#end-of-course-sessions" class="text-light glow-white-bg">Talkshow</a> (Sáng thứ Bảy hoặc Chủ Nhật)</li>
+                                <li>1 buổi <a href="#end-of-course-sessions" class="text-light glow-white-bg">Bế giảng</a> (Sáng thứ Bảy hoặc Chủ Nhật)</li>
                             </div>
 
                         </div>
@@ -365,13 +369,13 @@
                         <p>The MSS course will consist of 17 sessions:</p>
                         <div class="row offset-1 mb-3">
                             <div class="col-lg-6">
-                                <li>1 Trial session (free of charge)</li>
-                                <li>11 Theoretical sessions (Thursday evenings & Sunday mornings)</li>
-                                <li>4 Mock sessions (Saturday mornings & Sunday mornings)</li>
+                                <li>1 <a href="#trial-section" class="text-light glow-white-bg">Trial session</a> (free of charge)</li>
+                                <li>11 <a href="#overview-of-theoretical-sessions" class="text-light glow-white-bg">Theoretical sessions</a> (Thursday evenings & Sunday mornings)</li>
+                                <li>4 <a href="#overview-of-mock-sessions" class="text-light glow-white-bg">Mock sessions</a> (Saturday mornings & Sunday mornings)</li>
                             </div>
                             <div class="col-lg-6">
-                                <li>1 Talk show session (Saturday mornings or Sunday mornings)</li>
-                                <li>1 Closing session (Saturday mornings or Sunday mornings)</li>
+                                <li>1 <a href="#end-of-course-sessions" class="text-light glow-white-bg">Talk show session</a> (Saturday mornings or Sunday mornings)</li>
+                                <li>1 <a href="#end-of-course-sessions" class="text-light glow-white-bg">Closing session</a> (Saturday mornings or Sunday mornings)</li>
                             </div>
 
                         </div>
@@ -405,7 +409,7 @@
                                     <th scope="row" class="vn">Học thử</th>
                                     <th scope="row" class="eng text-center">Try it out</th>
                                     <td class="vn">Giới thiệu và tinh thần mooting</td>
-                                    <td class="eng">Introductory and mental mooting</td>
+                                    <td class="eng">Introductory and spirit of mooting</td>
                                     <td class="vn">
                                         <ul>
                                             <li>Mooting là gì</li>
@@ -823,7 +827,7 @@
                         hành.</p>
                     <p>Chương trình học sẽ đi theo thứ tự 4 nhóm kỹ năng chính như sau: </p>
                     <ol>
-                        <li data-toggle="modal" data-target="#skill-before-moot">Kỹ năng nên có trước khi cuộc thi bắt
+                        <li data-toggle="modal" data-target="#skill-before-moot" class="">Kỹ năng nên có trước khi cuộc thi bắt
                             đầu</li>
                         <li data-toggle="modal" data-target="#after-recieved-mooting-test">Kỹ năng liên quan đến những
                             việc cần làm khi đã có đề bài</li>
@@ -843,8 +847,7 @@
                     <ol>
                         <li data-toggle="modal" data-target="#skill-before-moot">&emsp;Sessions on pre-competition
                             skills</li>
-                        <li data-toggle="modal" data-target="#after-recieved-mooting-test">&emsp;Skills sessions about
-                            during the initial phase</li>
+                        <li data-toggle="modal" data-target="#after-recieved-mooting-test">&emsp;Skills sessions on the initial phase</li>
                         <li data-toggle="modal" data-target="#written-advocacy-skills">&emsp;Sessions on written
                             advocacy skills</li>
                         <li data-toggle="modal" data-target="#oral-advocacy-skills">&emsp;Sessions on oral advocacy
@@ -1207,7 +1210,7 @@
                 </div>
                 <div class="col-lg-7">
                     <p>MSS believes that theoretical sessions, if not applied, will forever remain mere words, never
-                        fulfill their true significance. Therefore, MSS wishes to organize four practical sessions in
+                        fulfill their true significance. Therefore, MSS will organize four practical sessions in
                         two phases as follows:</p>
                     <ul style="list-style: none;">
                         <li>Phase 1: Two mock sessions following the completion of the initial four theoretical sessions
@@ -1259,7 +1262,7 @@
         <div class="container">
             <div class="title">
                 <h1 class="vn">Các buổi tổng kết</h1>
-                <h1 class="eng">Ending sessions</h1>
+                <h1 class="eng">Closing sessions</h1>
             </div>
             <div class="col-lg-4 shadow ct-text">
                 <div class="vn">

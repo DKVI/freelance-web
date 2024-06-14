@@ -1,4 +1,4 @@
-<main>
+<main id="faq-page">
     <section id="about-the-program" class="section-active" style="margin-top: 10rem;">
         <div class="title text-light d-flex justify-content-start align-items-end" style="background-image: url(./assets/imgs/faq-1.png); min-height: 16rem">
             <div class="container px-5">
@@ -639,21 +639,23 @@
                         <div class="faq-answer ">
                             <div class="faq-answer-content">
                                 <div class="vn">
-                                    MSS không xem học phí mà chúng tôi đưa ra cho chương trình là một mức giá cho một sản phẩm
+                                    <p>MSS không xem học phí mà chúng tôi đưa ra cho chương trình là một mức giá cho một sản phẩm
                                     dịch vụ được bán ra. MSS xem học phí là một khoản đóng góp của các bạn giúp duy trì sự hoạt
-                                    động của MSS.<br>
-                                    Với định hướng hoạt động phi lợi nhuận, toàn bộ học phí thu được sẽ được sử dụng cho việc
+                                    động của MSS.</p>
+                                    <p>Với định hướng hoạt động phi lợi nhuận, toàn bộ học phí thu được sẽ được sử dụng cho việc
                                     hoạt động, duy trì, và tiếp tục phát triển MSS. Các khoản đóng góp này, trước hết sẽ được sử
                                     dụng để cân bằng lại các chi phí phát sinh trong quá trình chuẩn bị và vận hành chương
                                     trình, như các vấn đề liên quan đến thiết kế hình ảnh, duy trì website, xây dựng bài giảng,
-                                    hỗ trợ các nhân sư vận hành chương trình, v.v.<br>
-                                    Ngoài ra, trên tinh thần hoạt động vì cộng đồng, trong tương lai, khi các chi phí ban đầu đã
+                                    hỗ trợ các nhân sư vận hành chương trình, v.v.</p>
+                                    <p>Ngoài ra, trên tinh thần hoạt động vì cộng đồng, trong tương lai, khi các chi phí ban đầu đã
                                     được cân bằng, MSS mong muốn sử dụng các khoản đóng góp này để tiếp tục hỗ trợ sự phát triển
                                     của cộng đồng mooting Việt Nam, như một quỹ khuyến học cho các cá nhân muốn tham gia MSS,
-                                    một kho lưu trữ các tài liệu hữu ích liên quan đến mooting, v.v.
+                                    một kho lưu trữ các tài liệu hữu ích liên quan đến mooting, v.v.</p>
                                 </div>
-                                <div class="eng">MSS does not consider the tuition fees paid by students as a payment for a product or service. Instead, we view them as a contribution towards the sustainable operation and development of MSS as a non-profit organization. These contributions will be used to cover the costs incurred during the design, preparation, and execution of the course, such as designing and maintaining the website, creating lectures, and providing support to the crew running the course. <br>
-                                Once the initial costs have been covered, we plan to use these donations to support the development of the mooting community in Vietnam. This may include sponsoring individuals who want to join the MSS program or creating a collection of useful mooting materials. As a community-driven project, we are committed to using these donations to benefit the wider community and help promote the growth of mooting in Vietnam.</div>
+                                <div class="eng">
+                                    <p>MSS does not consider the tuition fees paid by students as a payment for a product or service. Instead, we view them as a contribution towards the sustainable operation and development of MSS as a non-profit organization. These contributions will be used to cover the costs incurred during the design, preparation, and execution of the course, such as designing and maintaining the website, creating lectures, and providing support to the crew running the course.</p>
+                                    <p>Once the initial costs have been covered, we plan to use these donations to support the development of the mooting community in Vietnam. This may include sponsoring individuals who want to join the MSS program or creating a collection of useful mooting materials. As a community-driven project, we are committed to using these donations to benefit the wider community and help promote the growth of mooting in Vietnam.</p>
+                                </div>
                                 
 
                             </div>
