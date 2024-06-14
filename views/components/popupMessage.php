@@ -3,9 +3,11 @@
         <i class="fa-regular fa-message m-auto " style="font-size: 24px; color: white"></i>
     </div>
     <div class="position-absolute rounded-4 overflow-hidden popup-message" style="display: none; width: 300px; right: 0; bottom: calc(100% + 10px); background-color: white; animation: popup 0.4s; z-index: 9999">
-        <div>
-            <div class="title w-full d-flex px-2 py-3 text-center" style="background-color: #274069; color: white; font-size: 18px">
-                <div class="m-auto">Contact to us!</div>
+        <?php echo $_SESSION["lang"] == "eng"  ?
+            '<div class="eng">
+            <div class="title w-full d-flex px-2 py-3 text-center"
+                style="background-color: #274069; color: white; font-size: 18px">
+                <div class="m-auto">Leave us a message!</div>
                 <div class="px-2 close-btn" style="font-size: 24px; cursor: pointer">&times</div>
             </div>
             <div>
@@ -13,45 +15,57 @@
                     <form class="form position-relative" action="" method="POST">
                         <div class="form-group pb-2">
                             <label class="form-label" for="name">Full name <span style="color:red">*<span></label>
-                            <input type="text" class="form-control name" name="name" placeholder="Enter your full name" required>
+                            <input type="text" class="form-control name" name="name" placeholder="Enter your full name"
+                                required>
                         </div>
                         <div class="form-group pb-2">
-                            <label class="form-label" for="email">Full name <span style="color:red">*<span></label>
-                            <input type="email" class="form-control email" name="email" placeholder="Enter your email" required>
+                            <label class="form-label" for="email">Email <span style="color:red">*<span></label>
+                            <input type="email" class="form-control email" name="email" placeholder="Enter your email"
+                                required>
 
                         </div>
                         <div class="form-group pb-2">
-                            <label class="form-label" for="phone">Phone number<span style="color:red">(optional)<span></label>
-                            <input type="tel" class="form-control phone" name="phone" placeholder="Enter your phone number">
+                            <label class="form-label" for="phone">Phone number<span
+                                    style="color:red">(optional)<span></label>
+                            <input type="tel" class="form-control phone" name="phone"
+                                placeholder="Enter your phone number">
                         </div>
                         <div class="form-group pb-2">
                             <label class="form-label" for="message">Message<span style="color:red">*<span></label>
-                            <textarea class="form-control message" name="message" placeholder="Type your message" rows="3" required></textarea>
+                            <textarea class="form-control message" name="message" placeholder="Type your message"
+                                rows="3" required></textarea>
                         </div>
                         <div class="w-full d-flex justify-content-end" style="gap: 8px">
-                            <button class="btn w-full shadow" type="reset" style="background-color: white; color: #274069; border: solid 2px #274069">Clear</button>
-                            <button class="btn w-full shadow submit-btn" type="submit" style="background-color: #274069; color: white">Send</button>
+                            <button class="btn w-full shadow" type="reset"
+                                style="background-color: white; color: #274069; border: solid 2px #274069">Clear</button>
+                            <button class="btn w-full shadow submit-btn" type="submit"
+                                style="background-color: #274069; color: white">Send</button>
                         </div>
                     </form>
-                    <div class="loading-screen position-absolute" style="display: none; left:0; right: 0; top: 0; bottom: 0">
+                    <div class="loading-screen position-absolute"
+                        style="display: none; left:0; right: 0; top: 0; bottom: 0">
                         <div class="loader m-auto"></div>
                     </div>
-                    <div class="success-screen position-absolute" style="display: none; left:0; right: 0; top: 0; bottom: 0; background-color: #274069; animation: popup 0.2s; transition: all 0.5s ease-in-out">
+                    <div class="success-screen position-absolute"
+                        style="display: none; left:0; right: 0; top: 0; bottom: 0; background-color: #274069; animation: popup 0.2s; transition: all 0.5s ease-in-out">
                         <div class="m-auto w-full">
                             <div class="w-full d-flex">
-                                <i class="fa-regular fa-circle-check m-auto" style="color: white; font-size: 100px;"></i>
+                                <i class="fa-regular fa-circle-check m-auto"
+                                    style="color: white; font-size: 100px;"></i>
                             </div>
-                            <div class=" text-center pt-4">
+                            <div class="text-center pt-4">
                                 <h3 style="color: white">SUCCESS!</h3>
                                 <p style="color: white">Your message have been sent</p>
                                 <button type="button" class="btn btn-outline-light">Go Back</button>
                             </div>
                         </div>
                     </div>
-                    <div class="fail-screen position-absolute" style="display: none; left:0; right: 0; top: 0; bottom: 0; background-color: #e94848; animation: popup 0.2s; transition: all 0.5s ease-in-out">
+                    <div class="fail-screen position-absolute"
+                        style="display: none; left:0; right: 0; top: 0; bottom: 0; background-color: #e94848; animation: popup 0.2s; transition: all 0.5s ease-in-out">
                         <div class="m-auto w-full">
                             <div class="w-full d-flex">
-                                <i class="fa-regular fa-circle-xmark m-auto" style="color: white; font-size: 100px;"></i>
+                                <i class="fa-regular fa-circle-xmark m-auto"
+                                    style="color: white; font-size: 100px;"></i>
                             </div>
                             <div class=" text-center pt-4">
                                 <h3 style="color: white">OOPS!</h3>
@@ -62,7 +76,79 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>' : '<div class="vn">
+            <div class="title w-full d-flex px-2 py-3 text-center"
+                style="background-color: #274069; color: white; font-size: 18px">
+                <div class="m-auto">Để lại lời nhắn cho chúng tôi!</div>
+                <div class="px-2 close-btn" style="font-size: 24px; cursor: pointer">&times</div>
+            </div>
+            <div>
+                <div class="px-3 py-2">
+                    <form class="form position-relative" action="" method="POST">
+                        <div class="form-group pb-2">
+                            <label class="form-label" for="name">Tên đầy đủ <span style="color:red">*<span></label>
+                            <input type="text" class="form-control name" name="name" placeholder="Nhập tên đầy đủ"
+                                required>
+                        </div>
+                        <div class="form-group pb-2">
+                            <label class="form-label" for="email">Email <span style="color:red">*<span></label>
+                            <input type="email" class="form-control email" name="email" placeholder="Nhập email"
+                                required>
+
+                        </div>
+                        <div class="form-group pb-2">
+                            <label class="form-label" for="phone">Số điện thoại<span style="color:red">(tuỳ
+                                    chọn)<span></label>
+                            <input type="tel" class="form-control phone" name="phone" placeholder="Nhập số điện thoại">
+                        </div>
+                        <div class="form-group pb-2">
+                            <label class="form-label" for="message">Lời nhắn<span style="color:red">*<span></label>
+                            <textarea class="form-control message" name="message" placeholder="Nhập lời nhắn của bạn!"
+                                rows="3" required></textarea>
+                        </div>
+                        <div class="w-full d-flex justify-content-end" style="gap: 8px">
+                            <button class="btn w-full shadow" type="reset"
+                                style="background-color: white; color: #274069; border: solid 2px #274069">Xoá</button>
+                            <button class="btn w-full shadow submit-btn" type="submit"
+                                style="background-color: #274069; color: white">Gửi</button>
+                        </div>
+                    </form>
+                    <div class="loading-screen position-absolute"
+                        style="display: none; left:0; right: 0; top: 0; bottom: 0">
+                        <div class="loader m-auto"></div>
+                    </div>
+                    <div class="success-screen position-absolute"
+                        style="display: none; left:0; right: 0; top: 0; bottom: 0; background-color: #274069; animation: popup 0.2s; transition: all 0.5s ease-in-out">
+                        <div class="m-auto w-full">
+                            <div class="w-full d-flex">
+                                <i class="fa-regular fa-circle-check m-auto"
+                                    style="color: white; font-size: 100px;"></i>
+                            </div>
+                            <div class=" text-center pt-4">
+                                <h3 style="color: white">THÀNH CÔNG!</h3>
+                                <p style="color: white">Chúng tôi đã nhận được tin nhắn của bạn</p>
+                                <button type="button" class="btn btn-outline-light">Quay lại</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fail-screen position-absolute"
+                        style="display: none; left:0; right: 0; top: 0; bottom: 0; background-color: #e94848; animation: popup 0.2s; transition: all 0.5s ease-in-out">
+                        <div class="m-auto w-full">
+                            <div class="w-full d-flex">
+                                <i class="fa-regular fa-circle-xmark m-auto"
+                                    style="color: white; font-size: 100px;"></i>
+                            </div>
+                            <div class=" text-center pt-4">
+                                <h3 style="color: white">ÔI KHÔNG!</h3>
+                                <p style="color: white">Có vài lỗi xảy ra, vui lòng thử lại!</p>
+                                <button type="button" class="btn btn-outline-light">Thử lại</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>';
+        ?>
     </div>
 </div>
 <style>
@@ -136,6 +222,8 @@
     //hide success screen
     successScreen.querySelector("button").onclick = () => {
         successScreen.style.display = "none";
+        document.querySelector(".popup-message textarea").value = "";
+        document.querySelector(".popup-message textarea").focus();
     }
 
     //hide fail screen

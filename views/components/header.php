@@ -248,7 +248,26 @@ if ((strpos($current_url, "&language=vn"))) {
 </div>
 
 <!-- SOCIAL MEDIA BAR -->
-<div class="float-sm">
+<div class="float-sm vn">
+    <div class="fl-fl">
+        <i class="fa fa-facebook"></i>
+        <a href="<?php echo $facebook->link ?>" target="_blank"> Thích chúng tôi!</a>
+
+    </div>
+    <div class="fl-fl">
+        <i class="fa fa-instagram"></i>
+        <a href="<?php echo $instagram->link ?>" target="_blank">Theo dõi chúng tôi!</a>
+    </div>
+    <div class="fl-fl">
+        <i class="fa fa-linkedin"></i>
+        <a href="<?php echo $linkedin->link ?>" target="_blank">Theo dõi chúng tôi!</a>
+    </div>
+    <div class="fl-fl">
+        <i class="fa fa-solid fa-address-card"></i>
+        <a href="<?php echo $form->link ?>" target="_blank">Đăng ký tại đây!</a>
+    </div>
+</div>
+<div class="float-sm eng">
     <div class="fl-fl">
         <i class="fa fa-facebook"></i>
         <a href="<?php echo $facebook->link ?>" target="_blank"> Like us!</a>

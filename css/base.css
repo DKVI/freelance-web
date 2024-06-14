@@ -378,6 +378,11 @@ h6 {
   transition: all 0.25s ease;
 }
 
+.vn .fl-fl {
+  width: 230px !important;
+  right: -190px;
+}
+
 .fa {
   font-size: 20px;
   color: #fff;

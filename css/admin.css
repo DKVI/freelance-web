@@ -13,4 +13,6 @@
   display: none;
 }
 
-
+.modal-dialog .close {
+  padding: 4px 10px;
+}
