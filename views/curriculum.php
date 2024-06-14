@@ -346,7 +346,7 @@
             <div class="d-flex justify-content-center align-items-center">
                 <div class="col-lg-10 row d-flex">
                     <div class="vn m-auto col-10">
-                        <p class="r">Chương trình của MSS sẽ bao gồm 17 buổi, trong đó bao gồm:</p>
+                        <p class="">Chương trình của MSS sẽ bao gồm 17 buổi, trong đó bao gồm:</p>
                         <div class="row offset-1 mb-3">
                             <div class="col-lg-6">
                                 <li>1 buổi <a href="#trial-section" class="text-light glow-white-bg">Học thử</a> (Miễn phí)</li>
@@ -396,8 +396,8 @@
                         <table class="table">
                             <thead>
                                 <tr class="blue-bg">
-                                    <th scope="col" class="vn">Buổi số</th>
-                                    <th scope="col" class="eng">Session No.</th>
+                                    <th scope="col" class="vn">Buổi</th>
+                                    <th scope="col" class="eng">Session</th>
                                     <th scope="col" class="vn">Chủ đề</th>
                                     <th scope="col" class="eng">Subject</th>
                                     <th scope="col" class="vn">Nội dung</th>
