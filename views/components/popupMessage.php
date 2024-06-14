@@ -258,6 +258,14 @@
         });
         return response.json();
     }
+
+    const sendMessageToClient = (mail, name) => {
+        return new Promise(async (resolve, reject) => {
+            const response = await fetch(
+                `<?php echo BASE_URL ?>/services/sendmailClient.php?email=${mail}&name=${name}`).then(
+                res => resolve(res)).catch(error => reject(error));
+        });
+    }
     // Validate Email Address
     function isValidEmail(email) {
         const pattern =
@@ -283,6 +291,8 @@
             }).then(res => {
                 console.log(res);
                 if (res) {
+                    const response = sendMessageToClient(email, name);
+                    console.log(response);
                     setTimeout(() => {
                         successScreen.style.display = "flex";
                         loadingScreen.style.display = "none";
