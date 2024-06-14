@@ -7,7 +7,6 @@ if (isset($_GET["keyword"])) {
     echo '<script>location.href = "' . BASE_URL . '/e404"</script>';
 }
 $postsList = Post::getByKeyWord($conn, $keyword);
-echo $postsList == null;
 $limit = 4;
 function renderElement($element)
 {
@@ -37,7 +36,11 @@ $eventList = Post::getByType($conn, 'event', 2);
 foreach ($postsList as $post) {
     echo '<script>postList.push(`' . renderElement($post) . '`);</script>';
 };
-
+if ($postsList == null) {
+    echo '<script>postList.push("<p>There are no posts match this keyword!</p>");</script>';
+} else if ($postsList != null && count($postsList) == 0) {
+    echo '<script>postList.push("<p>There are no posts match this keyword!</p>");</script>';
+}
 ?>
 
 <main class="position-relative" style="margin-top: 10rem">
@@ -55,7 +58,7 @@ foreach ($postsList as $post) {
     <!-- Main content -->
     <div class="container py-5 p-lg-5 w-100">
         <div class="row justify-content-center min-vh-100 " style="gap: 16px">
-            <div class="col-lg-8 h-100 row shadow-lg rounded-3 eng p-3">
+            <div class="col-lg-8 h-100 row shadow-lg rounded-3 p-3">
                 <h3 class="py-5">Search for "<?php echo $keyword ?>"</h3>
                 <div class="w-full d-flex flex-column post-container" style="gap: 1rem">
                 </div>
@@ -63,26 +66,7 @@ foreach ($postsList as $post) {
                     Show more
                 </button>
             </div>
-            <div class="col-lg-8 h-100 row shadow-lg rounded-3 vn">
-                <div class="col-lg-12">
-                    <img src="./uploads/imgs/default.png" class="w-100">
-                </div>
-                <div class="col-lg-5 p-4"><a href="<?php echo BASE_URL . '/about' ?>">
-                        <h1 style="font-size: 50px">ABOUT M.S.S</h1>
-                    </a></div>
-                <div class="col-lg-7 p-4">
-                    <div>
-                        <p class="" style="text-align: left">Trong bất kỳ chuyện chinh phục nào, sự yêu và hiểu đối
-                            phương
-                            luôn là điều
-                            tối quan trọng.
-                            Vậy nên, tại MSS, mình, với tư cách là Nhà sáng lập và Người hướng dẫn, hy vọng có thể khiến
-                            bạn “yêu” và “hiểu” mooting hơn qua những bài giảng, những lời khuyên và những câu chuyện
-                            được chia sẻ.</p>
-                    </div>
-                    <div><a class="btn" style="background-color: #274069; color: white" href="<?php echo BASE_URL . '/about' ?>">READ MORE</a></div>
-                </div>
-            </div>
+
             <div class="col-lg-4 h-100 p-3 d-flex flex-column rounded-3 shadow-lg" style="background-color: #274069">
                 <h3 style="color: white; height: 10%">
                     NEWS & EVENTS
