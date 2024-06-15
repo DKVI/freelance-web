@@ -7,7 +7,7 @@
                 <div class="founder-words-title text-end title">
                     <div class="vn">
                         <h3 style="font-size:4rem;" class="">Lời ngỏ từ</h3>
-                        <h1>Nhà sáng lập</h1>
+                        <h1 style="font-size: 7rem;">Nhà sáng lập</h1>
                     </div>
                     <div class="eng">
                         <h3 style="font-size:4rem;">Message from</h3>
