@@ -43,7 +43,6 @@ main {
   padding: 15px 15px 10px;
 }
 
-
 .bg-light,
 table * {
   background-color: #e5e5e5 !important;
@@ -140,7 +139,6 @@ picture {
 .glow-blue-bg {
   animation: glowBlue 1s ease-in-out infinite alternate;
 }
-
 
 @-webkit-keyframes glow {
   from {
@@ -618,7 +616,7 @@ h6 {
   padding-top: 8rem;
   border: none;
 }
-#curriculum p{
+#curriculum p {
   padding-top: 5px;
 }
 .blue-rec-shape {
@@ -721,7 +719,7 @@ table thead th {
     right: 0;
   }
 }
-.theorical-popup ol li{
+.theorical-popup ol li {
   padding: 5px;
 }
 
@@ -741,7 +739,7 @@ table thead th {
   background-position: top;
   background-repeat: no-repeat;
 }
-#tuition p{
+#tuition p {
   padding-top: 5px;
 }
 #tuition table {
@@ -1200,5 +1198,15 @@ footer {
   }
   .label {
     width: 100% !important;
+  }
+  .modal-bg-griffin {
+    background-image: url(../assets/imgs/endorsement-mobile-bg.png);
+    background-size: cover;
+  }
+  .modal-img-none{
+    display: none;
+  }
+  .mobile-position-right-none{
+    background-position: unset !important;
   }
 }

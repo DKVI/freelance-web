@@ -888,9 +888,9 @@
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
-                                    <div class="modal-body overflow-hidden">
+                                    <div class="modal-body overflow-hidden modal-bg-griffin">
 
-                                        <div class="position-relative col-lg-4  " style="z-index:0;">
+                                        <div class="position-relative col-lg-4  modal-img-none" style="z-index:0;">
                                             <img src="./assets/imgs/curriculum-8.png" alt="mss-background"
                                                 class="position-absolute w-100" style="left:0; top:0;">
                                         </div>
@@ -970,10 +970,10 @@
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
-                                    <div class="modal-body overflow-hidden">
+                                    <div class="modal-body overflow-hidden modal-bg-griffin" >
 
                                         <div class="position-relative">
-                                            <div class=" col-lg-4 position-absolute" style="right:0; top:0;">
+                                            <div class=" col-lg-4 position-absolute modal-img-none" style="right:0; top:0;">
                                                 <img src="./assets/imgs/curriculum-9.png" alt="mss-background"
                                                     class="w-100">
                                             </div>
@@ -1133,7 +1133,7 @@
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                         <div style="background-image: url(./assets/imgs/curriculum-11.png); background-size: cover;background-position: right;"
-                                            class="p-5 h-100">
+                                            class="p-5 h-100 mobile-position-right-none">
                                             <div class="title">
                                                 <h5 class="display-1 vn">Kỹ năng tranh tụng nói</h5>
                                                 <h5 class="display-1 eng">Oral advocacy skills</h5>
