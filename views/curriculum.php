@@ -359,10 +359,10 @@
                             </div>
 
                         </div>
-                        <p>Tổng quan chương trình sẽ được thể hiện ở bảng sau:<br>
-                            <i>(Nhằm mục đích dễ theo dõi, các buổi học của gói Essentials dưới đây sẽ được tô <span
-                                    class="bold-text">màu xanh</span>, đối với các buổi thực hành, học viên <span
-                                    class="bold-text">gói Essentials</span> sẽ tham gia với tư cách Quan sát viên)</i>
+                        <p style="padding-bottom: 0;">Tổng quan chương trình sẽ được thể hiện ở bảng sau:<br>
+                            <i>*Nhằm mục đích dễ theo dõi, các buổi học của gói<span
+                            style="font-family: 'Times New Roman', Times, serif; font-size: 1.5rem" class="bold-text glow-white-bg"> Essentials</span> dưới đây sẽ được tô <span
+                                    class="bold-text glow-white-bg">màu xanh</span>, đối với các buổi thực hành, học viên gói Essentials sẽ tham gia với tư cách Quan sát viên.</i>
                         </p>
                     </div>
                     <div class="eng m-auto col-10">
@@ -382,11 +382,9 @@
 
                         <p>An overview of the program will be shown in the table below:<br>
                             <i>*For your convenience,
-                                theoretical sessions of the Essentials package will be highlighted in green. The
-                                sessions
-                                included in the <strong
-                                    style="font-family: 'Times New Roman', Times, serif; font-size: 1.5rem">Essentials
-                                    package</strong> are highlighted in blue. For mock sessions, Essentials students
+                                theoretical sessions of the <span
+                                style="font-family: 'Times New Roman', Times, serif; font-size: 1.5rem" class="bold-text glow-white-bg">Essentials package</span> will be highlighted in <span
+                                class="bold-text glow-white-bg">blue</span>. For mock sessions, Essentials students
                                 will
                                 participate as Observers.</i>
                         </p>
@@ -430,7 +428,8 @@
                                     </td>
                                 </tr>
                                 <tr class="blue-bg">
-                                    <th scope="row">1.</th>
+                                    <th scope="row" class="vn">1.</th>
+                                    <th scope="row" class="eng">1.</th>
                                     <td class="vn">Các nguyên tắc cơ bản</td>
                                     <td class="eng">Basic principles</td>
                                     <td class="vn">
@@ -453,7 +452,8 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">2.</th>
+                                    <th scope="row" class="vn">2.</th>
+                                    <th scope="row" class="eng">2.</th>
                                     <td class="vn">Làm việc nhóm</td>
                                     <td class="eng">Teamwork</td>
                                     <td class="vn">
@@ -472,7 +472,8 @@
                                     </td>
                                 </tr>
                                 <tr class="blue-bg">
-                                    <th scope="row">3.</th>
+                                    <th scope="row" class="vn">3.</th>
+                                    <th scope="row" class="eng">3.</th>
                                     <td class="vn">Chuẩn bị, và giải quyết đề bài</td>
                                     <td class="eng">Prepare, and solve the problem</td>
                                     <td class="vn">
@@ -491,7 +492,8 @@
                                     </td>
                                 </tr>
                                 <tr class="blue-bg">
-                                    <th scope="row">4.</th>
+                                    <th scope="row" class="vn">4.</th>
+                                    <th scope="row" class="eng">4.</th>
                                     <td class="vn">Nghiên cứu</td>
                                     <td class="eng">Research</td>
                                     <td class="vn">
@@ -512,32 +514,35 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">5.</th>
+                                    <th scope="row" class="vn">5.</th>
+                                    <th scope="row" class="eng">5.</th>
                                     <td colspan="2" class="text-center">
                                         <p class="vn">Buổi mock số 1</p>
                                         <p class="eng">Mock Session No. 1</p>
-                                        <em class="vn"><strong>Lưu ý:</strong> Tình huống pháp lý được sử dụng trong các
-                                            buổi Mock này sẽ được cung cấp từ buổi học chính thức đầu tiên.</em>
-                                        <em class="eng"><strong> Note:</strong> The hypotheticals used in these Mock
+                                        <p class="vn" style="font-style: italic;"><strong>Lưu ý:</strong> Tình huống pháp lý được sử dụng trong các
+                                            buổi Mock này sẽ được cung cấp từ buổi học chính thức đầu tiên.</p>
+                                        <p class="eng" style="font-style: italic;"><strong> Note:</strong> The hypotheticals used in these Mock
                                             sessions, and team selection will be provided in the housekeeping
-                                            session.</em>
+                                            session.</p>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">6.</th>
+                                    <th scope="row" class="vn">6.</th>
+                                    <th scope="row" class="eng">6.</th>
                                     <td colspan="2" class="text-center">
                                         <p class="vn">Buổi mock số 2</p>
                                         <p class="eng">Mock Session No. 2</p>
-                                        <em class="vn"><strong>Lưu ý:</strong> Tình huống pháp lý được sử dụng trong các
-                                            buổi Mock này sẽ được cung cấp từ buổi học chính thức đầu tiên.</em>
-                                        <em class="eng"><strong> Note:</strong> The hypotheticals used in these Mock
+                                        <p class="vn" style="font-style: italic;"><strong>Lưu ý:</strong> Tình huống pháp lý được sử dụng trong các
+                                            buổi Mock này sẽ được cung cấp từ buổi học chính thức đầu tiên.</p>
+                                        <p class="eng" style="font-style: italic;"><strong> Note:</strong> The hypotheticals used in these Mock
                                             sessions, and team selection will be provided in the housekeeping
-                                            session.</em>
+                                            session.</p>
                                     </td>
                                     </td>
                                 </tr>
                                 <tr class="blue-bg">
-                                    <th scope="row">7.</th>
+                                    <th scope="row" class="vn">7.</th>
+                                    <th scope="row" class="eng">7.</th>
                                     <td class="vn">Biện hộ viết (Cơ bản)</td>
                                     <td class="eng">Written advocacy (Basic)</td>
                                     <td class="vn">
@@ -556,7 +561,8 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">8.</th>
+                                    <th scope="row" class="vn">8.</th>
+                                    <th scope="row" class="eng">8.</th>
                                     <td class="vn">Biện hộ viết (Nâng cao)</td>
                                     <td class="eng">Writing foundations</td>
                                     <td class="vn">
@@ -580,7 +586,8 @@
                                     </td>
                                 </tr>
                                 <tr class="blue-bg">
-                                    <th scope="row">9.</th>
+                                    <th scope="row" class="vn">9.</th>
+                                    <th scope="row" class="eng">9.</th>
                                     <td class="vn">Biện hộ nói (Cơ bản 1)</td>
                                     <td class="eng">Oral advocacy (Basic 1)</td>
                                     <td class="vn">
@@ -602,7 +609,8 @@
                                     </td>
                                 </tr>
                                 <tr class="blue-bg">
-                                    <th scope="row">10.</th>
+                                    <th scope="row" class="vn">10.</th>
+                                    <th scope="row" class="eng">10.</th>
                                     <td class="vn">Biện hộ nói (Cơ bản 2)</td>
                                     <td class="eng">Preparing the main speech (basic)</td>
                                     <td class="vn">
@@ -626,7 +634,8 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">11.</th>
+                                    <th scope="row" class="vn">11.</th>
+                                    <th scope="row" class="eng">11.</th>
                                     <td class="vn">Biện hộ nói (Nâng cao 1)</td>
                                     <td class="eng">Oral advocacy (Advanced 1)</td>
                                     <td class="vn">
@@ -654,7 +663,8 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">12.</th>
+                                    <th scope="row" class="vn">12.</th>
+                                    <th scope="row" class="eng">12.</th>
                                     <td class="vn">Biện hộ nói (Nâng cao 2)</td>
                                     <td class="eng">Oral advocacy (Advanced 2)</td>
                                     <td class="vn">
@@ -680,31 +690,34 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">13.</th>
+                                    <th scope="row" class="vn">13.</th>
+                                    <th scope="row" class="eng">13.</th>
                                     <td colspan="2" class="text-center">
                                         <p class="vn">Buổi mock số 3</p>
                                         <p class="eng">Mock Session No. 3</p>
-                                        <em class="vn"><strong>Lưu ý:</strong> Tình huống pháp lý được sử dụng trong các
-                                            buổi Mock này sẽ được cung cấp từ buổi học chính thức đầu tiên.</em>
-                                        <em class="eng"><strong> Note:</strong> The hypotheticals used in these Mock
+                                        <p class="vn" style="font-style: italic;"><strong>Lưu ý:</strong> Tình huống pháp lý được sử dụng trong các
+                                            buổi Mock này sẽ được cung cấp từ buổi học chính thức đầu tiên.</p>
+                                        <p class="eng" style="font-style: italic;"><strong> Note:</strong> The hypotheticals used in these Mock
                                             sessions, and team selection will be provided in the housekeeping
-                                            session.</em>
+                                            session.</p>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">14.</th>
+                                    <th scope="row" class="vn">14.</th>
+                                    <th scope="row" class="eng">14.</th>
                                     <<td colspan="2" class="text-center">
                                         <p class="vn">Buổi mock số 4</p>
                                         <p class="eng">Mock Session No. 4</p>
-                                        <em class="vn"><strong>Lưu ý:</strong> Tình huống pháp lý được sử dụng trong các
-                                            buổi Mock này sẽ được cung cấp từ buổi học chính thức đầu tiên.</em>
-                                        <em class="eng"><strong> Note:</strong> The hypotheticals used in these Mock
+                                        <p class="vn" style="font-style: italic;"><strong>Lưu ý:</strong> Tình huống pháp lý được sử dụng trong các
+                                            buổi Mock này sẽ được cung cấp từ buổi học chính thức đầu tiên.</p>
+                                        <p class="eng" style="font-style: italic;"><strong> Note:</strong> The hypotheticals used in these Mock
                                             sessions, and team selection will be provided in the housekeeping
-                                            session.</em>
+                                            session.</p>
                                         </td>
                                 </tr>
                                 <tr class="blue-bg">
-                                    <th scope="row">15.</th>
+                                    <th scope="row" class="vn">15.</th>
+                                    <th scope="row" class="eng">15.</th>
                                     <td>Talkshow</td>
                                     <td>
                                         <em class="vn">Nội dung cụ thể sẽ được thống nhất dựa trên đánh giá của MSS về
@@ -714,7 +727,8 @@
                                     </td>
                                 </tr>
                                 <tr class="blue-bg">
-                                    <th scope="row">16.</th>
+                                    <th scope="row" class="vn">16.</th>
+                                    <th scope="row" class="eng">16.</th>
                                     <td class="vn">Bế giảng</td>
                                     <td class="eng">Closing</td>
                                     <td class="vn">
@@ -827,13 +841,13 @@
                         hành.</p>
                     <p>Chương trình học sẽ đi theo thứ tự 4 nhóm kỹ năng chính như sau: </p>
                     <ol>
-                        <li data-toggle="modal" data-target="#skill-before-moot" class="">Kỹ năng nên có trước khi cuộc thi bắt
-                            đầu</li>
-                        <li data-toggle="modal" data-target="#after-recieved-mooting-test">Kỹ năng liên quan đến những
-                            việc cần làm khi đã có đề bài</li>
-                        <li data-toggle="modal" data-target="#written-advocacy-skills">Kỹ năng liên quan đến việc viết
-                            bài biện hộ</li>
-                        <li data-toggle="modal" data-target="#oral-advocacy-skills">Kỹ năng liên quan đến tranh tụng nói
+                        <li data-toggle="modal" data-target="#skill-before-moot" class=""><span class="glow-blue-bg">Kỹ năng nên có trước khi cuộc thi bắt
+                            đầu</span></li>
+                        <li data-toggle="modal" data-target="#after-recieved-mooting-test"><span class="glow-blue-bg">Kỹ năng liên quan đến những
+                            việc cần làm khi đã có đề bài</span></li>
+                        <li data-toggle="modal" data-target="#written-advocacy-skills"><span class="glow-blue-bg">Kỹ năng liên quan đến việc viết
+                            bài biện hộ</span></li>
+                        <li data-toggle="modal" data-target="#oral-advocacy-skills"><span class="glow-blue-bg">Kỹ năng liên quan đến tranh tụng nói</span>
                         </li>
                     </ol>
                 </div>
@@ -845,13 +859,11 @@
                         grasp the lesson in the best way possible. </p>
                     <p>The curriculum will follow the order of four main skill groups:
                     <ol>
-                        <li data-toggle="modal" data-target="#skill-before-moot">&emsp;Sessions on pre-competition
-                            skills</li>
-                        <li data-toggle="modal" data-target="#after-recieved-mooting-test">&emsp;Skills sessions on the initial phase</li>
-                        <li data-toggle="modal" data-target="#written-advocacy-skills">&emsp;Sessions on written
-                            advocacy skills</li>
-                        <li data-toggle="modal" data-target="#oral-advocacy-skills">&emsp;Sessions on oral advocacy
-                            skills</li>
+                        <li data-toggle="modal" data-target="#skill-before-moot" >&emsp;<span class="glow-blue-bg">Sessions on pre-competition
+                            skills</span></li>
+                        <li data-toggle="modal" data-target="#after-recieved-mooting-test">&emsp;<span class="glow-blue-bg">Skills sessions on the initial phase</span></li>
+                        <li data-toggle="modal" data-target="#written-advocacy-skills">&emsp;<span class="glow-blue-bg">Sessions on written advocacy skills</span></li>
+                        <li data-toggle="modal" data-target="#oral-advocacy-skills">&emsp;<span class="glow-blue-bg">Sessions on oral advocacy skills</span></li>
                     </ol>
                 </div>
             </div>
@@ -882,7 +894,7 @@
                                             <img src="./assets/imgs/curriculum-8.png" alt="mss-background"
                                                 class="position-absolute w-100" style="left:0; top:0;">
                                         </div>
-                                        <div class="container position-relative">
+                                        <div class="container position-relative" style="min-height: 80vh;">
                                             <div class="col-lg-8 offset-lg-4 .white-filter">
                                                 <div class="title">
                                                     <h2 class="display-1 vn">Kỹ năng trước cuộc thi</h2>
@@ -890,47 +902,40 @@
                                                     </h2>
                                                 </div>
 
-                                                <p class="vn two-column filter" style=" padding: 0 60px 0 20px">
-                                                    Ở các buổi học này, MSS sẽ giới thiệu về 2 nội dung: các nguyên tắc
-                                                    cơ bản,
-                                                    và làm việc nhóm trong đấu moot.<br>
-                                                    Trong buổi đầu tiên, các học viên sẽ được học về nguyên tắc cơ bản
-                                                    của mooting. Các nguyên tắc này
-                                                    sẽ ảnh hưởng chi phối toàn bộ các kỹ năng khác về sau, cũng như quá
-                                                    trình lên kế hoạch đấu moot.<br>
-                                                    Buổi thứ hai sẽ tập trung về việc làm việc nhóm. Làm việc nhóm trong
-                                                    mooting, là một điều gì đó rất
-                                                    khác với làm việc nhóm đối với các bài tập tại trường đại học. Các
-                                                    thành viên cần phải cùng chung
-                                                    chí hướng với nhau, vừa tích cực phản biện lẫn nhau, vừa phối hợp,
+                                                <div class="vn two-column filter" style=" padding: 20px 60px 0 20px">
+                                                    <p>Ở các buổi học này, MSS sẽ giới thiệu về 2 nội dung: các nguyên tắc
+                                                    cơ bản, và làm việc nhóm trong đấu moot.</p>
+                                                    <p>Trong buổi đầu tiên, các học viên sẽ được học về nguyên tắc cơ bản
+                                                    của mooting. Các nguyên tắc này sẽ ảnh hưởng chi phối toàn bộ các kỹ năng khác về sau, cũng như quá trình lên kế hoạch đấu moot.</p>
+                                                    <p>Buổi thứ hai sẽ tập trung về việc làm việc nhóm. Làm việc nhóm trong
+                                                    mooting, là một điều gì đó rất khác với làm việc nhóm đối với các bài tập tại trường đại học. Các thành viên cần phải cùng chung chí hướng với nhau, vừa tích cực phản biện lẫn nhau, vừa phối hợp,
                                                     hỗ trợ cho nhau khi cần. Là một
                                                     cuộc chơi tập thể, việc đấu moot sẽ không thể thành công nếu các
                                                     thành viên không có sự gắn kết chặt
-                                                    chẽ. Buổi học này sẽ hướng dẫn về các nguyên tắc, cũng như cách xử
+                                                    chẽ.</p> 
+                                                    <p>Buổi học này sẽ hướng dẫn về các nguyên tắc, cũng như cách xử
                                                     lý các vấn đề phát sinh khi làm
-                                                    việc tập thể trong mooting.
-                                                </p>
-                                                <p class="eng two-column filter" style="padding: 0 60px 0 20px">
-                                                    Preparing well before a moot competition starts can help you take a
-                                                    long stride on the moot
-                                                    competition journey. In this regard, MSS will introduce two
-                                                    sessions: learning the fundamentals and
-                                                    building effective teamwork.<br>
-                                                    During the first session, students will learn about the essential
+                                                    việc tập thể trong mooting.</p>
+                                                </div>
+                                                <div class="eng two-column filter" style="padding: 0 60px 0 20px">
+                                                    <p>Preparing well before a moot competition starts can help you take a
+                                                    long stride on the moot competition journey. In this regard, MSS will introduce two sessions: learning the fundamentals and building effective teamwork.</p>
+                                                    <p>During the first session, students will learn about the essential
                                                     principles of mooting. These
                                                     principles will lay the foundation for all other skills needed in
                                                     the competition and will also
-                                                    influence the moot planning process.<br>
-                                                    The second session will focus on teamwork. Teamwork in mooting is
+                                                    influence the moot planning process.</p>
+                                                    <p>The second session will focus on teamwork. Teamwork in mooting is
                                                     very different from teamwork in
                                                     university assignments. Team members need to share a common goal,
                                                     actively critique each other, and
                                                     support and cover each other when necessary. Mooting is a team game,
                                                     and it cannot be successful if
-                                                    the members are not on the same page. This session will provide
+                                                    the members are not on the same page. </p>
+                                                    <p>This session will provide
                                                     instruction on teamwork principles
-                                                    and the issues that require cooperation among team members.
-                                                </p>
+                                                    and the issues that require cooperation among team members.</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -974,49 +979,51 @@
                                             </div>
                                             <div class="col-lg-8 position-relative">
                                                 <div class="title">
-                                                    <h2 class="display-4 vn">Những việc cần làm khi đã có đề bài</h2>
-                                                    <h2 class="display-4 eng">During the initial
+                                                    <h2 class="display-2 vn">Những việc cần làm khi đã có đề bài</h2>
+                                                    <h2 class="display-2 eng">During the initial
                                                         phase skills</h2>
                                                 </div>
                                                 <div>
-                                                    <p class="vn two-column filter" style=" padding: 0 60px 0 20px"> Để
+                                                    <div class="vn two-column filter" style=" padding: 0 60px 0 20px;"> 
+                                                        <p>Để
                                                         tránh việc các thí sinh gặp phải bối rối khi cầm một đề moot
                                                         trong tay vì không biết xử lý như thế nào, ở các buổi học này,
                                                         MSS sẽ hướng dẫn các học viên các kỹ năng xử lý đề bài và cách
-                                                        thức nghiên cứu.<br>
-                                                        Do đó, buổi đầu tiên sẽ tập trung về vấn đề xử lý đề bài. Dù là
+                                                        thức nghiên cứu.</p>
+                                                        <p>Do đó, buổi đầu tiên sẽ tập trung về vấn đề xử lý đề bài. Dù là
                                                         moot, hay một vụ tranh chấp thực tế, các yếu tố về mặt dữ kiện
                                                         đều đóng vai trò then chốt. Việc không nắm vững các tình tiết
                                                         của đề bài sẽ khiến toàn bộ sự chuẩn bị, nghiên cứu về sau của
                                                         các bạn như một lâu đài cát, luôn có thể sụp đổ. Buổi đầu tiên
-                                                        sẽ giúp các bạn đảm bảo mình luôn nắm chắc đề bài.<br>
-                                                        Buổi thứ hai sẽ tập trung vào các vấn đề nghiên cứu. Sinh viên
+                                                        sẽ giúp các bạn đảm bảo mình luôn nắm chắc đề bài.</p>
+                                                        <p>Buổi thứ hai sẽ tập trung vào các vấn đề nghiên cứu. Sinh viên
                                                         luật ai cũng có thể nghiên cứu, nhưng nghiên cứu làm sao cho
                                                         đúng, đủ, và kịp thời là một vấn đề cần phải rèn luyện. Bên cạnh
                                                         đó, buổi học này cũng sẽ hướng dẫn việc chuyển hóa các tài liệu
                                                         đã nghiên cứu để thành nội dung chuẩn bị cho phần viết bài biện
-                                                        hộ.
-                                                    </p>
-                                                    <p class="eng two-column filter" style=" padding: 0 60px 0 20px">To
+                                                        hộ.</p>
+                                                    </div>
+                                                    <div class="eng two-column filter" style=" padding: 0 60px 0 20px">
+                                                        <p>To
                                                         avoid contestants being confused when they receive a moot
                                                         problem, not knowing how to handle it, in these sessions, MSS
                                                         will guide the participants on the skills of handling the
-                                                        problem statement and the methods of research.<br>
-                                                        Therefore, the first session will focus on the issue of handling
+                                                        problem statement and the methods of research.</p>
+                                                        <p>Therefore, the first session will focus on the issue of handling
                                                         the problem statement. Whether it is a moot, or an actual
                                                         dispute, the elements of facts play a crucial role. If you do
                                                         not have a solid grasp of the details of the problem statement,
                                                         your entire subsequent preparation and research will be like a
                                                         sand castle, always at risk of collapsing. The first session
                                                         will help you ensure that you always have a firm grip on the
-                                                        problem statement.<br>
-                                                        The second session will focus on research issues. Law students
+                                                        problem statement.</p>
+                                                        <p>The second session will focus on research issues. Law students
                                                         can all research, but learning how to research correctly,
                                                         comprehensively, and in a timely manner is an aspect that needs
                                                         to be trained. Additionally, this session will also guide the
                                                         conversion of the researched materials into content preparation
-                                                        for the written advocacy part.
-                                                    </p>
+                                                        for the written advocacy part.</p>
+                                                    </div>
 
                                                 </div>
                                             </div>
@@ -1049,17 +1056,15 @@
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
-                                        <div style="background-image: url(./assets/imgs/curriculum-10.png); background-size: cover;"
+                                        <div style="background-image: url(./assets/imgs/curriculum-101.png); background-size: cover;"
                                             class="p-5">
                                             <div class="title text-end text-light">
                                                 <h5 class="vn display-1"
-                                                    style="text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3)"><span
-                                                        class="text-blue">Kỹ
-                                                        năng</span><br> viết bài biện hộ</h5>
-                                                <h5 class="eng display-1 text-blue">Written advocacy skills</h5>
+                                                    style="text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3)">Kỹ năng viết bài biện hộ</h5>
+                                                <h5 class="eng display-1">Written advocacy skills</h5>
                                             </div>
 
-                                            <div class="col-lg-7 offset-lg-1 filter">
+                                            <div class="col-lg-7 offset-lg-1 filter transparent-light-bg">
                                                 <div class="vn">
                                                     <p>Khác với một bài viết nghiên cứu khoa học thường phân tích đa
                                                         chiều
@@ -1087,11 +1092,11 @@
                                                         position of one side, focusing on extracting facts that defend
                                                         their client and disadvantage the opponent. Furthermore,
                                                         contestants usually have to do this twice - once for the
-                                                        Plaintiff, and again for the Defendant.<br>
-                                                        Therefore, the first session will focus on the basic issues such
+                                                        Plaintiff, and again for the Defendant.</p>
+                                                        <p>Therefore, the first session will focus on the basic issues such
                                                         as the foundation for writing, and the structure of the written
-                                                        submission.<br>
-                                                        The second session will dive deeper into more specialized
+                                                        submission.</p>
+                                                        <p>The second session will dive deeper into more specialized
                                                         topics, such as editing, methods to ensure clarity and coherence
                                                         throughout the written advocacy, and so on.</p>
                                                 </div>
