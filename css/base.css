@@ -741,7 +741,8 @@ table thead th {
   background-position: top;
   background-repeat: no-repeat;
 }
-#PNB-title {
+#tuition p{
+  padding-top: 5px;
 }
 #tuition table {
   font-size: 1rem;
