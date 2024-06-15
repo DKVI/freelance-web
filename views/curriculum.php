@@ -1244,7 +1244,7 @@
                     <i>
                         <p class="bold-text">*Thông tin chi tiết về các Giám khảo khách mời sẽ được MSS đăng tải trên
                             các
-                            trang mạng xã hội, cũng như mục <span><a href="#" class="text-light">Thông tin và Sự
+                            trang mạng xã hội, cũng như mục <span><a href="<?php echo BASE_URL . '/news&events' ?>" class="text-light glow-white-bg">Thông tin và Sự
                                     kiện</a></span> của website.</p>
                     </i>
                 </div>
@@ -1255,8 +1255,10 @@
                     <p>After the mock sessions, the panel of judges, including the Instructor and a Guest Judge, will
                         provide specific feedback on each participant's presentation. The guest judge may also introduce
                         a special mooting-related topic to share with the students during the mock session.</p>
-                    <i>*MSS will post details of the Guest judges on social media sites, as well as in the <span><a
-                                href="#" class="text-light"> News and Events</a></span> section of the website.</i>
+                    <i>
+                        <p class="bold-text text-center">*MSS will post details of the Guest judges on social media sites, as well as in the <span><a
+                    href="<?php echo BASE_URL . '/news&events' ?>" class="text-light glow-white-bg"> News and Events</a></span> section of the website.</p>
+                    </i>
                 </div>
             </div>
         </div>
