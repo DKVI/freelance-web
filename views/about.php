@@ -203,7 +203,7 @@
             <p class="ab-slogan"><strong><em> Non est ad astra mollis e terris via</em></strong></p>
             <p class="text-end vn" style="font-family: 'Times New Roman', Times, serif;"><em> - Megara, Hercales Furens
                     của Seneca, dòng 437</em></p>
-            <p class="text-end rng" style="font-family: 'Times New Roman', Times, serif;"><em> - Megara, Hercales Furens
+            <p class="text-end eng" style="font-family: 'Times New Roman', Times, serif;"><em> - Megara, Hercales Furens
                     of Seneca, line 437</em></p>
             <div class="philosophy-text">
                 <p class="vn text-center"><em>*Tạm dịch: “Chẳng có con đường nào dễ dàng để vươn tới những vì sao”</em>
