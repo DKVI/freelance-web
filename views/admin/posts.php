@@ -122,6 +122,9 @@ function renderPinElement($element)
         </div>
         <div class="px-5 d-flex flex-column" style="gap: 16px">
             <?php
+            if (isset($keyword) && $keyword !== '') {
+                echo '<h4 class="py-4" style="color: #274069">SEARCH RESULTS FOR "' . $keyword . '"</h4>';
+            }
             if (count($post) != 0 && $keyword == "") {
                 if ($type == "event") {
                     foreach ($post as $element) {
