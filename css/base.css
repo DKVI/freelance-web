@@ -1181,7 +1181,7 @@ footer {
   }
 
   .element-news-events {
-    height: 70px !important;
+    height: 80px !important;
   }
 
   .element-news-events span {
@@ -1203,10 +1203,10 @@ footer {
     background-image: url(../assets/imgs/endorsement-mobile-bg.png);
     background-size: cover;
   }
-  .modal-img-none{
+  .modal-img-none {
     display: none;
   }
-  .mobile-position-right-none{
+  .mobile-position-right-none {
     background-position: unset !important;
   }
 }
