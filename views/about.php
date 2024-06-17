@@ -1,3 +1,11 @@
+<?php
+if ($_SESSION["lang"] == "eng") {
+    Post::increaseViews($conn, "43545fb6fdg345345");
+} else {
+    Post::increaseViews($conn, "48864jf325949f3553");
+}
+?>
+
 <main id="ab-main">
     <section id="a-message-from-our-founder" class="container section-active">
         <p class="relative-anchor" style="height:110px"><span id="about-anchor"></span></p>
@@ -40,8 +48,7 @@
                         </p>
                         <p>Cảm ơn các bạn đã cho mình và MSS cơ hội được đồng hành cùng với các bạn trong chặng đường
                             mooting. Mình hy vọng sẽ được gặp các bạn tại MSS. </p>
-                        <h5 class="text-end" data-toggle="modal" data-target="#exampleModalLong"
-                            style="cursor: pointer">Đọc thêm thông tin về
+                        <h5 class="text-end" data-toggle="modal" data-target="#exampleModalLong" style="cursor: pointer">Đọc thêm thông tin về
                             Nhà sáng lập tại đây</h5>
                     </div>
                     <div class="eng">
@@ -71,8 +78,7 @@
                 </div>
 
                 <!-- Modal -->
-                <div class="modal fade bd-example-modal-lg" id="exampleModalLong" tabindex="-1" role="dialog"
-                    aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal fade bd-example-modal-lg" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
 
                         <div class="modal-content">
@@ -101,8 +107,7 @@
                 </div>
                 <h1 class="eng text-center title">Our mission</h1>
             </div>
-            <div class="col-lg-8 vn shadow ct-text our-mission-vn-content"
-                style="margin-top: -7rem; padding-left: 30px">
+            <div class="col-lg-8 vn shadow ct-text our-mission-vn-content" style="margin-top: -7rem; padding-left: 30px">
                 <p>MSS ra đời với hy vọng huấn luyện học viên một cách chuyên nghiệp - đầy đủ, hỗ trợ thí sinh tránh gặp
                     các khó khăn trong hành trình chinh chiến tại các giải đấu moot từ trong nước đến nước ngoài. Với tư
                     cách là một dự án đào tạo chuyên nghiệp về mooting đầu tiên tại Việt Nam, MSS kỳ vọng có thể đem lại
@@ -134,8 +139,7 @@
             </div>
         </div>
     </section>
-    <section id="symbol-and-title-of-MSS" class="mascot-motto background-full"
-        style="padding-top:0; background-image: url(./assets/imgs/about-3-1.png)">
+    <section id="symbol-and-title-of-MSS" class="mascot-motto background-full" style="padding-top:0; background-image: url(./assets/imgs/about-3-1.png)">
         <p class="relative-anchor"><span id="about-anchor"></span></p>
         <div class="container" style="padding: 0 0 5rem">
             <div class="title text-end px-5">
@@ -250,7 +254,7 @@
 
             </div>
             <div class="row text-center pb-5">
-            <div class="col-lg-4 col-md-12 col-sm-12 pt-5">
+                <div class="col-lg-4 col-md-12 col-sm-12 pt-5">
                     <div class="flip-card w-100">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">

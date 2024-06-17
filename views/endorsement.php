@@ -1,3 +1,10 @@
+<?php
+if ($_SESSION["lang"] == "eng") {
+    Post::increaseViews($conn, "664c003b825e9850212");
+} else {
+    Post::increaseViews($conn, "664bf9159dec69579q");
+}
+?>
 <main id="endorsement" style="min-height: 0; overflow-x: hidden;">
     <p class="relative-anchor" style="height: 110px"><span id="about-anchor"></span></p>
     <section id="endorsement-desktop" class="background-full section-active position-relative mt-5" style="background-image: url(./assets/imgs/endorsement-bg.png);">

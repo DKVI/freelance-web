@@ -1,3 +1,10 @@
+<?php
+if ($_SESSION["lang"] == "eng") {
+    Post::increaseViews($conn, "3352523sdfsdf2434");
+} else {
+    Post::increaseViews($conn, "66051fb684980424d");
+}
+?>
 <main id="curriculum" style="overflow:hidden" class="w-100">
 
     <section id="what-is-mooting" class="container section-active">
@@ -15,7 +22,7 @@
                             <h1 style="padding-top:20px">What is</h1>
                             <h2>mooting?</h2>
                         </div>
-                        
+
                     </div>
                 </div>
                 <div class="blue-rec-shape position-absolute hideBlue" style="bottom:0"></div>
@@ -63,15 +70,13 @@
             <div class="row">
                 <div class="col-lg-3 p-3 col-6">
                     <!-- Button trigger modal -->
-                    <div data-toggle="modal" data-target="#Jessup-Moot" style="cursor:pointer"
-                        class="w-100 moot-tournaments">
+                    <div data-toggle="modal" data-target="#Jessup-Moot" style="cursor:pointer" class="w-100 moot-tournaments">
                         <img src="./assets/imgs/curriculum-1-1.png" alt="Jessup-Moot">
                         <h2 class="text-center m-3">Jessup Moot</h2>
                     </div>
 
                     <!-- Modal -->
-                    <div class="modal fade modal-xl" id="Jessup-Moot" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal fade modal-xl" id="Jessup-Moot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -79,19 +84,16 @@
                                     </h5>
                                     <h5 class="modal-title eng" id="exampleModalLongTitle">Prestigious International
                                         Moot Tournaments</h5>
-                                    <button type="button" class="close py-1 px-2" data-dismiss="modal"
-                                        aria-label="Close">
+                                    <button type="button" class="close py-1 px-2" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
                                 <div class="modal-body">
 
                                     <div class="row">
-                                        <div
-                                            class="col-lg-6 d-flex justify-contents-center align-items-center moot-tournaments-items">
+                                        <div class="col-lg-6 d-flex justify-contents-center align-items-center moot-tournaments-items">
                                             <div>
-                                                <img src="./assets/imgs/curriculum-1.png" class="w-100"
-                                                    alt="“Jessup-Moot”">
+                                                <img src="./assets/imgs/curriculum-1.png" class="w-100" alt="“Jessup-Moot”">
                                                 <p class="credit mt-2">
                                                     cre: Phillip C. Jessup Moot - International Law Students Association
                                                 </p>
@@ -129,15 +131,13 @@
                 <div class="col-lg-3 p-3 col-6">
 
                     <!-- Button trigger modal -->
-                    <div data-toggle="modal" data-target="#Vis-Moot" style="cursor:pointer"
-                        class="w-100 moot-tournaments">
+                    <div data-toggle="modal" data-target="#Vis-Moot" style="cursor:pointer" class="w-100 moot-tournaments">
                         <img src="./assets/imgs/curriculum-2-1.png" alt="Vis-Moot">
                         <h2 class="text-center m-3">Vis Moot</h2>
                     </div>
 
                     <!-- Modal -->
-                    <div class="modal fade modal-xl" id="Vis-Moot" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal fade modal-xl" id="Vis-Moot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -145,8 +145,7 @@
                                     </h5>
                                     <h5 class="modal-title eng" id="exampleModalLongTitle">Prestigious International
                                         Moot Tournaments</h5>
-                                    <button type="button" class="close py-1 px-2" data-dismiss="modal"
-                                        aria-label="Close">
+                                    <button type="button" class="close py-1 px-2" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
@@ -204,15 +203,13 @@
                 <!--  -->
                 <div class="col-lg-3 p-3 col-6">
                     <!-- Button trigger modal -->
-                    <div data-toggle="modal" data-target="#FDI-Moot" style="cursor:pointer"
-                        class="w-100 moot-tournaments">
+                    <div data-toggle="modal" data-target="#FDI-Moot" style="cursor:pointer" class="w-100 moot-tournaments">
                         <img src="./assets/imgs/curriculum-3-1.png" alt="FDI-Moot">
                         <h2 class="text-center m-3">FDI Moot</h2>
                     </div>
 
                     <!-- Modal -->
-                    <div class="modal fade modal-xl" id="FDI-Moot" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal fade modal-xl" id="FDI-Moot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -220,8 +217,7 @@
                                     </h5>
                                     <h5 class="modal-title eng" id="exampleModalLongTitle">Prestigious International
                                         Moot Tournaments</h5>
-                                    <button type="button" class="close py-1 px-2" data-dismiss="modal"
-                                        aria-label="Close">
+                                    <button type="button" class="close py-1 px-2" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
@@ -274,22 +270,19 @@
                 <!--  -->
                 <div class="col-lg-3 p-3 col-6">
                     <!-- Button trigger modal -->
-                    <div data-toggle="modal" data-target="#IHL-Moot" style="cursor:pointer"
-                        class="w-100 moot-tournaments">
+                    <div data-toggle="modal" data-target="#IHL-Moot" style="cursor:pointer" class="w-100 moot-tournaments">
                         <img src="./assets/imgs/curriculum-4-1.png" alt="IHL-Moot">
                         <h2 class="text-center m-3 ">IHL Moot</h2>
                     </div>
 
                     <!-- Modal -->
-                    <div class="modal fade modal-xl" id="IHL-Moot" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal fade modal-xl" id="IHL-Moot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <h5 class="modal-title" id="exampleModalLongTitle">Giải đấu moot quốc tế danh giá
                                     </h5>
-                                    <button type="button" class="close py-1 px-2" data-dismiss="modal"
-                                        aria-label="Close">
+                                    <button type="button" class="close py-1 px-2" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
@@ -349,42 +342,50 @@
                         <p class="">Chương trình của MSS sẽ bao gồm 17 buổi, trong đó bao gồm:</p>
                         <div class="row offset-1 mb-3">
                             <div class="col-lg-6">
-                                <li>1 buổi <a href="#trial-section" class="text-light glow-white-bg">Học thử</a> (Miễn phí)</li>
-                                <li>11 buổi <a href="#overview-of-theoretical-sessions" class="text-light glow-white-bg">Lý thuyết</a> (Tối thứ Năm và sáng Chủ Nhật)</li>
-                                <li>4 buổi <a href="#overview-of-mock-sessions" class="text-light glow-white-bg"> Thực hành</a> (Sáng thứ Bảy và Chủ Nhật)</li>
+                                <li>1 buổi <a href="#trial-section" class="text-light glow-white-bg">Học thử</a> (Miễn
+                                    phí)</li>
+                                <li>11 buổi <a href="#overview-of-theoretical-sessions" class="text-light glow-white-bg">Lý thuyết</a> (Tối thứ Năm và sáng Chủ Nhật)
+                                </li>
+                                <li>4 buổi <a href="#overview-of-mock-sessions" class="text-light glow-white-bg"> Thực
+                                        hành</a> (Sáng thứ Bảy và Chủ Nhật)</li>
                             </div>
                             <div class="col-lg-6">
                                 <li>1 buổi <a href="#end-of-course-sessions" class="text-light glow-white-bg">Talkshow</a> (Sáng thứ Bảy hoặc Chủ Nhật)</li>
-                                <li>1 buổi <a href="#end-of-course-sessions" class="text-light glow-white-bg">Bế giảng</a> (Sáng thứ Bảy hoặc Chủ Nhật)</li>
+                                <li>1 buổi <a href="#end-of-course-sessions" class="text-light glow-white-bg">Bế
+                                        giảng</a> (Sáng thứ Bảy hoặc Chủ Nhật)</li>
                             </div>
 
                         </div>
                         <p style="padding-bottom: 0;">Tổng quan chương trình sẽ được thể hiện ở bảng sau:<br>
-                            <i>*Nhằm mục đích dễ theo dõi, các buổi học của gói<span
-                            style="font-family: 'Times New Roman', Times, serif; font-size: 1.5rem" class="bold-text glow-white-bg"> Essentials</span> dưới đây sẽ được tô <span
-                                    class="bold-text glow-white-bg">màu xanh</span>, đối với các buổi thực hành, học viên gói Essentials sẽ tham gia với tư cách Quan sát viên.</i>
+                            <i>*Nhằm mục đích dễ theo dõi, các buổi học của gói<span style="font-family: 'Times New Roman', Times, serif; font-size: 1.5rem" class="bold-text glow-white-bg"> Essentials</span> dưới đây sẽ được tô <span class="bold-text glow-white-bg">màu xanh</span>, đối với các buổi thực hành, học
+                                viên gói Essentials sẽ tham gia với tư cách Quan sát viên.</i>
                         </p>
                     </div>
                     <div class="eng m-auto col-10">
                         <p>The MSS course will consist of 17 sessions:</p>
                         <div class="row offset-1 mb-3">
                             <div class="col-lg-6">
-                                <li>1 <a href="#trial-section" class="text-light glow-white-bg">Trial session</a> (free of charge)</li>
-                                <li>11 <a href="#overview-of-theoretical-sessions" class="text-light glow-white-bg">Theoretical sessions</a> (Thursday evenings & Sunday mornings)</li>
-                                <li>4 <a href="#overview-of-mock-sessions" class="text-light glow-white-bg">Mock sessions</a> (Saturday mornings & Sunday mornings)</li>
+                                <li>1 <a href="#trial-section" class="text-light glow-white-bg">Trial session</a> (free
+                                    of charge)</li>
+                                <li>11 <a href="#overview-of-theoretical-sessions" class="text-light glow-white-bg">Theoretical sessions</a> (Thursday evenings &
+                                    Sunday mornings)</li>
+                                <li>4 <a href="#overview-of-mock-sessions" class="text-light glow-white-bg">Mock
+                                        sessions</a> (Saturday mornings & Sunday mornings)</li>
                             </div>
                             <div class="col-lg-6">
-                                <li>1 <a href="#end-of-course-sessions" class="text-light glow-white-bg">Talk show session</a> (Saturday mornings or Sunday mornings)</li>
-                                <li>1 <a href="#end-of-course-sessions" class="text-light glow-white-bg">Closing session</a> (Saturday mornings or Sunday mornings)</li>
+                                <li>1 <a href="#end-of-course-sessions" class="text-light glow-white-bg">Talk show
+                                        session</a> (Saturday mornings or Sunday mornings)</li>
+                                <li>1 <a href="#end-of-course-sessions" class="text-light glow-white-bg">Closing
+                                        session</a> (Saturday mornings or Sunday mornings)</li>
                             </div>
 
                         </div>
 
                         <p>An overview of the program will be shown in the table below:<br>
                             <i>*For your convenience,
-                                theoretical sessions of the <span
-                                style="font-family: 'Times New Roman', Times, serif; font-size: 1.5rem" class="bold-text glow-white-bg">Essentials package</span> will be highlighted in <span
-                                class="bold-text glow-white-bg">blue</span>. For mock sessions, Essentials students
+                                theoretical sessions of the <span style="font-family: 'Times New Roman', Times, serif; font-size: 1.5rem" class="bold-text glow-white-bg">Essentials package</span> will be highlighted in
+                                <span class="bold-text glow-white-bg">blue</span>. For mock sessions, Essentials
+                                students
                                 will
                                 participate as Observers.</i>
                         </p>
@@ -519,9 +520,11 @@
                                     <td colspan="2" class="text-center">
                                         <p class="vn">Buổi mock số 1</p>
                                         <p class="eng">Mock Session No. 1</p>
-                                        <p class="vn" style="font-style: italic;"><strong>Lưu ý:</strong> Tình huống pháp lý được sử dụng trong các
+                                        <p class="vn" style="font-style: italic;"><strong>Lưu ý:</strong> Tình huống
+                                            pháp lý được sử dụng trong các
                                             buổi Mock này sẽ được cung cấp từ buổi học chính thức đầu tiên.</p>
-                                        <p class="eng" style="font-style: italic;"><strong> Note:</strong> The hypotheticals used in these Mock
+                                        <p class="eng" style="font-style: italic;"><strong> Note:</strong> The
+                                            hypotheticals used in these Mock
                                             sessions, and team selection will be provided in the housekeeping
                                             session.</p>
                                     </td>
@@ -532,9 +535,11 @@
                                     <td colspan="2" class="text-center">
                                         <p class="vn">Buổi mock số 2</p>
                                         <p class="eng">Mock Session No. 2</p>
-                                        <p class="vn" style="font-style: italic;"><strong>Lưu ý:</strong> Tình huống pháp lý được sử dụng trong các
+                                        <p class="vn" style="font-style: italic;"><strong>Lưu ý:</strong> Tình huống
+                                            pháp lý được sử dụng trong các
                                             buổi Mock này sẽ được cung cấp từ buổi học chính thức đầu tiên.</p>
-                                        <p class="eng" style="font-style: italic;"><strong> Note:</strong> The hypotheticals used in these Mock
+                                        <p class="eng" style="font-style: italic;"><strong> Note:</strong> The
+                                            hypotheticals used in these Mock
                                             sessions, and team selection will be provided in the housekeeping
                                             session.</p>
                                     </td>
@@ -695,9 +700,11 @@
                                     <td colspan="2" class="text-center">
                                         <p class="vn">Buổi mock số 3</p>
                                         <p class="eng">Mock Session No. 3</p>
-                                        <p class="vn" style="font-style: italic;"><strong>Lưu ý:</strong> Tình huống pháp lý được sử dụng trong các
+                                        <p class="vn" style="font-style: italic;"><strong>Lưu ý:</strong> Tình huống
+                                            pháp lý được sử dụng trong các
                                             buổi Mock này sẽ được cung cấp từ buổi học chính thức đầu tiên.</p>
-                                        <p class="eng" style="font-style: italic;"><strong> Note:</strong> The hypotheticals used in these Mock
+                                        <p class="eng" style="font-style: italic;"><strong> Note:</strong> The
+                                            hypotheticals used in these Mock
                                             sessions, and team selection will be provided in the housekeeping
                                             session.</p>
                                     </td>
@@ -708,9 +715,11 @@
                                     <<td colspan="2" class="text-center">
                                         <p class="vn">Buổi mock số 4</p>
                                         <p class="eng">Mock Session No. 4</p>
-                                        <p class="vn" style="font-style: italic;"><strong>Lưu ý:</strong> Tình huống pháp lý được sử dụng trong các
+                                        <p class="vn" style="font-style: italic;"><strong>Lưu ý:</strong> Tình huống
+                                            pháp lý được sử dụng trong các
                                             buổi Mock này sẽ được cung cấp từ buổi học chính thức đầu tiên.</p>
-                                        <p class="eng" style="font-style: italic;"><strong> Note:</strong> The hypotheticals used in these Mock
+                                        <p class="eng" style="font-style: italic;"><strong> Note:</strong> The
+                                            hypotheticals used in these Mock
                                             sessions, and team selection will be provided in the housekeeping
                                             session.</p>
                                         </td>
@@ -760,8 +769,7 @@
         </div>
     </section>
 
-    <section id="trial-section" class="trial-session text-light background-full"
-        style="background-image: url(./assets/imgs/curriculum-7.png);">
+    <section id="trial-section" class="trial-session text-light background-full" style="background-image: url(./assets/imgs/curriculum-7.png);">
         <div class="container">
             <div class="d-flex justify-content-center align-items-center">
                 <div class="row">
@@ -819,8 +827,7 @@
     </section>
     <section id="overview-of-theoretical-sessions" class="w-100">
         <div class="position-relative">
-            <img src="./assets/imgs/curriculum-61.png" alt="mss-background" class="position-absolute"
-                style="right: 0; top: -6.2rem">
+            <img src="./assets/imgs/curriculum-61.png" alt="mss-background" class="position-absolute" style="right: 0; top: -6.2rem">
         </div>
         <div class="container mb-4 p-5 position-relative">
             <div class="title">
@@ -841,13 +848,17 @@
                         hành.</p>
                     <p>Chương trình học sẽ đi theo thứ tự 4 nhóm kỹ năng chính như sau: </p>
                     <ol>
-                        <li data-toggle="modal" data-target="#skill-before-moot" class=""><span class="glow-blue-bg">Kỹ năng nên có trước khi cuộc thi bắt
-                            đầu</span></li>
-                        <li data-toggle="modal" data-target="#after-recieved-mooting-test"><span class="glow-blue-bg">Kỹ năng liên quan đến những
-                            việc cần làm khi đã có đề bài</span></li>
-                        <li data-toggle="modal" data-target="#written-advocacy-skills"><span class="glow-blue-bg">Kỹ năng liên quan đến việc viết
-                            bài biện hộ</span></li>
-                        <li data-toggle="modal" data-target="#oral-advocacy-skills"><span class="glow-blue-bg">Kỹ năng liên quan đến tranh tụng nói</span>
+                        <li data-toggle="modal" data-target="#skill-before-moot" class=""><span class="glow-blue-bg">Kỹ
+                                năng nên có trước khi cuộc thi bắt
+                                đầu</span></li>
+                        <li data-toggle="modal" data-target="#after-recieved-mooting-test"><span class="glow-blue-bg">Kỹ
+                                năng liên quan đến những
+                                việc cần làm khi đã có đề bài</span></li>
+                        <li data-toggle="modal" data-target="#written-advocacy-skills"><span class="glow-blue-bg">Kỹ
+                                năng liên quan đến việc viết
+                                bài biện hộ</span></li>
+                        <li data-toggle="modal" data-target="#oral-advocacy-skills"><span class="glow-blue-bg">Kỹ năng
+                                liên quan đến tranh tụng nói</span>
                         </li>
                     </ol>
                 </div>
@@ -859,8 +870,8 @@
                         grasp the lesson in the best way possible. </p>
                     <p>The curriculum will follow the order of four main skill groups:
                     <ol>
-                        <li data-toggle="modal" data-target="#skill-before-moot" >&emsp;<span class="glow-blue-bg">Sessions on pre-competition
-                            skills</span></li>
+                        <li data-toggle="modal" data-target="#skill-before-moot">&emsp;<span class="glow-blue-bg">Sessions on pre-competition
+                                skills</span></li>
                         <li data-toggle="modal" data-target="#after-recieved-mooting-test">&emsp;<span class="glow-blue-bg">Skills sessions on the initial phase</span></li>
                         <li data-toggle="modal" data-target="#written-advocacy-skills">&emsp;<span class="glow-blue-bg">Sessions on written advocacy skills</span></li>
                         <li data-toggle="modal" data-target="#oral-advocacy-skills">&emsp;<span class="glow-blue-bg">Sessions on oral advocacy skills</span></li>
@@ -874,8 +885,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-6">
                         <!-- Modal -->
-                        <div class="modal fade modal-xl" id="skill-before-moot" tabindex="-1" role="dialog"
-                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade modal-xl" id="skill-before-moot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -891,8 +901,7 @@
                                     <div class="modal-body overflow-hidden modal-bg-griffin">
 
                                         <div class="position-relative col-lg-4  modal-img-none" style="z-index:0;">
-                                            <img src="./assets/imgs/curriculum-8.png" alt="mss-background"
-                                                class="position-absolute w-100" style="left:0; top:0;">
+                                            <img src="./assets/imgs/curriculum-8.png" alt="mss-background" class="position-absolute w-100" style="left:0; top:0;">
                                         </div>
                                         <div class="container position-relative" style="min-height: 80vh;">
                                             <div class="col-lg-8 offset-lg-4 .white-filter">
@@ -903,50 +912,62 @@
                                                 </div>
 
                                                 <div class="vn two-column filter" style=" padding: 20px 60px 0 20px">
-                                                    <p>Ở các buổi học này, MSS sẽ giới thiệu về 2 nội dung: các nguyên tắc
-                                                    cơ bản, và làm việc nhóm trong đấu moot.</p>
-                                                    <p>Trong buổi đầu tiên, các học viên sẽ được học về nguyên tắc cơ bản
-                                                    của mooting. Các nguyên tắc này sẽ ảnh hưởng chi phối toàn bộ các kỹ năng khác về sau, cũng như quá trình lên kế hoạch đấu moot.</p>
-                                                    <p>Buổi thứ hai sẽ tập trung về việc làm việc nhóm. Làm việc nhóm trong
-                                                    mooting, là một điều gì đó rất khác với làm việc nhóm đối với các bài tập tại trường đại học. Các thành viên cần phải cùng chung chí hướng với nhau, vừa tích cực phản biện lẫn nhau, vừa phối hợp,
-                                                    hỗ trợ cho nhau khi cần. Là một
-                                                    cuộc chơi tập thể, việc đấu moot sẽ không thể thành công nếu các
-                                                    thành viên không có sự gắn kết chặt
-                                                    chẽ.</p> 
+                                                    <p>Ở các buổi học này, MSS sẽ giới thiệu về 2 nội dung: các nguyên
+                                                        tắc
+                                                        cơ bản, và làm việc nhóm trong đấu moot.</p>
+                                                    <p>Trong buổi đầu tiên, các học viên sẽ được học về nguyên tắc cơ
+                                                        bản
+                                                        của mooting. Các nguyên tắc này sẽ ảnh hưởng chi phối toàn bộ
+                                                        các kỹ năng khác về sau, cũng như quá trình lên kế hoạch đấu
+                                                        moot.</p>
+                                                    <p>Buổi thứ hai sẽ tập trung về việc làm việc nhóm. Làm việc nhóm
+                                                        trong
+                                                        mooting, là một điều gì đó rất khác với làm việc nhóm đối với
+                                                        các bài tập tại trường đại học. Các thành viên cần phải cùng
+                                                        chung chí hướng với nhau, vừa tích cực phản biện lẫn nhau, vừa
+                                                        phối hợp,
+                                                        hỗ trợ cho nhau khi cần. Là một
+                                                        cuộc chơi tập thể, việc đấu moot sẽ không thể thành công nếu các
+                                                        thành viên không có sự gắn kết chặt
+                                                        chẽ.</p>
                                                     <p>Buổi học này sẽ hướng dẫn về các nguyên tắc, cũng như cách xử
-                                                    lý các vấn đề phát sinh khi làm
-                                                    việc tập thể trong mooting.</p>
+                                                        lý các vấn đề phát sinh khi làm
+                                                        việc tập thể trong mooting.</p>
                                                 </div>
                                                 <div class="eng two-column filter" style="padding: 0 60px 0 20px">
-                                                    <p>Preparing well before a moot competition starts can help you take a
-                                                    long stride on the moot competition journey. In this regard, MSS will introduce two sessions: learning the fundamentals and building effective teamwork.</p>
+                                                    <p>Preparing well before a moot competition starts can help you take
+                                                        a
+                                                        long stride on the moot competition journey. In this regard, MSS
+                                                        will introduce two sessions: learning the fundamentals and
+                                                        building effective teamwork.</p>
                                                     <p>During the first session, students will learn about the essential
-                                                    principles of mooting. These
-                                                    principles will lay the foundation for all other skills needed in
-                                                    the competition and will also
-                                                    influence the moot planning process.</p>
+                                                        principles of mooting. These
+                                                        principles will lay the foundation for all other skills needed
+                                                        in
+                                                        the competition and will also
+                                                        influence the moot planning process.</p>
                                                     <p>The second session will focus on teamwork. Teamwork in mooting is
-                                                    very different from teamwork in
-                                                    university assignments. Team members need to share a common goal,
-                                                    actively critique each other, and
-                                                    support and cover each other when necessary. Mooting is a team game,
-                                                    and it cannot be successful if
-                                                    the members are not on the same page. </p>
+                                                        very different from teamwork in
+                                                        university assignments. Team members need to share a common
+                                                        goal,
+                                                        actively critique each other, and
+                                                        support and cover each other when necessary. Mooting is a team
+                                                        game,
+                                                        and it cannot be successful if
+                                                        the members are not on the same page. </p>
                                                     <p>This session will provide
-                                                    instruction on teamwork principles
-                                                    and the issues that require cooperation among team members.</p>
+                                                        instruction on teamwork principles
+                                                        and the issues that require cooperation among team members.</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="modal-footer">
                                         <div class="eng">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                         </div>
                                         <div class="vn">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Đóng</button>
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
                                         </div>
 
                                     </div>
@@ -958,8 +979,7 @@
                     <div class="col-lg-3 col-6">
                         <!-- Modal -->
 
-                        <div class="modal fade modal-xl" id="after-recieved-mooting-test" tabindex="-1" role="dialog"
-                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade modal-xl" id="after-recieved-mooting-test" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -970,12 +990,11 @@
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
-                                    <div class="modal-body overflow-hidden modal-bg-griffin" >
+                                    <div class="modal-body overflow-hidden modal-bg-griffin">
 
                                         <div class="position-relative">
                                             <div class=" col-lg-4 position-absolute modal-img-none" style="right:0; top:0;">
-                                                <img src="./assets/imgs/curriculum-9.png" alt="mss-background"
-                                                    class="w-100">
+                                                <img src="./assets/imgs/curriculum-9.png" alt="mss-background" class="w-100">
                                             </div>
                                             <div class="col-lg-8 position-relative">
                                                 <div class="title">
@@ -984,45 +1003,65 @@
                                                         phase skills</h2>
                                                 </div>
                                                 <div>
-                                                    <div class="vn two-column filter" style=" padding: 0 60px 0 20px;"> 
+                                                    <div class="vn two-column filter" style=" padding: 0 60px 0 20px;">
                                                         <p>Để
-                                                        tránh việc các thí sinh gặp phải bối rối khi cầm một đề moot
-                                                        trong tay vì không biết xử lý như thế nào, ở các buổi học này,
-                                                        MSS sẽ hướng dẫn các học viên các kỹ năng xử lý đề bài và cách
-                                                        thức nghiên cứu.</p>
-                                                        <p>Do đó, buổi đầu tiên sẽ tập trung về vấn đề xử lý đề bài. Dù là
-                                                        moot, hay một vụ tranh chấp thực tế, các yếu tố về mặt dữ kiện
-                                                        đều đóng vai trò then chốt. Việc không nắm vững các tình tiết
-                                                        của đề bài sẽ khiến toàn bộ sự chuẩn bị, nghiên cứu về sau của
-                                                        các bạn như một lâu đài cát, luôn có thể sụp đổ. Buổi đầu tiên
-                                                        sẽ giúp các bạn đảm bảo mình luôn nắm chắc đề bài.</p>
-                                                        <p>Buổi thứ hai sẽ tập trung vào các vấn đề nghiên cứu. Sinh viên
-                                                        luật ai cũng có thể nghiên cứu, nhưng nghiên cứu làm sao cho
-                                                        đúng, đủ, và kịp thời là một vấn đề cần phải rèn luyện. Bên cạnh
-                                                        đó, buổi học này cũng sẽ hướng dẫn việc chuyển hóa các tài liệu
-                                                        đã nghiên cứu để thành nội dung chuẩn bị cho phần viết bài biện
-                                                        hộ.</p>
+                                                            tránh việc các thí sinh gặp phải bối rối khi cầm một đề moot
+                                                            trong tay vì không biết xử lý như thế nào, ở các buổi học
+                                                            này,
+                                                            MSS sẽ hướng dẫn các học viên các kỹ năng xử lý đề bài và
+                                                            cách
+                                                            thức nghiên cứu.</p>
+                                                        <p>Do đó, buổi đầu tiên sẽ tập trung về vấn đề xử lý đề bài. Dù
+                                                            là
+                                                            moot, hay một vụ tranh chấp thực tế, các yếu tố về mặt dữ
+                                                            kiện
+                                                            đều đóng vai trò then chốt. Việc không nắm vững các tình
+                                                            tiết
+                                                            của đề bài sẽ khiến toàn bộ sự chuẩn bị, nghiên cứu về sau
+                                                            của
+                                                            các bạn như một lâu đài cát, luôn có thể sụp đổ. Buổi đầu
+                                                            tiên
+                                                            sẽ giúp các bạn đảm bảo mình luôn nắm chắc đề bài.</p>
+                                                        <p>Buổi thứ hai sẽ tập trung vào các vấn đề nghiên cứu. Sinh
+                                                            viên
+                                                            luật ai cũng có thể nghiên cứu, nhưng nghiên cứu làm sao cho
+                                                            đúng, đủ, và kịp thời là một vấn đề cần phải rèn luyện. Bên
+                                                            cạnh
+                                                            đó, buổi học này cũng sẽ hướng dẫn việc chuyển hóa các tài
+                                                            liệu
+                                                            đã nghiên cứu để thành nội dung chuẩn bị cho phần viết bài
+                                                            biện
+                                                            hộ.</p>
                                                     </div>
                                                     <div class="eng two-column filter" style=" padding: 0 60px 0 20px">
                                                         <p>To
-                                                        avoid contestants being confused when they receive a moot
-                                                        problem, not knowing how to handle it, in these sessions, MSS
-                                                        will guide the participants on the skills of handling the
-                                                        problem statement and the methods of research.</p>
-                                                        <p>Therefore, the first session will focus on the issue of handling
-                                                        the problem statement. Whether it is a moot, or an actual
-                                                        dispute, the elements of facts play a crucial role. If you do
-                                                        not have a solid grasp of the details of the problem statement,
-                                                        your entire subsequent preparation and research will be like a
-                                                        sand castle, always at risk of collapsing. The first session
-                                                        will help you ensure that you always have a firm grip on the
-                                                        problem statement.</p>
-                                                        <p>The second session will focus on research issues. Law students
-                                                        can all research, but learning how to research correctly,
-                                                        comprehensively, and in a timely manner is an aspect that needs
-                                                        to be trained. Additionally, this session will also guide the
-                                                        conversion of the researched materials into content preparation
-                                                        for the written advocacy part.</p>
+                                                            avoid contestants being confused when they receive a moot
+                                                            problem, not knowing how to handle it, in these sessions,
+                                                            MSS
+                                                            will guide the participants on the skills of handling the
+                                                            problem statement and the methods of research.</p>
+                                                        <p>Therefore, the first session will focus on the issue of
+                                                            handling
+                                                            the problem statement. Whether it is a moot, or an actual
+                                                            dispute, the elements of facts play a crucial role. If you
+                                                            do
+                                                            not have a solid grasp of the details of the problem
+                                                            statement,
+                                                            your entire subsequent preparation and research will be like
+                                                            a
+                                                            sand castle, always at risk of collapsing. The first session
+                                                            will help you ensure that you always have a firm grip on the
+                                                            problem statement.</p>
+                                                        <p>The second session will focus on research issues. Law
+                                                            students
+                                                            can all research, but learning how to research correctly,
+                                                            comprehensively, and in a timely manner is an aspect that
+                                                            needs
+                                                            to be trained. Additionally, this session will also guide
+                                                            the
+                                                            conversion of the researched materials into content
+                                                            preparation
+                                                            for the written advocacy part.</p>
                                                     </div>
 
                                                 </div>
@@ -1031,12 +1070,10 @@
                                     </div>
                                     <div class="modal-footer">
                                         <div class="eng">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                         </div>
                                         <div class="vn">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Đóng</button>
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
                                         </div>
 
                                     </div>
@@ -1048,19 +1085,17 @@
                     <!--  -->
                     <div class="col-lg-3 col-6">
                         <!-- Modal -->
-                        <div class="modal fade modal-xl" id="written-advocacy-skills" tabindex="-1" role="dialog"
-                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade modal-xl" id="written-advocacy-skills" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content position-relative ">
                                     <div class="modal-body overflow-hidden ">
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
-                                        <div style="background-image: url(./assets/imgs/curriculum-101.png); background-size: cover;"
-                                            class="p-5">
+                                        <div style="background-image: url(./assets/imgs/curriculum-101.png); background-size: cover;" class="p-5">
                                             <div class="title text-end text-light">
-                                                <h5 class="vn display-1"
-                                                    style="text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3)">Kỹ năng viết bài biện hộ</h5>
+                                                <h5 class="vn display-1" style="text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3)">Kỹ năng viết bài
+                                                    biện hộ</h5>
                                                 <h5 class="eng display-1">Written advocacy skills</h5>
                                             </div>
 
@@ -1093,10 +1128,10 @@
                                                         their client and disadvantage the opponent. Furthermore,
                                                         contestants usually have to do this twice - once for the
                                                         Plaintiff, and again for the Defendant.</p>
-                                                        <p>Therefore, the first session will focus on the basic issues such
+                                                    <p>Therefore, the first session will focus on the basic issues such
                                                         as the foundation for writing, and the structure of the written
                                                         submission.</p>
-                                                        <p>The second session will dive deeper into more specialized
+                                                    <p>The second session will dive deeper into more specialized
                                                         topics, such as editing, methods to ensure clarity and coherence
                                                         throughout the written advocacy, and so on.</p>
                                                 </div>
@@ -1106,12 +1141,10 @@
                                     </div>
                                     <div class="modal-footer">
                                         <div class="eng">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                         </div>
                                         <div class="vn">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Đóng</button>
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
                                         </div>
 
                                     </div>
@@ -1123,8 +1156,7 @@
                     <!--  -->
                     <div class="col-lg-3 col-6">
                         <!-- Modal -->
-                        <div class="modal fade modal-xl" id="oral-advocacy-skills" tabindex="-1" role="dialog"
-                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade modal-xl" id="oral-advocacy-skills" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
 
@@ -1132,8 +1164,7 @@
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
-                                        <div style="background-image: url(./assets/imgs/curriculum-11.png); background-size: cover;background-position: right;"
-                                            class="p-5 h-100 mobile-position-right-none">
+                                        <div style="background-image: url(./assets/imgs/curriculum-11.png); background-size: cover;background-position: right;" class="p-5 h-100 mobile-position-right-none">
                                             <div class="title">
                                                 <h5 class="display-1 vn">Kỹ năng tranh tụng nói</h5>
                                                 <h5 class="display-1 eng">Oral advocacy skills</h5>
@@ -1176,8 +1207,7 @@
                                         </div>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                     </div>
                                 </div>
                             </div>
@@ -1186,8 +1216,7 @@
                 </div>
             </div>
     </section>
-    <section id="overview-of-mock-sessions" style="background-image: url(./assets/imgs/curriculum-13.png);"
-        class="text-light background-full">
+    <section id="overview-of-mock-sessions" style="background-image: url(./assets/imgs/curriculum-13.png);" class="text-light background-full">
         <div class="container p-5">
             <div class="row vn">
                 <div class="title col-lg-3">
@@ -1256,15 +1285,15 @@
                         provide specific feedback on each participant's presentation. The guest judge may also introduce
                         a special mooting-related topic to share with the students during the mock session.</p>
                     <i>
-                        <p class="bold-text text-center">*MSS will post details of the Guest judges on social media sites, as well as in the <span><a
-                    href="<?php echo BASE_URL . '/news&events' ?>" class="text-light glow-white-bg"> News and Events</a></span> section of the website.</p>
+                        <p class="bold-text text-center">*MSS will post details of the Guest judges on social media
+                            sites, as well as in the <span><a href="<?php echo BASE_URL . '/news&events' ?>" class="text-light glow-white-bg"> News and Events</a></span> section of the website.
+                        </p>
                     </i>
                 </div>
             </div>
         </div>
     </section>
-    <section id="end-of-course-sessions"
-        style="background-image: url(./assets/imgs/curriculum-14-1.png); background-size: cover; padding:0" class="p-5">
+    <section id="end-of-course-sessions" style="background-image: url(./assets/imgs/curriculum-14-1.png); background-size: cover; padding:0" class="p-5">
         <p class="relative-anchor"><span id="about-anchor"></span></p>
         <div class="container">
             <div class="title">
