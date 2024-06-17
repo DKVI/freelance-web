@@ -1,6 +1,6 @@
 <main id="faq-page">
     <section id="about-the-program" class="section-active" style="margin-top: 10rem;">
-        <div class="title text-light d-flex justify-content-start align-items-end" style="background-image: url(./assets/imgs/faq-1.png); min-height: 16rem">
+        <div class="title text-light d-flex justify-content-start align-items-end" style="background-image: url(./assets/imgs/faq-1.png); min-height: 16rem; background-position: right bottom; background-size: cover">
             <div class="container px-5">
                 <h1 style="text-shadow: 4px 4px 8px rgba(0,0,0,0.6);">FAQ</h1>
             </div>

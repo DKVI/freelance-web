@@ -90,7 +90,7 @@
         </div>
     </div>
     <!-- end tuition -->
-    <section id="nonprofits-organizations-and-collecting-tuition" style="background-image: url(./assets/imgs/curriculum-16.png); background-size: 100% auto; background-position: center; margin-top:60px">
+    <section id="nonprofits-organizations-and-collecting-tuition" style="background-image: url(./assets/imgs/curriculum-16.png); background-size: cover; background-position: center; margin-top:60px">
         <div class=" container d-flex justify-content-center align-items-center p-5">
             <div class="row" style="margin: 8rem 0">
                 <div class="col-lg-6 col-12">

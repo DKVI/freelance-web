@@ -37,6 +37,12 @@ main {
   src: url(../assets/fonts/MYRIADPRO-BOLD.ttf);
   font-weight: bold;
 }
+.transparent-light-bg {
+  background-color: rgba(229, 229, 229, 0.5);
+  border-radius: 10px;
+  padding: 15px 15px 10px;
+}
+
 .bg-light,
 table * {
   background-color: #e5e5e5 !important;
@@ -130,6 +136,9 @@ picture {
 .glow-white-bg {
   animation: glow 1s ease-in-out infinite alternate;
 }
+.glow-blue-bg {
+  animation: glowBlue 1s ease-in-out infinite alternate;
+}
 
 @-webkit-keyframes glow {
   from {
@@ -140,6 +149,19 @@ picture {
   to {
     text-shadow: 0 0 10px #e5e5e5, 0 0 13px #274069, 0 0 15px #274069,
       0 0 18px #274069, 0 0 20px #274069, 0 0 20px #274069, 0 0 22px #274069;
+  }
+}
+@-webkit-keyframes glowBlue {
+  from {
+    text-shadow: 0 0 5px #909eb9, 0 0 5px #6e7f99, 0 0 10px #e5e5e5,
+      0 0 15px #e5e5e5, 0 0 20px #e5e5e5, 0 0 20px #e5e5e5, 0 0 22px #e5e5e5;
+  }
+
+  to {
+    /* text-shadow: 0 0 10px #e5e5e5, 0 0 13px #6e7f99, 0 0 15px #6e7f99,
+      0 0 18px #6e7f99, 0 0 20px #6e7f99, 0 0 20px #6e7f99, 0 0 22px #6e7f99; */
+    text-shadow: 0 0 10px #6e7f99, 0 0 13px #e5e5e5, 0 0 15px #e5e5e5,
+      0 0 18px #e5e5e5, 0 0 20px #e5e5e5, 0 0 20px #e5e5e5, 0 0 22px #e5e5e5;
   }
 }
 /* big screen hover to drop down */
@@ -594,6 +616,9 @@ h6 {
   padding-top: 8rem;
   border: none;
 }
+#curriculum p {
+  padding-top: 5px;
+}
 .blue-rec-shape {
   height: 2rem;
   width: 100%;
@@ -650,12 +675,13 @@ table thead th {
   color: #2d466f;
   font-family: "Times New Roman", Times, serif;
   text-align: center;
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   border-left: #274069 1px solid;
 }
 .c-table table tr th:first-child,
 .c-table table tr td:first-of-type,
-.c-table table tr td:nth-of-type(2) {
+.c-table table tr td:nth-of-type(2),
+.c-table table tr th:nth-of-type(2) {
   text-align: center;
 }
 .c-table table tr th:first-child {
@@ -693,11 +719,17 @@ table thead th {
     right: 0;
   }
 }
+.theorical-popup ol li {
+  padding: 5px;
+}
 
-.theorical-popup ol li:hover {
+.theorical-popup ol li span:hover {
   background-color: #274069;
   color: #e5e5e5;
   cursor: help;
+  border-radius: 10px;
+  padding: 10px 30px;
+  animation: none;
 }
 
 /* ------------TUITION PAGE------------- */
@@ -707,7 +739,8 @@ table thead th {
   background-position: top;
   background-repeat: no-repeat;
 }
-#PNB-title {
+#tuition p {
+  padding-top: 5px;
 }
 #tuition table {
   font-size: 1rem;
@@ -737,7 +770,6 @@ table thead th {
     hue-rotate(178deg) brightness(97%) contrast(96%);
 }
 
-
 #endorsement .carousel-indicators {
   margin-bottom: 0 !important;
 }
@@ -757,7 +789,7 @@ table thead th {
   display: flex;
   flex-wrap: wrap;
   background-color: rgba(0, 0, 0, 0);
-  box-shadow: 0 48px 80px -32px rgba(0,0,0,0.3);
+  box-shadow: 0 48px 80px -32px rgba(0, 0, 0, 0.3);
 }
 .input {
   position: absolute;
@@ -772,7 +804,6 @@ table thead th {
   font-size: 18px;
   transition: background 0.1s, color 0.1s;
   color: #ccc;
-  
 }
 .label:hover {
   color: #843d43;
@@ -906,7 +937,6 @@ table thead th {
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e") !important;
 }
-
 
 /* ------------FOOTER----------- */
 
@@ -1063,17 +1093,20 @@ footer {
   .title h1 {
     font-size: 4rem !important;
   }
+  #home p {
+    padding: 5px 0;
+  }
   .ab-slogan {
     font-size: 1.5rem;
     padding: 20px 0 10px;
   }
-  .founder-img{
+  .founder-img {
     display: none;
   }
-  .founder-words-title{
+  .founder-words-title {
     padding-top: 60px;
   }
-  
+
   #what-is-mooting .title h2 {
     font-size: 5rem;
     line-height: 4rem;
@@ -1090,6 +1123,15 @@ footer {
   #end-of-course-sessions .shadow {
     margin-left: 0;
   }
+  .c-table table tr th:first-child,
+  .c-table table tr th:nth-of-type(3),
+  .c-table table tr th:nth-of-type(2) {
+    width: 1rem !important;
+  }
+  .c-table ul {
+    padding-left: 20px;
+  }
+
   .menu-nav {
     padding-top: 40px;
   }
@@ -1157,5 +1199,14 @@ footer {
   .label {
     width: 100% !important;
   }
-  
+  .modal-bg-griffin {
+    background-image: url(../assets/imgs/endorsement-mobile-bg.png);
+    background-size: cover;
+  }
+  .modal-img-none{
+    display: none;
+  }
+  .mobile-position-right-none{
+    background-position: unset !important;
+  }
 }
