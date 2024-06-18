@@ -5,11 +5,11 @@ echo $sessionLang === "eng" ? '<script>
 console.log("Security: On");
 document.addEventListener("contextmenu", function(event) {
     event.preventDefault();
-    alert("All rights reserved. Unauthorized copying or distribution is prohibited");
+    alert("To respect the copyright, please do not copy. Thank you!");
 });
 document.addEventListener("copy", function(e) {
     e.preventDefault();
-    alert("All rights reserved. Unauthorized copying or distribution is prohibited");
+    alert("To respect the copyright, please do not copy. Thank you!");
 });
 document.addEventListener("keydown", function(event) {
     if (event.ctrlKey && event.shiftKey && event.key === "I") {
@@ -33,20 +33,20 @@ document.addEventListener("keydown", function(event) {
 console.log("Security: On");
 document.addEventListener("contextmenu", function(event) {
     event.preventDefault();
-    alert("Để tôn trọng bản quyền vui lòng không copy, xin cảm ơn!");
+    alert("Để tôn trọng bản quyền, vui lòng không copy. Xin cảm ơn!");
 });
 document.addEventListener("copy", function(e) {
     e.preventDefault();
-    alert("Để tôn trọng bản quyền vui lòng không copy, xin cảm ơn!");
+    alert("Để tôn trọng bản quyền, vui lòng không copy. Xin cảm ơn!");
 });
 document.addEventListener("keydown", function(event) {
     if (event.ctrlKey && event.shiftKey && event.key === "I") {
         event.preventDefault();
-        alert("Vui lonfg không sử dụng Devtools trong trang web, xin cảm ơn!");
+        alert("Vui lòng không sử dụng Devtools trong trang web, xin cảm ơn!");
     }
     if (event.key === "F12") {
         event.preventDefault();
-        alert("Vui lonfg không sử dụng Devtools trong trang web, xin cảm ơn!");
+        alert("Vui lòng không sử dụng Devtools trong trang web, xin cảm ơn!");
     }
     if (event.ctrlKey && event.key === "u") {
         event.preventDefault();
