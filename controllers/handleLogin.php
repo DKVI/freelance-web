@@ -11,11 +11,11 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
     $isValid = Admin::login($conn, $admin);
     if ($isValid) {
         $_SESSION["is_admin"] = true;
-        echo "<script>alert('Đăng nhập thành công, chào mừng admin!');
+        echo "<script>alert('Login successfully! Welcome back, admin!');
             location.href= '" . BASE_URL . "/admin/home" . "';
         </script>";
     } else {
-        echo "<script>alert('Tài khoản hoặc mật khẩu chưa đúng, vui lòng thử lại!');
+        echo "<script>alert('Username or password incorrect, please try again!');
             location.href= '" . BASE_URL . "/admin/login" . "';
         </script>";
     }

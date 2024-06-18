@@ -198,3 +198,44 @@ selectType.onchange = (e) => {
     }
 }
 </script>
+<style>
+#markdown-content {
+    padding: 32px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+#markdown-content h1 {
+    font-size: 3.5rem;
+    padding-bottom: 2rem;
+    text-align: left;
+}
+
+#markdown-content ifram {
+    width: 100%;
+}
+
+#markdown-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+#markdown-content p a {
+    text-decoration: underline;
+}
+
+#markdown-content p img {
+    display: inline-block;
+    width: 75%;
+}
+
+#markdown-content p em {
+    margin: auto;
+    font-size: 14px;
+}
+
+iframe {
+    width: 75%;
+}
+</style>

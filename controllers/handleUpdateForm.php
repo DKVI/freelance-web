@@ -11,12 +11,12 @@ $link = $_POST["link"];
 try {
     $form = new Link(1, "form", $link, $titleEN, $titleVN);
     Link::updateForm($conn, $form);
-    echo '<script>alert("Thêm link thành công!");
+    echo '<script>alert("Add link successfully!");
         location.href="' . BASE_URL . '/admin/link";
     </script>
     ';
 } catch (\Throwable $e) {
-    echo '<script>alert("Thêm link thất bại, vui lòng thử lại!");
+    echo '<script>alert("Add link failed, please try again!");
         location.href="' . BASE_URL . '/admin/link";
     </script>
     ';

@@ -82,9 +82,22 @@ async function convertMarkdown() {
     document.getElementById("markdown-content").innerHTML =
         "<h1><?php echo $post->title ?></h1><div class='fst-italic' style='text-align: left;'><span><?php echo convertDate($post->date) ?></span> | <span><?php echo 'Reading time: ' . $post->readTimes . " minutes" ?></span></div><br></br>" +
         html;
+    const p = document.querySelectorAll("p");
+    const code = document.querySelectorAll("a");
+    p.forEach(element => {
+        if (element.querySelector("img")) {
+            element.style.textAlign = "center";
+            element.querySelector("img").style.maxWidth = "75%";
+            element.querySelector("img").style.display = "inline-block";
+        }
+        if (element.querySelector("em")) {
+            element.style.textAlign = "center";
+            element.querySelector("em").style.display = "inline-block";
+        }
+    });
     // const iframeList = document.querySelectorAll("iframe");
     // iframeList.forEach(element => {
-    //     const item =
+    // const item =
     // });
 
 }
@@ -96,6 +109,7 @@ convertMarkdown();
 #markdown-content {
     padding: 32px;
     border-radius: 16px;
+    text-align: center;
 }
 
 #markdown-content h1 {
@@ -110,18 +124,25 @@ convertMarkdown();
 
 #markdown-content p {
     font-size: 1.2rem;
-    display: flex;
     margin-bottom: 1.5rem;
     text-align: left;
 }
 
+#markdown-content p a {
+    text-decoration: underline;
+}
+
 #markdown-content p img {
-    margin: auto;
+    display: inline-block;
     width: 75%;
 }
 
 #markdown-content p em {
     margin: auto;
     font-size: 14px;
+}
+
+iframe {
+    width: 75%;
 }
 </style>

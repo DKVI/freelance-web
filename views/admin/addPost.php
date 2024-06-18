@@ -95,10 +95,10 @@ if (file_exists("./uploads/posts/test.md")) {
     <!-- Preview Mode HTML -->
     <div class="preview-mode d-none position-absolute z-3" style="left: 0; right: 0; top: 0; bottom: 0;">
         <div class="p-5">
+            <div id="markdown-content" class="shadow" style="padding: 50px 150px; background-color: white;"></div>
             <div class="d-flex justify-content-end"><button type="button" class="btn btn-success exit-btn">Exit Preview
                     Mode</button>
             </div>
-            <div id="markdown-content" class="shadow" style="padding: 50px 150px; background-color: white;"></div>
         </div>
     </div>
 </div>
@@ -189,6 +189,7 @@ var simplemde = new SimpleMDE({
 });
 console.log(form);
 previewBtn.onclick = async () => {
+    goToTopBtn.click();
     await $('form').submit(function(event) {
         console.log(true);
         event.preventDefault(); // Prevent default form submission
@@ -280,5 +281,42 @@ $(document).ready(function() {
     color: white;
     box-shadow: 2px 2px 10px #cccc !important;
     padding: 5px;
+}
+
+#markdown-content {
+    padding: 32px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+#markdown-content h1 {
+    font-size: 3.5rem;
+    padding-bottom: 2rem;
+    text-align: left;
+}
+
+
+#markdown-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+#markdown-content p a {
+    text-decoration: underline;
+}
+
+#markdown-content p img {
+    display: inline-block;
+    width: 75%;
+}
+
+#markdown-content p em {
+    margin: auto;
+    font-size: 14px;
+}
+
+iframe {
+    width: 75%;
 }
 </style>

@@ -10,14 +10,13 @@ if (isset($_GET['id'])) {
     try {
         HashtagPost::deteleByHashtagId($conn, $id);
         Hashtag::deleteById($conn, $id);
-        echo '<script>alert("Delete hashtag thành công!");
+        echo '<script>alert("Delete hashtag successfully!");
                 location.href="' . BASE_URL . '/admin/hashtag";
             </script>';
     } catch (\Throwable $e) {
-        echo $e;
-        // echo '<script>alert("Delete hashtag thất bại, vui lòng thử lại!");
-        //         location.href="' . BASE_URL . '/admin/hashtag";
-        //     </script>
-        //     ';
+        echo '<script>alert("Delete hashtag failed, please try again!");
+                location.href="' . BASE_URL . '/admin/hashtag";
+            </script>
+            ';
     }
 }

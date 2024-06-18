@@ -13,11 +13,11 @@ if (isset($_POST["newPassword"]) && isset($_POST["currentPassword"])) {
     if ($isValid) {
         $admin = new Admin(1, "mootingsummeradmin", $newPassword, "");
         Admin::changePassword($conn, $admin);
-        echo '<script>alert("Đổi mật khẩu thành công!");
+        echo '<script>alert("Change password successfully!");
                     location.href="' . BASE_URL . '/admin/login";
                 </script>';
     } else {
-        echo '<script>alert("Mật khẩu không chính xác!");
+        echo '<script>alert("Password incorrect!");
             location.href="' . BASE_URL . '/admin/change-password";
         </script>';
     }

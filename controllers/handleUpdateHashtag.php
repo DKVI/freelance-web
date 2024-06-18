@@ -11,12 +11,12 @@ if (isset($_GET['id'])) {
             $hashtag = $_POST["hashtag"];
             $hashtag = new HashTag($id, $hashtag);
             Hashtag::updateById($conn, $hashtag);
-            echo '<script>alert("Update hashtag thành công!");
+            echo '<script>alert("Update hashtag successfuly!");
                 location.href="' . BASE_URL . '/admin/hashtag";
             </script>
             ';
         } catch (\Throwable $e) {
-            echo '<script>alert("Update hashtag thất bại, vui lòng thử lại!");
+            echo '<script>alert("Update hashtag failed, please try again!");
                 location.href="' . BASE_URL . '/admin/hashtag";
             </script>
             ';

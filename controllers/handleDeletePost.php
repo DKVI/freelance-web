@@ -18,12 +18,12 @@ if (isset($_GET['id'])) {
         HashtagPost::deleteByPostId($conn, $id);
         Post::delete($conn, $id);
         echo "<script>
-            alert('Xóa post thành công');
+            alert('Delete post successfully!');
             location.href='" . BASE_URL . "/admin/posts?type=all';  
         </script>";
     } catch (\Throwable $e) {
         echo "<script>
-            alert('Xóa post thất bại, vui lòng thử lại!');
+            alert('Delete post failed, please try again!');
             location.href='" . BASE_URL . "/admin/posts?type=all';  
         </script>";
     }

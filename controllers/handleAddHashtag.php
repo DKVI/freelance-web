@@ -10,12 +10,12 @@ if (isset($_POST['hashtag'])) {
         $hashtag = $_POST['hashtag'];
         $hashtag = new Hashtag(1, $hashtag);
         Hashtag::add($conn, $hashtag);
-        echo '<script>alert("Create hashtag thành công!");
+        echo '<script>alert("Create hashtag successfully!");
                     location.href="' . BASE_URL . '/admin/hashtag";
                 </script>
                 ';
     } catch (\Throwable $e) {
-        echo '<script>alert("Create hashtag thất bại, vui lòng thử lại!");
+        echo '<script>alert("Create hashtag failed, please try again!");
                     location.href="' . BASE_URL . '/admin/hashtag";
                 </script>
                 ';
