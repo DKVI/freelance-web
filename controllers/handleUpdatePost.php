@@ -33,7 +33,7 @@ function uploadThumbnail($conn, $id)
                     if (in_array($extension, $allowed_extensions)) {
 
                         if (move_uploaded_file($_FILES["myfile"]["tmp_name"], $target_file)) {
-                            if (file_exists($target_dir . $post->fileImg)) {
+                            if ($post->fileImg != "default.png" && file_exists($target_dir . $post->fileImg)) {
                                 unlink($target_dir . $post->fileImg);
                             }
                             $data->fileImg = $uniqueId . '.' . pathinfo($filename, PATHINFO_EXTENSION);
@@ -75,7 +75,7 @@ if (isset($_POST['md-file'])) {
             HashtagPost::deleteByPostId($conn, $id);
             $updatePost = new Post($id, $readTimes, $title, $id . '.md', $data->fileImg, date('Y-m-d'), $post->views, $type, $text, $link, $priority == "true" ? 1 : 0);
             Post::update($conn, $updatePost, $id);
-            if (file_exists($img_path)) {
+            if ($post->fileImg != "default.png" && file_exists($img_path)) {
                 unlink($img_path);
             }
             foreach ($hashtagList as $hashtag) {

@@ -79,8 +79,10 @@ if (isset($_POST['md-file'])) {
             $file_path = "../uploads/posts/";
             echo $img_path . $post->fileImg;
             echo $file_path . $post->fileText;
-            if (file_exists($img_path . $post->fileImg) && file_exists($file_path . $post->fileText)) {
+            if ($post->fileImg != "default.png" && file_exists($img_path . $post->fileImg) && file_exists($file_path . $post->fileText)) {
                 unlink($img_path . $post->fileImg);
+                unlink($file_path . $post->fileText);
+            } else if ($post->fileImg == "default.png" && file_exists($img_path . $post->fileImg) && file_exists($file_path . $post->fileText)) {
                 unlink($file_path . $post->fileText);
             } else {
                 echo "Doesn't exist";

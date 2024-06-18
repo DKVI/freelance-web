@@ -11,7 +11,9 @@ if (isset($_GET['id'])) {
         $news = Post::getById($conn, $id);
         $img_path = "../uploads/imgs/";
         $file_path = "../uploads/posts/";
-        if (file_exists($img_path . $news->fileImg) && file_exists($file_path . $news->fileText)) {
+        if ($news->fileImg == "default.png" && file_exists($img_path . $news->fileImg) && file_exists($file_path . $news->fileText)) {
+            unlink($file_path . $news->fileText);
+        } else if ($news->fileImg != "default.png" && file_exists($img_path . $news->fileImg) && file_exists($file_path . $news->fileText)) {
             unlink($img_path . $news->fileImg);
             unlink($file_path . $news->fileText);
         }

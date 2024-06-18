@@ -90,15 +90,23 @@ if (file_exists($file_path)) {
                         </select>
                     </div>
                 </div>
-                <div class="form-group py-3">
+                <?php echo $post->type === "static" ? '<div class="form-group py-3">
                     <label class="form-label">Thumbnail:</label>
                     <div class="d-flex" style="gap: 16px;">
-                        <input type="file" id="image-input" name="myfile" class="w-50 form-control shadow"
-                            onchange="displayImage()">
-                        <img id="preview-image" src="<?php echo BASE_URL . "/uploads/imgs/" . $post->fileImg ?>"
-                            alt="Image Preview" class="shadow w-50 form-control">
-                    </div>
-                </div>
+                        <input type="file" id="image-input" name="myfile" class="w-50 form-control shadow d-none" onchange="displayImage()">
+                        <img id="preview-image" src="' . BASE_URL . "/uploads/imgs/" . $post->fileImg . '"
+                alt="Image Preview" class="shadow w-50 form-control">
+            </div>
+    </div>' : '<div class="form-group py-3">
+        <label class="form-label">Thumbnail:</label>
+        <div class="d-flex" style="gap: 16px;">
+            <input type="file" id="image-input" name="myfile" class="w-50 form-control shadow"
+                onchange="displayImage()">
+            <img id="preview-image" src="' . BASE_URL . "/uploads/imgs/" . $post->fileImg . '"
+                alt="Image Preview" class="shadow w-50 form-control">
+            </div>
+    </div>' ?>
+
                 <?php echo $post->type === "static" ? '<div class="form-group py-3 d-none">
                     <label class="form-label">Content:</label>
                     <textarea id="input-file" class="form-control" name="md-file"></textarea>
