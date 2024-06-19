@@ -44,7 +44,7 @@ if ($_SESSION["lang"] == "eng") {
                                     xây dựng chương trình bao gồm:</p>
                             </div>
                             <div class="eng">
-                                <p>The course is primarily built on the instructor's experience of competing, mentoring,
+                                <p>The course is primarily built on the Instructor's experience of competing, mentoring,
                                     and judging moot competitions. The program's development involved referencing some
                                     documents:</p>
                             </div>
@@ -88,7 +88,7 @@ if ($_SESSION["lang"] == "eng") {
                             Số lớp MSS sẽ dự kiến mở?
                         </div>
                         <div class="faq-label-text eng">
-                            How many courses will MSS classes organize?
+                            How many classes will MSS organize?
                         </div>
                         <div class="faq-label-icon">
                             <i class="fa-solid fa-angle-down material-icons"></i>
@@ -262,7 +262,7 @@ if ($_SESSION["lang"] == "eng") {
                     <div class="faq-answer ">
                         <div class="faq-answer-content">
                             <div class="vn">
-                                <p> sẽ thông báo qua email kết quả đủ điều kiện để đóng học phí trong vòng 03 ngày làm
+                                <p> MSS sẽ thông báo qua email kết quả đủ điều kiện để đóng học phí trong vòng 03 ngày làm
                                     việc, sau
                                     khi hết thời hạn đăng ký.</p>
                                 <p>Trong vòng 05 ngày làm việc kể từ ngày nhận được thông báo, các bạn vui lòng thực
@@ -428,7 +428,7 @@ if ($_SESSION["lang"] == "eng") {
                             Buổi học có được ghi âm, ghi hình lại không?
                         </div>
                         <div class="faq-label-tex eng">
-                            Will the lesson be recorded or recorded?
+                            Will the lesson be recorded?
                         </div>
                         <div class="faq-label-icon">
                             <i class="fa-solid fa-angle-down material-icons"></i>
@@ -486,7 +486,7 @@ if ($_SESSION["lang"] == "eng") {
                             Lịch biểu của mỗi buổi học?
                         </div>
                         <div class="faq-label-text eng">
-                            What is the schedule of each lesson?
+                            What is the schedule of each session?
                         </div>
                         <div class="faq-label-icon">
                             <i class="fa-solid fa-angle-down material-icons"></i>
@@ -600,7 +600,7 @@ if ($_SESSION["lang"] == "eng") {
                                     learning may lack interaction. Therefore, turning on the camera will help you
                                     participate in the program more effectively.</p>
                                 <p>In some exceptional cases, MSS may not require the camera to be turned on during the
-                                    learning process.</p>
+                                    session.</p>
                             </div>
                         </div>
                     </div>
@@ -680,7 +680,7 @@ if ($_SESSION["lang"] == "eng") {
                                 Gói Essentials sẽ phù hợp với đối tượng nào?
                             </div>
                             <div class="faq-label-text eng">
-                                Who will the Essentials plan be suitable for?
+                                Who will the Essentials package be suitable for?
                             </div>
                             <div class="faq-label-icon">
                                 <i class="fa-solid fa-angle-down material-icons"></i>
@@ -714,7 +714,7 @@ if ($_SESSION["lang"] == "eng") {
                                 Gói Advantaged sẽ phù hợp với đối tượng nào?
                             </div>
                             <div class="faq-label-text eng">
-                                Who will the Advantaged plan be suitable for?
+                                Who will the Advantaged package be suitable for?
                             </div>
                             <div class="faq-label-icon">
                                 <i class="fa-solid fa-angle-down material-icons"></i>
@@ -748,7 +748,7 @@ if ($_SESSION["lang"] == "eng") {
                                 và ngược lại?
                             </div>
                             <div class="faq-label-text eng">
-                                While the program is ongoing, can I switch between the Essentials and Advantaged plans,
+                                While the program is ongoing, can I switch between the Essentials and Advantaged packages,
                                 and vice versa?
                             </div>
                             <div class="faq-label-icon">
@@ -792,7 +792,7 @@ if ($_SESSION["lang"] == "eng") {
                                 Vì sao MSS hoạt động phi lợi nhuận nhưng vẫn thu học phí?
                             </div>
                             <div class="faq-label-text eng">
-                                Why does MSS operate non-profit but still charge tuition fees?
+                                Why does MSS operate not-for-profit but still charge tuition fees?
                             </div>
                             <div class="faq-label-icon">
                                 <i class="fa-solid fa-angle-down material-icons"></i>
@@ -886,8 +886,8 @@ if ($_SESSION["lang"] == "eng") {
                                 Mình có được hoàn lại chênh lệch giữa hai gói này không?
                             </div>
                             <div class="faq-label-text eng">
-                                I paid full tuition for the Advantaged plan, but I want to switch to the Essentials
-                                plan. Can I get a refund for the difference between the two plans?
+                                I paid full tuition for the Advantaged package, but I want to switch to the Essentials
+                                package. Can I get a refund for the difference between the two packages?
                             </div>
                             <div class="faq-label-icon">
                                 <i class="fa-solid fa-angle-down material-icons"></i>
@@ -901,7 +901,7 @@ if ($_SESSION["lang"] == "eng") {
                                     trước
                                     khi thanh toán.</div>
                                 <div class="eng">MSS does not offer tuition conversion between Essentials and Advantaged
-                                    plans, so students must carefully review the detailed information about the course
+                                    packages, so students must carefully review the detailed information about the course
                                     before registering.</div>
                             </div>
 

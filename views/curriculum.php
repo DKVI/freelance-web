@@ -54,10 +54,10 @@ if ($_SESSION["lang"] == "eng") {
                     <p>Attending mooting competitions and events can provide a number of significant benefits for law
                         students and aspiring lawyers:</p>
                     <ul>
-                        <li>Helps students develop critical thinking and persuasive skills</li>
-                        <li>Enhances their research abilities, legal knowledge, and application</li>
-                        <li>Provides an opportunity for students to build networks within the legal community</li>
-                        <li>Helps build confidence and self-assurance in one's legal abilities</li>
+                        <li>Helping students develop critical thinking and persuasive skills</li>
+                        <li>Enhancing their research abilities, legal knowledge, and application</li>
+                        <li>Providing an opportunity for students to build networks within the legal community</li>
+                        <li>Helping build confidence and self-assurance in one's legal abilities</li>
                     </ul>
                 </div>
             </div>
@@ -339,7 +339,7 @@ if ($_SESSION["lang"] == "eng") {
             <div class="d-flex justify-content-center align-items-center">
                 <div class="col-lg-10 row d-flex">
                     <div class="vn m-auto col-10">
-                        <p class="">Chương trình của MSS sẽ bao gồm 17 buổi, trong đó bao gồm:</p>
+                        <p class="">Chương trình của MSS sẽ bao gồm 18 buổi, trong đó bao gồm:</p>
                         <div class="row offset-1 mb-3">
                             <div class="col-lg-6">
                                 <li>1 buổi <a href="#trial-section" class="text-light glow-white-bg">Học thử</a> (Miễn
@@ -356,13 +356,12 @@ if ($_SESSION["lang"] == "eng") {
                             </div>
 
                         </div>
-                        <p style="padding-bottom: 0;">Tổng quan chương trình sẽ được thể hiện ở bảng sau:<br>
-                            <i>*Nhằm mục đích dễ theo dõi, các buổi học của gói<span style="font-family: 'Times New Roman', Times, serif; font-size: 1.5rem" class="bold-text glow-white-bg"> Essentials</span> dưới đây sẽ được tô <span class="bold-text glow-white-bg">màu xanh</span>, đối với các buổi thực hành, học
-                                viên gói Essentials sẽ tham gia với tư cách Quan sát viên.</i>
+                        <p style="padding-bottom: 0;">Tổng quan chương trình được thể hiện ở bảng sau:<br>
+                            <i>*Nhằm mục đích dễ theo dõi, các buổi học của gói<span class="bold-text glow-white-bg"> Essentials</span> dưới đây sẽ được tô <span class="bold-text glow-white-bg">màu xanh</span>. Học viên gói <span class="bold-text glow-white-bg">Essentials</span> sẽ tham gia với tư cách Quan sát viên trong các buổi thực hành.</i>
                         </p>
                     </div>
                     <div class="eng m-auto col-10">
-                        <p>The MSS course will consist of 17 sessions:</p>
+                        <p>The MSS course will consist of 18 sessions:</p>
                         <div class="row offset-1 mb-3">
                             <div class="col-lg-6">
                                 <li>1 <a href="#trial-section" class="text-light glow-white-bg">Trial session</a> (free
@@ -383,11 +382,11 @@ if ($_SESSION["lang"] == "eng") {
 
                         <p>An overview of the program will be shown in the table below:<br>
                             <i>*For your convenience,
-                                theoretical sessions of the <span style="font-family: 'Times New Roman', Times, serif; font-size: 1.5rem" class="bold-text glow-white-bg">Essentials package</span> will be highlighted in
-                                <span class="bold-text glow-white-bg">blue</span>. For mock sessions, Essentials
+                                theoretical sessions of the <span class="bold-text glow-white-bg">Essentials</span> package will be highlighted in
+                                <span class="bold-text glow-white-bg">blue</span>. <span class="bold-text glow-white-bg">Essentials</span>
                                 students
                                 will
-                                participate as Observers.</i>
+                                participate as <span class="bold-text">Observers</span> in mock sessions.</i>
                         </p>
                     </div>
                     <!-- TABLE -->
@@ -687,7 +686,7 @@ if ($_SESSION["lang"] == "eng") {
                                             <li>Rhetoric skills</li>
                                             <li>Rebuttals and surrebuttals (advanced)</li>
                                             <li>
-                                                <On your feet! Psychological issues in oral advocacy/li>
+                                                On your feet! Psychological issues in oral advocacy</li>
                                             <li>Hearing shenanigans</li>
                                             <li>Behind the scenes: how oral hearings are scored, and how judges actually
                                                 decide who wins</li>
@@ -872,7 +871,7 @@ if ($_SESSION["lang"] == "eng") {
                     <ol>
                         <li data-toggle="modal" data-target="#skill-before-moot">&emsp;<span class="glow-blue-bg">Sessions on pre-competition
                                 skills</span></li>
-                        <li data-toggle="modal" data-target="#after-recieved-mooting-test">&emsp;<span class="glow-blue-bg">Skills sessions on the initial phase</span></li>
+                        <li data-toggle="modal" data-target="#after-recieved-mooting-test">&emsp;<span class="glow-blue-bg">Sessions on skills during the initial phase</span></li>
                         <li data-toggle="modal" data-target="#written-advocacy-skills">&emsp;<span class="glow-blue-bg">Sessions on written advocacy skills</span></li>
                         <li data-toggle="modal" data-target="#oral-advocacy-skills">&emsp;<span class="glow-blue-bg">Sessions on oral advocacy skills</span></li>
                     </ol>
@@ -1297,8 +1296,8 @@ if ($_SESSION["lang"] == "eng") {
         <p class="relative-anchor"><span id="about-anchor"></span></p>
         <div class="container">
             <div class="title">
-                <h1 class="vn">Các buổi tổng kết</h1>
-                <h1 class="eng">Closing sessions</h1>
+                <h1 class="vn text-center-mobile">Kết thúc khoá học</h1>
+                <h1 class="eng">Closing session</h1>
             </div>
             <div class="col-lg-4 shadow ct-text">
                 <div class="vn">

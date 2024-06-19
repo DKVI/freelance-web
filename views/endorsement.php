@@ -223,7 +223,7 @@ if ($_SESSION["lang"] == "eng") {
                         <!-- end judges imgs -->
                     </div>
                     <input class="input" name="tabs" type="radio" id="tab-3" />
-                    <label class="label shadow" for="tab-3">Fellow</label>
+                    <label class="label shadow" for="tab-3">Fellows</label>
                     <div class="panel">
                         <!-- fellows imgs -->
                         <div class="vn">
