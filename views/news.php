@@ -145,4 +145,9 @@ convertMarkdown();
 iframe {
     width: 75%;
 }
+
+#markdown-content li {
+    text-align: left !important;
+    font-size: 1.2rem;
+}
 </style>
