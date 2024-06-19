@@ -220,7 +220,7 @@ if ((strpos($current_url, "&language=vn"))) {
                                         packages and benefits</a></li>
                                 <hr class="dropdown-divider">
                                 <li><a class="dropdown-item"
-                                        href="<?php echo BASE_URL . '/tuition#nonprofits-organizations-and-collecting-tuition' ?>">Nonprofits
+                                        href="<?php echo BASE_URL . '/tuition#nonprofits-organizations-and-collecting-tuition' ?>">Not-for-profits
                                         organizations and collecting
                                         tuition</a>
                                 </li>

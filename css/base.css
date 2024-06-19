@@ -1216,4 +1216,7 @@ footer {
   .ab-slogan{
     /* text-align: center; */
   }
+  .text-center-mobile{
+    text-align: center;
+  }
 }
