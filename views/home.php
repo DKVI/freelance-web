@@ -51,7 +51,7 @@ $form = Link::getByName($conn, "form");
         <h2 class="text-uppercase fw-bold display-5">WELCOME TO</h2>
         <h1 class="text-uppercase fw-bold  display-3" style="text-align: left;">Mooting Summer School</h1>
         <div class="col-lg-8 m">
-            <p>Someone once said that when participating in mooting, we feel like we're diving into space. we won't know
+            <p>Someone once said that when participating in mooting, we feel like we're diving into space. We won't know
                 how far we can go or what kind of value we can gain from the experience. But first and foremost, just
                 from the very first steps, we can be sure that this journey will not be an easy one. </p>
             <p>
@@ -73,8 +73,6 @@ $form = Link::getByName($conn, "form");
                     half a decade, serving as a mooter, coach, speaker, and judge, both domestically and
                     internationally. </p>
                 <p>MSS will be held annually every summer and operates on a not-for-profit basis.</p>
-                <p>Non est ad astra mollis e terris via, is MSS a place to open up a less difficult path to mooting?"
-                </p>
                 <h4><a href="<?php echo BASE_URL ?>/about" ?>See more details about MSS >></a></h4>
                 <h4><a class="fw-bold" href="<?php echo $form->link ?>"><?php echo $form->titleEng ?> >></a></h4>
             </div>

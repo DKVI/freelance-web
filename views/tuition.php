@@ -112,7 +112,7 @@ if ($_SESSION["lang"] == "eng") {
                 <div class="col-lg-6 col-12">
                     <div class="title">
                         <h1 class="vn" style="font-size: 6rem;">Tổ chức<br> phi lợi nhuận<br>và thu phí</h1>
-                        <h1 class="ENG" style="font-size: 6rem;">Non-profit organization <br> & Tuition fee</h1>
+                        <h1 class="ENG" style="font-size: 6rem;">Not-for-profit organization <br> & Tuition fee</h1>
 
                     </div>
 

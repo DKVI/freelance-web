@@ -7,7 +7,7 @@
         <div class="col-lg-2 text-center">
             <div class="eng">
                 <h3 class="text-center">Resources</h3>
-                <p><a href="#" class="text-light" data-toggle="modal" data-target="#termofuse">Term of use</a></p>
+                <p><a href="#" class="text-light" data-toggle="modal" data-target="#termofuse">Term of Uses</a></p>
                 <p><a href="<?php echo $form->link ?>" target="_blank" class="text-light">Enrollment link</a></p>
             </div>
             <div class="vn">
