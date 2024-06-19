@@ -37,7 +37,7 @@ $relativePosts = Post::getRelatedPost($conn, $id, 3);
                 <div class="col-lg-4 col-sm-12 col-md-12">
                     <div style="background-color: #274069">
                         <h3 class="p-3" style="color: white">
-                            RELATIVE POSTS
+                            RELATED POSTS
                         </h3>
                         <div class="d-flex flex-column justify-content-start" style="color: white">
                             <?php

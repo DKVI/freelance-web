@@ -15,9 +15,7 @@ $relativePosts = Post::getRelatedPost($conn, $id, 3);
 
 ?>
 <script src="<?php echo BASE_URL . "/vendor/marked.js" ?>" defer></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <main class="position-relative" style="margin-top: 10rem">
     <div class="position-fixed d-flex justify-content-end" style="left: 0;
@@ -37,7 +35,7 @@ $relativePosts = Post::getRelatedPost($conn, $id, 3);
                 <div class="col-lg-4 col-sm-12 col-md-12">
                     <div style="background-color: #274069">
                         <h3 class="p-3" style="color: white">
-                            RELATIVE POSTS
+                            RELATED POSTS
                         </h3>
                         <div class="d-flex flex-column justify-content-start" style="color: white">
                             <?php
@@ -74,75 +72,75 @@ $relativePosts = Post::getRelatedPost($conn, $id, 3);
 
 
 <script defer>
-async function convertMarkdown() {
-    const response = await fetch("<?php echo BASE_URL . "/uploads/posts/" . $post->id . ".md" ?>");
-    const markdown = await response.text();
-    const html = marked.parse(markdown);
-    console.log(html);
-    document.getElementById("markdown-content").innerHTML =
-        "<h1><?php echo $post->title ?></h1><div class='fst-italic' style='text-align: left;'><span><?php echo convertDate($post->date) ?></span> | <span><?php echo 'Reading time: ' . $post->readTimes . " minutes" ?></span></div><br></br>" +
-        html;
-    const p = document.querySelectorAll("p");
-    const code = document.querySelectorAll("a");
-    p.forEach(element => {
-        if (element.querySelector("img")) {
-            element.style.textAlign = "center";
-            element.querySelector("img").style.maxWidth = "75%";
-            element.querySelector("img").style.display = "inline-block";
-        }
-        if (element.querySelector("em")) {
-            element.style.textAlign = "center";
-            element.querySelector("em").style.display = "inline-block";
-        }
-    });
-    // const iframeList = document.querySelectorAll("iframe");
-    // iframeList.forEach(element => {
-    // const item =
-    // });
+    async function convertMarkdown() {
+        const response = await fetch("<?php echo BASE_URL . "/uploads/posts/" . $post->id . ".md" ?>");
+        const markdown = await response.text();
+        const html = marked.parse(markdown);
+        console.log(html);
+        document.getElementById("markdown-content").innerHTML =
+            "<h1><?php echo $post->title ?></h1><div class='fst-italic' style='text-align: left;'><span><?php echo convertDate($post->date) ?></span> | <span><?php echo 'Reading time: ' . $post->readTimes . " minutes" ?></span></div><br></br>" +
+            html;
+        const p = document.querySelectorAll("p");
+        const code = document.querySelectorAll("a");
+        p.forEach(element => {
+            if (element.querySelector("img")) {
+                element.style.textAlign = "center";
+                element.querySelector("img").style.maxWidth = "75%";
+                element.querySelector("img").style.display = "inline-block";
+            }
+            if (element.querySelector("em")) {
+                element.style.textAlign = "center";
+                element.querySelector("em").style.display = "inline-block";
+            }
+        });
+        // const iframeList = document.querySelectorAll("iframe");
+        // iframeList.forEach(element => {
+        // const item =
+        // });
 
-}
-convertMarkdown();
+    }
+    convertMarkdown();
 </script>
 
 
 <style>
-#markdown-content {
-    padding: 32px;
-    border-radius: 16px;
-    text-align: center;
-}
+    #markdown-content {
+        padding: 32px;
+        border-radius: 16px;
+        text-align: center;
+    }
 
-#markdown-content h1 {
-    font-size: 3.5rem;
-    padding-bottom: 2rem;
-    text-align: left;
-}
+    #markdown-content h1 {
+        font-size: 3.5rem;
+        padding-bottom: 2rem;
+        text-align: left;
+    }
 
-#markdown-content ifram {
-    width: 100%;
-}
+    #markdown-content ifram {
+        width: 100%;
+    }
 
-#markdown-content p {
-    font-size: 1.2rem;
-    margin-bottom: 1.5rem;
-    text-align: left;
-}
+    #markdown-content p {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+        text-align: left;
+    }
 
-#markdown-content p a {
-    text-decoration: underline;
-}
+    #markdown-content p a {
+        text-decoration: underline;
+    }
 
-#markdown-content p img {
-    display: inline-block;
-    width: 75%;
-}
+    #markdown-content p img {
+        display: inline-block;
+        width: 75%;
+    }
 
-#markdown-content p em {
-    margin: auto;
-    font-size: 14px;
-}
+    #markdown-content p em {
+        margin: auto;
+        font-size: 14px;
+    }
 
-iframe {
-    width: 75%;
-}
+    iframe {
+        width: 75%;
+    }
 </style>
