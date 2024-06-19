@@ -686,7 +686,7 @@ if ($_SESSION["lang"] == "eng") {
                                             <li>Rhetoric skills</li>
                                             <li>Rebuttals and surrebuttals (advanced)</li>
                                             <li>
-                                                <On your feet! Psychological issues in oral advocacy/li>
+                                                On your feet! Psychological issues in oral advocacy</li>
                                             <li>Hearing shenanigans</li>
                                             <li>Behind the scenes: how oral hearings are scored, and how judges actually
                                                 decide who wins</li>
@@ -871,7 +871,7 @@ if ($_SESSION["lang"] == "eng") {
                     <ol>
                         <li data-toggle="modal" data-target="#skill-before-moot">&emsp;<span class="glow-blue-bg">Sessions on pre-competition
                                 skills</span></li>
-                        <li data-toggle="modal" data-target="#after-recieved-mooting-test">&emsp;<span class="glow-blue-bg">Skills sessions on the initial phase</span></li>
+                        <li data-toggle="modal" data-target="#after-recieved-mooting-test">&emsp;<span class="glow-blue-bg">Sessions on skills during the initial phase</span></li>
                         <li data-toggle="modal" data-target="#written-advocacy-skills">&emsp;<span class="glow-blue-bg">Sessions on written advocacy skills</span></li>
                         <li data-toggle="modal" data-target="#oral-advocacy-skills">&emsp;<span class="glow-blue-bg">Sessions on oral advocacy skills</span></li>
                     </ol>
