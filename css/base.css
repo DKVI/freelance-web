@@ -1213,4 +1213,7 @@ footer {
   .mobile-position-right-none {
     background-position: unset !important;
   }
+  .ab-slogan{
+    /* text-align: center; */
+  }
 }

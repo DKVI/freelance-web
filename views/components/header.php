@@ -160,17 +160,17 @@ if ((strpos($current_url, "&language=vn"))) {
                         <li class="nav-item dropdown
                         ">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">About MSS</a>
+                                aria-expanded="false">About</a>
                             <ul style="width: auto; right: 0" class="shadow-lg dropdown-menu dropdown-menu-light">
                                 <li><a class="dropdown-item"
-                                        href="<?php echo BASE_URL . '/about#a-message-from-our-founder' ?>">Message
+                                        href="<?php echo BASE_URL . '/about#a-message-from-our-founder' ?>">A message
                                         from our Founder</a></li>
                                 <hr class="dropdown-divider">
                                 <li><a class="dropdown-item" href="<?php echo BASE_URL . '/about#our-mission' ?>">Our
                                         Mission</a></li>
                                 <hr class="dropdown-divider">
                                 <li><a class="dropdown-item"
-                                        href="<?php echo BASE_URL . '/about#symbol-and-title-of-MSS' ?>">Our Mascot</a>
+                                        href="<?php echo BASE_URL . '/about#symbol-and-title-of-MSS' ?>">Our Emblem</a>
                                 </li>
                                 <hr class="dropdown-divider">
                                 <li><a class="dropdown-item"
@@ -178,13 +178,12 @@ if ((strpos($current_url, "&language=vn"))) {
                                 </li>
                                 <hr class="dropdown-divider">
 
-                                <li><a class="dropdown-item" href="<?php echo BASE_URL . '/about#MSS-team' ?>">MSS
-                                        team</a></li>
+                                <li><a class="dropdown-item" href="<?php echo BASE_URL . '/about#MSS-team' ?>">Our Team</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown event">
                             <a href="<?php echo BASE_URL . '/news&events' ?>"
-                                class="nav-link dropdown-toggle">Events</a>
+                                class="nav-link dropdown-toggle">News & Events</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -209,8 +208,7 @@ if ((strpos($current_url, "&language=vn"))) {
                                         of mock sessions</a></li>
                                 <hr class="dropdown-divider">
                                 <li><a class="dropdown-item"
-                                        href="<?php echo BASE_URL . '/curriculum#end-of-course-sessions' ?>">End of
-                                        course sessions</a></li>
+                                        href="<?php echo BASE_URL . '/curriculum#end-of-course-sessions' ?>">Closing session</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">

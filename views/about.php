@@ -18,7 +18,7 @@ if ($_SESSION["lang"] == "eng") {
                         <h1 style="font-size: 7rem;">Nhà sáng lập</h1>
                     </div>
                     <div class="eng">
-                        <h3 style="font-size:4rem;">Message from</h3>
+                        <h3 style="font-size:4rem;">A message from</h3>
                         <h1>Our Founder</h1>
                     </div>
                 </div>
@@ -144,11 +144,11 @@ if ($_SESSION["lang"] == "eng") {
         <div class="container" style="padding: 0 0 5rem">
             <div class="title text-end px-5">
                 <h1 class="vn">Biểu tượng</h1>
-                <h1 class="eng">Our Mascot</h1>
+                <h1 class="eng">Our Emblem</h1>
             </div>
             <div class="col-lg-6 offset-lg-6 px-5">
                 <div class="vn">
-                    <p>Gryffin, hay còn gọi là “điểu sư” trong tiếng Việt, là một linh vật thần thoại có phần đầu, cánh,
+                    <p>Griffin, hay còn gọi là “điểu sư” trong tiếng Việt, là một linh vật thần thoại có phần đầu, cánh,
                         móng
                         vuốt của đại bàng và phần thân, đuôi, chân sau của sư tử. Vì đại bàng được coi là “vua của các
                         loài
@@ -164,13 +164,13 @@ if ($_SESSION["lang"] == "eng") {
                         thi đấu.</p>
                 </div>
                 <div class="eng">
-                    <p>Gryffin, is a mythological creature with the head, wings, and
+                    <p>Griffin, is a mythological creature with the head, wings, and
                         talons of an eagle and the body, tail, and hind legs of a lion. Because the eagle is considered
                         the
-                        "king of birds" and the lion is the "king of beasts," the Gryffin symbolizes strength and wisdom
+                        "king of birds" and the lion is the "king of beasts", the Griffin symbolizes strength and wisdom
                         in many
                         ancient cultures such as Persia, Greece, Egypt, India, and so on.</p>
-                    <p>MSS chose the Gryffin as its emblem for the project because both halves of it are closely
+                    <p>MSS chose the Griffin as its emblem for the project because both halves of it are closely
                         connected to
                         MSS. With the eagle half, it evokes a part of the name of the founder's first moot team.
                         Meanwhile, the
@@ -205,32 +205,25 @@ if ($_SESSION["lang"] == "eng") {
             </div>
 
             <p class="ab-slogan"><strong><em> Non est ad astra mollis e terris via</em></strong></p>
-            <p class="text-end vn" style="font-family: 'Times New Roman', Times, serif;"><em> - Megara, Hercales Furens
+            <p class="text-end vn" style="font-family: 'Times New Roman', Times, serif; margin-top: -10px"><em> - Megara, Hercales Furens
                     của Seneca, dòng 437</em></p>
-            <p class="text-end eng" style="font-family: 'Times New Roman', Times, serif;"><em> - Megara, Hercales Furens
+            <p class="text-end eng" style="font-family: 'Times New Roman', Times, serif; margin-top: -10px"><em> - Megara, Hercales Furens
                     of Seneca, line 437</em></p>
             <div class="philosophy-text">
                 <p class="vn text-center"><em>*Tạm dịch: “Chẳng có con đường nào dễ dàng để vươn tới những vì sao”</em>
                 </p>
-                <p class="vn">Để hái được ngôi sao may mắn về các lợi ích mà Mooting đem lại, các mooter phải trải qua
-                    rất
-                    nhiều khó khăn, thậm chí là thất bại hết lần này đến lần khác. </p>
-                <p class="vn">MSS chọn đây là triết lý của dự án, để nhắc nhở chính mình về sứ mệnh xây dựng một bước
-                    đệm
-                    nền tảng cho các học viên tiếp tục hành trình chinh phục mooting. Đồng thời, thông qua triết lý này,
-                    MSS
-                    cũng muốn nhắn nhủ đến các học viên rằng chặng đường với mooting còn dài và khó khăn, vì thế đừng
-                    chủ
-                    quan nhưng cũng đừng nản lòng. Sau tất cả, MSS tin rằng bạn sẽ luôn nhận được giá trị xứng đáng với
-                    những gì đã bỏ ra.</p>
-                <p class="eng"><em>“Non est ad astra mollis e terris via”</em>, roughly translated as <em>"There is no
-                        easy
-                        path from the earth to the stars"</em>, seems to be a fitting metaphor for the challenges one
+                <p class="vn"> Đây dường như là phép ẩn dụ hoàn hảo khi nói về hành trình thi đấu moot của bất cứ ai. Bởi lẽ, mooting có thể trở thành “ngôi sao may mắn” và làm thay đổi tích cực tương lai của ai đó trong nghề luật. Nhưng để hái được ngôi sao như vậy, các mooter phải trải qua rất nhiều khó khăn, thậm chí là thất bại hết lần này đến lần khác.
+                </p>
+                <p class="vn"> MSS chọn đây là triết lý của dự án, một là để nhắc nhở mình về sứ mệnh xây dựng một bước đệm nền tảng cho các học viên tiếp tục hành trình chinh phục mooting. Đồng thời, thông qua triết lý này, MSS cũng muốn nhắn nhủ đến các học viên rằng chặng đường với mooting còn dài và khó khăn, vì thế đừng chủ quan nhưng cũng đừng nản lòng. Sau tất cả, MSS tin rằng bạn sẽ luôn nhận được giá trị xứng đáng với những gì đã bỏ ra.</p>
+
+                <p class="text-center eng"><em>*Translated as "There is no easy path from the earth to the stars"</em></p>
+                <p class="eng">That slogan seems to be a fitting metaphor for the challenges one
                     faces
                     in mooting. Because indeed, mooting can become a "lucky star" and positively change someone's future
                     in
                     the legal profession. However, to harvest such a star, mooters must endure many difficulties, even
-                    failures time and time again. MSS chooses this as the project's philosophy, firstly to remind itself
+                    failures time and time again. </p>
+                <p class="eng">MSS chooses this as the project's philosophy, firstly to remind itself
                     of
                     the mission to lay a foundational stepping stone for students to continue their journey in
                     conquering
