@@ -147,6 +147,9 @@ if ((strpos($current_url, "&language=vn"))) {
                                 <li><a class="dropdown-item"
                                         href="<?php echo BASE_URL . '/faq#about-tuition-fees' ?>">Về
                                         học phí</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item"
+                                        href="<?php echo BASE_URL . '/faq#participant-prohibitions' ?>">Hành vi nghiêm cấm</a></li>
 
                             </ul>
 
@@ -252,6 +255,10 @@ if ((strpos($current_url, "&language=vn"))) {
                                 <li><a class="dropdown-item"
                                         href="<?php echo BASE_URL . '/faq#about-tuition-fees' ?>">About
                                         tuition fees</a>
+                                </li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item"
+                                        href="<?php echo BASE_URL . '/faq#participant-prohibitions' ?>">Prohibited act</a>
                                 </li>
                             </ul>
                         </li>
