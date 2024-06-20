@@ -301,7 +301,7 @@ if ($_SESSION["lang"] == "eng") {
                     </div>
                     <div class="faq-answer ">
                         <div class="faq-answer-content">
-                            <p class="vn">ĐMSS không cấp chứng chỉ sau khi kết thúc khóa học. Điều này phù hợp với tinh
+                            <p class="vn">MSS không cấp chứng chỉ sau khi kết thúc khóa học. Điều này phù hợp với tinh
                                 thần xây dựng
                                 giá trị thực cho cộng đồng mooting của MSS.</p>
                             <p class="eng">MSS does not issue certificates after course completion, in line with its

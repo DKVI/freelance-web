@@ -55,11 +55,14 @@
             <div class="modal-content">
 
                 <div class="modal-body">
-                    <img src="./assets/imgs/termofuse-eng.png" alt="" class="w-100 h-100 eng">
-                    <img src="./assets/imgs/termofuse-vn.png" alt="" class="w-100 h-100 vn">
+                    <img src="./assets/imgs/termofuses-eng.png" alt="" class="w-100 h-100 eng">
+                    <img src="./assets/imgs/termofuses-vn.png" alt="" class="w-100 h-100 vn">
                 </div>
-                <div class="modal-footer">
+                <div class="modal-footer eng">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+                <div class="modal-footer vn">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
                 </div>
             </div>
         </div>
