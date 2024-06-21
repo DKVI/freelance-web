@@ -554,9 +554,9 @@ h6 {
   height: 100%;
 }
 
-.flip-card:hover .flip-card-inner {
+.flip-card.is-flipped .flip-card-inner {
   transform: rotateY(180deg);
-  cursor: help;
+  cursor: pointer;
 }
 
 .flip-card-front,
@@ -656,6 +656,9 @@ h6 {
 }
 #curriculum .credit {
   font-size: 0.8rem;
+}
+.ct-modal-height{
+  height: 60vh !important;
 }
 
 .c-table {
@@ -1218,5 +1221,8 @@ footer {
   }
   .text-center-mobile{
     text-align: center;
+  }
+  .ct-modal-height{
+    height: 90vh!important;
   }
 }

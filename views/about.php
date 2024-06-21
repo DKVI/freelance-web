@@ -244,9 +244,8 @@ if ($_SESSION["lang"] == "eng") {
             <div class="text-center title">
                 <h1 class="vn">Đội ngũ</h1>
                 <h1 class="eng">Our team</h1>
-
             </div>
-            <div class="row text-center pb-5">
+            <div class="row text-center">
                 <div class="col-lg-4 col-md-12 col-sm-12 pt-5">
                     <div class="flip-card w-100">
                         <div class="flip-card-inner">
@@ -378,6 +377,10 @@ if ($_SESSION["lang"] == "eng") {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="pb-5 pt-3">
+                <p class="vn text-center"><i>*Click vào hình ảnh trên để biết thêm chi tiết</i></p>
+                <p class="eng text-center"><i>*Click on the images to learn more details</i></p>
             </div>
         </div>
     </section>
