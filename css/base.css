@@ -266,6 +266,11 @@ h6 {
   flex: 1;
   margin: auto;
 }
+
+#endorsement-desktop label {
+    z-index: 0;
+}
+
 @media (max-width: 1000px) {
   .language {
     top: 0;
@@ -1134,11 +1139,11 @@ footer {
   #end-of-course-sessions .shadow {
     margin-left: 0;
   }
-  .c-table table tr th:first-child,
+  /* .c-table table tr th:first-child,
   .c-table table tr th:nth-of-type(3),
   .c-table table tr th:nth-of-type(2) {
     width: 1rem !important;
-  }
+  } */
   .c-table ul {
     padding-left: 20px;
   }
