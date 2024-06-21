@@ -334,6 +334,10 @@ h6 {
   }
 }
 
+#endorsement-desktop label {
+  z-index: 0;
+}
+
 #markdown-content p {
   margin-bottom: 2rem !important;
 }
@@ -657,7 +661,7 @@ h6 {
 #curriculum .credit {
   font-size: 0.8rem;
 }
-.ct-modal-height{
+.ct-modal-height {
   height: 60vh !important;
 }
 
@@ -1216,13 +1220,13 @@ footer {
   .mobile-position-right-none {
     background-position: unset !important;
   }
-  .ab-slogan{
+  .ab-slogan {
     /* text-align: center; */
   }
-  .text-center-mobile{
+  .text-center-mobile {
     text-align: center;
   }
-  .ct-modal-height{
-    height: 90vh!important;
+  .ct-modal-height {
+    height: 90vh !important;
   }
 }
