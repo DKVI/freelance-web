@@ -657,6 +657,9 @@ h6 {
 #curriculum .credit {
   font-size: 0.8rem;
 }
+.ct-modal-height{
+  height: 60vh !important;
+}
 
 .c-table {
   background-image: url(../assets/imgs/curriculum-5.png);
@@ -1218,5 +1221,8 @@ footer {
   }
   .text-center-mobile{
     text-align: center;
+  }
+  .ct-modal-height{
+    height: 90vh!important;
   }
 }
