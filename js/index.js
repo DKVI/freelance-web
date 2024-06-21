@@ -49,4 +49,19 @@ if (preloader) {
     }, 3000);
   });
 }
+// click to flip card - About page - our team
+let cards = document.querySelectorAll('.flip-card');
 
+cards.forEach((card) => {
+  card.addEventListener('click', function() {
+    // Toggle the 'is-flipped' class on the clicked card
+    this.classList.toggle('is-flipped');
+
+    // Find all the other cards and remove the 'is-flipped' class from them
+    cards.forEach((c) => {
+      if (c !== this) {
+        c.classList.remove('is-flipped');
+      }
+    });
+  });
+});

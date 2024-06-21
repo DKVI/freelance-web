@@ -554,9 +554,9 @@ h6 {
   height: 100%;
 }
 
-.flip-card:hover .flip-card-inner {
+.flip-card.is-flipped .flip-card-inner {
   transform: rotateY(180deg);
-  cursor: help;
+  cursor: pointer;
 }
 
 .flip-card-front,
