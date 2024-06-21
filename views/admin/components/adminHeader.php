@@ -10,7 +10,6 @@
         <a class="text-white text-decoration-none" href="<?php echo BASE_URL . '/admin/messages' ?>" style="cursor: pointer">Messages</a>
         <a class="text-white text-decoration-none" href="<?php echo BASE_URL . '/admin/hashtag' ?>" style="cursor: pointer">Hashtag</a>
         <a class="text-white text-decoration-none" href="<?php echo BASE_URL . '/admin/link' ?>" style="cursor: pointer">Link</a>
-        <a class="text-white text-decoration-none" href="<?php echo BASE_URL . '/admin/template-email' ?>" style="cursor: pointer">Email</a>
     </div>
     <div class="px-5 w-1/3 d-flex justify-content-end " style="width: 30%;">
         <div class="px-4 dropdown show">

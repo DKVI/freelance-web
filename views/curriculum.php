@@ -330,59 +330,61 @@ if ($_SESSION["lang"] == "eng") {
             </div>
             <div class="d-flex justify-content-center align-items-center">
                 <div class="col-lg-10 row d-flex">
-                    <div class="vn m-auto col-10">
-                        <p class="">Chương trình của MSS sẽ bao gồm 18 buổi, trong đó bao gồm:</p>
-                        <div class="row offset-1 mb-3">
-                            <div class="col-lg-6">
-                                <li>1 buổi <a href="#trial-section" class="text-light glow-white-bg">Học thử</a> (Miễn
-                                    phí)</li>
-                                <li>11 buổi <a href="#overview-of-theoretical-sessions" class="text-light glow-white-bg">Lý thuyết</a> (Tối thứ Năm và sáng Chủ Nhật)
-                                </li>
-                                <li>4 buổi <a href="#overview-of-mock-sessions" class="text-light glow-white-bg"> Thực
-                                        hành</a> (Sáng thứ Bảy và Chủ Nhật)</li>
-                            </div>
-                            <div class="col-lg-6">
-                                <li>1 buổi <a href="#end-of-course-sessions" class="text-light glow-white-bg">Talkshow</a> (Sáng thứ Bảy hoặc Chủ Nhật)</li>
-                                <li>1 buổi <a href="#end-of-course-sessions" class="text-light glow-white-bg">Bế
-                                        giảng</a> (Sáng thứ Bảy hoặc Chủ Nhật)</li>
-                            </div>
+                    <div class="m-auto col-10">
+                        <div class="vn">
+                            <p>Chương trình của MSS sẽ bao gồm 18 buổi, trong đó bao gồm:</p>
+                            <div class="row offset-1 mb-3">
+                                <div class="col-lg-6">
+                                    <li>1 buổi <a href="#trial-section" class="text-light glow-white-bg">Học thử</a> (Miễn
+                                        phí)</li>
+                                    <li>11 buổi <a href="#overview-of-theoretical-sessions" class="text-light glow-white-bg">Lý thuyết</a> (Tối thứ Năm và sáng Chủ Nhật)
+                                    </li>
+                                    <li>4 buổi <a href="#overview-of-mock-sessions" class="text-light glow-white-bg"> Thực
+                                            hành</a> (Sáng thứ Bảy và Chủ Nhật)</li>
+                                </div>
+                                <div class="col-lg-6">
+                                    <li>1 buổi <a href="#end-of-course-sessions" class="text-light glow-white-bg">Talkshow</a> (Sáng thứ Bảy hoặc Chủ Nhật)</li>
+                                    <li>1 buổi <a href="#end-of-course-sessions" class="text-light glow-white-bg">Bế
+                                            giảng</a> (Sáng thứ Bảy hoặc Chủ Nhật)</li>
+                                </div>
 
+                            </div>
+                            <p style="padding-bottom: 0;">Tổng quan chương trình được thể hiện ở bảng sau:<br>
+                                <i>*Nhằm mục đích dễ theo dõi, các buổi học của gói<span class="bold-text glow-white-bg"> Essentials</span> dưới đây sẽ được tô <span class="bold-text glow-white-bg">màu xanh</span>. Học viên gói <span class="bold-text glow-white-bg">Essentials</span> sẽ tham gia với tư cách Quan sát viên trong các buổi thực hành.</i>
+                            </p>
                         </div>
-                        <p style="padding-bottom: 0;">Tổng quan chương trình được thể hiện ở bảng sau:<br>
-                            <i>*Nhằm mục đích dễ theo dõi, các buổi học của gói<span class="bold-text glow-white-bg"> Essentials</span> dưới đây sẽ được tô <span class="bold-text glow-white-bg">màu xanh</span>. Học viên gói <span class="bold-text glow-white-bg">Essentials</span> sẽ tham gia với tư cách Quan sát viên trong các buổi thực hành.</i>
-                        </p>
-                    </div>
-                    <div class="eng m-auto col-10">
-                        <p>The MSS course will consist of 18 sessions:</p>
-                        <div class="row offset-1 mb-3">
-                            <div class="col-lg-6">
-                                <li>1 <a href="#trial-section" class="text-light glow-white-bg">Trial session</a> (free
-                                    of charge)</li>
-                                <li>11 <a href="#overview-of-theoretical-sessions" class="text-light glow-white-bg">Theoretical sessions</a> (Thursday evenings &
-                                    Sunday mornings)</li>
-                                <li>4 <a href="#overview-of-mock-sessions" class="text-light glow-white-bg">Mock
-                                        sessions</a> (Saturday mornings & Sunday mornings)</li>
-                            </div>
-                            <div class="col-lg-6">
-                                <li>1 <a href="#end-of-course-sessions" class="text-light glow-white-bg">Talk show
-                                        session</a> (Saturday mornings or Sunday mornings)</li>
-                                <li>1 <a href="#end-of-course-sessions" class="text-light glow-white-bg">Closing
-                                        session</a> (Saturday mornings or Sunday mornings)</li>
+                        <div class="eng">
+                            <p>The MSS course will consist of 18 sessions:</p>
+                            <div class="row offset-1 mb-3">
+                                <div class="col-lg-6">
+                                    <li>1 <a href="#trial-section" class="text-light glow-white-bg">Trial session</a> (free
+                                        of charge)</li>
+                                    <li>11 <a href="#overview-of-theoretical-sessions" class="text-light glow-white-bg">Theoretical sessions</a> (Thursday evenings &
+                                        Sunday mornings)</li>
+                                    <li>4 <a href="#overview-of-mock-sessions" class="text-light glow-white-bg">Mock
+                                            sessions</a> (Saturday mornings & Sunday mornings)</li>
+                                </div>
+                                <div class="col-lg-6">
+                                    <li>1 <a href="#end-of-course-sessions" class="text-light glow-white-bg">Talk show
+                                            session</a> (Saturday mornings or Sunday mornings)</li>
+                                    <li>1 <a href="#end-of-course-sessions" class="text-light glow-white-bg">Closing
+                                            session</a> (Saturday mornings or Sunday mornings)</li>
+                                </div>
+
                             </div>
 
+                            <p>An overview of the program will be shown in the table below:<br>
+                                <i>*For your convenience,
+                                    theoretical sessions of the <span class="bold-text glow-white-bg">Essentials</span> package will be highlighted in
+                                    <span class="bold-text glow-white-bg">blue</span>. <span class="bold-text glow-white-bg">Essentials</span>
+                                    students
+                                    will
+                                    participate as <span class="bold-text">Observers</span> in mock sessions.</i>
+                            </p>
                         </div>
-
-                        <p>An overview of the program will be shown in the table below:<br>
-                            <i>*For your convenience,
-                                theoretical sessions of the <span class="bold-text glow-white-bg">Essentials</span> package will be highlighted in
-                                <span class="bold-text glow-white-bg">blue</span>. <span class="bold-text glow-white-bg">Essentials</span>
-                                students
-                                will
-                                participate as <span class="bold-text">Observers</span> in mock sessions.</i>
-                        </p>
                     </div>
                     <!-- TABLE -->
-                    <div class="bg-light px-5 py-4 mb-5">
+                    <div class="bg-light px-lg-5 py-4 mb-5">
                         <table class="table">
                             <thead>
                                 <tr class="blue-bg">
@@ -777,7 +779,7 @@ if ($_SESSION["lang"] == "eng") {
 
                     </div>
                     <div class="col-lg-6 mb-5">
-                        <div class="vn px-3 px-lg-5">
+                        <div class="vn px-5">
                             <p>Trong buổi học thử này, MSS sẽ tập trung vào bốn chủ đề chính:</p>
                             <ul style="margin-left: 3rem;">
                                 <li>Khái niệm về mooting</li>
@@ -794,7 +796,7 @@ if ($_SESSION["lang"] == "eng") {
                                 giới
                                 mooting, lợi ích và những gì cần thiết để trở thành một mooter thành công.</p>
                         </div>
-                        <div class="eng mt-4 px-3 px-lg-5">
+                        <div class="eng mt-4 px-5">
                             <p>During this session, we will focus on four main topics:</p>
                             <ul style="margin-left: 3rem;">
                                 <li>Definition of mooting</li>
