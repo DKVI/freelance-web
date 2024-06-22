@@ -1,8 +1,9 @@
 <?php
 session_start();
+include_once "../utils/index.php";
 
 if (isset($_GET['lang'])) {
-    $lang = $_GET['lang'];
+    $lang = xssClean($_GET['lang']);
     if ($lang == "eng") {
         $_SESSION['lang'] = $lang;
     } else if ($lang == "vn") {
