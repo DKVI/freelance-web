@@ -15,7 +15,6 @@ include_once "./utils/index.php";
 $conn = require "./inc/db.php";
 $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $segments = explode('/', $uri);
-
 $facebook = Link::getByName($conn, "facebook");
 $linkedin = Link::getByName($conn, "linkedin");
 $instagram = Link::getByName($conn, "instagram");
@@ -48,13 +47,19 @@ $form = Link::getByName($conn, "form");
 <?php
 $language = "";
 if (isset($_GET['language'])) {
-    $language = $_GET['language'];
+    if (xssClean($_GET['language']) == "vn" || xssClean($_GET['language']) == "eng") {
+        $language = xssClean($_GET['language']);
+    }
 } else {
     if (isset($_SESSION['lang'])) {
-        $language = $_SESSION['lang'];
+        if ($_SESSION['lang'] == "vn" || $_SESSION['lang'] == "eng") {
+            $language = $_SESSION['lang'];
+        }
     } else {
         $_SESSION['lang'] = "eng";
-        $language = $_SESSION['lang'];
+        if ($_SESSION['lang'] == "vn" || $_SESSION['lang'] == "eng") {
+            $language = $_SESSION['lang'];
+        }
     }
 }
 ?>

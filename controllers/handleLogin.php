@@ -11,6 +11,7 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
     $isValid = Admin::login($conn, $admin);
     if ($isValid) {
         $_SESSION["is_admin"] = true;
+        $_SESSION["user_admin"] = $username;
         echo "<script>alert('Login successfully! Welcome back, admin!');
             location.href= '" . BASE_URL . "/admin/home" . "';
         </script>";

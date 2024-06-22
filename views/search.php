@@ -2,7 +2,7 @@
 $keyword;
 if (isset($_GET["keyword"])) {
 
-    $keyword = $_GET["keyword"];
+    $keyword = xssClean($_GET['keyword']);
 } else {
     echo '<script>location.href = "' . BASE_URL . '/e404"</script>';
 }

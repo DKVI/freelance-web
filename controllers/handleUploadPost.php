@@ -1,5 +1,6 @@
 <?php
 session_start();
+authenAdmin();
 include_once "../vendor/bootstrap.php";
 include "../models/database.php";
 include "../models/post.php";

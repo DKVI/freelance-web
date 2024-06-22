@@ -3,6 +3,12 @@ session_start();
 
 if (isset($_GET['lang'])) {
     $lang = $_GET['lang'];
-    $_SESSION['lang'] = $lang;
+    if ($lang == "eng") {
+        $_SESSION['lang'] = $lang;
+    } else if ($lang == "vn") {
+        $_SESSION['lang'] = $lang;
+    } else {
+        header("Location: " . BASE_URL . "/e404");
+    }
 }
 echo $_SESSION['lang'];
