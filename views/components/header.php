@@ -119,7 +119,7 @@ if ((strpos($current_url, "&language=vn"))) {
                                 <hr class="dropdown-divider">
                                 <li><a class="dropdown-item"
                                         href="<?php echo BASE_URL . '/tuition#nonprofits-organizations-and-collecting-tuition' ?>">Tổ
-                                        chức phi lợi nhuận và thu phí</a></li>
+                                        chức không vì lợi nhuận và thu phí</a></li>
                             </ul>
                         </li>
 

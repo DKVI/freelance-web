@@ -111,8 +111,8 @@ if ($_SESSION["lang"] == "eng") {
             <div class="row" style="margin: 8rem 0">
                 <div class="col-lg-6 col-12">
                     <div class="title">
-                        <h1 class="vn" style="font-size: 6rem;">Tổ chức<br> phi lợi nhuận<br>và thu phí</h1>
-                        <h1 class="ENG" style="font-size: 6rem;">Not-for-profit organization <br> & Tuition fee</h1>
+                        <h1 class="vn" style="font-size: 6rem;">Tổ chức không vì lợi nhuận <br>và thu phí</h1>
+                        <h1 class="ENG" style="font-size: 6rem;">Not-for-profit organizations <br> & Tuition fee</h1>
 
                     </div>
 
@@ -125,7 +125,7 @@ if ($_SESSION["lang"] == "eng") {
                             dự
                             án.</p>
 
-                        <p>Với định hướng hoạt động phi lợi nhuận, toàn bộ học phí thu được sẽ được sử dụng cho việc
+                        <p>Với định hướng hoạt động không vì lợi nhuận, toàn bộ học phí thu được sẽ được sử dụng cho việc
                             hoạt
                             động, duy trì, và tiếp tục phát triển MSS. Các khoản đóng góp này, trước hết sẽ được sử dụng
                             để
@@ -147,7 +147,7 @@ if ($_SESSION["lang"] == "eng") {
                         <p>MSS does not view the tuition fees that you provide for the program as a price for a sold
                             product or service. MSS sees the tuition fees as your contributions that help sustain the
                             operation of the project.</p>
-                        <p>With a non-profit orientation, all collected tuition fees will be used for the operation,
+                        <p>With a not-for-profit orientation, all collected tuition fees will be used for the operation,
                             maintenance, and continued development of MSS. These contributions will first be used to
                             balance out the costs incurred in the preparation and operation of the program, such as
                             issues related to visual design, website maintenance, lecture development, support for

@@ -523,8 +523,7 @@ h6 {
   /* padding: 0 1.5rem; */
 }
 .ab-slogan {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 #MSS-team {
   min-height: 100vh;
@@ -1225,9 +1224,7 @@ footer {
   .mobile-position-right-none {
     background-position: unset !important;
   }
-  .ab-slogan {
-    /* text-align: center; */
-  }
+  
   .text-center-mobile {
     text-align: center;
   }
