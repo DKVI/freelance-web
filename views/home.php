@@ -55,7 +55,7 @@ $form = Link::getByName($conn, "form");
                 how far we can go or what kind of value we can gain from the experience. But first and foremost, just
                 from the very first steps, we can be sure that this journey will not be an easy one. </p>
             <p>
-                Therefore, if we see each moot competition as a different star in the universe,<strong style="font-family: 'Times New Roman', Times, serif; font-size: 1.3rem"><em> Non est ad astra mollis
+                Therefore, if we see each moot competition as a different star in the universe,<strong style="font-size: 1.3rem"><em> Non est ad astra mollis
                         e terris
                         via</em></strong> (translated: <em>There is no easy from the earth to the stars</em>) is the
                 philosophy of Mooting Summer School. For us, no one but you will have to choose your own "lucky star"

@@ -197,7 +197,7 @@ if ($_SESSION["lang"] == "eng") {
             <p class="ab-slogan"><strong><em> Non est ad astra mollis e terris via</em></strong></p>
             <p class="text-end vn" style="font-family: 'Times New Roman', Times, serif; margin-top: -10px"><em> - Megara, Hercales Furens
                     của Seneca, dòng 437</em></p>
-            <p class="text-end eng" style="font-family: 'Times New Roman', Times, serif; margin-top: -10px"><em> - Megara, Hercales Furens
+            <p class="text-end eng" style=" margin-top: -10px"><em> - Megara, Hercales Furens
                     of Seneca, line 437</em></p>
             <div class="philosophy-text">
                 <p class="vn text-center"><em>*Tạm dịch: “Chẳng có con đường nào dễ dàng để vươn tới những vì sao”</em>
@@ -335,17 +335,17 @@ if ($_SESSION["lang"] == "eng") {
                                     <img src="./assets/imgs/ourTeam-3.png" alt="" class="avatar shadow">
                                 </div>
                                 <div class="eng">
-                                    <h4 class="my-3">Lia Ng.</h4>
+                                    <h4 class="my-3">Lia Nguyen</h4>
                                     <p class="text-muted">Lead Art Designer</p>
                                 </div>
                                 <div class="vn">
-                                    <h4 class="my-3">Lia Ng.</h4>
+                                    <h4 class="my-3">Lia Nguyen</h4>
                                     <p class="text-muted">Thiết kế hình ảnh</p>
                                 </div>
                             </div>
                             <div class="flip-card-back custom-scrollbar p-3">
                                 <div class="vn">
-                                    <h3>Nguyễn Kim Thảo Hiền</h3>
+                                    <h3>Lia Nguyen</h3>
                                     <p class="text-start">Một freelancer muốn được "tự do". Học tập, tốt nghiệp và làm
                                         việc tại Úc trong 6 năm, sau đó quay về Việt Nam để tìm kiếm "tự do" cho mình.
                                         Dự án Mooting Summer School là cơ hội để học hỏi, tiếp xúc và thách thức chính
@@ -354,7 +354,7 @@ if ($_SESSION["lang"] == "eng") {
                                         và sẵn sàng đặt bước chân đầu tiên ra khỏi vùng an toàn, bay về "tự do".</p>
                                 </div>
                                 <div class="eng">
-                                    <h3>Nguyen Kim Thao Hien</h3>
+                                    <h3>Lia Nguyen</h3>
                                     <p class="text-start">A Freelancer who wants to be "free". Had been living and
                                         working in Australia for 6 years then coming back to Viet Nam in the aim of
                                         searching for "freedom". Mooting Summer School is a chance to learn, approach
