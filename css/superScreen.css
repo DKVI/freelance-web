@@ -5,6 +5,12 @@
   }
   .logo-area {
     height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #e5e5e5;
+    height: 112px;
   }
   .footer-container {
     width: 1320px !important;
@@ -17,6 +23,9 @@
   .nav-container {
     left: unset !important;
     right: calc(100vw / 2 - 1320px / 2) !important;
+  }
+  .hover-here-component {
+    right: 35% !important;
   }
 }
 
@@ -27,6 +36,12 @@
   }
   .logo-area {
     height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #e5e5e5;
+    height: 112px;
   }
   .footer-container {
     width: 1320px !important;
@@ -39,6 +54,9 @@
   .nav-container {
     left: unset !important;
     right: calc(100vw / 2 - 1320px / 2) !important;
+  }
+  .hover-here-component {
+    right: 35% !important;
   }
 }
 @media screen and (min-width: 3840px) {
@@ -48,6 +66,12 @@
   }
   .logo-area {
     height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #e5e5e5;
+    height: 112px;
   }
   .footer-container {
     width: 1320px !important;
@@ -60,5 +84,8 @@
   .nav-container {
     left: unset !important;
     right: calc(100vw / 2 - 1320px / 2) !important;
+  }
+  .hover-here-component {
+    right: 35% !important;
   }
 }
