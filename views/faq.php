@@ -165,7 +165,7 @@ if ($_SESSION["lang"] == "eng") {
                             Số học viên trong một lớp MSS là bao nhiêu?
                         </div>
                         <div class="faq-label-text eng">
-                            How many students are there in an MSS class?
+                            How many students are there in a MSS class?
                         </div>
                         <div class="faq-label-icon">
                             <i class="fa-solid fa-angle-down material-icons"></i>
@@ -620,9 +620,8 @@ if ($_SESSION["lang"] == "eng") {
                     </div>
                     <div class="faq-answer ">
                         <div class="faq-answer-content">
-                            <p class="vn">MSS đã đăng tải thông tin về Người hướng dẫn tại mục “Lời ngỏ của Nhà sáng
-                                lập” (hyperlink
-                                “Lời ngỏ của Nhà sáng lập” tới trang tương ứng trong page) tại website của MSS, cũng như
+                            <p class="vn">MSS đã đăng tải thông tin về Người hướng dẫn tại mục <strong><a href="<?php echo BASE_URL . '/about#a-message-from-our-founder' ?>">“Lời ngỏ của Nhà sáng
+                                lập”</a></strong> tại website của MSS, cũng như
                                 qua
                                 các trang mạng xã hội.</p>
                             <p class="eng">MSS shared information about the Instructor on MSS's website in the
@@ -789,7 +788,7 @@ if ($_SESSION["lang"] == "eng") {
                     <div class="faq-container">
                         <div class="faq-label">
                             <div class="faq-label-text vn">
-                                Vì sao MSS hoạt động phi lợi nhuận nhưng vẫn thu học phí?
+                                Vì sao MSS hoạt động không vì lợi nhuận nhưng vẫn thu học phí?
                             </div>
                             <div class="faq-label-text eng">
                                 Why does MSS operate not-for-profit but still charge tuition fees?
@@ -807,7 +806,7 @@ if ($_SESSION["lang"] == "eng") {
                                         dịch vụ được bán ra. MSS xem học phí là một khoản đóng góp của các bạn giúp duy
                                         trì sự hoạt
                                         động của MSS.</p>
-                                    <p>Với định hướng hoạt động phi lợi nhuận, toàn bộ học phí thu được sẽ được sử dụng
+                                    <p>Với định hướng hoạt động không vì lợi nhuận, toàn bộ học phí thu được sẽ được sử dụng
                                         cho việc
                                         hoạt động, duy trì, và tiếp tục phát triển MSS. Các khoản đóng góp này, trước
                                         hết sẽ được sử
@@ -827,7 +826,7 @@ if ($_SESSION["lang"] == "eng") {
                                 <div class="eng">
                                     <p>MSS does not consider the tuition fees paid by students as a payment for a
                                         product or service. Instead, we view them as a contribution towards the
-                                        sustainable operation and development of MSS as a non-profit organization. These
+                                        sustainable operation and development of MSS as a not-for-profit organization. These
                                         contributions will be used to cover the costs incurred during the design,
                                         preparation, and execution of the course, such as designing and maintaining the
                                         website, creating lectures, and providing support to the crew running the
@@ -953,7 +952,7 @@ if ($_SESSION["lang"] == "eng") {
         <div class="container px-5" style="padding-bottom: 6rem">
             <div class="title text-light text-center" style="text-shadow: 4px 4px 8px rgba(0,0,0,0.6); ">
                 <h1 class="vn">Hành vi nghiêm cấm</h1>
-                <h1 class="eng">Participant Prohibitions</h1>
+                <h1 class="eng">Prohibited act</h1>
             </div>
 
             <div class="container col-lg-8 p-4" style="background-color: rgb(229, 229, 229,0.6); border-radius: 10px">

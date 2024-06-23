@@ -379,7 +379,7 @@ if ($_SESSION["lang"] == "eng") {
                                     <span class="bold-text glow-white-bg">blue</span>. <span class="bold-text glow-white-bg">Essentials</span>
                                     students
                                     will
-                                    participate as <span class="bold-text">Observers</span> in mock sessions.</i>
+                                    participate as Observers in mock sessions.</i>
                             </p>
                         </div>
                     </div>

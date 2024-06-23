@@ -34,18 +34,8 @@ if ($_SESSION["lang"] == "eng") {
                             cạnh đó, mooting tạo cơ hội để bạn gặp gỡ, giao lưu với nhiều người giỏi
                             trong ngành, những người có cùng đam mê, sở thích, những “đồng nghiệp tương lai”
                             của các bạn sau này.</p>
-                        <p>Tại MSS, mình, với tư cách là Nhà sáng lập và Người hướng dẫn, hy vọng có thể khiến bạn “yêu”
-                            và
-                            “hiểu” mooting hơn qua lời khuyên và những câu chuyện được chia sẻ, gửi gắm vào từng bài
-                            giảng.
-                        </p>
-                        <p>Trong hành trình ấy, bất kể có chinh phục được cuộc thi moot nào đó hay không, các bạn đều có
-                            thể
-                            trở thành người truyền cảm hứng như mình, dẫn dắt cho các thế hệ mooter tiếp theo. Từ đó,
-                            tất cả
-                            chúng ta sẽ góp phần nâng cao chất lượng và trình độ chung của cộng đồng mooting tại Việt
-                            Nam.
-                        </p>
+                        
+                        <p>Trong bất kỳ chuyện chinh phục nào, sự yêu và hiểu đối phương luôn là điều tối quan trọng. Vậy nên, tại MSS, mình, với tư cách là Nhà sáng lập và Người hướng dẫn, hy vọng có thể khiến bạn “yêu” và “hiểu” mooting hơn qua những bài giảng, những lời khuyên và những câu chuyện được chia sẻ. Và rồi, kể cả khi chinh phục được cuộc thi moot nào đó hay không, các bạn đều có thể trở thành mình – người truyền cảm hứng, dẫn dắt cho các thế hệ mooter tiếp theo. Từ đó, tất cả chúng ta sẽ góp phần nâng cao chất lượng và trình độ chung của cộng đồng mooting tại Việt Nam.</p>
                         <p>Cảm ơn các bạn đã cho mình và MSS cơ hội được đồng hành cùng với các bạn trong chặng đường
                             mooting. Mình hy vọng sẽ được gặp các bạn tại MSS. </p>
                         <h5 class="text-end" data-toggle="modal" data-target="#exampleModalLong" style="cursor: pointer">Đọc thêm thông tin về
@@ -345,11 +335,11 @@ if ($_SESSION["lang"] == "eng") {
                                     <img src="./assets/imgs/ourTeam-3.png" alt="" class="avatar shadow">
                                 </div>
                                 <div class="eng">
-                                    <h4 class="my-3">Nguyen Kim Thao Hien</h4>
+                                    <h4 class="my-3">Lia Ng.</h4>
                                     <p class="text-muted">Lead Art Designer</p>
                                 </div>
                                 <div class="vn">
-                                    <h4 class="my-3">Nguyễn Kim Thảo Hiền</h4>
+                                    <h4 class="my-3">Lia Ng.</h4>
                                     <p class="text-muted">Thiết kế hình ảnh</p>
                                 </div>
                             </div>
