@@ -1,0 +1,6 @@
+body,
+section {
+  max-width: 1320px !important;
+  margin: 0 auto;
+  background-color: yellow;
+}

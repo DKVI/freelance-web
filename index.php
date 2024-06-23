@@ -65,6 +65,7 @@ if (isset($_GET['language'])) {
 
 <body class="custom-scrollbar" style="opacity: 0">
     <link href="css/base.css">
+    <link href="css/superScreen.css">
     <!-- Add layout using router -->
     <div class="header">
         <!-- Add header to all pages -->
