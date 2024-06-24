@@ -29,7 +29,7 @@ $relativePosts = Post::getRelatedPost($conn, $id, 3);
         </div>
     </div>
     <div class="px-lg-5 px-sm-4 px-md-4 pt-sm-5 pt-md-5 pb-5">
-        <div class="px-lg-5">
+        <div class="px-lg-5 post-containter">
             <div class="row d-flex justify-content-between">
                 <div class="col-lg-8 pb-5 col-sm-12 col-md-12">
                     <div id="markdown-content" class="shadow"></div>
@@ -65,7 +65,7 @@ $relativePosts = Post::getRelatedPost($conn, $id, 3);
                 </div>
             </div>
         </div>
-        <div class="row mt-3 px-lg-5 px-md-3 px-sm-3 pt-5">
+        <div class="row mt-3 px-lg-5 px-md-3 px-sm-3 pt-5 popular-container">
             <?php include "./views/components/popularPost.php" ?>
         </div>
     </div>

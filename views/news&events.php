@@ -88,10 +88,10 @@ console.log(eventsList);
                     <?php
                     foreach ($lastestPost as $post) {
                         echo '
-                        <a href="' . BASE_URL . $post->path . '" class="w-100 h-25 py-4 px-3" style="border-top: 1px solid white; color: white">
+                        <a href="' . BASE_URL . $post->path . '" class="w-100 h-25 py-4 px-3" style="border-top: 1px solid white; color: white;">
                             <h4 style="overflow: hidden;
                                             text-overflow: ellipsis;
-                                            white-space: nowrap;">' . $post->title . '</h4>
+                                            white-space: nowrap;  font-family: Myriad;">' . $post->title . '</h4>
                             <p  style="display: -webkit-box; 
                                 -webkit-line-clamp: 2;
                                 -webkit-box-orient: vertical;

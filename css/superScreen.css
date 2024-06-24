@@ -1,8 +1,11 @@
-
 @media screen and (min-width: 1920px) {
   section {
     max-width: 1320px !important;
     margin: 0 auto;
+  }
+  .popular-container {
+    width: 1320px !important;
+    margin: auto !important;
   }
   .logo-area {
     height: 100px;
@@ -28,9 +31,21 @@
   .hover-here-component {
     right: 35% !important;
   }
+  .post-containter {
+    width: 1320px !important;
+    margin: auto !important;
+  }
 }
 
 @media screen and (min-width: 2560px) {
+  .popular-container {
+    width: 1320px !important;
+    margin: auto !important;
+  }
+  .post-containter {
+    width: 1320px !important;
+    margin: auto !important;
+  }
   section {
     max-width: 1320px !important;
     margin: 0 auto;
@@ -61,6 +76,14 @@
   }
 }
 @media screen and (min-width: 3840px) {
+  .popular-container {
+    width: 1320px !important;
+    margin: auto !important;
+  }
+  .post-containter {
+    width: 1320px !important;
+    margin: auto !important;
+  }
   section {
     max-width: 1320px !important;
     margin: 0 auto;
@@ -90,4 +113,3 @@
     right: 35% !important;
   }
 }
-
