@@ -74,7 +74,6 @@ function changeLanguge($lang)
 
 function authenAdmin()
 {
-  session_start();
   if (isset($_SESSION['is_admin']) && $_SESSION['user_admin']) {
     return true;
   } else {

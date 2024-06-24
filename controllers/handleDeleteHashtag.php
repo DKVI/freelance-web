@@ -1,4 +1,5 @@
 <?php
+session_start();
 include_once "../models/hashtag.php";
 include_once "../models/hashtag_post.php";
 include_once "../config.php";

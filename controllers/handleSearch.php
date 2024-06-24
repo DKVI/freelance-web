@@ -1,4 +1,5 @@
 <?php
+session_start();
 include "../models/database.php";
 include "../models/post.php";
 include "../models/hashtag_post.php";
