@@ -1233,4 +1233,7 @@ footer {
   .ct-modal-height {
     height: 90vh !important;
   }
+  #endorsement .title h1 {
+    font-size: 4rem !important;
+  }
 }
