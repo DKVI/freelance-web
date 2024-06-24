@@ -84,8 +84,8 @@ if (isset($_GET['language'])) {
 
     <div class="main">
         <?php
-        $route = $segments[2] . (isset($segments[3]) ?  '/' . $segments[3] : "");
-        if ($segments[2] !== 'admin') {
+        $route = $segments[1] . (isset($segments[2]) ?  '/' . $segments[2] : "");
+        if ($segments[1] !== 'admin') {
             include "./views/components/popupMessage.php";
             include "./views/components/hoverHere.php";
             include "./utils/securityContent.php";
