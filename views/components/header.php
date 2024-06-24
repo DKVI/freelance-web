@@ -289,7 +289,7 @@ if ((strpos($current_url, "&language=vn"))) {
 <!-- NAVBAR -->
 
 <div class="d-flex nav-container flex-row-reverse fixed-top offset-lg-6 col-lg-6 container"
-    style=" background-color: #e5e5e5; padding-top:10px; margin-top:0">
+    style=" background-color: rgba(0, 0, 0, 0); padding-top:10px; margin-top:0">
 
     <div class="col-12 d-flex justify-content-end">
         <div class="w-75">

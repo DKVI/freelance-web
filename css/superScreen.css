@@ -31,6 +31,9 @@
   .hover-here-component {
     right: 35% !important;
   }
+  .background-full{
+    min-height: 60vh!important;
+  } 
   .post-containter {
     width: 1320px !important;
     margin: auto !important;
@@ -74,6 +77,9 @@
   .hover-here-component {
     right: 35% !important;
   }
+  .background-full{
+    min-height: 60vh!important;
+  } 
 }
 @media screen and (min-width: 3840px) {
   .popular-container {
@@ -112,4 +118,7 @@
   .hover-here-component {
     right: 35% !important;
   }
+  .background-full{
+    min-height: 60vh!important;
+  } 
 }
