@@ -52,3 +52,13 @@ changePasswordBtn.onclick = (e) => {
     }
 }
 </script>
+
+<style>
+body {
+    margin: auto !important;
+}
+
+.gototop-component {
+    display: none;
+}
+</style>
