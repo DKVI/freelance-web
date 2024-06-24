@@ -76,9 +76,16 @@ if ($_SESSION["lang"] == "eng") {
                                 <img src="./assets/imgs/profilev-Eng.png" alt="" class="w-100 h-100 eng">
                                 <img src="./assets/imgs/profilev-Vie.png" alt="" class="w-100 h-100 vn">
                             </div>
+                            
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            </div>
+                                        <div class="eng">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        </div>
+                                        <div class="vn">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                                        </div>
+
+                                    </div>
                         </div>
                     </div>
                 </div>

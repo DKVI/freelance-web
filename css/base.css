@@ -268,7 +268,7 @@ h6 {
 }
 
 #endorsement-desktop label {
-    z-index: 0;
+  z-index: 0;
 }
 
 @media (max-width: 1000px) {
@@ -803,7 +803,8 @@ table thead th {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(229, 229, 229, 0.8);
+  backdrop-filter: blur(1px);
   box-shadow: 0 48px 80px -32px rgba(0, 0, 0, 0.3);
 }
 .input {
@@ -1224,7 +1225,7 @@ footer {
   .mobile-position-right-none {
     background-position: unset !important;
   }
-  
+
   .text-center-mobile {
     text-align: center;
   }
