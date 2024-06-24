@@ -37,6 +37,11 @@ main {
   src: url(../assets/fonts/MYRIADPRO-BOLD.ttf);
   font-weight: bold;
 }
+@font-face {
+  font-family: Myriad;
+  src: url(../assets/fonts/Myriad-Pro-Semibold.ttf);
+  font-weight: 500;
+}
 .transparent-light-bg {
   background-color: rgba(229, 229, 229, 0.5);
   border-radius: 10px;
@@ -181,9 +186,7 @@ picture {
   overflow-y: auto;
   --bs-dropdown-min-width: 12.5rem;
 }
-#endorsement-mobile {
-  display: none;
-}
+
 /* -----fonts------ */
 body,
 nav {
@@ -267,7 +270,7 @@ h6 {
   margin: auto;
 }
 
-#endorsement-desktop label {
+#endorsement label {
   z-index: 0;
 }
 
@@ -339,7 +342,7 @@ h6 {
   }
 }
 
-#endorsement-desktop label {
+#endorsement label {
   z-index: 0;
 }
 
@@ -788,6 +791,14 @@ table thead th {
 #endorsement .carousel-indicators {
   margin-bottom: 0 !important;
 }
+#endorsement .carousel-item .px-5 p strong {
+  font-size: 1.1rem;
+}
+#endorsement .achievement {
+  margin-top: -10px;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
 /* separate 3 tabs Mentee - Mooter - Judges */
 .tab-container {
   display: flex;
@@ -1139,11 +1150,7 @@ footer {
   #end-of-course-sessions .shadow {
     margin-left: 0;
   }
-  /* .c-table table tr th:first-child,
-  .c-table table tr th:nth-of-type(3),
-  .c-table table tr th:nth-of-type(2) {
-    width: 1rem !important;
-  } */
+
   .c-table ul {
     padding-left: 20px;
   }
@@ -1165,14 +1172,8 @@ footer {
     margin-top: 0rem !important;
     padding-left: 0 !important;
   }
-  #endorsement-mobile .title h1 {
-    font-size: 3.5rem !important;
-  }
-  #endorsement-desktop {
-    display: none;
-  }
-  #endorsement-mobile {
-    display: block;
+  #endorsement .carousel-item .px-5 {
+    margin-top: 20px;
   }
   #a-message-from-our-founder .modal-body {
     height: auto;
