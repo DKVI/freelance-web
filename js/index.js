@@ -39,16 +39,12 @@ window.addEventListener("scroll", function () {
  * Preloader
  */
 const preloader = document.querySelector("#preloader");
-mainContainer.style.display = "none";
-document.addEventListener("DOMContentLoaded", () => {
-  console.log("Preloader loaded");
+window.addEventListener("load", () => {
   setTimeout(() => {
     preloader.classList.add("loaded");
   }, 1000);
-
   setTimeout(() => {
     preloader.remove();
-    mainContainer.style.display = "block";
   }, 4000);
 });
 // click to flip card - About page - our team
