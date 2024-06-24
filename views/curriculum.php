@@ -62,9 +62,7 @@ if ($_SESSION["lang"] == "eng") {
                 </div>
             </div>
         </div>
-    </section>
-    <section class="page-section" style="min-height: 100vh; padding-top: 8rem">
-        <div class="container">
+        <div class="container" style="margin-top: 100px;">
             <h2 class="text-center display-5 vn">Một số giải đấu moot quốc tế danh giá</h2>
             <h1 class="text-center display-5 eng">Prestigious international moot competitions</h1>
             <div class="row">
@@ -322,6 +320,7 @@ if ($_SESSION["lang"] == "eng") {
             </div>
         </div>
     </section>
+    
     <section id="course-overview" class="c-table background-full text-light" style="background-color: #274069">
         <div class="container">
             <div class="title">

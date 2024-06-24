@@ -28,6 +28,9 @@
   .hover-here-component {
     right: 35% !important;
   }
+  .background-full{
+    min-height: 60vh!important;
+  } 
 }
 
 @media screen and (min-width: 2560px) {
@@ -59,6 +62,9 @@
   .hover-here-component {
     right: 35% !important;
   }
+  .background-full{
+    min-height: 60vh!important;
+  } 
 }
 @media screen and (min-width: 3840px) {
   section {
@@ -89,5 +95,8 @@
   .hover-here-component {
     right: 35% !important;
   }
+  .background-full{
+    min-height: 60vh!important;
+  } 
 }
 
