@@ -21,7 +21,7 @@ function renderPopularItem($item)
                         <div class="card-body">
                             <h4 class="card-title" style="overflow: hidden;
                                             text-overflow: ellipsis;
-                                            white-space: nowrap; color: #274069">' . $item->title . '</h4>
+                                            white-space: nowrap; color: #274069; font-family: Myriad;">' . $item->title . '</h4>
                             <div class="card-text" style="display: -webkit-box;
                                 -webkit-line-clamp: 2;
                                 -webkit-box-orient: vertical;
