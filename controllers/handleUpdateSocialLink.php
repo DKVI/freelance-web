@@ -1,4 +1,5 @@
 <?php
+session_start();
 include_once "../config.php";
 include_once "../models/database.php";
 include_once "../models/link.php";

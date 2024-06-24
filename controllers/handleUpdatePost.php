@@ -7,7 +7,7 @@ include "../models/hashtag_post.php";
 include "../utils/index.php";
 include "../config.php";
 $conn = require "../inc/db.php";
-authenAdmin();
+include_once "../utils/index.php";
 unset($_SESSION["message"]);
 $id = $_GET["id"];
 $_SESSION["message"] = "have no message";
@@ -54,62 +54,64 @@ function uploadThumbnail($conn, $id)
     return false;
 }
 
-if (isset($_POST['md-file'])) {
-    $title = $_POST["title"];
-    $readTimes = $_POST["times"];
-    $type = isset($_POST["type"]) ? $_POST["type"] : "static";
-    $priority = $_POST["priority"];
-    $hashtagList = $_POST["hashtag"];
-    $post = Post::getById($conn, $id);
-    $data = uploadThumbnail($conn, $id);
-    $link;
-    if ($type == "static") {
-        $link = $post->path;
-    } else {
-        $link = "/" . $type . "?id=" . $id;
-    }
-    if ($data != false) {
-        try {
-            $img_path = "../uploads/imgs/" . $post->fileImg;
-            $text = $_POST['md-file'];
-            $myfile = fopen("../uploads/posts/" . $id . ".md", "w");
-            fwrite($myfile, $text);
-            HashtagPost::deleteByPostId($conn, $id);
-            $updatePost = new Post($id, $readTimes, $title, $id . '.md', $data->fileImg, date('Y-m-d'), $post->views, $type, $text, $link, $priority == "true" ? 1 : 0);
-            Post::update($conn, $updatePost, $id);
-            if ($post->fileImg != "default.png" && file_exists($img_path)) {
-                unlink($img_path);
-            }
-            foreach ($hashtagList as $hashtag) {
-                $hashtagpost = new HashtagPost(1, $hashtag, $id);
-                HashtagPost::add($conn, $hashtagpost);
-            }
-            $_SESSION["message"] =  'Update post "' . $title . '" successfully!';;
-            if (file_exists("../uploads/post/test.md")) {
-                unlink("../uploads/post/test.md");
-            }
-        } catch (\Throwable $e) {
-            $_SESSION["message"] = "Sorry, there was an error updating your post, please try again!.";
+if (authenAdmin()) {
+    if (isset($_POST['md-file'])) {
+        $title = $_POST["title"];
+        $readTimes = $_POST["times"];
+        $type = isset($_POST["type"]) ? $_POST["type"] : "static";
+        $priority = $_POST["priority"];
+        $hashtagList = $_POST["hashtag"];
+        $post = Post::getById($conn, $id);
+        $data = uploadThumbnail($conn, $id);
+        $link;
+        if ($type == "static") {
+            $link = $post->path;
+        } else {
+            $link = "/" . $type . "?id=" . $id;
         }
-    } else {
-        try {
-            $post = Post::getById($conn, $id);
-            HashtagPost::deleteByPostId($conn, $id);
-            $text = $_POST['md-file'];
-            $myfile = fopen("../uploads/posts/" . $id . ".md", "w");
-            fwrite($myfile, $text);
-            $updatePost = new Post($id, $readTimes, $title, $id . '.md', $post->fileImg, date('Y-m-d'), $post->views, $type, $text, $link, $priority == "true" ? 1 : 0);
-            Post::update($conn, $updatePost, $id);
-            foreach ($hashtagList as $hashtag) {
-                $hashtagpost = new HashtagPost(1, $hashtag, $id);
-                HashtagPost::add($conn, $hashtagpost);
+        if ($data != false) {
+            try {
+                $img_path = "../uploads/imgs/" . $post->fileImg;
+                $text = $_POST['md-file'];
+                $myfile = fopen("../uploads/posts/" . $id . ".md", "w");
+                fwrite($myfile, $text);
+                HashtagPost::deleteByPostId($conn, $id);
+                $updatePost = new Post($id, $readTimes, $title, $id . '.md', $data->fileImg, date('Y-m-d'), $post->views, $type, $text, $link, $priority == "true" ? 1 : 0);
+                Post::update($conn, $updatePost, $id);
+                if ($post->fileImg != "default.png" && file_exists($img_path)) {
+                    unlink($img_path);
+                }
+                foreach ($hashtagList as $hashtag) {
+                    $hashtagpost = new HashtagPost(1, $hashtag, $id);
+                    HashtagPost::add($conn, $hashtagpost);
+                }
+                $_SESSION["message"] =  'Update post "' . $title . '" successfully!';;
+                if (file_exists("../uploads/post/test.md")) {
+                    unlink("../uploads/post/test.md");
+                }
+            } catch (\Throwable $e) {
+                $_SESSION["message"] = "Sorry, there was an error updating your post, please try again!.";
             }
-            $_SESSION["message"] =  'Update post "' . $title . '" successfully!';;
-            if (file_exists("../uploads/posts/test.md")) {
-                unlink("../uploads/posts/test.md");
+        } else {
+            try {
+                $post = Post::getById($conn, $id);
+                HashtagPost::deleteByPostId($conn, $id);
+                $text = $_POST['md-file'];
+                $myfile = fopen("../uploads/posts/" . $id . ".md", "w");
+                fwrite($myfile, $text);
+                $updatePost = new Post($id, $readTimes, $title, $id . '.md', $post->fileImg, date('Y-m-d'), $post->views, $type, $text, $link, $priority == "true" ? 1 : 0);
+                Post::update($conn, $updatePost, $id);
+                foreach ($hashtagList as $hashtag) {
+                    $hashtagpost = new HashtagPost(1, $hashtag, $id);
+                    HashtagPost::add($conn, $hashtagpost);
+                }
+                $_SESSION["message"] =  'Update post "' . $title . '" successfully!';;
+                if (file_exists("../uploads/posts/test.md")) {
+                    unlink("../uploads/posts/test.md");
+                }
+            } catch (\Throwable $e) {
+                $_SESSION["message"] = "Sorry, there was an error updating your post, please try again!.";
             }
-        } catch (\Throwable $e) {
-            $_SESSION["message"] = "Sorry, there was an error updating your post, please try again!.";
         }
     }
 }

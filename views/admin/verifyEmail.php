@@ -19,3 +19,13 @@
         </div>
     </form>
 </div>
+
+<style>
+body {
+    margin: auto !important;
+}
+
+.gototop-component {
+    display: none;
+}
+</style>
