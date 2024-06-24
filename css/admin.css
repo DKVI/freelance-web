@@ -46,6 +46,10 @@ body {
     right: 0;
     z-index: 9999;
   }
+  .login-container {
+    width: 1200px !important;
+    margin: auto !important;
+  }
 
   .ad-container-hd {
     width: 1320px !important;
@@ -69,6 +73,10 @@ body {
     right: 0;
     z-index: 9999;
   }
+  .login-container {
+    width: 1200px !important;
+    margin: auto !important;
+  }
 
   .ad-container-hd {
     width: 1320px !important;
@@ -90,6 +98,10 @@ body {
     top: 0;
     right: 0;
     z-index: 9999;
+  }
+  .login-container {
+    width: 1200px !important;
+    margin: auto !important;
   }
 
   .ad-container-hd {

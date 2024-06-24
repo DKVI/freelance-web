@@ -6,12 +6,12 @@ include_once "../vendor/bootstrap.php";
 include_once "../models/database.php";
 $conn = require "../inc/db.php";
 include_once "../utils/index.php";
-if (authenAdmin()) {
-    if (isset($_POST["email"])) {
-        $email = $_POST["email"];
-        $isAdmin = Admin::verifyEmail($conn, $email);
-        if ($isAdmin) {
-            echo '<form method="POST" class="d-none" action="../services/sendmail.php">
+
+if (isset($_POST["email"])) {
+    $email = $_POST["email"];
+    $isAdmin = Admin::verifyEmail($conn, $email);
+    if ($isAdmin) {
+        echo '<form method="POST" class="d-none" action="../services/sendmail.php">
                 <input name="email" value="' . $email . '">
             </form>
             <script>
@@ -19,8 +19,8 @@ if (authenAdmin()) {
                 form.submit();
             </script>
             ';
-        } else {
-            echo '<div class="min-vh-100 min-vw-100 d-flex">
+    } else {
+        echo '<div class="min-vh-100 min-vw-100 d-flex">
             <div class="shadow m-auto w-50 d-flex flex-column rounded-5" style="height: 300px">
                 <div class="h-50 w-100 position-relative">
                     <div class="d-flex rounded-circle position-absolute shadow"
@@ -39,6 +39,5 @@ if (authenAdmin()) {
                 </div>
                 </div>
                 </div>';
-        }
     }
 }

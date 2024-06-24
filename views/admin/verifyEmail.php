@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../css/admin.css">
-<div class="min-vh-100 min-vw-100 d-flex">
+<div class="w-100 h-100 d-flex">
     <form method="post" action="../controllers/handleSendMail.php"
-        class="form d-flex w-50 m-auto rounded-3 shadow overflow-hidden" style="height: 80%">
+        class="form d-flex w-50 m-auto rounded-3 shadow overflow-hidden login-container" style="height: auto">
         <div class="shadow w-50 d-flex p-5" style="background-color: #274069;">
             <img src="../assets/imgs/logo-gray.png" alt="" class="m-auto w-100">
         </div>
