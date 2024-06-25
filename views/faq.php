@@ -262,10 +262,10 @@ if ($_SESSION["lang"] == "eng") {
                     <div class="faq-answer ">
                         <div class="faq-answer-content">
                             <div class="vn">
-                                <p> MSS sẽ thông báo qua email kết quả đủ điều kiện để đóng học phí trong vòng 03 ngày làm
+                                <p> MSS sẽ thông báo qua email kết quả đủ điều kiện để đóng học phí trong vòng 07 ngày làm
                                     việc, sau
                                     khi hết thời hạn đăng ký.</p>
-                                <p>Trong vòng 05 ngày làm việc kể từ ngày nhận được thông báo, các bạn vui lòng thực
+                                <p>Trong vòng 07 ngày làm việc kể từ ngày nhận được thông báo, các bạn vui lòng thực
                                     hiện thanh
                                     toán theo thông tin chuyển khoản được MSS cung cấp trong email thông báo ban đầu.
                                 </p>
@@ -273,9 +273,9 @@ if ($_SESSION["lang"] == "eng") {
                                     email.</p>
                             </div>
                             <div class="eng">
-                                <p>MSS will notify the results of eligibility for fee payment via email within 3 working
+                                <p>MSS will notify the results of eligibility for fee payment via email within 07 working
                                     days after the registration deadline has passed.</p>
-                                <p>Within 05 working days from the date of receipt of the notification, please make
+                                <p>Within 07 working days from the date of receipt of the notification, please make
                                     payment according to the transfer information provided by MSS in the original
                                     successful registration notification email.</p>
                                 <p>MSS will send an email confirming successful payment and registration completion via
@@ -952,7 +952,7 @@ if ($_SESSION["lang"] == "eng") {
         <div class="container px-5" style="padding-bottom: 6rem">
             <div class="title text-light text-center" style="text-shadow: 4px 4px 8px rgba(0,0,0,0.6); ">
                 <h1 class="vn">Hành vi nghiêm cấm</h1>
-                <h1 class="eng">Prohibited act</h1>
+                <h1 class="eng">Prohibited acts</h1>
             </div>
 
             <div class="container col-lg-8 p-4" style="background-color: rgb(229, 229, 229,0.6); border-radius: 10px">

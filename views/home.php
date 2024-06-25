@@ -38,8 +38,8 @@ $form = Link::getByName($conn, "form");
                     qua ở đầy đủ các vai trò từ thí sinh, huấn luyện viên, diễn giả và giám khảo cả trong và ngoài nước.
                 </p>
                 <p>MSS sẽ được tổ chức vào mỗi mùa hè và hoạt động không vì mục tiêu lợi nhuận.</p>
-                <h4><strong><a href="<?php echo BASE_URL ?>/about" ?>Xem thêm chi tiết về MSS >></a></strong></p>
-                    <h4><a class="fw-bold" href="<?php echo $form->link ?>"><?php echo $form->titleVn ?> >></a></h4>
+                <p style="font-size: 1.3rem; font-weight: bold"><a href="<?php echo BASE_URL ?>/about" ?>Xem thêm chi tiết về MSS >></a><br>
+                <span style="font-size: 1.3rem; font-weight: bold"><a href="<?php echo $form->link ?>"><?php echo $form->titleVn ?> >></a></span></p>
 
             </div>
             <div class="col-lg-6 mt-4">
@@ -73,8 +73,8 @@ $form = Link::getByName($conn, "form");
                     half a decade, serving as a mooter, coach, speaker, and judge, both domestically and
                     internationally. </p>
                 <p>MSS will be held annually every summer and operates on a not-for-profit basis.</p>
-                <h4><a href="<?php echo BASE_URL ?>/about" ?>See more details about MSS >></a></h4>
-                <h4><a class="fw-bold" href="<?php echo $form->link ?>"><?php echo $form->titleEng ?> >></a></h4>
+                <p style="font-size: 1.3rem; font-weight: bold"><a href="<?php echo BASE_URL ?>/about" ?>See more details about MSS >></a><br>
+                <span style="font-size: 1.3rem; font-weight: bold"><a href="<?php echo $form->link ?>"><?php echo $form->titleEng ?> >></a></span></p>
             </div>
             <div class="col-lg-6 mt-4 mb-5">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/-pHfPJGatgE?si=KlPHj-aaR5W99vtc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="w-100"></iframe>

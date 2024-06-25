@@ -62,7 +62,7 @@ if ($_SESSION["lang"] == "eng") {
                 </div>
             </div>
         </div>
-        <div class="container" style="margin-top: 100px;">
+        <div class="container" style="margin-top: 150px;">
             <h2 class="text-center display-5 vn">Một số giải đấu moot quốc tế danh giá</h2>
             <h1 class="text-center display-5 eng">Prestigious international moot competitions</h1>
             <div class="row">

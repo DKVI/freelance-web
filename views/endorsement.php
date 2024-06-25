@@ -17,7 +17,7 @@ if ($_SESSION["lang"] == "eng") {
             <div class="tab-container">
                 <div class="tabs">
                     <input class="input" name="tabs" type="radio" id="tab-1" checked="checked" />
-                    <label class="label shadow" for="tab-1">Mooters</label>
+                    <label class="label shadow" for="tab-1"><span class="eng">Mooters</span><span class="vn">Các Mooter</span></label>
                     <div class="panel">
                         <!-- mooters imgs -->
                         <div class="mooters">
@@ -260,7 +260,7 @@ if ($_SESSION["lang"] == "eng") {
                         <!-- end mooter imgs -->
                     </div>
                     <input class="input" name="tabs" type="radio" id="tab-2" />
-                    <label class="label shadow" for="tab-2">Organizations and Judges</label>
+                    <label class="label shadow" for="tab-2"><span class="eng">Organizations and Judges</span><span class="vn">Tổ chức và Giám khảo</span></label>
                     <div class="panel">
                         <!-- judges imgs -->
                         <div class="judges">
@@ -353,7 +353,7 @@ if ($_SESSION["lang"] == "eng") {
                         <!-- end judges imgs -->
                     </div>
                     <input class="input" name="tabs" type="radio" id="tab-3" />
-                    <label class="label shadow" for="tab-3">Fellows</label>
+                    <label class="label shadow" for="tab-3"><span class="eng">Fellows</span><span class="vn">Đồng đội</span></label>
                     <div class="panel">
                         <!-- fellows imgs -->
                         <div class="">
