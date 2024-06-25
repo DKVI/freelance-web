@@ -47,7 +47,7 @@ if ((strpos($current_url, "&language=vn"))) {
                     <div class="collapse navbar-collapse" id="navResponsive">
                         <ul class="navbar-nav vn">
                             <li class="nav-item dropdown custom-scrollbar">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Về MSS</a>
+                                <a class="nav-link dropdown-toggle about" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Về MSS</a>
                                 <ul style="width: auto; right: 0" class="shadow-lg dropdown-menu dropdown-menu-light">
                                     <li><a class="dropdown-item" href="<?php echo BASE_URL . '/about#a-message-from-our-founder' ?>">Lời ngỏ
                                             từ
@@ -71,12 +71,12 @@ if ((strpos($current_url, "&language=vn"))) {
                                 </ul>
                             </li>
 
-                            <li class="nav-item dropdown event">
-                                <a href="<?php echo BASE_URL . '/news&events' ?>" class="nav-link dropdown-toggle">Sự
+                            <li class="nav-item dropdown">
+                                <a href="<?php echo BASE_URL . '/news&events' ?>" class="nav-link dropdown-toggle event">Sự
                                     kiện</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Chương trình học</a>
+                                <a class="nav-link dropdown-toggle curriculum" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Chương trình học</a>
 
                                 <ul style="width: auto; right: 0" class="shadow-lg dropdown-menu dropdown-menu-light">
                                     <li><a class="dropdown-item" href="<?php echo BASE_URL . '/curriculum#what-is-mooting' ?>">Mooting
@@ -100,7 +100,7 @@ if ((strpos($current_url, "&language=vn"))) {
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Học phí</a>
+                                <a class="nav-link dropdown-toggle tuition" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Học phí</a>
                                 <ul style="width: auto; right: 0" class="shadow-lg dropdown-menu dropdown-menu-light">
                                     <li><a class="dropdown-item" href="<?php echo BASE_URL . '/tuition#tuition-packages-and-benefits' ?>">Các
                                             gói học
@@ -113,15 +113,15 @@ if ((strpos($current_url, "&language=vn"))) {
                             </li>
 
 
-                            <li class="nav-item dropdown endorsement">
-                                <a href="<?php echo BASE_URL . '/endorsement' ?>" class="nav-link dropdown-toggle ">Bảo
+                            <li class="nav-item dropdown ">
+                                <a href="<?php echo BASE_URL . '/endorsement' ?>" class="nav-link dropdown-toggle endorsement">Bảo
                                     chứng
                                     từ cộng đồng</a>
 
                             </li>
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">FAQ</a>
+                                <a class="nav-link dropdown-toggle faq" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">FAQ</a>
                                 <ul style="width: auto; right: 0" class="shadow-lg dropdown-menu dropdown-menu-light">
                                     <li><a class="dropdown-item" href="<?php echo BASE_URL . '/faq#about-the-program' ?>">Về
                                             chương trình</a></li>
@@ -147,9 +147,8 @@ if ((strpos($current_url, "&language=vn"))) {
                             </li>
                         </ul>
                         <ul class="navbar-nav eng">
-                            <li class="nav-item dropdown
-                        ">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle about" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
                                 <ul style="width: auto; right: 0" class="shadow-lg dropdown-menu dropdown-menu-light">
                                     <li><a class="dropdown-item" href="<?php echo BASE_URL . '/about#a-message-from-our-founder' ?>">A
                                             message
@@ -170,12 +169,12 @@ if ((strpos($current_url, "&language=vn"))) {
                                             Team</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown event">
-                                <a href="<?php echo BASE_URL . '/news&events' ?>" class="nav-link dropdown-toggle">News
+                            <li class="nav-item dropdown">
+                                <a href="<?php echo BASE_URL . '/news&events' ?>" class="nav-link dropdown-toggle event">News
                                     & Events</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Curriculum</a>
+                                <a class="nav-link dropdown-toggle curriculum" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Curriculum</a>
 
                                 <ul style="width: auto; right: 0" class="shadow-lg dropdown-menu dropdown-menu-light">
                                     <li><a class="dropdown-item" href="<?php echo BASE_URL . '/curriculum#what-is-mooting' ?>">What
@@ -196,7 +195,7 @@ if ((strpos($current_url, "&language=vn"))) {
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tuition</a>
+                                <a class="nav-link dropdown-toggle tuition" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tuition</a>
                                 <ul style="width: auto;  right: 0" class="shadow-lg dropdown-menu dropdown-menu-light">
                                     <li><a class="dropdown-item" href="<?php echo BASE_URL . '/tuition#tuition-packages-and-benefits' ?>">Tuition
                                             packages and benefits</a></li>
@@ -208,10 +207,10 @@ if ((strpos($current_url, "&language=vn"))) {
                                 </ul>
                             </li>
                             <li class="nav-item dropdown endorsement">
-                                <a href="<?php echo BASE_URL . '/endorsement' ?>" class="nav-link dropdown-toggle ">Endorsement</a>
+                                <a href="<?php echo BASE_URL . '/endorsement' ?>" class="nav-link dropdown-toggle endorsement">Endorsement</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">FAQ</a>
+                                <a class="nav-link dropdown-toggle faq" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">FAQ</a>
                                 <ul style="width: auto; right: 0" class="shadow-lg dropdown-menu dropdown-menu-light">
                                     <li><a class="dropdown-item" href="<?php echo BASE_URL . '/faq#about-the-program' ?>">About the
                                             program</a>

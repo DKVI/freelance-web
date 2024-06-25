@@ -262,7 +262,8 @@ if ($_SESSION["lang"] == "eng") {
                     <div class="faq-answer ">
                         <div class="faq-answer-content">
                             <div class="vn">
-                                <p> MSS sẽ thông báo qua email kết quả đủ điều kiện để đóng học phí trong vòng 07 ngày làm
+                                <p> MSS sẽ thông báo qua email kết quả đủ điều kiện để đóng học phí trong vòng 07 ngày
+                                    làm
                                     việc, sau
                                     khi hết thời hạn đăng ký.</p>
                                 <p>Trong vòng 07 ngày làm việc kể từ ngày nhận được thông báo, các bạn vui lòng thực
@@ -273,7 +274,8 @@ if ($_SESSION["lang"] == "eng") {
                                     email.</p>
                             </div>
                             <div class="eng">
-                                <p>MSS will notify the results of eligibility for fee payment via email within 07 working
+                                <p>MSS will notify the results of eligibility for fee payment via email within 07
+                                    working
                                     days after the registration deadline has passed.</p>
                                 <p>Within 07 working days from the date of receipt of the notification, please make
                                     payment according to the transfer information provided by MSS in the original
@@ -620,8 +622,9 @@ if ($_SESSION["lang"] == "eng") {
                     </div>
                     <div class="faq-answer ">
                         <div class="faq-answer-content">
-                            <p class="vn">MSS đã đăng tải thông tin về Người hướng dẫn tại mục <strong><a href="<?php echo BASE_URL . '/about#a-message-from-our-founder' ?>">“Lời ngỏ của Nhà sáng
-                                lập”</a></strong> tại website của MSS, cũng như
+                            <p class="vn">MSS đã đăng tải thông tin về Người hướng dẫn tại mục <strong><a href="<?php echo BASE_URL . '/about#a-message-from-our-founder' ?>">“Lời ngỏ của
+                                        Nhà sáng
+                                        lập”</a></strong> tại website của MSS, cũng như
                                 qua
                                 các trang mạng xã hội.</p>
                             <p class="eng">MSS shared information about the Instructor on MSS's website in the
@@ -747,7 +750,8 @@ if ($_SESSION["lang"] == "eng") {
                                 và ngược lại?
                             </div>
                             <div class="faq-label-text eng">
-                                While the program is ongoing, can I switch between the Essentials and Advantaged packages,
+                                While the program is ongoing, can I switch between the Essentials and Advantaged
+                                packages,
                                 and vice versa?
                             </div>
                             <div class="faq-label-icon">
@@ -806,7 +810,8 @@ if ($_SESSION["lang"] == "eng") {
                                         dịch vụ được bán ra. MSS xem học phí là một khoản đóng góp của các bạn giúp duy
                                         trì sự hoạt
                                         động của MSS.</p>
-                                    <p>Với định hướng hoạt động không vì lợi nhuận, toàn bộ học phí thu được sẽ được sử dụng
+                                    <p>Với định hướng hoạt động không vì lợi nhuận, toàn bộ học phí thu được sẽ được sử
+                                        dụng
                                         cho việc
                                         hoạt động, duy trì, và tiếp tục phát triển MSS. Các khoản đóng góp này, trước
                                         hết sẽ được sử
@@ -826,7 +831,8 @@ if ($_SESSION["lang"] == "eng") {
                                 <div class="eng">
                                     <p>MSS does not consider the tuition fees paid by students as a payment for a
                                         product or service. Instead, we view them as a contribution towards the
-                                        sustainable operation and development of MSS as a not-for-profit organization. These
+                                        sustainable operation and development of MSS as a not-for-profit organization.
+                                        These
                                         contributions will be used to cover the costs incurred during the design,
                                         preparation, and execution of the course, such as designing and maintaining the
                                         website, creating lectures, and providing support to the crew running the
@@ -900,7 +906,8 @@ if ($_SESSION["lang"] == "eng") {
                                     trước
                                     khi thanh toán.</div>
                                 <div class="eng">MSS does not offer tuition conversion between Essentials and Advantaged
-                                    packages, so students must carefully review the detailed information about the course
+                                    packages, so students must carefully review the detailed information about the
+                                    course
                                     before registering.</div>
                             </div>
 
@@ -984,3 +991,7 @@ if ($_SESSION["lang"] == "eng") {
         </div>
     </section>
 </main>
+
+<script>
+    $(".nav-link.faq").addClass('navActive');
+</script>

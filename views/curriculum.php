@@ -68,13 +68,15 @@ if ($_SESSION["lang"] == "eng") {
             <div class="row">
                 <div class="col-lg-3 p-3 col-6">
                     <!-- Button trigger modal -->
-                    <div data-toggle="modal" data-target="#Jessup-Moot" style="cursor:pointer" class="w-100 moot-tournaments">
+                    <div data-toggle="modal" data-target="#Jessup-Moot" style="cursor:pointer"
+                        class="w-100 moot-tournaments">
                         <img src="./assets/imgs/curriculum-1-1.png" alt="Jessup-Moot">
                         <h2 class="text-center m-3">Jessup Moot</h2>
                     </div>
 
                     <!-- Modal -->
-                    <div class="modal fade modal-xl" id="Jessup-Moot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal fade modal-xl" id="Jessup-Moot" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -82,16 +84,19 @@ if ($_SESSION["lang"] == "eng") {
                                     </h5>
                                     <h5 class="modal-title eng" id="exampleModalLongTitle">Prestigious International
                                         Moot Tournaments</h5>
-                                    <button type="button" class="close py-1 px-2" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close py-1 px-2" data-dismiss="modal"
+                                        aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
                                 <div class="modal-body">
 
                                     <div class="row">
-                                        <div class="col-lg-6 d-flex justify-contents-center align-items-center moot-tournaments-items">
+                                        <div
+                                            class="col-lg-6 d-flex justify-contents-center align-items-center moot-tournaments-items">
                                             <div>
-                                                <img src="./assets/imgs/curriculum-1.png" class="w-100" alt="“Jessup-Moot”">
+                                                <img src="./assets/imgs/curriculum-1.png" class="w-100"
+                                                    alt="“Jessup-Moot”">
                                                 <p class="credit mt-2">
                                                     cre: Phillip C. Jessup Moot - International Law Students Association
                                                 </p>
@@ -118,8 +123,8 @@ if ($_SESSION["lang"] == "eng") {
 
                                     </div>
                                 </div>
-                                
-                                
+
+
                             </div>
                         </div>
                     </div>
@@ -128,13 +133,15 @@ if ($_SESSION["lang"] == "eng") {
                 <div class="col-lg-3 p-3 col-6">
 
                     <!-- Button trigger modal -->
-                    <div data-toggle="modal" data-target="#Vis-Moot" style="cursor:pointer" class="w-100 moot-tournaments">
+                    <div data-toggle="modal" data-target="#Vis-Moot" style="cursor:pointer"
+                        class="w-100 moot-tournaments">
                         <img src="./assets/imgs/curriculum-2-1.png" alt="Vis-Moot">
                         <h2 class="text-center m-3">Vis Moot</h2>
                     </div>
 
                     <!-- Modal -->
-                    <div class="modal fade modal-xl" id="Vis-Moot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal fade modal-xl" id="Vis-Moot" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -142,7 +149,8 @@ if ($_SESSION["lang"] == "eng") {
                                     </h5>
                                     <h5 class="modal-title eng" id="exampleModalLongTitle">Prestigious International
                                         Moot Tournaments</h5>
-                                    <button type="button" class="close py-1 px-2" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close py-1 px-2" data-dismiss="modal"
+                                        aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
@@ -189,7 +197,7 @@ if ($_SESSION["lang"] == "eng") {
 
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -198,13 +206,15 @@ if ($_SESSION["lang"] == "eng") {
                 <!--  -->
                 <div class="col-lg-3 p-3 col-6">
                     <!-- Button trigger modal -->
-                    <div data-toggle="modal" data-target="#FDI-Moot" style="cursor:pointer" class="w-100 moot-tournaments">
+                    <div data-toggle="modal" data-target="#FDI-Moot" style="cursor:pointer"
+                        class="w-100 moot-tournaments">
                         <img src="./assets/imgs/curriculum-3-1.png" alt="FDI-Moot">
                         <h2 class="text-center m-3">FDI Moot</h2>
                     </div>
 
                     <!-- Modal -->
-                    <div class="modal fade modal-xl" id="FDI-Moot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal fade modal-xl" id="FDI-Moot" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -212,7 +222,8 @@ if ($_SESSION["lang"] == "eng") {
                                     </h5>
                                     <h5 class="modal-title eng" id="exampleModalLongTitle">Prestigious International
                                         Moot Tournaments</h5>
-                                    <button type="button" class="close py-1 px-2" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close py-1 px-2" data-dismiss="modal"
+                                        aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
@@ -255,7 +266,7 @@ if ($_SESSION["lang"] == "eng") {
 
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -263,19 +274,22 @@ if ($_SESSION["lang"] == "eng") {
                 <!--  -->
                 <div class="col-lg-3 p-3 col-6">
                     <!-- Button trigger modal -->
-                    <div data-toggle="modal" data-target="#IHL-Moot" style="cursor:pointer" class="w-100 moot-tournaments">
+                    <div data-toggle="modal" data-target="#IHL-Moot" style="cursor:pointer"
+                        class="w-100 moot-tournaments">
                         <img src="./assets/imgs/curriculum-4-1.png" alt="IHL-Moot">
                         <h2 class="text-center m-3 ">IHL Moot</h2>
                     </div>
 
                     <!-- Modal -->
-                    <div class="modal fade modal-xl" id="IHL-Moot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal fade modal-xl" id="IHL-Moot" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content ct-modal-height">
                                 <div class="modal-header">
                                     <h5 class="modal-title" id="exampleModalLongTitle">Giải đấu moot quốc tế danh giá
                                     </h5>
-                                    <button type="button" class="close py-1 px-2" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close py-1 px-2" data-dismiss="modal"
+                                        aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
@@ -320,7 +334,7 @@ if ($_SESSION["lang"] == "eng") {
             </div>
         </div>
     </section>
-    
+
     <section id="course-overview" class="c-table background-full text-light" style="background-color: #274069">
         <div class="container">
             <div class="title">
@@ -334,31 +348,44 @@ if ($_SESSION["lang"] == "eng") {
                             <p>Chương trình của MSS sẽ bao gồm 18 buổi, trong đó bao gồm:</p>
                             <div class="row offset-1 mb-3">
                                 <div class="col-lg-6">
-                                    <li>1 buổi <a href="#trial-section" class="text-light glow-white-bg">Học thử</a> (Miễn
+                                    <li>1 buổi <a href="#trial-section" class="text-light glow-white-bg">Học thử</a>
+                                        (Miễn
                                         phí)</li>
-                                    <li>11 buổi <a href="#overview-of-theoretical-sessions" class="text-light glow-white-bg">Lý thuyết</a> (Tối thứ Năm và sáng Chủ Nhật)
+                                    <li>11 buổi <a href="#overview-of-theoretical-sessions"
+                                            class="text-light glow-white-bg">Lý thuyết</a> (Tối thứ Năm và sáng Chủ
+                                        Nhật)
                                     </li>
-                                    <li>4 buổi <a href="#overview-of-mock-sessions" class="text-light glow-white-bg"> Thực
+                                    <li>4 buổi <a href="#overview-of-mock-sessions" class="text-light glow-white-bg">
+                                            Thực
                                             hành</a> (Sáng thứ Bảy và Chủ Nhật)</li>
                                 </div>
                                 <div class="col-lg-6">
-                                    <li>1 buổi <a href="#end-of-course-sessions" class="text-light glow-white-bg">Talkshow</a> (Sáng thứ Bảy hoặc Chủ Nhật)</li>
+                                    <li>1 buổi <a href="#end-of-course-sessions"
+                                            class="text-light glow-white-bg">Talkshow</a> (Sáng thứ Bảy hoặc Chủ Nhật)
+                                    </li>
                                     <li>1 buổi <a href="#end-of-course-sessions" class="text-light glow-white-bg">Bế
                                             giảng</a> (Sáng thứ Bảy hoặc Chủ Nhật)</li>
                                 </div>
 
                             </div>
                             <p style="padding-bottom: 0;">Tổng quan chương trình được thể hiện ở bảng sau:<br>
-                                <i>*Nhằm mục đích dễ theo dõi, các buổi học của gói<span class="bold-text glow-white-bg"> Essentials</span> dưới đây sẽ được tô <span class="bold-text glow-white-bg">màu xanh</span>. Học viên gói <span class="bold-text glow-white-bg">Essentials</span> sẽ tham gia với tư cách Quan sát viên trong các buổi thực hành.</i>
+                                <i>*Nhằm mục đích dễ theo dõi, các buổi học của gói<span
+                                        class="bold-text glow-white-bg"> Essentials</span> dưới đây sẽ được tô <span
+                                        class="bold-text glow-white-bg">màu xanh</span>. Học viên gói <span
+                                        class="bold-text glow-white-bg">Essentials</span> sẽ tham gia với tư cách Quan
+                                    sát viên trong các buổi thực hành.</i>
                             </p>
                         </div>
                         <div class="eng">
                             <p>The MSS course will consist of 18 sessions:</p>
                             <div class="row offset-1 mb-3">
                                 <div class="col-lg-6">
-                                    <li>1 <a href="#trial-section" class="text-light glow-white-bg">Trial session</a> (free
+                                    <li>1 <a href="#trial-section" class="text-light glow-white-bg">Trial session</a>
+                                        (free
                                         of charge)</li>
-                                    <li>11 <a href="#overview-of-theoretical-sessions" class="text-light glow-white-bg">Theoretical sessions</a> (Thursday evenings &
+                                    <li>11 <a href="#overview-of-theoretical-sessions"
+                                            class="text-light glow-white-bg">Theoretical sessions</a> (Thursday evenings
+                                        &
                                         Sunday mornings)</li>
                                     <li>4 <a href="#overview-of-mock-sessions" class="text-light glow-white-bg">Mock
                                             sessions</a> (Saturday mornings & Sunday mornings)</li>
@@ -374,8 +401,10 @@ if ($_SESSION["lang"] == "eng") {
 
                             <p>An overview of the program will be shown in the table below:<br>
                                 <i>*For your convenience,
-                                    theoretical sessions of the <span class="bold-text glow-white-bg">Essentials</span> package will be highlighted in
-                                    <span class="bold-text glow-white-bg">blue</span>. <span class="bold-text glow-white-bg">Essentials</span>
+                                    theoretical sessions of the <span class="bold-text glow-white-bg">Essentials</span>
+                                    package will be highlighted in
+                                    <span class="bold-text glow-white-bg">blue</span>. <span
+                                        class="bold-text glow-white-bg">Essentials</span>
                                     students
                                     will
                                     participate as Observers in mock sessions.</i>
@@ -761,7 +790,8 @@ if ($_SESSION["lang"] == "eng") {
         </div>
     </section>
 
-    <section id="trial-section" class="trial-session text-light background-full" style="background-image: url(./assets/imgs/curriculum-7.png);">
+    <section id="trial-section" class="trial-session text-light background-full"
+        style="background-image: url(./assets/imgs/curriculum-7.png);">
         <div class="container">
             <div class="d-flex justify-content-center align-items-center">
                 <div class="row">
@@ -819,7 +849,8 @@ if ($_SESSION["lang"] == "eng") {
     </section>
     <section id="overview-of-theoretical-sessions" class="w-100">
         <div class="position-relative">
-            <img src="./assets/imgs/curriculum-61.png" alt="mss-background" class="position-absolute" style="right: 0; top: -6.2rem">
+            <img src="./assets/imgs/curriculum-61.png" alt="mss-background" class="position-absolute"
+                style="right: 0; top: -6.2rem">
         </div>
         <div class="container mb-4 p-5 position-relative">
             <div class="title">
@@ -862,11 +893,15 @@ if ($_SESSION["lang"] == "eng") {
                         grasp the lesson in the best way possible. </p>
                     <p>The curriculum will follow the order of four main skill groups:
                     <ol>
-                        <li data-toggle="modal" data-target="#skill-before-moot">&emsp;<span class="glow-blue-bg">Sessions on pre-competition
+                        <li data-toggle="modal" data-target="#skill-before-moot">&emsp;<span
+                                class="glow-blue-bg">Sessions on pre-competition
                                 skills</span></li>
-                        <li data-toggle="modal" data-target="#after-recieved-mooting-test">&emsp;<span class="glow-blue-bg">Sessions on skills during the initial phase</span></li>
-                        <li data-toggle="modal" data-target="#written-advocacy-skills">&emsp;<span class="glow-blue-bg">Sessions on written advocacy skills</span></li>
-                        <li data-toggle="modal" data-target="#oral-advocacy-skills">&emsp;<span class="glow-blue-bg">Sessions on oral advocacy skills</span></li>
+                        <li data-toggle="modal" data-target="#after-recieved-mooting-test">&emsp;<span
+                                class="glow-blue-bg">Sessions on skills during the initial phase</span></li>
+                        <li data-toggle="modal" data-target="#written-advocacy-skills">&emsp;<span
+                                class="glow-blue-bg">Sessions on written advocacy skills</span></li>
+                        <li data-toggle="modal" data-target="#oral-advocacy-skills">&emsp;<span
+                                class="glow-blue-bg">Sessions on oral advocacy skills</span></li>
                     </ol>
                 </div>
             </div>
@@ -877,7 +912,8 @@ if ($_SESSION["lang"] == "eng") {
                 <div class="row">
                     <div class="col-lg-3 col-6">
                         <!-- Modal -->
-                        <div class="modal fade modal-xl" id="skill-before-moot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade modal-xl" id="skill-before-moot" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -893,7 +929,8 @@ if ($_SESSION["lang"] == "eng") {
                                     <div class="modal-body overflow-hidden modal-bg-griffin">
 
                                         <div class="position-relative col-lg-4  modal-img-none" style="z-index:0;">
-                                            <img src="./assets/imgs/curriculum-8.png" alt="mss-background" class="position-absolute w-100" style="left:0; top:0;">
+                                            <img src="./assets/imgs/curriculum-8.png" alt="mss-background"
+                                                class="position-absolute w-100" style="left:0; top:0;">
                                         </div>
                                         <div class="container position-relative" style="min-height: 80vh;">
                                             <div class="col-lg-8 offset-lg-4 .white-filter">
@@ -956,10 +993,12 @@ if ($_SESSION["lang"] == "eng") {
                                     </div>
                                     <div class="modal-footer">
                                         <div class="eng">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Close</button>
                                         </div>
                                         <div class="vn">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Đóng</button>
                                         </div>
 
                                     </div>
@@ -971,7 +1010,8 @@ if ($_SESSION["lang"] == "eng") {
                     <div class="col-lg-3 col-6">
                         <!-- Modal -->
 
-                        <div class="modal fade modal-xl" id="after-recieved-mooting-test" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade modal-xl" id="after-recieved-mooting-test" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -985,8 +1025,10 @@ if ($_SESSION["lang"] == "eng") {
                                     <div class="modal-body overflow-hidden modal-bg-griffin">
 
                                         <div class="position-relative">
-                                            <div class=" col-lg-4 position-absolute modal-img-none" style="right:0; top:0;">
-                                                <img src="./assets/imgs/curriculum-9.png" alt="mss-background" class="w-100">
+                                            <div class=" col-lg-4 position-absolute modal-img-none"
+                                                style="right:0; top:0;">
+                                                <img src="./assets/imgs/curriculum-9.png" alt="mss-background"
+                                                    class="w-100">
                                             </div>
                                             <div class="col-lg-8 position-relative">
                                                 <div class="title">
@@ -1062,10 +1104,12 @@ if ($_SESSION["lang"] == "eng") {
                                     </div>
                                     <div class="modal-footer">
                                         <div class="eng">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Close</button>
                                         </div>
                                         <div class="vn">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Đóng</button>
                                         </div>
 
                                     </div>
@@ -1077,16 +1121,19 @@ if ($_SESSION["lang"] == "eng") {
                     <!--  -->
                     <div class="col-lg-3 col-6">
                         <!-- Modal -->
-                        <div class="modal fade modal-xl" id="written-advocacy-skills" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade modal-xl" id="written-advocacy-skills" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content position-relative ">
                                     <div class="modal-body overflow-hidden ">
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
-                                        <div style="background-image: url(./assets/imgs/curriculum-101.png); background-size: cover;" class="p-5">
+                                        <div style="background-image: url(./assets/imgs/curriculum-101.png); background-size: cover;"
+                                            class="p-5">
                                             <div class="title text-end text-light">
-                                                <h5 class="vn display-1" style="text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3)">Kỹ năng viết bài
+                                                <h5 class="vn display-1"
+                                                    style="text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3)">Kỹ năng viết bài
                                                     biện hộ</h5>
                                                 <h5 class="eng display-1">Written advocacy skills</h5>
                                             </div>
@@ -1133,10 +1180,12 @@ if ($_SESSION["lang"] == "eng") {
                                     </div>
                                     <div class="modal-footer">
                                         <div class="eng">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Close</button>
                                         </div>
                                         <div class="vn">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Đóng</button>
                                         </div>
 
                                     </div>
@@ -1148,7 +1197,8 @@ if ($_SESSION["lang"] == "eng") {
                     <!--  -->
                     <div class="col-lg-3 col-6">
                         <!-- Modal -->
-                        <div class="modal fade modal-xl" id="oral-advocacy-skills" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade modal-xl" id="oral-advocacy-skills" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
 
@@ -1156,7 +1206,8 @@ if ($_SESSION["lang"] == "eng") {
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
-                                        <div style="background-image: url(./assets/imgs/curriculum-11.png); background-size: cover;background-position: right;" class="p-5 h-100 mobile-position-right-none">
+                                        <div style="background-image: url(./assets/imgs/curriculum-11.png); background-size: cover;background-position: right;"
+                                            class="p-5 h-100 mobile-position-right-none">
                                             <div class="title">
                                                 <h5 class="display-1 vn">Kỹ năng tranh tụng nói</h5>
                                                 <h5 class="display-1 eng">Oral advocacy skills</h5>
@@ -1199,11 +1250,13 @@ if ($_SESSION["lang"] == "eng") {
                                         </div>
                                     </div>
                                     <div class="modal-footer eng">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Close</button>
                                     </div>
                                     <div class="vn modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
-                                        </div>
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Đóng</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1211,7 +1264,8 @@ if ($_SESSION["lang"] == "eng") {
                 </div>
             </div>
     </section>
-    <section id="overview-of-mock-sessions" style="background-image: url(./assets/imgs/curriculum-13.png);" class="text-light background-full">
+    <section id="overview-of-mock-sessions" style="background-image: url(./assets/imgs/curriculum-13.png);"
+        class="text-light background-full">
         <div class="container p-5">
             <div class="row vn">
                 <div class="title col-lg-3">
@@ -1268,7 +1322,8 @@ if ($_SESSION["lang"] == "eng") {
                     <i>
                         <p class="bold-text">*Thông tin chi tiết về các Giám khảo khách mời sẽ được MSS đăng tải trên
                             các
-                            trang mạng xã hội, cũng như mục <span><a href="<?php echo BASE_URL . '/news&events' ?>" class="text-light glow-white-bg">Thông tin và Sự
+                            trang mạng xã hội, cũng như mục <span><a href="<?php echo BASE_URL . '/news&events' ?>"
+                                    class="text-light glow-white-bg">Thông tin và Sự
                                     kiện</a></span> của website.</p>
                     </i>
                 </div>
@@ -1281,14 +1336,16 @@ if ($_SESSION["lang"] == "eng") {
                         a special mooting-related topic to share with the students during the mock session.</p>
                     <i>
                         <p class="bold-text text-center">*MSS will post details of the Guest judges on social media
-                            sites, as well as in the <span><a href="<?php echo BASE_URL . '/news&events' ?>" class="text-light glow-white-bg"> News and Events</a></span> section of the website.
+                            sites, as well as in the <span><a href="<?php echo BASE_URL . '/news&events' ?>"
+                                    class="text-light glow-white-bg"> News and Events</a></span> section of the website.
                         </p>
                     </i>
                 </div>
             </div>
         </div>
     </section>
-    <section id="end-of-course-sessions" style="background-image: url(./assets/imgs/curriculum-14-1.png); background-size: cover; padding:0" class="p-5">
+    <section id="end-of-course-sessions"
+        style="background-image: url(./assets/imgs/curriculum-14-1.png); background-size: cover; padding:0" class="p-5">
         <p class="relative-anchor"><span id="about-anchor"></span></p>
         <div class="container">
             <div class="title">
@@ -1318,3 +1375,7 @@ if ($_SESSION["lang"] == "eng") {
         </div>
     </section>
 </main>
+
+<script>
+$(".nav-link.curriculum").addClass("navActive");
+</script>

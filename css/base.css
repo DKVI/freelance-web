@@ -302,6 +302,14 @@ h6 {
 .nav-link:hover {
   color: #843d43 !important;
 }
+.nav-link.navActive {
+  color: #843d43 !important;
+}
+
+.event::after,
+.endorsement::after {
+  display: none !important;
+}
 
 @media (min-width: 320px) and (max-width: 700px) {
   .subheader-left {

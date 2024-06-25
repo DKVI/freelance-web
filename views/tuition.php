@@ -107,62 +107,80 @@ if ($_SESSION["lang"] == "eng") {
     </div>
     <!-- end tuition -->
     <div style="background-color: #e5e5e5;">
-    <section id="nonprofits-organizations-and-collecting-tuition" style="background-image: url(./assets/imgs/curriculum-16.png); background-size: cover; background-position: center; margin-top:60px">
-        <div class=" container d-flex justify-content-center align-items-center p-5">
-            <div class="row" style="margin: 8rem 0">
-                <div class="col-lg-6 col-12">
-                    <div class="title">
-                        <h1 class="vn" style="font-size: 6rem;">Tổ chức không vì lợi nhuận <br>và thu phí</h1>
-                        <h1 class="ENG" style="font-size: 6rem;">Not-for-profit organizations <br> & Tuition fee</h1>
+        <section id="nonprofits-organizations-and-collecting-tuition"
+            style="background-image: url(./assets/imgs/curriculum-16.png); background-size: cover; background-position: center; margin-top:60px">
+            <div class=" container d-flex justify-content-center align-items-center p-5">
+                <div class="row" style="margin: 8rem 0">
+                    <div class="col-lg-6 col-12">
+                        <div class="title">
+                            <h1 class="vn" style="font-size: 6rem;">Tổ chức không vì lợi nhuận <br>và thu phí</h1>
+                            <h1 class="ENG" style="font-size: 6rem;">Not-for-profit organizations <br> & Tuition fee
+                            </h1>
+
+                        </div>
 
                     </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="vn">
+                            <p>MSS không xem học phí mà chúng tôi đưa ra cho chương trình là một mức giá cho một sản
+                                phẩm
+                                dịch
+                                vụ được bán ra. MSS xem học phí là một khoản đóng góp của các bạn giúp duy trì hoạt động
+                                của
+                                dự
+                                án.</p>
 
-                </div>
-                <div class="col-lg-6 col-12">
-                    <div class="vn">
-                        <p>MSS không xem học phí mà chúng tôi đưa ra cho chương trình là một mức giá cho một sản phẩm
-                            dịch
-                            vụ được bán ra. MSS xem học phí là một khoản đóng góp của các bạn giúp duy trì hoạt động của
-                            dự
-                            án.</p>
+                            <p>Với định hướng hoạt động không vì lợi nhuận, toàn bộ học phí thu được sẽ được sử dụng cho
+                                việc
+                                hoạt
+                                động, duy trì, và tiếp tục phát triển MSS. Các khoản đóng góp này, trước hết sẽ được sử
+                                dụng
+                                để
+                                cân bằng lại các chi phí phát sinh trong quá trình chuẩn bị và vận hành chương trình,
+                                như
+                                các
+                                vấn đề liên quan đến thiết kế hình ảnh, duy trì website, xây dựng bài giảng, hỗ trợ các
+                                nhân
+                                sư
+                                vận hành chương trình, v.v.</p>
 
-                        <p>Với định hướng hoạt động không vì lợi nhuận, toàn bộ học phí thu được sẽ được sử dụng cho việc
-                            hoạt
-                            động, duy trì, và tiếp tục phát triển MSS. Các khoản đóng góp này, trước hết sẽ được sử dụng
-                            để
-                            cân bằng lại các chi phí phát sinh trong quá trình chuẩn bị và vận hành chương trình, như
-                            các
-                            vấn đề liên quan đến thiết kế hình ảnh, duy trì website, xây dựng bài giảng, hỗ trợ các nhân
-                            sư
-                            vận hành chương trình, v.v.</p>
+                            <p>Ngoài ra, trên tinh thần hoạt động vì cộng đồng, trong tương lai, khi các chi phí ban đầu
+                                đã
+                                được
+                                cân bằng, MSS mong muốn sử dụng các khoản đóng góp này để tiếp tục hỗ trợ sự phát triển
+                                của
+                                cộng
+                                đồng mooting Việt Nam, như xây dựng quỹ khuyến học tài trợ cho các cá nhân muốn tham gia
+                                MSS,
+                                một kho lưu trữ các tài liệu hữu ích liên quan đến mooting, v.v.</p>
+                        </div>
+                        <div class="eng">
+                            <p>MSS does not view the tuition fees that you provide for the program as a price for a sold
+                                product or service. MSS sees the tuition fees as your contributions that help sustain
+                                the
+                                operation of the project.</p>
+                            <p>With a not-for-profit orientation, all collected tuition fees will be used for the
+                                operation,
+                                maintenance, and continued development of MSS. These contributions will first be used to
+                                balance out the costs incurred in the preparation and operation of the program, such as
+                                issues related to visual design, website maintenance, lecture development, support for
+                                program staff, etc.</p>
+                            <p>Furthermore, in the spirit of community-oriented activities, in the future, when the
+                                initial
+                                costs have been balanced out, MSS hopes to use these contributions to continue
+                                supporting
+                                the development of the Vietnamese mooting community, such as establishing a scholarship
+                                fund
+                                to sponsor individuals who want to participate in MSS, creating a repository of useful
+                                materials related to mooting, etc.</p>
+                        </div>
 
-                        <p>Ngoài ra, trên tinh thần hoạt động vì cộng đồng, trong tương lai, khi các chi phí ban đầu đã
-                            được
-                            cân bằng, MSS mong muốn sử dụng các khoản đóng góp này để tiếp tục hỗ trợ sự phát triển của
-                            cộng
-                            đồng mooting Việt Nam, như xây dựng quỹ khuyến học tài trợ cho các cá nhân muốn tham gia
-                            MSS,
-                            một kho lưu trữ các tài liệu hữu ích liên quan đến mooting, v.v.</p>
                     </div>
-                    <div class="eng">
-                        <p>MSS does not view the tuition fees that you provide for the program as a price for a sold
-                            product or service. MSS sees the tuition fees as your contributions that help sustain the
-                            operation of the project.</p>
-                        <p>With a not-for-profit orientation, all collected tuition fees will be used for the operation,
-                            maintenance, and continued development of MSS. These contributions will first be used to
-                            balance out the costs incurred in the preparation and operation of the program, such as
-                            issues related to visual design, website maintenance, lecture development, support for
-                            program staff, etc.</p>
-                        <p>Furthermore, in the spirit of community-oriented activities, in the future, when the initial
-                            costs have been balanced out, MSS hopes to use these contributions to continue supporting
-                            the development of the Vietnamese mooting community, such as establishing a scholarship fund
-                            to sponsor individuals who want to participate in MSS, creating a repository of useful
-                            materials related to mooting, etc.</p>
-                    </div>
-
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
     </div>
 </main>
+<script>
+$(".nav-link.tuition").addClass('navActive');
+</script>

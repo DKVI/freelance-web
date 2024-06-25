@@ -34,11 +34,18 @@ if ($_SESSION["lang"] == "eng") {
                             cạnh đó, mooting tạo cơ hội để bạn gặp gỡ, giao lưu với nhiều người giỏi
                             trong ngành, những người có cùng đam mê, sở thích, những “đồng nghiệp tương lai”
                             của các bạn sau này.</p>
-                        
-                        <p>Trong bất kỳ chuyện chinh phục nào, sự yêu và hiểu đối phương luôn là điều tối quan trọng. Vậy nên, tại MSS, mình, với tư cách là Nhà sáng lập và Người hướng dẫn, hy vọng có thể khiến bạn “yêu” và “hiểu” mooting hơn qua những bài giảng, những lời khuyên và những câu chuyện được chia sẻ. Và rồi, kể cả khi chinh phục được cuộc thi moot nào đó hay không, các bạn đều có thể trở thành mình – người truyền cảm hứng, dẫn dắt cho các thế hệ mooter tiếp theo. Từ đó, tất cả chúng ta sẽ góp phần nâng cao chất lượng và trình độ chung của cộng đồng mooting tại Việt Nam.</p>
+
+                        <p>Trong bất kỳ chuyện chinh phục nào, sự yêu và hiểu đối phương luôn là điều tối quan trọng.
+                            Vậy nên, tại MSS, mình, với tư cách là Nhà sáng lập và Người hướng dẫn, hy vọng có thể khiến
+                            bạn “yêu” và “hiểu” mooting hơn qua những bài giảng, những lời khuyên và những câu chuyện
+                            được chia sẻ. Và rồi, kể cả khi chinh phục được cuộc thi moot nào đó hay không, các bạn đều
+                            có thể trở thành mình – người truyền cảm hứng, dẫn dắt cho các thế hệ mooter tiếp theo. Từ
+                            đó, tất cả chúng ta sẽ góp phần nâng cao chất lượng và trình độ chung của cộng đồng mooting
+                            tại Việt Nam.</p>
                         <p>Cảm ơn các bạn đã cho mình và MSS cơ hội được đồng hành cùng với các bạn trong chặng đường
                             mooting. Mình hy vọng sẽ được gặp các bạn tại MSS. </p>
-                        <h5 class="text-end" data-toggle="modal" data-target="#exampleModalLong" style="cursor: pointer">Đọc thêm thông tin về
+                        <h5 class="text-end" data-toggle="modal" data-target="#exampleModalLong"
+                            style="cursor: pointer">Đọc thêm thông tin về
                             Nhà sáng lập tại đây</h5>
                     </div>
                     <div class="eng">
@@ -68,7 +75,8 @@ if ($_SESSION["lang"] == "eng") {
                 </div>
 
                 <!-- Modal -->
-                <div class="modal fade bd-example-modal-lg" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal fade bd-example-modal-lg" id="exampleModalLong" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
 
                         <div class="modal-content">
@@ -76,16 +84,16 @@ if ($_SESSION["lang"] == "eng") {
                                 <img src="./assets/imgs/profilev-Eng.png" alt="" class="w-100 h-100 eng">
                                 <img src="./assets/imgs/profilev-Vie.png" alt="" class="w-100 h-100 vn">
                             </div>
-                            
-                            <div class="modal-footer">
-                                        <div class="eng">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                        </div>
-                                        <div class="vn">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
-                                        </div>
 
-                                    </div>
+                            <div class="modal-footer">
+                                <div class="eng">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                                <div class="vn">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -104,7 +112,8 @@ if ($_SESSION["lang"] == "eng") {
                 </div>
                 <h1 class="eng text-center title">Our mission</h1>
             </div>
-            <div class="col-lg-8 vn shadow ct-text our-mission-vn-content" style="margin-top: -7rem; padding-left: 30px">
+            <div class="col-lg-8 vn shadow ct-text our-mission-vn-content"
+                style="margin-top: -7rem; padding-left: 30px">
                 <p>MSS ra đời với hy vọng huấn luyện học viên một cách chuyên nghiệp - đầy đủ, hỗ trợ thí sinh tránh gặp
                     các khó khăn trong hành trình chinh chiến tại các giải đấu moot từ trong nước đến nước ngoài. Với tư
                     cách là một dự án đào tạo chuyên nghiệp về mooting đầu tiên tại Việt Nam, MSS kỳ vọng có thể đem lại
@@ -136,7 +145,8 @@ if ($_SESSION["lang"] == "eng") {
             </div>
         </div>
     </section>
-    <section id="symbol-and-title-of-MSS" class="mascot-motto background-full" style="padding-top:0; background-image: url(./assets/imgs/about-3-1.png)">
+    <section id="symbol-and-title-of-MSS" class="mascot-motto background-full"
+        style="padding-top:0; background-image: url(./assets/imgs/about-3-1.png)">
         <p class="relative-anchor"><span id="about-anchor"></span></p>
         <div class="container" style="padding: 0 0 5rem">
             <div class="title text-end px-5">
@@ -202,18 +212,27 @@ if ($_SESSION["lang"] == "eng") {
             </div>
 
             <p class="ab-slogan"><strong><em> Non est ad astra mollis e terris via</em></strong></p>
-            <p class="text-end vn" style="font-family: 'Times New Roman', Times, serif; margin-top: -10px"><em> - Megara, Hercales Furens
+            <p class="text-end vn" style="font-family: 'Times New Roman', Times, serif; margin-top: -10px"><em> -
+                    Megara, Hercales Furens
                     của Seneca, dòng 437</em></p>
             <p class="text-end eng" style=" margin-top: -10px"><em> - Megara, Hercales Furens
                     of Seneca, line 437</em></p>
             <div class="philosophy-text">
                 <p class="vn text-center"><em>*Tạm dịch: “Chẳng có con đường nào dễ dàng để vươn tới những vì sao”</em>
                 </p>
-                <p class="vn"> Đây dường như là phép ẩn dụ hoàn hảo khi nói về hành trình thi đấu moot của bất cứ ai. Bởi lẽ, mooting có thể trở thành “ngôi sao may mắn” và làm thay đổi tích cực tương lai của ai đó trong nghề luật. Nhưng để hái được ngôi sao như vậy, các mooter phải trải qua rất nhiều khó khăn, thậm chí là thất bại hết lần này đến lần khác.
+                <p class="vn"> Đây dường như là phép ẩn dụ hoàn hảo khi nói về hành trình thi đấu moot của bất cứ ai.
+                    Bởi lẽ, mooting có thể trở thành “ngôi sao may mắn” và làm thay đổi tích cực tương lai của ai đó
+                    trong nghề luật. Nhưng để hái được ngôi sao như vậy, các mooter phải trải qua rất nhiều khó khăn,
+                    thậm chí là thất bại hết lần này đến lần khác.
                 </p>
-                <p class="vn"> MSS chọn đây là triết lý của dự án, một là để nhắc nhở mình về sứ mệnh xây dựng một bước đệm nền tảng cho các học viên tiếp tục hành trình chinh phục mooting. Đồng thời, thông qua triết lý này, MSS cũng muốn nhắn nhủ đến các học viên rằng chặng đường với mooting còn dài và khó khăn, vì thế đừng chủ quan nhưng cũng đừng nản lòng. Sau tất cả, MSS tin rằng bạn sẽ luôn nhận được giá trị xứng đáng với những gì đã bỏ ra.</p>
+                <p class="vn"> MSS chọn đây là triết lý của dự án, một là để nhắc nhở mình về sứ mệnh xây dựng một bước
+                    đệm nền tảng cho các học viên tiếp tục hành trình chinh phục mooting. Đồng thời, thông qua triết lý
+                    này, MSS cũng muốn nhắn nhủ đến các học viên rằng chặng đường với mooting còn dài và khó khăn, vì
+                    thế đừng chủ quan nhưng cũng đừng nản lòng. Sau tất cả, MSS tin rằng bạn sẽ luôn nhận được giá trị
+                    xứng đáng với những gì đã bỏ ra.</p>
 
-                <p class="text-center eng"><em>*Translated as "There is no easy path from the earth to the stars"</em></p>
+                <p class="text-center eng"><em>*Translated as "There is no easy path from the earth to the stars"</em>
+                </p>
                 <p class="eng">That slogan seems to be a fitting metaphor for the challenges one
                     faces
                     in mooting. Because indeed, mooting can become a "lucky star" and positively change someone's future
@@ -382,3 +401,7 @@ if ($_SESSION["lang"] == "eng") {
         </div>
     </section>
 </main>
+
+<script>
+$(".nav-link.about").addClass('navActive');
+</script>
