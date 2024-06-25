@@ -49,8 +49,7 @@ searchBar.onsubmit = (e) => {
 showMoreBtn.onclick = () => {
     searchBar.submit();
 }
-//Lấy dữ liệu từ file handleSearch file này sẽ trả về dữ liệu từ db và đây là 1 hành động bất đồng bộ
-//Do phải đọc file nên JS sẽ chuyển hành động này qua 1 vùng nhớ khác do đó phải sử dụng promise và async await để đồng bộ hành vi
+
 const getPostByKeyWord = (keyword) => {
     return new Promise(async (resolve, reject) => {
         await fetch(`<?php echo BASE_URL ?>/controllers/handleSearch.php?keyword=${keyword}`)
