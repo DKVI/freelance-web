@@ -8,6 +8,8 @@ include_once "../models/message.php";
 include_once "../models/admin.php";
 include_once "../models/post.php";
 include_once "../utils/index.php";
+include_once "../models/email.php";
+
 //instance database
 $conn = require "../inc/db.php";
 
@@ -17,29 +19,30 @@ use PHPMailer\PHPMailer\Exception;
 require '../phpmailer/src/Exception.php';
 require '../phpmailer/src/PHPMailer.php';
 require '../phpmailer/src/SMTP.php';
-$mail = new PHPMailer(true);                              // Khai báo hàm
+$mail = new PHPMailer(true);
+$serverMail = Email::getEmail($conn, 1);                         // Khai báo hàm
 $email = '';
 if (isset($_GET['email'])) {
-    $email = $_GET["email"];
-    $name = $_GET["name"];
-    try {
-        //Server settings
-        $mail->isSMTP();
-        $mail->Host       = 'smtp.hostinger.com';
-        $mail->SMTPAuth   = true;
-        $mail->Username   = 'info@mootingsummerschool.com';
-        $mail->Password   = 'Tw!stedF4te';
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-        $mail->Port       = 465;
-        //Recipients
-        $mail->setFrom('info@mootingsummerschool.com', 'Mooting Summer School');
-        $mail->addAddress($email, $name);     //Add a recipient
+  $email = $_GET["email"];
+  $name = $_GET["name"];
+  try {
+    //Server settings
+    $mail->isSMTP();
+    $mail->Host       = 'smtp.hostinger.com';
+    $mail->SMTPAuth   = true;
+    $mail->Username   = $serverMail->username;
+    $mail->Password   = $serverMail->password;
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+    $mail->Port       = 465;
+    //Recipients
+    $mail->setFrom($serverMail->username, 'Mooting Summer School');
+    $mail->addAddress($email, $name);     //Add a recipient
 
-        //Content
-        $mail->isHTML(true);
-        $mail->CharSet = 'UTF-8';
-        $mail->Subject = "Thank you for your message!";
-        $mail->Body    = 'Dear ' . $name . ',
+    //Content
+    $mail->isHTML(true);
+    $mail->CharSet = 'UTF-8';
+    $mail->Subject = "Thank you for your message!";
+    $mail->Body    = 'Dear ' . $name . ',
                             <br> <br>
                             Thank you for taking the time to reach out to us. We appreciate your feedback and will do our best to respond to your inquiry as soon as possible.
                             <br><br>     
@@ -238,10 +241,10 @@ if (isset($_GET['email'])) {
     </div>
   </body>
 </html>';
-        $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
-        $mail->send();
-        echo "Message sent successfully!";
-    } catch (Exception $e) {
-        echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
-    }
+    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+    $mail->send();
+    echo "Message sent successfully!";
+  } catch (Exception $e) {
+    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+  }
 }
