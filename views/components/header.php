@@ -60,8 +60,11 @@ if ((strpos($current_url, "&language=vn"))) {
                                             MSS</a></li>
                                     <hr class="dropdown-divider">
                                     <li><a class="dropdown-item" href="<?php echo BASE_URL . '/about#symbol-and-title-of-MSS' ?>">Biểu
-                                            tượng và triết lý của
+                                            tượng của
                                             MSS</a></li>
+                                            <hr class="dropdown-divider">
+                                    <li><a class="dropdown-item" href="<?php echo BASE_URL . '/about#philosophy' ?>">Triết lý của MSS</a>
+                                            </li>
                                     <hr class="dropdown-divider">
 
                                     <li><a class="dropdown-item" href="<?php echo BASE_URL . '/about#MSS-team' ?>">Đội
@@ -86,13 +89,9 @@ if ((strpos($current_url, "&language=vn"))) {
                                             quan
                                             chương trình</a></li>
                                     <hr class="dropdown-divider">
-                                    <li><a class="dropdown-item" href="<?php echo BASE_URL . '/curriculum#overview-of-theoretical-sessions' ?>">Tổng
-                                            quan
-                                            các buổi lý thuyết</a></li>
+                                    <li><a class="dropdown-item" href="<?php echo BASE_URL . '/curriculum#overview-of-theoretical-sessions' ?>">Các buổi lý thuyết</a></li>
                                     <hr class="dropdown-divider">
-                                    <li><a class="dropdown-item" href="<?php echo BASE_URL . '/curriculum#overview-of-mock-sessions' ?>">Tổng
-                                            quan
-                                            các buổi thực hành</a></li>
+                                    <li><a class="dropdown-item" href="<?php echo BASE_URL . '/curriculum#overview-of-mock-sessions' ?>">Các buổi thực hành</a></li>
                                     <hr class="dropdown-divider">
                                     <li><a class="dropdown-item" href="<?php echo BASE_URL . '/curriculum#end-of-course-sessions' ?>">Các
                                             buổi
@@ -161,7 +160,7 @@ if ((strpos($current_url, "&language=vn"))) {
                                             Emblem</a>
                                     </li>
                                     <hr class="dropdown-divider">
-                                    <li><a class="dropdown-item" href="<?php echo BASE_URL . '/about#philosophy' ?>">Philosophy</a>
+                                    <li><a class="dropdown-item" href="<?php echo BASE_URL . '/about#philosophy' ?>">Our Philosophy</a>
                                     </li>
                                     <hr class="dropdown-divider">
 
@@ -184,11 +183,9 @@ if ((strpos($current_url, "&language=vn"))) {
                                     <li><a class="dropdown-item" href="<?php echo BASE_URL . '/curriculum#course-overview' ?>">Course
                                             overview</a></li>
                                     <hr class="dropdown-divider">
-                                    <li><a class="dropdown-item" href="<?php echo BASE_URL . '/curriculum#overview-of-theoretical-sessions' ?>">Overview
-                                            of theoretical sessions</a></li>
+                                    <li><a class="dropdown-item" href="<?php echo BASE_URL . '/curriculum#overview-of-theoretical-sessions' ?>">Theoretical sessions</a></li>
                                     <hr class="dropdown-divider">
-                                    <li><a class="dropdown-item" href="<?php echo BASE_URL . '/curriculum#overview-of-mock-sessions' ?>">Overview
-                                            of mock sessions</a></li>
+                                    <li><a class="dropdown-item" href="<?php echo BASE_URL . '/curriculum#overview-of-mock-sessions' ?>">Mock sessions</a></li>
                                     <hr class="dropdown-divider">
                                     <li><a class="dropdown-item" href="<?php echo BASE_URL . '/curriculum#end-of-course-sessions' ?>">Closing
                                             session</a></li>

@@ -38,7 +38,7 @@ if ($_SESSION["lang"] == "eng") {
                     <div class="eng">
                         <p>MSS will offer two different tuition packages for the official course. Students can consider
                             and choose the package that best suits their current needs. As it is the first year of the
-                            project, MSS is offering preferential tuition fees with two study packages available as
+                            project, MSS is offering preferential tuition fees with two tuition packages available as
                             follows:</p>
                         <ol>
                             <li>Essentials: 1,199,000 VND</li>

@@ -1224,10 +1224,10 @@ footer {
   .label {
     width: 100% !important;
   }
-  .modal-bg-griffin {
-    background-image: url(../assets/imgs/endorsement-mobile-bg.png);
-    background-size: cover;
-  }
+  /*.modal-bg-griffin {*/
+  /*  background-image: url(../assets/imgs/endorsement-mobile-bg.png);*/
+  /*  background-size: cover;*/
+  /*}*/
   .modal-img-none {
     display: none;
   }

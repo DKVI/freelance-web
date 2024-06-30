@@ -35,7 +35,7 @@ if ($_SESSION["lang"] == "eng") {
                         biện hộ và biện hộ cho một bên hoặc chống lại một bên trong phiên tranh tụng.</p>
                     <p>Trên thế giới hiện nay, các quốc gia và khu vực có nền luật pháp phát triển thường đầu tư và chú
                         trọng đẩy mạnh hoạt động Mooting cho các sinh viên trường luật.</p>
-                    <p>Lợi ích của Mooting:</p>
+                    <p>Việc tham gia các cuộc thi và sự kiện mooting có thể mang lại nhiều lợi ích đáng kể cho sinh viên luật và những người muốn trở thành luật sư:</p>
                     <ul>
                         <li>Giúp sinh viên được rèn luyện tư duy phản biện, kỹ năng thuyết phục</li>
                         <li>Tăng cường trình độ nghiên cứu, hiểu biết và áp dụng pháp luật</li>
@@ -56,7 +56,7 @@ if ($_SESSION["lang"] == "eng") {
                     <ul>
                         <li>Helping students develop critical thinking and persuasive skills</li>
                         <li>Enhancing their research abilities, legal knowledge, and application</li>
-                        <li>Providing an opportunity for students to build networks within the legal community</li>
+                        <li>Providing opportunities for students to build networks within the legal community</li>
                         <li>Helping build confidence and self-assurance in one's legal abilities</li>
                     </ul>
                 </div>
@@ -345,13 +345,13 @@ if ($_SESSION["lang"] == "eng") {
                 <div class="col-lg-10 row d-flex">
                     <div class="m-auto col-10">
                         <div class="vn">
-                            <p>Chương trình của MSS sẽ bao gồm 18 buổi, trong đó bao gồm:</p>
+                            <p>Chương trình của MSS sẽ bao gồm 17 buổi, trong đó bao gồm:</p>
                             <div class="row offset-1 mb-3">
                                 <div class="col-lg-6">
                                     <li>1 buổi <a href="#trial-section" class="text-light glow-white-bg">Học thử</a>
                                         (Miễn
                                         phí)</li>
-                                    <li>11 buổi <a href="#overview-of-theoretical-sessions"
+                                    <li>10 buổi <a href="#overview-of-theoretical-sessions"
                                             class="text-light glow-white-bg">Lý thuyết</a> (Tối thứ Năm và sáng Chủ
                                         Nhật)
                                     </li>
@@ -377,13 +377,13 @@ if ($_SESSION["lang"] == "eng") {
                             </p>
                         </div>
                         <div class="eng">
-                            <p>The MSS course will consist of 18 sessions:</p>
+                            <p>The MSS course will consist of 17 sessions:</p>
                             <div class="row offset-1 mb-3">
                                 <div class="col-lg-6">
                                     <li>1 <a href="#trial-section" class="text-light glow-white-bg">Trial session</a>
                                         (free
                                         of charge)</li>
-                                    <li>11 <a href="#overview-of-theoretical-sessions"
+                                    <li>10 <a href="#overview-of-theoretical-sessions"
                                             class="text-light glow-white-bg">Theoretical sessions</a> (Thursday evenings
                                         &
                                         Sunday mornings)</li>
@@ -1275,8 +1275,8 @@ if ($_SESSION["lang"] == "eng") {
                     <p>MSS tin rằng các buổi lý thuyết sẽ không bao giờ phát huy được ý nghĩa thực sự nếu không được vận
                         dụng vào thực tế. Vì thế, MSS tổ chức hai đợt thực hành như sau:</p>
                     <ul style="list-style: none;">
-                        <li>(i) Đợt 1: Hai buổi thực hành sau khi kết thúc bốn buổi lý thuyết đầu tiên</li>
-                        <li>(ii) Đợt 2: Hai buổi thực hành sau khi kết thúc tất cả tám buổi lý thuyết</li>
+                        <li>Đợt 1: Hai buổi thực hành sau khi kết thúc bốn buổi lý thuyết đầu tiên</li>
+                        <li>Đợt 2: Hai buổi thực hành sau khi kết thúc tất cả mười buổi lý thuyết</li>
                     </ul>
 
                     <p>Việc phân bổ như thế nhằm tạo điều kiện để học viên từng bước áp dụng những gì đã học vào thực
@@ -1298,15 +1298,15 @@ if ($_SESSION["lang"] == "eng") {
                     <ul style="list-style: none;">
                         <li>Phase 1: Two mock sessions following the completion of the initial four theoretical sessions
                         </li>
-                        <li>Phase 2: Two mock sessions following the completion of all eight theoretical sessions</li>
+                        <li>Phase 2: Two mock sessions following the completion of all ten theoretical sessions</li>
                     </ul>
 
                     <p>The purpose of these mock sessions is to allow students to apply what they have learned into
                         practice gradually. On the other hand, by comparing their performance between the batches of
                         practice sessions, students can self-assess their progress and the quality of the course.</p>
                     <p>Furthermore, to create opportunities for students to broaden their circle of connections, MSS
-                        will randomly divide and group teams to compete. The match list, roles, and case studies for the
-                        matches will be announced during the first formal session</p>
+                        will randomly divide and group teams to compete. The match list, roles (i.e., claimant or respondent), and case studies for the
+                        matches will be announced during the housekeeping session.</p>
                 </div>
             </div>
             <img src="./assets/imgs/Council.jpg" alt="mock-sessions" class="w-100">

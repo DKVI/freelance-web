@@ -7,7 +7,8 @@ if ($_SESSION["lang"] == "eng") {
 ?>
 <main id="endorsement" style="min-height: 0; overflow-x: hidden;">
     <p class="relative-anchor" style="height: 110px"><span id="about-anchor"></span></p>
-    <section class="background-full section-active position-relative mt-5" style="background-image: url(./assets/imgs/endorsement-bg.png);">
+    <!--<section class="background-full section-active position-relative mt-5" style="background-image: url(./assets/imgs/endorsement-bg.png);">-->
+    <section class="background-full section-active position-relative mt-5" style="background-image: url('https://lh3.googleusercontent.com/pw/AP1GczOZ67A9rGziVh1G2N7TfGl1dgXhNQcCqvwKZpN8Un5Cs-FeUve3Owpc-QTbatdeVXRoQnvG7fTd8vGtwir9otg3mTXW2JnrlCBUqhc0AvZZRmQNl-n96hat_e4HI04BAnt8C2iu5zKFIYVmmlFChkCw=w2228-h1418-s-no?authuser=0)'">
         <div class="container">
             <div class="title">
                 <h1 class="vn">Bảo chứng</h1>
@@ -42,7 +43,8 @@ if ($_SESSION["lang"] == "eng") {
                                     <div class="carousel-item active">
                                         <div class="row">
                                             <div class="col-lg-6">
-                                                <img src="./assets/imgs/endorsement/mooters-1.png" alt="mss-endorsement">
+                                                <!--<img src="./assets/imgs/endorsement/mooters-1.png" alt="mss-endorsement">-->
+                                                <img src="https://lh3.googleusercontent.com/pw/AP1GczPjlIjnKvTilmvNMDu1MJ8UP52ScMuOG1yv8IZAV_YK_L3dWDSvspheq7zDjnO9pIVGqGR84tMO1VHC6I-N3MpTHIUmsru0stmisMECVc1vQL63eErwRGbwvnWDkQloE6WlkYjzD57y4HktDubqPZg-=w800-h494-s-no?authuser=0" alt="mss-endorsement">
                                             </div>
                                             <div class="col-lg-6 d-flex align-items-center px-5">
                                                 <div class="vn">
@@ -81,7 +83,8 @@ if ($_SESSION["lang"] == "eng") {
                                     <div class="carousel-item">
                                         <div class="row">
                                             <div class="col-lg-6">
-                                                <img src="./assets/imgs/endorsement/mooters-2.png" alt="mss-endorsement">
+                                                <!--<img loading="lazy" src="./assets/imgs/endorsement/mooters-2.png" alt="mss-endorsement">-->
+                                                <img src="https://lh3.googleusercontent.com/pw/AP1GczNhwyYhOOc1985S3Meumz38Lra2Zcei8BRT16aUcCxQIc7-tZcCa1u8nMqR0RdfhB2L87HamdUxa_ug_ayWyqLrk9NZYMV7u4ddxzSTNP9BOvD4TrU3fWhYWQP-tvwBXf-RKA33wZDw5lWBgq8y0WPi=w800-h494-s-no?authuser=0" alt="mss-endorsement">
                                             </div>
                                             <div class="col-lg-6 d-flex align-items-center px-5">
                                                 <div class="vn">
@@ -129,7 +132,8 @@ if ($_SESSION["lang"] == "eng") {
                                     <div class="carousel-item">
                                         <div class="row">
                                             <div class="col-lg-6">
-                                                <img src="./assets/imgs/endorsement/mooters-3.png" alt="mss-endorsement">
+                                                <!--<img loading="lazy" src="./assets/imgs/endorsement/mooters-3.png" alt="mss-endorsement">-->
+                                                <img src="https://lh3.googleusercontent.com/pw/AP1GczPzEHyFw7mUHsQmzDZ9QFLeGVdwOmbMGbDay3uQlJICQygtQNoUlB-KzdCL3u9crManfcKo2QzZHmadh6mM3MnGQ198j2o6PN_mL8teFzon5pSvuEY_S3Xi-DYQR77gh-Kv9yvxyWtklv1sSaDTJRg0=w800-h494-s-no?authuser=0" alt="mss-endorsement">
                                             </div>
                                             <div class="col-lg-6 d-flex align-items-center px-5">
                                                 <div class="vn">
@@ -174,7 +178,8 @@ if ($_SESSION["lang"] == "eng") {
                                     <div class="carousel-item">
                                         <div class="row">
                                             <div class="col-lg-6">
-                                                <img src="./assets/imgs/endorsement/mooters-4.png" alt="mss-endorsement">
+                                                <!--<img loading="lazy" src="./assets/imgs/endorsement/mooters-4.png" alt="mss-endorsement">-->
+                                                <img src="https://lh3.googleusercontent.com/pw/AP1GczOV7ki8N4Lp-_zkBht61sPec1zW6TU0nDncFl5xo01dSODDS2eOmKSzAjsd2aGAd64_RGmiaJs8ndErOPIkC8Dnpt8S63ynZovFbPqVixottEEYFwhluVVL3_llNCkGr_aP9FBad-F7WruE5logNMl4=w800-h494-s-no?authuser=0" alt="mss-endorsement">
                                             </div>
                                             <div class="col-lg-6 d-flex align-items-center px-5">
                                                 <div class="vn">
@@ -213,7 +218,8 @@ if ($_SESSION["lang"] == "eng") {
                                     <div class="carousel-item">
                                         <div class="row">
                                             <div class="col-lg-6">
-                                                <img src="./assets/imgs/endorsement/mooters-5.png" alt="mss-endorsement">
+                                                <!--<img src="./assets/imgs/endorsement/mooters-5.png" alt="mss-endorsement">-->
+                                                <img src="https://lh3.googleusercontent.com/pw/AP1GczPEVS_0XvhbEGqjJdIlrw3T2xXFVV7mZZZZK4OEQOgrhsGGOBZmyNDKwgxyXNbiwXxH7W9Bh7t-FYdtKWLUL6f8KjhYnPpG9vqztPuiT6ayA94x7T1fRqh_sNo-KXjzUQQwTVw8P4LygDa19s8cpJJY=w800-h494-s-no?authuser=0" alt="mss-endorsement">
                                             </div>
                                             <div class="col-lg-6 d-flex align-items-center px-5">
                                                 <div class="vn">
@@ -251,7 +257,8 @@ if ($_SESSION["lang"] == "eng") {
                                     <div class="carousel-item">
                                         <div class="row">
                                             <div class="col-lg-6">
-                                                <img src="./assets/imgs/endorsement/mooters-6.png" alt="mss-endorsement">
+                                                <!--<img loading="lazy" src="./assets/imgs/endorsement/mooters-6.png" alt="mss-endorsement">-->
+                                                <img src="https://lh3.googleusercontent.com/pw/AP1GczP3ostvP30QiOzy2VnYEnzjZwl4GRLStnhgwE3ZMKu2a4HR16gJUfm-EfPP42DNuAdn6MeB_i6UJlsmW_QvGIRTpzgQx47vpGCTl7XZo4PbEGhM6m3guJ8NV_lFhxeAY8THrH8dQ6TC6iLLt4PplYUR=w800-h494-s-no?authuser=0" alt="mss-endorsement">
                                             </div>
                                             <div class="col-lg-6 d-flex align-items-center px-5">
                                                 <div class="vn">
@@ -296,7 +303,8 @@ if ($_SESSION["lang"] == "eng") {
                                     <div class="carousel-item">
                                         <div class="row">
                                             <div class="col-lg-6">
-                                                <img src="./assets/imgs/endorsement/mooters-7.png" alt="mss-endorsement">
+                                                <!--<img loading="lazy" src="./assets/imgs/endorsement/mooters-7.png" alt="mss-endorsement">-->
+                                                <img src="https://lh3.googleusercontent.com/pw/AP1GczN40RiCCfET0h3Z3QCHbzyu030245Z7FvNIjAA6S7jqdmo3STLJOpeEdJ2L83FJ1t3rMkv5qe6SWO0KNQCRX3FjA9Ld_7u5cekw0NlcUWDW2LixmmJcAAj6HfSKbXUZALq4qjMacadYzu9bFFKBo-Y2=w800-h494-s-no?authuser=0" alt="mss-endorsement">
                                             </div>
                                             <div class="col-lg-6 d-flex align-items-center px-5">
                                                 <div class="vn">
@@ -336,7 +344,8 @@ if ($_SESSION["lang"] == "eng") {
                                     <div class="carousel-item">
                                         <div class="row">
                                             <div class="col-lg-6">
-                                                <img src="./assets/imgs/endorsement/mooters-8.png" alt="mss-endorsement">
+                                                <!--<img loading="lazy" src="./assets/imgs/endorsement/mooters-8.png" alt="mss-endorsement">-->
+                                                <img src="https://lh3.googleusercontent.com/pw/AP1GczOANkaTR3Quq8k09SZcxXn4H8C9x-_Z_NFxA8l8M_v6Lfqh30NqzlJ2R2OVh1ElAREbEtK5QOBrN5hoIXjYPKl_9BPHkO8ZDkn29t7pPJ40bkN25Kfd49pe1veXZzlucpM8Y3tUAKxofbofB-3d0eJs=w800-h494-s-no?authuser=0" alt="mss-endorsement">
                                             </div>
                                             <div class="col-lg-6 d-flex align-items-center px-5">
                                                 <div class="vn">
@@ -377,7 +386,8 @@ if ($_SESSION["lang"] == "eng") {
                                     <div class="carousel-item">
                                         <div class="row">
                                             <div class="col-lg-6">
-                                                <img src="./assets/imgs/endorsement/mooters-9.png" alt="mss-endorsement">
+                                                <!--<img loading="lazy" src="./assets/imgs/endorsement/mooters-9.png" alt="mss-endorsement">-->
+                                                <img src="https://lh3.googleusercontent.com/pw/AP1GczOkD2TIO4qHK5XMkWCW7pGWb6VLuArjOerR8OwTr8h1UDkk2d2uCdv0YM1Tr9lPWkg8cme0ViiZKDEGSizsuEboiuI6Ya4LQTfq2Uc3LGLNp5tSRlVBhyIb9YNqlhJy0PJo--JSywZZoL6F9GwCYfTD=w800-h494-s-no?authuser=0" alt="mss-endorsement">
                                             </div>
                                             <div class="col-lg-6 d-flex align-items-center px-5">
                                                 <div class="vn">
@@ -416,7 +426,8 @@ if ($_SESSION["lang"] == "eng") {
                                     <div class="carousel-item">
                                         <div class="row">
                                             <div class="col-lg-6">
-                                                <img src="./assets/imgs/endorsement/mooters-10.png" alt="mss-endorsement">
+                                                <!--<img loading="lazy" src="./assets/imgs/endorsement/mooters-10.png" alt="mss-endorsement">-->
+                                                <img src="https://lh3.googleusercontent.com/pw/AP1GczPCbVDVFtH4f2AK-n7ePaO0StPbKG_k3EBaytZivrbUVgtiLdhn1ghh4kSn1L0w4FY3fSj2f0aplkOI14UOSwpjxiv3tPtu-nJsqok0HYkvz-faBZmOjD63SgFqdW73jvTxg34eN1nEdUPsut1zEkvE=w800-h494-s-no?authuser=0" alt="mss-endorsement">
                                             </div>
                                             <div class="col-lg-6 d-flex align-items-center px-5">
                                                 <div class="vn">
@@ -493,7 +504,8 @@ if ($_SESSION["lang"] == "eng") {
                                     <div class="carousel-item active">
                                         <div class="row">
                                             <div class="col-lg-6">
-                                                <img src="./assets/imgs/endorsement/judges-1.png" alt="mss-endorsement">
+                                                <!--<img loading="lazy" src="./assets/imgs/endorsement/judges-1.png" alt="mss-endorsement">-->
+                                                <img src="https://lh3.googleusercontent.com/pw/AP1GczNdrqx0ilTCl5vyZ9mKkq1OrR-QdtV_WouAKwPLOpeLuXbNl8hBzi6PBNSeVH1sTgBY7H1ARkKp6_E21batdu8sctHbbNLxCx8KEng4SQ4ICxwgmINnR1zQ9-sCr8hyceNFUpAqBJ-I21FNddX5laxD=w800-h494-s-no?authuser=0" alt="mss-endorsement">
                                             </div>
                                             <div class="col-lg-6 d-flex align-items-center px-5">
                                                 <div class="">
@@ -532,7 +544,8 @@ if ($_SESSION["lang"] == "eng") {
                                     <div class="carousel-item">
                                         <div class="row">
                                             <div class="col-lg-6">
-                                                <img src="./assets/imgs/endorsement/judges-2.png" alt="mss-endorsement">
+                                                <!--<img src="./assets/imgs/endorsement/judges-2.png" alt="mss-endorsement">-->
+                                                <img src="https://lh3.googleusercontent.com/pw/AP1GczM6aO8qobx6uuAWfHHB2HHH13b9ToYJQQ7zStfQ_F7q86bB1FV-R_3eo_2gyU242KhWQbupnbpIAr1dV3iBzPlWE6xMrQqAzGs7pipESlImYpNGHvczOwFufNYAm1TbF7MMKMWEHf4-zM_37vIDXeTd=w800-h494-s-no?authuser=0" alt="mss-endorsement">
                                             </div>
                                             <div class="col-lg-6 d-flex align-items-center px-5">
                                                 <div class="vn">
@@ -577,7 +590,8 @@ if ($_SESSION["lang"] == "eng") {
                                     <div class="carousel-item">
                                         <div class="row">
                                             <div class="col-lg-6">
-                                                <img src="./assets/imgs/endorsement/judges-3.png" alt="mss-endorsement">
+                                                <!--<img loading="lazy" src="./assets/imgs/endorsement/judges-3.png" alt="mss-endorsement">-->
+                                                <img src="https://lh3.googleusercontent.com/pw/AP1GczNPbCqJqFTavOlGCwvKeLdSTMec1PNKJANfD5TFv4KQmEwBMtD6SQlSLLgVGahsPzCVfC72fqY-FRQe7jEN9ml14f69xTtap6GlYrSP34Okg_ebOdJYEyqGJigtKpNNJ6wPd4P11ZBA2aLUpJ7V-bRz=w800-h494-s-no?authuser=0" alt="mss-endorsement">
                                             </div>
                                             <div class="col-lg-6 d-flex align-items-center px-5">
                                                 <div class="vn">
@@ -640,7 +654,8 @@ if ($_SESSION["lang"] == "eng") {
 
                                         <div class="row">
                                             <div class="col-lg-6">
-                                                <img src="./assets/imgs/endorsement/fellows.png" alt="mss-endorsement">
+                                                <!--<img src="./assets/imgs/endorsement/fellows.png" alt="mss-endorsement">-->
+                                                <img src="https://lh3.googleusercontent.com/pw/AP1GczMQXF8exMhIBhtnY004D1J35k5NEmjFtEA1dZ5BtGd6StbZR6c11JNexitsealalXetYNsVVAcPUUGmsbp_JCfU-RWM1Oatz2w3Sy2v9Q9oGpHko579VinUCyCvdC9mT82C3IPcJuxkxHaL-aiqPTAA=w800-h494-s-no?authuser=0" alt="mss-endorsement">
                                             </div>
                                             <div class="col-lg-6 d-flex align-items-center px-5">
                                                 <div class="vn">

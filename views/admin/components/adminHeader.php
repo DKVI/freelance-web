@@ -11,6 +11,7 @@
             <a class="text-white text-decoration-none" href="<?php echo BASE_URL . '/admin/messages' ?>" style="cursor: pointer; line-height: 30px">Messages</a>
             <a class="text-white text-decoration-none" href="<?php echo BASE_URL . '/admin/hashtag' ?>" style="cursor: pointer; line-height: 30px">Hashtag</a>
             <a class="text-white text-decoration-none" href="<?php echo BASE_URL . '/admin/link' ?>" style="cursor: pointer; line-height: 30px">Link</a>
+            <a class="text-white text-decoration-none" href="<?php echo BASE_URL . '/admin/template-email' ?>" style="cursor: pointer; line-height: 30px">Email</a>
         </div>
         <div class=" w-1/3 d-flex justify-content-end " style="width: 30%;">
             <div class="px-4 dropdown show">
