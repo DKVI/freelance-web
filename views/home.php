@@ -21,7 +21,8 @@ $form = Link::getByName($conn, "form");
             <p>Ai đó đã nói rằng khi tham gia Mooting, ta thấy mình như lao vào vũ trụ. Ở đó, ta sẽ không biết bản thân
                 có thể đi xa được đến đâu, và giá trị nhận được nhiều đến mức nào. Nhưng trước hết, chỉ cần từ những
                 bước chân đâu tiên, ta có thể chắc chắn rằng, hành trình này sẽ không phải là một điều đơn giản. </p>
-            <p>Bởi vậy, nếu xem mỗi cuộc thi moot là một vì sao khác nhau trong vũ trụ,<strong style="font-size: 1.3rem"><em> Non est ad astra mollis e terris
+            <p>Bởi vậy, nếu xem mỗi cuộc thi moot là một vì sao khác nhau trong vũ trụ,<strong
+                    style="font-size: 1.3rem"><em> Non est ad astra mollis e terris
                         via</em></strong> (tạm dịch: <em>Chẳng có con đường nào dễ dàng để vươn tới những vì sao</em>)
                 chính là triết lý của Mooting
                 Summer School. Với chúng tôi, không ai khác ngoài chính bạn sẽ phải tự lựa chọn “ngôi sao may mắn” và
@@ -38,12 +39,18 @@ $form = Link::getByName($conn, "form");
                     qua ở đầy đủ các vai trò từ thí sinh, huấn luyện viên, diễn giả và giám khảo cả trong và ngoài nước.
                 </p>
                 <p>MSS sẽ được tổ chức vào mỗi mùa hè và hoạt động không vì mục tiêu lợi nhuận.</p>
-                <p style="font-size: 1.3rem; font-weight: bold"><a href="<?php echo BASE_URL ?>/about" ?>Xem thêm chi tiết về MSS >></a><br>
-                <span style="font-size: 1.3rem; font-weight: bold"><a href="<?php echo $form->link ?>"><?php echo $form->titleVn ?> >></a></span></p>
+                <p style="font-size: 1.3rem; font-weight: bold"><a href="<?php echo BASE_URL ?>/about" ?>Xem thêm chi
+                        tiết về MSS >></a><br>
+                    <span style="font-size: 1.3rem; font-weight: bold"><a
+                            href="<?php echo $form->link ?>"><?php echo $form->titleVn ?> >></a></span>
+                </p>
 
             </div>
             <div class="col-lg-6 mt-4">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/-pHfPJGatgE?si=KlPHj-aaR5W99vtc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="w-100"></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/n8Ve2IiAeH8?si=72Pe0FE3S9OK0tHu"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -55,7 +62,8 @@ $form = Link::getByName($conn, "form");
                 how far we can go or what kind of value we can gain from the experience. But first and foremost, just
                 from the very first steps, we can be sure that this journey will not be an easy one. </p>
             <p>
-                Therefore, if we see each moot competition as a different star in the universe,<strong style="font-size: 1.3rem"><em> Non est ad astra mollis
+                Therefore, if we see each moot competition as a different star in the universe,<strong
+                    style="font-size: 1.3rem"><em> Non est ad astra mollis
                         e terris
                         via</em></strong> (translated: <em>There is no easy from the earth to the stars</em>) is the
                 philosophy of Mooting Summer School. For us, no one but you will have to choose your own "lucky star"
@@ -73,11 +81,17 @@ $form = Link::getByName($conn, "form");
                     half a decade, serving as a mooter, coach, speaker, and judge, both domestically and
                     internationally. </p>
                 <p>MSS will be held annually every summer and operates on a not-for-profit basis.</p>
-                <p style="font-size: 1.3rem; font-weight: bold"><a href="<?php echo BASE_URL ?>/about" ?>See more details about MSS >></a><br>
-                <span style="font-size: 1.3rem; font-weight: bold"><a href="<?php echo $form->link ?>"><?php echo $form->titleEng ?> >></a></span></p>
+                <p style="font-size: 1.3rem; font-weight: bold"><a href="<?php echo BASE_URL ?>/about" ?>See more
+                        details about MSS >></a><br>
+                    <span style="font-size: 1.3rem; font-weight: bold"><a
+                            href="<?php echo $form->link ?>"><?php echo $form->titleEng ?> >></a></span>
+                </p>
             </div>
             <div class="col-lg-6 mt-4 mb-5">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/-pHfPJGatgE?si=KlPHj-aaR5W99vtc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="w-100"></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/K2KC1TM8gwM?si=7wZ-BMwgJvNm2_ro"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
 
         </div>
