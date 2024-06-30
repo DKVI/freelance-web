@@ -177,7 +177,7 @@ if ($_SESSION["lang"] == "eng") {
                         "king of birds" and the lion is the "king of beasts", the Griffin symbolizes strength and wisdom
                         in many
                         ancient cultures such as Persia, Greece, Egypt, India, and so on.</p>
-                    <p>MSS chose the Griffin as its emblem for the project because both halves of it are closely
+                    <p>MSS choose the Griffin as its emblem for the project because both halves of it are closely
                         connected to
                         MSS. With the eagle half, it evokes a part of the name of the founder's first moot team.
                         Meanwhile, the
@@ -261,7 +261,7 @@ if ($_SESSION["lang"] == "eng") {
                 <h1 class="vn">Đội ngũ</h1>
                 <h1 class="eng">Our team</h1>
             </div>
-            <div class="row text-center">
+            <div class="row text-center px-5">
                 <div class="col-lg-4 col-md-12 col-sm-12 pt-5">
                     <div class="flip-card w-100">
                         <div class="flip-card-inner">
@@ -271,11 +271,11 @@ if ($_SESSION["lang"] == "eng") {
                                 </div>
                                 <div class="vn">
                                     <h4 class="my-3">Nguyễn Sơn Hoàng</h4>
-                                    <p class="text-muted">Nhà sáng lập / Người hướng dẫn</p>
+                                    <p>Nhà sáng lập / Người hướng dẫn</p>
                                 </div>
                                 <div class="eng">
-                                    <h4 class="my-3">Nguyen Son Hoang</h4>
-                                    <p class="text-muted">Founder/Instructor</p>
+                                    <h4 class="my-3">Nguyễn Sơn Hoàng</h4>
+                                    <p>Founder/Instructor</p>
                                 </div>
 
                             </div>
@@ -291,8 +291,8 @@ if ($_SESSION["lang"] == "eng") {
                                         của nền mooting Việt Nam.</p>
                                 </div>
                                 <div class="eng">
-                                    <h3>Nguyen Son Hoang</h3>
-                                    <p class="text-start">Son Hoang, currently working at Lexcomm Vietnam LLC, has been
+                                    <h3>Nguyễn Sơn Hoàng</h3>
+                                    <p class="text-start">Sơn Hoàng, currently working at Lexcomm Vietnam LLC, has been
                                         actively involved in the mooting scene for the past decade. He has participated
                                         in national moots, coached over a dozen award-winning teams, and served as a
                                         judge in national, regional, and international moot competitions. Mooting Summer
@@ -316,11 +316,11 @@ if ($_SESSION["lang"] == "eng") {
                                 </div>
                                 <div class="vn">
                                     <h4 class="my-3">Hà Ngọc Thảo Nhi</h4>
-                                    <p class="text-muted">Trưởng Ban Vận hành</p>
+                                    <p>Quản lý dự án</p>
                                 </div>
                                 <div class="eng">
-                                    <h4 class="my-3">Ha Ngoc Thao Nhi</h4>
-                                    <p class="text-muted">Operations Assistant</p>
+                                    <h4 class="my-3">Hà Ngọc Thảo Nhi</h4>
+                                    <p>Project manager</p>
                                 </div>
                             </div>
                             <div class="flip-card-back custom-scrollbar p-3">
@@ -336,7 +336,7 @@ if ($_SESSION["lang"] == "eng") {
                                         vụ hỗ trợ Nhà sáng lập quản lý và điều hành chung dự án MSS.</p>
                                 </div>
                                 <div class="eng">
-                                    <h3>Ha Ngoc Thao Nhi</h3>
+                                    <h3>Hà Ngọc Thảo Nhi</h3>
                                     <p class="text-start">Graduated with the Bachelor of Laws from University of
                                         Economics Ho Chi Minh City, Thảo Nhi currently works at Vision & Associates. She
                                         is a former mooter who has competed in the FDI Moot 2020 and FDI 2021 under the
@@ -362,11 +362,11 @@ if ($_SESSION["lang"] == "eng") {
                                 </div>
                                 <div class="eng">
                                     <h4 class="my-3">Lia Nguyen</h4>
-                                    <p class="text-muted">Lead Art Designer</p>
+                                    <p>Lead Art Designer</p>
                                 </div>
                                 <div class="vn">
                                     <h4 class="my-3">Lia Nguyen</h4>
-                                    <p class="text-muted">Thiết kế hình ảnh</p>
+                                    <p>Thiết kế hình ảnh</p>
                                 </div>
                             </div>
                             <div class="flip-card-back custom-scrollbar p-3">

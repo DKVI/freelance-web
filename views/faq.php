@@ -860,7 +860,7 @@ if ($_SESSION["lang"] == "eng") {
                                 nhân. Mình có thể được hoàn lại học phí hay không?
                             </div>
                             <div class="faq-label-text eng">
-                                I paid the full tuition fee, but before the starting date, I couldn't attend due to
+                                I paid the full tuition fees, but before the starting date, I couldn't attend due to
                                 personal reasons. Can I get a refund?
                             </div>
                             <div class="faq-label-icon">
@@ -891,7 +891,7 @@ if ($_SESSION["lang"] == "eng") {
                                 Mình có được hoàn lại chênh lệch giữa hai gói này không?
                             </div>
                             <div class="faq-label-text eng">
-                                I paid full tuition for the Advantaged package, but I want to switch to the Essentials
+                                I paid full tuition fees for the Advantaged package, but I want to switch to the Essentials
                                 package. Can I get a refund for the difference between the two packages?
                             </div>
                             <div class="faq-label-icon">
@@ -905,7 +905,7 @@ if ($_SESSION["lang"] == "eng") {
                                     MSS khuyến nghị học viên nên tìm hiểu kỹ về thông tin chi tiết của chương trình học
                                     trước
                                     khi thanh toán.</div>
-                                <div class="eng">MSS does not offer tuition conversion between Essentials and Advantaged
+                                <div class="eng">MSS does not offer tuition fees conversion between Essentials and Advantaged
                                     packages, so students must carefully review the detailed information about the
                                     course
                                     before registering.</div>
@@ -924,7 +924,7 @@ if ($_SESSION["lang"] == "eng") {
                                 mình chưa tham hay không?
                             </div>
                             <div class="faq-label-text eng">
-                                I paid the full tuition fee for the course, but I want to stop attending in the middle
+                                I paid the full tuition fees for the course, but I want to stop attending in the middle
                                 of the course due to personal reasons. Is it possible to get a refund for the tuition
                                 fees paid or a percentage of the fees for the remaining sessions that I have not
                                 attended?
