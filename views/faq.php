@@ -8,7 +8,7 @@ if ($_SESSION["lang"] == "eng") {
 
 <main id="faq-page">
     <section id="about-the-program" class="section-active" style="margin-top: 10rem;">
-        <div class="title text-light d-flex justify-content-start align-items-end" style="background-image: url(./assets/imgs/faq-1.png); min-height: 16rem; background-position: right bottom; background-size: cover">
+        <div class="title text-light d-flex justify-content-start align-items-end" style="background-image: url(https://lh3.googleusercontent.com/pw/AP1GczP7sXv66Emi1zKrtNUktDcy19J-97IgY3AGuWkBjo_XblwXq1fs3W0kfN948jxKb1L3SCH3SUUNg2-VKJGqpckI569dTySd4yyMmm9TtimGfe5F9FzbdTK_TMI1wI6zAdLD7KDeKIrEuB2iAw1l9YCY=w941-h256-s-no?authuser=0); min-height: 16rem; background-position: right bottom; background-size: cover">
             <div class="container px-5">
                 <h1 style="text-shadow: 4px 4px 8px rgba(0,0,0,0.6);">FAQ</h1>
             </div>
@@ -416,7 +416,7 @@ if ($_SESSION["lang"] == "eng") {
         </div>
     </section>
     <section id="about-class-rules" class="background-full" style="background-image: url(./assets/imgs/curriculum-13.png)">
-        <img src="./assets/imgs/faq-2.png" alt="mss-team" class="w-100">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczMgcbMmadZv33inWQZ8lN3ae-3mwAC1E-f4FKhQtw3lRJ17dCDJOCkHKPq56pgLNKS44adFbsuOOle_EzAJ2hei5mJO8-7ALCud3Q0VaDV0hBGvskJ1YeZ75ntYJaPloxVnR9Y0zsalWIShUYJtRgRw=w2517-h831-s-no?authuser=0" alt="mss-team" class="w-100">
         <div class="title container mt-4 text-light px-5">
             <h1 class="vn">Về nội quy trong lớp</h1>
             <h1 class="eng">Class rules</h1>
@@ -665,7 +665,7 @@ if ($_SESSION["lang"] == "eng") {
             </div>
         </div>
     </section>
-    <section id="about-the-package" class="background-full d-flex justify-content-center align-items-end" style="background-image: url(./assets/imgs/faq-3.png); padding: 8rem 0">
+    <section id="about-the-package" class="background-full d-flex justify-content-center align-items-end" style="background-image: url(https://lh3.googleusercontent.com/pw/AP1GczMz9LQvX011Vn4FioM_RFDhKPO68FNHQ2i-Rcuq--Z6eO1l41JaJ1kslGKfbCKKlNZebX0vw3dWowuzwTAEdLDVcdoe5CvQZ2xQu2SqaZuqmpUlWUFNgTvIQvRmYU-0HUrLjEaoQTlp3ltP1DdpSuD3=w2128-h1418-s-no?authuser=0); padding: 8rem 0">
         <div class="container px-5 ">
 
             <div class="title">
@@ -777,7 +777,7 @@ if ($_SESSION["lang"] == "eng") {
 
         </div>
     </section>
-    <section id="about-tuition-fees" class="backgroud-full background-full d-flex justify-content-center align-items-end" style="background-image: url(./assets/imgs/faq-4.png); padding-bottom: 60px">
+    <section id="about-tuition-fees" class="backgroud-full background-full d-flex justify-content-center align-items-end" style="background-image: url(https://lh3.googleusercontent.com/pw/AP1GczNZ6PvaZ5_4ZDZsa_Hp6Vhv6VrJAdoBdcK5-wg-aPXszYjIUsdxvcO0r1oMzZzz45rvmUWv68iNkg9G46-C6GDqQt8HejvrYgrMe2SB2pvzXevsx-N3qw0KLnIcGFPIX3j7LJt_q-msLYD_PIEsjsGV=w2330-h1418-s-no?authuser=0); padding-bottom: 60px">
         <p class="relative-anchor" style="height:100px"><span id="about-anchor"></span></p>
         <div class="container px-5">
 

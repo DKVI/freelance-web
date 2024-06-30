@@ -81,8 +81,8 @@ if ($_SESSION["lang"] == "eng") {
 
                         <div class="modal-content">
                             <div class="modal-body">
-                                <img src="./assets/imgs/profilev-Eng.png" alt="" class="w-100 h-100 eng">
-                                <img src="./assets/imgs/profilev-Vie.png" alt="" class="w-100 h-100 vn">
+                                <img src="https://lh3.googleusercontent.com/pw/AP1GczN6E5zByxuAfBD68_uSV2AAL-4XlRhrYI0hQzui7kzZSDs766vZMeWiFbaAnAW-SQT7d8xRm8MgieH7DEn8mhjh9vynXujhFlYKI_B84YOxkKwi-5NjXtArlZQHTOiYMUdHM2N1W71I-Zp5RdBruWm-=w1002-h1418-s-no?authuser=0" alt="founder-s-profile" class="w-100 h-100 eng">
+                                <img src="https://lh3.googleusercontent.com/pw/AP1GczMVgdHGOToTX5pTr8BMCLGnWI-tKaV09Ou92YGBytEINBK2hOTm9Zo_FCpijEoFaVjXBIDQb02sPerGps7j2De_d4yDYXPk0MNrvVteymCGy5WNSJVPhUahhLiSs-lflQ7sofrD67JOPsKFTwN0cJUx=w1002-h1418-s-no?authuser=0" alt="founder-s-profile" class="w-100 h-100 vn">
                             </div>
 
                             <div class="modal-footer">

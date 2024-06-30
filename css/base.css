@@ -995,7 +995,8 @@ footer {
 #preloader:after {
   content: "";
   /* background-color: #274069; */
-  background-image: url(../assets/imgs/preloader.png);
+  /*background-image: url(../assets/imgs/preloader.png);*/
+  background-image: url(https://lh3.googleusercontent.com/pw/AP1GczNEa8JmPC02txVPFIdOblhbyVuwZKe76-XRGaIp11DIEwcPIRhWTYmAoIoAVf_9Z6d3bncamXCVEeLbn-fGU5lRAiPbrx9dDxLhOF0ag4kAziupUDkLtuw05VEyoN3c_E4h09hsxQbihwUnunoCLGvo=w2516-h1418-s-no?authuser=0);
   background-size: 200%;
   position: absolute;
   inset: 0;
@@ -1123,7 +1124,7 @@ footer {
   }
   #preloader:before,
   #preloader:after {
-    background-image: url(../assets/imgs/preloader1.png);
+    background-image: url(https://lh3.googleusercontent.com/pw/AP1GczOLsifldjYxMuQ8ktk8iSc4FeD_T_xrEmFBSw2P-7ZgnebTRLUZQWjOosxplLOpZiM8A6CGslSUHrIP1dgJlHsBu-wU6D0SPMc9twNv5HM1wtbQCgWW2A-o8ES75n6V4Q44r8SwNaYuiEZB7jHROGj8=w654-h1418-s-no?authuser=0);
   }
   .title h1 {
     font-size: 4rem !important;
@@ -1224,10 +1225,6 @@ footer {
   .label {
     width: 100% !important;
   }
-  /*.modal-bg-griffin {*/
-  /*  background-image: url(../assets/imgs/endorsement-mobile-bg.png);*/
-  /*  background-size: cover;*/
-  /*}*/
   .modal-img-none {
     display: none;
   }
