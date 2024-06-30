@@ -46,9 +46,9 @@ if ($_SESSION["lang"] == "eng") {
                                             </div>
                                             <div class="col-lg-6 d-flex align-items-center px-5">
                                                 <div class="vn">
-                                                    <p><strong>Đại diện Học viện Ngoại giao tại FDI Moot 2023</strong>
+                                                    <p><strong>Đại diện Học viện Ngoại giao - FDI Moot 2023</strong>
                                                     </p>
-                                                    <p class="achievement">Giải nhất FDI Moot 2023 – Vòng loại Việt Nam;
+                                                    <p class="achievement">Giải nhất - FDI Moot 2023 – Vòng loại Việt Nam;
                                                         Top 16 – FDI Moot – Vòng Quốc tế</p>
                                                     <p class="content-review">Mặc dù chỉ mới làm việc với anh Hoàng
                                                         trong một thời gian ngắn, chúng mình đã cảm thấy anh là một
@@ -62,9 +62,9 @@ if ($_SESSION["lang"] == "eng") {
                                                 </div>
                                                 <div class="eng">
                                                     <p><strong>Team representing Diplomatic Academy Representative Team
-                                                            at FDI Moot 2023</strong></p>
-                                                    <p class="achievement">First Place of FDI Moot 2023 – Vietnam
-                                                        National Rounds; Top 16 – FDI Moot –Globals Round</p>
+                                                            - FDI Moot 2023</strong></p>
+                                                    <p class="achievement">First Place - FDI Moot 2023 – Vietnam
+                                                        National Rounds; Top 16 – FDI Moot 2023 Globals Round</p>
                                                     <p class="content-review">During our brief interaction with Mr. Son
                                                         Hoang, we found him to be a dedicated, experienced and very
                                                         open-minded individual. He is, in short, a skilled advocate, a
@@ -85,7 +85,7 @@ if ($_SESSION["lang"] == "eng") {
                                             </div>
                                             <div class="col-lg-6 d-flex align-items-center px-5">
                                                 <div class="vn">
-                                                    <p><strong>Đội thi Đại diện Đại học Luật Thành phố Hồ Chí Minh tại
+                                                    <p><strong>Đội thi Đại diện Đại học Luật Thành phố Hồ Chí Minh -
                                                             IHL Moot 2022, FDI Moot 2023
                                                         </strong></p>
                                                     <p class="achievement">Giải Nhì IHL Moot 2022 – Vòng loại Việt Nam;
@@ -104,10 +104,10 @@ if ($_SESSION["lang"] == "eng") {
                                                     <p>Peace</p>
                                                 </div>
                                                 <div class="eng">
-                                                    <p><strong>Team representing Ho Chi Minh City University of Law at
+                                                    <p><strong>Team representing Ho Chi Minh City University of Law -
                                                             IHL Moot 2022, FDI Moot 2023</strong></p>
-                                                    <p class="achievement">Second Place of IHL Moot 2022 – Vietnam
-                                                        National Rounds; Third Place – FDI Moot 2023 – Vietnam National
+                                                    <p class="achievement">Second place - IHL Moot 2022 – Vietnam
+                                                        National Rounds; Third place – FDI Moot 2023 – Vietnam National
                                                         Rounds</p>
                                                     <p class="content-review">Mr. Son Hoang is also an assiduous mentor
                                                         to his mentees. He was always willing to practice with us until
@@ -152,7 +152,7 @@ if ($_SESSION["lang"] == "eng") {
                                                 </div>
                                                 <div class="eng">
                                                     <p><strong>GIMMEPRAI Team – Vietnam CISG Pre-Moot 2023</strong></p>
-                                                    <p class="achievement"> Second Prize - Vietnam CISG Pre-Moot 2023
+                                                    <p class="achievement"> Second place - Vietnam CISG Pre-Moot 2023
                                                     </p>
                                                     <p class="content-review">First, his emphasis on structuring our
                                                         arguments effectively has helped us outline our position and
@@ -194,7 +194,7 @@ if ($_SESSION["lang"] == "eng") {
                                                 <div class="eng">
                                                     <p><strong>Team 1900 – Vietnam CISG Pre-Moot 2022
                                                         </strong></p>
-                                                    <p class="achievement">Second Prize - Vietnam CISG Pre-Moot 2022</p>
+                                                    <p class="achievement">Second place - Vietnam CISG Pre-Moot 2022</p>
                                                     <p class="content-review">Senpai Hoang is genuinely an exceptional
                                                         individual and one of the few experts in mooting activity in
                                                         Vietnam. His intensive and well-rounded insights on global
@@ -217,7 +217,7 @@ if ($_SESSION["lang"] == "eng") {
                                             </div>
                                             <div class="col-lg-6 d-flex align-items-center px-5">
                                                 <div class="vn">
-                                                    <p><strong>Đội thi đại diện Đại học UEH tại FDI Moot – Vòng loại
+                                                    <p><strong>Đội thi đại diện Đại học UEH - FDI Moot – Vòng loại
                                                             Việt Nam 2020 & 2021</strong></p>
                                                     <p class="achievement">Lần lượt xếp hạng nhất và nhì hạng mục cá
                                                         nhân biện hộ xuất sắc nhất toàn vòng</p>
@@ -231,7 +231,7 @@ if ($_SESSION["lang"] == "eng") {
                                                         độc lập và thi đấu hiệu quả hơn trong năm 2021.</p>
                                                 </div>
                                                 <div class="eng">
-                                                    <p><strong>Team representing UEH University at FDI Moot – Vietnam
+                                                    <p><strong>Team representing UEH University - FDI Moot – Vietnam
                                                             National Rounds 2020 & 2021</strong></p>
                                                     <p class="achievement">Best All-round Advocate and Runner-up of
                                                         All-round Advocate of the FDI Moot 2020 - Vietnam National
@@ -255,8 +255,7 @@ if ($_SESSION["lang"] == "eng") {
                                             </div>
                                             <div class="col-lg-6 d-flex align-items-center px-5">
                                                 <div class="vn">
-                                                    <p><strong>Ngô Diệu Linh <br>
-                                                            Đội thi đại diện Đại học Luật Hà Nội tại FDI Moot 2021 -
+                                                    <p><strong>Đội thi đại diện Đại học Luật Hà Nội - FDI Moot 2021 -
                                                             Vòng loại Việt Nam</strong></p>
                                                     <p class="achievement">Top 8 – FDI Moot 2021 – Vòng loại Việt Nam
                                                     </p>
@@ -273,8 +272,7 @@ if ($_SESSION["lang"] == "eng") {
                                                         trong cả phần hành văn và trình bày lập luận.</p>
                                                 </div>
                                                 <div class="eng">
-                                                    <p><strong>Ngo Dieu Linh <br>
-                                                            Team representing Hanoi Law University at FDI Moot 2021 -
+                                                    <p><strong>Team representing Hanoi Law University - FDI Moot 2021 -
                                                             Vietnam Qualifier</strong></p>
                                                     <p class="achievement">Top 8 – FDI Moot 2021 – Vietnam National
                                                         Rounds</p>
@@ -318,7 +316,7 @@ if ($_SESSION["lang"] == "eng") {
                                                 <div class="eng">
                                                     <p><strong>Team Hawkeyes – Vietnam CISG Pre-Moot 2020 &
                                                             2021</strong></p>
-                                                    <p class="achievement">Second Place - Vietnam CISG Pre-Moot 2020 &
+                                                    <p class="achievement">Second place - Vietnam CISG Pre-Moot 2020 &
                                                         2021</p>
                                                     <p class="content-review">Having been through both national and
                                                         international mooting competitions for almost 02 years, we could
@@ -340,9 +338,9 @@ if ($_SESSION["lang"] == "eng") {
                                             </div>
                                             <div class="col-lg-6 d-flex align-items-center px-5">
                                                 <div class="vn">
-                                                    <p><strong>Đội thi đại diện Đại học Ngoại thương tại VMoot
+                                                    <p><strong>Đội thi đại diện Đại học Ngoại thương - VMoot
                                                             2020</strong></p>
-                                                    <p class="achievement">Top 12 VMoot 2019, Bài biện hộ xuất sắc nhất
+                                                    <p class="achievement">Top 12 - VMoot 2019, Bài biện hộ xuất sắc nhất
                                                         dành cho Nguyên đơn</p>
                                                     <p class="content-review">Anh chỉ chúng mình chi tiết cách tạo ra
                                                         một bài biện hộ thuyết phục, hướng dẫn nhóm về kỹ năng tranh
@@ -356,9 +354,9 @@ if ($_SESSION["lang"] == "eng") {
                                                         tương lai khác.</p>
                                                 </div>
                                                 <div class="eng">
-                                                    <p><strong>Foreign Trade University representative team at VMoot
+                                                    <p><strong>Team representing Foreign Trade University - VMoot
                                                             2020</strong></p>
-                                                    <p class="achievement"> Top 12 VMoot 2020, best Memorial for the
+                                                    <p class="achievement"> Top 12 - VMoot 2020, best Memorial for the
                                                         Claimant</p>
                                                     <p class="content-review">We were fortunate to have Mr.Hoanng
                                                         guidance and learn many practical mooting skills from him. He
@@ -381,9 +379,9 @@ if ($_SESSION["lang"] == "eng") {
                                             </div>
                                             <div class="col-lg-6 d-flex align-items-center px-5">
                                                 <div class="vn">
-                                                    <p><strong>Đội thi đại diện Đại học Ngoại thương tại VMoot
+                                                    <p><strong>Đội thi đại diện Đại học Ngoại thương - VMoot
                                                             2019</strong></p>
-                                                    <p class="achievement">Top 12 VMoot 2019</p>
+                                                    <p class="achievement">Top 12 - VMoot 2019</p>
                                                     <p class="content-review">Anh Hoàng có lẽ là người nhiệt huyết plus
                                                         nhiệt tình nhất mà mình từng gặp luôn ấy. Mình nhớ hồi đó team
                                                         mình chuẩn bị thi Vmoot và đã cầu cứu anh mentor cho tụi mình
@@ -396,9 +394,9 @@ if ($_SESSION["lang"] == "eng") {
                                                         chất luật sư trong phim đó mn.</p>
                                                 </div>
                                                 <div class="eng">
-                                                    <p><strong>Foreign Trade University representative team at VMoot
-                                                            2020</strong></p>
-                                                    <p class="achievement">Top 12 VMoot 2019</p>
+                                                    <p><strong>Team representing Foreign Trade University - VMoot
+                                                            2019</strong></p>
+                                                    <p class="achievement">Top 12 - VMoot 2019</p>
                                                     <p class="content-review">Mr. Hoang is definitely the most
                                                         passionate and enthusiastic person I've ever met. When our team
                                                         was prepping for VMoot, we reached out to him for help, even
@@ -420,9 +418,9 @@ if ($_SESSION["lang"] == "eng") {
                                             </div>
                                             <div class="col-lg-6 d-flex align-items-center px-5">
                                                 <div class="vn">
-                                                    <p><strong>Đội thi đại diện Đại học Luật Hà Nội tại VMoot
+                                                    <p><strong>Đội thi đại diện Đại học Luật Hà Nội - VMoot
                                                             2019</strong></p>
-                                                    <p class="achievement">Top 12 VMoot 2019</p>
+                                                    <p class="achievement">Top 12 - VMoot 2019</p>
                                                     <p class="content-review">Cho dù cho đây là lần đầu Phenomenon tham
                                                         gia cuộc thi Moot, sự hướng dẫn và chuyên môn của anh Hoàng đã
                                                         cải thiện rất nhiều kỹ năng tranh luận và sự tin của chúng mình
@@ -438,9 +436,9 @@ if ($_SESSION["lang"] == "eng") {
                                                         2019 đã để lại một dấu ấn không thể phai mờ.</p>
                                                 </div>
                                                 <div class="eng">
-                                                    <p><strong>Team representing Hanoi Law University at VMoot
+                                                    <p><strong>Team representing Hanoi Law University - VMoot
                                                             2019</strong></p>
-                                                    <p class="achievement">Top 12 VMoot 2019</p>
+                                                    <p class="achievement">Top 12 - VMoot 2019</p>
                                                     <p class="content-review">Throughout our participation, we have
                                                         received significant support and assistance from mentor Nguyen
                                                         Son Hoang. Mr. Son Hoang has been an invaluable mooting mentor
@@ -582,7 +580,7 @@ if ($_SESSION["lang"] == "eng") {
                                             <div class="col-lg-6 d-flex align-items-center px-5">
                                                 <div class="vn">
                                                     <p><strong>Huỳnh Lê Mỹ Tâm, David Chau</strong></p>
-                                                    <p class="achievement">Trưởng ban Tổ chức SMoot 2020, 2021</p>
+                                                    <p class="achievement">Trưởng ban Tổ chức<br> SMoot - 2020, 2021</p>
                                                     <p class="content-review">Với vai trò là một trong những giám khảo
                                                         chính tại cuộc thi Saigon Moot Court, anh Sơn Hoàng là người có
                                                         tiếng nói quyền lực trong phòng xử án. Với cách đặt câu hỏi sắc
@@ -595,13 +593,13 @@ if ($_SESSION["lang"] == "eng") {
                                                 <div class="eng">
                                                     <p><strong>Huynh Le My Tam, David Chau
                                                         </strong></p>
-                                                    <p class="achievement">Head of Organizing Committee SMoot 2020, 2021
+                                                    <p class="achievement">Head of Organizing Committee<br> SMoot - 2020, 2021
                                                     </p>
                                                     <p class="content-review">Serving as one of the main judges at the
                                                         Saigon Moot Court Competition, Mr. Son Hoang was a voice of
                                                         authority within the courtroom. With his sharp, yet fair,
-                                                        questioning for both sides of the case—narrowing in on the
-                                                        merits of principles of law—we were always confident that the
+                                                        questioning for both sides of the case-narrowing in on the
+                                                        merits of principles of law-we were always confident that the
                                                         oral arguments in his chambers would be a session worth sitting
                                                         in, whether the preliminary or the final rounds.</p>
                                                 </div>
@@ -650,24 +648,24 @@ if ($_SESSION["lang"] == "eng") {
                                                         FDI Moot 2019 – Vòng loại Việt Nam</p>
                                                     <p class="content-review">Sau khi đã làm việc cùng Hoàng trong 3
                                                         cuộc thi Moot với vai trò đồng đội và cùng hướng dẫn chung đội
-                                                        moot khoảng 3 lần, Hoàng đã để lại ấn tượng rất tốt với mình.
-                                                        Với vai trò mooter, Hoàng tỏa sáng với cá tính mạnh, làm việc
+                                                        moot khoảng 3 lần; Hoàng đã để lại ấn tượng rất tốt với mình.
+                                                        Với vai trò mooter; Hoàng tỏa sáng với cá tính mạnh; làm việc
                                                         độc lập và kỹ năng biện hộ trực tiếp ấn tượng. Với vai trò huấn
-                                                        luận, phong cách của Hoàng có thể gọi là có tầm nhìn, đôi khi
+                                                        luận, phong cách của Hoàng có thể gọi là có tầm nhìn; đôi khi
                                                         thể hiện sự định hướng nghiêm ngặt. Hoàng giỏi trong việc vạch
                                                         ra các mục tiêu rõ ràng cho nhóm và duy trì những kỳ vọng cao.
                                                     </p>
                                                 </div>
                                                 <div class="eng">
                                                     <p><strong>Team Legal Eagles</strong></p>
-                                                    <p class="achievement">Third Place Vietnam CISG Pre-Moot 2019, Top 8
+                                                    <p class="achievement">Third place - Vietnam CISG Pre-Moot 2019; Top 8
                                                         FDI Moot 2019 – Vietnam National Rounds</p>
                                                     <p class="content-review">After participating in three moot
                                                         competitions with Hoang as my teammate and coaching the same
-                                                        moot team about three times, Hoang has left a great impression
-                                                        on me. As a mooter, Hoang shines with a strong personality,
+                                                        moot team about three times; Hoang has left a great impression
+                                                        on me. As a mooter; Hoang shines with a strong personality;
                                                         works independently, and exhibits impressive oral skills. As a
-                                                        coach, Hoang's style can be described as visionary, sometimes
+                                                        coach; Hoang's style can be described as visionary; sometimes
                                                         coming off as authoritative. He is great at outlining clear
                                                         goals for the team and maintaining high expectations.</p>
                                                 </div>
