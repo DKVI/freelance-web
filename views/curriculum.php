@@ -934,7 +934,7 @@ if ($_SESSION["lang"] == "eng") {
                                         </div>
                                         <div class="container position-relative" style="min-height: 80vh;">
                                             <div class="col-lg-8 offset-lg-4 .white-filter">
-                                                <div class="title">
+                                                <div class="title text-light-mobile">
                                                     <h2 class="display-1 vn">Kỹ năng trước cuộc thi</h2>
                                                     <h2 class="display-1 eng">Pre-competition skills
                                                     </h2>
@@ -1031,7 +1031,7 @@ if ($_SESSION["lang"] == "eng") {
                                                     class="w-100">
                                             </div>
                                             <div class="col-lg-8 position-relative">
-                                                <div class="title">
+                                                <div class="title text-light-mobile">
                                                     <h2 class="display-2 vn">Những việc cần làm khi đã có đề bài</h2>
                                                     <h2 class="display-2 eng">During the initial
                                                         phase skills</h2>

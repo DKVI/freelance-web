@@ -1225,8 +1225,9 @@ footer {
     width: 100% !important;
   }
   .modal-bg-griffin {
-    background-image: url(../assets/imgs/endorsement-mobile-bg.png);
+    background-image: url(../assets/imgs/welcome-page_01.png);
     background-size: cover;
+    background-position: center;
   }
   .modal-img-none {
     display: none;
@@ -1243,5 +1244,8 @@ footer {
   }
   #endorsement .title h1 {
     font-size: 4rem !important;
+  }
+  .text-light-mobile {
+    color: #e5e5e5 !important;
   }
 }
